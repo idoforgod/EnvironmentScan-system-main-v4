@@ -1,0 +1,1120 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf3-naver",
+    "date": "2026-03-10",
+    "computed_at": "2026-03-09T23:23:26Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 50,
+    "warn_count": 50
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "naver-20260310-정치-001",
+      "title": "청와대 “고유가 장기화땐 추경도 논의”…李 “담합에 이익 몇배 제재”",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "naver-20260310-정치-002",
+      "title": "외교부 \"카타르서 오늘 한국행 긴급 항공편 편성·출발 예정\"",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "naver-20260310-정치-003",
+      "title": "李 “검찰개혁, 초가삼간 태우면 안돼”…여당 강경파에 메시지",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "naver-20260310-정치-004",
+      "title": "중동 사태 장기화에도 잠잠한 북한…북미 대화 가능성도 '솔솔'",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H3",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "naver-20260310-정치-005",
+      "title": "美 동아태차관보 11∼15일 방한…북한·이란 등 논의 관측",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "naver-20260310-정치-006",
+      "title": "李대통령 \"비상한 각오로 선제대응…석유 최고가격제 신속 시행\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "naver-20260310-정치-007",
+      "title": "박홍근 기획예산처 장관 후보자 인사청문회 23일 개최",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "naver-20260310-정치-008",
+      "title": "강훈식, BTS 광화문 공연 안전관리 당부…\"26만명 운집, 단 한 건 사고도 없어야\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "naver-20260310-정치-009",
+      "title": "조현, 카타르 총리와 통화…\"우리 국민 귀국·에너지 수급 협조 요청\"",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "naver-20260310-정치-010",
+      "title": "이정현 \"후보 없이 선거 치르는 한이 있더라도 기강 세운다\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "naver-20260310-정치-011",
+      "title": "김민석 총리 \"김어준 처벌 원하지 않아…고의 아닐 것\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "naver-20260310-정치-012",
+      "title": "\"초가삼간 태울라\"‥이 '외과시술' 개혁 주문",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 13,
+      "id": "naver-20260310-정치-013",
+      "title": "“열흘만에 상황 달라졌다”…靑, 중동發 충격에 ‘추경’ 시사",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "naver-20260310-정치-014",
+      "title": "윤희숙 \"지선서 尹어게인 오명 씻어야…서울, '李블랙홀' 막을 최후 보루\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 15,
+      "id": "naver-20260310-정치-015",
+      "title": "“더불어중국당과 한통속…장동혁 만나자” 국힘 ‘절윤’에 전한길 분노",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 16,
+      "id": "naver-20260310-정치-016",
+      "title": "'들쑥날쑥' 카타르發 긴급항공 탈출인원...유령처럼 56명 몇분사이 사라져",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 17,
+      "id": "naver-20260310-정치-017",
+      "title": "'IAEA 설득'도 핵잠 도입 숙제…\"보안·투명성 모두 잡은 규제 필요\"",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 18,
+      "id": "naver-20260310-정치-018",
+      "title": "\"절윤하면 장동혁도 끝\"...전한길, 국힘 결의문에 정면 반격",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 19,
+      "id": "naver-20260310-정치-019",
+      "title": "李 “검찰개혁, 초가삼간 태우면 안돼”…여당 강경파에 메시지",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 20,
+      "id": "naver-20260310-정치-020",
+      "title": "트럼프 \"이란전 거의 끝났다\"...뉴욕증시 급반등, 유가  폭락",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 21,
+      "id": "naver-20260310-정치-021",
+      "title": "인천시, 송도 세브란스병원 공사비 추가 지원…정치권 \"특혜\" 논란",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 22,
+      "id": "naver-20260310-정치-022",
+      "title": "박홍근 장관 후보자 6억2397만원 재산 신고",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 23,
+      "id": "naver-20260310-정치-023",
+      "title": "국힘 뒤늦은 '절윤' 선언에 전한길 격분 \"국민의힘은 이재명 2중대…장동혁, 입장 밝혀라\"",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 24,
+      "id": "naver-20260310-정치-024",
+      "title": "몸값 높아진 요격미사일…韓 미사일방어체계 촘촘할까[이현호의 밀리터리!톡]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 25,
+      "id": "naver-20260310-정치-025",
+      "title": "국힘 ‘윤 어게인’ 자중지란에 민주당 서울시장·경기지사 경선은 더 뜨거워",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 26,
+      "id": "naver-20260310-정치-026",
+      "title": "[시대리포트] '마천루'로 집값 잡은 이 도시…여전히 결단 못하는 서울",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 27,
+      "id": "naver-20260310-정치-027",
+      "title": "중동 사태 장기화에도 잠잠한 북한…북미 대화 가능성도 '솔솔'",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H3",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 28,
+      "id": "naver-20260310-정치-028",
+      "title": "“공천 기강 잡겠다”던 이정현…반나절 만에 “추가 신청” 번복",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 29,
+      "id": "naver-20260310-정치-029",
+      "title": "“개콘 대사인가?” vs “6000P 李덕이라 아첨”…코스피 놓고 정청래·한동훈 공방",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 30,
+      "id": "naver-20260310-정치-030",
+      "title": "與 강경파 제동·법조계 끌어안기…李대통령 '신중한' 개혁",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 31,
+      "id": "naver-20260310-정치-031",
+      "title": "벌써 ‘뜨거운 계양을’… “힘 있는 송영길” “새 인물 김남준”",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 32,
+      "id": "naver-20260310-정치-032",
+      "title": "李, 또 경고… “초가삼간 태우는 개혁 안 돼, 외과시술이 유용”",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 33,
+      "id": "naver-20260310-정치-033",
+      "title": "‘석유 최고가격제’ 이번 주 시행… 소비자 직접 지원도 검토",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 34,
+      "id": "naver-20260310-정치-034",
+      "title": "여야, 엇갈린 ‘경선’ 고민...국힘, 흥행 실패 vs 민주, 내홍 격화 ‘전전긍긍’ [6·3스포트라이트]",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 35,
+      "id": "naver-20260310-정치-035",
+      "title": "서울 구청장 25명 어디 살까?…관외 자가 보유 4명",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 36,
+      "id": "naver-20260310-정치-036",
+      "title": "[인터뷰] 김지호, '포스트 이재명' 넘어 시장으로",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 37,
+      "id": "naver-20260310-정치-037",
+      "title": "'TK당' 위기감에…국힘 뒤늦게 \"윤석열 복귀 반대\"[영상]",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 38,
+      "id": "naver-20260310-정치-038",
+      "title": "이란 '5000만원짜리 무기' 뭐길래…美 자존심 버리고 베꼈다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 39,
+      "id": "naver-20260310-정치-039",
+      "title": "정원오 출마에 박주민·전현희 견제구…당내선 \"결국 2위 싸움\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 40,
+      "id": "naver-20260310-정치-040",
+      "title": "\"국민이 국힘 버릴 차례\"…이준석이 밝힌 '보수 재건' 시나리오 [황현희의 불편한 여의도]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 41,
+      "id": "naver-20260310-정치-041",
+      "title": "중동사태 장기화 조짐에 추경 띄운 靑…국채발행 없이 '10조+α' 전망",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H3",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 42,
+      "id": "naver-20260310-정치-042",
+      "title": "“진짜 사장과 교섭” 춘투 봇물 예고… 원청-하청 ‘노노갈등’ 우려도",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 43,
+      "id": "naver-20260310-정치-043",
+      "title": "‘담합 과징금’ 하한선… 내달 20배로 높인다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H3",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 44,
+      "id": "naver-20260310-정치-044",
+      "title": "오세훈 “선거 임할 최소한 발판 마련”… 공관위 “추가 접수 논의”",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 45,
+      "id": "naver-20260310-정치-045",
+      "title": "'TK 자민련' 전락 우려에... \"윤석열 정치 복귀에 반대\" 결의문 낸 국힘",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 46,
+      "id": "naver-20260310-정치-046",
+      "title": "[단독] 공천용 보험금? 지선 예비후보 22명, 지역 의원에 수백만원 후원금",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 47,
+      "id": "naver-20260310-경제-047",
+      "title": "삼성SDI, 피지컬 AI용 전고체 첫 공개…\"AI 시대 경쟁력 강조\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 48,
+      "id": "naver-20260310-경제-048",
+      "title": "김정관 \"캐나다 잠수함 수주전, 분리 발주 없다고 확인…최선 다해 지원\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 49,
+      "id": "naver-20260310-경제-049",
+      "title": "울산 초등 저학년생, 내달부터 국산 과일 간식 먹는다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H3",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 50,
+      "id": "naver-20260310-경제-050",
+      "title": "신고즉시 추심중단 2주내 소송지원…불법사금융 원스톱지원",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    }
+  ]
+}

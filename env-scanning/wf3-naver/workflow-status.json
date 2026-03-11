@@ -1,0 +1,23 @@
+{
+  "workflow": "wf3-naver",
+  "scan_date": "2026-03-11",
+  "status": "completed_empty",
+  "completed_at": "2026-03-11T00:27:20Z",
+  "signal_count": 0,
+  "articles_crawled": 272,
+  "articles_after_tc_filter": 0,
+  "reason": "All 272 crawled articles were published 2026-03-11, outside scan window [2026-03-09T22:59Z, 2026-03-10T22:59Z]. Naver front page rotates daily; articles from the scan window period are no longer available on the front page.",
+  "human_approvals": {
+    "step_2_5": {"decision": "autopilot_skip", "reason": "No signals to review"},
+    "step_3_4": {"decision": "autopilot_skip", "reason": "No report to approve"}
+  },
+  "reports": {
+    "en": null,
+    "ko": null
+  },
+  "pipeline_gates": {
+    "gate1": "PASS_EMPTY",
+    "gate2": "SKIP",
+    "gate3": "SKIP"
+  }
+}

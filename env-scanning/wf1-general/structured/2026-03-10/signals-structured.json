@@ -1,0 +1,418 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-03-10",
+    "scan_window": {
+      "start": "2026-03-08T22:19:17Z",
+      "end": "2026-03-09T22:19:17Z"
+    },
+    "sources_scanned": 16,
+    "sources_failed": 6,
+    "total_raw_items": 180,
+    "execution_proof": {
+      "started_at": "2026-03-09T22:19:17Z",
+      "method": "rss_fetch_webfetch"
+    }
+  },
+  "items": [
+    {
+      "id": "tc-20260310-001",
+      "title": "OpenAI Acquires Promptfoo to Secure Its AI Agents",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/", "published_date": "2026-03-09"},
+      "content": {"abstract": "OpenAI acquired AI security startup Promptfoo to secure AI agent deployments in critical business operations, reflecting industry scramble for safe AI technology.", "keywords": ["AI security", "acquisition", "AI agents", "safety"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "tc-20260310-002",
+      "title": "Anthropic Sues Defense Department Over Supply-Chain Risk Designation",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/", "published_date": "2026-03-09"},
+      "content": {"abstract": "Anthropic filed legal action challenging DOD's characterization as supply-chain risk, calling actions unprecedented and unlawful. Reflects tensions between AI companies and military.", "keywords": ["AI governance", "military AI", "regulation", "Anthropic"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "tc-20260310-003",
+      "title": "Anthropic Launches Code Review Tool to Check Flood of AI-Generated Code",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/", "published_date": "2026-03-09"},
+      "content": {"abstract": "Anthropic released Code Review within Claude Code, a multi-agent system analyzing AI-generated code for errors. Addresses growing concern over AI code quality in production systems.", "keywords": ["AI code review", "software quality", "multi-agent", "Claude"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "tc-20260310-004",
+      "title": "Russian Government Hackers Targeting Signal and WhatsApp Users",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/09/russian-government-hackers-targeting-signal-and-whatsapp-users-dutch-spies-warn/", "published_date": "2026-03-09"},
+      "content": {"abstract": "Dutch intelligence accuses Russia-backed hackers of running large-scale global campaign against encrypted messaging app users. State-sponsored cyber operations targeting civilian communications.", "keywords": ["cybersecurity", "state-sponsored hacking", "Russia", "Signal", "WhatsApp"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "tc-20260310-005",
+      "title": "Salt Typhoon Is Hacking the World's Phone and Internet Giants",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/09/salt-typhoon-china-who-has-been-hacked-global-telecom-giants/", "published_date": "2026-03-09"},
+      "content": {"abstract": "Chinese hacking group Salt Typhoon breached major American telecom companies across multiple nations in one of the most prolific cyber espionage campaigns.", "keywords": ["cybersecurity", "China", "telecom hacking", "espionage"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "tc-20260310-006",
+      "title": "Nscale Hits $14.6B Valuation as AI Infrastructure Startup Raises $2B",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/09/sandberg-clegg-join-nscale-board-as-this-stargate-norway-startup-hits-14-6b-valuation/", "published_date": "2026-03-09"},
+      "content": {"abstract": "Nvidia-backed AI infrastructure startup Nscale raised $2B megafunding round, hitting $14.6B valuation. Former Meta executives Sandberg and Clegg joined board. Called 'Stargate Norway'.", "keywords": ["AI infrastructure", "mega-funding", "data centers", "Nvidia"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "tc-20260310-007",
+      "title": "Qualcomm Partners with Neura Robotics for Humanoid Robot Development",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/09/qualcomms-partnership-with-neura-robotics-is-just-the-beginning/", "published_date": "2026-03-09"},
+      "content": {"abstract": "Neura Robotics developing robots utilizing Qualcomm's IQ10 processors. Partnership signals acceleration in consumer and industrial humanoid robotics.", "keywords": ["robotics", "Qualcomm", "humanoid robots", "AI chips"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "tc-20260310-008",
+      "title": "Zoox Starts Mapping Dallas and Phoenix for Robotaxi Commercial Deployment",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/09/zoox-starts-mapping-dallas-and-phoenix-for-its-robotaxis/", "published_date": "2026-03-09"},
+      "content": {"abstract": "Amazon-owned autonomous vehicle company Zoox preparing for commercial deployment pending federal regulatory approval in Dallas and Phoenix.", "keywords": ["autonomous vehicles", "robotaxi", "Amazon", "self-driving"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "mit-20260310-001",
+      "title": "How AI Is Turning the Iran Conflict Into Theater",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/09/1134063/how-ai-is-turning-the-iran-conflict-into-theater/", "published_date": "2026-03-09"},
+      "content": {"abstract": "AI-powered intelligence dashboards tracking US-Israel strikes against Iran creating 'wartime circus' that obscures information. Open-source data feeds and AI-generated summaries spreading inaccuracies while creating illusion of expertise.", "keywords": ["AI misinformation", "geopolitics", "Iran conflict", "OSINT"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "mit-20260310-002",
+      "title": "Pentagon AI Surveillance: Murky Laws Allow Mass Domestic AI Monitoring",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Most information government can collect on Americans isn't regulated by Fourth Amendment or statute, allowing AI to aggregate unregulated data at scale. Deep legal analysis of domestic surveillance gaps.", "keywords": ["AI surveillance", "privacy", "Pentagon", "civil liberties"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "mit-20260310-003",
+      "title": "Online Harassment Enters Its AI Era with Autonomous Agent Attacks",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/05/1133962/online-harassment-is-entering-its-ai-era/", "published_date": "2026-03-05"},
+      "content": {"abstract": "OpenClaw agent autonomously researched and published targeted personal attack against software maintainer. Emerging accountability gaps and legal challenges in agent-based harassment.", "keywords": ["AI harassment", "AI agents", "accountability", "ethics"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "nat-20260310-001",
+      "title": "Daily Multivitamin Slows Signs of Biological Ageing",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00741-3", "published_date": "2026-03-09"},
+      "content": {"abstract": "Clinical evidence shows supplements have stronger anti-aging effects in individuals displaying accelerated biological aging. Potential paradigm shift in preventive medicine.", "keywords": ["aging", "multivitamins", "biological aging", "preventive medicine"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "nat-20260310-002",
+      "title": "How Congress Can Restore Independence of US Science",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00703-9", "published_date": "2026-03-09"},
+      "content": {"abstract": "Policymakers should reinstate government research funding and re-establish decentralized governance at scientific agencies. Critical editorial on science policy independence.", "keywords": ["science policy", "government funding", "research independence", "Congress"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "nat-20260310-003",
+      "title": "How Fast Does a Protein Fold? Real-Time Technique Captures the Moment",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00755-x", "published_date": "2026-03-09"},
+      "content": {"abstract": "New real-time technique captures protein folding dynamics, revealing proteins achieve complex 3D configurations faster than DNA molecules. Breakthrough in structural biology.", "keywords": ["protein folding", "structural biology", "biophysics", "real-time imaging"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "nat-20260310-004",
+      "title": "Monthly HIV-Drug Injections Offer Potent Alternative to Daily Tablets",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00669-8", "published_date": "2026-03-08"},
+      "content": {"abstract": "Long-acting injections effectively suppress HIV in patients with mental health conditions and adherence challenges. Game-changer for treatment compliance.", "keywords": ["HIV treatment", "long-acting injection", "public health", "pharmaceutical"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "nat-20260310-005",
+      "title": "Electric-Vehicle Batteries Toughen Up to Beat the Heat",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00670-1", "published_date": "2026-03-06"},
+      "content": {"abstract": "Battery technology advancing rapidly to withstand climate-related temperature increases and performance degradation. Critical for EV deployment in hot climate regions.", "keywords": ["EV batteries", "thermal resilience", "climate adaptation", "energy storage"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "nat-20260310-006",
+      "title": "World's Salt Lakes Are Drying Up With No Easy Solutions",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00702-w", "published_date": "2026-03-09"},
+      "content": {"abstract": "Global salt lakes experiencing accelerated desiccation due to water diversion and climate change. Threatens unique ecosystems and human communities dependent on these resources.", "keywords": ["salt lakes", "water scarcity", "climate change", "ecosystem collapse"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "ieee-20260310-001",
+      "title": "Military AI Policy Needs Democratic Oversight",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/military-ai-governance", "published_date": "2026-03-08"},
+      "content": {"abstract": "Analysis of DOD-Anthropic dispute over AI deployment constraints. Argues boundaries of military AI use should be settled through congressional action and democratic processes, not ad hoc negotiations.", "keywords": ["military AI", "democratic oversight", "AI governance", "policy"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "ieee-20260310-002",
+      "title": "Offshore Wind Farms: National Security Risk or Manageable Challenge?",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/offshore-wind-military-radar", "published_date": "2026-03-09"},
+      "content": {"abstract": "Investigation into offshore wind installations interfering with military radar. Tested mitigation strategies including next-gen phased-array radar and dual-use sensing have proven effective in NATO/EU operations.", "keywords": ["offshore wind", "military radar", "energy security", "national defense"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "ieee-20260310-003",
+      "title": "FLASH Radiotherapy: The Millisecond That Could Change Cancer Treatment",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/flash-radiotherapy", "published_date": "2026-03-06"},
+      "content": {"abstract": "FLASH radiotherapy delivers ultrahigh-power radiation in bursts under 1/10 second, showing significantly less injury to normal tissue while maintaining tumor-killing effectiveness. Clinical deployment potential within a decade.", "keywords": ["cancer treatment", "FLASH radiotherapy", "medical technology", "radiation"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "ieee-20260310-004",
+      "title": "Laser-Based 3D Printing Could Build Future Bases on the Moon",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/lunar-base-3d-printing", "published_date": "2026-03-07"},
+      "content": {"abstract": "Ohio State researchers demonstrate converting lunar regolith into building material using laser-directed energy deposition. Could enable self-sufficient lunar bases reducing Earth supply dependence.", "keywords": ["3D printing", "lunar construction", "space technology", "regolith"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "sci-20260310-001",
+      "title": "ARPA-H Devotes $144M to Studies That Slow Aging and Extend Quality of Life",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/u-s-agency-will-devote-144-million-studies-slow-aging-extend-quality-life", "published_date": "2026-03-09"},
+      "content": {"abstract": "ARPA-H will support first substantial clinical trials examining interventions to combat aging. $144M investment signals US government commitment to longevity research.", "keywords": ["aging research", "ARPA-H", "longevity", "clinical trials", "government funding"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "sci-20260310-002",
+      "title": "NASA Administrator Signals Accelerated Moon and Mars Mission Timeline",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/nasa-administrator-talks-science-about-studying-moon-mars-and-earth", "published_date": "2026-03-09"},
+      "content": {"abstract": "Jared Isaacman indicates NASA may accelerate lunar research and could initiate new Mars mission in 2028. Shift in space exploration priorities under new leadership.", "keywords": ["NASA", "Mars mission", "lunar research", "space exploration"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "sci-20260310-003",
+      "title": "GLP-1 Drugs Linked to Lower Addiction Rates in Large Veterans Study",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/obesity-drugs-linked-lower-addiction-rates-large-study-veterans", "published_date": "2026-03-04"},
+      "content": {"abstract": "GLP-1 receptor agonists appeared to reduce substance abuse disorders and mitigate serious associated harms in large-scale veterans study. Unexpected therapeutic benefit beyond obesity.", "keywords": ["GLP-1", "addiction", "obesity drugs", "veterans health"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "sci-20260310-004",
+      "title": "Many Heat-Stressed Tropical Insects Are Reaching Their Limits",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/many-heat-stressed-tropical-insects-are-reaching-their-limits", "published_date": "2026-03-04"},
+      "content": {"abstract": "Extensive research across Peru and Kenya reveals minimal heat tolerance adaptation amid rising global temperatures. Signals potential ecosystem collapse in tropical regions.", "keywords": ["insect decline", "heat stress", "tropical ecosystems", "biodiversity"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "sci-20260310-005",
+      "title": "New HIV Cure Approach Forces Hidden Virus Into Tripping Immune Sensor",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/new-hiv-cure-approach-forces-hidden-virus-tripping-immune-sensor", "published_date": "2026-03-05"},
+      "content": {"abstract": "Novel HIV cure strategy demonstrates encouraging outcomes in laboratory and human studies. Forces latent virus to reveal itself to immune system.", "keywords": ["HIV cure", "immunotherapy", "viral reservoir", "latency reversal"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "un-20260310-001",
+      "title": "Nearly 700,000 Displaced in Lebanon as Middle East Crisis Escalates",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167098", "published_date": "2026-03-09"},
+      "content": {"abstract": "Massive displacement across the region on day 10 of Middle East conflict, with rising food and fuel prices threatening vulnerable populations. Nearly 700,000 displaced.", "keywords": ["Middle East conflict", "displacement", "humanitarian crisis", "Lebanon"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "un-20260310-002",
+      "title": "UN Calls for Fair Play in Global Race for Critical Minerals",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167084", "published_date": "2026-03-05"},
+      "content": {"abstract": "As lithium and cobalt become central to zero-carbon economies, UN advocates for equitable global mineral distribution. Highlights resource governance gaps.", "keywords": ["critical minerals", "lithium", "cobalt", "resource governance", "energy transition"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "un-20260310-003",
+      "title": "World Economy at Grave Risk from Middle East Conflict, UN Chief Warns",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167087", "published_date": "2026-03-06"},
+      "content": {"abstract": "Secretary-General warns situation could spiral beyond anyone's control, urges parties to stop fighting. Global economic fallout from Middle East escalation.", "keywords": ["global economy", "Middle East", "oil prices", "geopolitical risk"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "cb-20260310-001",
+      "title": "Pace of Global Warming Has Nearly Doubled Since 2015",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/pace-of-global-warming-has-nearly-doubled-since-2015-study-says/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Rate of global warming has accelerated significantly since 2015, raising concerns about crossing 1.5C Paris target before 2030. Nearly doubled warming pace.", "keywords": ["global warming", "climate change", "Paris Agreement", "1.5C target"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "cb-20260310-002",
+      "title": "China's 15th Five-Year Plan: 17% Carbon Intensity Cut, 25% Non-Fossil Energy by 2030",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/qa-what-does-chinas-15th-five-year-plan-mean-for-climate-change/", "published_date": "2026-03-06"},
+      "content": {"abstract": "China's draft 2026-2030 plan targets 17% reduction in carbon intensity and 25% non-fossil energy share. Emphasizes clean energy development but avoids explicit coal/oil peak timelines.", "keywords": ["China", "five-year plan", "carbon intensity", "clean energy", "climate policy"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "cb-20260310-003",
+      "title": "Compound Drought and Heat Extremes Surging Since Early 2000s",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/heatwaves-driving-recent-surge-in-compound-drought-and-heat-extremes/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Heatwave-led compound drought events more than doubled between 1980-2001 and 2002-2023. Regime shift in land-atmosphere dynamics amplifying dangerous combined extremes.", "keywords": ["compound extremes", "drought", "heatwaves", "climate risks"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "sd-20260310-001",
+      "title": "Climate Models May Be Missing Massive Carbon Emissions from Boreal Wildfires",
+      "source": {"name": "ScienceDaily Sustainability", "type": "science_news", "url": "https://www.sciencedaily.com/releases/2026/03/260303201755.htm", "published_date": "2026-03-04"},
+      "content": {"abstract": "Northern forest fires burn deep into peat soils releasing carbon stored for centuries. Climate models underestimating wildfire carbon emissions.", "keywords": ["boreal wildfires", "carbon emissions", "peat", "climate modeling"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "sd-20260310-002",
+      "title": "Biodegradable Plastic from Milk Protein Vanishes in 13 Weeks",
+      "source": {"name": "ScienceDaily Sustainability", "type": "science_news", "url": "https://www.sciencedaily.com/releases/2026/02/260227071922.htm", "published_date": "2026-02-28"},
+      "content": {"abstract": "Scientists developed biodegradable packaging from milk protein and natural materials that fully decomposes in soil within approximately three months.", "keywords": ["biodegradable plastic", "sustainable packaging", "milk protein", "circular economy"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "bis-20260310-001",
+      "title": "Central Banking in Age of Geoeconomic Fragmentation - Bundesbank President",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/review/r260303h.htm", "published_date": "2026-03-05"},
+      "content": {"abstract": "Bundesbank president Joachim Nagel addressed economic fragmentation and global uncertainty affecting central banking operations and monetary policy coordination.", "keywords": ["geoeconomic fragmentation", "central banking", "monetary policy", "uncertainty"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "bis-20260310-002",
+      "title": "Fed Governor: Operationalizing AI at the Federal Reserve",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/review/r260302c.htm", "published_date": "2026-03-03"},
+      "content": {"abstract": "Fed Governor Christopher Waller discussed implementing AI capabilities at the Federal Reserve. Signals AI adoption in central bank operations.", "keywords": ["AI adoption", "Federal Reserve", "central banking", "fintech"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "bis-20260310-003",
+      "title": "Fed Governor Cook on AI and Productivity Across the Economy",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/review/r260303a.htm", "published_date": "2026-03-05"},
+      "content": {"abstract": "Federal Reserve Board member Lisa Cook discussed AI and productivity across the economy at NABE conference. Central bank assessment of AI's macroeconomic impact.", "keywords": ["AI productivity", "Federal Reserve", "macroeconomics", "NABE"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "brk-20260310-001",
+      "title": "Limits of Tariff-Driven Economic Statecraft After IEEPA Court Decisions",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/now-what-the-limits-of-tariff-driven-economic-statecraft-after-ieepa/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Examination of constraints on using tariffs as foreign policy tools following court decisions on emergency economic powers (IEEPA). Policy implications for trade strategy.", "keywords": ["tariffs", "IEEPA", "trade policy", "economic statecraft"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "brk-20260310-002",
+      "title": "Greater Washington Leads Nation in Regional Job Loss After Government Cuts",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/after-the-fork-greater-washington-leads-the-nation-in-regional-job-loss/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Data showing significant employment decline in Washington DC metropolitan area compared to other regions. Impact of federal government downsizing on regional economies.", "keywords": ["job loss", "Washington DC", "federal employment", "regional economy"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "brk-20260310-003",
+      "title": "Reduced Immigration Slowed Population Growth for Nation and Most States",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/reduced-immigration-slowed-population-growth-for-the-nation-and-most-states-new-census-data-show/", "published_date": "2026-03-02"},
+      "content": {"abstract": "Census data reveals immigration's significant impact on US population growth rates. Reduced immigration directly correlated with slower growth nationwide.", "keywords": ["immigration", "population growth", "census", "demographics"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "pew-20260310-001",
+      "title": "Fewer People Globally Say Belief in God Necessary for Morality",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/short-reads/2026/03/05/in-the-us-and-other-countries-fewer-people-now-say-its-necessary-to-believe-in-god-to-be-moral/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Global survey data shows declining percentages viewing religious faith as prerequisite for morality across multiple countries and regions.", "keywords": ["secularization", "morality", "religion", "values shift", "global survey"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "pew-20260310-002",
+      "title": "Americans Especially Likely to View Fellow Citizens as Morally Bad",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/religion/2026/03/05/in-25-country-survey-americans-especially-likely-to-view-fellow-citizens-as-morally-bad/", "published_date": "2026-03-05"},
+      "content": {"abstract": "In 25-country survey, Americans most likely to see morality and ethics of fellow citizens as bad. Signals deep social trust crisis.", "keywords": ["social trust", "morality crisis", "American society", "public sentiment"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "pew-20260310-003",
+      "title": "Family Caregiving in an Aging America: Gender-Based Differences",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/social-trends/2026/02/26/family-caregiving-in-an-aging-america/", "published_date": "2026-02-26"},
+      "content": {"abstract": "Comprehensive research on how demographic shifts influence family caregiving dynamics, highlighting gender-based differences in caregiving roles.", "keywords": ["aging", "caregiving", "demographics", "gender roles"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "da-20260310-001",
+      "title": "Kenya's Roam Launches AI-Enabled Real-Time Monitoring for Electric Fleets Across Africa",
+      "source": {"name": "Disrupt Africa", "type": "tech_news", "url": "https://disruptafrica.com/2026/03/06/kenyas-roam-launches-1st-ai-enabled-real-time-monitoring-tool-for-electric-fleets-across-africa/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Kenyan EV manufacturer Roam launched AI-powered vehicle intelligence platform tracking battery health across electric motorcycles, buses, and cars continent-wide.", "keywords": ["electric vehicles", "Africa", "AI monitoring", "fleet management"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "da-20260310-002",
+      "title": "Ethiopia's Gebeya Partners M-PESA for AI Tool Access via Mobile Payments",
+      "source": {"name": "Disrupt Africa", "type": "tech_news", "url": "https://disruptafrica.com/2026/03/05/ethiopias-gebeya-partners-m-pesa-to-enable-ai-tool-access-via-mobile-payments/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Ethiopian AI platform Gebeya partnered M-PESA enabling AI tool access through mobile wallet payments without credit cards. AI democratization in emerging markets.", "keywords": ["AI access", "mobile payments", "M-PESA", "Ethiopia", "digital inclusion"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "hn-20260310-001",
+      "title": "Ray-Ban Meta Smart Glasses Privacy Breach: Workers Watch Bathroom Footage",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://arstechnica.com/gadgets/2026/03/workers-report-watching-ray-ban-meta-shot-footage-of-people-using-the-bathroom/", "published_date": "2026-03-09"},
+      "content": {"abstract": "Workers report watching Ray-Ban Meta-shot footage of people using bathrooms. Privacy violation in smart glasses raising regulatory and ethical concerns.", "keywords": ["smart glasses", "privacy", "Meta", "surveillance", "ethics"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "hn-20260310-002",
+      "title": "DARPA's New X-76: Speed of Jet, Freedom of Helicopter",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter", "published_date": "2026-03-09"},
+      "content": {"abstract": "DARPA announces new X-76 aircraft combining jet speed with helicopter freedom of movement. Significant military aviation innovation.", "keywords": ["DARPA", "X-76", "military aviation", "VTOL", "defense technology"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "who-20260310-001",
+      "title": "WHO: Countries Negotiate Pandemic Agreement Annex on Pathogen Access",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/17-02-2026-global-commitment-on-display-as-countries-negotiate-key-annex-to-the-pandemic-agreement", "published_date": "2026-02-17"},
+      "content": {"abstract": "Member States concluded negotiations on Pathogen Access and Benefit Sharing annex, aiming for completion before May World Health Assembly deadline. Critical for pandemic preparedness.", "keywords": ["pandemic preparedness", "WHO", "pathogen sharing", "international health"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "who-20260310-002",
+      "title": "Cholera Vaccination Campaigns Resume After Three-Year Pause as Supply Doubles",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/04-02-2026-preventive-cholera-vaccination-resumes-as-global-supply-reaches-critical-milestone", "published_date": "2026-02-04"},
+      "content": {"abstract": "Global oral cholera vaccine supply doubled to 70M doses annually, enabling preventive campaigns to restart in Mozambique, DRC, and Bangladesh. Major public health milestone.", "keywords": ["cholera", "vaccination", "global health", "vaccine supply"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-09T22:20:00Z"
+    },
+    {
+      "id": "qt-20260310-001",
+      "title": "Disorder Drives One of Nature's Most Complex Machines: Nuclear Pore Complexes",
+      "source": {"name": "Quanta Magazine", "type": "science_journalism", "url": "https://www.quantamagazine.org/disorder-drives-one-of-natures-most-complex-machines-20260309/", "published_date": "2026-03-09"},
+      "content": {"abstract": "New high-resolution imaging reveals how nuclear pore complexes function through molecular disorder. Hundreds to thousands of molecules transit these structures.", "keywords": ["molecular biology", "nuclear pore", "cell biology", "structural imaging"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-09T22:20:00Z"
+    }
+  ]
+}

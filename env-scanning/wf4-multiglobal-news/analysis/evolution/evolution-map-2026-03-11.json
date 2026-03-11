@@ -1,0 +1,422 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf4-multiglobal-news",
+  "scan_date": "2026-03-11",
+  "computed_at": "2026-03-11T00:49:16Z",
+  "config_source": "/Users/c/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4/env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 15,
+    "new_signals": 15,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 0,
+    "active_threads": 1418
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "news-2026-03-11-nyt-iran-01",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1404",
+      "canonical_title": "US-Iran War Costs $5.6 Billion in Munitions in First Two Days",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "US-Iran War Costs $5.6 Billion in Munitions in First Two Days",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-rt-iran-moscow-02",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1405",
+      "canonical_title": "The Iranian Knot: Why Trump Turned to Putin to Help End the War",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "The Iranian Knot: Why Trump Turned to Putin to Help End the War",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-chosun-semiconductor-03",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1406",
+      "canonical_title": "AI-Driven Semiconductor Boom: Korea's Export Revenue Up 55.6% in March 1-10",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "AI-Driven Semiconductor Boom: Korea's Export Revenue Up 55.6% in March 1-10",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-nyt-chatgpt-senate-04",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1407",
+      "canonical_title": "ChatGPT and Other Chatbots Officially Approved for Use in US Senate",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "ChatGPT and Other Chatbots Officially Approved for Use in US Senate",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-nyt-meta-moltbook-05",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1408",
+      "canonical_title": "Meta Acquires Moltbook: The Social Network Exclusively for AI Bots",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Meta Acquires Moltbook: The Social Network Exclusively for AI Bots",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-nyt-openai-lawsuit-06",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1409",
+      "canonical_title": "Mother of Shooting Victim Sues OpenAI Over Failure to Alert Authorities",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Mother of Shooting Victim Sues OpenAI Over Failure to Alert Authorities",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-rt-vw-50k-jobs-07",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1410",
+      "canonical_title": "Volkswagen to Slash 50,000 Jobs in Germany by 2030 Amid EV Transition Crisis",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Volkswagen to Slash 50,000 Jobs in Germany by 2030 Amid EV Transition Crisis",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-chosun-ai-drone-08",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1411",
+      "canonical_title": "Cheap Weapons Win Wars: AI Drones and Robot Soldiers from Science Fiction Becoming Reality",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Cheap Weapons Win Wars: AI Drones and Robot Soldiers from Science Fiction Becoming Reality",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-chosun-emergency-budget-09",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1412",
+      "canonical_title": "Korea Activates Emergency Economic Response: Supplementary Budget and All Policy Tools Deployed",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Korea Activates Emergency Economic Response: Supplementary Budget and All Policy Tools Deployed",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-rt-india-oil-10",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1413",
+      "canonical_title": "India's Strategic Oil Hedging: 30M Barrels of Russian Oil After US Waiver, Diesel to Bangladesh",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "India's Strategic Oil Hedging: 30M Barrels of Russian Oil After US Waiver, Diesel to Bangladesh",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-rt-israel-chemical-11",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1414",
+      "canonical_title": "Israeli Strikes on Iranian Fuel Depots Compared to Chemical Warfare: Acid Rain Over Tehran",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Israeli Strikes on Iranian Fuel Depots Compared to Chemical Warfare: Acid Rain Over Tehran",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-nyt-china-strategy-12",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1415",
+      "canonical_title": "Democrats Warn Trump's China Policy Risks 'Strategic Failure' Ahead of Xi Summit",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Democrats Warn Trump's China Policy Risks 'Strategic Failure' Ahead of Xi Summit",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-rt-germany-vassal-13",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1416",
+      "canonical_title": "Germany Becomes US 'Vassal' Under Merz: Spanish Deputy PM and EU Strategic Autonomy Fractures",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Germany Becomes US 'Vassal' Under Merz: Spanish Deputy PM and EU Strategic Autonomy Fractures",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-chosun-biontech-14",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1417",
+      "canonical_title": "BioNTech Co-Founders Leave to Create New mRNA Drug Development Company",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "BioNTech Co-Founders Leave to Create New mRNA Drug Development Company",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-2026-03-11-rt-brazil-brics-15",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-1418",
+      "canonical_title": "Brazil Pitches BRICS Defense Cooperation to Counter 'Invasion' Threat",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Brazil Pitches BRICS Defense Cooperation to Counter 'Invasion' Threat",
+          "psst": 0
+        }
+      ]
+    }
+  ],
+  "faded_threads": [],
+  "new_threads_created": [
+    "THREAD-WF4MULTIGLOBALNEWS-1404",
+    "THREAD-WF4MULTIGLOBALNEWS-1405",
+    "THREAD-WF4MULTIGLOBALNEWS-1406",
+    "THREAD-WF4MULTIGLOBALNEWS-1407",
+    "THREAD-WF4MULTIGLOBALNEWS-1408",
+    "THREAD-WF4MULTIGLOBALNEWS-1409",
+    "THREAD-WF4MULTIGLOBALNEWS-1410",
+    "THREAD-WF4MULTIGLOBALNEWS-1411",
+    "THREAD-WF4MULTIGLOBALNEWS-1412",
+    "THREAD-WF4MULTIGLOBALNEWS-1413",
+    "THREAD-WF4MULTIGLOBALNEWS-1414",
+    "THREAD-WF4MULTIGLOBALNEWS-1415",
+    "THREAD-WF4MULTIGLOBALNEWS-1416",
+    "THREAD-WF4MULTIGLOBALNEWS-1417",
+    "THREAD-WF4MULTIGLOBALNEWS-1418"
+  ]
+}

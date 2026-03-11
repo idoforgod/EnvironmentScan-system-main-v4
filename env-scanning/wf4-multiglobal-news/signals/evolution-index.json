@@ -25269,22 +25269,22 @@
     "THREAD-WF1-952": {
       "canonical_title": "Does Donald Trump really know what ‘unconditional surrender’ means?",
       "keywords": [
-        "does",
-        "donald",
-        "‘unconditional",
-        "means",
-        "trump",
-        "surrender’",
         "what",
+        "does",
+        "surrender’",
+        "trump",
+        "really",
+        "donald",
         "know",
-        "really"
+        "‘unconditional",
+        "means"
       ],
       "primary_category": "",
       "all_categories": [],
       "created_date": "2026-03-09",
       "last_seen_date": "2026-03-09",
-      "state": "NEW",
-      "appearance_count": 1,
+      "state": "RECURRING",
+      "appearance_count": 2,
       "appearances": [
         {
           "scan_date": "2026-03-09",
@@ -25292,9 +25292,23 @@
           "title": "Does Donald Trump really know what ‘unconditional surrender’ means?",
           "psst_score": 0,
           "source": "globeandmail"
+        },
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-033",
+          "title": "Does Donald Trump really know what ‘unconditional surrender’ means?",
+          "psst_score": 0,
+          "source": "globeandmail"
         }
       ],
-      "metrics_history": []
+      "metrics_history": [
+        {
+          "date": "2026-03-09",
+          "velocity": 0.0,
+          "direction": "STABLE",
+          "expansion": 0.1
+        }
+      ]
     },
     "THREAD-WF1-953": {
       "canonical_title": "Middle East Airlines is still flying out of Beirut, to the sound of gunfire",
@@ -25482,24 +25496,24 @@
     "THREAD-WF1-959": {
       "canonical_title": "Trump rejects settling war with Iran, says ground troops could be sent in",
       "keywords": [
-        "with",
-        "ground",
-        "could",
-        "sent",
-        "rejects",
-        "trump",
         "says",
-        "war",
+        "ground",
         "troops",
+        "war",
+        "settling",
+        "with",
+        "rejects",
+        "could",
         "iran",
-        "settling"
+        "trump",
+        "sent"
       ],
       "primary_category": "",
       "all_categories": [],
       "created_date": "2026-03-09",
       "last_seen_date": "2026-03-09",
-      "state": "NEW",
-      "appearance_count": 1,
+      "state": "RECURRING",
+      "appearance_count": 2,
       "appearances": [
         {
           "scan_date": "2026-03-09",
@@ -25507,9 +25521,23 @@
           "title": "Trump rejects settling war with Iran, says ground troops could be sent in",
           "psst_score": 0,
           "source": "globeandmail"
+        },
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-009",
+          "title": "Trump rejects settling war with Iran, says ground troops could be sent in",
+          "psst_score": 0,
+          "source": "globeandmail"
         }
       ],
-      "metrics_history": []
+      "metrics_history": [
+        {
+          "date": "2026-03-09",
+          "velocity": 0.0,
+          "direction": "STABLE",
+          "expansion": 0.1
+        }
+      ]
     },
     "THREAD-WF1-960": {
       "canonical_title": "Panel has reached consensus on next supreme leader, Iranian media reports",
@@ -25884,22 +25912,22 @@
     "THREAD-WF1-972": {
       "canonical_title": "As war spreads, airline pilots contend with drones and missiles",
       "keywords": [
-        "with",
-        "and",
-        "missiles",
         "pilots",
+        "and",
+        "war",
+        "drones",
+        "with",
+        "missiles",
         "spreads",
         "contend",
-        "war",
-        "airline",
-        "drones"
+        "airline"
       ],
       "primary_category": "",
       "all_categories": [],
       "created_date": "2026-03-09",
       "last_seen_date": "2026-03-09",
-      "state": "NEW",
-      "appearance_count": 1,
+      "state": "RECURRING",
+      "appearance_count": 2,
       "appearances": [
         {
           "scan_date": "2026-03-09",
@@ -25907,30 +25935,44 @@
           "title": "As war spreads, airline pilots contend with drones and missiles",
           "psst_score": 0,
           "source": "globeandmail"
+        },
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-034",
+          "title": "As war spreads, airline pilots contend with drones and missiles",
+          "psst_score": 0,
+          "source": "globeandmail"
         }
       ],
-      "metrics_history": []
+      "metrics_history": [
+        {
+          "date": "2026-03-09",
+          "velocity": 0.0,
+          "direction": "STABLE",
+          "expansion": 0.1
+        }
+      ]
     },
     "THREAD-WF1-973": {
       "canonical_title": "Trump says Iran's army, navy, communications and leaders are 'gone'",
       "keywords": [
-        "iran's",
-        "and",
-        "gone",
-        "trump",
         "says",
-        "are",
+        "and",
         "navy",
         "leaders",
-        "army",
-        "communications"
+        "communications",
+        "are",
+        "iran's",
+        "gone",
+        "trump",
+        "army"
       ],
       "primary_category": "",
       "all_categories": [],
       "created_date": "2026-03-09",
       "last_seen_date": "2026-03-09",
-      "state": "NEW",
-      "appearance_count": 1,
+      "state": "RECURRING",
+      "appearance_count": 2,
       "appearances": [
         {
           "scan_date": "2026-03-09",
@@ -25938,9 +25980,23 @@
           "title": "Trump says Iran's army, navy, communications and leaders are 'gone'",
           "psst_score": 0,
           "source": "globeandmail"
+        },
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-035",
+          "title": "Trump says Iran's army, navy, communications and leaders are 'gone'",
+          "psst_score": 0,
+          "source": "globeandmail"
         }
       ],
-      "metrics_history": []
+      "metrics_history": [
+        {
+          "date": "2026-03-09",
+          "velocity": 0.0,
+          "direction": "STABLE",
+          "expansion": 0.1
+        }
+      ]
     },
     "THREAD-WF1-974": {
       "canonical_title": "Trump cannot end protections for more than 350,000 Haitians, U.S. appeals court rules",
@@ -26306,21 +26362,21 @@
     "THREAD-WF1-985": {
       "canonical_title": "Day 2: Middle East war widens as attacks on Iran intensify",
       "keywords": [
-        "day",
-        "widens",
         "intensify",
+        "middle",
         "war",
         "attacks",
-        "east",
-        "middle",
-        "iran"
+        "iran",
+        "widens",
+        "day",
+        "east"
       ],
       "primary_category": "",
       "all_categories": [],
       "created_date": "2026-03-09",
       "last_seen_date": "2026-03-09",
-      "state": "NEW",
-      "appearance_count": 1,
+      "state": "RECURRING",
+      "appearance_count": 2,
       "appearances": [
         {
           "scan_date": "2026-03-09",
@@ -26328,9 +26384,23 @@
           "title": "Day 2: Middle East war widens as attacks on Iran intensify",
           "psst_score": 0,
           "source": "globeandmail"
+        },
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-036",
+          "title": "Day 2: Middle East war widens as attacks on Iran intensify",
+          "psst_score": 0,
+          "source": "globeandmail"
         }
       ],
-      "metrics_history": []
+      "metrics_history": [
+        {
+          "date": "2026-03-09",
+          "velocity": 0.0,
+          "direction": "STABLE",
+          "expansion": 0.1
+        }
+      ]
     },
     "THREAD-WF1-986": {
       "canonical_title": "Day 3: Trump says Iran operation could last weeks; Israel launches new wave of attacks on Beirut, Tehran",
@@ -26437,23 +26507,23 @@
     "THREAD-WF1-989": {
       "canonical_title": "When it comes to the Iran war, Trump has no clear goal or answers",
       "keywords": [
-        "has",
-        "answers",
-        "goal",
-        "trump",
         "clear",
-        "the",
         "comes",
         "war",
+        "has",
+        "the",
+        "goal",
+        "answers",
         "when",
-        "iran"
+        "iran",
+        "trump"
       ],
       "primary_category": "",
       "all_categories": [],
       "created_date": "2026-03-09",
       "last_seen_date": "2026-03-09",
-      "state": "NEW",
-      "appearance_count": 1,
+      "state": "RECURRING",
+      "appearance_count": 2,
       "appearances": [
         {
           "scan_date": "2026-03-09",
@@ -26461,9 +26531,23 @@
           "title": "When it comes to the Iran war, Trump has no clear goal or answers",
           "psst_score": 0,
           "source": "globeandmail"
+        },
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-037",
+          "title": "When it comes to the Iran war, Trump has no clear goal or answers",
+          "psst_score": 0,
+          "source": "globeandmail"
         }
       ],
-      "metrics_history": []
+      "metrics_history": [
+        {
+          "date": "2026-03-09",
+          "velocity": 0.0,
+          "direction": "STABLE",
+          "expansion": 0.1
+        }
+      ]
     },
     "THREAD-WF1-990": {
       "canonical_title": "Justice Department releases missing Epstein records with sexual allegations against Trump",
@@ -26722,19 +26806,19 @@
     "THREAD-WF1-998": {
       "canonical_title": "Pentagon designates Anthropic a supply chain risk",
       "keywords": [
-        "pentagon",
-        "supply",
-        "risk",
+        "chain",
         "designates",
         "anthropic",
-        "chain"
+        "risk",
+        "supply",
+        "pentagon"
       ],
       "primary_category": "",
       "all_categories": [],
       "created_date": "2026-03-09",
       "last_seen_date": "2026-03-09",
-      "state": "NEW",
-      "appearance_count": 1,
+      "state": "RECURRING",
+      "appearance_count": 2,
       "appearances": [
         {
           "scan_date": "2026-03-09",
@@ -26742,9 +26826,23 @@
           "title": "Pentagon designates Anthropic a supply chain risk",
           "psst_score": 0,
           "source": "globeandmail"
+        },
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-038",
+          "title": "Pentagon designates Anthropic a supply chain risk",
+          "psst_score": 0,
+          "source": "globeandmail"
         }
       ],
-      "metrics_history": []
+      "metrics_history": [
+        {
+          "date": "2026-03-09",
+          "velocity": 0.0,
+          "direction": "STABLE",
+          "expansion": 0.1
+        }
+      ]
     },
     "THREAD-WF1-999": {
       "canonical_title": "Sri Lanka navy releases video showing rescue of Iranian sailors from warship off coast",
@@ -26871,21 +26969,21 @@
     "THREAD-WF1-1003": {
       "canonical_title": "U.S. weighs market action to combat oil price spikes",
       "keywords": [
-        "market",
-        "oil",
-        "u.s",
-        "spikes",
-        "combat",
         "action",
         "weighs",
-        "price"
+        "oil",
+        "price",
+        "combat",
+        "u.s",
+        "market",
+        "spikes"
       ],
       "primary_category": "",
       "all_categories": [],
       "created_date": "2026-03-09",
       "last_seen_date": "2026-03-09",
-      "state": "NEW",
-      "appearance_count": 1,
+      "state": "RECURRING",
+      "appearance_count": 2,
       "appearances": [
         {
           "scan_date": "2026-03-09",
@@ -26893,9 +26991,23 @@
           "title": "U.S. weighs market action to combat oil price spikes",
           "psst_score": 0,
           "source": "globeandmail"
+        },
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-011",
+          "title": "U.S. weighs market action to combat oil price spikes",
+          "psst_score": 0,
+          "source": "globeandmail"
         }
       ],
-      "metrics_history": []
+      "metrics_history": [
+        {
+          "date": "2026-03-09",
+          "velocity": 0.0,
+          "direction": "STABLE",
+          "expansion": 0.1
+        }
+      ]
     },
     "THREAD-WF1-1004": {
       "canonical_title": "Who is Mojtaba Khamenei? Iran’s reclusive hard-liner is expected to replace his father as supreme leader",
@@ -27000,28 +27112,28 @@
     "THREAD-WF1-1007": {
       "canonical_title": "Tanker attack in the northern Persian Gulf boosts oil and gas prices, signals Iran war is widening",
       "keywords": [
-        "oil",
         "signals",
+        "gulf",
         "and",
-        "northern",
-        "widening",
-        "tanker",
+        "war",
+        "prices",
+        "persian",
         "the",
         "gas",
-        "prices",
-        "war",
-        "gulf",
-        "attack",
+        "oil",
+        "widening",
         "boosts",
         "iran",
-        "persian"
+        "northern",
+        "tanker",
+        "attack"
       ],
       "primary_category": "",
       "all_categories": [],
       "created_date": "2026-03-09",
       "last_seen_date": "2026-03-09",
-      "state": "NEW",
-      "appearance_count": 1,
+      "state": "RECURRING",
+      "appearance_count": 2,
       "appearances": [
         {
           "scan_date": "2026-03-09",
@@ -27029,9 +27141,23 @@
           "title": "Tanker attack in the northern Persian Gulf boosts oil and gas prices, signals Iran war is widening",
           "psst_score": 0,
           "source": "globeandmail"
+        },
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-039",
+          "title": "Tanker attack in the northern Persian Gulf boosts oil and gas prices, signals Iran war is widening",
+          "psst_score": 0,
+          "source": "globeandmail"
         }
       ],
-      "metrics_history": []
+      "metrics_history": [
+        {
+          "date": "2026-03-09",
+          "velocity": 0.0,
+          "direction": "STABLE",
+          "expansion": 0.1
+        }
+      ]
     },
     "THREAD-WF1-1008": {
       "canonical_title": "Trump fires Kristi Noem as Homeland Security chief after criticism over immigration crackdown",
@@ -34165,19 +34291,19 @@
     "THREAD-WF1-1239": {
       "canonical_title": "Putin warning fuels calls in EU to drop sanctions",
       "keywords": [
-        "putin",
         "sanctions",
+        "drop",
         "calls",
         "warning",
-        "fuels",
-        "drop"
+        "putin",
+        "fuels"
       ],
       "primary_category": "",
       "all_categories": [],
       "created_date": "2026-03-09",
       "last_seen_date": "2026-03-09",
-      "state": "NEW",
-      "appearance_count": 1,
+      "state": "RECURRING",
+      "appearance_count": 2,
       "appearances": [
         {
           "scan_date": "2026-03-09",
@@ -34185,9 +34311,23 @@
           "title": "Putin warning fuels calls in EU to drop sanctions",
           "psst_score": 0,
           "source": "rt"
+        },
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-rt-018",
+          "title": "Putin warning fuels calls in EU to drop sanctions",
+          "psst_score": 0,
+          "source": "rt"
         }
       ],
-      "metrics_history": []
+      "metrics_history": [
+        {
+          "date": "2026-03-09",
+          "velocity": 0.0,
+          "direction": "STABLE",
+          "expansion": 0.1
+        }
+      ]
     },
     "THREAD-WF1-1240": {
       "canonical_title": "Former top Russian Defense Ministry official detained in graft case",
@@ -38147,9 +38287,1777 @@
         }
       ],
       "metrics_history": []
+    },
+    "THREAD-WF1-1364": {
+      "canonical_title": "[투자노트] 100달러 넘은 유가… “아주 작은 대가”라는 트럼프",
+      "keywords": [
+        "투자노트",
+        "유가…",
+        "100달러",
+        "대가”라는",
+        "트럼프",
+        "“아주"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-chosun-001",
+          "title": "[투자노트] 100달러 넘은 유가… “아주 작은 대가”라는 트럼프",
+          "psst_score": 0,
+          "source": "chosun"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1365": {
+      "canonical_title": "유가 급등에 ‘S공포’… 소비 위축 → 경기 침체 도미노 우려",
+      "keywords": [
+        "도미노",
+        "‘s공포’…",
+        "급등에"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-donga-002",
+          "title": "유가 급등에 ‘S공포’… 소비 위축 → 경기 침체 도미노 우려",
+          "psst_score": 0,
+          "source": "donga"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1366": {
+      "canonical_title": "高유가에 苦물가… &quot;기름값 10% 뛰면 韓수출 0.39% 후퇴&quot;",
+      "keywords": [
+        "후퇴&quot",
+        "&quot;기름값",
+        "韓수출",
+        "10%",
+        "高유가에",
+        "苦물가…",
+        "0.39%"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-mt-003",
+          "title": "高유가에 苦물가… &quot;기름값 10% 뛰면 韓수출 0.39% 후퇴&quot;",
+          "psst_score": 0,
+          "source": "mt"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1367": {
+      "canonical_title": "Trump holds phone call with Putin to discuss ‘quick’ ending to Iran war",
+      "keywords": [
+        "phone",
+        "discuss",
+        "‘quick’",
+        "ending",
+        "war",
+        "iran",
+        "with",
+        "trump",
+        "call",
+        "putin",
+        "holds"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-004",
+          "title": "Trump holds phone call with Putin to discuss ‘quick’ ending to Iran war",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1368": {
+      "canonical_title": "China vows to stabilise oil and gas output in new 5-year plan as global risks mount",
+      "keywords": [
+        "global",
+        "output",
+        "gas",
+        "and",
+        "mount",
+        "risks",
+        "oil",
+        "plan",
+        "stabilise",
+        "china",
+        "new",
+        "vows",
+        "5-year"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-005",
+          "title": "China vows to stabilise oil and gas output in new 5-year plan as global risks mount",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1369": {
+      "canonical_title": "Nato intercepts Iran missile fired towards Turkey",
+      "keywords": [
+        "intercepts",
+        "missile",
+        "nato",
+        "turkey",
+        "towards",
+        "fired",
+        "iran"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-006",
+          "title": "Nato intercepts Iran missile fired towards Turkey",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1370": {
+      "canonical_title": "앤트로픽, 美 정부 &#039;공급망 위험&#039; 지정에 소송…&quot;불법적 보복&quot;",
+      "keywords": [
+        "앤트로픽",
+        "&#039;공급망",
+        "위험&#039",
+        "소송…&quot;불법적",
+        "지정에",
+        "보복&quot"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-mt-007",
+          "title": "앤트로픽, 美 정부 &#039;공급망 위험&#039; 지정에 소송…&quot;불법적 보복&quot;",
+          "psst_score": 0,
+          "source": "mt"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1371": {
+      "canonical_title": "&quot;트럼프 이르면 오늘 유가 대책 보고 예정&quot;",
+      "keywords": [
+        "이르면",
+        "예정&quot",
+        "&quot;트럼프"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-mt-008",
+          "title": "&quot;트럼프 이르면 오늘 유가 대책 보고 예정&quot;",
+          "psst_score": 0,
+          "source": "mt"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1372": {
+      "canonical_title": "Congress blocks bid to limit Trump's war powers amid Iran conflict",
+      "keywords": [
+        "powers",
+        "congress",
+        "trump's",
+        "amid",
+        "limit",
+        "war",
+        "bid",
+        "blocks",
+        "iran",
+        "conflict"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-010",
+          "title": "Congress blocks bid to limit Trump's war powers amid Iran conflict",
+          "psst_score": 0,
+          "source": "globeandmail"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1373": {
+      "canonical_title": "Putin says Russia can supply oil, gas to Europe as energy prices soar",
+      "keywords": [
+        "soar",
+        "energy",
+        "says",
+        "europe",
+        "gas",
+        "oil",
+        "prices",
+        "supply",
+        "putin",
+        "can",
+        "russia",
+        "news"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-aljazeera-012",
+          "title": "Putin says Russia can supply oil, gas to Europe as energy prices soar",
+          "psst_score": 0,
+          "source": "aljazeera"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1374": {
+      "canonical_title": "China’s chip bosses endorse semiconductor push in next 5-year plan",
+      "keywords": [
+        "next",
+        "semiconductor",
+        "bosses",
+        "push",
+        "plan",
+        "chip",
+        "endorse",
+        "china’s",
+        "5-year"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-013",
+          "title": "China’s chip bosses endorse semiconductor push in next 5-year plan",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1375": {
+      "canonical_title": "US, China clash over fentanyl, tariffs at global drugs meeting ahead of Trump-Xi summit",
+      "keywords": [
+        "global",
+        "clash",
+        "ahead",
+        "trump-xi",
+        "fentanyl",
+        "drugs",
+        "over",
+        "tariffs",
+        "china",
+        "summit",
+        "meeting"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-014",
+          "title": "US, China clash over fentanyl, tariffs at global drugs meeting ahead of Trump-Xi summit",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1376": {
+      "canonical_title": "India’s 30-day Russian oil waiver tied to US crude demands",
+      "keywords": [
+        "india’s",
+        "waiver",
+        "30-day",
+        "crude",
+        "oil",
+        "demands",
+        "tied",
+        "russian"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-015",
+          "title": "India’s 30-day Russian oil waiver tied to US crude demands",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1377": {
+      "canonical_title": "BusinessKospi plunges, won weakens as oil shock rattles marketsA surge in global oil prices triggered by escalating tensions in the Middle East rattled investors Monday, raising concerns about renewed global inflation pressures and weighing heavily on both South Korea’s stock market and the local currency.",
+      "keywords": [
+        "both",
+        "middle",
+        "concerns",
+        "weighing",
+        "raising",
+        "currency",
+        "tensions",
+        "east",
+        "the",
+        "renewed",
+        "market",
+        "inflation",
+        "rattled",
+        "marketsa",
+        "weakens",
+        "local",
+        "global",
+        "investors",
+        "shock",
+        "about"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-koreaherald-016",
+          "title": "BusinessKospi plunges, won weakens as oil shock rattles marketsA surge in global oil prices triggered by escalating tensions in the Middle East rattled investors Monday, raising concerns about renewed global inflation pressures and weighing heavily on both South Korea’s stock market and the local currency.",
+          "psst_score": 0,
+          "source": "koreaherald"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1378": {
+      "canonical_title": "Iran war exposes EU blunder in sanctioning Russia – Putin envoy",
+      "keywords": [
+        "envoy",
+        "exposes",
+        "blunder",
+        "war",
+        "iran",
+        "putin",
+        "russia",
+        "sanctioning"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-rt-017",
+          "title": "Iran war exposes EU blunder in sanctioning Russia – Putin envoy",
+          "psst_score": 0,
+          "source": "rt"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1379": {
+      "canonical_title": "유류세 인하폭 확대 검토… 靑 “추경도 진지하게 고민”",
+      "keywords": [
+        "인하폭",
+        "고민”",
+        "유류세",
+        "검토…",
+        "진지하게",
+        "“추경도"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-donga-019",
+          "title": "유류세 인하폭 확대 검토… 靑 “추경도 진지하게 고민”",
+          "psst_score": 0,
+          "source": "donga"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1380": {
+      "canonical_title": "스티글리츠 “현재 AI 투자엔 거품”",
+      "keywords": [
+        "거품”",
+        "투자엔",
+        "스티글리츠",
+        "경제 일반",
+        "“현재"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-khan-020",
+          "title": "스티글리츠 “현재 AI 투자엔 거품”",
+          "psst_score": 0,
+          "source": "khan"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1381": {
+      "canonical_title": "머니투데이 오프라인 헤드라인-10일",
+      "keywords": [
+        "헤드라인-10일",
+        "머니투데이",
+        "오프라인"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-mt-021",
+          "title": "머니투데이 오프라인 헤드라인-10일",
+          "psst_score": 0,
+          "source": "mt"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1382": {
+      "canonical_title": "유가 120弗·환율 1500원… 치솟는 S공포",
+      "keywords": [
+        "s공포",
+        "1500원…",
+        "120弗·환율",
+        "치솟는"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-mt-022",
+          "title": "유가 120弗·환율 1500원… 치솟는 S공포",
+          "psst_score": 0,
+          "source": "mt"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1383": {
+      "canonical_title": "&#039;헬륨 재사용&#039; 삼성, 공급망 리스크 줄인다",
+      "keywords": [
+        "공급망",
+        "줄인다",
+        "리스크",
+        "&#039;헬륨",
+        "재사용&#039"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-mt-023",
+          "title": "&#039;헬륨 재사용&#039; 삼성, 공급망 리스크 줄인다",
+          "psst_score": 0,
+          "source": "mt"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1384": {
+      "canonical_title": "AI 데이터센터 덕에 불 켜졌다… 전력기기 ETF &#039;번쩍&#039;",
+      "keywords": [
+        "켜졌다…",
+        "전력기기",
+        "etf",
+        "&#039;번쩍&#039",
+        "데이터센터"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-mt-024",
+          "title": "AI 데이터센터 덕에 불 켜졌다… 전력기기 ETF &#039;번쩍&#039;",
+          "psst_score": 0,
+          "source": "mt"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1385": {
+      "canonical_title": "앤트로픽 \"AI 실업 대란 아직 없지만... 청년 채용 문턱 14% 낮아져\"",
+      "keywords": [
+        "낮아져",
+        "14%",
+        "없지만",
+        "앤트로픽"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-aitimes-025",
+          "title": "앤트로픽 \"AI 실업 대란 아직 없지만... 청년 채용 문턱 14% 낮아져\"",
+          "psst_score": 0,
+          "source": "aitimes"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1386": {
+      "canonical_title": "곡성, AI·코딩 창의융합교육 확대",
+      "keywords": [
+        "창의융합교육",
+        "ai·코딩"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-aitimes-026",
+          "title": "곡성, AI·코딩 창의융합교육 확대",
+          "psst_score": 0,
+          "source": "aitimes"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1387": {
+      "canonical_title": "Oil Prices Will Remain High as Iran War Continues",
+      "keywords": [
+        "united states",
+        "international trade and world market",
+        "will",
+        "trump, donald j",
+        "continues",
+        "strategic petroleum reserve (us)",
+        "oil",
+        "united states politics and government",
+        "high",
+        "war",
+        "iran",
+        "remain",
+        "prices",
+        "oil (petroleum) and gasoline",
+        "us and israeli attack on iran (2026)",
+        "strait of hormuz"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-nytimes-027",
+          "title": "Oil Prices Will Remain High as Iran War Continues",
+          "psst_score": 0,
+          "source": "nytimes"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1388": {
+      "canonical_title": "Countries in Asia Try to Contain the Economic Fallout of the Mideast Conflict",
+      "keywords": [
+        "mideast",
+        "internal-open-access-from-nl",
+        "countries",
+        "japan",
+        "east asia",
+        "us and israeli attack on iran (2026)",
+        "the",
+        "try",
+        "china",
+        "vietnam",
+        "bangladesh",
+        "conflict",
+        "south korea",
+        "india",
+        "prices (fares, fees and rates)",
+        "natural gas",
+        "asia",
+        "fallout",
+        "shortages",
+        "ships and shipping"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-nytimes-028",
+          "title": "Countries in Asia Try to Contain the Economic Fallout of the Mideast Conflict",
+          "psst_score": 0,
+          "source": "nytimes"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1389": {
+      "canonical_title": "Iran rallies around new leader after 10 days of war as oil prices spike",
+      "keywords": [
+        "days",
+        "around",
+        "after",
+        "leader",
+        "war",
+        "rallies",
+        "oil",
+        "iran",
+        "prices",
+        "spike",
+        "new"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-washingtonpost-029",
+          "title": "Iran rallies around new leader after 10 days of war as oil prices spike",
+          "psst_score": 0,
+          "source": "washingtonpost"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1390": {
+      "canonical_title": "Trump says war with Iran is ‘very complete,’ predicts conflict could end soon",
+      "keywords": [
+        "says",
+        "predicts",
+        "complete,’",
+        "soon",
+        "war",
+        "could",
+        "iran",
+        "with",
+        "trump",
+        "end",
+        "‘very",
+        "conflict"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-030",
+          "title": "Trump says war with Iran is ‘very complete,’ predicts conflict could end soon",
+          "psst_score": 0,
+          "source": "globeandmail"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1391": {
+      "canonical_title": "NATO shoots down second Iranian ballistic missile, Turkey says",
+      "keywords": [
+        "missile",
+        "says",
+        "nato",
+        "ballistic",
+        "turkey",
+        "shoots",
+        "iranian",
+        "second",
+        "down"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-031",
+          "title": "NATO shoots down second Iranian ballistic missile, Turkey says",
+          "psst_score": 0,
+          "source": "globeandmail"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1392": {
+      "canonical_title": "Trump’s Gaza plan negotiations put on hold after the Iran war began, sources say",
+      "keywords": [
+        "trump’s",
+        "hold",
+        "gaza",
+        "began",
+        "after",
+        "plan",
+        "war",
+        "say",
+        "iran",
+        "put",
+        "sources",
+        "negotiations",
+        "the"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-globeandmail-032",
+          "title": "Trump’s Gaza plan negotiations put on hold after the Iran war began, sources say",
+          "psst_score": 0,
+          "source": "globeandmail"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1393": {
+      "canonical_title": "What defence support could Ukraine offer Middle East states amid Iran war?",
+      "keywords": [
+        "support",
+        "defence",
+        "what",
+        "middle",
+        "ukraine",
+        "offer",
+        "states",
+        "amid",
+        "war",
+        "could",
+        "iran",
+        "east",
+        "news"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-aljazeera-040",
+          "title": "What defence support could Ukraine offer Middle East states amid Iran war?",
+          "psst_score": 0,
+          "source": "aljazeera"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1394": {
+      "canonical_title": "China investors energise Hong Kong biotech stocks. Is foreign money missing out?",
+      "keywords": [
+        "investors",
+        "stocks",
+        "kong",
+        "hong",
+        "missing",
+        "out",
+        "energise",
+        "foreign",
+        "china",
+        "biotech",
+        "money"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-041",
+          "title": "China investors energise Hong Kong biotech stocks. Is foreign money missing out?",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1395": {
+      "canonical_title": "Economic Security 101: why China’s officials now have to study rare earths and supply chains",
+      "keywords": [
+        "now",
+        "study",
+        "rare",
+        "officials",
+        "and",
+        "economic",
+        "chains",
+        "earths",
+        "why",
+        "supply",
+        "101",
+        "have",
+        "security",
+        "china’s"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-042",
+          "title": "Economic Security 101: why China’s officials now have to study rare earths and supply chains",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1396": {
+      "canonical_title": "Anthropic sues Trump administration as row over AI use by military deepens",
+      "keywords": [
+        "administration",
+        "anthropic",
+        "over",
+        "sues",
+        "deepens",
+        "row",
+        "military",
+        "use",
+        "trump"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-043",
+          "title": "Anthropic sues Trump administration as row over AI use by military deepens",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1397": {
+      "canonical_title": "Hong Kong urged to extend stock trading hours to keep up with rivals",
+      "keywords": [
+        "hours",
+        "rivals",
+        "stock",
+        "kong",
+        "hong",
+        "extend",
+        "with",
+        "keep",
+        "urged",
+        "trading"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-044",
+          "title": "Hong Kong urged to extend stock trading hours to keep up with rivals",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1398": {
+      "canonical_title": "China can’t buy Elon Musk’s theory on space-based AI centres: experts",
+      "keywords": [
+        "elon",
+        "buy",
+        "centres",
+        "can’t",
+        "china",
+        "musk’s",
+        "space-based",
+        "experts",
+        "theory"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-045",
+          "title": "China can’t buy Elon Musk’s theory on space-based AI centres: experts",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1399": {
+      "canonical_title": "Chinese local governments offer OpenClaw project subsidies as security questions linger",
+      "keywords": [
+        "linger",
+        "offer",
+        "openclaw",
+        "subsidies",
+        "questions",
+        "local",
+        "project",
+        "security",
+        "chinese",
+        "governments"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-046",
+          "title": "Chinese local governments offer OpenClaw project subsidies as security questions linger",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1400": {
+      "canonical_title": "Hong Kong wetland records 40 times more petroleum after oil spill: Greenpeace",
+      "keywords": [
+        "petroleum",
+        "spill",
+        "more",
+        "after",
+        "kong",
+        "records",
+        "hong",
+        "oil",
+        "times",
+        "wetland",
+        "greenpeace"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-047",
+          "title": "Hong Kong wetland records 40 times more petroleum after oil spill: Greenpeace",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1401": {
+      "canonical_title": "What crises in Iran, Panama, Venezuela and Greenland have in common",
+      "keywords": [
+        "what",
+        "panama",
+        "and",
+        "greenland",
+        "iran",
+        "common",
+        "have",
+        "venezuela",
+        "crises"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-048",
+          "title": "What crises in Iran, Panama, Venezuela and Greenland have in common",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1402": {
+      "canonical_title": "China’s Wang sees ‘landmark year’ in US relations",
+      "keywords": [
+        "relations",
+        "wang",
+        "year’",
+        "sees",
+        "‘landmark",
+        "china’s"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-049",
+          "title": "China’s Wang sees ‘landmark year’ in US relations",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF1-1403": {
+      "canonical_title": "More gas from Russia? China flags new pipeline links amid Iran energy crisis",
+      "keywords": [
+        "energy",
+        "from",
+        "more",
+        "gas",
+        "amid",
+        "pipeline",
+        "links",
+        "china",
+        "iran",
+        "flags",
+        "new",
+        "crisis",
+        "russia"
+      ],
+      "primary_category": "",
+      "all_categories": [],
+      "created_date": "2026-03-09",
+      "last_seen_date": "2026-03-09",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-09",
+          "signal_id": "news-20260310-scmp-050",
+          "title": "More gas from Russia? China flags new pipeline links amid Iran energy crisis",
+          "psst_score": 0,
+          "source": "scmp"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1404": {
+      "canonical_title": "US-Iran War Costs $5.6 Billion in Munitions in First Two Days",
+      "keywords": [
+        "$5.6",
+        "munitions",
+        "pentagon",
+        "billion",
+        "two",
+        "costs",
+        "defense spending",
+        "us-iran",
+        "days",
+        "middle east",
+        "first",
+        "war",
+        "iran war"
+      ],
+      "primary_category": "P_Political",
+      "all_categories": [
+        "P_Political"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-nyt-iran-01",
+          "title": "US-Iran War Costs $5.6 Billion in Munitions in First Two Days",
+          "psst_score": 0,
+          "source": "New York Times"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1405": {
+      "canonical_title": "The Iranian Knot: Why Trump Turned to Putin to Help End the War",
+      "keywords": [
+        "turned",
+        "trump putin",
+        "putin",
+        "geopolitics",
+        "eu split",
+        "the",
+        "why",
+        "end",
+        "iranian",
+        "help",
+        "russia mediation",
+        "trump",
+        "knot",
+        "war",
+        "iran war"
+      ],
+      "primary_category": "P_Political",
+      "all_categories": [
+        "P_Political"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-rt-iran-moscow-02",
+          "title": "The Iranian Knot: Why Trump Turned to Putin to Help End the War",
+          "psst_score": 0,
+          "source": "RT"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1406": {
+      "canonical_title": "AI-Driven Semiconductor Boom: Korea's Export Revenue Up 55.6% in March 1-10",
+      "keywords": [
+        "1-10",
+        "semiconductor export",
+        "ai demand",
+        "boom",
+        "march",
+        "korea's",
+        "sk hynix",
+        "semiconductor",
+        "korean economy",
+        "ai-driven",
+        "revenue",
+        "55.6%",
+        "memory pricing",
+        "export"
+      ],
+      "primary_category": "E_Economic",
+      "all_categories": [
+        "E_Economic"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-chosun-semiconductor-03",
+          "title": "AI-Driven Semiconductor Boom: Korea's Export Revenue Up 55.6% in March 1-10",
+          "psst_score": 0,
+          "source": "Chosun Ilbo"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1407": {
+      "canonical_title": "ChatGPT and Other Chatbots Officially Approved for Use in US Senate",
+      "keywords": [
+        "chatbots",
+        "use",
+        "approved",
+        "for",
+        "senate ai policy",
+        "and",
+        "officially",
+        "ai governance",
+        "senate",
+        "institutional adoption",
+        "legislative ai",
+        "other",
+        "chatgpt"
+      ],
+      "primary_category": "P_Political",
+      "all_categories": [
+        "P_Political"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-nyt-chatgpt-senate-04",
+          "title": "ChatGPT and Other Chatbots Officially Approved for Use in US Senate",
+          "psst_score": 0,
+          "source": "New York Times"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1408": {
+      "canonical_title": "Meta Acquires Moltbook: The Social Network Exclusively for AI Bots",
+      "keywords": [
+        "moltbook",
+        "the",
+        "social",
+        "ai ecosystem",
+        "acquires",
+        "network",
+        "bots",
+        "meta",
+        "autonomous agents",
+        "exclusively",
+        "ai bots",
+        "meta acquisition",
+        "for",
+        "ai social network"
+      ],
+      "primary_category": "T_Technological",
+      "all_categories": [
+        "T_Technological"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-nyt-meta-moltbook-05",
+          "title": "Meta Acquires Moltbook: The Social Network Exclusively for AI Bots",
+          "psst_score": 0,
+          "source": "New York Times"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1409": {
+      "canonical_title": "Mother of Shooting Victim Sues OpenAI Over Failure to Alert Authorities",
+      "keywords": [
+        "ai responsibility",
+        "openai",
+        "openai lawsuit",
+        "sues",
+        "shooting",
+        "mother",
+        "failure",
+        "ai safety",
+        "authorities",
+        "victim",
+        "alert",
+        "over",
+        "school shooting",
+        "duty of care"
+      ],
+      "primary_category": "s_spiritual",
+      "all_categories": [
+        "s_spiritual"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-nyt-openai-lawsuit-06",
+          "title": "Mother of Shooting Victim Sues OpenAI Over Failure to Alert Authorities",
+          "psst_score": 0,
+          "source": "New York Times"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1410": {
+      "canonical_title": "Volkswagen to Slash 50,000 Jobs in Germany by 2030 Amid EV Transition Crisis",
+      "keywords": [
+        "50,000",
+        "german industry",
+        "amid",
+        "job cuts",
+        "germany",
+        "transition",
+        "ev transition",
+        "2030",
+        "crisis",
+        "slash",
+        "manufacturing",
+        "jobs",
+        "volkswagen"
+      ],
+      "primary_category": "E_Economic",
+      "all_categories": [
+        "E_Economic"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-rt-vw-50k-jobs-07",
+          "title": "Volkswagen to Slash 50,000 Jobs in Germany by 2030 Amid EV Transition Crisis",
+          "psst_score": 0,
+          "source": "RT"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1411": {
+      "canonical_title": "Cheap Weapons Win Wars: AI Drones and Robot Soldiers from Science Fiction Becoming Reality",
+      "keywords": [
+        "autonomous drones",
+        "robot",
+        "ai weapons",
+        "soldiers",
+        "drones",
+        "fiction",
+        "robot soldiers",
+        "asymmetric warfare",
+        "and",
+        "weapons",
+        "from",
+        "science",
+        "reality",
+        "wars",
+        "defense innovation",
+        "win",
+        "becoming",
+        "cheap"
+      ],
+      "primary_category": "T_Technological",
+      "all_categories": [
+        "T_Technological"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-chosun-ai-drone-08",
+          "title": "Cheap Weapons Win Wars: AI Drones and Robot Soldiers from Science Fiction Becoming Reality",
+          "psst_score": 0,
+          "source": "Chosun Ilbo"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1412": {
+      "canonical_title": "Korea Activates Emergency Economic Response: Supplementary Budget and All Policy Tools Deployed",
+      "keywords": [
+        "kospi",
+        "korea",
+        "budget",
+        "policy",
+        "economic",
+        "supplementary",
+        "and",
+        "emergency budget",
+        "fiscal policy",
+        "deployed",
+        "response",
+        "emergency",
+        "tools",
+        "middle east crisis",
+        "won exchange rate",
+        "all",
+        "activates"
+      ],
+      "primary_category": "E_Economic",
+      "all_categories": [
+        "E_Economic"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-chosun-emergency-budget-09",
+          "title": "Korea Activates Emergency Economic Response: Supplementary Budget and All Policy Tools Deployed",
+          "psst_score": 0,
+          "source": "Chosun Ilbo / SBS"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1413": {
+      "canonical_title": "India's Strategic Oil Hedging: 30M Barrels of Russian Oil After US Waiver, Diesel to Bangladesh",
+      "keywords": [
+        "india oil",
+        "oil",
+        "strategic",
+        "hedging",
+        "barrels",
+        "diesel",
+        "russian crude",
+        "waiver",
+        "bangladesh",
+        "india's",
+        "russian",
+        "30m",
+        "energy security",
+        "bangladesh fuel crisis",
+        "sanctions",
+        "after"
+      ],
+      "primary_category": "E_Economic",
+      "all_categories": [
+        "E_Economic"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-rt-india-oil-10",
+          "title": "India's Strategic Oil Hedging: 30M Barrels of Russian Oil After US Waiver, Diesel to Bangladesh",
+          "psst_score": 0,
+          "source": "RT / Bloomberg"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1414": {
+      "canonical_title": "Israeli Strikes on Iranian Fuel Depots Compared to Chemical Warfare: Acid Rain Over Tehran",
+      "keywords": [
+        "iran fuel depots",
+        "acid rain",
+        "environmental destruction",
+        "tehran",
+        "compared",
+        "chemical",
+        "iranian",
+        "strikes",
+        "rain",
+        "chemical warfare",
+        "israeli",
+        "over",
+        "warfare",
+        "depots",
+        "acid",
+        "fuel"
+      ],
+      "primary_category": "E_Environmental",
+      "all_categories": [
+        "E_Environmental"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-rt-israel-chemical-11",
+          "title": "Israeli Strikes on Iranian Fuel Depots Compared to Chemical Warfare: Acid Rain Over Tehran",
+          "psst_score": 0,
+          "source": "RT"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1415": {
+      "canonical_title": "Democrats Warn Trump's China Policy Risks 'Strategic Failure' Ahead of Xi Summit",
+      "keywords": [
+        "strategic",
+        "strategic failure",
+        "geopolitical risk",
+        "xi summit",
+        "policy",
+        "us-china relations",
+        "failure",
+        "ahead",
+        "warn",
+        "summit",
+        "china",
+        "china policy",
+        "trump's",
+        "democrats",
+        "risks"
+      ],
+      "primary_category": "P_Political",
+      "all_categories": [
+        "P_Political"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-nyt-china-strategy-12",
+          "title": "Democrats Warn Trump's China Policy Risks 'Strategic Failure' Ahead of Xi Summit",
+          "psst_score": 0,
+          "source": "CNN / NYT"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1416": {
+      "canonical_title": "Germany Becomes US 'Vassal' Under Merz: Spanish Deputy PM and EU Strategic Autonomy Fractures",
+      "keywords": [
+        "germany vassal",
+        "merz",
+        "european defense",
+        "strategic",
+        "deputy",
+        "transatlantic relations",
+        "and",
+        "germany",
+        "under",
+        "vassal",
+        "becomes",
+        "autonomy",
+        "fractures",
+        "spanish",
+        "eu autonomy"
+      ],
+      "primary_category": "P_Political",
+      "all_categories": [
+        "P_Political"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-rt-germany-vassal-13",
+          "title": "Germany Becomes US 'Vassal' Under Merz: Spanish Deputy PM and EU Strategic Autonomy Fractures",
+          "psst_score": 0,
+          "source": "RT"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1417": {
+      "canonical_title": "BioNTech Co-Founders Leave to Create New mRNA Drug Development Company",
+      "keywords": [
+        "leave",
+        "create",
+        "company",
+        "drug",
+        "co-founders",
+        "development",
+        "new",
+        "pharmaceutical innovation",
+        "mrna therapeutics",
+        "biotech startup",
+        "cancer treatment",
+        "biontech",
+        "mrna"
+      ],
+      "primary_category": "S_Social",
+      "all_categories": [
+        "S_Social"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-chosun-biontech-14",
+          "title": "BioNTech Co-Founders Leave to Create New mRNA Drug Development Company",
+          "psst_score": 0,
+          "source": "Chosun Ilbo"
+        }
+      ],
+      "metrics_history": []
+    },
+    "THREAD-WF4MULTIGLOBALNEWS-1418": {
+      "canonical_title": "Brazil Pitches BRICS Defense Cooperation to Counter 'Invasion' Threat",
+      "keywords": [
+        "collective security",
+        "threat",
+        "global south",
+        "brazil",
+        "counter",
+        "invasion",
+        "brazil military",
+        "defense",
+        "cooperation",
+        "pitches",
+        "multipolar order",
+        "brics",
+        "brics defense"
+      ],
+      "primary_category": "P_Political",
+      "all_categories": [
+        "P_Political"
+      ],
+      "created_date": "2026-03-11",
+      "last_seen_date": "2026-03-11",
+      "state": "NEW",
+      "appearance_count": 1,
+      "appearances": [
+        {
+          "scan_date": "2026-03-11",
+          "signal_id": "news-2026-03-11-rt-brazil-brics-15",
+          "title": "Brazil Pitches BRICS Defense Cooperation to Counter 'Invasion' Threat",
+          "psst_score": 0,
+          "source": "RT"
+        }
+      ],
+      "metrics_history": []
     }
   },
-  "total_threads": 1363,
-  "active_threads": 1363,
-  "thread_id_counter": 1364
+  "total_threads": 1418,
+  "active_threads": 1418,
+  "thread_id_counter": 1419
 }

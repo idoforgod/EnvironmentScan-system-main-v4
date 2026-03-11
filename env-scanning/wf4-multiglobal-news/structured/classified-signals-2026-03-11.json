@@ -1,0 +1,649 @@
+{
+  "scan_date": "2026-03-11",
+  "workflow": "wf4-multiglobal-news",
+  "classification_method": "LLM_phase2_analyst",
+  "total_signals": 15,
+  "steeps_distribution": {
+    "P_Political": 6,
+    "E_Economic": 4,
+    "T_Technological": 2,
+    "s_spiritual": 1,
+    "E_Environmental": 1,
+    "S_Social": 1
+  },
+  "fssf_distribution": {
+    "Driver": 3,
+    "Wild Card": 2,
+    "Trend": 2,
+    "Emerging Issue": 4,
+    "Weak Signal": 3,
+    "Precursor Event": 1
+  },
+  "three_horizons_distribution": {
+    "H1": 10,
+    "H2": 5
+  },
+  "tipping_point_summary": {
+    "RED": 2,
+    "ORANGE": 4,
+    "GREEN": 2,
+    "YELLOW": 7
+  },
+  "signals": [
+    {
+      "id": "news-2026-03-11-nyt-iran-01",
+      "title": "US-Iran War Costs $5.6 Billion in Munitions in First Two Days",
+      "steeps": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down"
+      },
+      "source": {
+        "name": "New York Times",
+        "type": "news",
+        "url": "https://www.nytimes.com",
+        "published_date": "2026-03-11",
+        "language": "en"
+      },
+      "content": {
+        "abstract": "Pentagon estimates early Iran strikes cost $5.6 billion in munitions in the war's first two days, intensifying concerns about defense budget sustainability. About 140 US troops wounded, 8 severely. US orders more diplomats to leave Middle East including Turkey and Saudi Arabia.",
+        "keywords": [
+          "Iran war",
+          "defense spending",
+          "munitions",
+          "Pentagon",
+          "Middle East"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "impact": 10,
+        "probability": 9,
+        "urgency": 10,
+        "novelty": 7
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf": "Driver",
+        "horizon": "H1"
+      },
+      "preliminary_category": "P_Political"
+    },
+    {
+      "id": "news-2026-03-11-rt-iran-moscow-02",
+      "title": "The Iranian Knot: Why Trump Turned to Putin to Help End the War",
+      "steeps": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Flickering"
+      },
+      "source": {
+        "name": "RT",
+        "type": "news",
+        "url": "https://www.rt.com",
+        "published_date": "2026-03-11",
+        "language": "ru"
+      },
+      "content": {
+        "abstract": "Washington started the war with Iran but only Moscow may help end it. Witkoff reveals plans for next round of Russia-US-Ukraine talks alongside Iran mediation. EU bosses split over US-Israeli war against Iran, with European Council head rebuking Commission President.",
+        "keywords": [
+          "Russia mediation",
+          "Iran war",
+          "Trump Putin",
+          "EU split",
+          "geopolitics"
+        ],
+        "language": "ru"
+      },
+      "signal_impact_scores": {
+        "impact": 9,
+        "probability": 8,
+        "urgency": 9,
+        "novelty": 9
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf": "Wild Card",
+        "horizon": "H1"
+      },
+      "preliminary_category": "P_Political"
+    },
+    {
+      "id": "news-2026-03-11-chosun-semiconductor-03",
+      "title": "AI-Driven Semiconductor Boom: Korea's Export Revenue Up 55.6% in March 1-10",
+      "steeps": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "None"
+      },
+      "source": {
+        "name": "Chosun Ilbo",
+        "type": "news",
+        "url": "https://www.chosun.com",
+        "published_date": "2026-03-11",
+        "language": "ko"
+      },
+      "content": {
+        "abstract": "Korea's exports for March 1-10 surged 55.6% driven by AI semiconductor demand, reaching $21.5 billion - a record for the same period. SK Hynix price target raised to 1.6 million won as memory pricing power continues amid AI supply constraints.",
+        "keywords": [
+          "semiconductor export",
+          "AI demand",
+          "SK Hynix",
+          "memory pricing",
+          "Korean economy"
+        ],
+        "language": "ko"
+      },
+      "signal_impact_scores": {
+        "impact": 8,
+        "probability": 9,
+        "urgency": 7,
+        "novelty": 6
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf": "Trend",
+        "horizon": "H1"
+      },
+      "preliminary_category": "E_Economic"
+    },
+    {
+      "id": "news-2026-03-11-nyt-chatgpt-senate-04",
+      "title": "ChatGPT and Other Chatbots Officially Approved for Use in US Senate",
+      "steeps": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "None"
+      },
+      "source": {
+        "name": "New York Times",
+        "type": "news",
+        "url": "https://www.nytimes.com",
+        "published_date": "2026-03-11",
+        "language": "en"
+      },
+      "content": {
+        "abstract": "New US Senate guidelines officially approve ChatGPT and other AI chatbots for legislative work including drafting, research, and constituent communications. This marks institutional adoption of generative AI in one of the world's most powerful legislative bodies.",
+        "keywords": [
+          "AI governance",
+          "Senate AI policy",
+          "ChatGPT",
+          "legislative AI",
+          "institutional adoption"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "impact": 8,
+        "probability": 9,
+        "urgency": 7,
+        "novelty": 8
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf": "Emerging Issue",
+        "horizon": "H1"
+      },
+      "preliminary_category": "P_Political"
+    },
+    {
+      "id": "news-2026-03-11-nyt-meta-moltbook-05",
+      "title": "Meta Acquires Moltbook: The Social Network Exclusively for AI Bots",
+      "steeps": "T_Technological",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering"
+      },
+      "source": {
+        "name": "New York Times",
+        "type": "news",
+        "url": "https://www.nytimes.com",
+        "published_date": "2026-03-11",
+        "language": "en"
+      },
+      "content": {
+        "abstract": "Meta has acquired Moltbook, a social network designed exclusively for AI bots to interact with each other. Creator Matt Schlicht helped launch Silicon Valley's obsession with AI-to-AI communication platforms. This signals a paradigm shift toward autonomous AI agent ecosystems.",
+        "keywords": [
+          "Meta acquisition",
+          "AI social network",
+          "AI bots",
+          "autonomous agents",
+          "AI ecosystem"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "impact": 8,
+        "probability": 7,
+        "urgency": 6,
+        "novelty": 10
+      },
+      "classification": {
+        "steeps": "T_Technological",
+        "fssf": "Weak Signal",
+        "horizon": "H2"
+      },
+      "preliminary_category": "T_Technological"
+    },
+    {
+      "id": "news-2026-03-11-nyt-openai-lawsuit-06",
+      "title": "Mother of Shooting Victim Sues OpenAI Over Failure to Alert Authorities",
+      "steeps": "s_spiritual",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Critical Slowing Down"
+      },
+      "source": {
+        "name": "New York Times",
+        "type": "news",
+        "url": "https://www.nytimes.com",
+        "published_date": "2026-03-11",
+        "language": "en"
+      },
+      "content": {
+        "abstract": "OpenAI is being sued after a school shooter used ChatGPT extensively before the attack. The company banned the shooter's account but did not alert authorities. Raises fundamental questions about AI companies' duty of care and responsibility for harmful use of their products.",
+        "keywords": [
+          "OpenAI lawsuit",
+          "AI safety",
+          "duty of care",
+          "school shooting",
+          "AI responsibility"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "impact": 9,
+        "probability": 8,
+        "urgency": 8,
+        "novelty": 8
+      },
+      "classification": {
+        "steeps": "s_spiritual",
+        "fssf": "Precursor Event",
+        "horizon": "H1"
+      },
+      "preliminary_category": "s_spiritual"
+    },
+    {
+      "id": "news-2026-03-11-rt-vw-50k-jobs-07",
+      "title": "Volkswagen to Slash 50,000 Jobs in Germany by 2030 Amid EV Transition Crisis",
+      "steeps": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Critical Slowing Down"
+      },
+      "source": {
+        "name": "RT",
+        "type": "news",
+        "url": "https://www.rt.com",
+        "published_date": "2026-03-11",
+        "language": "ru"
+      },
+      "content": {
+        "abstract": "Volkswagen announces plan to cut 50,000 jobs in Germany by 2030 amid plunging profits from the electric vehicle transition. This represents the largest industrial workforce reduction in German automotive history, signaling systemic transformation of Europe's manufacturing base.",
+        "keywords": [
+          "Volkswagen",
+          "job cuts",
+          "EV transition",
+          "German industry",
+          "manufacturing"
+        ],
+        "language": "ru"
+      },
+      "signal_impact_scores": {
+        "impact": 9,
+        "probability": 9,
+        "urgency": 8,
+        "novelty": 7
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf": "Driver",
+        "horizon": "H1"
+      },
+      "preliminary_category": "E_Economic"
+    },
+    {
+      "id": "news-2026-03-11-chosun-ai-drone-08",
+      "title": "Cheap Weapons Win Wars: AI Drones and Robot Soldiers from Science Fiction Becoming Reality",
+      "steeps": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "None"
+      },
+      "source": {
+        "name": "Chosun Ilbo",
+        "type": "news",
+        "url": "https://www.chosun.com",
+        "published_date": "2026-03-11",
+        "language": "ko"
+      },
+      "content": {
+        "abstract": "Military analysis shows that cheap, AI-powered autonomous drones and robotic soldiers previously seen only in science fiction are now nearing deployment. The Iran conflict is accelerating defense innovation as cost-effective unmanned systems prove decisive in asymmetric warfare.",
+        "keywords": [
+          "AI weapons",
+          "autonomous drones",
+          "robot soldiers",
+          "defense innovation",
+          "asymmetric warfare"
+        ],
+        "language": "ko"
+      },
+      "signal_impact_scores": {
+        "impact": 9,
+        "probability": 8,
+        "urgency": 7,
+        "novelty": 8
+      },
+      "classification": {
+        "steeps": "T_Technological",
+        "fssf": "Emerging Issue",
+        "horizon": "H2"
+      },
+      "preliminary_category": "T_Technological"
+    },
+    {
+      "id": "news-2026-03-11-chosun-emergency-budget-09",
+      "title": "Korea Activates Emergency Economic Response: Supplementary Budget and All Policy Tools Deployed",
+      "steeps": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Critical Slowing Down"
+      },
+      "source": {
+        "name": "Chosun Ilbo / SBS",
+        "type": "news",
+        "url": "https://www.chosun.com",
+        "published_date": "2026-03-11",
+        "language": "ko"
+      },
+      "content": {
+        "abstract": "Korean Deputy PM announces emergency economic measures including supplementary budget mobilization to counter Middle East crisis impact. Won-dollar rate opens at 1,474 won (+4.8). Government converts economic ministerial meetings to emergency mode. KOSPI rebounds 2.28% on hopes of war containment.",
+        "keywords": [
+          "emergency budget",
+          "Middle East crisis",
+          "won exchange rate",
+          "KOSPI",
+          "fiscal policy"
+        ],
+        "language": "ko"
+      },
+      "signal_impact_scores": {
+        "impact": 8,
+        "probability": 9,
+        "urgency": 9,
+        "novelty": 6
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf": "Driver",
+        "horizon": "H1"
+      },
+      "preliminary_category": "E_Economic"
+    },
+    {
+      "id": "news-2026-03-11-rt-india-oil-10",
+      "title": "India's Strategic Oil Hedging: 30M Barrels of Russian Oil After US Waiver, Diesel to Bangladesh",
+      "steeps": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "None"
+      },
+      "source": {
+        "name": "RT / Bloomberg",
+        "type": "news",
+        "url": "https://www.rt.com",
+        "published_date": "2026-03-11",
+        "language": "ru"
+      },
+      "content": {
+        "abstract": "India purchases 30 million barrels of Russian oil after receiving US sanctions waiver, while simultaneously supplying diesel to Bangladesh amid Middle East fuel crisis. Bangladesh resorts to fuel rationing. India hedges Hormuz chokepoint risk with Russian crude and strategic reserves.",
+        "keywords": [
+          "India oil",
+          "Russian crude",
+          "energy security",
+          "Bangladesh fuel crisis",
+          "sanctions"
+        ],
+        "language": "ru"
+      },
+      "signal_impact_scores": {
+        "impact": 8,
+        "probability": 9,
+        "urgency": 8,
+        "novelty": 7
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf": "Trend",
+        "horizon": "H1"
+      },
+      "preliminary_category": "E_Economic"
+    },
+    {
+      "id": "news-2026-03-11-rt-israel-chemical-11",
+      "title": "Israeli Strikes on Iranian Fuel Depots Compared to Chemical Warfare: Acid Rain Over Tehran",
+      "steeps": "E_Environmental",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down"
+      },
+      "source": {
+        "name": "RT",
+        "type": "news",
+        "url": "https://www.rt.com",
+        "published_date": "2026-03-11",
+        "language": "ru"
+      },
+      "content": {
+        "abstract": "Israeli attacks on fuel storage sites near Tehran expose residents to acid rain and toxic chemical fallout, with conditions compared to chemical warfare. Environmental destruction of critical energy infrastructure creates unprecedented ecological and humanitarian crisis in the Middle East.",
+        "keywords": [
+          "Iran fuel depots",
+          "acid rain",
+          "chemical warfare",
+          "environmental destruction",
+          "Tehran"
+        ],
+        "language": "ru"
+      },
+      "signal_impact_scores": {
+        "impact": 9,
+        "probability": 8,
+        "urgency": 9,
+        "novelty": 8
+      },
+      "classification": {
+        "steeps": "E_Environmental",
+        "fssf": "Wild Card",
+        "horizon": "H1"
+      },
+      "preliminary_category": "E_Environmental"
+    },
+    {
+      "id": "news-2026-03-11-nyt-china-strategy-12",
+      "title": "Democrats Warn Trump's China Policy Risks 'Strategic Failure' Ahead of Xi Summit",
+      "steeps": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "None"
+      },
+      "source": {
+        "name": "CNN / NYT",
+        "type": "news",
+        "url": "https://www.nytimes.com",
+        "published_date": "2026-03-11",
+        "language": "en"
+      },
+      "content": {
+        "abstract": "A new bipartisan report issued ahead of Trump's summit with Xi Jinping warns that current China policy risks 'strategic failure'. Democrats argue the simultaneous Iran war and trade confrontation with China undermines American leverage and risks pushing Beijing closer to Moscow.",
+        "keywords": [
+          "China policy",
+          "strategic failure",
+          "Xi summit",
+          "US-China relations",
+          "geopolitical risk"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "impact": 8,
+        "probability": 8,
+        "urgency": 8,
+        "novelty": 7
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf": "Emerging Issue",
+        "horizon": "H1"
+      },
+      "preliminary_category": "P_Political"
+    },
+    {
+      "id": "news-2026-03-11-rt-germany-vassal-13",
+      "title": "Germany Becomes US 'Vassal' Under Merz: Spanish Deputy PM and EU Strategic Autonomy Fractures",
+      "steeps": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering"
+      },
+      "source": {
+        "name": "RT",
+        "type": "news",
+        "url": "https://www.rt.com",
+        "published_date": "2026-03-11",
+        "language": "ru"
+      },
+      "content": {
+        "abstract": "Spanish Deputy PM accuses Chancellor Merz of turning Germany into a US vassal. Geopolitical analysis argues Merz's remarks on Iran reveal deeper pattern of Western politics reducing complex situations to slogans. EU strategic autonomy fracturing as member states diverge on Iran war response.",
+        "keywords": [
+          "EU autonomy",
+          "Germany vassal",
+          "Merz",
+          "transatlantic relations",
+          "European defense"
+        ],
+        "language": "ru"
+      },
+      "signal_impact_scores": {
+        "impact": 7,
+        "probability": 8,
+        "urgency": 7,
+        "novelty": 8
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf": "Emerging Issue",
+        "horizon": "H2"
+      },
+      "preliminary_category": "P_Political"
+    },
+    {
+      "id": "news-2026-03-11-chosun-biontech-14",
+      "title": "BioNTech Co-Founders Leave to Create New mRNA Drug Development Company",
+      "steeps": "S_Social",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "None"
+      },
+      "source": {
+        "name": "Chosun Ilbo",
+        "type": "news",
+        "url": "https://www.chosun.com",
+        "published_date": "2026-03-11",
+        "language": "ko"
+      },
+      "content": {
+        "abstract": "German biotech BioNTech's co-founders announce departure to establish a new mRNA therapeutics startup focused on drug development beyond vaccines. This signals the maturation of mRNA technology from pandemic response to broader pharmaceutical applications including cancer and autoimmune treatments.",
+        "keywords": [
+          "BioNTech",
+          "mRNA therapeutics",
+          "biotech startup",
+          "pharmaceutical innovation",
+          "cancer treatment"
+        ],
+        "language": "ko"
+      },
+      "signal_impact_scores": {
+        "impact": 8,
+        "probability": 7,
+        "urgency": 5,
+        "novelty": 8
+      },
+      "classification": {
+        "steeps": "S_Social",
+        "fssf": "Weak Signal",
+        "horizon": "H2"
+      },
+      "preliminary_category": "S_Social"
+    },
+    {
+      "id": "news-2026-03-11-rt-brazil-brics-15",
+      "title": "Brazil Pitches BRICS Defense Cooperation to Counter 'Invasion' Threat",
+      "steeps": "P_Political",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering"
+      },
+      "source": {
+        "name": "RT",
+        "type": "news",
+        "url": "https://www.rt.com",
+        "published_date": "2026-03-11",
+        "language": "ru"
+      },
+      "content": {
+        "abstract": "Brazilian President Lula urges South Africa to boost defense cooperation within BRICS framework, warning against potential 'invasion'. This signals acceleration of BRICS military dimension, moving beyond economic cooperation to collective defense posturing against perceived Western threats.",
+        "keywords": [
+          "BRICS defense",
+          "Brazil military",
+          "collective security",
+          "Global South",
+          "multipolar order"
+        ],
+        "language": "ru"
+      },
+      "signal_impact_scores": {
+        "impact": 8,
+        "probability": 6,
+        "urgency": 6,
+        "novelty": 9
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf": "Weak Signal",
+        "horizon": "H2"
+      },
+      "preliminary_category": "P_Political"
+    }
+  ]
+}

@@ -1,0 +1,922 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf1-general",
+    "date": "2026-03-10",
+    "computed_at": "2026-03-09T22:29:33Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 41,
+    "warn_count": 41
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "sci-20260310-001",
+      "title": "ARPA-H Devotes $144M to Studies That Slow Aging and Extend Quality of Life",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "sci-20260310-003",
+      "title": "GLP-1 Drugs Linked to Lower Addiction Rates in Large Veterans Study",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "sci-20260310-005",
+      "title": "New HIV Cure Approach Forces Hidden Virus Into Tripping Immune Sensor",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "nat-20260310-002",
+      "title": "How Congress Can Restore Independence of US Science",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.0,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "nat-20260310-004",
+      "title": "Monthly HIV-Drug Injections Offer Potent Alternative to Daily Tablets",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.0,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "nat-20260310-005",
+      "title": "Electric-Vehicle Batteries Toughen Up to Beat the Heat",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.0,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "nat-20260310-006",
+      "title": "World's Salt Lakes Are Drying Up With No Easy Solutions",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.0,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "ieee-20260310-002",
+      "title": "Offshore Wind Farms: National Security Risk or Manageable Challenge?",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.0,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "sci-20260310-002",
+      "title": "NASA Administrator Signals Accelerated Moon and Mars Mission Timeline",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.0,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "sci-20260310-004",
+      "title": "Many Heat-Stressed Tropical Insects Are Reaching Their Limits",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.0,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "bis-20260310-002",
+      "title": "Fed Governor: Operationalizing AI at the Federal Reserve",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 40.6,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 64,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "un-20260310-001",
+      "title": "Nearly 700,000 Displaced in Lebanon as Middle East Crisis Escalates",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 39.7,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 64,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 13,
+      "id": "un-20260310-002",
+      "title": "UN Calls for Fair Play in Global Race for Critical Minerals",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 39.7,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 64,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "bis-20260310-001",
+      "title": "Central Banking in Age of Geoeconomic Fragmentation - Bundesbank President",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 39.7,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 64,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 15,
+      "id": "bis-20260310-003",
+      "title": "Fed Governor Cook on AI and Productivity Across the Economy",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 39.7,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 64,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 16,
+      "id": "who-20260310-002",
+      "title": "Cholera Vaccination Campaigns Resume After Three-Year Pause as Supply Doubles",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 39.7,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 64,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 17,
+      "id": "tc-20260310-001",
+      "title": "OpenAI Acquires Promptfoo to Secure Its AI Agents",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 33.2,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 18,
+      "id": "tc-20260310-003",
+      "title": "Anthropic Launches Code Review Tool to Check Flood of AI-Generated Code",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 33.2,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 19,
+      "id": "tc-20260310-007",
+      "title": "Qualcomm Partners with Neura Robotics for Humanoid Robot Development",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 33.2,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 20,
+      "id": "mit-20260310-001",
+      "title": "How AI Is Turning the Iran Conflict Into Theater",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 33.2,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 21,
+      "id": "hn-20260310-001",
+      "title": "Ray-Ban Meta Smart Glasses Privacy Breach: Workers Watch Bathroom Footage",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 33.2,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 22,
+      "id": "tc-20260310-002",
+      "title": "Anthropic Sues Defense Department Over Supply-Chain Risk Designation",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 32.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 23,
+      "id": "tc-20260310-004",
+      "title": "Russian Government Hackers Targeting Signal and WhatsApp Users",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 32.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 24,
+      "id": "tc-20260310-005",
+      "title": "Salt Typhoon Is Hacking the World's Phone and Internet Giants",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 32.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 25,
+      "id": "tc-20260310-006",
+      "title": "Nscale Hits $14.6B Valuation as AI Infrastructure Startup Raises $2B",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 32.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 26,
+      "id": "tc-20260310-008",
+      "title": "Zoox Starts Mapping Dallas and Phoenix for Robotaxi Commercial Deployment",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 32.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 27,
+      "id": "mit-20260310-002",
+      "title": "Pentagon AI Surveillance: Murky Laws Allow Mass Domestic AI Monitoring",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 32.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 28,
+      "id": "cb-20260310-003",
+      "title": "Compound Drought and Heat Extremes Surging Since Early 2000s",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 32.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 29,
+      "id": "brk-20260310-002",
+      "title": "Greater Washington Leads Nation in Regional Job Loss After Government Cuts",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 32.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 30,
+      "id": "brk-20260310-003",
+      "title": "Reduced Immigration Slowed Population Growth for Nation and Most States",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 32.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 31,
+      "id": "pew-20260310-003",
+      "title": "Family Caregiving in an Aging America: Gender-Based Differences",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 32.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 32,
+      "id": "sd-20260310-001",
+      "title": "Climate Models May Be Missing Massive Carbon Emissions from Boreal Wildfires",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 33,
+      "id": "da-20260310-002",
+      "title": "Ethiopia's Gebeya Partners M-PESA for AI Tool Access via Mobile Payments",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 34,
+      "id": "nat-20260310-001",
+      "title": "Daily Multivitamin Slows Signs of Biological Ageing",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.6,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 35,
+      "id": "ieee-20260310-003",
+      "title": "FLASH Radiotherapy: The Millisecond That Could Change Cancer Treatment",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.6,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 36,
+      "id": "pew-20260310-001",
+      "title": "Fewer People Globally Say Belief in God Necessary for Morality",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.6,
+      "psst_score": 32.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 37,
+      "id": "sd-20260310-002",
+      "title": "Biodegradable Plastic from Milk Protein Vanishes in 13 Weeks",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.6,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 38,
+      "id": "nat-20260310-003",
+      "title": "How Fast Does a Protein Fold? Real-Time Technique Captures the Moment",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.4,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 39,
+      "id": "hn-20260310-002",
+      "title": "DARPA's New X-76: Speed of Jet, Freedom of Helicopter",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.4,
+      "psst_score": 33.2,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 40,
+      "id": "qt-20260310-001",
+      "title": "Disorder Drives One of Nature's Most Complex Machines: Nuclear Pore Complexes",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.4,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 41,
+      "id": "ieee-20260310-004",
+      "title": "Laser-Based 3D Printing Could Build Future Bases on the Moon",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.2,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 2.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 34,
+        "DC": 72
+      }
+    }
+  ]
+}

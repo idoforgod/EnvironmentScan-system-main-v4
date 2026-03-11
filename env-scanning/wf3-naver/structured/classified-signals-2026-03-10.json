@@ -1,0 +1,1510 @@
+{
+  "signals": [
+    {
+      "id": "naver-20260310-정치-001",
+      "title": "청와대 “고유가 장기화땐 추경도 논의”…李 “담합에 이익 몇배 제재”",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005647645",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "유가급등 대응 비상경제회의징벌적 과징금 때릴 가능성도이재명 대통령이 9일 서울 청와대 본관에서 개최한 중동 상황 관련 비상경제점검회의에서 모두발언을 하고 있다. [김호영 기자]정부가 중동 상황과 관련해 석유 최고가격제를 이번주에 시행하고 유류세 인하도 검토한다. 국제유가 상승이 장기화하면 재정 투입을 위해 추가경정예산(추경) 편성 가능성도 열어뒀다.이재명 대통령은 9일 중동 상황과 관련해 청와대에서 비상경제점검회의를 열어 에너지·금융·외환시장 영향을 분석하며 이 같은 대응책을 논의했다. 이번 비상경제점검회의에는 구윤철 부총리 겸 재",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.623419+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-002",
+      "title": "외교부 \"카타르서 오늘 한국행 긴급 항공편 편성·출발 예정\"",
+      "classification": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/003/0013810677",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "정부 전세기 아닌 민항편…10일 새벽 한국 도착 예상[인천공항=뉴시스] 정병혁 기자 = 중동 상황 악화로 정부가 전세기를 투입한 가운데 9일 새벽 아부다비를 출발한 정부 전세기 탑승객들이 인천국제공항 1터미널을 통해 귀국하며 가족을 만나고 있다. 2026.03.09. jhope@newsis.com[서울=뉴시스] 박준호 유자비 기자 = 중동에 체류 중인 우리 국민의 대피를 지원하기 위한 우리 국적 항공사의 전세기 등 다른 수단이 투입되기 쉽지 않은 상황에서 카타르에서 한국행 직항편이 긴급 편성됐다.외교부 당국자는 9일 기자들과 만나 ",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.623684+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-003",
+      "title": "李 “검찰개혁, 초가삼간 태우면 안돼”…여당 강경파에 메시지",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005647647",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "檢개혁 ‘당청갈등’ 차단나서옥석 가리는 정밀개혁 주문輿강경파 13일 공청회 주도박찬운 개혁자문위원장 사의“보완수사 완전 폐지땐 혼란”이재명 대통령이 9일 청와대에서 열린 중동상황 관련 비상경제점검회의에 입장하고 있다. [연합뉴스]이재명 대통령이 이틀 연속 더불어민주당 내 강경파를 향해 정교한 검찰 개혁을 주문했다. 검찰 구성원과 기능 전체를 싸잡아 개혁 대상으로 몰고갈 경우 국민이 받는 불이익이 더 클 수 있다는 우려에서다.이 대통령의 이 같은 입장에도 불구하고 여당 검찰개혁 강경파들은 정부 검찰개혁안에 대한 대대적 손질이 불가피하",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.623906+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-004",
+      "title": "중동 사태 장기화에도 잠잠한 북한…북미 대화 가능성도 '솔솔'",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H3",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008815951",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "이달 말 방중하는 트럼프, '북미 대화' 다시 띄울 가능성 커이란 공습에 위협 느낀 김정은, '불가'하다던 핵 협상 나올 가능성은?도널드 트럼프 미국 대통령이 7일(현지시간) 델러웨어 도버 공군기지에서 플로리다 마이애미로 향하는 에어포스원(미 대통령 전용기)에서 피트 헤그세스 국방장관과 함께 기자들의 질문에 답하고 있다.2026.03.07. ⓒ 로이터=뉴스1(서울=뉴스1) 임여익 기자 = 미국이 이란에 대한 대규모의 추가 공격을 시사하고 이란은 미국의 공습으로 사망한 아야톨라 알리 하메네이의 후계자로 그의 차남인 모즈타바 하메네이를",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.624131+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-005",
+      "title": "美 동아태차관보 11∼15일 방한…북한·이란 등 논의 관측",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015947510",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "'안보 분야 협의에 속도' 의지 재확인할 듯…부차관보도 9∼11일 방한마이클 디솜브리 미국 국무부 동아태 차관보[연합뉴스 자료사진](서울=연합뉴스) 김지헌 민선희 기자 = 미국 국무부에서 동아시아·태평양과 한국 사안을 다루는 당국자들이 연이어 한국을 찾는다.9일 외교부에 따르면 마이클 디솜브리 국무부 동아태 차관보가 오는 11∼15일 방한해 북핵 수석대표인 외교부 정연두 외교전략정보본부장을 비롯해 정의혜 차관보, 박종한 경제외교조정관 등과 만나 한미관계 제반 현안을 논의할 예정이다.정 본부장과 면담에서는 한반도 정세를 평가하고 북한",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.624347+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-006",
+      "title": "李대통령 \"비상한 각오로 선제대응…석유 최고가격제 신속 시행\"",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015946790",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "중동사태 비상경제점검회의…\"중앙은행 차원 추가 조치도 선제 준비\"\"매점매석 등 엄정제재…어려운 환경 악용하는 세력 엄단하고 자본시장 개혁\"이재명 대통령, 중동상황 관련 비상경제점검회의 발언(서울=연합뉴스) 김도훈 기자 = 이재명 대통령이 9일 청와대에서 열린 중동상황 관련 비상경제점검회의에서 발언하고 있다. 2026.3.9 superdoo82@yna.co.kr(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 9일 미국의 이란 공격으로 촉발된 중동 상황과 관련해 \"향후 전개 양상을 예단하기 어려운 만큼 정부는 최악의 상황까지 염두에 ",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.624563+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-007",
+      "title": "박홍근 기획예산처 장관 후보자 인사청문회 23일 개최",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015946847",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "박홍근 후보자의 답변(서울=연합뉴스) 박동주 기자 = 이재명 정부 초대 기획예산처 장관 후보자로 지명된 더불어민주당 박홍근 의원이 3일 서울 중구 예금보험공사에 마련된 인사청문회 준비 사무실로 출근하며 취재진 질문에 답하고 있다. 2026.3.3 pdj6635@yna.co.kr(서울=연합뉴스) 노선웅 기자 = 여야는 박홍근 기획예산처 장관 후보자의 인사청문회를 오는 23일 열기로 합의했다.국회 재정경제기획위원회 야당 간사인 국민의힘 박수영 의원은 9일 국회에서 기자들에게 \"오늘 (인사청문회 요청안이) 왔고 16일 위원회에서 인사청문",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.624786+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-008",
+      "title": "강훈식, BTS 광화문 공연 안전관리 당부…\"26만명 운집, 단 한 건 사고도 없어야\"",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/014/0005488526",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "수석보좌관회의서 \"대한민국 대중문화 교류의 장 되는 기회\"행안부·경찰청에 화장실·휴지통·식수까지 점검 주문강훈식 대통령 비서실장이 6일 청와대에서 UAE 체류 국민 귀국 지원 및 원유 확보 관련 브리핑을 하고 있다. 청와대통신사진기자단[파이낸셜뉴스] 강훈식 대통령 비서실장이 오는 21일 광화문광장에서 열리는 방탄소년단(BTS) 공연과 관련해 \"수십만 인파가 모이는 행사에서 단 한 건의 사고도 국격에 치명상을 입힐 수 있는 만큼 철저한 대비가 필요하다\"고 강조했다.안귀령 청와대 부대변인은 서면 브리핑을 통해 강 비서실장이 9일 수석보",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.624998+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-009",
+      "title": "조현, 카타르 총리와 통화…\"우리 국민 귀국·에너지 수급 협조 요청\"",
+      "classification": "P_Political",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008815622",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "한국행 항공편 추가 편성 협의 희망카타르 'LNG 생산 중단'…안정적 에너지 공급 협조 요청조현 외교부 장관이 지난 6일 서울 여의도 국회에서 열린 외교통일위원회 전체회의에서 중동 상황 관련 의원 질의에 답변하고 있다. 2026.3.6 ⓒ 뉴스1 신웅수 기자(서울=뉴스1) 김예슬 기자 = 조현 외교부 장관은 9일 모하메드 빈 압둘라흐만 빈 자심 알 싸니 카타르 총리 겸 외교장관과 전화 통화를 갖고 최근 중동 정세와 카타르 내 우리 국민 보호, 에너지 수급 문제 등을 논의했다.외교부에 따르면 조 장관은 이날 통화에서 최근 이란의 공격",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.625212+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-010",
+      "title": "이정현 \"후보 없이 선거 치르는 한이 있더라도 기강 세운다\"",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/088/0001000059",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "오세훈 '당 노선 정상화' 요구하며 공천 접수 안 해국민의힘 이정현 공천관리위원장이 26일 서울 영등포구 여의도 중앙당사에서 열린 제9회 전국동시지방선거 중앙당 공천관리위원회 ３차 회의에서 발언하고 있다. 연합뉴스이정현 국민의힘 지방선거 공천관리위원장은 9일 오세훈 서울시장이 전날 광역단체장 공천 접수 마감 시한까지 공천 접수를 하지 않은 데 대해 \"후보 없이 선거를 치르더라도 공천 기강은 반드시 세우겠다\"고 강조했다.이 위원장은 이날 자신의 사회관계망서비스(SNS)에서 \"공천 접수 기간을 지키기 않고 추가 모집을 기대하며 공천 규",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.625428+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-011",
+      "title": "김민석 총리 \"김어준 처벌 원하지 않아…고의 아닐 것\"",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/088/0001000214",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "\"지금은 빛의 혁명을 함께 넘어온 이들에 대한 더 큰 이해와 인내 필요\"김민석 국무총리, 방송인 김어준 씨. 연합뉴스방송인 김어준 씨가 명예훼손 등의 혐의로 한 시민단체로부터 고발당한 것과 관련해, 김민석 국무총리가 \"(김씨 언급이) 고의가 아닐 것이고 혹 문제 있다고 해도 처벌을 원치 않는다\"고 밝혔다.김 총리는 9일 자신의 페이스북에 글을 올려 이같이 언급하고 \"경찰에도 처벌불원서를 내겠다\"고 말했다.그는 \"고발하신 단체의 취지도 있을 것\"이라면서도 \"지금은 빛의 혁명을 함께 넘어온 이들에 대한 더 큰 이해와 인내가 필요한 때\"",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.625576+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-012",
+      "title": "\"초가삼간 태울라\"‥이 '외과시술' 개혁 주문",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/214/0001485040",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "[뉴스투데이]◀ 앵커 ▶'중대범죄수사청'과 '공소청법'을 두고 여당 일부에서 반발이 이어지고 있습니다.그러자 이재명 대통령이 \"빈대 잡자고 초가삼간 태우면 안 된다\"면서 직접 진화에 나섰습니다.홍신영 기자입니다.◀ 리포트 ▶'전체를 싸잡아 비난하며 모두를 개혁 대상으로 몰아, 빈대 잡자고 초가삼간 태우는 결과가 되지 않게 조심해야 한다.'어제 새벽 이재명 대통령이 SNS에 올린 글입니다.지난 8일에 이어 정부의 검찰개혁안에 공개 반발한 여권 내 강경파들에 재차 당부한 겁니다.이 대통령은 환부만 정확하게 도려내는 '외과시술적' 개혁을",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.625861+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-013",
+      "title": "“열흘만에 상황 달라졌다”…靑, 중동發 충격에 ‘추경’ 시사",
+      "classification": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597444",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "■중동 상황 비상경제점검회의최고가격제 금주 내 시행 추진“고시 제정 등 절차 신속 집행”“필요 재원 크게 늘어…진지한 추경 논의”우선구매권 언급…호르무즈 대체 공급선 확보 총력이재명 대통령이 9일 청와대에서 중동상황 관련 비상경제점검회의를 주재하고 있다. 연합뉴스정부가 중동 사태로 급등한 국제유가에 대응하기 위해 이번 주 안에 ‘석유 최고가격제’를 시행하기로 했다. 유류세 인하 폭 확대와 소비자 직접 지원 등 추가 대책을 마련하고 필요할 경우 추가경정예산(추경) 편성도 추진할 계획이다.이재명 대통령은 9일 청와대에서 ‘중동 상황 관",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.626007+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-014",
+      "title": "윤희숙 \"지선서 尹어게인 오명 씻어야…서울, '李블랙홀' 막을 최후 보루\"",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008816020",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "\"'윤어게인' 이끈 현역들, 뒤로 숨지 말고 심판대 올라야\"\"이재명 블랙홀 막으려면 서울 지켜야…정원오, 앵무새 불과\"윤희숙 서울시장 예비후보가 9일 서울 여의도 본인 캠프 사무실에서 뉴스1과 인터뷰하고 있다. ⓒ 뉴스1 이승배 기자(서울=뉴스1) 박기현 기자 = 윤희숙 국민의힘 서울시장 예비후보는 \"윤어게인 당이라는 꼬리표는 헌정질서를 존중하지 않는 정치 세력이라는 뼈아픈 오명\"이라며 \"(지방선거는) 이를 완전히 벗어나는 선거가 돼야 한다\"고 강조했다.당내 수도권 출마 기피 현상에 대해서는 \"지금의 '윤어게인' 노선으로는 지방선거",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.626150+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-015",
+      "title": "“더불어중국당과 한통속…장동혁 만나자” 국힘 ‘절윤’에 전한길 분노",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/021/0002775888",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "국민의힘, 의총 열고 결의문 채택비상계엄 사과 및 尹 어게인 반대송언석 “장동혁도 합의”전한길(왼쪽) 씨와 장동혁 국민의힘 대표. 연합뉴스국민의힘이 9일 윤석열 전 대통령과의 ‘절연’ 의지를 담은 결의문을 채택하자, 한국사 강사 출신 유튜버 전한길 씨가 강하게 반발했다.10일 정치권에 따르면 전 씨는 이날 새벽 자신의 유튜브 채널 ‘전한길 뉴스’에 “오늘부로 국힘은 이재명 부역자, 더불어중국당 한 통속 자폭으로 역사에 기록될 것”이라고 강하게 비판했다.앞서 전 씨는 전날 유튜브를 통해 장동혁 국민의힘 대표를 향해 비판을 쏟아내며 직",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.626292+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-016",
+      "title": "'들쑥날쑥' 카타르發 긴급항공 탈출인원...유령처럼 56명 몇분사이 사라져",
+      "classification": "P_Political",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/014/0005488716",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "중동 사태로 카타르에서 발이 묶였던 우리 국민 300여명이 9일 정부가 마련한 카타르항공을 타고 도하를 떠나고 있다. 뉴스1[파이낸셜뉴스]정부가 중동사태를 피해 카타르에서 귀국 시킨 우리 국민들의 대피 인원이 몇분 사이에 수십명씩 명단에서 사라지는 해프닝이 벌어졌다. 단순 집계상의 오류인 것으로 최종 확인됐지만, 대피 인원 파악에 외교부가 세밀하지 못했다는 지적이다.10일 외교부는 전날 우리 국민을 태우고 카타르에서 출발한 긴급 항공편에 처음에는 300여명이 탑승할 것이라고 밝혔다가 비행기 이륙뒤에 378명이 탑승했다고 최종 공지했",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.626437+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-017",
+      "title": "'IAEA 설득'도 핵잠 도입 숙제…\"보안·투명성 모두 잡은 규제 필요\"",
+      "classification": "P_Political",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008815977",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "IAEA, 비핵국 핵잠 안전조치 경험 無…\"국내 규제책이 협상력 높일 것\"국방부, 핵잠특별법 제정 연구 수행기관 결정…8월 윤곽 나올 듯1991년 취역한 미국 해군 로스엔젤레스급 핵추진 잠수함 '알렉산드리아함'(SSN 757·6900톤급)의 모습.  2025.2.10 ⓒ 뉴스1 윤일지 기자(서울=뉴스1) 김기성 기자 = 비(非) 핵보유국가인 한국이 핵추진잠수함(핵잠)을 도입하기 위해 국제원자력기구(IAEA)를 설득할 수 있는 수준 투명성과 군사 보안이라는 '두 마리 토끼'를 잡을 수 있는 국내 규제책을 마련해야 한다는 정책 제언이 ",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.626582+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-018",
+      "title": "\"절윤하면 장동혁도 끝\"...전한길, 국힘 결의문에 정면 반격",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/661/0000072594",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "◇ 전한길, 국힘 절윤 선언에 공개 반발◇ 장동혁 향해 만남 요구 정면 압박◇ 강성 지지층 이탈 현실화 되나유튜버 전한길 (sbs 캡쳐)국민의힘이 윤석열 전 대통령과의 절연을 공식 선언하자마자, 극우 성향 유튜버 전한길씨가 강한 반격에 나섰습니다.전씨는 장동혁 대표마저 절윤 대열에 합류한다면 지지를 거두겠다고 공개 경고하며 직접 만남까지 요구했습니다.전씨는 어제 자신의 유튜브 방송을 통해 \"장동혁 대표가 국민의힘 의원 106명과 함께 절윤한다면 장 대표를 지지할 수 없다\"고 못 박았습니다.그러면서 당장 직접 만나서 장 대표의 의중을",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.626725+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-019",
+      "title": "李 “검찰개혁, 초가삼간 태우면 안돼”…여당 강경파에 메시지",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005647647",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "檢개혁 ‘당청갈등’ 차단나서옥석 가리는 정밀개혁 주문輿강경파 13일 공청회 주도박찬운 개혁자문위원장 사의“보완수사 완전 폐지땐 혼란”이재명 대통령이 9일 청와대에서 열린 중동상황 관련 비상경제점검회의에 입장하고 있다. [연합뉴스]이재명 대통령이 이틀 연속 더불어민주당 내 강경파를 향해 정교한 검찰 개혁을 주문했다. 검찰 구성원과 기능 전체를 싸잡아 개혁 대상으로 몰고갈 경우 국민이 받는 불이익이 더 클 수 있다는 우려에서다.이 대통령의 이 같은 입장에도 불구하고 여당 검찰개혁 강경파들은 정부 검찰개혁안에 대한 대대적 손질이 불가피하",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.626869+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-020",
+      "title": "트럼프 \"이란전 거의 끝났다\"...뉴욕증시 급반등, 유가  폭락",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/661/0000072593",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "◇ 트럼프 이란전 종료 시사 발언◇ 유가 119→80달러대 급락 반전◇ G7 전략비축유 방출 논의 착수뉴욕증시 (sbs캡쳐)장중 롤러코스터 장세를 연출한 뉴욕증시가 결국 상승 마감했습니다.트럼프 미국 대통령이 이란과의 전쟁이 사실상 막바지에 접어들었다고 시사하면서 공포에 짓눌려 있던 투자 심리가 빠르게 되살아났습니다.◆ 뉴욕증시, 장중 900포인트 폭락 딛고 반등 ◆현지시간 어제 뉴욕증권거래소에서 다우존스30산업평균지수는 전 거래일보다 0.50% 오른 4만7740.80에 마감했습니다.스탠더드앤드푸어스 500지수는 0.83% 오른 6",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.627021+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-021",
+      "title": "인천시, 송도 세브란스병원 공사비 추가 지원…정치권 \"특혜\" 논란",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006231386",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "인천경제청, 공사비 1천억 추가 지원이달 SPC 이사회서 지원금 결정 방침연세대, 물가 인상에 공사비 지원 요구정치권 \"의료원에 끌려다녀…무책임\"[인천=이데일리 이종일 기자] 인천시가 송도 세브란스병원 개원을 위해 공사비 1000억원을 추가로 지원키로 했다. 지역 정치권은 연세대에 대한 특혜라며 비판 수위를 높였다. 애초 이 병원은 올 연말 준공 예정이었으나 공사 지연으로 2028년 완공될 예정이다.9일 인천경제자유구역청에 따르면 인천시 출장소인 인천경제청은 연세대측의 요구로 기존 공사비 1000억원 지원에 추가로 1000억원을 더",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.627165+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-022",
+      "title": "박홍근 장관 후보자 6억2397만원 재산 신고",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/022/0004111494",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "연말정산 부당 소득·세액 공제 받아지명 6일 전에 가산세 납부 사실도황종우 후보자 21억8900만원 신고박홍근 기획예산처 장관 후보자가 자신과 배우자 등 가족 명의로 총 6억2397만원의 재산을 신고했다.9일 국회에 접수된 인사청문요청안에 따르면, 박 후보자는 본인 명의 재산으로 서울 중랑구 신내동 아파트 지분 절반(1억3650만원)과 신내동 사무실 전세권(4000만원), 예금 6201만원, 정치자금 1934만원 등 총 2억5784만원을 신고했다. 배우자 명의로는 신내동 아파트의 나머지 지분 절반과 은행·보험 예금 1억7906만원,",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.627316+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-023",
+      "title": "국힘 뒤늦은 '절윤' 선언에 전한길 격분 \"국민의힘은 이재명 2중대…장동혁, 입장 밝혀라\"",
+      "classification": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/002/0002431017",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "'TK 자민련' 위기에 국민의힘이 뒤늦게 의원 전원 명의로 12.3 내란을 사과하고 '절윤' 메시지를 내자 극우 유튜버 전한길 씨가 강하게 반발했다.전 씨는 9일 자신의 유튜브 방송에서 \"너무나 많은 분들께 충격을 주는 뉴스\"라면서 \"당 차원에서 '윤석열 어게인 안 된다'고 하니 '이럴 수가 있는가'(하는 심정)\"라고 개탄했다.전 씨는 \"물론 국힘 안의 대부분 의원은 '엔추파도스', 가짜 야당\"이라며 \"우리가 이재명과 싸워야 하는데 지방선거 3개월을 앞두고 (이들이) '지방선거를 포기하려 하나'\" 하는 생각이라고 지적했다.이어 그는",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.627461+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-024",
+      "title": "몸값 높아진 요격미사일…韓 미사일방어체계 촘촘할까[이현호의 밀리터리!톡]",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597415",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "하층방어 한국형 패트리엇 천궁-Ⅱ 핵심중층방어 M-SAM 블록-Ⅲ 현재 개발 중상층방어도 한국형 사드 L-SAM-Ⅱ 개발2027년 공군에 ‘L-SAM 운용부대’ 창설‘한국형 패트리엇’ 천궁-Ⅱ 발사 모습. 고도 40㎞ 이하로 접근하는 적 항공기와 미사일을 요격하는 유도무기다. 1발당 15억 원 수준. 사진 제공=국방과학연구소(ADD)아랍에미리트(UAE)에 실전 배치된 국산 중고도 지대공 유도무기 체계 ‘천궁-Ⅱ’가 이란의 대규모 미사일 공습 상황에서 96%에 달하는 실전 명중률을 기록했다는 소식에 전 세계의 이목을 집중시켰다.세계 ",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.627605+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-025",
+      "title": "국힘 ‘윤 어게인’ 자중지란에 민주당 서울시장·경기지사 경선은 더 뜨거워",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/032/0003432236",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "오세훈 서울시장이 9일 서울 동대문구의 1인 가구 밀집 지역을 돌아보고 취재진 질문에 답하고 있다. 연합뉴스국민의힘이 ‘윤석열 어게인’ 자중지란에 빠지며 서울시장·경기지사 후보 구인난을 겪는 상황에서 더불어민주당의 경선 시계는 빠르게 돌아가고 있다. 오세훈 서울시장이 지난 8일 ‘윤 어게인’ 노선 정리를 요구하며 공천 신청을 하지 않고 국민의힘이 9일 의원총회에서 논쟁하는 사이 민주당 서울시장 경선 후보들은 본격적인 레이스를 시작했다. 민주당 후보들은 핵심 접전지인 서울시와 최대 광역자치단체 경기도에서 높은 당 지지도를 바탕으로 치",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.627745+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-026",
+      "title": "[시대리포트] '마천루'로 집값 잡은 이 도시…여전히 결단 못하는 서울",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/417/0001133349",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "[집값 잡는 마천루①][편집자주] 서울 집값은 지방 평균의 약 4배에 달한다. 그 차이는 점점 벌어진다. 지금 이 순간에도 주택은 지어지고 있지만, 교통이 불편한 외곽은 미분양으로 남는다. 도심 고밀도 개발로 집값을 안정시킨 선진국에서 교훈을 찾아보자.2016년 뉴질랜드 최대 도시 오클랜드시는 만성적인 주택 부족과 집값 폭등을 타개하기 위해 전체 주거지역의 75%에서 용적률과 고도 제한을 완화하는 '업조닝'(Up-zoning)을 단행해 주거비 안정을 이끌었다. 사진은 뉴질랜드 오클랜드의 스카이타워를 중심으로 한 전경. /사진=나무위",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.627885+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-027",
+      "title": "중동 사태 장기화에도 잠잠한 북한…북미 대화 가능성도 '솔솔'",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H3",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008815951",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "이달 말 방중하는 트럼프, '북미 대화' 다시 띄울 가능성 커이란 공습에 위협 느낀 김정은, '불가'하다던 핵 협상 나올 가능성은?도널드 트럼프 미국 대통령이 7일(현지시간) 델러웨어 도버 공군기지에서 플로리다 마이애미로 향하는 에어포스원(미 대통령 전용기)에서 피트 헤그세스 국방장관과 함께 기자들의 질문에 답하고 있다.2026.03.07. ⓒ 로이터=뉴스1(서울=뉴스1) 임여익 기자 = 미국이 이란에 대한 대규모의 추가 공격을 시사하고 이란은 미국의 공습으로 사망한 아야톨라 알리 하메네이의 후계자로 그의 차남인 모즈타바 하메네이를",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.628024+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-028",
+      "title": "“공천 기강 잡겠다”던 이정현…반나절 만에 “추가 신청” 번복",
+      "classification": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/029/0003014767",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "“공관위 심의 후 일정 발표”결의문 발표로 속도전 예상국민의힘 이정현 공천관리위원장이 9일 서울 영등포구 여의도 중앙당사에서 기자간담회를 하고 있다. 연합뉴스국민의힘 이정현 공천관리위원장이 전날(9일) 반나절 만에 공천 절차 방침을 번복했다. 6·3 지방선거를 80여일 앞두고 오세훈 서울시장과 김태흠 충남지사 등이 후보 등록을 하지 않은 후 당내 커진 위기감에 따른 것으로 풀이된다.10일 정치권에 따르면 이정현 공관위원장은 전날 오후 기자간담회에서 추가 접수 일정에 대해 심의 및 의결해 “즉각 시행할 계획”이라고 밝혔다.이 위원장은",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.628163+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-029",
+      "title": "“개콘 대사인가?” vs “6000P 李덕이라 아첨”…코스피 놓고 정청래·한동훈 공방",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/021/0002775876",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "정청래(왼쪽) 더불어민주당 대표와 한동훈 전 국민의힘 대표. 연합뉴스한동훈 국민의힘 전 대표가 ‘윤석열 정부가 계속 집권했어도 코스피 5000~6000이 가능했을 것’이라는 자신의 발언에 “이게 무슨 개콘(개그콘서트) 대사인가”라고 지적한 정청래 더불어민주당 대표를 향해 “연일 코스피 상승이 이재명(대통령) 덕이라고 아첨하고 왜곡하고 있다”고 비판했다.지난 9일 한동훈 전 대표는 자신의 페이스북을 통해 “민주당과 조국혁신당이 코스피 주가 상승이 반도체 사이클 때문이니 정부는 자화자찬 말고 그 후를 대비하라는 제 말을 ‘개콘 대사’니",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.628311+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-030",
+      "title": "與 강경파 제동·법조계 끌어안기…李대통령 '신중한' 개혁",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008815914",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "개혁 의지 속 부작용 최소 방점…\"옥석 가려 문제 해결\"\"주장하는 입장과 책임지는 입장 달라…무한 책임 자리\"이재명 대통령이 지난 9일 청와대에서 열린 중동상황 관련 비상경제점검회의에서 발언하고 있다. (청와대통신사진기자단 2026.3.9 ⓒ 뉴스1 이재명 기자(서울=뉴스1) 심언기 기자 = 이재명 대통령이 정부안 공개 후 당내 강경파의 반발이 나오는 검찰개혁, '사법개혁 3법' 처리 후 법조계 우려가 나오는 사법개혁을 두고 숨고르기를 주문하는 모습이다.급진적 개혁 추진시 예상되는 부작용과 불필요한 사법부 자극 등으로 빚어질 혼란상",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.628450+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-031",
+      "title": "벌써 ‘뜨거운 계양을’… “힘 있는 송영길” “새 인물 김남준”",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/081/0003624330",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "보선 앞둔 인천 계양을 민심 르포5선 송영길 vs 李측근 김남준 접전“송영길 너무 오래하지 않았어요?”“김남준? 무슨 일 했던 사람인지”민주, 새달 선거구 확정 뒤 전략공천이재명 대통령의 국회의원 지역구였던 인천 계양을이 6·3 지방선거와 동시에 치러지는 국회의원 재보궐선거의 최대 관심 지역으로 떠오른 가운데 계양구 임학사거리의 한 건물 앞에 ‘코스피 6000 돌파’를 기념하는 더불어민주당 현수막이 걸려 있다(왼쪽 사진). 오른쪽 사진은 그 바로 옆에 국민의힘이 내건 제107주년 3·1절 기념 현수막. 이준호 기자“다른 건 없고 일",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.628591+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-032",
+      "title": "李, 또 경고… “초가삼간 태우는 개혁 안 돼, 외과시술이 유용”",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/081/0003624325",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "與 강경파 연일 ‘반개혁적’ 반격에李대통령 ‘합리적 접근’ 재차 강조정성호 “통합에 도움 안 된다” 가세김용민은 “검찰청 폐지로 안 보여”박찬운 검찰개혁 자문위원장 사임최고위 참석 - 정청래 더불어민주당 대표가 9일 국회에서 열린 최고위원회의에 참석하고 있다. 정 대표는 회의에서 쌍방울 대북 송금 사건과 관련해 “조작 기소에 가담한 책임자를 처벌함으로써 정치 검찰이 다시는 사법 체계에 발을 들이지 못하도록 하겠다”고 말했다. 홍윤기 기자이재명 대통령이 9일 “필요한 개혁을 하더라도, 전체를 싸잡아 비난하며 모두를 개혁 대상으로 몰아",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.628730+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-033",
+      "title": "‘석유 최고가격제’ 이번 주 시행… 소비자 직접 지원도 검토",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/081/0003624315",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "정부, 정유사 시장교란·탈세도 점검이재명 대통령이 9일 청와대에서 중동 상황 관련 비상경제점검회의를 주재하고 있다. 윗줄 왼쪽부터 류덕현 재정기획보좌관, 강훈식 비서실장, 이 대통령, 김용범 정책실장, 하준경 경제성장수석. 뉴스1정부는 중동 정세 악화에 따른 유가 상승과 관련해 이번 주중 ‘석유 최고가격제’를 시행키로 했다. 또 유류세 인하폭 확대 등 소비자 지원 대책을 마련하고 경기가 악화되면 추가경정예산안(추경) 편성도 검토할 계획이다.김용범 청와대 정책실장은 9일 이재명 대통령이 주재한 중동상황과 관련한 비상경제점검회의 후 춘",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.628872+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-034",
+      "title": "여야, 엇갈린 ‘경선’ 고민...국힘, 흥행 실패 vs 민주, 내홍 격화 ‘전전긍긍’ [6·3스포트라이트]",
+      "classification": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/666/0000098626",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "국힘, 후보 구인난 속 대도시 중앙당 직접 공천 우려...분위기 반전 특단의 대책 필요민주, 도지사 경선 5강 조기 결정...경선 세부 사항 등 깜깜이 반발기사 내용을 바탕으로 생성한 일러스트. 경기일보 AI 이미지6·3 지방선거의 최대 격전지인 경기도의 광역 및 기초자치단체장에 대한 국민의힘 대진표가 윤곽을 드러내면서 국민의힘과 더불어민주당 경기도당이 정반대의 우려에 휩싸였다. 지난 지방선거에 비해 저조한 경쟁률을 보인 국민의힘에서는 특례시 및 인구 50만 이상의 대도시 공천을 중앙당이 직접 관장하면서 경선 흥행을 놓칠까 전전긍긍",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.629012+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-035",
+      "title": "서울 구청장 25명 어디 살까?…관외 자가 보유 4명",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/079/0004122836",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "서울 구청장 주거 전수 조사4명은 관내 전세, 자가는 관외 보유중조성명 강남구청장 46채 보유…최다다주택 구청장 6명…무주택도 4명서울 25개 자치구 구청장 가운데 4명(16%)이 관내가 아닌 관외 주택을 보유 중인 것으로 파악됐다. 이들 모두 관내에 실거주 중이라 문제 없다는 입장이지만, 구정의 최고책임자로서 온당한 조치인지 물음표가 붙는 대목이다.CBS노컷뉴스는 지난해 3월 기준 정부공직자윤리위원회 관보와 자체 취재를 통해 서울 구청장 25명의 부동산 보유 현황을 전수조사 했다.재산공개 내역에는 구청장의 직계 존∙비속 자산도 포",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.629150+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-036",
+      "title": "[인터뷰] 김지호, '포스트 이재명' 넘어 시장으로",
+      "classification": "P_Political",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/629/0000479540",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "민원인에서 동지로…30년 토박이의 도전교통은 '연대'로 재건축은 '소통'으로 해결공무원과 수평 소통 '젊은 성남' 만들 것김지호 더불어민주당 대변인은 성남시의 악성 민원으로 정치에 입문했다. 이제는 성남시장이라는 포스트 이재명의 길을 위해 성남시장 선거에 출마한다. /국회=박헌우 기자[더팩트ㅣ국회=정채영 기자]\"나한테 직접 화낸 민원인은 네가 처음이야.\"성남시의 악성 민원인은 성남시장의 전광석화(電光石火) 같은 반응속도에 반해 정치에 입문했다. 그리고 이제는 성남시장이라는 '포스트 이재명'의 길을 위해 선거에 도전한다. 마치 옛날 ",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.629290+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-037",
+      "title": "'TK당' 위기감에…국힘 뒤늦게 \"윤석열 복귀 반대\"[영상]",
+      "classification": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/079/0004122831",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "오세훈 압박에 국힘 사과…장동혁은 침묵의총서 '윤 어게인 반대' 공식화후보가뭄에 공천 접수 연장 검토9일 서울 여의도 국회에서 열린 국민의힘 의원총회에 장동혁 대표가 참석해 생각에 잠겨있다. 윤창원 기자국민의힘이 텃밭인 대구·경북(TK)에만 공천 신청이 몰리고 다른 지역에선 후보 공백이 속출하자 뒤늦게 '윤석열 절연'을 선언했다. 전국 정당이 아닌 'TK당'으로 쪼그라들 수 있다는 위기감이 작동한 것으로 보인다.하지만 장동혁 대표는 여전히 침묵 중이다. 윤석열 절연 결의문에 이름을 올려놓고도 입장 표명이 없다.'TK당' 위기감에…뒤",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.629428+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-038",
+      "title": "이란 '5000만원짜리 무기' 뭐길래…美 자존심 버리고 베꼈다",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/025/0003507954",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "\"  없어서는 안 될(Indispensable) 전력.  \"지난해 12월 16일 아라비아해의 미국 해군 산타 바바라함(LCS 32)에서 MQM-172 애로헤드가 발사되고 있다. 미 해군이란과의 전쟁을 담당하는 브래드 쿠퍼 미국 중부사령관이 4일(이하 현지시간) 미국의 군사 매체인 워존과의 인터뷰에서 저비용 무인 전투 공격 시스템(LUCAS·루카스)을 칭찬했다. 정식 이름은 MQM-172 애로헤드(Arrowhead). ‘편도(Oneway) 공격 드론’이나 ‘자폭(Kamikaze) 드론’으로 알려졌다.루카스는 1대당 3만5000달러다.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.629567+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-039",
+      "title": "정원오 출마에 박주민·전현희 견제구…당내선 \"결국 2위 싸움\"",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/025/0003507960",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "정원오 더불어민주당 서울시장 예비후보가 9일 오후 경남 김해 진영읍 봉하마을을 찾아 고 노무현 전 대통령 묘역을 참배한 후 이동하고 있다. 뉴스1더불어민주당 서울시장 경선 레이스가 9일 본격적으로 막을 올렸다. 여론조사상 지지율 1강 후보인 정원오 전 성동구청장이 이날 출마를 공식 선언하자, 결선 투표를 노리는 경쟁 주자들이 일제히 견제구를 던지며 ‘쉽지 않은 경선’을 주장하고 나섰다.정 전 구청장은 이날 오전 8시 서울 동작구 국립서울현충원에서 김대중 전 대통령 묘역 참배로 첫 예비후보 공식 일정을 시작했다. 지난 4일 구청장직을",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.629708+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-040",
+      "title": "\"국민이 국힘 버릴 차례\"…이준석이 밝힌 '보수 재건' 시나리오 [황현희의 불편한 여의도]",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/025/0003507961",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "10일 중앙일보 '황현희의 불편한 여의도'에 출연해 지방선거를 앞둔 정국 구상을 밝힐 예정인 이준석 개혁신당 대표. 연합뉴스6·3 지방선거가 80여 일 앞으로 다가온 가운데,제3지대의 키를 쥔 이준석 개혁신당 대표가 10일 중앙일보 ‘황현희의 불편한 여의도’에 출연해 정국 구상을 밝힌다.이준석 대표는 국민의힘을 향해 연일 날 선 비판을 쏟아내고 있다. 9일에도 “대선 때는 당이 후보를 버리더니, 이제는 후보들이 당을 버린다”며 “이제 국민이 국민의힘을 버릴 차례”라고 주장했다. 오세훈 서울시장이 국민의힘 광역단체장 공천 접수 마감일",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.629847+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-041",
+      "title": "중동사태 장기화 조짐에 추경 띄운 靑…국채발행 없이 '10조+α' 전망",
+      "classification": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H3",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008815896",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "김용범 \"추경 진지하게 고민해야 할 상황\"…유류비 직접지원 검토靑 '국채발행 없다' 방침…법인세 초과세수, 불용예산 활용할 듯이재명 대통령이 9일 청와대에서 열린 중동상황 관련 비상경제점검회의에서 발언하고 있다. (청와대통신사진기자단) 2026.3.9 ⓒ 뉴스1 이재명 기자(서울·세종=뉴스1) 한재준 전민 기자 = 청와대가 중동사태로 인한 경제 충격에 대응하기 위한 추가경정예산(추경)안 편성 가능성을 시사했다.미국·이스라엘, 이란 전쟁이 장기화 조짐을 보이면서 실물경제 타격이 심화할 것으로 전망되는 만큼 유류비 직접 지원을 포함한 ",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.629985+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-042",
+      "title": "“진짜 사장과 교섭” 춘투 봇물 예고… 원청-하청 ‘노노갈등’ 우려도",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/020/0003702712",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "[노란봉투법 오늘 시행] 민노총 “교섭 불응 원청 압박 투쟁”대기업-공기업-지자체-대학-병원 등“교섭 대상 범위 여전히 불분명” 긴장정부 “법 지원단 꾸려 혼란 최소화”전국민주노동조합총연맹(민노총) 금속노조 경남지부는 한화오션의 한 협력사 노동조합과 함께 지난달 26일부터 거제조선소에 천막을 치고 농성하고 있다. 이들은 직원 급식과 작업복 세탁을 담당하는 협력업체 근로자에게도 성과급을 지급하라며 원청과의 단체교섭을 요구하고 있다. 조선업계 관계자는 “선박 생산과 전혀 상관없는 단순 하청업체들의 요구에 어떻게 대응해야 할지 막막하다”",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.630122+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-043",
+      "title": "‘담합 과징금’ 하한선… 내달 20배로 높인다",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H3",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/020/0003702707",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "공정위, 과징금 고시 개정안 행정예고매출액 0.5%서 10% 이상으로 높여… 10년내 반복 위반하면 2배 가중협조-자진시정 감경률도 대폭 축소李대통령 “부당이익 그 이상 반환”앞으로 담합이 적발되면 과징금으로 관련 매출액의 10% 이상을 부과한다. 지금까지는 과징금 액수가 매출액의 0.5%부터 시작했지만, 부과 하한선이 20배로 높아지는 것이다. 10년 안에 담합으로 2번 이상 적발될 경우 산정된 과징금의 최대 100%가 가중돼, 담합한 기업의 과징금이 지금보다 무거워진다.공정거래위원회는 이 같은 내용의 ‘과징금 부과 세부기준 등에",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.630266+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-044",
+      "title": "오세훈 “선거 임할 최소한 발판 마련”… 공관위 “추가 접수 논의”",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/020/0003702695",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "吳 서울시장 후보 공천 신청 예상“장동혁 향후 행보가 변수” 관측도이정현 “오동설 안돼” 비판뒤 물러서오세훈 서울시장(사진)은 9일 국민의힘 의원들이 12·3 비상계엄을 사과하고 ‘윤 어게인(again)’ 세력을 배척하겠다는 결의문을 발표한 것에 대해 “의미 있는 변화가 시작됐다. 선거에 임할 수 있는 최소한의 발판이 마련된 것”이라고 밝혔다. 장동혁 지도부의 노선 변경을 요구하며 마감일이었던 전날까지 공천을 신청하지 않았던 오 시장이 긍정적인 반응을 내놓은 것. 당내에선 공천관리위원회가 추가 접수에 나서면 오 시장이 공천을 신청할",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.630406+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-045",
+      "title": "'TK 자민련' 전락 우려에... \"윤석열 정치 복귀에 반대\" 결의문 낸 국힘",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/469/0000918497",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "결의문 실천 여부 장동혁 대표에 달려의총서 장 대표 향해 \"노선 수정\" 성토오세훈 \"최소한의 발판 마련\" 환영 입장장동혁 국민의힘 대표가 9일 서울 여의도 국회에서 열린 의원총회에서 잠시 생각에 잠겨 있다. 뉴시스국민의힘이 9일 12·3 불법 계엄 선포를 사과하고 윤석열 전 대통령의 복귀에 반대한다는 결의문을 채택했다. 윤 전 대통령이 12·3 불법 계엄을 선포한 지 461일 만이다. 장동혁 대표는 그간 강성 지지층의 눈치를 보느라 당 안팎의 절윤(윤 전 대통령과의 절연) 요구에 침묵한 채 버티기로만 일관했다. 그러나6·3 지방선거",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.630545+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-정치-046",
+      "title": "[단독] 공천용 보험금? 지선 예비후보 22명, 지역 의원에 수백만원 후원금",
+      "classification": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/469/0000918491",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "대부분 시군구 의원 등 기초 의회 의원들연간 한도인 500만 원 지역구 의원 후원\"공천 위한 보험금 아니냐\" 지적 불가피이철규 2억7350만 원 중 67%가 고액정청래 부승찬 등 고액 후원금 비중 0%노태악 중앙선거관리위원장이 지난달 27일 경기 과천 중앙선거관리위원회에서 열린 제9회 전국동시지방선거 선거종합상황실 개소식에서 투표 시연을 하고 있다. 뉴시스6·3 지방선거를 앞두고 최소 22명의 예비후보자가 본인이 출마하는 지역구 국회의원에게 300만 원 이상 고액 후원금을 낸 것으로 9일 확인됐다. 예비후보자들이 유권자로서 후원하는",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:05:55.630682+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-경제-047",
+      "title": "삼성SDI, 피지컬 AI용 전고체 첫 공개…\"AI 시대 경쟁력 강조\"",
+      "classification": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/경제",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008813725",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "인터배터리 2026 참가…휴머노이드용 파우치형 전고체 샘플 공개AI 데이터센터 UPS·BBU용 초고출력 배터리·ESS 진단 SW 전시삼성SDI 부스 조감도.(서울=뉴스1) 박기범 기자 = 삼성SDI(006400)가 인공지능(AI) 시대에 대응하는 차세대 배터리 기술과 설루션을 대거 공개한다. 로봇 등 피지컬 AI용 전고체 배터리와 AI 데이터센터용 초고출력 배터리 등을 통해 AI 인프라 핵심 공급자로 경쟁력을 강조한다는 전략이다.삼성SDI는 11일 서울 코엑스에서 개막하는 InterBattery 2026에서 'AI thinks, B",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:08:22.747757+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-경제-048",
+      "title": "김정관 \"캐나다 잠수함 수주전, 분리 발주 없다고 확인…최선 다해 지원\"",
+      "classification": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/경제",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008815527",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "\"캐나다의 '자동차 공장 건설' 요구, 직·간접적으로 이야기 있어\"9일 서울 여의도 국회에서 열린 제433회국회(임시회) 산업통상자원중소벤처기업위원회 제1차전체회의에서 김정관 산업통상부 장관이 의원 질의에 답변하고 있다. 2026.3.9 ⓒ 뉴스1 이승배 기자(세종=뉴스1) 김승준 기자 = 김정관 산업통상부 장관은 9일 캐나다가 진행 중인 초계 잠수함 프로젝트(CPSP) 수주 경쟁과 관련해 일각에서 거론되는 분리 발주 계획은 없다고 언급했다.김 장관은 이날 국회 산업통상자원중소벤처기업위원회 전체 회의에서 분리 발주 사실과 관련한 서",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:08:22.747964+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-경제-049",
+      "title": "울산 초등 저학년생, 내달부터 국산 과일 간식 먹는다",
+      "classification": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H3",
+      "source": {
+        "name": "네이버뉴스/경제",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008815910",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "서울 서대문구 설맞이 직거래장터에 사과, 배 등 과일이 진열돼 있다. 2026.2.7 ⓒ 뉴스1 안은나 기자(울산=뉴스1) 조민주 기자 = 울산시는 4월부터 관내 초등학교 1~2학년 돌봄·방과후교육 학생들을 대상으로 국산 제철 과일을 간식으로 제공하는 사업을 추진한다고 10일 밝혔다.이 사업은 성장기 아동의 건강한 식습관 형성을 돕는 동시에 지역 농가의 안정적인 판로를 확보하기 위해 마련됐다.울산시는 총 7억 1400만 원의 사업비를 투입해 관내 124개 초등학교 약 1만 1900명의 학생들에게 과일 간식을 제공할 계획이다.간식은 ",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:08:22.748157+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    },
+    {
+      "id": "naver-20260310-경제-050",
+      "title": "신고즉시 추심중단 2주내 소송지원…불법사금융 원스톱지원",
+      "classification": "E_Economic",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "source": {
+        "name": "네이버뉴스/경제",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015946098",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "금융당국, 현장간담회…하반기 중 온라인 통합신고플랫폼도 구축불법사금융 원스톱 종합 전담 지원시스템 관련 현장 간담회(서울=연합뉴스) 윤동진 기자 = 이억원 금융위원장이 9일 서울 중구 서민금융통합지원센터에서 열린 불법사금융 원스톱 종합 전담 지원시스템 관련 현장 간담회에서 발언하고 있다. 2026.3.9 mon@yna.co.kr(서울=연합뉴스) 배영경 기자 = 불법사금융 피해를 한 번만 신고하면 정부가 상담 첫날 추심을 즉각 중단시키고 2주 안으로 법률지원까지 제공하는 원스톱 종합·전담 지원시스템이 9일 시작된다.금융위원회는 이날 ",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T23:08:22.748348+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf3-naver"
+      }
+    }
+  ],
+  "metadata": {
+    "scan_date": "2026-03-10",
+    "total_raw": 268,
+    "total_classified": 50,
+    "classification_method": "section_steeps_heuristic_with_fssf"
+  }
+}

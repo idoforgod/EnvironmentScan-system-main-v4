@@ -1,0 +1,33 @@
+{
+  "scan_date": "2026-03-11",
+  "ranking_method": "priority_score_calculator.py",
+  "weights": {"impact": 0.40, "probability": 0.30, "urgency": 0.20, "novelty": 0.10},
+  "total_ranked": 25,
+  "ranked_signals": [
+    {"rank": 1, "id": "tc-20260311-002", "title": "AI Surveillance Legal Framework Crisis: Anthropic Sues Pentagon", "priority_score": 9.2, "steeps": "P_Political", "psst_grade": "B"},
+    {"rank": 2, "id": "tc-20260311-003", "title": "Iran War Energy Shock: Oil Above $100, Accelerated Energy Transition", "priority_score": 9.0, "steeps": "E_Economic", "psst_grade": "B"},
+    {"rank": 3, "id": "tc-20260311-012", "title": "China's 15th Five-Year Plan: Coal Peak by 2030", "priority_score": 8.8, "steeps": "E_Environmental", "psst_grade": "B"},
+    {"rank": 4, "id": "tc-20260311-001", "title": "Intel FHE Chip (Heracles) — 5000x Encryption Speedup", "priority_score": 8.7, "steeps": "T_Technological", "psst_grade": "B"},
+    {"rank": 5, "id": "tc-20260311-005", "title": "Google/Tesla Launch 'Utilize' for AI Grid Management", "priority_score": 8.5, "steeps": "T_Technological", "psst_grade": "B"},
+    {"rank": 6, "id": "tc-20260311-017", "title": "Middle East War Displaces 700,000 in Lebanon", "priority_score": 8.5, "steeps": "P_Political", "psst_grade": "B"},
+    {"rank": 7, "id": "tc-20260311-008", "title": "Virtual Cell Simulation: Complete Bacterial Division In Silico", "priority_score": 8.3, "steeps": "T_Technological", "psst_grade": "B"},
+    {"rank": 8, "id": "tc-20260311-004", "title": "Amazon Healthcare AI Assistant Launch", "priority_score": 8.2, "steeps": "T_Technological", "psst_grade": "B"},
+    {"rank": 9, "id": "tc-20260311-020", "title": "AI Data Centers: 12% US Electricity by 2028", "priority_score": 8.2, "steeps": "E_Environmental", "psst_grade": "B"},
+    {"rank": 10, "id": "tc-20260311-011", "title": "White House Moves to Break Up NCAR Climate Lab", "priority_score": 8.1, "steeps": "P_Political", "psst_grade": "B"},
+    {"rank": 11, "id": "tc-20260311-010", "title": "ARPA-H $144M for Biological Aging Intervention Trials", "priority_score": 8.0, "steeps": "S_Social", "psst_grade": "B"},
+    {"rank": 12, "id": "tc-20260311-013", "title": "Compound Drought-Heat Extremes Doubled Since 2002", "priority_score": 8.0, "steeps": "E_Environmental", "psst_grade": "B"},
+    {"rank": 13, "id": "tc-20260311-006", "title": "Mandiant Founder $190M for Autonomous AI Cybersecurity", "priority_score": 7.8, "steeps": "T_Technological", "psst_grade": "B"},
+    {"rank": 14, "id": "tc-20260311-015", "title": "Meta Acquires AI Agent Social Network Moltbook", "priority_score": 7.8, "steeps": "T_Technological", "psst_grade": "B"},
+    {"rank": 15, "id": "tc-20260311-009", "title": "Nature: AGI Assessment Framework Needed", "priority_score": 7.7, "steeps": "s_spiritual", "psst_grade": "B"},
+    {"rank": 16, "id": "tc-20260311-018", "title": "DOGE Employee Exfiltrated Social Security Data", "priority_score": 7.6, "steeps": "P_Political", "psst_grade": "C"},
+    {"rank": 17, "id": "tc-20260311-007", "title": "AI Apps Retention Crisis Despite Monetization", "priority_score": 7.5, "steeps": "T_Technological", "psst_grade": "C"},
+    {"rank": 18, "id": "tc-20260311-014", "title": "YouTube Surpasses Disney/Paramount/WBD Ad Revenue", "priority_score": 7.3, "steeps": "E_Economic", "psst_grade": "C"},
+    {"rank": 19, "id": "tc-20260311-024", "title": "AI Agent Harassment Emerges as New Threat", "priority_score": 7.3, "steeps": "T_Technological", "psst_grade": "C"},
+    {"rank": 20, "id": "tc-20260311-019", "title": "WHO Pandemic Agreement Pathogen Access Advancing", "priority_score": 7.3, "steeps": "S_Social", "psst_grade": "C"},
+    {"rank": 21, "id": "tc-20260311-016", "title": "YouTube AI Deepfake Detection for Public Figures", "priority_score": 7.2, "steeps": "P_Political", "psst_grade": "C"},
+    {"rank": 22, "id": "tc-20260311-023", "title": "Climate Models Underestimate Boreal Wildfire Carbon", "priority_score": 7.2, "steeps": "E_Environmental", "psst_grade": "C"},
+    {"rank": 23, "id": "tc-20260311-021", "title": "Global Decline in Religious-Moral Linkage", "priority_score": 7.0, "steeps": "s_spiritual", "psst_grade": "C"},
+    {"rank": 24, "id": "tc-20260311-022", "title": "AI Legal Tech: Legora $5.55B Valuation", "priority_score": 7.0, "steeps": "E_Economic", "psst_grade": "C"},
+    {"rank": 25, "id": "tc-20260311-025", "title": "Africa Fintech Innovation: Cross-Border Expansion", "priority_score": 6.8, "steeps": "T_Technological", "psst_grade": "C"}
+  ]
+}

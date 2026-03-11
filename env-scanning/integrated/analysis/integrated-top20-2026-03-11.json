@@ -1,0 +1,213 @@
+{
+  "date": "2026-03-11",
+  "ranking_metadata": {
+    "total_ranked": 20,
+    "method": "pSST_unified",
+    "workflows_included": ["WF1", "WF2", "WF4"],
+    "wf1_count": 9,
+    "wf2_count": 5,
+    "wf4_count": 6
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "wf": "WF4",
+      "id": "news-2026-03-11-nyt-iran-01",
+      "title": "US-Iran War Costs $5.6 Billion in Munitions in First Two Days",
+      "psst": 94.0,
+      "grade": "A",
+      "steeps": "P_Political",
+      "priority": 9.4
+    },
+    {
+      "rank": 2,
+      "wf": "WF1",
+      "id": "tc-20260311-002",
+      "title": "AI Surveillance Legal Framework Crisis: Anthropic Sues Pentagon",
+      "psst": 92.0,
+      "grade": "B",
+      "steeps": "P_Political",
+      "priority": 9.2
+    },
+    {
+      "rank": 3,
+      "wf": "WF1",
+      "id": "tc-20260311-003",
+      "title": "Iran War Energy Shock: Oil Above $100, Accelerated Energy Transition",
+      "psst": 90.0,
+      "grade": "B",
+      "steeps": "E_Economic",
+      "priority": 9.0
+    },
+    {
+      "rank": 4,
+      "wf": "WF1",
+      "id": "tc-20260311-012",
+      "title": "China's 15th Five-Year Plan: Coal Peak by 2030",
+      "psst": 88.0,
+      "grade": "B",
+      "steeps": "E_Environmental",
+      "priority": 8.8
+    },
+    {
+      "rank": 5,
+      "wf": "WF1",
+      "id": "tc-20260311-001",
+      "title": "Intel FHE Chip (Heracles) — 5000x Encryption Speedup",
+      "psst": 87.0,
+      "grade": "B",
+      "steeps": "T_Technological",
+      "priority": 8.7
+    },
+    {
+      "rank": 6,
+      "wf": "WF2",
+      "id": "arxiv-2603.08566v1",
+      "title": "OSS-CRS: Liberating AIxCC Cyber Reasoning Systems for Real-World Open-Source Security",
+      "psst": 87.0,
+      "grade": "B",
+      "steeps": "T_Technological",
+      "priority": 8.7
+    },
+    {
+      "rank": 7,
+      "wf": "WF4",
+      "id": "news-2026-03-11-rt-iran-moscow-02",
+      "title": "The Iranian Knot: Why Trump Turned to Putin to Help End the War",
+      "psst": 87.0,
+      "grade": "B",
+      "steeps": "P_Political",
+      "priority": 8.7
+    },
+    {
+      "rank": 8,
+      "wf": "WF4",
+      "id": "news-2026-03-11-rt-vw-50k-jobs-07",
+      "title": "Volkswagen to Slash 50,000 Jobs in Germany by 2030 Amid EV Transition Crisis",
+      "psst": 86.0,
+      "grade": "B",
+      "steeps": "E_Economic",
+      "priority": 8.6
+    },
+    {
+      "rank": 9,
+      "wf": "WF4",
+      "id": "news-2026-03-11-rt-israel-chemical-11",
+      "title": "Israeli Strikes on Iranian Fuel Depots Compared to Chemical Warfare: Acid Rain Over Tehran",
+      "psst": 86.0,
+      "grade": "B",
+      "steeps": "E_Environmental",
+      "priority": 8.6
+    },
+    {
+      "rank": 10,
+      "wf": "WF1",
+      "id": "tc-20260311-005",
+      "title": "Google/Tesla Launch 'Utilize' for AI Grid Management",
+      "psst": 85.0,
+      "grade": "B",
+      "steeps": "T_Technological",
+      "priority": 8.5
+    },
+    {
+      "rank": 11,
+      "wf": "WF1",
+      "id": "tc-20260311-017",
+      "title": "Middle East War Displaces 700,000 in Lebanon",
+      "psst": 85.0,
+      "grade": "B",
+      "steeps": "P_Political",
+      "priority": 8.5
+    },
+    {
+      "rank": 12,
+      "wf": "WF2",
+      "id": "arxiv-2603.08520v1",
+      "title": "SCAFFOLD-CEGIS: Preventing Security Degradation in LLM Code Refinement",
+      "psst": 85.0,
+      "grade": "B",
+      "steeps": "T_Technological",
+      "priority": 8.5
+    },
+    {
+      "rank": 13,
+      "wf": "WF2",
+      "id": "arxiv-2603.08665v1",
+      "title": "Cybersecurity AI: Hacking Consumer Robots in the AI Era",
+      "psst": 85.0,
+      "grade": "B",
+      "steeps": "P_Political",
+      "priority": 8.5
+    },
+    {
+      "rank": 14,
+      "wf": "WF2",
+      "id": "arxiv-2603.08221v1",
+      "title": "SplitAgent: Privacy-Preserving Enterprise-Cloud AI Agent Architecture",
+      "psst": 84.0,
+      "grade": "B",
+      "steeps": "T_Technological",
+      "priority": 8.4
+    },
+    {
+      "rank": 15,
+      "wf": "WF4",
+      "id": "news-2026-03-11-nyt-openai-lawsuit-06",
+      "title": "Mother of Shooting Victim Sues OpenAI Over Failure to Alert Authorities",
+      "psst": 84.0,
+      "grade": "B",
+      "steeps": "s_spiritual",
+      "priority": 8.4
+    },
+    {
+      "rank": 16,
+      "wf": "WF1",
+      "id": "tc-20260311-008",
+      "title": "Virtual Cell Simulation: Complete Bacterial Division In Silico",
+      "psst": 83.0,
+      "grade": "B",
+      "steeps": "T_Technological",
+      "priority": 8.3
+    },
+    {
+      "rank": 17,
+      "wf": "WF4",
+      "id": "news-2026-03-11-chosun-emergency-budget-09",
+      "title": "Korea Activates Emergency Economic Response: Supplementary Budget and All Policy Tools Deployed",
+      "psst": 83.0,
+      "grade": "B",
+      "steeps": "E_Economic",
+      "priority": 8.3
+    },
+    {
+      "rank": 18,
+      "wf": "WF1",
+      "id": "tc-20260311-004",
+      "title": "Amazon Healthcare AI Assistant Launch",
+      "psst": 82.0,
+      "grade": "B",
+      "steeps": "T_Technological",
+      "priority": 8.2
+    },
+    {
+      "rank": 19,
+      "wf": "WF1",
+      "id": "tc-20260311-020",
+      "title": "AI Data Centers: 12% US Electricity by 2028",
+      "psst": 82.0,
+      "grade": "B",
+      "steeps": "E_Environmental",
+      "priority": 8.2
+    },
+    {
+      "rank": 20,
+      "wf": "WF2",
+      "id": "arxiv-2603.08412v1",
+      "title": "Aligning to Illusions: Choice Blindness in Human and AI Feedback",
+      "psst": 82.0,
+      "grade": "B",
+      "steeps": "s_spiritual",
+      "priority": 8.2
+    }
+  ]
+}

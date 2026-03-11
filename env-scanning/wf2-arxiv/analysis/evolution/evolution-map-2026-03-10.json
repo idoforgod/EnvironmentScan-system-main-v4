@@ -1,0 +1,2082 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf2-arxiv",
+  "scan_date": "2026-03-10",
+  "computed_at": "2026-03-09T23:00:11Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 50,
+    "new_signals": 47,
+    "recurring_signals": 0,
+    "strengthening_signals": 2,
+    "weakening_signals": 1,
+    "transformed_signals": 0,
+    "faded_threads": 122,
+    "active_threads": 734
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "arxiv-2603.05972v1",
+      "thread_id": "THREAD-WF2-2399",
+      "canonical_title": "THETA: A Textual Hybrid Embedding-based Topic Analysis Framework and AI Scientist Agent for Scalable Computational Social Science",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "THETA: A Textual Hybrid Embedding-based Topic Analysis Framework and AI Scientist Agent for Scalable Computational Social Science",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05801v1",
+      "thread_id": "THREAD-WF2-2400",
+      "canonical_title": "Ambiguity Collapse by LLMs: A Taxonomy of Epistemic Risks",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Ambiguity Collapse by LLMs: A Taxonomy of Epistemic Risks",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05710v1",
+      "thread_id": "THREAD-WF2-2401",
+      "canonical_title": "The Rise of AI in Weather and Climate Information and its Impact on Global Inequality",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "The Rise of AI in Weather and Climate Information and its Impact on Global Inequality",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05839v1",
+      "thread_id": "THREAD-WF2-2402",
+      "canonical_title": "Evaluating LLM Alignment With Human Trust Models",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Evaluating LLM Alignment With Human Trust Models",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06569v1",
+      "thread_id": "THREAD-WF2-2403",
+      "canonical_title": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06365v1",
+      "thread_id": "THREAD-WF2-2404",
+      "canonical_title": "ESAA-Security: An Event-Sourced, Verifiable Architecture for Agent-Assisted Security Audits of AI-Generated Code",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "ESAA-Security: An Event-Sourced, Verifiable Architecture for Agent-Assisted Security Audits of AI-Generated Code",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06279v1",
+      "thread_id": "THREAD-WF2-2405",
+      "canonical_title": "Can we Trust Unreliable Voxels? Exploring 3D Semantic Occupancy Prediction under Label Noise",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Can we Trust Unreliable Voxels? Exploring 3D Semantic Occupancy Prediction under Label Noise",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06265v1",
+      "thread_id": "THREAD-WF2-2406",
+      "canonical_title": "ODD-SEC: Onboard Drone Detection with a Spinning Event Camera",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "ODD-SEC: Onboard Drone Detection with a Spinning Event Camera",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06494v1",
+      "thread_id": "THREAD-WF2-2407",
+      "canonical_title": "Control Barrier Corridors: From Safety Functions to Safe Sets",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Control Barrier Corridors: From Safety Functions to Safe Sets",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06299v1",
+      "thread_id": "THREAD-WF2-2408",
+      "canonical_title": "An Integrated Failure and Threat Mode and Effect Analysis (FTMEA) Framework with Quantified Cross-Domain Correlation Factors for Automotive Semiconductors",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "An Integrated Failure and Threat Mode and Effect Analysis (FTMEA) Framework with Quantified Cross-Domain Correlation Factors for Automotive Semiconductors",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06422v1",
+      "thread_id": "THREAD-WF2-2409",
+      "canonical_title": "Before You Hand Over the Wheel: Evaluating LLMs for Security Incident Analysis",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Before You Hand Over the Wheel: Evaluating LLMs for Security Incident Analysis",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06358v1",
+      "thread_id": "THREAD-WF2-2410",
+      "canonical_title": "A Scalable Benchmark for Repository-Oriented Long-Horizon Conversational Context Management",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "A Scalable Benchmark for Repository-Oriented Long-Horizon Conversational Context Management",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06029v1",
+      "thread_id": "THREAD-WF2-2411",
+      "canonical_title": "When Specifications Meet Reality: Uncovering API Inconsistencies in Ethereum Infrastructure",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "When Specifications Meet Reality: Uncovering API Inconsistencies in Ethereum Infrastructure",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05863v1",
+      "thread_id": "THREAD-WF2-2412",
+      "canonical_title": "ReflexiCoder: Teaching Large Language Models to Self-Reflect on Generated Code and Self-Correct It via Reinforcement Learning",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "ReflexiCoder: Teaching Large Language Models to Self-Reflect on Generated Code and Self-Correct It via Reinforcement Learning",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05645v1",
+      "thread_id": "THREAD-WF2-2413",
+      "canonical_title": "Pitfalls in VM Implementation on CHERI: Lessons from Porting CRuby",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Pitfalls in VM Implementation on CHERI: Lessons from Porting CRuby",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05637v1",
+      "thread_id": "THREAD-WF2-2414",
+      "canonical_title": "Real Faults in Model Context Protocol (MCP) Software: a Comprehensive Taxonomy",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Real Faults in Model Context Protocol (MCP) Software: a Comprehensive Taxonomy",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06243v1",
+      "thread_id": "THREAD-WF2-2415",
+      "canonical_title": "MLLMRec-R1: Incentivizing Reasoning Capability in Large Language Models for Multimodal Sequential Recommendation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "MLLMRec-R1: Incentivizing Reasoning Capability in Large Language Models for Multimodal Sequential Recommendation",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05641v1",
+      "thread_id": "THREAD-WF2-2416",
+      "canonical_title": "RFM-HRI : A Multimodal Dataset of Medical Robot Failure, User Reaction and Recovery Preferences for Item Retrieval Tasks",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "RFM-HRI : A Multimodal Dataset of Medical Robot Failure, User Reaction and Recovery Preferences for Item Retrieval Tasks",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05707v1",
+      "thread_id": "THREAD-WF2-2417",
+      "canonical_title": "The toric code under antiferromagnetic isotropic Heisenberg interactions",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "The toric code under antiferromagnetic isotropic Heisenberg interactions",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.04746v1",
+      "thread_id": "THREAD-WF2-2232",
+      "canonical_title": "Visioning Human-Agentic AI Teaming: Continuity, Tension, and Future Research",
+      "state": "STRENGTHENING",
+      "state_ko": "강화",
+      "confidence": "HIGH",
+      "appearance_count": 2,
+      "metrics": {
+        "velocity": 0.66,
+        "direction": "ACCELERATING",
+        "expansion": 0.1,
+        "days_tracked": 1,
+        "psst_current": 30.4,
+        "psst_previous": 23.8,
+        "psst_delta": "+6.599999999999998"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "Visioning Human-Agentic AI Teaming: Continuity, Tension, and Future Research",
+          "psst": 23.8
+        },
+        {
+          "date": "2026-03-10",
+          "title": "Visioning Human-Agentic AI Teaming: Continuity, Tension, and Future Research",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05772v1",
+      "thread_id": "THREAD-WF2-2418",
+      "canonical_title": "Depth Charge: Jailbreak Large Language Models from Deep Safety Attention Heads",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Depth Charge: Jailbreak Large Language Models from Deep Safety Attention Heads",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06264v1",
+      "thread_id": "THREAD-WF2-2419",
+      "canonical_title": "Mind the Gap: Pitfalls of LLM Alignment with Asian Public Opinion",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Mind the Gap: Pitfalls of LLM Alignment with Asian Public Opinion",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05941v1",
+      "thread_id": "THREAD-WF2-2420",
+      "canonical_title": "XAI for Coding Agent Failures: Transforming Raw Execution Traces into Actionable Insights",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "XAI for Coding Agent Failures: Transforming Raw Execution Traces into Actionable Insights",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06190v1",
+      "thread_id": "THREAD-WF2-2421",
+      "canonical_title": "DreamToNav: Generalizable Navigation for Robots via Generative Video Planning",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "DreamToNav: Generalizable Navigation for Robots via Generative Video Planning",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06065v1",
+      "thread_id": "THREAD-WF2-2422",
+      "canonical_title": "ChatShopBuddy: Towards Reliable Conversational Shopping Agents via Reinforcement Learning",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "ChatShopBuddy: Towards Reliable Conversational Shopping Agents via Reinforcement Learning",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06292v1",
+      "thread_id": "THREAD-WF2-2423",
+      "canonical_title": "Enhanced Protein Intrinsic Disorder Prediction Through Dual-View Multiscale Features and Multi-objective Evolutionary Algorithm",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Enhanced Protein Intrinsic Disorder Prediction Through Dual-View Multiscale Features and Multi-objective Evolutionary Algorithm",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06210v1",
+      "thread_id": "THREAD-WF2-2424",
+      "canonical_title": "VG3S: Visual Geometry Grounded Gaussian Splatting for Semantic Occupancy Prediction",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "VG3S: Visual Geometry Grounded Gaussian Splatting for Semantic Occupancy Prediction",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06503v1",
+      "thread_id": "THREAD-WF2-2425",
+      "canonical_title": "Beyond Rows to Reasoning: Agentic Retrieval for Multimodal Spreadsheet Understanding and Editing",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Beyond Rows to Reasoning: Agentic Retrieval for Multimodal Spreadsheet Understanding and Editing",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06051v1",
+      "thread_id": "THREAD-WF2-2426",
+      "canonical_title": "A LINDDUN-based Privacy Threat Modeling Framework for GenAI",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "A LINDDUN-based Privacy Threat Modeling Framework for GenAI",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06508v1",
+      "thread_id": "THREAD-WF2-2427",
+      "canonical_title": "When One Modality Rules Them All: Backdoor Modality Collapse in Multimodal Diffusion Models",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "When One Modality Rules Them All: Backdoor Modality Collapse in Multimodal Diffusion Models",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05872v1",
+      "thread_id": "THREAD-WF2-2428",
+      "canonical_title": "Evolving Deception: When Agents Evolve, Deception Wins",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Evolving Deception: When Agents Evolve, Deception Wins",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06025v1",
+      "thread_id": "THREAD-WF2-2429",
+      "canonical_title": "Sensitivity-Aware Retrieval-Augmented Intent Clarification",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Sensitivity-Aware Retrieval-Augmented Intent Clarification",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05831v1",
+      "thread_id": "THREAD-WF2-2430",
+      "canonical_title": "Knowledge-driven Reasoning for Mobile Agentic AI: Concepts, Approaches, and Directions",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Knowledge-driven Reasoning for Mobile Agentic AI: Concepts, Approaches, and Directions",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06254v1",
+      "thread_id": "THREAD-WF2-2431",
+      "canonical_title": "NOVA: Next-step Open-Vocabulary Autoregression for 3D Multi-Object Tracking in Autonomous Driving",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "NOVA: Next-step Open-Vocabulary Autoregression for 3D Multi-Object Tracking in Autonomous Driving",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05621v1",
+      "thread_id": "THREAD-WF2-2432",
+      "canonical_title": "RACAS: Controlling Diverse Robots With a Single Agentic System",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "RACAS: Controlling Diverse Robots With a Single Agentic System",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05129v1",
+      "thread_id": "THREAD-WF2-1756",
+      "canonical_title": "MedCoRAG: Interpretable Hepatology Diagnosis via Hybrid Evidence Retrieval and Multispecialty Consensus",
+      "state": "WEAKENING",
+      "state_ko": "약화",
+      "confidence": "HIGH",
+      "appearance_count": 2,
+      "metrics": {
+        "velocity": -1.0,
+        "direction": "DECELERATING",
+        "expansion": 0.18,
+        "days_tracked": 3,
+        "psst_current": 30.4,
+        "psst_previous": 53.7,
+        "psst_delta": "-23.300000000000004"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-07",
+          "title": "MedCoRAG: Interpretable Hepatology Diagnosis via Hybrid Evidence Retrieval and Multispecialty Consensus",
+          "psst": 53.7
+        },
+        {
+          "date": "2026-03-10",
+          "title": "MedCoRAG: Interpretable Hepatology Diagnosis via Hybrid Evidence Retrieval and Multispecialty Consensus",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06240v1",
+      "thread_id": "THREAD-WF2-2433",
+      "canonical_title": "Human, Algorithm, or Both? Gender Bias in Human-Augmented Recruiting",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Human, Algorithm, or Both? Gender Bias in Human-Augmented Recruiting",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06223v1",
+      "thread_id": "THREAD-WF2-2434",
+      "canonical_title": "What are AI researchers worried about?",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "What are AI researchers worried about?",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05789v1",
+      "thread_id": "THREAD-WF2-2435",
+      "canonical_title": "The Coordination Gap: Alternation Metrics for Temporal Dynamics in Multi-Agent Battle of the Exes",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "The Coordination Gap: Alternation Metrics for Temporal Dynamics in Multi-Agent Battle of the Exes",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.04786v1",
+      "thread_id": "THREAD-WF2-2120",
+      "canonical_title": "Wave interactions in a screeching jet",
+      "state": "STRENGTHENING",
+      "state_ko": "강화",
+      "confidence": "HIGH",
+      "appearance_count": 3,
+      "metrics": {
+        "velocity": -1.0,
+        "direction": "VOLATILE",
+        "expansion": 0.18,
+        "days_tracked": 3,
+        "psst_current": 30.4,
+        "psst_previous": 23.2,
+        "psst_delta": "+7.199999999999999"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-07",
+          "title": "Wave interactions in a screeching jet",
+          "psst": 53.7
+        },
+        {
+          "date": "2026-03-09",
+          "title": "Wave interactions in a screeching jet",
+          "psst": 23.2
+        },
+        {
+          "date": "2026-03-10",
+          "title": "Wave interactions in a screeching jet",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05277v1",
+      "thread_id": "THREAD-WF2-2436",
+      "canonical_title": "Extensions to the Wealth Tax Neutrality Framework",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Extensions to the Wealth Tax Neutrality Framework",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06576v1",
+      "thread_id": "THREAD-WF2-2437",
+      "canonical_title": "BEVLM: Distilling Semantic Knowledge from LLMs into Bird's-Eye View Representations",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "BEVLM: Distilling Semantic Knowledge from LLMs into Bird's-Eye View Representations",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06445v1",
+      "thread_id": "THREAD-WF2-2438",
+      "canonical_title": "What if? Emulative Simulation with World Models for Situated Reasoning",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "What if? Emulative Simulation with World Models for Situated Reasoning",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05689v1",
+      "thread_id": "THREAD-WF2-2439",
+      "canonical_title": "SecureRAG-RTL: A Retrieval-Augmented, Multi-Agent, Zero-Shot LLM-Driven Framework for Hardware Vulnerability Detection",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "SecureRAG-RTL: A Retrieval-Augmented, Multi-Agent, Zero-Shot LLM-Driven Framework for Hardware Vulnerability Detection",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06577v1",
+      "thread_id": "THREAD-WF2-2440",
+      "canonical_title": "Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06287v1",
+      "thread_id": "THREAD-WF2-2441",
+      "canonical_title": "Learning Where the Physics Is: Probabilistic Adaptive Sampling for Stiff PDEs",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Learning Where the Physics Is: Probabilistic Adaptive Sampling for Stiff PDEs",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05915v1",
+      "thread_id": "THREAD-WF2-2442",
+      "canonical_title": "ThermoCAPTCHA: Privacy-Preserving Human Verification with Farm-Resistant Traceable Tokens",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "ThermoCAPTCHA: Privacy-Preserving Human Verification with Farm-Resistant Traceable Tokens",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05773v1",
+      "thread_id": "THREAD-WF2-2443",
+      "canonical_title": "Knowing without Acting: The Disentangled Geometry of Safety Mechanisms in Large Language Models",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Knowing without Acting: The Disentangled Geometry of Safety Mechanisms in Large Language Models",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.06303v1",
+      "thread_id": "THREAD-WF2-2444",
+      "canonical_title": "Polarized Direct Cross-Attention Message Passing in GNNs for Machinery Fault Diagnosis",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Polarized Direct Cross-Attention Message Passing in GNNs for Machinery Fault Diagnosis",
+          "psst": 30.4
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.05974v1",
+      "thread_id": "THREAD-WF2-2445",
+      "canonical_title": "Balancing Latency and Accuracy of Code Completion via Local-Cloud Model Cascading",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 30.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Balancing Latency and Accuracy of Code Completion via Local-Cloud Model Cascading",
+          "psst": 30.4
+        }
+      ]
+    }
+  ],
+  "faded_threads": [
+    {
+      "thread_id": "THREAD-WF2-1669",
+      "canonical_title": "RoboPocket: Improve Robot Policies Instantly with Your Phone",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1671",
+      "canonical_title": "POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1674",
+      "canonical_title": "Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1676",
+      "canonical_title": "SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1677",
+      "canonical_title": "Thermodynamic Response Functions in Singular Bayesian Models",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1682",
+      "canonical_title": "NCTB-QA: A Large-Scale Bangla Educational Question Answering Dataset and Benchmarking Performance",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1686",
+      "canonical_title": "RealWonder: Real-Time Physical Action-Conditioned Video Generation",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1690",
+      "canonical_title": "Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1692",
+      "canonical_title": "RelaxFlow: Text-Driven Amodal 3D Generation",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1693",
+      "canonical_title": "An interpretable prototype parts-based neural network for medical tabular data",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1694",
+      "canonical_title": "MobileFetalCLIP: Selective Repulsive Knowledge Distillation for Mobile Fetal Ultrasound Analysis",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1708",
+      "canonical_title": "PACE: A Personalized Adaptive Curriculum Engine for 9-1-1 Call-taker Training",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1709",
+      "canonical_title": "DiSCTT: Consensus-Guided Self-Curriculum for Efficient Test-Time Adaptation in Reasoning",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1711",
+      "canonical_title": "InfoFlow KV: Information-Flow-Aware KV Recomputation for Long Context",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1713",
+      "canonical_title": "A Multilingual Human Annotated Corpus of Original and Easy-to-Read Texts to Support Access to Democratic Participatory Processes",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1714",
+      "canonical_title": "Preserving Continuous Symmetry in Discrete Spaces: Geometric-Aware Quantization for SO(3)-Equivariant GNNs",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1715",
+      "canonical_title": "On the Statistical Optimality of Optimal Decision Trees",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1716",
+      "canonical_title": "Bayes with No Shame: Admissibility Geometries of Predictive Inference",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1717",
+      "canonical_title": "Dark3R: Learning Structure from Motion in the Dark",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1718",
+      "canonical_title": "FairFinGAN: Fairness-aware Synthetic Financial Data Generation",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1719",
+      "canonical_title": "GALACTIC: Global and Local Agnostic Counterfactuals for Time-series Clustering",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1720",
+      "canonical_title": "Latent-Mark: An Audio Watermark Robust to Neural Resynthesis",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1721",
+      "canonical_title": "Med-V1: Small Language Models for Zero-shot and Scalable Biomedical Evidence Attribution",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1722",
+      "canonical_title": "Fusion4CA: Boosting 3D Object Detection via Comprehensive Image Exploitation",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1723",
+      "canonical_title": "UniSTOK: Uniform Inductive Spatio-Temporal Kriging",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1724",
+      "canonical_title": "WavSLM: Single-Stream Speech Language Modeling via WavLM Distillation",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1726",
+      "canonical_title": "WebChain: A Large-Scale Human-Annotated Dataset of Real-World Web Interaction Traces",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1727",
+      "canonical_title": "STRUCTUREDAGENT: Planning with AND/OR Trees for Long-Horizon Web Tasks",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1728",
+      "canonical_title": "Knowledge Divergence and the Value of Debate for Scalable Oversight",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1729",
+      "canonical_title": "X-RAY: Mapping LLM Reasoning Capability via Formalized and Calibrated Probes",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1730",
+      "canonical_title": "Bayesian Supervised Causal Clustering",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1731",
+      "canonical_title": "Layer by layer, module by module: Choose both for optimal OOD probing of ViT",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1732",
+      "canonical_title": "Whispering to a Blackbox: Bootstrapping Frozen OCR with Visual Prompts",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1733",
+      "canonical_title": "SarcasmMiner: A Dual-Track Post-Training Framework for Robust Audio-Visual Sarcasm Reasoning",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1736",
+      "canonical_title": "Beyond Word Error Rate: Auditing the Diversity Tax in Speech Recognition through Dataset Cartography",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1737",
+      "canonical_title": "A Behaviour-Aware Federated Forecasting Framework for Distributed Stand-Alone Wind Turbines",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1738",
+      "canonical_title": "VietJobs: A Vietnamese Job Advertisement Dataset",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1739",
+      "canonical_title": "Wiki-R1: Incentivizing Multimodal Reasoning for Knowledge-based VQA via Data and Sampling Curriculum",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1740",
+      "canonical_title": "CATNet: Collaborative Alignment and Transformation Network for Cooperative Perception",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1742",
+      "canonical_title": "GCAgent: Enhancing Group Chat Communication through Dialogue Agents System",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1743",
+      "canonical_title": "Reclaiming Lost Text Layers for Source-Free Cross-Domain Few-Shot Learning",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1744",
+      "canonical_title": "SlideSparse: Fast and Flexible (2N-2):2N Structured Sparsity",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1746",
+      "canonical_title": "Not All Trust is the Same: Effects of Decision Workflow and Explanations in Human-AI Decision Making",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1748",
+      "canonical_title": "SPyCer: Semi-Supervised Physics-Guided Contextual Attention for Near-Surface Air Temperature Estimation from Satellite Imagery",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1749",
+      "canonical_title": "NL2GDS: LLM-aided interface for Open Source Chip Design",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1750",
+      "canonical_title": "Equilibrium for max-plus payoff",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1751",
+      "canonical_title": "Shock Propagation and Macroeconomic Fluctuations",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1752",
+      "canonical_title": "AttentiveLearn: Personalized Post-Lecture Support for Gaze-Aware Immersive Learning",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1754",
+      "canonical_title": "Cognitive Warfare: Definition, Framework, and Case Study",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1755",
+      "canonical_title": "Small Changes, Big Impact: Demographic Bias in LLM-Based Hiring Through Subtle Sociocultural Markers in Anonymised Resumes",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1758",
+      "canonical_title": "Jagarin: A Three-Layer Architecture for Hibernating Personal Duty Agents on Mobile",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1760",
+      "canonical_title": "Haptics in Cognition: Disruptor or Enabler of Memory?",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1762",
+      "canonical_title": "Beyond Advocacy: A Design Space for Replication-Related Studies",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1767",
+      "canonical_title": "Can LLMs Synthesize Court-Ready Statistical Evidence? Evaluating AI-Assisted Sentencing Bias Analysis for California Racial Justice Act Claims",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1771",
+      "canonical_title": "Visioning Human-Agentic AI Teaming: Continuity, Tension, and Future Research",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1774",
+      "canonical_title": "Generalizing Fair Top-$k$ Selection: An Integrative Approach",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1783",
+      "canonical_title": "Modal Fragments",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1784",
+      "canonical_title": "Good-Enough LLM Obfuscation (GELO)",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1787",
+      "canonical_title": "EVMbench: Evaluating AI Agents on Smart Contract Security",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1798",
+      "canonical_title": "Radiation Hydrodynamics at Scale: Comparing MPI and Asynchronous Many-Task Runtimes with FleCSI",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1820",
+      "canonical_title": "CoIn3D: Revisiting Configuration-Invariant Multi-Camera 3D Object Detection",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1823",
+      "canonical_title": "Programmable superconducting neuron with intrinsic in-memory computation and dual-timescale plasticity for ultra-efficient neuromorphic computing",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1831",
+      "canonical_title": "Riemannian Geometry of Optimal Rebalancing in Dynamic Weight Automated Market Makers",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1840",
+      "canonical_title": "Deterministic Preprocessing and Interpretable Fuzzy Banding for Cost-per-Student Reporting from Extracted Records",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1842",
+      "canonical_title": "Set-Membership Localization via Range Measurements",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1848",
+      "canonical_title": "Core-bound waves on a Gross-Pitaevskii vortex",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1854",
+      "canonical_title": "Spin-resolved microscopy of $^{87}$Sr SU($N$) Fermi-Hubbard systems",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1869",
+      "canonical_title": "Dynamical quantum phase transitions through the lens of mode dynamics",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1872",
+      "canonical_title": "Simulating Lattice Gauge Theories with Virtual Rishons",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1881",
+      "canonical_title": "Macromux: scalable postselection for high-threshold fault-tolerant quantum computation",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1882",
+      "canonical_title": "Robust composite two-qubit gates for silicon-based spin qubits",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1883",
+      "canonical_title": "Long-Lived Mechanically-Detected Molecular Spins for Quantum Sensing",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1885",
+      "canonical_title": "Training and Innovation in Italian Manufacturing Firms",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1886",
+      "canonical_title": "Bayesian Indicator-Saturated Regression for Climate Policy Evaluation",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1887",
+      "canonical_title": "Wealth Tax Neutrality as Drift-Shift Symmetry: A Statistical Physics Formulation",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1888",
+      "canonical_title": "Extreme Value Analysis for Finite, Multivariate and Correlated Systems with Finance as an Example",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1889",
+      "canonical_title": "Asymptotic Separability of Diffusion and Jump Components in High-Frequency CIR and CKLS Models",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1893",
+      "canonical_title": "Detection of C3 in Titan with VLT-ESPRESSO",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1895",
+      "canonical_title": "Hydrodynamic outflows of proto-lunar disk volatiles",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1897",
+      "canonical_title": "Lagrangian dispersion in experimental stratified turbulence",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1904",
+      "canonical_title": "Escaping the Hydrolysis Trap: An Agentic Workflow for Inverse Design of Durable Photocatalytic Covalent Organic Frameworks",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1936",
+      "canonical_title": "Altermagnetic Metal-Organic Frameworks",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1939",
+      "canonical_title": "Ab initio quasi-harmonic thermoelasticity, piezoelectricity, and thermoelectricity of polar solids at finite temperature and pressure: Application to wurtzite ZnO",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1940",
+      "canonical_title": "Fabry-Pérot interferometry with stochastic anyonic sources",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1941",
+      "canonical_title": "Topological Surface Charge Detection via Active Capacitive Compensation: A Pathway to the 4D Quantum Hall Effect",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1942",
+      "canonical_title": "Systematic study of superconductivity in few-layer $T_d$-MoTe$_2$",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1943",
+      "canonical_title": "Extended dynamical density functional theory for nonisothermal binary systems including momentum density",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1944",
+      "canonical_title": "Energy conservation and pressure relaxation in an extended two-temperature model for copper with an electron temperature-dependent interaction potential",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1945",
+      "canonical_title": "Absence of Orbital Hall Magnetoresistance in Nonmagnet/Ferromagnet Bilayers with Large Orbital Torque",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1946",
+      "canonical_title": "A minimal electrostatic theory for the Seebeck coefficient in liquids",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1947",
+      "canonical_title": "Design rules for industrial-scale sintering of UB4-UBC composites with high uranium density",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1948",
+      "canonical_title": "Damage Prediction of Sintered α-SiC Using Thermo-mechanical Coupled Fracture Model",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1949",
+      "canonical_title": "Orbital-Selective Spin-Orbit Mott Insulator in Fractional Valence Iridate La$_3$Ir$_3$O$_{11}$",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1950",
+      "canonical_title": "Spectroscopic evidence of disorder-induced quantum phase transitions in monolayer Fe(Te,Se) superconductor",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1960",
+      "canonical_title": "Exploring $T_{ΥΥ}$ tetraquark candidates in a coupled-channels formalism",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1962",
+      "canonical_title": "Axial-vector neutral-current measurements in coherent elastic neutrino-nucleus scattering experiments",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1967",
+      "canonical_title": "3d-3d correspondence and abelian flat connection",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1971",
+      "canonical_title": "Introduction to holography",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1994",
+      "canonical_title": "Finding Short Paths on Simple Polytopes",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-1996",
+      "canonical_title": "Obata's rigidity theorem in free probability",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2008",
+      "canonical_title": "Stochastic Optimal Feedforward-Feedback Control for Partially Observable Sensorimotor Systems",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2009",
+      "canonical_title": "An Efficient Stochastic First-Order Algorithm for Nonconvex-Strongly Concave Minimax Optimization beyond Lipschitz Smoothness",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2038",
+      "canonical_title": "ULTIMATE deblending I. A 50-band UV-to-MIR photometric catalog combining space- and ground-based data in the JWST/PRIMER survey",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2047",
+      "canonical_title": "STOchastic LAttice Simulation of hybrid inflation",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2048",
+      "canonical_title": "Probing Dark Energy on the Moon",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2063",
+      "canonical_title": "Building AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2065",
+      "canonical_title": "Frequency-Aware Error-Bounded Caching for Accelerating Diffusion Transformers",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2066",
+      "canonical_title": "PersianPunc: A Large-Scale Dataset and BERT-Based Approach for Persian Punctuation Restoration",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2067",
+      "canonical_title": "Recursive Inference Machines for Neural Reasoning",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2069",
+      "canonical_title": "The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2070",
+      "canonical_title": "Learning Optimal Individualized Decision Rules with Conditional Demographic Parity",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2071",
+      "canonical_title": "KARL: Knowledge Agents via Reinforcement Learning",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2097",
+      "canonical_title": "Formal Entropy-Regularized Control of Stochastic Systems",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2104",
+      "canonical_title": "Optimal Decoding with the Worm",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2106",
+      "canonical_title": "Extending spin-lattice relaxation theory to three-phonon processes",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2111",
+      "canonical_title": "Quantum advantages for syndrome-aware noisy logical observable estimation",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2112",
+      "canonical_title": "Quantum field theory for classical fields",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2115",
+      "canonical_title": "Multistability and Self-Trapping in Cavity-Magnonic Dimer",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2116",
+      "canonical_title": "Quantum Algorithms for Network Signal Coordination",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2117",
+      "canonical_title": "Extensions to the Wealth Tax Neutrality Framework",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2131",
+      "canonical_title": "Spin-polarized Andreev molecules and anomalous nonlocal Josephson effects in altermagnetic junctions",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2137",
+      "canonical_title": "Why the Brain Consolidates: Predictive Forgetting for Optimal Generalisation",
+      "last_seen_date": "2026-03-07",
+      "appearance_count": 1
+    }
+  ],
+  "new_threads_created": [
+    "THREAD-WF2-2399",
+    "THREAD-WF2-2400",
+    "THREAD-WF2-2401",
+    "THREAD-WF2-2402",
+    "THREAD-WF2-2403",
+    "THREAD-WF2-2404",
+    "THREAD-WF2-2405",
+    "THREAD-WF2-2406",
+    "THREAD-WF2-2407",
+    "THREAD-WF2-2408",
+    "THREAD-WF2-2409",
+    "THREAD-WF2-2410",
+    "THREAD-WF2-2411",
+    "THREAD-WF2-2412",
+    "THREAD-WF2-2413",
+    "THREAD-WF2-2414",
+    "THREAD-WF2-2415",
+    "THREAD-WF2-2416",
+    "THREAD-WF2-2417",
+    "THREAD-WF2-2418",
+    "THREAD-WF2-2419",
+    "THREAD-WF2-2420",
+    "THREAD-WF2-2421",
+    "THREAD-WF2-2422",
+    "THREAD-WF2-2423",
+    "THREAD-WF2-2424",
+    "THREAD-WF2-2425",
+    "THREAD-WF2-2426",
+    "THREAD-WF2-2427",
+    "THREAD-WF2-2428",
+    "THREAD-WF2-2429",
+    "THREAD-WF2-2430",
+    "THREAD-WF2-2431",
+    "THREAD-WF2-2432",
+    "THREAD-WF2-2433",
+    "THREAD-WF2-2434",
+    "THREAD-WF2-2435",
+    "THREAD-WF2-2436",
+    "THREAD-WF2-2437",
+    "THREAD-WF2-2438",
+    "THREAD-WF2-2439",
+    "THREAD-WF2-2440",
+    "THREAD-WF2-2441",
+    "THREAD-WF2-2442",
+    "THREAD-WF2-2443",
+    "THREAD-WF2-2444",
+    "THREAD-WF2-2445"
+  ]
+}

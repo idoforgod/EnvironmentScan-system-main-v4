@@ -1,0 +1,12 @@
+{
+  "scan_date": "2026-03-11",
+  "scan_window": {
+    "start": "2026-03-09T22:59:22Z",
+    "end": "2026-03-10T22:59:22Z",
+    "lookback_hours": 24
+  },
+  "sources_scanned": 18,
+  "sources_failed": 5,
+  "total_items_collected": 142,
+  "items_within_window": 89
+}

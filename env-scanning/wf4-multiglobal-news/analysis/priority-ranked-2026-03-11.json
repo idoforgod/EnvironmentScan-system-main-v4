@@ -1,0 +1,287 @@
+{
+  "scan_date": "2026-03-11",
+  "ranking_method": "priority_score_calculator.py",
+  "weights": {
+    "impact": 0.4,
+    "probability": 0.3,
+    "urgency": 0.2,
+    "novelty": 0.1
+  },
+  "total_ranked": 15,
+  "ranking_metadata": {
+    "total_ranked": 15,
+    "workflow": "wf4-multiglobal-news"
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "news-2026-03-11-nyt-iran-01",
+      "title": "US-Iran War Costs $5.6 Billion in Munitions in First Two Days",
+      "steeps": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point_alert": "RED",
+      "priority_score": 9.4,
+      "psst_score": 94.0,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 10,
+        "probability": 9,
+        "urgency": 10,
+        "novelty": 7
+      }
+    },
+    {
+      "rank": 2,
+      "id": "news-2026-03-11-rt-iran-moscow-02",
+      "title": "The Iranian Knot: Why Trump Turned to Putin to Help End the War",
+      "steeps": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point_alert": "ORANGE",
+      "priority_score": 8.7,
+      "psst_score": 87.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 9,
+        "probability": 8,
+        "urgency": 9,
+        "novelty": 9
+      }
+    },
+    {
+      "rank": 3,
+      "id": "news-2026-03-11-rt-vw-50k-jobs-07",
+      "title": "Volkswagen to Slash 50,000 Jobs in Germany by 2030 Amid EV Transition Crisis",
+      "steeps": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point_alert": "ORANGE",
+      "priority_score": 8.6,
+      "psst_score": 86.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 9,
+        "probability": 9,
+        "urgency": 8,
+        "novelty": 7
+      }
+    },
+    {
+      "rank": 4,
+      "id": "news-2026-03-11-rt-israel-chemical-11",
+      "title": "Israeli Strikes on Iranian Fuel Depots Compared to Chemical Warfare: Acid Rain Over Tehran",
+      "steeps": "E_Environmental",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point_alert": "RED",
+      "priority_score": 8.6,
+      "psst_score": 86.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 9,
+        "probability": 8,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "rank": 5,
+      "id": "news-2026-03-11-nyt-openai-lawsuit-06",
+      "title": "Mother of Shooting Victim Sues OpenAI Over Failure to Alert Authorities",
+      "steeps": "s_spiritual",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "tipping_point_alert": "ORANGE",
+      "priority_score": 8.4,
+      "psst_score": 84.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 9,
+        "probability": 8,
+        "urgency": 8,
+        "novelty": 8
+      }
+    },
+    {
+      "rank": 6,
+      "id": "news-2026-03-11-chosun-emergency-budget-09",
+      "title": "Korea Activates Emergency Economic Response: Supplementary Budget and All Policy Tools Deployed",
+      "steeps": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point_alert": "ORANGE",
+      "priority_score": 8.3,
+      "psst_score": 83.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 9,
+        "urgency": 9,
+        "novelty": 6
+      }
+    },
+    {
+      "rank": 7,
+      "id": "news-2026-03-11-chosun-ai-drone-08",
+      "title": "Cheap Weapons Win Wars: AI Drones and Robot Soldiers from Science Fiction Becoming Reality",
+      "steeps": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "tipping_point_alert": "YELLOW",
+      "priority_score": 8.2,
+      "psst_score": 82.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 9,
+        "probability": 8,
+        "urgency": 7,
+        "novelty": 8
+      }
+    },
+    {
+      "rank": 8,
+      "id": "news-2026-03-11-rt-india-oil-10",
+      "title": "India's Strategic Oil Hedging: 30M Barrels of Russian Oil After US Waiver, Diesel to Bangladesh",
+      "steeps": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point_alert": "YELLOW",
+      "priority_score": 8.2,
+      "psst_score": 82.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 9,
+        "urgency": 8,
+        "novelty": 7
+      }
+    },
+    {
+      "rank": 9,
+      "id": "news-2026-03-11-nyt-chatgpt-senate-04",
+      "title": "ChatGPT and Other Chatbots Officially Approved for Use in US Senate",
+      "steeps": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point_alert": "YELLOW",
+      "priority_score": 8.1,
+      "psst_score": 81.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 9,
+        "urgency": 7,
+        "novelty": 8
+      }
+    },
+    {
+      "rank": 10,
+      "id": "news-2026-03-11-chosun-semiconductor-03",
+      "title": "AI-Driven Semiconductor Boom: Korea's Export Revenue Up 55.6% in March 1-10",
+      "steeps": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point_alert": "GREEN",
+      "priority_score": 7.9,
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 9,
+        "urgency": 7,
+        "novelty": 6
+      }
+    },
+    {
+      "rank": 11,
+      "id": "news-2026-03-11-nyt-china-strategy-12",
+      "title": "Democrats Warn Trump's China Policy Risks 'Strategic Failure' Ahead of Xi Summit",
+      "steeps": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point_alert": "YELLOW",
+      "priority_score": 7.9,
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 8,
+        "urgency": 8,
+        "novelty": 7
+      }
+    },
+    {
+      "rank": 12,
+      "id": "news-2026-03-11-nyt-meta-moltbook-05",
+      "title": "Meta Acquires Moltbook: The Social Network Exclusively for AI Bots",
+      "steeps": "T_Technological",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "tipping_point_alert": "YELLOW",
+      "priority_score": 7.5,
+      "psst_score": 75.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 7,
+        "urgency": 6,
+        "novelty": 10
+      }
+    },
+    {
+      "rank": 13,
+      "id": "news-2026-03-11-rt-germany-vassal-13",
+      "title": "Germany Becomes US 'Vassal' Under Merz: Spanish Deputy PM and EU Strategic Autonomy Fractures",
+      "steeps": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "tipping_point_alert": "YELLOW",
+      "priority_score": 7.4,
+      "psst_score": 74.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "probability": 8,
+        "urgency": 7,
+        "novelty": 8
+      }
+    },
+    {
+      "rank": 14,
+      "id": "news-2026-03-11-chosun-biontech-14",
+      "title": "BioNTech Co-Founders Leave to Create New mRNA Drug Development Company",
+      "steeps": "S_Social",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "tipping_point_alert": "GREEN",
+      "priority_score": 7.1,
+      "psst_score": 71.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 7,
+        "urgency": 5,
+        "novelty": 8
+      }
+    },
+    {
+      "rank": 15,
+      "id": "news-2026-03-11-rt-brazil-brics-15",
+      "title": "Brazil Pitches BRICS Defense Cooperation to Counter 'Invasion' Threat",
+      "steeps": "P_Political",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "tipping_point_alert": "YELLOW",
+      "priority_score": 7.1,
+      "psst_score": 71.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 6,
+        "urgency": 6,
+        "novelty": 9
+      }
+    }
+  ]
+}

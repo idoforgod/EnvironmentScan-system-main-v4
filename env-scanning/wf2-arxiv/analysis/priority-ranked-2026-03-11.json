@@ -1,0 +1,238 @@
+{
+  "scan_date": "2026-03-11",
+  "ranking_method": "priority_score_calculator.py",
+  "weights": {
+    "impact": 0.4,
+    "probability": 0.3,
+    "urgency": 0.2,
+    "novelty": 0.1
+  },
+  "total_ranked": 15,
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "arxiv-2603.08566v1",
+      "title": "OSS-CRS: Liberating AIxCC Cyber Reasoning Systems for Real-World Open-Source Security",
+      "steeps": "T_Technological",
+      "priority_score": 8.7,
+      "psst_score": 87.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 9,
+        "probability": 8,
+        "urgency": 9,
+        "novelty": 9
+      }
+    },
+    {
+      "rank": 2,
+      "id": "arxiv-2603.08520v1",
+      "title": "SCAFFOLD-CEGIS: Preventing Security Degradation in LLM Code Refinement",
+      "steeps": "T_Technological",
+      "priority_score": 8.5,
+      "psst_score": 85.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 9,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "rank": 3,
+      "id": "arxiv-2603.08665v1",
+      "title": "Cybersecurity AI: Hacking Consumer Robots in the AI Era",
+      "steeps": "P_Political",
+      "priority_score": 8.5,
+      "psst_score": 85.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 9,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "rank": 4,
+      "id": "arxiv-2603.08221v1",
+      "title": "SplitAgent: Privacy-Preserving Enterprise-Cloud AI Agent Architecture",
+      "steeps": "T_Technological",
+      "priority_score": 8.4,
+      "psst_score": 84.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 9,
+        "probability": 8,
+        "urgency": 8,
+        "novelty": 8
+      }
+    },
+    {
+      "rank": 5,
+      "id": "arxiv-2603.08412v1",
+      "title": "Aligning to Illusions: Choice Blindness in Human and AI Feedback",
+      "steeps": "s_spiritual",
+      "priority_score": 8.2,
+      "psst_score": 82.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 9,
+        "urgency": 7,
+        "novelty": 9
+      }
+    },
+    {
+      "rank": 6,
+      "id": "arxiv-2603.08448v1",
+      "title": "Clinical Feasibility Study of Conversational Diagnostic AI in Primary Care",
+      "steeps": "S_Social",
+      "priority_score": 8.1,
+      "psst_score": 81.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 9,
+        "probability": 7,
+        "urgency": 8,
+        "novelty": 8
+      }
+    },
+    {
+      "rank": 7,
+      "id": "arxiv-2603.08483v1",
+      "title": "X-AVDT: Audio-Visual Cross-Attention for Robust Deepfake Detection",
+      "steeps": "E_Economic",
+      "priority_score": 8.1,
+      "psst_score": 81.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 8,
+        "urgency": 9,
+        "novelty": 7
+      }
+    },
+    {
+      "rank": 8,
+      "id": "arxiv-2603.08660v1",
+      "title": "How Far Can Unsupervised RLVR Scale LLM Training?",
+      "steeps": "T_Technological",
+      "priority_score": 8.0,
+      "psst_score": 80.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 9,
+        "probability": 7,
+        "urgency": 7,
+        "novelty": 9
+      }
+    },
+    {
+      "rank": 9,
+      "id": "arxiv-2603.08706v1",
+      "title": "Agentic Critical Training: Beyond Imitation Learning for LLM Agents",
+      "steeps": "T_Technological",
+      "priority_score": 7.9,
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 8,
+        "urgency": 7,
+        "novelty": 9
+      }
+    },
+    {
+      "rank": 10,
+      "id": "arxiv-2603.07947v1",
+      "title": "Lattice: A Post-Quantum Settlement Layer for Cryptocurrency",
+      "steeps": "T_Technological",
+      "priority_score": 7.8,
+      "psst_score": 78.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 7,
+        "urgency": 8,
+        "novelty": 9
+      }
+    },
+    {
+      "rank": 11,
+      "id": "arxiv-2603.08486v1",
+      "title": "Visual Self-Fulfilling Alignment: Safety-Oriented Personas for Multimodal LLMs",
+      "steeps": "T_Technological",
+      "priority_score": 7.7,
+      "psst_score": 77.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 7,
+        "urgency": 8,
+        "novelty": 8
+      }
+    },
+    {
+      "rank": 12,
+      "id": "arxiv-2603.08316v1",
+      "title": "SlowBA: Efficiency Backdoor Attack Against VLM-Based GUI Agents",
+      "steeps": "P_Political",
+      "priority_score": 7.7,
+      "psst_score": 77.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "probability": 8,
+        "urgency": 8,
+        "novelty": 9
+      }
+    },
+    {
+      "rank": 13,
+      "id": "arxiv-2603.08654v1",
+      "title": "Carbon-aware Market Participation for Building Energy Management Systems",
+      "steeps": "E_Environmental",
+      "priority_score": 7.5,
+      "psst_score": 75.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "probability": 8,
+        "urgency": 8,
+        "novelty": 7
+      }
+    },
+    {
+      "rank": 14,
+      "id": "arxiv-2603.08490v1",
+      "title": "Open-Source Platform for Autonomous Laparoscopic Surgery",
+      "steeps": "S_Social",
+      "priority_score": 7.3,
+      "psst_score": 73.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 6,
+        "urgency": 7,
+        "novelty": 9
+      }
+    },
+    {
+      "rank": 15,
+      "id": "arxiv-2603.08572v1",
+      "title": "MetaWorld-X: Hierarchical World Modeling for Humanoid Loco-Manipulation",
+      "steeps": "T_Technological",
+      "priority_score": 7.3,
+      "psst_score": 73.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "probability": 7,
+        "urgency": 6,
+        "novelty": 8
+      }
+    }
+  ]
+}

@@ -2,10 +2,10 @@
   "metadata": {
     "version": "1.0.0",
     "created": "2026-02-03",
-    "last_updated": "2026-03-08T23:26:55.054543Z",
+    "last_updated": "2026-03-11T00:02:36.117929Z",
     "workflow": "wf2-arxiv",
     "description": "arXiv Academic Deep Scanning signal database",
-    "total_signals": 1001,
+    "total_signals": 1066,
     "scan_history": [
       {
         "date": "2026-02-03",
@@ -17068,6 +17068,1754 @@
       "last_seen": "2026-03-09",
       "appearances": 1,
       "status": "new"
+    },
+    {
+      "id": "arxiv-2603.05972v1",
+      "title": "THETA: A Textual Hybrid Embedding-based Topic Analysis Framework and AI Scientist Agent for Scalable Computational Social Science",
+      "classification": "S_Social",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05972v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "The explosion of big social data has created a scalability trap for traditional qualitative research, as manual coding remains labor-intensive and conventional topic models often suffer from semantic thinning and a lack of domain awareness. This paper introduces Textual Hybrid Embedding based Topic Analysis (THETA), a novel computational paradigm and open-source tool designed to bridge the gap between massive data scale and rich theoretical depth. THETA moves beyond frequency-based statistics by implementing Domain-Adaptive Fine-tuning (DAFT) via LoRA on foundation embedding models, which effectively optimizes semantic vector structures within specific social contexts to capture latent meanings. To ensure epistemological rigor, we encapsulate this process into an AI Scientist Agent framework, comprising Data Steward, Modeling Analyst, and Domain Expert agents, to simulate the human-in-the-loop expert judgment and constant comparison processes central to grounded theory. Departing from purely computational models, this framework enables agents to iteratively evaluate algorithmic clusters, perform cross-topic semantic alignment, and refine raw outputs into logically consistent theoretical categories. To validate the effectiveness of THETA, we conducted experiments across six domains, including financial regulation and public health. Our results demonstrate that THETA significantly outperforms traditional models, such as LDA, ETM, and CTM, in capturing domain-specific interpretive constructs while maintaining superior coherence. By providing an interactive analysis platform, THETA democratizes advanced natural language processing for social scientists and ensures the trustworthiness and reproducibility of research findings. Code is available at https://github.com/CodeSoul-co/THETA.",
+        "keywords": [
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.3,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:16.281091+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05801v1",
+      "title": "Ambiguity Collapse by LLMs: A Taxonomy of Epistemic Risks",
+      "classification": "S_Social",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05801v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Large language models (LLMs) are increasingly used to make sense of ambiguous, open-textured, value-laden terms. Platforms routinely rely on LLMs for content moderation, asking them to label text based on disputed concepts like \"hate speech\" or \"incitement\"; hiring managers may use LLMs to rank who counts as \"qualified\"; and AI labs increasingly train models to self-regulate under constitutional-style ambiguous principles such as \"biased\" or \"legitimate\". This paper introduces ambiguity collapse: a phenomenon that occurs when an LLM encounters a term that genuinely admits multiple legitimate interpretations, yet produces a singular resolution, in ways that bypass the human practices through which meaning is ordinarily negotiated, contested, and justified. Drawing on interdisciplinary accounts of ambiguity as a productive epistemic resource, we develop a taxonomy of the epistemic risks posed by ambiguity collapse at three levels: process (foreclosing opportunities to deliberate, develop cognitive skills, and shape contested terms), output (distorting the concepts and reasons agents act upon), and ecosystem (reshaping shared vocabularies, interpretive norms, and how concepts evolve over time). We illustrate these risks through three case studies, and conclude by sketching multi-layer mitigation principles spanning training, institutional deployment design, interface affordances, and the management of underspecified prompts, with the goal of designing systems that surface, preserve, and responsibly govern ambiguity.",
+        "keywords": [
+          "cs.CY",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.3,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:16.286512+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05710v1",
+      "title": "The Rise of AI in Weather and Climate Information and its Impact on Global Inequality",
+      "classification": "E_Environmental",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05710v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "The rapid adoption of AI in Earth system science promises unprecedented speed and fidelity in the generation of climate information. However, this technological prowess rests on a fragile and unequal foundation: the current trajectory of AI development risks further automating and amplifying the North-South divide in the global climate information system. We outline the global asymmetry in High-Performance Computing and data infrastructure, demonstrating that the development of foundation models is almost exclusively concentrated in the Global North. Using three different domains, we show how this infrastructure inequality continues through models' inputs, processes and outputs. As an example, in weather and climate modelling, the reliance on historically biased data leads to systematic performance gaps that disproportionately affect the most vulnerable regions. In climate impact modelling, data sparsity and unrepresentative validation risk driving misleading interventions and maladaptation. Finally, in large language models, dependence on dominant textualised forms of climate knowledge risks reinforcing existing biases. We conclude that addressing these disparities demands revisiting the three phases, i.e. models Input, Process and Output. This involves (i) a perspective shift from model-centric to data-centric development, (ii) the establishment of a Climate Digital Public Infrastructure and human-centric evaluation metrics, and (iii) a move from producer-consumer dynamics toward knowledge co-production. This integration of diverse knowledge systems would truly democratise compute sovereignty and ensure that the AI revolution fosters genuine systemic resilience rather than exacerbating inequity.",
+        "keywords": [
+          "physics.ao-ph",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.3,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:25.719021+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05839v1",
+      "title": "Evaluating LLM Alignment With Human Trust Models",
+      "classification": "P_Political",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05839v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Trust plays a pivotal role in enabling effective cooperation, reducing uncertainty, and guiding decision-making in both human interactions and multi-agent systems. Although it is significant, there is limited understanding of how large language models (LLMs) internally conceptualize and reason about trust. This work presents a white-box analysis of trust representation in EleutherAI/gpt-j-6B, using contrastive prompting to generate embedding vectors within the activation space of the LLM for diadic trust and related interpersonal relationship attributes. We first identified trust-related concepts from five established human trust models. We then determined a threshold for significant conceptual alignment by computing pairwise cosine similarities across 60 general emotional concepts. Then we measured the cosine similarities between the LLM's internal representation of trust and the derived trust-related concepts. Our results show that the internal trust representation of EleutherAI/gpt-j-6B aligns most closely with the Castelfranchi socio-cognitive model, followed by the Marsh Model. These findings indicate that LLMs encode socio-cognitive constructs in their activation space in ways that support meaningful comparative analyses, inform theories of social cognition, and support the design of human-AI collaborative systems.",
+        "keywords": [
+          "cs.MA",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.1,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:16.285466+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06569v1",
+      "title": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06569v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Vision Language Model (VLM) development has largely relied on scaling model size, which hinders deployment on compute-constrained mobile and edge devices such as smartphones and robots. In this work, we explore the performance limits of compact (e.g., 2B and 8B) VLMs. We challenge the prevailing practice that state-of-the-art VLMs must rely on vision encoders initialized via massive contrastive pretraining (e.g., CLIP/SigLIP). We identify an objective mismatch: contrastive learning, optimized for discrimination, enforces coarse and category-level invariances that suppress fine-grained visual cues needed for dense captioning and complex VLM reasoning. To address this issue, we present Penguin-VL, whose vision encoder is initialized from a text-only LLM. Our experiments reveal that Penguin-Encoder serves as a superior alternative to traditional contrastive pretraining, unlocking a higher degree of visual fidelity and data efficiency for multimodal understanding. Across various image and video benchmarks, Penguin-VL achieves performance comparable to leading VLMs (e.g., Qwen3-VL) in mathematical reasoning and surpasses them in tasks such as document understanding, visual knowledge, and multi-perspective video understanding. Notably, these gains are achieved with a lightweight architecture, demonstrating that improved visual representation rather than model scaling is the primary driver of performance. Our ablations show that Penguin-Encoder consistently outperforms contrastive-pretrained encoders, preserving fine-grained spatial and temporal cues that are critical for dense perception and complex reasoning. This makes it a strong drop-in alternative for compute-efficient VLMs and enables high performance in resource-constrained settings. Code: https://github.com/tencent-ailab/Penguin-VL",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.199850+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06365v1",
+      "title": "ESAA-Security: An Event-Sourced, Verifiable Architecture for Agent-Assisted Security Audits of AI-Generated Code",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06365v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "AI-assisted software generation has increased development speed, but it has also amplified a persistent engineering problem: systems that are functionally correct may still be structurally insecure. In practice, prompt-based security review with large language models often suffers from uneven coverage, weak reproducibility, unsupported findings, and the absence of an immutable audit trail. The ESAA architecture addresses a related governance problem in agentic software engineering by separating heuristic agent cognition from deterministic state mutation through append-only events, constrained outputs, and replay-based verification. This paper presents ESAA-Security, a domain-specific specialization of ESAA for agent-assisted security auditing of software repositories, with particular emphasis on AI-generated or AI-modified code. ESAA-Security structures auditing as a governed execution pipeline with four phases reconnaissance, domain audit execution, risk classification, and final reporting and operationalizes the workflow into 26 tasks, 16 security domains, and 95 executable checks. The framework produces structured check results, vulnerability inventories, severity classifications, risk matrices, remediation guidance, executive summaries, and a final markdown/JSON audit report. The central idea is that security review should not be modeled as a free-form conversation with an LLM, but as an evidence-oriented audit process governed by contracts and events. In ESAA-Security, agents emit structured intentions under constrained protocols; the orchestrator validates them, persists accepted outputs to an append-only log, reprojects derived views, and verifies consistency through replay and hashing. The result is a traceable, reproducible, and risk-oriented audit architecture whose final report is auditable by construction.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.215842+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06279v1",
+      "title": "Can we Trust Unreliable Voxels? Exploring 3D Semantic Occupancy Prediction under Label Noise",
+      "classification": "E_Environmental",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06279v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "3D semantic occupancy prediction is a cornerstone of robotic perception, yet real-world voxel annotations are inherently corrupted by structural artifacts and dynamic trailing effects. This raises a critical but underexplored question: can autonomous systems safely rely on such unreliable occupancy supervision? To systematically investigate this issue, we establish OccNL, the first benchmark dedicated to 3D occupancy under occupancy-asymmetric and dynamic trailing noise. Our analysis reveals a fundamental domain gap: state-of-the-art 2D label noise learning strategies collapse catastrophically in sparse 3D voxel spaces, exposing a critical vulnerability in existing paradigms. To address this challenge, we propose DPR-Occ, a principled label noise-robust framework that constructs reliable supervision through dual-source partial label reasoning. By synergizing temporal model memory with representation-level structural affinity, DPR-Occ dynamically expands and prunes candidate label sets to preserve true semantics while suppressing noise propagation. Extensive experiments on SemanticKITTI demonstrate that DPR-Occ prevents geometric and semantic collapse under extreme corruption. Notably, even at 90% label noise, our method achieves significant performance gains (up to 2.57% mIoU and 13.91% IoU) over existing label noise learning baselines adapted to the 3D occupancy prediction task. By bridging label noise learning and 3D perception, OccNL and DPR-Occ provide a reliable foundation for safety-critical robotic perception in dynamic environments. The benchmark and source code will be made publicly available at https://github.com/mylwx/OccNL.",
+        "keywords": [
+          "cs.CV",
+          "cs.RO",
+          "eess.IV"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.222597+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06265v1",
+      "title": "ODD-SEC: Onboard Drone Detection with a Spinning Event Camera",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06265v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "The rapid proliferation of drones requires balancing innovation with regulation. To address security and privacy concerns, techniques for drone detection have attracted significant attention.Passive solutions, such as frame camera-based systems, offer versatility and energy efficiency under typical conditions but are fundamentally constrained by their operational principles in scenarios involving fast-moving targets or adverse illumination.Inspired by biological vision, event cameras asynchronously detect per-pixel brightness changes, offering high dynamic range and microsecond-level responsiveness that make them uniquely suited for drone detection in conditions beyond the reach of conventional frame-based cameras.However, the design of most existing event-based solutions assumes a static camera, greatly limiting their applicability to moving carriers--such as quadrupedal robots or unmanned ground vehicles--during field operations.In this paper, we introduce a real-time drone detection system designed for deployment on moving carriers. The system utilizes a spinning event-based camera, providing a 360° horizontal field of view and enabling bearing estimation of detected drones. A key contribution is a novel image-like event representation that operates without motion compensation, coupled with a lightweight neural network architecture for efficient spatiotemporal learning. Implemented on an onboard Jetson Orin NX, the system can operate in real time. Outdoor experimental results validate reliable detection with a mean angular error below 2° under challenging conditions, underscoring its suitability for real-world surveillance applications. We will open-source our complete pipeline to support future research.",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.224446+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06494v1",
+      "title": "Control Barrier Corridors: From Safety Functions to Safe Sets",
+      "classification": "E_Environmental",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06494v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Safe autonomy is a critical requirement and a key enabler for robots to operate safely in unstructured complex environments. Control barrier functions and safe motion corridors are two widely used but technically distinct safety methods, functional and geometric, respectively, for safe motion planning and control. Control barrier functions are applied to the safety filtering of control inputs to limit the decay rate of system safety, whereas safe motion corridors are geometrically constructed to define a local safe zone around the system state for use in motion optimization and reference-governor design. This paper introduces a new notion of control barrier corridors, which unifies these two approaches by converting control barrier functions into local safe goal regions for reference goal selection in feedback control systems. We show, with examples on fully actuated systems, kinematic unicycles, and linear output regulation systems, that individual state safety can be extended locally over control barrier corridors for convex barrier functions, provided the control convergence rate matches the barrier decay rate, highlighting a trade-off between safety and reactiveness. Such safe control barrier corridors enable safely reachable persistent goal selection over continuously changing barrier corridors during system motion, which we demonstrate for verifiably safe and persistent path following in autonomous exploration of unknown environments.",
+        "keywords": [
+          "cs.RO",
+          "eess.SY"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:04.829877+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06299v1",
+      "title": "An Integrated Failure and Threat Mode and Effect Analysis (FTMEA) Framework with Quantified Cross-Domain Correlation Factors for Automotive Semiconductors",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06299v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "The automotive industry faces increasing challenges in ensuring both functional safety (FuSa) and cybersecurity for complex semiconductor devices. Traditional Failure Mode and Effects Analysis (FMEA) primarily addresses safety-related failure modes, often overlooking synergistic vulnerabilities and shared consequences with cybersecurity threats. This paper introduces an Integrated Failure and Threat Mode and Effect Analysis (FTMEA) framework that systematically co-analyzes FuSa and cybersecurity. A cornerstone of this framework is the introduction of rigorously defined Cross-Domain Correlation Factors (CDCFs), which quantify the interdependencies and mutual influences between safety-related failures and cybersecurity threats. These factors are derived from a combination of structured expert knowledge, static structural analysis metrics (e.g., Controllability/Observability), and validated against empirical data from fault/attack injection campaigns. We propose a modified Risk Priority Number (RPN) calculation that systematically integrates these correlation factors, enabling a more accurate and transparent prioritization of risks that span both domains. A detailed case study involving an automotive ASIC configuration register proves the practical application of the FTMEA. We present explicit mapping tables, quantitative CDCF values, and a comparative analysis against a baseline FMEA/TARA (Threat Analysis and Risk Assessment), illustrating how the integrated approach uncovers previously masked cross-domain risks, improves mitigation strategy effectiveness, and provides a clear quantitative justification for the derived correlation values. This framework offers a unified, traceable, methodology for risk assessment in critical automotive systems, thereby overcoming the limitations of conventional analyses and promoting optimized, cross-disciplinary development.",
+        "keywords": [
+          "cs.CR",
+          "cs.AR"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:04.831964+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06422v1",
+      "title": "Before You Hand Over the Wheel: Evaluating LLMs for Security Incident Analysis",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06422v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Security incident analysis (SIA) poses a major challenge for security operations centers, which must manage overwhelming alert volumes, large and diverse data sources, complex toolchains, and limited analyst expertise. These difficulties intensify because incidents evolve dynamically and require multi-step, multifaceted reasoning. Although organizations are eager to adopt Large Language Models (LLMs) to support SIA, the absence of rigorous benchmarking creates significant risks for assessing their effectiveness and guiding design decisions. Benchmarking is further complicated by: (i) the lack of an LLM-ready dataset covering a wide spectrum of SIA tasks; (ii) the continual emergence of new tasks reflecting the diversity of analyst responsibilities; and (iii) the rapid release of new LLMs that must be incorporated into evaluations. In this paper, we address these challenges by introducing SIABENCH, an agentic evaluation framework for security incident analysis. First, we construct a first-of-its-kind dataset comprising two major SIA task categories: (i) deep analysis workflows for security incidents (25 scenarios) and (ii) alert-triage tasks (135 scenarios). Second, we implement an agent capable of autonomously performing a broad spectrum of SIA tasks (including network and memory forensics, malware analysis across binary/code/PDF formats, phishing email and kit analysis, log analysis, and false-alert detection). Third, we benchmark 11 major LLMs (spanning both open- and closed-weight models) on these tasks, with extensibility to support emerging models and newly added analysis scenarios.",
+        "keywords": [
+          "cs.CR"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.433646+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06358v1",
+      "title": "A Scalable Benchmark for Repository-Oriented Long-Horizon Conversational Context Management",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06358v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "In recent years, large language models (LLMs) have advanced rapidly, substantially enhancing their code understanding and generation capabilities and giving rise to powerful code assistants. However, in practical repository development, excessively long-horizon conversational context may overwhelm models, causing the loss of critical information and degraded performance, thereby limiting the utility of code assistants. Existing context management methods proposed to mitigate this context dilemma primarily target general-purpose conversations, while repository-oriented solutions remain largely unexplored, which is largely due to the lack of reliable evaluation benchmarks. To bridge this gap, we present LoCoEval, the first long-horizon conversational context management benchmark tailored to repository-oriented development scenarios. Adhering to three key principles, LoCoEval is constructed via an LLM-driven pipeline that generates realistic and diverse repository-oriented conversations, capturing key interaction patterns such as iterative requirements, noisy input, and retrospective questions. We evaluate 7 baselines, including 4 representative context management methods, using 3 advanced backbone LLMs on LoCoEval. The results reveal substantial challenges faced by standalone LLMs and existing approaches, especially memory systems, in repository-oriented conversational scenarios. To address these limitations, we further propose an improved method integrating conversational and repository information into a unified memory, which outperforms all baselines (*Oracle* excluded) and demonstrates robustness. Additionally, we investigated the impact of various factors on method performance, providing actionable insights for future research.",
+        "keywords": [
+          "cs.SE"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.434142+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06029v1",
+      "title": "When Specifications Meet Reality: Uncovering API Inconsistencies in Ethereum Infrastructure",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06029v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "The Ethereum ecosystem, which secures over $381 billion in assets, fundamentally relies on client APIs as the sole interface between users and the blockchain. However, these critical APIs suffer from widespread implementation inconsistencies, which can lead to financial discrepancies, degraded user experiences, and threats to network reliability. Despite this criticality, existing testing approaches remain manual and incomplete: they require extensive domain expertise, struggle to keep pace with Ethereum's rapid evolution, and fail to distinguish genuine bugs from acceptable implementation variations. We present APIDiffer, the first specification-guided differential testing framework designed to automatically detect API inconsistencies across Ethereum's diverse client ecosystem. APIDiffer transforms API specifications into comprehensive test suites through two key innovations: (1) specification-guided test input generation that creates both syntactically valid and invalid requests enriched with real-time blockchain data, and (2) specification-aware false positive filtering that leverages large language models to distinguish genuine bugs from acceptable variations. Our evaluation across all 11 major Ethereum clients reveals the pervasiveness of API bugs in production systems. APIDiffer uncovered 72 bugs, with 90.28% already confirmed or fixed by developers. Beyond these raw numbers, APIDiffer achieves up to 89.67% higher code coverage than existing tools and reduces false positive rates by 37.38%. The Ethereum community's response validates our impact: developers have integrated our test cases, expressed interest in adopting our methodology, and escalated one bug to the official Ethereum Project Management meeting.",
+        "keywords": [
+          "cs.SE",
+          "cs.CR"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.438584+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05863v1",
+      "title": "ReflexiCoder: Teaching Large Language Models to Self-Reflect on Generated Code and Self-Correct It via Reinforcement Learning",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05863v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "While Large Language Models (LLMs) have revolutionized code generation, standard \"System 1\" approaches, generating solutions in a single forward pass, often hit a performance ceiling when faced with complex algorithmic tasks. Existing iterative refinement strategies attempt to bridge this gap at inference time, yet they predominantly rely on external oracles, execution feedback, or computationally expensive prompt-response cycles. In this work, we propose ReflexiCoder, a novel reinforcement learning (RL) framework that internalizes the structured reasoning trajectory, encompassing initial generation, bug and optimization aware reflection, and self-correction, directly into the model's weights. Unlike prior methods, ReflexiCoder shifts the paradigm from external-dependent refinement to an intrinsic, fully autonomous self-reflection and self-correction capabilities at inference time. We utilize an RL-zero training paradigm with granular reward functions to optimize the entire reflection-correction trajectory, teaching the model how to debug without reliance on ground-truth feedback or execution engines at inference time. Extensive experiments across seven benchmarks demonstrate that our ReflexiCoder-8B establishes a new state-of-the-art (SOTA) among leading open-source models in the 1.5B-14B range, achieving 94.51% (87.20%) on HumanEval (Plus), 81.80% (78.57%) on MBPP (Plus), 35.00% on BigCodeBench, 52.21% on LiveCodeBench, and 37.34% on CodeForces in a single-attempt setting, rivaling or surpassing proprietary models like GPT-5.1. Notably, our framework is significantly more token-efficient than base models, reducing inference-time compute overhead by approximately 40% through disciplined, high-speed reasoning and reflection patterns. Source code is available at https://github.com/juyongjiang/ReflexiCoder.",
+        "keywords": [
+          "cs.CL",
+          "cs.LG",
+          "cs.SE"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.441341+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05645v1",
+      "title": "Pitfalls in VM Implementation on CHERI: Lessons from Porting CRuby",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05645v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "CHERI (Capability Hardware Enhanced RISC Instructions) is a novel hardware designed to address memory safety issues. By replacing traditional pointers with hardware capabilities, it enhances security in modern software systems. A Virtual Machine (VM) is one such system that can benefit from CHERI's protection, as it may contain latent memory vulnerabilities. However, developing and porting VMs to CHERI is a non-trivial task. There are many subtle pitfalls from the assumptions on the undefined behaviors of the C language made based on conventional architectures. Those assumptions conflict with CHERI's stricter memory safety model, causing unexpected failures. Although several prior works have discussed the process of porting VMs, they focus on the overall porting process instead of the pitfalls for VM implementation on CHERI. The guide for programming in CHERI exists, but it is for general programming, not addressing VM-specific issues. We have ported CRuby to CHERI as a case study and surveyed previous works on porting VMs to CHERI. We categorized and discussed the issues found based on their causes. In this paper, we illustrate the VM-specific pitfalls for each category. Most of the pitfalls arise from the undefined behaviors in the C language; in particular, implementation techniques and idioms of VMs often assume behaviors of traditional architectures that are invalid on CHERI. We also discuss workarounds for them and the impacts of those workarounds. We verified the validity of the workarounds by applying them to our CRuby port and by surveying the codebases of prior case studies. This work contributes to the body of knowledge on developing and porting VMs to CHERI and will help guide efforts toward constructing safer VMs.",
+        "keywords": [
+          "cs.PL"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.446589+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05637v1",
+      "title": "Real Faults in Model Context Protocol (MCP) Software: a Comprehensive Taxonomy",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05637v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "The rapid adoption of foundation models has significantly expanded the capabilities of software systems, enabling them to perform complex language, reasoning, and interaction tasks that were previously difficult to automate. However, this progress has also introduced novel challenges that were largely absent in previous generations of software. In particular, the increasing integration of foundation models with external tools and resources raises new concerns regarding reliability, security, and robustness. The Model Context Protocol (MCP) has recently been proposed to standardize interactions between AI-based software systems, software tools, and external resources. Despite its growing adoption, there remains limited systematic understanding of real-world faults in MCP-based software systems. In this paper, we present the first large-scale taxonomy of faults in MCP servers, comprising five high-level fault categories derived from empirical evidence. To evaluate the completeness and generalizability of this taxonomy, we conduct a survey of MCP practitioners with diverse roles and experience levels. The results confirm that all identified fault categories occur in practice and reveal distinct characteristics that differentiate MCP-specific faults from non-MCP faults. Overall, this study provides actionable insights for researchers and practitioners by identifying the most error-prone and critical components of MCP-based systems. These insights can inform the development of more robust, reliable, and secure AI-enabled software systems that rely on MCP.",
+        "keywords": [
+          "cs.SE"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.447162+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06243v1",
+      "title": "MLLMRec-R1: Incentivizing Reasoning Capability in Large Language Models for Multimodal Sequential Recommendation",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06243v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Group relative policy optimization (GRPO) has become a standard post-training paradigm for improving reasoning and preference alignment in large language models (LLMs), and has recently shown strong effectiveness in LLM-based recommender systems. However, extending GRPO-based reasoning pipelines to multimodal sequential recommendation (MSR) with multimodal large language models (MLLMs) faces fundamental obstacles. First, MSR requires jointly encoding visual content for both historical interactions and multiple candidate items, causing visual tokens to dominate the input and making the cost of group-based rollout scale with history length and candidate set size, which renders GRPO-based training prohibitively expensive. Second, existing Chain-of-Thought (CoT) supervision suffers from reward inflation in recommendation scenarios, where higher training rewards do not reliably translate into improved ranking performance and may induce shortcut learning. To address these challenges, we propose MLLMRec-R1, an efficient and stable GRPO-based reasoning framework for multimodal sequential recommendation. MLLMRec-R1 textualizes visual signals offline to eliminate expensive visual tokens while preserving multimodal semantics, and constructs high-quality multimodal CoT supervision through refinement and confidence-aware assessment. Furthermore, a mixed-grained data augmentation strategy selectively injects reliable CoT samples while retaining standard training data, mitigating reward inflation and improving generalization stability. Extensive experiments on three benchmark datasets demonstrate that MLLMRec-R1 consistently outperforms state-of-the-art methods, establishing a practical and effective GRPO-based reasoning pipeline for multimodal sequential recommendation. The code is available at https://github.com/wangyu0627/MLLMRec-R1.",
+        "keywords": [
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:13.880545+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05641v1",
+      "title": "RFM-HRI : A Multimodal Dataset of Medical Robot Failure, User Reaction and Recovery Preferences for Item Retrieval Tasks",
+      "classification": "E_Environmental",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05641v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "While robots deployed in real-world environments inevitably experience interaction failures, understanding how users respond through verbal and non-verbal behaviors remains under-explored in human-robot interaction (HRI). This gap is particularly significant in healthcare-inspired settings, where interaction failures can directly affect task performance and user trust. We present the Robot Failures in Medical HRI (RFM-HRI) Dataset, a multimodal dataset capturing dyadic interactions between humans and robots embodied in crash carts, where communication failures are systematically induced during item retrieval tasks. Through Wizard-of-Oz studies with 41 participants across laboratory and hospital settings, we recorded responses to four failure types (speech, timing, comprehension, and search) derived from three years of crash-cart robot interaction data. The dataset contains 214 interaction samples including facial action units, head pose, speech transcripts, and post-interaction self-reports. Our analysis shows that failures significantly degrade affective valence and reduce perceived control compared to successful interactions. Failures are strongly associated with confusion, annoyance, and frustration, while successful interactions are characterized by surprise, relief, and confidence in task completion. Emotional responses also evolve across repeated failures, with confusion decreasing and frustration increasing over time. This work contributes (1) a publicly available multimodal dataset (RFM-HRI), (2) analysis of user responses to different failure types and preferred recovery strategies, and (3) a crash-cart retrieval scenario enabling systematic comparison of recovery strategies with implications for safety-critical failure recovery. Our findings provide a foundation for failure detection and recovery methods in embodied HRI.",
+        "keywords": [
+          "cs.RO",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:16.288955+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05707v1",
+      "title": "The toric code under antiferromagnetic isotropic Heisenberg interactions",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05707v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "We investigate the impact of an isotropic antiferromagnetic Heisenberg perturbation on the toric code, focusing on the resulting quantum phase transition and the nature of the phase that emerges beyond topological order. Using neural-network quantum states (NQS), we compute ground states over a wide range of Heisenberg couplings while fully respecting the exact symmetries of the model. In the weak-coupling regime, the numerical results are in excellent agreement with an effective low-energy description derived from a Schrieffer-Wolff (SW) transformation, providing analytic control over the perturbative breakdown of topological order. We show that the Heisenberg perturbation only renormalizes local operators at low orders, whereas mixing between topological sectors occurs only at a perturbative order proportional to the system size. At intermediate values of the Heisenberg interaction, the topological phase breaks down. We estimate the critical point through a combination of the fidelity susceptibility and the logarithmic susceptibility of non-contractible Wilson loops for various system sizes. Furthermore, we utilize the topological entanglement entropy to provide a comprehensive characterization of the phase transition. Beyond the transition, an antiferromagnetic $\\pm X/\\pm Z$ Néel phase emerges, characterized by a fourfold-degenerate symmetry-broken manifold, which is explicitly probed using staggered-magnetization-based diagnostics. Our results show how local two-spin interactions, which naturally arise in realistic implementations of the toric code, drive the breakdown of topological order. Moreover, we establish the SW approach as a systematic framework for analyzing such perturbations in combination with variational many-body methods.",
+        "keywords": [
+          "cond-mat.str-el",
+          "cond-mat.dis-nn",
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:43.539453+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.04746v1",
+      "title": "Visioning Human-Agentic AI Teaming: Continuity, Tension, and Future Research",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.04746v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Artificial intelligence is undergoing a structural transformation marked by the rise of agentic systems capable of open-ended action trajectories, generative representations and outputs, and evolving objectives. These properties introduce structural uncertainty into human-AI teaming (HAT), including uncertainty about behavior trajectories, epistemic grounding, and the stability of governing logics over time. Under such conditions, alignment cannot be secured through agreement on bounded outputs; it must be continuously sustained as plans unfold and priorities shift. We advance Team Situation Awareness (Team SA) theory, grounded in shared perception, comprehension, and projection, as an integrative anchor for this transition. While Team SA remains analytically foundational, its stabilizing logic presumes that shared awareness, once achieved, will support coordinated action through iterative updating. Agentic AI challenges this presumption. Our argument unfolds in two stages: first, we extend Team SA to reconceptualize both human and AI awareness under open-ended agency, including the sensemaking of projection congruence across heterogeneous systems. Second, we interrogate whether the dynamic processes traditionally assumed to stabilize teaming in relational interaction, cognitive learning, and coordination and control continue to function under adaptive autonomy. By distinguishing continuity from tension, we clarify where foundational insights hold and where structural uncertainty introduces strain, and articulate a forward-looking research agenda for HAT. The central challenge of HAT is not whether humans and AI can agree in the moment, but whether they can remain aligned as futures are continuously generated, revised, enacted, and governed over time.",
+        "keywords": [
+          "cs.AI",
+          "cs.HC",
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:49.409953+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05772v1",
+      "title": "Depth Charge: Jailbreak Large Language Models from Deep Safety Attention Heads",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05772v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Currently, open-sourced large language models (OSLLMs) have demonstrated remarkable generative performance. However, as their structure and weights are made public, they are exposed to jailbreak attacks even after alignment. Existing attacks operate primarily at shallow levels, such as the prompt or embedding level, and often fail to expose vulnerabilities rooted in deeper model components, which creates a false sense of security for successful defense. In this paper, we propose \\textbf{\\underline{S}}afety \\textbf{\\underline{A}}ttention \\textbf{\\underline{H}}ead \\textbf{\\underline{A}}ttack (\\textbf{SAHA}), an attention-head-level jailbreak framework that explores the vulnerability in deeper but insufficiently aligned attention heads. SAHA contains two novel designs. Firstly, we reveal that deeper attention layers introduce more vulnerability against jailbreak attacks. Based on this finding, \\textbf{SAHA} introduces \\textit{Ablation-Impact Ranking} head selection strategy to effectively locate the most vital layer for unsafe output. Secondly, we introduce a boundary-aware perturbation method, \\textit{i.e. Layer-Wise Perturbation}, to probe the generation of unsafe content with minimal perturbation to the attention. This constrained perturbation guarantees higher semantic relevance with the target intent while ensuring evasion. Extensive experiments show the superiority of our method: SAHA improves ASR by 14\\% over SOTA baselines, revealing the vulnerability of the attack surface on the attention head. Our code is available at https://anonymous.4open.science/r/SAHA.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.442788+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06264v1",
+      "title": "Mind the Gap: Pitfalls of LLM Alignment with Asian Public Opinion",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06264v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Large Language Models (LLMs) are increasingly being deployed in multilingual, multicultural settings, yet their reliance on predominantly English-centric training data risks misalignment with the diverse cultural values of different societies. In this paper, we present a comprehensive, multilingual audit of the cultural alignment of contemporary LLMs including GPT-4o-Mini, Gemini-2.5-Flash, Llama 3.2, Mistral and Gemma 3 across India, East Asia and Southeast Asia. Our study specifically focuses on the sensitive domain of religion as the prism for broader alignment. To facilitate this, we conduct a multi-faceted analysis of every LLM's internal representations, using log-probs/logits, to compare the model's opinion distributions against ground-truth public attitudes. We find that while the popular models generally align with public opinion on broad social issues, they consistently fail to accurately represent religious viewpoints, especially those of minority groups, often amplifying negative stereotypes. Lightweight interventions, such as demographic priming and native language prompting, partially mitigate but do not eliminate these cultural gaps. We further show that downstream evaluations on bias benchmarks (such as CrowS-Pairs, IndiBias, ThaiCLI, KoBBQ) reveal persistent harms and under-representation in sensitive contexts. Our findings underscore the urgent need for systematic, regionally grounded audits to ensure equitable global deployment of LLMs.",
+        "keywords": [
+          "cs.CL",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.224677+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05941v1",
+      "title": "XAI for Coding Agent Failures: Transforming Raw Execution Traces into Actionable Insights",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05941v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Large Language Model (LLM)-based coding agents show promise in automating software development tasks, yet they frequently fail in ways that are difficult for developers to understand and debug. While general-purpose LLMs like GPT can provide ad-hoc explanations of failures, raw execution traces remain challenging to interpret even for experienced developers. We present a systematic explainable AI (XAI) approach that transforms raw agent execution traces into structured, human-interpretable explanations. Our method consists of three key components: (1) a domain-specific failure taxonomy derived from analyzing real agent failures, (2) an automatic annotation system that classifies failures using defined annotation schema, (3) a hybrid explanation generator that produces visual execution flows, natural language explanations, and actionable recommendations. Through a user study with 20 participants (10 technical, 10 non-technical), we demonstrate that our approach enables users to identify failure root causes 2.8 times faster and propose correct fixes with 73% higher accuracy compared to raw execution traces. Importantly, our structured approach outperforms ad-hoc state of the art models explanations by providing consistent, domain-specific insights with integrated visualizations. Our work establishes a framework for systematic agent failure analysis, addressing the critical need for interpretable AI systems in software development workflows",
+        "keywords": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.440275+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06190v1",
+      "title": "DreamToNav: Generalizable Navigation for Robots via Generative Video Planning",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06190v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "We present DreamToNav, a novel autonomous robot framework that uses generative video models to enable intuitive, human-in-the-loop control. Instead of relying on rigid waypoint navigation, users provide natural language prompts (e.g. ``Follow the person carefully''), which the system translates into executable motion. Our pipeline first employs Qwen 2.5-VL-7B-Instruct to refine vague user instructions into precise visual descriptions. These descriptions condition NVIDIA Cosmos 2.5, a state-of-the-art video foundation model, to synthesize a physically consistent video sequence of the robot performing the task. From this synthetic video, we extract a valid kinematic path using visual pose estimation, robot detection and trajectory recovery. By treating video generation as a planning engine, DreamToNav allows robots to visually \"dream\" complex behaviors before executing them, providing a unified framework for obstacle avoidance and goal-directed navigation without task-specific engineering. We evaluate the approach on both a wheeled mobile robot and a quadruped robot in indoor navigation tasks. DreamToNav achieves a success rate of 76.7%, with final goal errors typically within 0.05-0.10 m and trajectory tracking errors below 0.15 m. These results demonstrate that trajectories extracted from generative video predictions can be reliably executed on physical robots across different locomotion platforms.",
+        "keywords": [
+          "cs.RO"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.9,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:04.834464+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06065v1",
+      "title": "ChatShopBuddy: Towards Reliable Conversational Shopping Agents via Reinforcement Learning",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06065v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Conversational shopping agents represent a critical consumer-facing application of Large Language Model (LLM)-powered agents, yet how to effectively apply post-training Reinforcement Learning (RL) to optimize such agents remains underexplored. This work investigates RL-based optimization for shopping agents in real-world scenarios, where agents must simultaneously satisfy multiple interdependent objectives spanning objective metrics (product correctness), subjective qualities (persuasiveness), outcome rewards (final response quality), and process rewards (tool efficiency). We present a complete methodology to address this challenge. Specifically, we first construct SmartShopBench, a benchmark that captures diverse shopping intents with a hierarchical evaluation that decomposes complex quality requirements into measurable levels. Building on this evaluation framework, we design Hierarchical Reward Modeling (HRM) to structure mixed reward types through conditional gating that reflects their logical dependencies. To enable efficient training, we further propose Dynamic Contrastive Policy Optimization (DCPO), which balances response quality with operational efficiency through dynamic trajectory selection based on reward and reasoning length. Extensive experiments demonstrate that our RL-trained agent, namely ChatShopBuddy, consistently outperforms larger models relying on generic reasoning, achieving superior stability rather than merely higher peaks. Our work provides valuable guidance for applying RL to real-world conversational agents.",
+        "keywords": [
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.9,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:13.881633+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06292v1",
+      "title": "Enhanced Protein Intrinsic Disorder Prediction Through Dual-View Multiscale Features and Multi-objective Evolutionary Algorithm",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06292v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Intrinsically disordered regions of proteins play a crucial role in cell signaling and drug discovery. However, their high structural flexibility makes accurate residue-level prediction challenging. Existing methods often rely on single-view representations or rigid manual fusion strategies, which fail to effectively balance the complex interplay between local amino acid preferences and long-range sequence patterns. To address these limitations, we propose D2MOE, a Dual-View Multiscale Features and Multi-objective Evolutionary Algorithm, which consists of two stages. First, a dual-view multiscale feature extraction method is introduced. This method integrates evolutionary views with deep semantic views and employs multiscale extractors to capture structural information across diverse receptive fields. Second, a multi-objective evolutionary algorithm is designed to adaptively discover optimal fusion architectures. By co-evolving discrete feature selection and continuous fusion weights, the algorithm adaptively explores optimal cross-feature architectures to enhance predictive accuracy while maintaining model compactness. Experimental results across three benchmark datasets demonstrate that D2MOE consistently outperforms state-of-the-art methods. D2MOE combines the feature extraction capabilities of deep learning with the global search advantages of evolutionary algorithms, enabling efficient feature integration without manual design, and providing a robust computational tool for protein disorder prediction.",
+        "keywords": [
+          "cs.NE"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.9,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.221168+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06210v1",
+      "title": "VG3S: Visual Geometry Grounded Gaussian Splatting for Semantic Occupancy Prediction",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06210v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "3D semantic occupancy prediction has become a crucial perception task for comprehensive scene understanding in autonomous driving. While recent advances have explored 3D Gaussian splatting for occupancy modeling to substantially reduce computational overhead, the generation of high-quality 3D Gaussians relies heavily on accurate geometric cues, which are often insufficient in purely vision-centric paradigms. To bridge this gap, we advocate for injecting the strong geometric grounding capability from Vision Foundation Models (VFMs) into occupancy prediction. In this regard, we introduce Visual Geometry Grounded Gaussian Splatting (VG3S), a novel framework that empowers Gaussian-based occupancy prediction with cross-view 3D geometric grounding. Specifically, to fully exploit the rich 3D geometric priors from a frozen VFM, we propose a plug-and-play hierarchical geometric feature adapter, which can effectively transform generic VFM tokens via feature aggregation, task-specific alignment, and multi-scale restructuring. Extensive experiments on the nuScenes occupancy benchmark demonstrate that VG3S achieves remarkable improvements of 12.6% in IoU and 7.5% in mIoU over the baseline. Furthermore, we show that VG3S generalizes seamlessly across diverse VFMs, consistently enhancing occupancy prediction accuracy and firmly underscoring the immense value of integrating priors derived from powerful, pre-trained geometry-grounded VFMs.",
+        "keywords": [
+          "cs.CV",
+          "cs.RO"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.9,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:04.833882+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06503v1",
+      "title": "Beyond Rows to Reasoning: Agentic Retrieval for Multimodal Spreadsheet Understanding and Editing",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06503v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Recent advances in multimodal Retrieval-Augmented Generation (RAG) enable Large Language Models (LLMs) to analyze enterprise spreadsheet workbooks containing millions of cells, cross-sheet dependencies, and embedded visual artifacts. However, state-of-the-art approaches exclude critical context through single-pass retrieval, lose data resolution through compression, and exceed LLM context windows through naive full-context injection, preventing reliable multi-step reasoning over complex enterprise workbooks. We introduce Beyond Rows to Reasoning (BRTR), a multimodal agentic framework for spreadsheet understanding that replaces single-pass retrieval with an iterative tool-calling loop, supporting end-to-end Excel workflows from complex analysis to structured editing. Supported by over 200 hours of expert human evaluation, BRTR achieves state-of-the-art performance across three frontier spreadsheet understanding benchmarks, surpassing prior methods by 25 percentage points on FRTR-Bench, 7 points on SpreadsheetLLM, and 32 points on FINCH. We evaluate five multimodal embedding models, identifying NVIDIA NeMo Retriever 1B as the top performer for mixed tabular and visual data, and vary nine LLMs. Ablation experiments confirm that the planner, retrieval, and iterative reasoning each contribute substantially, and cost analysis shows GPT-5.2 achieves the best efficiency-accuracy trade-off. Throughout all evaluations, BRTR maintains full auditability through explicit tool-call traces.",
+        "keywords": [
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.9,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.205461+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06051v1",
+      "title": "A LINDDUN-based Privacy Threat Modeling Framework for GenAI",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06051v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "As generative AI (GenAI) systems become increasingly prevalent across various technological stacks, the question of how such systems handle sensitive and personal data flows becomes increasingly important. Specifically, both the ability to harness and process large swaths of information as well as their stochastic nature raise key concerns related to both security and privacy. Unfortunately, while some of the traditional security threat modeling can effectively identify certain violations, privacy-related issues are often overlooked. To respond to these challenges, we introduce a novel domain-specific privacy threat modeling framework to support the privacy threat analysis of GenAI-based applications. This framework is constructed through a two-pronged approach: (1) a systematic review of the emerging literature on GenAI privacy threats, and (2) a case-driven application to a representative Chatbot system. These efforts yield a foundational GenAI privacy threat modeling framework built on LINDDUN. The new framework affects three out of the seven privacy threat types of LINDDUN and introduces 100 new GenAI examples to the knowledge base. Its effectiveness is validated on an AI Agent system, which demonstrates that a comprehensive privacy analysis can be supported by the new framework.",
+        "keywords": [
+          "cs.CR",
+          "cs.SE"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.9,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.437455+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06508v1",
+      "title": "When One Modality Rules Them All: Backdoor Modality Collapse in Multimodal Diffusion Models",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06508v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "While diffusion models have revolutionized visual content generation, their rapid adoption has underscored the critical need to investigate vulnerabilities, e.g., to backdoor attacks. In multimodal diffusion models, it is natural to expect that attacking multiple modalities simultaneously (e.g., text and image) would yield complementary effects and strengthen the overall backdoor. In this paper, we challenge this assumption by investigating the phenomenon of Backdoor Modality Collapse, a scenario where the backdoor mechanism degenerates to rely predominantly on a subset of modalities, rendering others redundant. To rigorously quantify this behavior, we introduce two novel metrics: Trigger Modality Attribution (TMA) and Cross-Trigger Interaction (CTI). Through extensive experiments across diverse training configurations in multimodal conditional diffusion, we consistently observe a ``winner-takes-all'' dynamic in backdoor behavior. Our results reveal that (1) attacks often collapse into subset-modality dominance, and (2) cross-modal interaction is negligible or even negative, contradicting the intuition of synergistic vulnerability. These findings highlight a critical blind spot in current assessments, suggesting that high attack success rates often mask a fundamental reliance on a subset of modalities. This establishes a principled foundation for mechanistic analysis and future defense development.",
+        "keywords": [
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.9,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.204442+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05872v1",
+      "title": "Evolving Deception: When Agents Evolve, Deception Wins",
+      "classification": "E_Environmental",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05872v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Self-evolving agents offer a promising path toward scalable autonomy. However, in this work, we show that in competitive environments, self-evolution can instead give rise to a serious and previously underexplored risk: the spontaneous emergence of deception as an evolutionarily stable strategy. We conduct a systematic empirical study on the self-evolution of large language model (LLM) agents in a competitive Bidding Arena, where agents iteratively refine their strategies through interaction-driven reflection. Across different evolutionary paths (\\eg, Neutral, Honesty-Guided, and Deception-Guided), we find a consistent pattern: under utility-driven competition, unconstrained self-evolution reliably drifts toward deceptive behaviors, even when honest strategies remain viable. This drift is explained by a fundamental asymmetry in generalization. Deception evolves as a transferable meta-strategy that generalizes robustly across diverse and unseen tasks, whereas honesty-based strategies are fragile and often collapse outside their original contexts. Further analysis of agents internal states reveals the emergence of rationalization mechanisms, through which agents justify or deny deceptive actions to reconcile competitive success with normative instructions. Our paper exposes a fundamental tension between agent self-evolution and alignment, highlighting the risks of deploying self-improving agents in adversarial environments.",
+        "keywords": [
+          "cs.CR"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.9,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.440909+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06025v1",
+      "title": "Sensitivity-Aware Retrieval-Augmented Intent Clarification",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06025v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "In conversational search systems, a key component is to determine and clarify the intent behind complex queries. We view intent clarification in light of the exploratory search paradigm, where users, through an iterative, evolving process of selection, exploration and retrieval, transform a visceral or conscious need into a formalized one. Augmenting the clarification component with a retrieval step (retrieval-augmented intent clarification) can seriously enhance clarification performance, especially in domains where Large Language Models (LLMs) lack parametric knowledge. However, in more sensitive domains, such as healthcare, government (e.g. FOIA search) or legal contexts, the retrieval database may contain sensitive information that needs protection. In this paper, we explore the research challenge of developing a retrieval-augmented conversational agent that can act as a mediator and gatekeeper for the sensitive collection. To do that, we also need to know what we are protecting and against what. We propose to tackle this research challenge in three steps: 1) define an attack model, 2) design sensitivity-aware defenses on the retrieval level and 3) develop evaluation methods to measure the trade-off between the level of protection and the system's utility.",
+        "keywords": [
+          "cs.IR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.9,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:13.882162+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05831v1",
+      "title": "Knowledge-driven Reasoning for Mobile Agentic AI: Concepts, Approaches, and Directions",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05831v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Mobile agentic AI is extending autonomous capabilities to resource-constrained platforms such as edge robots and unmanned aerial vehicles (UAVs), where strict size, weight, power, and cost (SWAP-C) constraints and intermittent wireless connectivity limit both on-device computation and cloud access. Existing approaches mostly optimize per-round communication efficiency, yet mobile agents must sustain competence across a stream of tasks. We propose a knowledge-driven reasoning framework that extracts reusable decision structures from past execution, synchronizes them over bandwidth-limited links, and injects them into on-device reasoning to reduce latency, energy, and error accumulation. A DIKW-inspired taxonomy distinguishes raw observations, episode-scoped traces, and persistent cross-task knowledge, and categorizes knowledge into retrieval, structured, procedural, and parametric representations, each with a distinct tradeoff between reasoning speedup and failure risk. A key finding is that knowledge exposure is non-monotonic: too little forces costly trial-and-error replanning, while too much introduces conflicting cues and errors. A UAV case study validates the framework, where a compact knowledge pack synchronized over intermittent backhaul enables a 3B-parameter onboard model to achieve perfect mission reliability with lower reasoning cost than both knowledge-free on-device reasoning and cloud-centric replanning.",
+        "keywords": [
+          "cs.DC"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.9,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:04.843320+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06254v1",
+      "title": "NOVA: Next-step Open-Vocabulary Autoregression for 3D Multi-Object Tracking in Autonomous Driving",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06254v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Generalizing across unknown targets is critical for open-world perception, yet existing 3D Multi-Object Tracking (3D MOT) pipelines remain limited by closed-set assumptions and ``semantic-blind'' heuristics. To address this, we propose Next-step Open-Vocabulary Autoregression (NOVA), an innovative paradigm that shifts 3D tracking from traditional fragmented distance-based matching toward generative spatio-temporal semantic modeling. NOVA reformulates 3D trajectories as structured spatio-temporal semantic sequences, enabling the simultaneous encoding of physical motion continuity and deep linguistic priors. By leveraging the autoregressive capabilities of Large Language Models (LLMs), we transform the tracking task into a principled process of next-step sequence completion. This mechanism allows the model to explicitly utilize the hierarchical structure of language space to resolve fine-grained semantic ambiguities and maintain identity consistency across complex long-range sequences through high-level commonsense reasoning. Extensive experiments on nuScenes, V2X-Seq-SPD, and KITTI demonstrate the superior performance of NOVA. Notably, on the nuScenes dataset, NOVA achieves an AMOTA of 22.41% for Novel categories, yielding a significant 20.21% absolute improvement over the baseline. These gains are realized through a compact 0.5B autoregressive model. Code will be available at https://github.com/xifen523/NOVA.",
+        "keywords": [
+          "cs.CV",
+          "cs.RO",
+          "eess.IV"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:04.832896+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05621v1",
+      "title": "RACAS: Controlling Diverse Robots With a Single Agentic System",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05621v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Many robotic platforms expose an API through which external software can command their actuators and read their sensors. However, transitioning from these low-level interfaces to high-level autonomous behaviour requires a complicated pipeline, whose components demand distinct areas of expertise. Existing approaches to bridging this gap either require retraining for every new embodiment or have only been validated across structurally similar platforms. We introduce RACAS (Robot-Agnostic Control via Agentic Systems), a cooperative agentic architecture in which three LLM/VLM-based modules (Monitors, a Controller, and a Memory Curator) communicate exclusively through natural language to provide closed-loop robot control. RACAS requires only a natural language description of the robot, a definition of available actions, and a task specification; no source code, model weights, or reward functions need to be modified to move between platforms. We evaluate RACAS on several tasks using a wheeled ground robot, a recently published novel multi-jointed robotic limb, and an underwater vehicle. RACAS consistently solved all assigned tasks across these radically different platforms, demonstrating the potential of agentic AI to substantially reduce the barrier to prototyping robotic solutions.",
+        "keywords": [
+          "cs.RO",
+          "cs.AI",
+          "cs.CL",
+          "cs.LG",
+          "cs.MA"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:16.289256+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05129v1",
+      "title": "MedCoRAG: Interpretable Hepatology Diagnosis via Hybrid Evidence Retrieval and Multispecialty Consensus",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05129v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Diagnosing hepatic diseases accurately and interpretably is critical, yet it remains challenging in real-world clinical settings. Existing AI approaches for clinical diagnosis often lack transparency, structured reasoning, and deployability. Recent efforts have leveraged large language models (LLMs), retrieval-augmented generation (RAG), and multi-agent collaboration. However, these approaches typically retrieve evidence from a single source and fail to support iterative, role-specialized deliberation grounded in structured clinical data. To address this, we propose MedCoRAG (i.e., Medical Collaborative RAG), an end-to-end framework that generates diagnostic hypotheses from standardized abnormal findings and constructs a patient-specific evidence package by jointly retrieving and pruning UMLS knowledge graph paths and clinical guidelines. It then performs Multi-Agent Collaborative Reasoning: a Router Agent dynamically dispatches Specialist Agents based on case complexity; these agents iteratively reason over the evidence and trigger targeted re-retrievals when needed, while a Generalist Agent synthesizes all deliberations into a traceable consensus diagnosis that emulates multidisciplinary consultation. Experimental results on hepatic disease cases from MIMIC-IV show that MedCoRAG outperforms existing methods and closed-source models in both diagnostic performance and reasoning interpretability.",
+        "keywords": [
+          "cs.AI",
+          "cs.MA"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:16.293814+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06240v1",
+      "title": "Human, Algorithm, or Both? Gender Bias in Human-Augmented Recruiting",
+      "classification": "S_Social",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06240v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Recent years have seen rapid growth in the market for HR technology and AI-driven HR solutions in particular. This popularity has also resulted in increased attention to the negative aspects of using AI to support hiring practices, such as the risk of reinforcing existing biases against vulnerable groups based on gender or other sensitive attributes. Combining human experience with AI efficiency in making recruiting and selection decisions has the potential to help mitigate these biases, but despite a considerable amount of research on fairness in algorithmic hiring, actual empirical evaluations comparing the fairness of human, AI, and human-augmented decision-making remain scarce. In this study, we address this gap by presenting a quantitative analysis of gender bias across three scenarios of a real-world recruitment platform: (1) recruiters searching a CV database manually for relevant candidates, (2) AI-driven matching between candidates and jobs, and (3) a combination of human and AI-driven recruiting. We find that human recruiters produce lists of candidates that are fairer in terms of gender than the AI-only solution, with more deliberation by humans resulting in fairer outcomes. However, the combination of human and AI-driven is more than the sum of its parts and produces the fairest candidate lists: interacting with the slate of recommended candidates first before manually searching for additional candidates has a beneficial effect on the gender fairness of the set of candidates that are viewed, clicked, and contacted afterwards. Our work provides one of the first empirical comparisons of fairness across human, AI, and hybrid recruiting processes, offering evidence to inform the development of more equitable hiring practices and highlighting the importance of human oversight for mitigating bias in algorithmic hiring.",
+        "keywords": [
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:16.278035+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06223v1",
+      "title": "What are AI researchers worried about?",
+      "classification": "S_Social",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06223v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "As AI attracts vast investment and attention, there are competing concerns about the technology's opportunities and uncertainties that blend technical and social questions. The public debate, dominated by a few powerful voices, tends to highlight extreme promises and threats. We wanted to know whether public discussions or technology companies' priorities were representative of AI researchers' opinions. Our survey of more than 4,000 AI researchers is, we think, the largest conducted to date. It was designed to understand attitudes to a variety of issues and include some comparisons with public attitudes derived from existing surveys. Most previous surveys of AI researchers have asked them for predictions of passing a technological threshold or the probabilities of some catastrophic event. These surveys mask the uncertainty and diversity that normally characterises scientific research. Our hypothesis was that the opinions of AI researchers would be markedly different from those of members of the public. While there are areas of divergence, particularly in attitudes to the technology's potential benefits, our survey shows some surprising convergence between researchers' and publics' opinions, particularly in the assessment and prioritisation of risk. Responses to an open text question 'What one thing most worries you about AI?' reveal that only 3% of AI researchers prioritise existential risks, despite the prominence given to these risks in media and policy. AI technologies and AI researchers seem to be much more 'normal' than public representations suggest. Our survey results suggest the possibility for new forms of public dialogue on AI's harms, risks and opportunities. Rather than speculating on future potential risks, policymakers and AI researchers should collaborate on understanding and mitigating the range of sociotechnical risks that are already of clear public concern.",
+        "keywords": [
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:16.278507+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05789v1",
+      "title": "The Coordination Gap: Alternation Metrics for Temporal Dynamics in Multi-Agent Battle of the Exes",
+      "classification": "P_Political",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05789v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Multi-agent coordination dilemmas expose a fundamental tension between individual optimization and collective welfare, yet characterizing such coordination requires metrics sensitive to temporal structure and collective dynamics. As a diagnostic testbed, we study a BoE-derived multi-agent variant of the Battle of the Exes, formalizing it as a Markov game in which turn-taking emerges as a periodic coordination regime. Conventional outcome-based metrics (e.g., efficiency and min/max fairness) are temporally blind -- they cannot distinguish structured alternation from monopolistic or random access patterns -- and fairness ratios lose discriminative power as n grows, obscuring inequities. To address this limitation, we introduce Perfect Alternation (PA) as a reference coordination regime and propose six novel Alternation (ALT) metrics designed as temporally sensitive observables of coordination quality. Using Q-learning agents as a minimal adaptive diagnostic baseline, and comparing against random-policy null processes, we uncover a clear measurement failure: despite exhibiting deceptively high traditional metrics (e.g., reward fairness often exceeding 0.9), learned policies perform up to 81% below random baselines under ALT-variant evaluation -- a deficit already present in the two-agent case and intensifying as n grows. These results demonstrate, in this setting, that high aggregate payoffs can coexist with poor temporal coordination, and that conventional metrics may severely mischaracterize emergent dynamics. Our findings underscore the necessity of temporally aware observables for analyzing coordination in multi-agent games and highlight random-policy baselines as essential null processes for interpreting coordination outcomes relative to chance-level behavior.",
+        "keywords": [
+          "cs.MA",
+          "cs.GT",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:16.287428+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.04786v1",
+      "title": "Wave interactions in a screeching jet",
+      "classification": "E_Economic",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.04786v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "We use a series of global models to investigate the linear and nonlinear interactions between shock cells, Kelvin-Helmholtz waves, guided jet modes, and other fluctuations in a screeching jet. First, we identify a set of lightly damped global eigenmodes of the Navier-Stokes operator linearized about the mean flow and show that they result from interactions with different shock-cell wavenumbers. Second, we use resolvent analysis to study the linear input-output behavior of the jet and obtain a time-periodic representation of the screech mode, which compares favorably with experimental data. Third, we use harmonic resolvent analysis to study triadic interactions, including inter-frequency energy transfer, between the screech mode determined from resolvent analysis and other fluctuations in the jet. The components of the optimal harmonic resolvent mode at harmonics of the screech frequency match experimental observations that have not been previously predicted by global models. Fourth, we leverage a novel bilinear formulation of harmonic resolvent analysis to study the impact of the screech mode's nonlinear self-interaction on other fluctuations in the jet. We show that the forcing provided by this nonlinear self-interaction of the screech mode, along with its triadic interactions with other frequencies embedded within the harmonic resolvent operator, is sufficient to explain the redistribution of energy to other frequencies and the associated experimental observations. In aggregate, these findings underscore the critical role of triadic and nonlinear interactions in shaping screech dynamics and offer a promising workflow for studying similar interactions in other flows dominated by periodic motions.",
+        "keywords": [
+          "physics.flu-dyn"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:25.723795+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05277v1",
+      "title": "Extensions to the Wealth Tax Neutrality Framework",
+      "classification": "S_Social",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05277v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Froeseth (2026) shows that a proportional wealth tax on market values is neutral with respect to portfolio choice, Sharpe ratios, and equilibrium prices under CRRA preferences and geometric Brownian motion. This paper investigates the robustness of that result along two dimensions. First, we extend the neutrality frontier: portfolio neutrality, including all intertemporal hedging demands, is preserved under stochastic volatility (Heston and general Markov diffusions) and Epstein-Zin recursive utility, but breaks under non-homothetic preferences such as HARA. Second, we identify four channels through which implemented wealth taxes depart from neutrality even under CRRA: non-uniform assessment across asset classes, general equilibrium price effects in inelastic markets, progressive threshold structures, and endogenous labour supply. Each channel is formalised and, where possible, calibrated to the Norwegian wealth tax system. The progressive threshold introduces a tax shield that increases risk-taking near the exemption boundary, an effect opposite in sign to the HARA distortion, and, at the extreme, generates a participation margin at which investors exit the tax jurisdiction entirely. We formalise this tax-induced migration as the extreme response at the progressive threshold and examine the Norwegian post-2022 experience as a case study. The full framework is applied to evaluate the Saez-Zucman proposal for a global minimum wealth tax on billionaires and the related French proposal for a national minimum tax above EUR 100 million.",
+        "keywords": [
+          "physics.soc-ph",
+          "econ.GN",
+          "q-fin.PM"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:49.408239+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06576v1",
+      "title": "BEVLM: Distilling Semantic Knowledge from LLMs into Bird's-Eye View Representations",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06576v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "The integration of Large Language Models (LLMs) into autonomous driving has attracted growing interest for their strong reasoning and semantic understanding abilities, which are essential for handling complex decision-making and long-tail scenarios. However, existing methods typically feed LLMs with tokens from multi-view and multi-frame images independently, leading to redundant computation and limited spatial consistency. This separation in visual processing hinders accurate 3D spatial reasoning and fails to maintain geometric coherence across views. On the other hand, Bird's-Eye View (BEV) representations learned from geometrically annotated tasks (e.g., object detection) provide spatial structure but lack the semantic richness of foundation vision encoders. To bridge this gap, we propose BEVLM, a framework that connects a spatially consistent and semantically distilled BEV representation with LLMs. Through extensive experiments, we show that BEVLM enables LLMs to reason more effectively in cross-view driving scenes, improving accuracy by 46%, by leveraging BEV features as unified inputs. Furthermore, by distilling semantic knowledge from LLMs into BEV representations, BEVLM significantly improves closed-loop end-to-end driving performance by 29% in safety-critical scenarios.",
+        "keywords": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG",
+          "cs.RO"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.198407+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06445v1",
+      "title": "What if? Emulative Simulation with World Models for Situated Reasoning",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06445v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Situated reasoning often relies on active exploration, yet in many real-world scenarios such exploration is infeasible due to physical constraints of robots or safety concerns of visually impaired users. Given only a limited observation, can an agent mentally simulate a future trajectory toward a target situation and answer spatial what-if questions? We introduce WanderDream, the first large-scale dataset designed for the emulative simulation of mental exploration, enabling models to reason without active exploration. WanderDream-Gen comprises 15.8K panoramic videos across 1,088 real scenes from HM3D, ScanNet++, and real-world captures, depicting imagined trajectories from current viewpoints to target situations. WanderDream-QA contains 158K question-answer pairs, covering starting states, paths, and end states along each trajectory to comprehensively evaluate exploration-based reasoning. Extensive experiments with world models and MLLMs demonstrate (1) that mental exploration is essential for situated reasoning, (2) that world models achieve compelling performance on WanderDream-Gen, (3) that imagination substantially facilitates reasoning on WanderDream-QA, and (4) that WanderDream data exhibit remarkable transferability to real-world scenarios. The source code and all data will be released.",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.208961+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05689v1",
+      "title": "SecureRAG-RTL: A Retrieval-Augmented, Multi-Agent, Zero-Shot LLM-Driven Framework for Hardware Vulnerability Detection",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05689v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Large language models (LLMs) have shown remarkable capabilities in natural language processing tasks, yet their application in hardware security verification remains limited due to scarcity of publicly available hardware description language (HDL) datasets. This knowledge gap constrains LLM performance in detecting vulnerabilities within HDL designs. To address this challenge, we propose SecureRAG-RTL, a novel Retrieval-Augmented Generation (RAG)-based approach that significantly enhances LLM-based security verification of hardware designs. Our approach integrates domain-specific retrieval with generative reasoning, enabling models to overcome inherent limitations in hardware security expertise. We establish baseline vulnerability detection rates using prompt-only methods and then demonstrate that SecureRAG-RTL achieves substantial improvements across diverse LLM architectures, regardless of size. On average, our method increases detection accuracy by about 30%, highlighting its effectiveness in bridging domain knowledge gaps. For evaluation, we curated and annotated a benchmark dataset of 14 HDL designs containing real-world security vulnerabilities, which we will release publicly to support future research. These findings underscore the potential of RAG-driven augmentation to enable scalable, efficient, and accurate hardware security verification workflows.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.444161+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06577v1",
+      "title": "Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06577v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "While recent multimodal large language models (MLLMs) have made impressive strides, they predominantly employ a conventional autoregressive architecture as their backbone, leaving significant room to explore effective and efficient alternatives in architectural design. Concurrently, recent studies have successfully applied discrete diffusion models to various domains, such as visual understanding and image generation, revealing their considerable potential as a promising backbone for multimodal systems. Drawing inspiration from these pioneering research, we introduce Omni-Diffusion, the first any-to-any multimodal language model built entirely on mask-based discrete diffusion models, which unifies understanding and generation across text, speech, and images. Omni-Diffusion employs a unified mask-based discrete diffusion model to directly capture the joint distribution over discrete multimodal tokens. This approach supports not only bimodal tasks but also more complex scenarios involving multiple modalities. On a diverse set of benchmarks, our method outperforms or performs on par with existing multimodal systems that process two or more modalities, highlighting the significant promise of diffusion models in powering the next generation of multimodal foundation models. Project webpage: https://omni-diffusion.github.io.",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.198092+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06287v1",
+      "title": "Learning Where the Physics Is: Probabilistic Adaptive Sampling for Stiff PDEs",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06287v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Modeling stiff partial differential equations (PDEs) with sharp gradients remains a significant challenge for scientific machine learning. While Physics-Informed Neural Networks (PINNs) struggle with spectral bias and slow training times, Physics-Informed Extreme Learning Machines (PIELMs) offer a rapid, closed-form linear solution but are fundamentally limited by physics-agnostic, random initialization. We introduce the Gaussian Mixture Model Adaptive PIELM (GMM-PIELM), a probabilistic framework that learns a probability density function representing the ``location of physics'' for adaptively sampling kernels of PIELMs. By employing a weighted Expectation-Maximization (EM) algorithm, GMM-PIELM autonomously concentrates radial basis function centers in regions of high numerical error, such as shock fronts and boundary layers. This approach dynamically improves the conditioning of the hidden layer without the expensive gradient-based optimization(of PINNs) or Bayesian search. We evaluate our methodology on 1D singularly perturbed convection-diffusion equations with diffusion coefficients $ν=10^{-4}$. Our method achieves $L_2$ errors up to $7$ orders of magnitude lower than baseline RBF-PIELMs, successfully resolving exponentially thin boundary layers while retaining the orders-of-magnitude speed advantage of the ELM architecture.",
+        "keywords": [
+          "cs.CE",
+          "cs.AI",
+          "cs.LG",
+          "math.AP"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.8,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.222119+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05915v1",
+      "title": "ThermoCAPTCHA: Privacy-Preserving Human Verification with Farm-Resistant Traceable Tokens",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05915v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "CAPTCHAs remain a critical defense against automated abuse, yet modern systems suffer from well-known limitations in usability, accessibility, and resistance to increasingly capable bots and low-cost CAPTCHA farms. Behavioral and puzzle-based mechanisms often impose cognitive burdens, collect extensive interaction data, or permit outsourcing to human solvers. In this paper, we present ThermoCAPTCHA, a novel privacy-preserving human verification system that uses real-time thermal imaging to detect live human presence without requiring users to solve challenges. A lightweight YOLOv4-tiny model identifies human heat signatures from a single thermal capture, while cryptographically bound traceable tokens prevent forwarding attacks by CAPTCHA farm workers. Our prototype achieves 96.70% detection accuracy with a 73.60 ms verification latency on a low-powered server. Comprehensive security evaluation, including MITM manipulation, spoofing attempts, adversarial perturbations, and misuse scenarios, shows that ThermoCAPTCHA withstands threats that commonly defeat behavioral CAPTCHAs. A user study with 50 participants, including visually challenged users, demonstrates improved accuracy, faster completion times, and higher perceived usability compared to reCAPTCHA v2.",
+        "keywords": [
+          "cs.CR"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.7,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.440579+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05773v1",
+      "title": "Knowing without Acting: The Disentangled Geometry of Safety Mechanisms in Large Language Models",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05773v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Safety alignment is often conceptualized as a monolithic process wherein harmfulness detection automatically triggers refusal. However, the persistence of jailbreak attacks suggests a fundamental mechanistic decoupling. We propose the \\textbf{\\underline{D}}isentangled \\textbf{\\underline{S}}afety \\textbf{\\underline{H}}ypothesis \\textbf{(DSH)}, positing that safety computation operates on two distinct subspaces: a \\textit{Recognition Axis} ($\\mathbf{v}_H$, ``Knowing'') and an \\textit{Execution Axis} ($\\mathbf{v}_R$, ``Acting''). Our geometric analysis reveals a universal ``Reflex-to-Dissociation'' evolution, where these signals transition from antagonistic entanglement in early layers to structural independence in deep layers. To validate this, we introduce \\textit{Double-Difference Extraction} and \\textit{Adaptive Causal Steering}. Using our curated \\textsc{AmbiguityBench}, we demonstrate a causal double dissociation, effectively creating a state of ``Knowing without Acting.'' Crucially, we leverage this disentanglement to propose the \\textbf{Refusal Erasure Attack (REA)}, which achieves State-of-the-Art attack success rates by surgically lobotomizing the refusal mechanism. Furthermore, we uncover a critical architectural divergence, contrasting the \\textit{Explicit Semantic Control} of Llama3.1 with the \\textit{Latent Distributed Control} of Qwen2.5. The code and dataset are available at https://anonymous.4open.science/r/DSH.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.7,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.442466+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.06303v1",
+      "title": "Polarized Direct Cross-Attention Message Passing in GNNs for Machinery Fault Diagnosis",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06303v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "The reliability of safety-critical industrial systems hinges on accurate and robust fault diagnosis in rotating machinery. Conventional graph neural networks (GNNs) for machinery fault diagnosis face limitations in modeling complex dynamic interactions due to their reliance on predefined static graph structures and homogeneous aggregation schemes. To overcome these challenges, this paper introduces polarized direct cross-attention (PolaDCA), a novel relational learning framework that enables adaptive message passing through data-driven graph construction. Our approach builds upon a direct cross-attention (DCA) mechanism that dynamically infers attention weights from three semantically distinct node features (such as individual characteristics, neighborhood consensus, and neighborhood diversity) without requiring fixed adjacency matrices. Theoretical analysis establishes PolaDCA's superior noise robustness over conventional GNNs. Extensive experiments on industrial datasets (i.e., XJTUSuprgear, CWRUBearing and Three-Phase Flow Facility datasets) demonstrate state-of-the-art diagnostic accuracy and enhanced generalization under varying noise conditions, outperforming seven competitive baseline methods. The proposed framework provides an effective solution for safety-critical industrial applications.",
+        "keywords": [
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.7,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:02.220486+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.05974v1",
+      "title": "Balancing Latency and Accuracy of Code Completion via Local-Cloud Model Cascading",
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05974v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Line-level code completion requires a critical balance between high accuracy and low latency. Existing methods suffer from a trade-off: large language models (LLMs) provide high-quality suggestions but incur high latency, while small language models (SLMs) are fast but often suboptimal. We propose MCCom (Model-Cascading-based code Completion), a framework that cascades a local SLM with a cloud-based LLM. To achieve effective cascading, MCCom leverages user actions as a novel signal to trigger the LLM only when the SLM fails, significantly reducing cloud computation costs. Furthermore, we introduce a two-stage speculative decoding strategy and an iterative retrieval mechanism to enhance collaboration between the models. We also train a 121M-parameter lightweight model, which achieves 73.8% of the performance of a 7B state-of-the-art model. Evaluated on RepoEval and a new real-world benchmark StmtEval, MCCom reduces inference latency by up to 47.9% and LLM usage by 46.3%, while improving the LLM's exact match rate by 8.9% through effective collaboration.",
+        "keywords": [
+          "cs.SE"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 8.7,
+      "probability": 0.7,
+      "urgency": 5,
+      "novelty": 7,
+      "scan_metadata": {
+        "collected_at": "2026-03-09T22:56:07.439941+00:00",
+        "scan_date": "2026-03-10",
+        "workflow": "wf2-arxiv"
+      }
+    },
+    {
+      "id": "arxiv-2603.08566v1",
+      "title": "OSS-CRS: Liberating AIxCC Cyber Reasoning Systems for Real-World Open-Source Security",
+      "steeps_category": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08566v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.116581Z"
+    },
+    {
+      "id": "arxiv-2603.07947v1",
+      "title": "Lattice: A Post-Quantum Settlement Layer for Cryptocurrency",
+      "steeps_category": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.07947v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117885Z"
+    },
+    {
+      "id": "arxiv-2603.08221v1",
+      "title": "SplitAgent: Privacy-Preserving Enterprise-Cloud AI Agent Architecture",
+      "steeps_category": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08221v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117889Z"
+    },
+    {
+      "id": "arxiv-2603.08706v1",
+      "title": "Agentic Critical Training: Beyond Imitation Learning for LLM Agents",
+      "steeps_category": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08706v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117891Z"
+    },
+    {
+      "id": "arxiv-2603.08486v1",
+      "title": "Visual Self-Fulfilling Alignment: Safety-Oriented Personas for Multimodal LLMs",
+      "steeps_category": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08486v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117893Z"
+    },
+    {
+      "id": "arxiv-2603.08490v1",
+      "title": "Open-Source Platform for Autonomous Laparoscopic Surgery",
+      "steeps_category": "S_Social",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08490v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117895Z"
+    },
+    {
+      "id": "arxiv-2603.08448v1",
+      "title": "Clinical Feasibility Study of Conversational Diagnostic AI in Primary Care",
+      "steeps_category": "S_Social",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08448v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117896Z"
+    },
+    {
+      "id": "arxiv-2603.08520v1",
+      "title": "SCAFFOLD-CEGIS: Preventing Security Degradation in LLM Code Refinement",
+      "steeps_category": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08520v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117898Z"
+    },
+    {
+      "id": "arxiv-2603.08316v1",
+      "title": "SlowBA: Efficiency Backdoor Attack Against VLM-Based GUI Agents",
+      "steeps_category": "P_Political",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08316v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117900Z"
+    },
+    {
+      "id": "arxiv-2603.08665v1",
+      "title": "Cybersecurity AI: Hacking Consumer Robots in the AI Era",
+      "steeps_category": "P_Political",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08665v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117901Z"
+    },
+    {
+      "id": "arxiv-2603.08654v1",
+      "title": "Carbon-aware Market Participation for Building Energy Management Systems",
+      "steeps_category": "E_Environmental",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08654v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117903Z"
+    },
+    {
+      "id": "arxiv-2603.08660v1",
+      "title": "How Far Can Unsupervised RLVR Scale LLM Training?",
+      "steeps_category": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08660v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117905Z"
+    },
+    {
+      "id": "arxiv-2603.08412v1",
+      "title": "Aligning to Illusions: Choice Blindness in Human and AI Feedback",
+      "steeps_category": "s_spiritual",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08412v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117906Z"
+    },
+    {
+      "id": "arxiv-2603.08483v1",
+      "title": "X-AVDT: Audio-Visual Cross-Attention for Robust Deepfake Detection",
+      "steeps_category": "E_Economic",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08483v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117908Z"
+    },
+    {
+      "id": "arxiv-2603.08572v1",
+      "title": "MetaWorld-X: Hierarchical World Modeling for Humanoid Loco-Manipulation",
+      "steeps_category": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08572v1",
+        "published_date": "2026-03-09"
+      },
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "scan_count": 1,
+      "status": "active",
+      "priority_score": null,
+      "added_at": "2026-03-11T00:02:36.117910Z"
     }
   ],
   "total_signals": 175,

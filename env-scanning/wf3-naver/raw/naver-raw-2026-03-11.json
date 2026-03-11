@@ -1,0 +1,56 @@
+{
+  "scan_metadata": {
+    "date": "2026-03-11",
+    "workflow": "wf3-naver",
+    "source": "NaverNews",
+    "total_items": 0,
+    "execution_time": 1036.7,
+    "execution_proof": {
+      "execution_id": "wf3-crawl-2026-03-11-00-10-03-1526",
+      "started_at": "2026-03-11T00:10:03.319830+00:00",
+      "completed_at": "2026-03-11T00:27:20.025416+00:00",
+      "actual_api_calls": {
+        "web_search": 0,
+        "arxiv_api": 0,
+        "naver_crawl": 278
+      },
+      "actual_sources_scanned": [
+        "NaverNews"
+      ],
+      "file_created_at": "2026-03-11T00:27:20.025416+00:00"
+    },
+    "crawler_version": "1.0.0",
+    "tc_filter": {
+      "window_start": "2026-03-09 22:59:22+00:00",
+      "window_end": "2026-03-10 22:59:22+00:00",
+      "tolerance_minutes": 30,
+      "removed_count": 272,
+      "remaining_count": 0
+    }
+  },
+  "crawl_stats": {
+    "total_articles": 272,
+    "total_raw_before_noise_filter": 272,
+    "noise_filtered": 0,
+    "signal_to_noise_ratio": 1.0,
+    "sections_crawled": 6,
+    "section_stats": {
+      "정치": 46,
+      "경제": 46,
+      "사회": 46,
+      "생활문화": 44,
+      "세계": 46,
+      "IT과학": 44
+    },
+    "failed_urls_count": 0
+  },
+  "defense_summary": {
+    "total_blocks": 0,
+    "total_successes": 278,
+    "blocks_by_type": {},
+    "blocks_by_strategy": {},
+    "final_strategy": "default"
+  },
+  "items": [],
+  "failed_urls": []
+}

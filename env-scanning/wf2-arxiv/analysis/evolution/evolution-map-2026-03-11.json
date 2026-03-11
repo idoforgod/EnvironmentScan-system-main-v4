@@ -1,0 +1,422 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf2-arxiv",
+  "scan_date": "2026-03-11",
+  "computed_at": "2026-03-10T23:43:11Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 15,
+    "new_signals": 15,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 0,
+    "active_threads": 749
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "arxiv-2603.08566v1",
+      "thread_id": "THREAD-WF2-2446",
+      "canonical_title": "OSS-CRS: Liberating AIxCC Cyber Reasoning Systems for Real-World Open-Source Security",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "OSS-CRS: Liberating AIxCC Cyber Reasoning Systems for Real-World Open-Source Security",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.07947v1",
+      "thread_id": "THREAD-WF2-2447",
+      "canonical_title": "Lattice: A Post-Quantum Settlement Layer for Cryptocurrency",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Lattice: A Post-Quantum Settlement Layer for Cryptocurrency",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08221v1",
+      "thread_id": "THREAD-WF2-2448",
+      "canonical_title": "SplitAgent: Privacy-Preserving Enterprise-Cloud AI Agent Architecture",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "SplitAgent: Privacy-Preserving Enterprise-Cloud AI Agent Architecture",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08706v1",
+      "thread_id": "THREAD-WF2-2449",
+      "canonical_title": "Agentic Critical Training: Beyond Imitation Learning for LLM Agents",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Agentic Critical Training: Beyond Imitation Learning for LLM Agents",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08486v1",
+      "thread_id": "THREAD-WF2-2450",
+      "canonical_title": "Visual Self-Fulfilling Alignment: Safety-Oriented Personas for Multimodal LLMs",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Visual Self-Fulfilling Alignment: Safety-Oriented Personas for Multimodal LLMs",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08490v1",
+      "thread_id": "THREAD-WF2-2451",
+      "canonical_title": "Open-Source Platform for Autonomous Laparoscopic Surgery",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Open-Source Platform for Autonomous Laparoscopic Surgery",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08448v1",
+      "thread_id": "THREAD-WF2-2452",
+      "canonical_title": "Clinical Feasibility Study of Conversational Diagnostic AI in Primary Care",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Clinical Feasibility Study of Conversational Diagnostic AI in Primary Care",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08520v1",
+      "thread_id": "THREAD-WF2-2453",
+      "canonical_title": "SCAFFOLD-CEGIS: Preventing Security Degradation in LLM Code Refinement",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "SCAFFOLD-CEGIS: Preventing Security Degradation in LLM Code Refinement",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08316v1",
+      "thread_id": "THREAD-WF2-2454",
+      "canonical_title": "SlowBA: Efficiency Backdoor Attack Against VLM-Based GUI Agents",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "SlowBA: Efficiency Backdoor Attack Against VLM-Based GUI Agents",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08665v1",
+      "thread_id": "THREAD-WF2-2455",
+      "canonical_title": "Cybersecurity AI: Hacking Consumer Robots in the AI Era",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Cybersecurity AI: Hacking Consumer Robots in the AI Era",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08654v1",
+      "thread_id": "THREAD-WF2-2456",
+      "canonical_title": "Carbon-aware Market Participation for Building Energy Management Systems",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Carbon-aware Market Participation for Building Energy Management Systems",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08660v1",
+      "thread_id": "THREAD-WF2-2457",
+      "canonical_title": "How Far Can Unsupervised RLVR Scale LLM Training?",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "How Far Can Unsupervised RLVR Scale LLM Training?",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08412v1",
+      "thread_id": "THREAD-WF2-2458",
+      "canonical_title": "Aligning to Illusions: Choice Blindness in Human and AI Feedback",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Aligning to Illusions: Choice Blindness in Human and AI Feedback",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08483v1",
+      "thread_id": "THREAD-WF2-2459",
+      "canonical_title": "X-AVDT: Audio-Visual Cross-Attention for Robust Deepfake Detection",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "X-AVDT: Audio-Visual Cross-Attention for Robust Deepfake Detection",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08572v1",
+      "thread_id": "THREAD-WF2-2460",
+      "canonical_title": "MetaWorld-X: Hierarchical World Modeling for Humanoid Loco-Manipulation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "MetaWorld-X: Hierarchical World Modeling for Humanoid Loco-Manipulation",
+          "psst": 0
+        }
+      ]
+    }
+  ],
+  "faded_threads": [],
+  "new_threads_created": [
+    "THREAD-WF2-2446",
+    "THREAD-WF2-2447",
+    "THREAD-WF2-2448",
+    "THREAD-WF2-2449",
+    "THREAD-WF2-2450",
+    "THREAD-WF2-2451",
+    "THREAD-WF2-2452",
+    "THREAD-WF2-2453",
+    "THREAD-WF2-2454",
+    "THREAD-WF2-2455",
+    "THREAD-WF2-2456",
+    "THREAD-WF2-2457",
+    "THREAD-WF2-2458",
+    "THREAD-WF2-2459",
+    "THREAD-WF2-2460"
+  ]
+}

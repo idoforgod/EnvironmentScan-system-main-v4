@@ -1,0 +1,325 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "2.0.0",
+  "checked_at": "2026-03-09T22:26:29.107357+00:00",
+  "workflow": "wf1-general",
+  "signals_file": "env-scanning/wf1-general/structured/2026-03-10/signals-structured.json",
+  "previous_file": "env-scanning/wf1-general/signals/database.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "9 definite duplicate(s) removed. 27 uncertain signal(s) flagged for LLM review. 14 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3,
+    "title_similarity_definite": 0.9,
+    "title_similarity_uncertain": 0.8,
+    "entity_overlap_definite": 0.85,
+    "entity_overlap_uncertain": 0.7
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 50,
+    "definite_new": 14,
+    "definite_duplicates": 9,
+    "uncertain": 27,
+    "pass_through": 41
+  },
+  "stage_breakdown": {
+    "A_url": 4,
+    "B_topic": 5,
+    "C_title": 0,
+    "D_entity": 0
+  },
+  "duplicates": [
+    {
+      "signal_id": "mit-20260310-003",
+      "signal_title": "Online Harassment Enters Its AI Era with Autonomous Agent Attacks",
+      "matched_signal_id": "mitr-20260306-001",
+      "matched_title": "Online harassment enters AI era — autonomous targeting without instruction",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "ieee-20260310-001",
+      "signal_title": "Military AI Policy Needs Democratic Oversight",
+      "matched_signal_id": "ieee-spectrum-1603d0b55a62",
+      "matched_title": "Military AI Policy Needs Democratic Oversight",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "un-20260310-003",
+      "signal_title": "World Economy at Grave Risk from Middle East Conflict, UN Chief Warns",
+      "matched_signal_id": "wf1-20260307-002",
+      "matched_title": "Middle East War Day 7 — UN warns world economy at grave risk; situation could spiral",
+      "stage": "B_topic",
+      "score": 0.75
+    },
+    {
+      "signal_id": "cb-20260310-001",
+      "signal_title": "Pace of Global Warming Has Nearly Doubled Since 2015",
+      "matched_signal_id": "wf1-20260307-001",
+      "matched_title": "Pace of global warming has nearly doubled since 2015 — acceleration confirmed",
+      "stage": "B_topic",
+      "score": 0.75
+    },
+    {
+      "signal_id": "cb-20260310-002",
+      "signal_title": "China's 15th Five-Year Plan: 17% Carbon Intensity Cut, 25% Non-Fossil Energy by 2030",
+      "matched_signal_id": "cb-20260306-003",
+      "matched_title": "China 15th five-year plan: 3.8% carbon intensity reduction, transition fund",
+      "stage": "B_topic",
+      "score": 0.6923
+    },
+    {
+      "signal_id": "brk-20260310-001",
+      "signal_title": "Limits of Tariff-Driven Economic Statecraft After IEEPA Court Decisions",
+      "matched_signal_id": "brk-20260306-001",
+      "matched_title": "Post-IEEPA: Limits of tariff-driven economic statecraft",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "pew-20260310-002",
+      "signal_title": "Americans Especially Likely to View Fellow Citizens as Morally Bad",
+      "matched_signal_id": "pew-20260306-001",
+      "matched_title": "Americans most negative about compatriots' morality — 25-country survey",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "da-20260310-001",
+      "signal_title": "Kenya's Roam Launches AI-Enabled Real-Time Monitoring for Electric Fleets Across Africa",
+      "matched_signal_id": "wf1-20260307-020",
+      "matched_title": "Kenya Roam AI-enabled EV fleet monitoring — Africa electric mobility leapfrog",
+      "stage": "B_topic",
+      "score": 0.6667
+    },
+    {
+      "signal_id": "who-20260310-001",
+      "signal_title": "WHO: Countries Negotiate Pandemic Agreement Annex on Pathogen Access",
+      "matched_signal_id": "wf1-20260218-001",
+      "matched_title": "WHO Pandemic Agreement Annex Negotiation Progress",
+      "stage": "B_topic",
+      "score": 0.625
+    }
+  ],
+  "uncertain_signals": [
+    {
+      "signal_id": "tc-20260310-001",
+      "signal_title": "OpenAI Acquires Promptfoo to Secure Its AI Agents",
+      "matched_signal_id": "mitr-20260306-004",
+      "matched_title": "OpenAI secures classified Pentagon military contract",
+      "stage": "C_title",
+      "score": 0.8616
+    },
+    {
+      "signal_id": "tc-20260310-002",
+      "signal_title": "Anthropic Sues Defense Department Over Supply-Chain Risk Designation",
+      "matched_signal_id": "wf1-20260307-004",
+      "matched_title": "Anthropic Pentagon deal collapse — AI safety vs defense procurement crossroads",
+      "stage": "C_title",
+      "score": 0.8452
+    },
+    {
+      "signal_id": "tc-20260310-003",
+      "signal_title": "Anthropic Launches Code Review Tool to Check Flood of AI-Generated Code",
+      "matched_signal_id": "wf1-20260307-009",
+      "matched_title": "Anthropic Claude finds 22 Firefox vulnerabilities — AI-powered security research enters production",
+      "stage": "C_title",
+      "score": 0.8362
+    },
+    {
+      "signal_id": "tc-20260310-004",
+      "signal_title": "Russian Government Hackers Targeting Signal and WhatsApp Users",
+      "matched_signal_id": "techcrunch-10f31883a878",
+      "matched_title": "Russian hackers breached Polish power grid thanks to bad security, report says",
+      "stage": "C_title",
+      "score": 0.8222
+    },
+    {
+      "signal_id": "tc-20260310-006",
+      "signal_title": "Nscale Hits $14.6B Valuation as AI Infrastructure Startup Raises $2B",
+      "matched_signal_id": "ieee-20260227-003",
+      "matched_title": "RF Over Fiber: New Era in Data Center Efficiency",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "tc-20260310-007",
+      "signal_title": "Qualcomm Partners with Neura Robotics for Humanoid Robot Development",
+      "matched_signal_id": "wf1-20260218-018",
+      "matched_title": "Qualcomm UK Lawsuit Challenges Chip Licensing Model",
+      "stage": "C_title",
+      "score": 0.8045
+    },
+    {
+      "signal_id": "tc-20260310-008",
+      "signal_title": "Zoox Starts Mapping Dallas and Phoenix for Robotaxi Commercial Deployment",
+      "matched_signal_id": "wf1-20260218-008",
+      "matched_title": "Tensor Announces SAE Level 4 Consumer Autonomous Vehicle",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "mit-20260310-001",
+      "signal_title": "How AI Is Turning the Iran Conflict Into Theater",
+      "matched_signal_id": "ieee-norway-ev-policy",
+      "matched_title": "How Norway Accomplished a Near-Total EV Transition",
+      "stage": "C_title",
+      "score": 0.8218
+    },
+    {
+      "signal_id": "mit-20260310-002",
+      "signal_title": "Pentagon AI Surveillance: Murky Laws Allow Mass Domestic AI Monitoring",
+      "matched_signal_id": "wf1-20260307-010",
+      "matched_title": "Pentagon AI surveillance — can DoD legally surveil Americans with AI?",
+      "stage": "C_title",
+      "score": 0.8838
+    },
+    {
+      "signal_id": "nat-20260310-002",
+      "signal_title": "How Congress Can Restore Independence of US Science",
+      "matched_signal_id": "mit-technology-review-efc8277e807d",
+      "matched_title": "How the sometimes-weird world of lifespan extension is gaining influence",
+      "stage": "C_title",
+      "score": 0.8215
+    },
+    {
+      "signal_id": "nat-20260310-003",
+      "signal_title": "How Fast Does a Protein Fold? Real-Time Technique Captures the Moment",
+      "matched_signal_id": "techcrunch-3946df596f9a",
+      "matched_title": "How Sequoia-backed Ethos reached the public market while rivals fell short",
+      "stage": "C_title",
+      "score": 0.821
+    },
+    {
+      "signal_id": "nat-20260310-005",
+      "signal_title": "Electric-Vehicle Batteries Toughen Up to Beat the Heat",
+      "matched_signal_id": "wf1-20260212-020",
+      "matched_title": "Global Energy Storage to Exceed 100GW in 2026",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "nat-20260310-006",
+      "signal_title": "World's Salt Lakes Are Drying Up With No Easy Solutions",
+      "matched_signal_id": "arxiv-2601.22130v1",
+      "matched_title": "World of Workflows: a Benchmark for Bringing World Models to Enterprise Systems",
+      "stage": "C_title",
+      "score": 0.8098
+    },
+    {
+      "signal_id": "ieee-20260310-002",
+      "signal_title": "Offshore Wind Farms: National Security Risk or Manageable Challenge?",
+      "matched_signal_id": "wf1-20260218-045",
+      "matched_title": "US Executive Order: Clean Coal for National Defense",
+      "stage": "B_topic",
+      "score": 0.4444
+    },
+    {
+      "signal_id": "ieee-20260310-003",
+      "signal_title": "FLASH Radiotherapy: The Millisecond That Could Change Cancer Treatment",
+      "matched_signal_id": "wf1-20260212-008",
+      "matched_title": "WHO: 40% of Cancer Cases Preventable",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "sci-20260310-002",
+      "signal_title": "NASA Administrator Signals Accelerated Moon and Mars Mission Timeline",
+      "matched_signal_id": "nasa-climate-change-6f441c986a4e",
+      "matched_title": "NASA Aims to Advance Hypersonic Flight Testing with New Awards",
+      "stage": "C_title",
+      "score": 0.8246
+    },
+    {
+      "signal_id": "sci-20260310-004",
+      "signal_title": "Many Heat-Stressed Tropical Insects Are Reaching Their Limits",
+      "matched_signal_id": "nat-20260306-004",
+      "matched_title": "Tropical insects face critical thermal tolerance limits — biodiversity at risk",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "un-20260310-001",
+      "signal_title": "Nearly 700,000 Displaced in Lebanon as Middle East Crisis Escalates",
+      "matched_signal_id": "wf1-20260218-012",
+      "matched_title": "Sudan Crisis: UNHCR Appeals $1.6B for Displacement",
+      "stage": "B_topic",
+      "score": 0.5714
+    },
+    {
+      "signal_id": "un-20260310-002",
+      "signal_title": "UN Calls for Fair Play in Global Race for Critical Minerals",
+      "matched_signal_id": "wf1-20260219-014",
+      "matched_title": "China Critical Minerals Weaponization Reshapes Geopolitics",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "cb-20260310-003",
+      "signal_title": "Compound Drought and Heat Extremes Surging Since Early 2000s",
+      "matched_signal_id": "websearch-20260224-024",
+      "matched_title": "Underpriced Climate Risks Threaten Global Economy — WEF Warning",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "sd-20260310-001",
+      "signal_title": "Climate Models May Be Missing Massive Carbon Emissions from Boreal Wildfires",
+      "matched_signal_id": "wf1-20260219-010",
+      "matched_title": "Climate Models Missing Key Ocean Player: Marine Plankton",
+      "stage": "C_title",
+      "score": 0.832
+    },
+    {
+      "signal_id": "bis-20260310-001",
+      "signal_title": "Central Banking in Age of Geoeconomic Fragmentation - Bundesbank President",
+      "matched_signal_id": "brookings-fed-independence",
+      "matched_title": "Why is the Federal Reserve independent, and what does that mean in practice?",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "bis-20260310-002",
+      "signal_title": "Fed Governor: Operationalizing AI at the Federal Reserve",
+      "matched_signal_id": "brookings-fed-independence",
+      "matched_title": "Why is the Federal Reserve independent, and what does that mean in practice?",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "bis-20260310-003",
+      "signal_title": "Fed Governor Cook on AI and Productivity Across the Economy",
+      "matched_signal_id": "wf1-20260218-046",
+      "matched_title": "Fed Vice Chair: Supply-Side Disinflation Dynamics Speech at Brookings",
+      "stage": "C_title",
+      "score": 0.8023
+    },
+    {
+      "signal_id": "brk-20260310-003",
+      "signal_title": "Reduced Immigration Slowed Population Growth for Nation and Most States",
+      "matched_signal_id": "labor-20260215-043",
+      "matched_title": "Demographic workforce crisis: US-born labor force projected to shrink over next decade",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "pew-20260310-001",
+      "signal_title": "Fewer People Globally Say Belief in God Necessary for Morality",
+      "matched_signal_id": "pew-religion-steady",
+      "matched_title": "Religion Holds Steady in America",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "pew-20260310-003",
+      "signal_title": "Family Caregiving in an Aging America: Gender-Based Differences",
+      "matched_signal_id": "pew-20260227-001",
+      "matched_title": "Pew Research: Family Caregiving Burden in America — New Survey of 8,750 Adults",
+      "stage": "B_topic",
+      "score": 0.5556
+    }
+  ]
+}

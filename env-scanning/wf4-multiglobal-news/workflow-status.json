@@ -1,0 +1,42 @@
+{
+  "workflow": "wf4-multiglobal-news",
+  "scan_date": "2026-03-11",
+  "status": "completed",
+  "started_at": "2026-03-11T00:30:48+00:00",
+  "completed_at": "2026-03-11T01:31:01.632511+00:00",
+  "phases": {
+    "phase1_research": {
+      "status": "completed",
+      "signal_count": 1446,
+      "after_dedup": 1038
+    },
+    "phase2_planning": {
+      "status": "completed",
+      "classified": 15,
+      "ranked": 15
+    },
+    "phase3_implementation": {
+      "status": "completed",
+      "report_generated": true,
+      "db_updated": true,
+      "archived": true
+    }
+  },
+  "human_approvals": {
+    "step_2_5": {
+      "decision": "approved_autopilot",
+      "timestamp": "2026-03-11T01:31:01.632511+00:00"
+    },
+    "step_3_4": {
+      "decision": "approved_autopilot",
+      "timestamp": "2026-03-11T01:31:01.632511+00:00"
+    }
+  },
+  "verification_summary": {
+    "passed": 20,
+    "warned": 0,
+    "failed": 0
+  },
+  "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-11.md",
+  "report_ko_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-11-ko.md"
+}

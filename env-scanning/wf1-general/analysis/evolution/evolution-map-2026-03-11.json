@@ -1,0 +1,682 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf1-general",
+  "scan_date": "2026-03-11",
+  "computed_at": "2026-03-10T23:10:18Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 25,
+    "new_signals": 25,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 0,
+    "active_threads": 66
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "tc-20260311-001",
+      "thread_id": "THREAD-WF1-156",
+      "canonical_title": "Intel Demonstrates Fully Homomorphic Encryption Chip (Heracles) — 5000x Speedup",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Intel Demonstrates Fully Homomorphic Encryption Chip (Heracles) — 5000x Speedup",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-002",
+      "thread_id": "THREAD-WF1-157",
+      "canonical_title": "AI Surveillance Legal Framework Crisis: Anthropic Sues Pentagon Over Supply Chain Designation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "AI Surveillance Legal Framework Crisis: Anthropic Sues Pentagon Over Supply Chain Designation",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-003",
+      "thread_id": "THREAD-WF1-158",
+      "canonical_title": "Iran War Energy Shock: Oil Above $100, Accelerated Energy Transition Pressure",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Iran War Energy Shock: Oil Above $100, Accelerated Energy Transition Pressure",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-004",
+      "thread_id": "THREAD-WF1-159",
+      "canonical_title": "Amazon Launches Healthcare AI Assistant for Consumer Medical Queries",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Amazon Launches Healthcare AI Assistant for Consumer Medical Queries",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-005",
+      "thread_id": "THREAD-WF1-160",
+      "canonical_title": "Google/Tesla Launch 'Utilize' — AI-Driven Electrical Grid Reimagination",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Google/Tesla Launch 'Utilize' — AI-Driven Electrical Grid Reimagination",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-006",
+      "thread_id": "THREAD-WF1-161",
+      "canonical_title": "Autonomous AI Cybersecurity Agents: Mandiant Founder Raises $190M for Armadin",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Autonomous AI Cybersecurity Agents: Mandiant Founder Raises $190M for Armadin",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-007",
+      "thread_id": "THREAD-WF1-162",
+      "canonical_title": "AI-Powered Apps Face Long-Term Retention Crisis Despite Monetization Success",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "AI-Powered Apps Face Long-Term Retention Crisis Despite Monetization Success",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-008",
+      "thread_id": "THREAD-WF1-163",
+      "canonical_title": "Virtual Cell Simulation: Complete Bacterial Division Modeled In Silico",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Virtual Cell Simulation: Complete Bacterial Division Modeled In Silico",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-009",
+      "thread_id": "THREAD-WF1-164",
+      "canonical_title": "AGI Assessment Framework: Nature Calls for Scientific and Societal Context",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "AGI Assessment Framework: Nature Calls for Scientific and Societal Context",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-010",
+      "thread_id": "THREAD-WF1-165",
+      "canonical_title": "ARPA-H Commits $144M to Biological Aging Intervention Clinical Trials",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "ARPA-H Commits $144M to Biological Aging Intervention Clinical Trials",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-011",
+      "thread_id": "THREAD-WF1-166",
+      "canonical_title": "White House Moves to Break Up NCAR — US Climate Research Infrastructure at Risk",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "White House Moves to Break Up NCAR — US Climate Research Infrastructure at Risk",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-012",
+      "thread_id": "THREAD-WF1-167",
+      "canonical_title": "China's 15th Five-Year Plan: Coal Peak by 2030, 17% Carbon Intensity Cut",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "China's 15th Five-Year Plan: Coal Peak by 2030, 17% Carbon Intensity Cut",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-013",
+      "thread_id": "THREAD-WF1-168",
+      "canonical_title": "Compound Drought-Heat Extremes More Than Doubled Since 2002",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Compound Drought-Heat Extremes More Than Doubled Since 2002",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-014",
+      "thread_id": "THREAD-WF1-169",
+      "canonical_title": "YouTube Surpasses Disney/Paramount/WBD in 2025 Ad Revenue — Media Power Shift",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "YouTube Surpasses Disney/Paramount/WBD in 2025 Ad Revenue — Media Power Shift",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-015",
+      "thread_id": "THREAD-WF1-170",
+      "canonical_title": "Meta Acquires AI Agent Social Network Moltbook — Infrastructure for AI-Agent Ecosystems",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Meta Acquires AI Agent Social Network Moltbook — Infrastructure for AI-Agent Ecosystems",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-016",
+      "thread_id": "THREAD-WF1-171",
+      "canonical_title": "YouTube Expands AI Deepfake Detection for Politicians, Officials, Journalists",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "YouTube Expands AI Deepfake Detection for Politicians, Officials, Journalists",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-017",
+      "thread_id": "THREAD-WF1-172",
+      "canonical_title": "Middle East War Displaces 700,000 in Lebanon — Humanitarian and Energy Supply Chain Crisis",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Middle East War Displaces 700,000 in Lebanon — Humanitarian and Energy Supply Chain Crisis",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-018",
+      "thread_id": "THREAD-WF1-173",
+      "canonical_title": "DOGE Employee Exfiltrated Social Security Data — Government Data Security Failure",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "DOGE Employee Exfiltrated Social Security Data — Government Data Security Failure",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-019",
+      "thread_id": "THREAD-WF1-174",
+      "canonical_title": "Pandemic Agreement Pathogen Access Negotiations Advance at WHO",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Pandemic Agreement Pathogen Access Negotiations Advance at WHO",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-020",
+      "thread_id": "THREAD-WF1-175",
+      "canonical_title": "Data Centers Could Consume 12% of US Electricity by 2028 — AI Energy Crisis",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Data Centers Could Consume 12% of US Electricity by 2028 — AI Energy Crisis",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-021",
+      "thread_id": "THREAD-WF1-176",
+      "canonical_title": "Global Decline in Religious-Moral Linkage — Values Transformation Accelerating",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Global Decline in Religious-Moral Linkage — Values Transformation Accelerating",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-022",
+      "thread_id": "THREAD-WF1-177",
+      "canonical_title": "AI Legal Tech Boom: Legora Reaches $5.55B Valuation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "AI Legal Tech Boom: Legora Reaches $5.55B Valuation",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-023",
+      "thread_id": "THREAD-WF1-178",
+      "canonical_title": "Climate Models Underestimate Boreal Wildfire Carbon Emissions",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Climate Models Underestimate Boreal Wildfire Carbon Emissions",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-024",
+      "thread_id": "THREAD-WF1-179",
+      "canonical_title": "Online AI Agent Harassment Emerges as New Threat Category",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Online AI Agent Harassment Emerges as New Threat Category",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260311-025",
+      "thread_id": "THREAD-WF1-180",
+      "canonical_title": "Africa Fintech Innovation: Cross-Border Payments and Fraud Intelligence Scaling",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-11",
+          "title": "Africa Fintech Innovation: Cross-Border Payments and Fraud Intelligence Scaling",
+          "psst": 0
+        }
+      ]
+    }
+  ],
+  "faded_threads": [],
+  "new_threads_created": [
+    "THREAD-WF1-156",
+    "THREAD-WF1-157",
+    "THREAD-WF1-158",
+    "THREAD-WF1-159",
+    "THREAD-WF1-160",
+    "THREAD-WF1-161",
+    "THREAD-WF1-162",
+    "THREAD-WF1-163",
+    "THREAD-WF1-164",
+    "THREAD-WF1-165",
+    "THREAD-WF1-166",
+    "THREAD-WF1-167",
+    "THREAD-WF1-168",
+    "THREAD-WF1-169",
+    "THREAD-WF1-170",
+    "THREAD-WF1-171",
+    "THREAD-WF1-172",
+    "THREAD-WF1-173",
+    "THREAD-WF1-174",
+    "THREAD-WF1-175",
+    "THREAD-WF1-176",
+    "THREAD-WF1-177",
+    "THREAD-WF1-178",
+    "THREAD-WF1-179",
+    "THREAD-WF1-180"
+  ]
+}

@@ -1,0 +1,1120 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf2-arxiv",
+    "date": "2026-03-10",
+    "computed_at": "2026-03-09T22:59:08Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 50,
+    "warn_count": 50
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "arxiv-2603.05972v1",
+      "title": "THETA: A Textual Hybrid Embedding-based Topic Analysis Framework and AI Scientist Agent for Scalable Computational Social Science",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "arxiv-2603.05801v1",
+      "title": "Ambiguity Collapse by LLMs: A Taxonomy of Epistemic Risks",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "arxiv-2603.05710v1",
+      "title": "The Rise of AI in Weather and Climate Information and its Impact on Global Inequality",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "arxiv-2603.05839v1",
+      "title": "Evaluating LLM Alignment With Human Trust Models",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "arxiv-2603.06569v1",
+      "title": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "arxiv-2603.06365v1",
+      "title": "ESAA-Security: An Event-Sourced, Verifiable Architecture for Agent-Assisted Security Audits of AI-Generated Code",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "arxiv-2603.06279v1",
+      "title": "Can we Trust Unreliable Voxels? Exploring 3D Semantic Occupancy Prediction under Label Noise",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "arxiv-2603.06265v1",
+      "title": "ODD-SEC: Onboard Drone Detection with a Spinning Event Camera",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "arxiv-2603.06494v1",
+      "title": "Control Barrier Corridors: From Safety Functions to Safe Sets",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "arxiv-2603.06299v1",
+      "title": "An Integrated Failure and Threat Mode and Effect Analysis (FTMEA) Framework with Quantified Cross-Domain Correlation Factors for Automotive Semiconductors",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "arxiv-2603.06422v1",
+      "title": "Before You Hand Over the Wheel: Evaluating LLMs for Security Incident Analysis",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "arxiv-2603.06358v1",
+      "title": "A Scalable Benchmark for Repository-Oriented Long-Horizon Conversational Context Management",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 13,
+      "id": "arxiv-2603.06029v1",
+      "title": "When Specifications Meet Reality: Uncovering API Inconsistencies in Ethereum Infrastructure",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "arxiv-2603.05863v1",
+      "title": "ReflexiCoder: Teaching Large Language Models to Self-Reflect on Generated Code and Self-Correct It via Reinforcement Learning",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 15,
+      "id": "arxiv-2603.05645v1",
+      "title": "Pitfalls in VM Implementation on CHERI: Lessons from Porting CRuby",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 16,
+      "id": "arxiv-2603.05637v1",
+      "title": "Real Faults in Model Context Protocol (MCP) Software: a Comprehensive Taxonomy",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 17,
+      "id": "arxiv-2603.06243v1",
+      "title": "MLLMRec-R1: Incentivizing Reasoning Capability in Large Language Models for Multimodal Sequential Recommendation",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 18,
+      "id": "arxiv-2603.05641v1",
+      "title": "RFM-HRI : A Multimodal Dataset of Medical Robot Failure, User Reaction and Recovery Preferences for Item Retrieval Tasks",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 19,
+      "id": "arxiv-2603.05707v1",
+      "title": "The toric code under antiferromagnetic isotropic Heisenberg interactions",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 20,
+      "id": "arxiv-2603.04746v1",
+      "title": "Visioning Human-Agentic AI Teaming: Continuity, Tension, and Future Research",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 21,
+      "id": "arxiv-2603.05772v1",
+      "title": "Depth Charge: Jailbreak Large Language Models from Deep Safety Attention Heads",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 22,
+      "id": "arxiv-2603.06264v1",
+      "title": "Mind the Gap: Pitfalls of LLM Alignment with Asian Public Opinion",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 23,
+      "id": "arxiv-2603.05941v1",
+      "title": "XAI for Coding Agent Failures: Transforming Raw Execution Traces into Actionable Insights",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 24,
+      "id": "arxiv-2603.06190v1",
+      "title": "DreamToNav: Generalizable Navigation for Robots via Generative Video Planning",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 25,
+      "id": "arxiv-2603.06065v1",
+      "title": "ChatShopBuddy: Towards Reliable Conversational Shopping Agents via Reinforcement Learning",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 26,
+      "id": "arxiv-2603.06292v1",
+      "title": "Enhanced Protein Intrinsic Disorder Prediction Through Dual-View Multiscale Features and Multi-objective Evolutionary Algorithm",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 27,
+      "id": "arxiv-2603.06210v1",
+      "title": "VG3S: Visual Geometry Grounded Gaussian Splatting for Semantic Occupancy Prediction",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 28,
+      "id": "arxiv-2603.06503v1",
+      "title": "Beyond Rows to Reasoning: Agentic Retrieval for Multimodal Spreadsheet Understanding and Editing",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 29,
+      "id": "arxiv-2603.06051v1",
+      "title": "A LINDDUN-based Privacy Threat Modeling Framework for GenAI",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 30,
+      "id": "arxiv-2603.06508v1",
+      "title": "When One Modality Rules Them All: Backdoor Modality Collapse in Multimodal Diffusion Models",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 31,
+      "id": "arxiv-2603.05872v1",
+      "title": "Evolving Deception: When Agents Evolve, Deception Wins",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 32,
+      "id": "arxiv-2603.06025v1",
+      "title": "Sensitivity-Aware Retrieval-Augmented Intent Clarification",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 33,
+      "id": "arxiv-2603.05831v1",
+      "title": "Knowledge-driven Reasoning for Mobile Agentic AI: Concepts, Approaches, and Directions",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 34,
+      "id": "arxiv-2603.06254v1",
+      "title": "NOVA: Next-step Open-Vocabulary Autoregression for 3D Multi-Object Tracking in Autonomous Driving",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 35,
+      "id": "arxiv-2603.05621v1",
+      "title": "RACAS: Controlling Diverse Robots With a Single Agentic System",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 36,
+      "id": "arxiv-2603.05129v1",
+      "title": "MedCoRAG: Interpretable Hepatology Diagnosis via Hybrid Evidence Retrieval and Multispecialty Consensus",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 37,
+      "id": "arxiv-2603.06240v1",
+      "title": "Human, Algorithm, or Both? Gender Bias in Human-Augmented Recruiting",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 38,
+      "id": "arxiv-2603.06223v1",
+      "title": "What are AI researchers worried about?",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 39,
+      "id": "arxiv-2603.05789v1",
+      "title": "The Coordination Gap: Alternation Metrics for Temporal Dynamics in Multi-Agent Battle of the Exes",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 40,
+      "id": "arxiv-2603.04786v1",
+      "title": "Wave interactions in a screeching jet",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 41,
+      "id": "arxiv-2603.05277v1",
+      "title": "Extensions to the Wealth Tax Neutrality Framework",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 42,
+      "id": "arxiv-2603.06576v1",
+      "title": "BEVLM: Distilling Semantic Knowledge from LLMs into Bird's-Eye View Representations",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 43,
+      "id": "arxiv-2603.06445v1",
+      "title": "What if? Emulative Simulation with World Models for Situated Reasoning",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 44,
+      "id": "arxiv-2603.05689v1",
+      "title": "SecureRAG-RTL: A Retrieval-Augmented, Multi-Agent, Zero-Shot LLM-Driven Framework for Hardware Vulnerability Detection",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 45,
+      "id": "arxiv-2603.06577v1",
+      "title": "Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 46,
+      "id": "arxiv-2603.06287v1",
+      "title": "Learning Where the Physics Is: Probabilistic Adaptive Sampling for Stiff PDEs",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 47,
+      "id": "arxiv-2603.05915v1",
+      "title": "ThermoCAPTCHA: Privacy-Preserving Human Verification with Farm-Resistant Traceable Tokens",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 48,
+      "id": "arxiv-2603.05773v1",
+      "title": "Knowing without Acting: The Disentangled Geometry of Safety Mechanisms in Large Language Models",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 49,
+      "id": "arxiv-2603.06303v1",
+      "title": "Polarized Direct Cross-Attention Message Passing in GNNs for Machinery Fault Diagnosis",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 50,
+      "id": "arxiv-2603.05974v1",
+      "title": "Balancing Latency and Accuracy of Code Completion via Local-Cloud Model Cascading",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    }
+  ]
+}

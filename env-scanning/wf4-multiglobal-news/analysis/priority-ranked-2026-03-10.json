@@ -1,0 +1,1120 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf4-multiglobal-news",
+    "date": "2026-03-10",
+    "computed_at": "2026-03-09T23:48:01Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 50,
+    "warn_count": 50
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "news-20260310-chosun-001",
+      "title": "[투자노트] 100달러 넘은 유가… “아주 작은 대가”라는 트럼프",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "news-20260310-donga-002",
+      "title": "유가 급등에 ‘S공포’… 소비 위축 → 경기 침체 도미노 우려",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "news-20260310-mt-003",
+      "title": "高유가에 苦물가… &quot;기름값 10% 뛰면 韓수출 0.39% 후퇴&quot;",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "news-20260310-scmp-004",
+      "title": "Trump holds phone call with Putin to discuss ‘quick’ ending to Iran war",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "news-20260310-scmp-005",
+      "title": "China vows to stabilise oil and gas output in new 5-year plan as global risks mount",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "news-20260310-scmp-006",
+      "title": "Nato intercepts Iran missile fired towards Turkey",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "news-20260310-mt-007",
+      "title": "앤트로픽, 美 정부 &#039;공급망 위험&#039; 지정에 소송…&quot;불법적 보복&quot;",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "news-20260310-mt-008",
+      "title": "&quot;트럼프 이르면 오늘 유가 대책 보고 예정&quot;",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "news-20260310-globeandmail-009",
+      "title": "Trump rejects settling war with Iran, says ground troops could be sent in",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "news-20260310-globeandmail-010",
+      "title": "Congress blocks bid to limit Trump's war powers amid Iran conflict",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "news-20260310-globeandmail-011",
+      "title": "U.S. weighs market action to combat oil price spikes",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "news-20260310-aljazeera-012",
+      "title": "Putin says Russia can supply oil, gas to Europe as energy prices soar",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 13,
+      "id": "news-20260310-scmp-013",
+      "title": "China’s chip bosses endorse semiconductor push in next 5-year plan",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H3",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "news-20260310-scmp-014",
+      "title": "US, China clash over fentanyl, tariffs at global drugs meeting ahead of Trump-Xi summit",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 15,
+      "id": "news-20260310-scmp-015",
+      "title": "India’s 30-day Russian oil waiver tied to US crude demands",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 16,
+      "id": "news-20260310-koreaherald-016",
+      "title": "BusinessKospi plunges, won weakens as oil shock rattles marketsA surge in global oil prices triggered by escalating tensions in the Middle East rattled investors Monday, raising concerns about renewed global inflation pressures and weighing heavily on both South Korea’s stock market and the local currency.",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 17,
+      "id": "news-20260310-rt-017",
+      "title": "Iran war exposes EU blunder in sanctioning Russia – Putin envoy",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 18,
+      "id": "news-20260310-rt-018",
+      "title": "Putin warning fuels calls in EU to drop sanctions",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 19,
+      "id": "news-20260310-donga-019",
+      "title": "유류세 인하폭 확대 검토… 靑 “추경도 진지하게 고민”",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 20,
+      "id": "news-20260310-khan-020",
+      "title": "스티글리츠 “현재 AI 투자엔 거품”",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 21,
+      "id": "news-20260310-mt-021",
+      "title": "머니투데이 오프라인 헤드라인-10일",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 22,
+      "id": "news-20260310-mt-022",
+      "title": "유가 120弗·환율 1500원… 치솟는 S공포",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 23,
+      "id": "news-20260310-mt-023",
+      "title": "&#039;헬륨 재사용&#039; 삼성, 공급망 리스크 줄인다",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 24,
+      "id": "news-20260310-mt-024",
+      "title": "AI 데이터센터 덕에 불 켜졌다… 전력기기 ETF &#039;번쩍&#039;",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 25,
+      "id": "news-20260310-aitimes-025",
+      "title": "앤트로픽 \"AI 실업 대란 아직 없지만... 청년 채용 문턱 14% 낮아져\"",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 26,
+      "id": "news-20260310-aitimes-026",
+      "title": "곡성, AI·코딩 창의융합교육 확대",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 27,
+      "id": "news-20260310-nytimes-027",
+      "title": "Oil Prices Will Remain High as Iran War Continues",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 28,
+      "id": "news-20260310-nytimes-028",
+      "title": "Countries in Asia Try to Contain the Economic Fallout of the Mideast Conflict",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 29,
+      "id": "news-20260310-washingtonpost-029",
+      "title": "Iran rallies around new leader after 10 days of war as oil prices spike",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 30,
+      "id": "news-20260310-globeandmail-030",
+      "title": "Trump says war with Iran is ‘very complete,’ predicts conflict could end soon",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 31,
+      "id": "news-20260310-globeandmail-031",
+      "title": "NATO shoots down second Iranian ballistic missile, Turkey says",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 32,
+      "id": "news-20260310-globeandmail-032",
+      "title": "Trump’s Gaza plan negotiations put on hold after the Iran war began, sources say",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 33,
+      "id": "news-20260310-globeandmail-033",
+      "title": "Does Donald Trump really know what ‘unconditional surrender’ means?",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 34,
+      "id": "news-20260310-globeandmail-034",
+      "title": "As war spreads, airline pilots contend with drones and missiles",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 35,
+      "id": "news-20260310-globeandmail-035",
+      "title": "Trump says Iran's army, navy, communications and leaders are 'gone'",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 36,
+      "id": "news-20260310-globeandmail-036",
+      "title": "Day 2: Middle East war widens as attacks on Iran intensify",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 37,
+      "id": "news-20260310-globeandmail-037",
+      "title": "When it comes to the Iran war, Trump has no clear goal or answers",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 38,
+      "id": "news-20260310-globeandmail-038",
+      "title": "Pentagon designates Anthropic a supply chain risk",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 39,
+      "id": "news-20260310-globeandmail-039",
+      "title": "Tanker attack in the northern Persian Gulf boosts oil and gas prices, signals Iran war is widening",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 40,
+      "id": "news-20260310-aljazeera-040",
+      "title": "What defence support could Ukraine offer Middle East states amid Iran war?",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 41,
+      "id": "news-20260310-scmp-041",
+      "title": "China investors energise Hong Kong biotech stocks. Is foreign money missing out?",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 42,
+      "id": "news-20260310-scmp-042",
+      "title": "Economic Security 101: why China’s officials now have to study rare earths and supply chains",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 43,
+      "id": "news-20260310-scmp-043",
+      "title": "Anthropic sues Trump administration as row over AI use by military deepens",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 44,
+      "id": "news-20260310-scmp-044",
+      "title": "Hong Kong urged to extend stock trading hours to keep up with rivals",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 45,
+      "id": "news-20260310-scmp-045",
+      "title": "China can’t buy Elon Musk’s theory on space-based AI centres: experts",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 46,
+      "id": "news-20260310-scmp-046",
+      "title": "Chinese local governments offer OpenClaw project subsidies as security questions linger",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 47,
+      "id": "news-20260310-scmp-047",
+      "title": "Hong Kong wetland records 40 times more petroleum after oil spill: Greenpeace",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 48,
+      "id": "news-20260310-scmp-048",
+      "title": "What crises in Iran, Panama, Venezuela and Greenland have in common",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 49,
+      "id": "news-20260310-scmp-049",
+      "title": "China’s Wang sees ‘landmark year’ in US relations",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 50,
+      "id": "news-20260310-scmp-050",
+      "title": "More gas from Russia? China flags new pipeline links amid Iran energy crisis",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 5.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    }
+  ]
+}

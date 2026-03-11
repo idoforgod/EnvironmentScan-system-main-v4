@@ -1,0 +1,1381 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf1-general",
+  "scan_date": "2026-03-10",
+  "computed_at": "2026-03-09T22:32:14Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 41,
+    "new_signals": 41,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 47,
+    "active_threads": 41
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "tc-20260310-001",
+      "thread_id": "THREAD-WF1-115",
+      "canonical_title": "OpenAI Acquires Promptfoo to Secure Its AI Agents",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 33.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "OpenAI Acquires Promptfoo to Secure Its AI Agents",
+          "psst": 33.2
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260310-002",
+      "thread_id": "THREAD-WF1-116",
+      "canonical_title": "Anthropic Sues Defense Department Over Supply-Chain Risk Designation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Anthropic Sues Defense Department Over Supply-Chain Risk Designation",
+          "psst": 32.4
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260310-003",
+      "thread_id": "THREAD-WF1-117",
+      "canonical_title": "Anthropic Launches Code Review Tool to Check Flood of AI-Generated Code",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 33.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Anthropic Launches Code Review Tool to Check Flood of AI-Generated Code",
+          "psst": 33.2
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260310-004",
+      "thread_id": "THREAD-WF1-118",
+      "canonical_title": "Russian Government Hackers Targeting Signal and WhatsApp Users",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Russian Government Hackers Targeting Signal and WhatsApp Users",
+          "psst": 32.4
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260310-005",
+      "thread_id": "THREAD-WF1-119",
+      "canonical_title": "Salt Typhoon Is Hacking the World's Phone and Internet Giants",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Salt Typhoon Is Hacking the World's Phone and Internet Giants",
+          "psst": 32.4
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260310-006",
+      "thread_id": "THREAD-WF1-120",
+      "canonical_title": "Nscale Hits $14.6B Valuation as AI Infrastructure Startup Raises $2B",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Nscale Hits $14.6B Valuation as AI Infrastructure Startup Raises $2B",
+          "psst": 32.4
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260310-007",
+      "thread_id": "THREAD-WF1-121",
+      "canonical_title": "Qualcomm Partners with Neura Robotics for Humanoid Robot Development",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 33.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Qualcomm Partners with Neura Robotics for Humanoid Robot Development",
+          "psst": 33.2
+        }
+      ]
+    },
+    {
+      "signal_id": "tc-20260310-008",
+      "thread_id": "THREAD-WF1-122",
+      "canonical_title": "Zoox Starts Mapping Dallas and Phoenix for Robotaxi Commercial Deployment",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Zoox Starts Mapping Dallas and Phoenix for Robotaxi Commercial Deployment",
+          "psst": 32.4
+        }
+      ]
+    },
+    {
+      "signal_id": "mit-20260310-001",
+      "thread_id": "THREAD-WF1-123",
+      "canonical_title": "How AI Is Turning the Iran Conflict Into Theater",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 33.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "How AI Is Turning the Iran Conflict Into Theater",
+          "psst": 33.2
+        }
+      ]
+    },
+    {
+      "signal_id": "mit-20260310-002",
+      "thread_id": "THREAD-WF1-124",
+      "canonical_title": "Pentagon AI Surveillance: Murky Laws Allow Mass Domestic AI Monitoring",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Pentagon AI Surveillance: Murky Laws Allow Mass Domestic AI Monitoring",
+          "psst": 32.4
+        }
+      ]
+    },
+    {
+      "signal_id": "nat-20260310-001",
+      "thread_id": "THREAD-WF1-125",
+      "canonical_title": "Daily Multivitamin Slows Signs of Biological Ageing",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Daily Multivitamin Slows Signs of Biological Ageing",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "nat-20260310-002",
+      "thread_id": "THREAD-WF1-126",
+      "canonical_title": "How Congress Can Restore Independence of US Science",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "How Congress Can Restore Independence of US Science",
+          "psst": 42.0
+        }
+      ]
+    },
+    {
+      "signal_id": "nat-20260310-003",
+      "thread_id": "THREAD-WF1-127",
+      "canonical_title": "How Fast Does a Protein Fold? Real-Time Technique Captures the Moment",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "How Fast Does a Protein Fold? Real-Time Technique Captures the Moment",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "nat-20260310-004",
+      "thread_id": "THREAD-WF1-128",
+      "canonical_title": "Monthly HIV-Drug Injections Offer Potent Alternative to Daily Tablets",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Monthly HIV-Drug Injections Offer Potent Alternative to Daily Tablets",
+          "psst": 42.0
+        }
+      ]
+    },
+    {
+      "signal_id": "nat-20260310-005",
+      "thread_id": "THREAD-WF1-129",
+      "canonical_title": "Electric-Vehicle Batteries Toughen Up to Beat the Heat",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Electric-Vehicle Batteries Toughen Up to Beat the Heat",
+          "psst": 42.0
+        }
+      ]
+    },
+    {
+      "signal_id": "nat-20260310-006",
+      "thread_id": "THREAD-WF1-130",
+      "canonical_title": "World's Salt Lakes Are Drying Up With No Easy Solutions",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "World's Salt Lakes Are Drying Up With No Easy Solutions",
+          "psst": 42.0
+        }
+      ]
+    },
+    {
+      "signal_id": "ieee-20260310-002",
+      "thread_id": "THREAD-WF1-131",
+      "canonical_title": "Offshore Wind Farms: National Security Risk or Manageable Challenge?",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Offshore Wind Farms: National Security Risk or Manageable Challenge?",
+          "psst": 42.0
+        }
+      ]
+    },
+    {
+      "signal_id": "ieee-20260310-003",
+      "thread_id": "THREAD-WF1-132",
+      "canonical_title": "FLASH Radiotherapy: The Millisecond That Could Change Cancer Treatment",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "FLASH Radiotherapy: The Millisecond That Could Change Cancer Treatment",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "ieee-20260310-004",
+      "thread_id": "THREAD-WF1-133",
+      "canonical_title": "Laser-Based 3D Printing Could Build Future Bases on the Moon",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Laser-Based 3D Printing Could Build Future Bases on the Moon",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "sci-20260310-001",
+      "thread_id": "THREAD-WF1-134",
+      "canonical_title": "ARPA-H Devotes $144M to Studies That Slow Aging and Extend Quality of Life",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "ARPA-H Devotes $144M to Studies That Slow Aging and Extend Quality of Life",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "sci-20260310-002",
+      "thread_id": "THREAD-WF1-135",
+      "canonical_title": "NASA Administrator Signals Accelerated Moon and Mars Mission Timeline",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "NASA Administrator Signals Accelerated Moon and Mars Mission Timeline",
+          "psst": 42.0
+        }
+      ]
+    },
+    {
+      "signal_id": "sci-20260310-003",
+      "thread_id": "THREAD-WF1-136",
+      "canonical_title": "GLP-1 Drugs Linked to Lower Addiction Rates in Large Veterans Study",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "GLP-1 Drugs Linked to Lower Addiction Rates in Large Veterans Study",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "sci-20260310-004",
+      "thread_id": "THREAD-WF1-137",
+      "canonical_title": "Many Heat-Stressed Tropical Insects Are Reaching Their Limits",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Many Heat-Stressed Tropical Insects Are Reaching Their Limits",
+          "psst": 42.0
+        }
+      ]
+    },
+    {
+      "signal_id": "sci-20260310-005",
+      "thread_id": "THREAD-WF1-138",
+      "canonical_title": "New HIV Cure Approach Forces Hidden Virus Into Tripping Immune Sensor",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "New HIV Cure Approach Forces Hidden Virus Into Tripping Immune Sensor",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "un-20260310-001",
+      "thread_id": "THREAD-WF1-139",
+      "canonical_title": "Nearly 700,000 Displaced in Lebanon as Middle East Crisis Escalates",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 39.7,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Nearly 700,000 Displaced in Lebanon as Middle East Crisis Escalates",
+          "psst": 39.7
+        }
+      ]
+    },
+    {
+      "signal_id": "un-20260310-002",
+      "thread_id": "THREAD-WF1-140",
+      "canonical_title": "UN Calls for Fair Play in Global Race for Critical Minerals",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 39.7,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "UN Calls for Fair Play in Global Race for Critical Minerals",
+          "psst": 39.7
+        }
+      ]
+    },
+    {
+      "signal_id": "cb-20260310-003",
+      "thread_id": "THREAD-WF1-141",
+      "canonical_title": "Compound Drought and Heat Extremes Surging Since Early 2000s",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Compound Drought and Heat Extremes Surging Since Early 2000s",
+          "psst": 32.4
+        }
+      ]
+    },
+    {
+      "signal_id": "sd-20260310-001",
+      "thread_id": "THREAD-WF1-142",
+      "canonical_title": "Climate Models May Be Missing Massive Carbon Emissions from Boreal Wildfires",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.1,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Climate Models May Be Missing Massive Carbon Emissions from Boreal Wildfires",
+          "psst": 32.1
+        }
+      ]
+    },
+    {
+      "signal_id": "sd-20260310-002",
+      "thread_id": "THREAD-WF1-143",
+      "canonical_title": "Biodegradable Plastic from Milk Protein Vanishes in 13 Weeks",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.1,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Biodegradable Plastic from Milk Protein Vanishes in 13 Weeks",
+          "psst": 32.1
+        }
+      ]
+    },
+    {
+      "signal_id": "bis-20260310-001",
+      "thread_id": "THREAD-WF1-144",
+      "canonical_title": "Central Banking in Age of Geoeconomic Fragmentation - Bundesbank President",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 39.7,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Central Banking in Age of Geoeconomic Fragmentation - Bundesbank President",
+          "psst": 39.7
+        }
+      ]
+    },
+    {
+      "signal_id": "bis-20260310-002",
+      "thread_id": "THREAD-WF1-145",
+      "canonical_title": "Fed Governor: Operationalizing AI at the Federal Reserve",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 40.6,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Fed Governor: Operationalizing AI at the Federal Reserve",
+          "psst": 40.6
+        }
+      ]
+    },
+    {
+      "signal_id": "bis-20260310-003",
+      "thread_id": "THREAD-WF1-146",
+      "canonical_title": "Fed Governor Cook on AI and Productivity Across the Economy",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 39.7,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Fed Governor Cook on AI and Productivity Across the Economy",
+          "psst": 39.7
+        }
+      ]
+    },
+    {
+      "signal_id": "brk-20260310-002",
+      "thread_id": "THREAD-WF1-147",
+      "canonical_title": "Greater Washington Leads Nation in Regional Job Loss After Government Cuts",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Greater Washington Leads Nation in Regional Job Loss After Government Cuts",
+          "psst": 32.4
+        }
+      ]
+    },
+    {
+      "signal_id": "brk-20260310-003",
+      "thread_id": "THREAD-WF1-148",
+      "canonical_title": "Reduced Immigration Slowed Population Growth for Nation and Most States",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Reduced Immigration Slowed Population Growth for Nation and Most States",
+          "psst": 32.4
+        }
+      ]
+    },
+    {
+      "signal_id": "pew-20260310-001",
+      "thread_id": "THREAD-WF1-149",
+      "canonical_title": "Fewer People Globally Say Belief in God Necessary for Morality",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Fewer People Globally Say Belief in God Necessary for Morality",
+          "psst": 32.4
+        }
+      ]
+    },
+    {
+      "signal_id": "pew-20260310-003",
+      "thread_id": "THREAD-WF1-150",
+      "canonical_title": "Family Caregiving in an Aging America: Gender-Based Differences",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Family Caregiving in an Aging America: Gender-Based Differences",
+          "psst": 32.4
+        }
+      ]
+    },
+    {
+      "signal_id": "da-20260310-002",
+      "thread_id": "THREAD-WF1-151",
+      "canonical_title": "Ethiopia's Gebeya Partners M-PESA for AI Tool Access via Mobile Payments",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.1,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Ethiopia's Gebeya Partners M-PESA for AI Tool Access via Mobile Payments",
+          "psst": 32.1
+        }
+      ]
+    },
+    {
+      "signal_id": "hn-20260310-001",
+      "thread_id": "THREAD-WF1-152",
+      "canonical_title": "Ray-Ban Meta Smart Glasses Privacy Breach: Workers Watch Bathroom Footage",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 33.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Ray-Ban Meta Smart Glasses Privacy Breach: Workers Watch Bathroom Footage",
+          "psst": 33.2
+        }
+      ]
+    },
+    {
+      "signal_id": "hn-20260310-002",
+      "thread_id": "THREAD-WF1-153",
+      "canonical_title": "DARPA's New X-76: Speed of Jet, Freedom of Helicopter",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 33.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "DARPA's New X-76: Speed of Jet, Freedom of Helicopter",
+          "psst": 33.2
+        }
+      ]
+    },
+    {
+      "signal_id": "who-20260310-002",
+      "thread_id": "THREAD-WF1-154",
+      "canonical_title": "Cholera Vaccination Campaigns Resume After Three-Year Pause as Supply Doubles",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 39.7,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Cholera Vaccination Campaigns Resume After Three-Year Pause as Supply Doubles",
+          "psst": 39.7
+        }
+      ]
+    },
+    {
+      "signal_id": "qt-20260310-001",
+      "thread_id": "THREAD-WF1-155",
+      "canonical_title": "Disorder Drives One of Nature's Most Complex Machines: Nuclear Pore Complexes",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 32.1,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-10",
+          "title": "Disorder Drives One of Nature's Most Complex Machines: Nuclear Pore Complexes",
+          "psst": 32.1
+        }
+      ]
+    }
+  ],
+  "faded_threads": [
+    {
+      "thread_id": "THREAD-WF1-068",
+      "canonical_title": "AWS launches AI agent platform for healthcare",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-069",
+      "canonical_title": "US considering sweeping new chip export controls — universal oversight",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-070",
+      "canonical_title": "BYD Blade Battery 2.0 with 5-minute flash charging at 1.5 MW",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-071",
+      "canonical_title": "Pentagon designates Anthropic as supply-chain risk",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-072",
+      "canonical_title": "OpenAI launches GPT-5.4 — most capable frontier model",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-073",
+      "canonical_title": "Luma launches multimodal creative AI agents",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-074",
+      "canonical_title": "Cursor launches agentic coding Automations system",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-075",
+      "canonical_title": "AI voice agents democratize M&A due diligence",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-076",
+      "canonical_title": "Online harassment enters AI era — autonomous targeting without instruction",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-077",
+      "canonical_title": "Claude used for military target identification in Iran strikes",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-078",
+      "canonical_title": "Startup proposes stopping lightning with metallic chaff for wildfire prevention",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-079",
+      "canonical_title": "OpenAI secures classified Pentagon military contract",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-080",
+      "canonical_title": "EPA proposes delaying Clean Water Act compliance requirements",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-081",
+      "canonical_title": "DOT national transportation digital infrastructure modernization strategy",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-082",
+      "canonical_title": "Iran national emergency continuation — Presidential declaration",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-083",
+      "canonical_title": "ITC investigation into display devices and streaming components",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-084",
+      "canonical_title": "Chile becomes first in Americas to achieve WHO leprosy elimination",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-085",
+      "canonical_title": "Evo 2: AI trained on 9 trillion DNA base pairs for genome modeling",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-086",
+      "canonical_title": "Merlin: Foundation model for medical CT scan diagnosis",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-087",
+      "canonical_title": "Millimeter-scale hexagonal diamond synthesized",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-088",
+      "canonical_title": "Tropical insects face critical thermal tolerance limits — biodiversity at risk",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-089",
+      "canonical_title": "AI in warfare — Iran conflict highlights military AI applications",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-090",
+      "canonical_title": "Cancer metastasis mechanism: Glucocorticoid receptor immune evasion",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-091",
+      "canonical_title": "Taara: 25 Gbps fiber-speed via open-air laser links",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-092",
+      "canonical_title": "Floating offshore wind turbine with integrated underwater data center",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-093",
+      "canonical_title": "Modular EV battery design prioritizing owner repairability",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-094",
+      "canonical_title": "AI-human collaboration achieves mathematical proof verification milestone",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-095",
+      "canonical_title": "Middle East escalation Day 6: NATO intercepts Iranian missile targeting Turkey",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-096",
+      "canonical_title": "Women's rights regressing worldwide — UN Women report",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-097",
+      "canonical_title": "AI reshaping working conditions: algorithmic management concerns",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-098",
+      "canonical_title": "UN forms independent AI advisory group for responsible AI governance",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-099",
+      "canonical_title": "Iran crisis: Civilian casualties including schoolgirls, mass displacement",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-100",
+      "canonical_title": "Post-IEEPA: Limits of tariff-driven economic statecraft",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-101",
+      "canonical_title": "Danger of broader Iran war — expert analysis",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-102",
+      "canonical_title": "China NPC 2026: Economic stimulus, tech self-sufficiency, Taiwan priorities",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-103",
+      "canonical_title": "Americans most negative about compatriots' morality — 25-country survey",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-104",
+      "canonical_title": "AI tool injection: Malicious GitHub issues compromise 4,000 developer machines",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-105",
+      "canonical_title": "Anthropic: Young workers 14% reduction in job entry for AI-exposed occupations",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-106",
+      "canonical_title": "Wikipedia mass admin account compromise forces read-only mode",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-107",
+      "canonical_title": "Google OpenTitan open-source security chip enters production",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-108",
+      "canonical_title": "Proton Mail assists FBI in unmasking anonymous protester",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-109",
+      "canonical_title": "Alibaba PageAgent: Open-source AI agents embedded in web frontends",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-110",
+      "canonical_title": "UK emissions fall 2.4% — coal at 400-year low since 1600",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-111",
+      "canonical_title": "EU Industrial Accelerator Act: Public procurement for low-carbon manufacturing",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-112",
+      "canonical_title": "China 15th five-year plan: 3.8% carbon intensity reduction, transition fund",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-113",
+      "canonical_title": "Climate change renders regions uninsurable — insurance catastrophe",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-114",
+      "canonical_title": "Instrumentalisation crisis: Reducing human values to utilitarian outcomes",
+      "last_seen_date": "2026-03-06",
+      "appearance_count": 1
+    }
+  ],
+  "new_threads_created": [
+    "THREAD-WF1-115",
+    "THREAD-WF1-116",
+    "THREAD-WF1-117",
+    "THREAD-WF1-118",
+    "THREAD-WF1-119",
+    "THREAD-WF1-120",
+    "THREAD-WF1-121",
+    "THREAD-WF1-122",
+    "THREAD-WF1-123",
+    "THREAD-WF1-124",
+    "THREAD-WF1-125",
+    "THREAD-WF1-126",
+    "THREAD-WF1-127",
+    "THREAD-WF1-128",
+    "THREAD-WF1-129",
+    "THREAD-WF1-130",
+    "THREAD-WF1-131",
+    "THREAD-WF1-132",
+    "THREAD-WF1-133",
+    "THREAD-WF1-134",
+    "THREAD-WF1-135",
+    "THREAD-WF1-136",
+    "THREAD-WF1-137",
+    "THREAD-WF1-138",
+    "THREAD-WF1-139",
+    "THREAD-WF1-140",
+    "THREAD-WF1-141",
+    "THREAD-WF1-142",
+    "THREAD-WF1-143",
+    "THREAD-WF1-144",
+    "THREAD-WF1-145",
+    "THREAD-WF1-146",
+    "THREAD-WF1-147",
+    "THREAD-WF1-148",
+    "THREAD-WF1-149",
+    "THREAD-WF1-150",
+    "THREAD-WF1-151",
+    "THREAD-WF1-152",
+    "THREAD-WF1-153",
+    "THREAD-WF1-154",
+    "THREAD-WF1-155"
+  ]
+}

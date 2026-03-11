@@ -1,0 +1,30 @@
+{
+  "workflow": "wf1-general",
+  "status": "completed",
+  "date": "2026-03-11",
+  "started_at": "2026-03-10T22:59:22Z",
+  "completed_at": "2026-03-11T08:30:00Z",
+  "signal_count": 25,
+  "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-11.md",
+  "report_ko_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-11-ko.md",
+  "verification_summary": {
+    "passed": 18,
+    "warned": 0,
+    "failed": 0
+  },
+  "human_approvals": {
+    "step_2_5": {
+      "decision": "approved",
+      "mode": "autopilot"
+    },
+    "step_3_4": {
+      "decision": "approved",
+      "mode": "autopilot"
+    }
+  },
+  "phases": {
+    "phase1": "completed",
+    "phase2": "completed",
+    "phase3": "completed"
+  }
+}

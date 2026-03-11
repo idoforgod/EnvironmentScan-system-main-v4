@@ -1,0 +1,442 @@
+{
+  "integrated_signals": [
+    {
+      "rank": 1,
+      "wf": "WF1",
+      "signal_id": "sci-20260310-001",
+      "title": "ARPA-H Devotes $144M to Studies That Slow Aging and Extend Quality of Life",
+      "psst_score": 42.9,
+      "classification": "T_Technological",
+      "source": {},
+      "content": {},
+      "impact": "",
+      "fssf_type": "",
+      "horizon": ""
+    },
+    {
+      "rank": 2,
+      "wf": "WF1",
+      "signal_id": "sci-20260310-003",
+      "title": "GLP-1 Drugs Linked to Lower Addiction Rates in Large Veterans Study",
+      "psst_score": 42.9,
+      "classification": "S_Social",
+      "source": {},
+      "content": {},
+      "impact": "",
+      "fssf_type": "",
+      "horizon": ""
+    },
+    {
+      "rank": 3,
+      "wf": "WF1",
+      "signal_id": "nat-20260310-002",
+      "title": "How Congress Can Restore Independence of US Science",
+      "psst_score": 42.0,
+      "classification": "P_Political",
+      "source": {},
+      "content": {},
+      "impact": "",
+      "fssf_type": "",
+      "horizon": ""
+    },
+    {
+      "rank": 4,
+      "wf": "WF1",
+      "signal_id": "nat-20260310-006",
+      "title": "World's Salt Lakes Are Drying Up With No Easy Solutions",
+      "psst_score": 42.0,
+      "classification": "E_Environmental",
+      "source": {},
+      "content": {},
+      "impact": "",
+      "fssf_type": "",
+      "horizon": ""
+    },
+    {
+      "rank": 5,
+      "wf": "WF1",
+      "signal_id": "un-20260310-002",
+      "title": "UN Calls for Fair Play in Global Race for Critical Minerals",
+      "psst_score": 39.7,
+      "classification": "E_Economic",
+      "source": {},
+      "content": {},
+      "impact": "",
+      "fssf_type": "",
+      "horizon": ""
+    },
+    {
+      "rank": 6,
+      "wf": "WF2",
+      "signal_id": "arxiv-2603.05972v1",
+      "title": "THETA: A Textual Hybrid Embedding-based Topic Analysis Framework and AI Scientist Agent for Scalable Computational Social Science",
+      "psst_score": 30.4,
+      "classification": "S_Social",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05972v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "The explosion of big social data has created a scalability trap for traditional qualitative research, as manual coding remains labor-intensive and conventional topic models often suffer from semantic thinning and a lack of domain awareness. This paper introduces Textual Hybrid Embedding based Topic Analysis (THETA), a novel computational paradigm and open-source tool designed to bridge the gap between massive data scale and rich theoretical depth. THETA moves beyond frequency-based statistics by implementing Domain-Adaptive Fine-tuning (DAFT) via LoRA on foundation embedding models, which effectively optimizes semantic vector structures within specific social contexts to capture latent meanings. To ensure epistemological rigor, we encapsulate this process into an AI Scientist Agent framework, comprising Data Steward, Modeling Analyst, and Domain Expert agents, to simulate the human-in-the-loop expert judgment and constant comparison processes central to grounded theory. Departing from purely computational models, this framework enables agents to iteratively evaluate algorithmic clusters, perform cross-topic semantic alignment, and refine raw outputs into logically consistent theoretical categories. To validate the effectiveness of THETA, we conducted experiments across six domains, including financial regulation and public health. Our results demonstrate that THETA significantly outperforms traditional models, such as LDA, ETM, and CTM, in capturing domain-specific interpretive constructs while maintaining superior coherence. By providing an interactive analysis platform, THETA democratizes advanced natural language processing for social scientists and ensures the trustworthiness and reproducibility of research findings. Code is available at https://github.com/CodeSoul-co/THETA.",
+        "keywords": [
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "impact": "",
+      "fssf_type": "",
+      "horizon": ""
+    },
+    {
+      "rank": 7,
+      "wf": "WF2",
+      "signal_id": "arxiv-2603.05710v1",
+      "title": "The Rise of AI in Weather and Climate Information and its Impact on Global Inequality",
+      "psst_score": 30.4,
+      "classification": "E_Environmental",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05710v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "The rapid adoption of AI in Earth system science promises unprecedented speed and fidelity in the generation of climate information. However, this technological prowess rests on a fragile and unequal foundation: the current trajectory of AI development risks further automating and amplifying the North-South divide in the global climate information system. We outline the global asymmetry in High-Performance Computing and data infrastructure, demonstrating that the development of foundation models is almost exclusively concentrated in the Global North. Using three different domains, we show how this infrastructure inequality continues through models' inputs, processes and outputs. As an example, in weather and climate modelling, the reliance on historically biased data leads to systematic performance gaps that disproportionately affect the most vulnerable regions. In climate impact modelling, data sparsity and unrepresentative validation risk driving misleading interventions and maladaptation. Finally, in large language models, dependence on dominant textualised forms of climate knowledge risks reinforcing existing biases. We conclude that addressing these disparities demands revisiting the three phases, i.e. models Input, Process and Output. This involves (i) a perspective shift from model-centric to data-centric development, (ii) the establishment of a Climate Digital Public Infrastructure and human-centric evaluation metrics, and (iii) a move from producer-consumer dynamics toward knowledge co-production. This integration of diverse knowledge systems would truly democratise compute sovereignty and ensure that the AI revolution fosters genuine systemic resilience rather than exacerbating inequity.",
+        "keywords": [
+          "physics.ao-ph",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "impact": "",
+      "fssf_type": "",
+      "horizon": ""
+    },
+    {
+      "rank": 8,
+      "wf": "WF2",
+      "signal_id": "arxiv-2603.05839v1",
+      "title": "Evaluating LLM Alignment With Human Trust Models",
+      "psst_score": 30.4,
+      "classification": "P_Political",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05839v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Trust plays a pivotal role in enabling effective cooperation, reducing uncertainty, and guiding decision-making in both human interactions and multi-agent systems. Although it is significant, there is limited understanding of how large language models (LLMs) internally conceptualize and reason about trust. This work presents a white-box analysis of trust representation in EleutherAI/gpt-j-6B, using contrastive prompting to generate embedding vectors within the activation space of the LLM for diadic trust and related interpersonal relationship attributes. We first identified trust-related concepts from five established human trust models. We then determined a threshold for significant conceptual alignment by computing pairwise cosine similarities across 60 general emotional concepts. Then we measured the cosine similarities between the LLM's internal representation of trust and the derived trust-related concepts. Our results show that the internal trust representation of EleutherAI/gpt-j-6B aligns most closely with the Castelfranchi socio-cognitive model, followed by the Marsh Model. These findings indicate that LLMs encode socio-cognitive constructs in their activation space in ways that support meaningful comparative analyses, inform theories of social cognition, and support the design of human-AI collaborative systems.",
+        "keywords": [
+          "cs.MA",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "impact": "",
+      "fssf_type": "",
+      "horizon": ""
+    },
+    {
+      "rank": 9,
+      "wf": "WF2",
+      "signal_id": "arxiv-2603.06569v1",
+      "title": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+      "psst_score": 30.4,
+      "classification": "T_Technological",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06569v1",
+        "published_date": "2026-03-06",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "Vision Language Model (VLM) development has largely relied on scaling model size, which hinders deployment on compute-constrained mobile and edge devices such as smartphones and robots. In this work, we explore the performance limits of compact (e.g., 2B and 8B) VLMs. We challenge the prevailing practice that state-of-the-art VLMs must rely on vision encoders initialized via massive contrastive pretraining (e.g., CLIP/SigLIP). We identify an objective mismatch: contrastive learning, optimized for discrimination, enforces coarse and category-level invariances that suppress fine-grained visual cues needed for dense captioning and complex VLM reasoning. To address this issue, we present Penguin-VL, whose vision encoder is initialized from a text-only LLM. Our experiments reveal that Penguin-Encoder serves as a superior alternative to traditional contrastive pretraining, unlocking a higher degree of visual fidelity and data efficiency for multimodal understanding. Across various image and video benchmarks, Penguin-VL achieves performance comparable to leading VLMs (e.g., Qwen3-VL) in mathematical reasoning and surpasses them in tasks such as document understanding, visual knowledge, and multi-perspective video understanding. Notably, these gains are achieved with a lightweight architecture, demonstrating that improved visual representation rather than model scaling is the primary driver of performance. Our ablations show that Penguin-Encoder consistently outperforms contrastive-pretrained encoders, preserving fine-grained spatial and temporal cues that are critical for dense perception and complex reasoning. This makes it a strong drop-in alternative for compute-efficient VLMs and enables high performance in resource-constrained settings. Code: https://github.com/tencent-ailab/Penguin-VL",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "impact": "",
+      "fssf_type": "",
+      "horizon": ""
+    },
+    {
+      "rank": 10,
+      "wf": "WF2",
+      "signal_id": "arxiv-2603.04786v1",
+      "title": "Wave interactions in a screeching jet",
+      "psst_score": 30.4,
+      "classification": "E_Economic",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.04786v1",
+        "published_date": "2026-03-05",
+        "reliability": "high"
+      },
+      "content": {
+        "abstract": "We use a series of global models to investigate the linear and nonlinear interactions between shock cells, Kelvin-Helmholtz waves, guided jet modes, and other fluctuations in a screeching jet. First, we identify a set of lightly damped global eigenmodes of the Navier-Stokes operator linearized about the mean flow and show that they result from interactions with different shock-cell wavenumbers. Second, we use resolvent analysis to study the linear input-output behavior of the jet and obtain a time-periodic representation of the screech mode, which compares favorably with experimental data. Third, we use harmonic resolvent analysis to study triadic interactions, including inter-frequency energy transfer, between the screech mode determined from resolvent analysis and other fluctuations in the jet. The components of the optimal harmonic resolvent mode at harmonics of the screech frequency match experimental observations that have not been previously predicted by global models. Fourth, we leverage a novel bilinear formulation of harmonic resolvent analysis to study the impact of the screech mode's nonlinear self-interaction on other fluctuations in the jet. We show that the forcing provided by this nonlinear self-interaction of the screech mode, along with its triadic interactions with other frequencies embedded within the harmonic resolvent operator, is sufficient to explain the redistribution of energy to other frequencies and the associated experimental observations. In aggregate, these findings underscore the critical role of triadic and nonlinear interactions in shaping screech dynamics and offer a promising workflow for studying similar interactions in other flows dominated by periodic motions.",
+        "keywords": [
+          "physics.flu-dyn"
+        ],
+        "language": "en"
+      },
+      "impact": "",
+      "fssf_type": "",
+      "horizon": ""
+    },
+    {
+      "rank": 11,
+      "wf": "WF3",
+      "signal_id": "naver-20260310-정치-001",
+      "title": "청와대 “고유가 장기화땐 추경도 논의”…李 “담합에 이익 몇배 제재”",
+      "psst_score": 30.4,
+      "classification": "P_Political",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005647645",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "유가급등 대응 비상경제회의징벌적 과징금 때릴 가능성도이재명 대통령이 9일 서울 청와대 본관에서 개최한 중동 상황 관련 비상경제점검회의에서 모두발언을 하고 있다. [김호영 기자]정부가 중동 상황과 관련해 석유 최고가격제를 이번주에 시행하고 유류세 인하도 검토한다. 국제유가 상승이 장기화하면 재정 투입을 위해 추가경정예산(추경) 편성 가능성도 열어뒀다.이재명 대통령은 9일 중동 상황과 관련해 청와대에서 비상경제점검회의를 열어 에너지·금융·외환시장 영향을 분석하며 이 같은 대응책을 논의했다. 이번 비상경제점검회의에는 구윤철 부총리 겸 재",
+        "keywords": [],
+        "language": "ko"
+      },
+      "impact": "",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H3"
+    },
+    {
+      "rank": 12,
+      "wf": "WF3",
+      "signal_id": "naver-20260310-경제-047",
+      "title": "삼성SDI, 피지컬 AI용 전고체 첫 공개…\"AI 시대 경쟁력 강조\"",
+      "psst_score": 30.4,
+      "classification": "E_Economic",
+      "source": {
+        "name": "네이버뉴스/경제",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008813725",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "인터배터리 2026 참가…휴머노이드용 파우치형 전고체 샘플 공개AI 데이터센터 UPS·BBU용 초고출력 배터리·ESS 진단 SW 전시삼성SDI 부스 조감도.(서울=뉴스1) 박기범 기자 = 삼성SDI(006400)가 인공지능(AI) 시대에 대응하는 차세대 배터리 기술과 설루션을 대거 공개한다. 로봇 등 피지컬 AI용 전고체 배터리와 AI 데이터센터용 초고출력 배터리 등을 통해 AI 인프라 핵심 공급자로 경쟁력을 강조한다는 전략이다.삼성SDI는 11일 서울 코엑스에서 개막하는 InterBattery 2026에서 'AI thinks, B",
+        "keywords": [],
+        "language": "ko"
+      },
+      "impact": "",
+      "fssf_type": "Trend",
+      "horizon": "H1"
+    },
+    {
+      "rank": 13,
+      "wf": "WF3",
+      "signal_id": "naver-20260310-정치-002",
+      "title": "외교부 \"카타르서 오늘 한국행 긴급 항공편 편성·출발 예정\"",
+      "psst_score": 30.4,
+      "classification": "P_Political",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/003/0013810677",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "정부 전세기 아닌 민항편…10일 새벽 한국 도착 예상[인천공항=뉴시스] 정병혁 기자 = 중동 상황 악화로 정부가 전세기를 투입한 가운데 9일 새벽 아부다비를 출발한 정부 전세기 탑승객들이 인천국제공항 1터미널을 통해 귀국하며 가족을 만나고 있다. 2026.03.09. jhope@newsis.com[서울=뉴시스] 박준호 유자비 기자 = 중동에 체류 중인 우리 국민의 대피를 지원하기 위한 우리 국적 항공사의 전세기 등 다른 수단이 투입되기 쉽지 않은 상황에서 카타르에서 한국행 직항편이 긴급 편성됐다.외교부 당국자는 9일 기자들과 만나 ",
+        "keywords": [],
+        "language": "ko"
+      },
+      "impact": "",
+      "fssf_type": "Wild Card",
+      "horizon": "H1"
+    },
+    {
+      "rank": 14,
+      "wf": "WF3",
+      "signal_id": "naver-20260310-정치-003",
+      "title": "李 “검찰개혁, 초가삼간 태우면 안돼”…여당 강경파에 메시지",
+      "psst_score": 30.4,
+      "classification": "P_Political",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005647647",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "檢개혁 ‘당청갈등’ 차단나서옥석 가리는 정밀개혁 주문輿강경파 13일 공청회 주도박찬운 개혁자문위원장 사의“보완수사 완전 폐지땐 혼란”이재명 대통령이 9일 청와대에서 열린 중동상황 관련 비상경제점검회의에 입장하고 있다. [연합뉴스]이재명 대통령이 이틀 연속 더불어민주당 내 강경파를 향해 정교한 검찰 개혁을 주문했다. 검찰 구성원과 기능 전체를 싸잡아 개혁 대상으로 몰고갈 경우 국민이 받는 불이익이 더 클 수 있다는 우려에서다.이 대통령의 이 같은 입장에도 불구하고 여당 검찰개혁 강경파들은 정부 검찰개혁안에 대한 대대적 손질이 불가피하",
+        "keywords": [],
+        "language": "ko"
+      },
+      "impact": "",
+      "fssf_type": "Driver",
+      "horizon": "H1"
+    },
+    {
+      "rank": 15,
+      "wf": "WF3",
+      "signal_id": "naver-20260310-정치-004",
+      "title": "중동 사태 장기화에도 잠잠한 북한…북미 대화 가능성도 '솔솔'",
+      "psst_score": 30.4,
+      "classification": "P_Political",
+      "source": {
+        "name": "네이버뉴스/정치",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008815951",
+        "published_date": "2026-03-10",
+        "reliability": "medium",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "이달 말 방중하는 트럼프, '북미 대화' 다시 띄울 가능성 커이란 공습에 위협 느낀 김정은, '불가'하다던 핵 협상 나올 가능성은?도널드 트럼프 미국 대통령이 7일(현지시간) 델러웨어 도버 공군기지에서 플로리다 마이애미로 향하는 에어포스원(미 대통령 전용기)에서 피트 헤그세스 국방장관과 함께 기자들의 질문에 답하고 있다.2026.03.07. ⓒ 로이터=뉴스1(서울=뉴스1) 임여익 기자 = 미국이 이란에 대한 대규모의 추가 공격을 시사하고 이란은 미국의 공습으로 사망한 아야톨라 알리 하메네이의 후계자로 그의 차남인 모즈타바 하메네이를",
+        "keywords": [],
+        "language": "ko"
+      },
+      "impact": "",
+      "fssf_type": "Trend",
+      "horizon": "H3"
+    },
+    {
+      "rank": 16,
+      "wf": "WF4",
+      "signal_id": "news-20260310-chosun-001",
+      "title": "[투자노트] 100달러 넘은 유가… “아주 작은 대가”라는 트럼프",
+      "psst_score": 30.4,
+      "classification": "E_Economic",
+      "source": {
+        "name": "chosun",
+        "type": "news",
+        "url": "https://www.chosun.com/economy/stock-finance/2026/03/10/MIYTKMJXGZQWEOBTGBRDINBXGE/",
+        "published_date": "Mon, 09 Mar 2026 22:10:00 +0000",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "국내 증시의 상승 랠리가 ‘이란 사태’라는 복병을 만나 급제동이 걸렸다. 중동 지역에 발생한 전쟁은 당장 국제 원유 가격을 끌어올리며 ‘인플레이션 공포’가 세계 금융시장을 덮쳤다. 지난주까지만 해도 “추이를 지켜보자”는 신중론이 우세했지만, 분위기가 바뀌었다. 장기전을 점치는 시각과 인플레이션에 대한 우려가 커졌다. 물가와 국채 금리는 실물 경제는 물론 모",
+        "keywords": [],
+        "language": "ko"
+      },
+      "impact": "",
+      "fssf_type": "Driver",
+      "horizon": "H2"
+    },
+    {
+      "rank": 17,
+      "wf": "WF4",
+      "signal_id": "news-20260310-scmp-004",
+      "title": "Trump holds phone call with Putin to discuss ‘quick’ ending to Iran war",
+      "psst_score": 30.4,
+      "classification": "P_Political",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3346023/trump-and-putin-discuss-quick-ending-iran-war?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 20:21:18 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "US President Donald Trump reiterated on Monday that his country’s objectives in Iran are nearly complete and suggested the conflict could be nearing an end, on the same day he discussed the war with Russian President Vladimir Putin.\nSpeaking at a news conference in Florida, Trump claimed the US was “achieving major strides towards completing our military objective”, adding that “some people could say they’re pretty well complete”.\nTrump said they are committed to keeping safe passage through the",
+        "keywords": [],
+        "language": "en"
+      },
+      "impact": "",
+      "fssf_type": "Driver",
+      "horizon": "H2"
+    },
+    {
+      "rank": 18,
+      "wf": "WF4",
+      "signal_id": "news-20260310-scmp-013",
+      "title": "China’s chip bosses endorse semiconductor push in next 5-year plan",
+      "psst_score": 30.4,
+      "classification": "T_Technological",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/tech/article/3345996/chinas-chip-bosses-endorse-semiconductor-push-next-5-year-plan?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 23:00:11 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "China’s semiconductor entrepreneurs – including artificial intelligence chipmaker Cambricon Technologies and testing-and-packaging leader Tongfu Microelectronics – have voiced support for the country’s 15th five-year plan, which places renewed emphasis on the chip industry as a cornerstone of Beijing’s technology ambitions.\n“National policy direction and planning are very well designed,” said Chen Tianshi, founder and CEO of Beijing-based Cambricon.\nSpeaking on the sidelines of the opening of...",
+        "keywords": [],
+        "language": "en"
+      },
+      "impact": "",
+      "fssf_type": "Driver",
+      "horizon": "H3"
+    },
+    {
+      "rank": 19,
+      "wf": "WF4",
+      "signal_id": "news-20260310-scmp-047",
+      "title": "Hong Kong wetland records 40 times more petroleum after oil spill: Greenpeace",
+      "psst_score": 30.4,
+      "classification": "E_Environmental",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3346007/hong-kong-wetland-records-40-times-more-petroleum-after-oil-spill-greenpeace?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 12:30:18 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "A protected Hong Kong wetland on southern Lantau Island has recorded a high concentration of petroleum following an oil spill in September, with levels up to 40 times higher than those in unaffected areas, according to an environmental group’s study.\nGreenpeace in Hong Kong said the high concentration could threaten local ecology. It urged authorities to investigate the oil spill and include unprotected sites with high ecological value in the priority conservation projects under the Biodiversity",
+        "keywords": [],
+        "language": "en"
+      },
+      "impact": "",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H2"
+    },
+    {
+      "rank": 20,
+      "wf": "WF4",
+      "signal_id": "news-20260310-donga-002",
+      "title": "유가 급등에 ‘S공포’… 소비 위축 → 경기 침체 도미노 우려",
+      "psst_score": 30.4,
+      "classification": "E_Economic",
+      "source": {
+        "name": "donga",
+        "type": "news",
+        "url": "https://www.donga.com/news/Inter/article/all/20260310/133495898/2",
+        "published_date": "Tue, 10 Mar 2026 04:30:00 +0900",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "국제유가가 배럴당 110달러를 돌파하며 오일쇼크가 실물 경제로 전이될 가능성이 커지고 있다. 중동 전쟁 장기화 우려로 글로벌 금융시장이 흔들리는 가운데 유가 급등이 환율과 물가를 자극해 한국 경제 전반에 충격을 줄 수 있다는 분석이 잇따르고 있다. 시장에서는 고유가 기조가 길어지면 물가 상승과 경기 둔화가 동시에 나타나는 이른바 ‘S(스태그플레이션·경기 침체 속 물가 상승)의 공포’가 현실화될 것이란 우려까지 나온다.● 1970년대 오일쇼크 데자뷔 우려9일 국제유가가 장중 배럴당 110달러를 넘기면서 고유가 충격은 금융시장을 넘어 실물경제 전반으로 확산될 조짐이다. 원유 가격이 오르면 정유·석유화학 제품 가격이 상승하고, 운송비와 물류비가 늘어나 산업 전반 원가를 끌어올린다. 기업 비용 부담이 커져 투자와 고용이 위축되고, 가계도 소비를 줄여 경기가 위축된다.  특히 한국 경제는 원유를 100% 수입에 의존하고, 이 중 70% 이상을 중동 지역에서 들여오고 있어 이번 사태 영향",
+        "keywords": [],
+        "language": "ko"
+      },
+      "impact": "",
+      "fssf_type": "Driver",
+      "horizon": "H2"
+    }
+  ]
+}

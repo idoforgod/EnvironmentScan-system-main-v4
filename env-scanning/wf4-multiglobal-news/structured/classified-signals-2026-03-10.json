@@ -1,0 +1,1909 @@
+{
+  "scan_date": "2026-03-10",
+  "workflow": "wf4-multiglobal-news",
+  "total_signals": 50,
+  "signals": [
+    {
+      "id": "news-20260310-chosun-001",
+      "title": "[투자노트] 100달러 넘은 유가… “아주 작은 대가”라는 트럼프",
+      "classification": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "chosun",
+        "type": "news",
+        "url": "https://www.chosun.com/economy/stock-finance/2026/03/10/MIYTKMJXGZQWEOBTGBRDINBXGE/",
+        "published_date": "Mon, 09 Mar 2026 22:10:00 +0000",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "국내 증시의 상승 랠리가 ‘이란 사태’라는 복병을 만나 급제동이 걸렸다. 중동 지역에 발생한 전쟁은 당장 국제 원유 가격을 끌어올리며 ‘인플레이션 공포’가 세계 금융시장을 덮쳤다. 지난주까지만 해도 “추이를 지켜보자”는 신중론이 우세했지만, 분위기가 바뀌었다. 장기전을 점치는 시각과 인플레이션에 대한 우려가 커졌다. 물가와 국채 금리는 실물 경제는 물론 모",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 8,
+        "steeps_scores": {
+          "T_Technological": 0,
+          "E_Economic": 5,
+          "P_Political": 2,
+          "S_Social": 0,
+          "E_Environmental": 1,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-donga-002",
+      "title": "유가 급등에 ‘S공포’… 소비 위축 → 경기 침체 도미노 우려",
+      "classification": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "donga",
+        "type": "news",
+        "url": "https://www.donga.com/news/Inter/article/all/20260310/133495898/2",
+        "published_date": "Tue, 10 Mar 2026 04:30:00 +0900",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "국제유가가 배럴당 110달러를 돌파하며 오일쇼크가 실물 경제로 전이될 가능성이 커지고 있다. 중동 전쟁 장기화 우려로 글로벌 금융시장이 흔들리는 가운데 유가 급등이 환율과 물가를 자극해 한국 경제 전반에 충격을 줄 수 있다는 분석이 잇따르고 있다. 시장에서는 고유가 기조가 길어지면 물가 상승과 경기 둔화가 동시에 나타나는 이른바 ‘S(스태그플레이션·경기 침체 속 물가 상승)의 공포’가 현실화될 것이란 우려까지 나온다.● 1970년대 오일쇼크 데자뷔 우려9일 국제유가가 장중 배럴당 110달러를 넘기면서 고유가 충격은 금융시장을 넘어 실물경제 전반으로 확산될 조짐이다. 원유 가격이 오르면 정유·석유화학 제품 가격이 상승하고, 운송비와 물류비가 늘어나 산업 전반 원가를 끌어올린다. 기업 비용 부담이 커져 투자와 고용이 위축되고, 가계도 소비를 줄여 경기가 위축된다.  특히 한국 경제는 원유를 100% 수입에 의존하고, 이 중 70% 이상을 중동 지역에서 들여오고 있어 이번 사태 영향",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 7,
+        "steeps_scores": {
+          "T_Technological": 0,
+          "E_Economic": 3,
+          "P_Political": 2,
+          "S_Social": 0,
+          "E_Environmental": 2,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-mt-003",
+      "title": "高유가에 苦물가… &quot;기름값 10% 뛰면 韓수출 0.39% 후퇴&quot;",
+      "classification": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "mt",
+        "type": "news",
+        "url": "https://www.mt.co.kr/economy/2026/03/10/2026030920042957039",
+        "published_date": "Tue, 10 Mar 2026 04:08:00 +0900",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "더 치솟은 'S' 공포 원자잿값·물류비 상승 → 기업 생산비·서비스 가격↑ 장기화땐, 반도체등 전력소비 큰 산업 수출 위축 우려 미국·이스라엘-이란 전쟁에 따른 호르무즈해협 봉쇄 여파로 '오일쇼크' 망령이 경제에 드리웠다. 중동국가들의 잇단 원유생산 감축으로 국제유가는 단숨에 배럴당 100달러를 돌파했다. 국제유가 급등이 인플레이션(물가상승) 압력을 키우고 국내 소비를 위축시켜 '스태그플레이션'(고물가 속 경기침체)이 현실화하는 것 아니냐는 공포가 확산한다. 9일 한국석유공사 유가정보시스템 오피넷에 따르면 이날 오후 1시30분 기준 전국 휘발유 평균가격은 리터(ℓ)당 1900.65원으로 전날보다 5.33원 올랐다. 전국 휘발유 평균가격이 1900원을 돌파한 건 러시아-우크라이나 전쟁이 본격화한 2022년 7월 이후 처음이다....",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 7,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 2,
+          "P_Political": 2,
+          "S_Social": 0,
+          "E_Environmental": 2,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-004",
+      "title": "Trump holds phone call with Putin to discuss ‘quick’ ending to Iran war",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3346023/trump-and-putin-discuss-quick-ending-iran-war?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 20:21:18 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "US President Donald Trump reiterated on Monday that his country’s objectives in Iran are nearly complete and suggested the conflict could be nearing an end, on the same day he discussed the war with Russian President Vladimir Putin.\nSpeaking at a news conference in Florida, Trump claimed the US was “achieving major strides towards completing our military objective”, adding that “some people could say they’re pretty well complete”.\nTrump said they are committed to keeping safe passage through the",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 7,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 6,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-005",
+      "title": "China vows to stabilise oil and gas output in new 5-year plan as global risks mount",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/economy/global-economy/article/3345995/china-vows-stabilise-oil-and-gas-output-new-5-year-plan-global-risks-mount?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 14:30:07 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Against the backdrop of oil prices surging past US$100 per barrel for the first time since the onset of the Russia-Ukraine war in 2022, China has its sights set on strengthening energy security by stabilising domestic crude production and strategic backups – exemplified by coal-to-oil and gas projects – for the next few years.\nThe nation pledges to maintain annual crude production at 200 million tonnes, ensure a steady rise in natural gas output, and bolster technical readiness for coal-derived.",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 7,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 3,
+          "S_Social": 0,
+          "E_Environmental": 3,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-006",
+      "title": "Nato intercepts Iran missile fired towards Turkey",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3346012/nato-intercepts-iran-missile-fired-towards-turkey?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 13:47:50 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "The North Atlantic Treaty Organisation intercepted a ballistic missile fired from Iran towards Turkey on Monday, according to a statement by the Defence Ministry, raising the risk that the military alliance could be drawn more directly into the conflict in the Middle East.\nIt follows a similar interception on March 4, after which Nato said it strengthened its missile-defence posture in the region.\nDebris from the munition landed in Gaziantep province in southern Turkey, around 150km (93 miles)..",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 7,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 6,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-mt-007",
+      "title": "앤트로픽, 美 정부 &#039;공급망 위험&#039; 지정에 소송…&quot;불법적 보복&quot;",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "mt",
+        "type": "news",
+        "url": "https://www.mt.co.kr/world/2026/03/10/2026031005395656968",
+        "published_date": "Tue, 10 Mar 2026 06:28:26 +0900",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "AI(인공지능) 개발기업 앤트로픽이 9일(현지시간) 미 전쟁부(국방부)가 자사를 공급망 위험 요소로 지정하는 것을 막고자 미국 지방법원에 소송을 제기했다. 블룸버그 등 외신에 따르면 앤트로픽은 미국이 적대국으로 간주하는 국가의 기업들에 주로 적용하는 '위험 지정'을 근거로 AI 관련 업무를 오픈AI 등 타 업체로 이전하려는 국방부 및 기타 연방 기관들의 결정에 이의를 제기했다. 앞서 도널드 트럼프 미국 행정부는 군사 분야에서 AI 기술을 더욱 폭넓게 사용하고 싶다는 뜻을 앤트로픽에 전했다. 그러나 앤트로픽은 대규모 감시나 자율 살상 무기 같은 군사 기술에 자사 AI 모델을 사용하는 것은 양심상 받아들일 수 없다며 거부 의사를 밝혔다. 이에  미 국방부는 계약 취소 등 강제 조치에 나서겠다고 경고했다....",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 6,
+        "steeps_scores": {
+          "T_Technological": 2,
+          "E_Economic": 1,
+          "P_Political": 3,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-mt-008",
+      "title": "&quot;트럼프 이르면 오늘 유가 대책 보고 예정&quot;",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "mt",
+        "type": "news",
+        "url": "https://www.mt.co.kr/world/2026/03/10/2026031004222173243",
+        "published_date": "Tue, 10 Mar 2026 04:25:22 +0900",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "[미국-이란 전쟁] 도널드 트럼프 미국 대통령이 이란 전쟁에 따른 유가 상승을 진정시키기 위한 정책 대안을 이르면 9일(현지시간) 보고받을 예정이라고 로이터통신이 소식통을 인용해 보도했다. 이들 소식통은 트럼프 행정부 인사들이 G7(주요 7개국)과 함께 전략 비축유를 공동으로 방출하는 방안을 포함해 여러 조치를 논의하고 있다고 전했다. G7 재무장관들은 이날 오전 국제유가 안정화 논의를 위한 화상회의에서 전략 비축유 방출을 포함해 모든 조치를 할 준비가 돼 있다는 데 합의했지만 아직 비축유를 방출할 상황은 아니라고 의견을 모았다. 로이터통신은 트럼프 행정부가 전략 비축유 방출 외헤 미국산 원유 수출 제한, 석유 선물시장 개입, 일부 연방 세금 면제 등을 검토하고 있다고 소식통을 인용해 전했다. 트럼프 행정부는 걸프 지역 동맹국에 원유 생산과 운송을 재개할 것을 압박하고 있는 것으로 전해졌다....",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 6,
+        "steeps_scores": {
+          "T_Technological": 0,
+          "E_Economic": 1,
+          "P_Political": 3,
+          "S_Social": 0,
+          "E_Environmental": 2,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-009",
+      "title": "Trump rejects settling war with Iran, says ground troops could be sent in",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/world/video-trump-rejects-settling-war-with-iran-says-ground-troops-could-be-sent/",
+        "published_date": "Sun, 08 Mar 2026 14:04:16 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "U.S. President Donald Trump on Saturday raised the possibility of the war against Iran ending only once that country no longer has a functioning military or any remaining leadership in power, and said ground troops could be sent into Iran, if there was 'a very good reason.'",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 6,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 5,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-010",
+      "title": "Congress blocks bid to limit Trump's war powers amid Iran conflict",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/world/video-congress-blocks-bid-to-limit-trumps-war-powers-amid-iran-conflict/",
+        "published_date": "Fri, 06 Mar 2026 10:53:43 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "The U.S. House of Representatives rejected an effort on Thursday to stop President Donald Trump's air war on Iran and require that any hostilities against Iran be authorized by Congress.",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 6,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 5,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-011",
+      "title": "U.S. weighs market action to combat oil price spikes",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/world/video-us-weighs-market-action-to-combat-oil-price-spikes/",
+        "published_date": "Fri, 06 Mar 2026 10:48:18 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "The U.S. Treasury Department is expected to announce measures aimed at combating rising energy prices in the wake of the Iran conflict, including potential action involving the oil futures market, a senior White House official said.",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 6,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 1,
+          "P_Political": 3,
+          "S_Social": 0,
+          "E_Environmental": 1,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-aljazeera-012",
+      "title": "Putin says Russia can supply oil, gas to Europe as energy prices soar",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "aljazeera",
+        "type": "news",
+        "url": "https://www.aljazeera.com/news/2026/3/9/putin-says-russia-can-supply-oil-gas-to-europe-amid-global-energy-crisis?traffic_source=rss",
+        "published_date": "Mon, 09 Mar 2026 20:09:10 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Russian president spoke as oil prices surged past $100 per barrel, reaching levels unseen since start of Ukraine war.",
+        "keywords": [
+          "News"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 6,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 3,
+          "S_Social": 0,
+          "E_Environmental": 2,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-013",
+      "title": "China’s chip bosses endorse semiconductor push in next 5-year plan",
+      "classification": "T_Technological",
+      "fssf_type": "Driver",
+      "three_horizons": "H3",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/tech/article/3345996/chinas-chip-bosses-endorse-semiconductor-push-next-5-year-plan?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 23:00:11 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "China’s semiconductor entrepreneurs – including artificial intelligence chipmaker Cambricon Technologies and testing-and-packaging leader Tongfu Microelectronics – have voiced support for the country’s 15th five-year plan, which places renewed emphasis on the chip industry as a cornerstone of Beijing’s technology ambitions.\n“National policy direction and planning are very well designed,” said Chen Tianshi, founder and CEO of Beijing-based Cambricon.\nSpeaking on the sidelines of the opening of...",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 6,
+        "steeps_scores": {
+          "T_Technological": 3,
+          "E_Economic": 0,
+          "P_Political": 2,
+          "S_Social": 1,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-014",
+      "title": "US, China clash over fentanyl, tariffs at global drugs meeting ahead of Trump-Xi summit",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3346020/us-and-china-clash-over-fentanyl-and-tariffs-global-drugs-meeting?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 17:00:09 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "The United States and China traded barbs at a ⁠UN drugs meeting on ⁠Monday, with Washington accusing Beijing of ⁠failing to stop sales of precursor chemicals for fentanyl and China dismissing the allegation as false while calling the US irresponsible.\nThe exchange, delivered in separate statements at the UN’s annual Commission on Narcotic Drugs meeting in Vienna, underscored tensions ‌between the two countries over illicit drugs and tariffs, with their leaders due to meet in China at the end of.",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 6,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 2,
+          "P_Political": 3,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-015",
+      "title": "India’s 30-day Russian oil waiver tied to US crude demands",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/week-asia/economics/article/3345954/indias-30-day-russian-oil-waiver-tied-us-crude-demands?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 10:00:14 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "India received some welcome news last week about its energy supply: it had been granted permission, by the United States, to take delivery of oil it had already bought.\nThe tankers were already at sea – Russian crude, loaded and paid for, stranded in limbo by the disruptions sweeping out of the war on Iran.\nThey needed a waiver, which US Treasury Secretary Scott Bessent announced on Thursday: a 30-day exemption allowing Indian refiners to receive the cargoes before American sanctions...",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 6,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 4,
+          "S_Social": 0,
+          "E_Environmental": 1,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-koreaherald-016",
+      "title": "BusinessKospi plunges, won weakens as oil shock rattles marketsA surge in global oil prices triggered by escalating tensions in the Middle East rattled investors Monday, raising concerns about renewed global inflation pressures and weighing heavily on both South Korea’s stock market and the local currency.",
+      "classification": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "koreaherald",
+        "type": "news",
+        "url": "https://www.koreaherald.com/article/10690199",
+        "published_date": "",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "BusinessKospi plunges, won weakens as oil shock rattles marketsA surge in global oil prices triggered by escalating tensions in the Middle East rattled investors Monday, raising concerns about renewed global inflation pressures and weighing heavily on both South Korea’s stock market and the local currency.",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 6,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 3,
+          "P_Political": 1,
+          "S_Social": 0,
+          "E_Environmental": 1,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-rt-017",
+      "title": "Iran war exposes EU blunder in sanctioning Russia – Putin envoy",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "rt",
+        "type": "news",
+        "url": "https://www.rt.com/russia/634248-iran-war-eu-russia-sanctions-blunder/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "published_date": "Mon, 09 Mar 2026 11:17:42 +0000",
+        "reliability": "medium",
+        "language": "ru",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "The Iran war and rising oil prices show that the EU made a mistake by sanctioning Russian energy, Kirill Dmitriev has saidRead Full Article at RT.com",
+        "keywords": [],
+        "language": "ru"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 6,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 4,
+          "S_Social": 0,
+          "E_Environmental": 1,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-rt-018",
+      "title": "Putin warning fuels calls in EU to drop sanctions",
+      "classification": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {
+        "name": "rt",
+        "type": "news",
+        "url": "https://www.rt.com/business/633876-russian-gas-warning-putin-eu/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "published_date": "Thu, 05 Mar 2026 18:01:18 +0000",
+        "reliability": "medium",
+        "language": "ru",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "EU politicians are raising the alarm over losing Russian oil and gas supplies amid the escalating conflict in the Middle EastRead Full Article at RT.com",
+        "keywords": [],
+        "language": "ru"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 6,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 3,
+          "S_Social": 0,
+          "E_Environmental": 2,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-donga-019",
+      "title": "유류세 인하폭 확대 검토… 靑 “추경도 진지하게 고민”",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "donga",
+        "type": "news",
+        "url": "https://www.donga.com/news/Politics/article/all/20260310/133495894/2",
+        "published_date": "Tue, 10 Mar 2026 04:30:00 +0900",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "“최악의 상황까지 염두에 두고 비상한 각오로 선제적 대응책을 마련해야 되겠다.” 이재명 대통령은 9일 청와대에서 열린 비상경제점검회의에서 이같이 말했다. 미국, 이스라엘과 이란 전쟁이 장기화 국면에 들어서면서 중동 리스크가 금융·실물 경제로 본격 전이될 수 있다는 우려를 내비치며 신속 대응 필요성을 강조한 것. 정부는 중동 상황 장기화에 대비해 추가경정예산(추경) 편성 가능성도 열어놨다.● 이번 주부터 유류 최고가격제 시행 김용범 대통령정책실장은 이날 회의 후 브리핑에서 “정부는 정유사나 주유소가 가격을 올릴 때는 빨리 올리고, 내릴 때는 천천히 내리는 비대칭성에 특히 주목하고 있다”면서 “석유사업법에 근거해 이번 주 내에 최고가격제가 시행될 수 있도록 고시 제정 등 관련 절차를 신속히 진행할 예정”이라고 밝혔다. 이 대통령도 휘발유·경유 가격의 예측 가능성을 확보하기 위해 최고가격제를 “최대한 신속하게 추진해 달라”고 주문했다고 한다. 석유사업법은 정부가 유가 급등 시 정유",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 0,
+          "E_Economic": 1,
+          "P_Political": 3,
+          "S_Social": 0,
+          "E_Environmental": 1,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-khan-020",
+      "title": "스티글리츠 “현재 AI 투자엔 거품”",
+      "classification": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "source": {
+        "name": "khan",
+        "type": "news",
+        "url": "https://www.khan.co.kr/article/202603092108025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+        "published_date": "2026-03-09T21:08:02+09:00",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "노벨 경제학상 수상자의 ‘경고’“인간의 일자리 대체 예측도 과도노동 돕겠지만 여전히 노동 필요”노벨 경제학상 수상자인 조지프 스티글리츠 미국 컬럼비아대 교수가 현재의 인공지능(AI) 투자 열풍이 거품이며 유지할 수 없는 토대 위에 있다고 경고했다. 그는 또한 AI가 인간의 일자리를 대체하기는 어려울 것이라고 전망했다.스티글리츠 교수는 8일(현지시간) 미 경···",
+        "keywords": [
+          "경제 일반"
+        ],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 2,
+          "E_Economic": 2,
+          "P_Political": 0,
+          "S_Social": 1,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-mt-021",
+      "title": "머니투데이 오프라인 헤드라인-10일",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "mt",
+        "type": "news",
+        "url": "https://www.mt.co.kr/politics/2026/03/10/2026030917524538959",
+        "published_date": "Tue, 10 Mar 2026 04:30:00 +0900",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "[종합] 유가 120弗·환율 1500원···치솟는 S공포 李대통령 \"100조 시장안정 프로그램 확대\" 할인·보조금·고유가 '호재 신호'···전기차 풀액셀, 캐즘 뚫는다 이란, 최고지도자에 '대미 강경파' 모즈타바 [美·이란 전쟁 '패닉'] 高유가에 苦물가 \"기름값 10% 뛰면 韓수출 0.39% 후퇴\" \"석유 최고가격제,이번주내 시행\" '불안한 수급' 설비 셧다운 될라···가동률 낮추는 석화기업들 [the300] 李 \"전체 싸잡아 비난 안돼\"···檢개혁 강경파에 연일 경고 \"계엄, 반성의 뜻 밝혀야\" 선거 앞 국힘 '절윤 기류' [오피니언] 쇼츠 중독, 과정의 결핍이 가져온 갈증...",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 0,
+          "E_Economic": 1,
+          "P_Political": 3,
+          "S_Social": 0,
+          "E_Environmental": 1,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-mt-022",
+      "title": "유가 120弗·환율 1500원… 치솟는 S공포",
+      "classification": "E_Economic",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "mt",
+        "type": "news",
+        "url": "https://www.mt.co.kr/economy/2026/03/10/2026030920150480324",
+        "published_date": "Tue, 10 Mar 2026 04:16:00 +0900",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "3대 유가 모두 100弗 돌파, 금융시장 변동성 확대 중동사태 장기화 가능성에 에너지 공급 차질 우려 미국과 이란의 군사충돌이 장기화할 가능성이 제기되면서 국제유가가 한때 배럴당 119달러까지 치솟았다. 원/달러 환율이 1500원을 위협하는 등 금융시장도 변동성이 커졌다. 고유가·고환율과 더불어 시장금리마저 급등하면서 경기침체 속 물가가 상승하는 '스태그플레이션'(stagflation) 우려마저 확산하는 상황이다. 9일 국제 원유시장에 따르면 WTI(서부텍사스산중질유), 브렌트유, 두바이유 가격은 모두 배럴당 100달러를 돌파했다. 특히 미국 뉴욕상품거래소에서 4월 인도분 WTI 선물가격과 브렌트유 선물가격은 이날 오전 한때 배럴당 119달러까지 치솟으며 120달러선을 위협했다. 국제유가가 배럴당 100달러를 넘어선 것은 2022년 7월 이후 처음이다....",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 0,
+          "E_Economic": 2,
+          "P_Political": 2,
+          "S_Social": 0,
+          "E_Environmental": 1,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-mt-023",
+      "title": "&#039;헬륨 재사용&#039; 삼성, 공급망 리스크 줄인다",
+      "classification": "E_Economic",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "mt",
+        "type": "news",
+        "url": "https://www.mt.co.kr/industry/2026/03/10/2026030919563344271",
+        "published_date": "Tue, 10 Mar 2026 04:05:00 +0900",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "美·이란 전쟁 '패닉' 작년 4월부터 일부 라인 HeRS 설치 운영… 4.7톤 절약 확대 적용땐 年 19% 대체 예상, 고순도 정제기술 개발중 중동전쟁 여파로 헬륨 공급망 불안이 커지는 가운데 삼성전자의 '헬륨 재사용 시스템'(Helium Reuse System·HeRS)이 주목받는다. 헬륨은 반도체 생산에 쓰이는 대체불가 자원으로 수입의 상당부분을 카타르에 의존한다. 이에 삼성 시스템이 대외변수로 인한 공급망 리스크를 줄일 수 있는 기술대응 사례로 평가된다. 9일 한국무역협회에 따르면 지난해 한국의 헬륨 관련 카타르 수입의존도는 65%에 달했다. 수입한 헬륨 2116톤 중 1375톤이 카타르산이었다. 나머지 헬륨 수입비중은 미국(27.1%)과 러시아(6.2%) 중국(1.7%) 순으로 나타났다....",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 2,
+          "P_Political": 2,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-mt-024",
+      "title": "AI 데이터센터 덕에 불 켜졌다… 전력기기 ETF &#039;번쩍&#039;",
+      "classification": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "source": {
+        "name": "mt",
+        "type": "news",
+        "url": "https://www.mt.co.kr/stock/2026/03/10/2026030920014015353",
+        "published_date": "Tue, 10 Mar 2026 04:04:00 +0900",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "올해 관련 종목 두자릿수 수익률 달해… 개인자금 순유입 LS·HD현대일렉트릭 등 주도… 북미 전력망교체도 호재 AI(인공지능)데이터센터 확산으로 전력인프라 투자가 급증하면서 국내 전력기기 관련 ETF(상장지수펀드)가 시장을 웃도는 성과를 내고 있다. 9일 ETF체크에 따르면 연초 이후(YTD) 'KODEX AI전력핵심설비' 수익률은 28.12%, 'TIGER 코리아AI전력기기TOP3플러스'는 29.46%, 'RISE AI전력인프라'는 23.67%, 'HANARO 전력설비투자'는 27.65%다. 모두 같은 기간 코스피지수 수익률(24.62%)보다 높다. 네 상품 모두 연초 이후 개인투자자 자금이 순유입됐다. 'KODEX AI전력핵심설비' 순매수액은 1745억원, 'TIGER 코리아AI전력기기TOP3플러스'는 802억원, 'RISE AI전력인프라'는 294억원, 'HANARO 전력설비투자'는 75억원이다....",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 2,
+          "E_Economic": 2,
+          "P_Political": 1,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-aitimes-025",
+      "title": "앤트로픽 \"AI 실업 대란 아직 없지만... 청년 채용 문턱 14% 낮아져\"",
+      "classification": "E_Economic",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "aitimes",
+        "type": "news",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=207700",
+        "published_date": "2026-03-09 18:00:00",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "앤트로픽이 실제 노동시장에서는 아직 뚜렷한 실업 증가나 대규모 일자리 감소가 나타나지 않았다는 연구 결과를 발표했다. 하지만, 일부 직종에서는 젊은 인력 채용이 둔화하는 초기 신호가 관측됐다고 밝혔다.앤트로픽은 5일(현지시간) 공개한 보고서(Labor market impacts of AI)에서 AI가 노동시장에 미치는 영향을 평가하기 위한 새로운 지표를 제안하고 초기 데이터를 분석한 결과, 현재까지 AI로 인한 고용 변화는 크지 않은 수준이라고 설명했다.이제까지 AI 영향을 받을 직업군은 대부분 'AI가 무엇을 할 수 있는가'에 초",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 2,
+          "P_Political": 0,
+          "S_Social": 2,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-aitimes-026",
+      "title": "곡성, AI·코딩 창의융합교육 확대",
+      "classification": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "source": {
+        "name": "aitimes",
+        "type": "news",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=207706",
+        "published_date": "2026-03-09 14:53:00",
+        "reliability": "medium",
+        "language": "ko",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "곡성군미래교육재단이 인공지능(AI)과 코딩을 중심으로 한 창의융합교육을 확대하며 지역 학생들의 디지털 역량 강화에 나섰다.재단은 곡성형 교육발전특구 사업을 기반으로 관내 초·중·고등학교와 연계한 창의융합교육 프로그램을 운영하고 있다고 9일 밝혔다.이번 교육은 지역 학생들이 인공지능과 데이터 기술을 이해하고 미래 산업 변화에 대응할 수 있는 기초 역량을 기르는 데 목적이 있다. 재단은 학교급별 맞춤형 교육을 통해 AI 교육 기회를 확대하고 지역형 미래교육 인프라 구축을 추진하고 있다.초등 과정에서는 ‘로봇창의교실’을 중심으로 로봇 코",
+        "keywords": [],
+        "language": "ko"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 4,
+          "E_Economic": 0,
+          "P_Political": 0,
+          "S_Social": 1,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-nytimes-027",
+      "title": "Oil Prices Will Remain High as Iran War Continues",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "nytimes",
+        "type": "news",
+        "url": "https://www.nytimes.com/2026/03/09/climate/gasoline-oil-prices-iran.html",
+        "published_date": "Mon, 09 Mar 2026 22:29:13 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "While officials look for ways to ease oil shocks, experts say higher prices will likely persist until traffic through the Strait of Hormuz returns.",
+        "keywords": [
+          "United States Politics and Government",
+          "US and Israeli Attack on Iran (2026)",
+          "Oil (Petroleum) and Gasoline",
+          "International Trade and World Market",
+          "Strategic Petroleum Reserve (US)",
+          "Iran",
+          "Strait of Hormuz",
+          "United States",
+          "Trump, Donald J"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 3,
+          "S_Social": 0,
+          "E_Environmental": 1,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-nytimes-028",
+      "title": "Countries in Asia Try to Contain the Economic Fallout of the Mideast Conflict",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "nytimes",
+        "type": "news",
+        "url": "https://www.nytimes.com/2026/03/09/business/iran-oil-gas-asia.html",
+        "published_date": "Mon, 09 Mar 2026 18:44:03 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Across Asia, where countries are highly exposed to rising oil and gas costs and tightening supply, governments are acting to mitigate economic harm.",
+        "keywords": [
+          "US and Israeli Attack on Iran (2026)",
+          "Prices (Fares, Fees and Rates)",
+          "Oil (Petroleum) and Gasoline",
+          "Natural Gas",
+          "Shortages",
+          "Ships and Shipping",
+          "Bangladesh",
+          "China",
+          "East Asia",
+          "India",
+          "Vietnam",
+          "South Korea",
+          "Japan",
+          "internal-open-access-from-nl"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 2,
+          "S_Social": 0,
+          "E_Environmental": 2,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-washingtonpost-029",
+      "title": "Iran rallies around new leader after 10 days of war as oil prices spike",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "washingtonpost",
+        "type": "news",
+        "url": "https://www.washingtonpost.com/world/2026/03/09/iran-war-us-trump-israel-strikes/",
+        "published_date": "Mon, 09 Mar 2026 14:48:23 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "President Donald Trump called surging oil costs a “very small price to pay.” Group of Seven leaders are set to convene Monday to assess the economic fallout.",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 0,
+          "E_Economic": 0,
+          "P_Political": 4,
+          "S_Social": 0,
+          "E_Environmental": 1,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-030",
+      "title": "Trump says war with Iran is ‘very complete,’ predicts conflict could end soon",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/world/article-trump-iran-war-middle-east/",
+        "published_date": "Mon, 09 Mar 2026 21:21:31 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Iran’s regime looks unlikely to back down as hardliners staged a show of loyalty to new Supreme Leader Mojtaba Khamenei",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 0,
+          "E_Economic": 0,
+          "P_Political": 5,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-031",
+      "title": "NATO shoots down second Iranian ballistic missile, Turkey says",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/world/video-nato-shoots-down-second-iranian-ballistic-missile-turkey-says/",
+        "published_date": "Mon, 09 Mar 2026 20:14:46 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Turkey said on Monday that NATO air defenses shot down a second Iranian ballistic missile that had entered its airspace and warned that it would move against any such threats, which increasingly pose a test for Ankara and the alliance.",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 4,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-032",
+      "title": "Trump’s Gaza plan negotiations put on hold after the Iran war began, sources say",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/world/article-trump-gaza-plan-on-hold-iran-war/",
+        "published_date": "Mon, 09 Mar 2026 14:14:18 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Pause threatens to stall implementation of Trump’s flagship Middle East peace initiative, which he has cast as a major foreign policy objective",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 0,
+          "E_Economic": 0,
+          "P_Political": 5,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-033",
+      "title": "Does Donald Trump really know what ‘unconditional surrender’ means?",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/world/us-politics/article-iran-president-war-unconditional-surrender-us-trump/",
+        "published_date": "Sat, 07 Mar 2026 19:44:04 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Historically, it would require a substantial escalation of the U.S. military commitment in the week-old Iran war",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 0,
+          "E_Economic": 0,
+          "P_Political": 5,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-034",
+      "title": "As war spreads, airline pilots contend with drones and missiles",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/world/video-as-war-spreads-airline-pilots-contend-with-drones-and-missiles/",
+        "published_date": "Sat, 07 Mar 2026 15:52:43 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Airline pilots have faced escalating pressure in recent years, from drone incursions to flight paths squeezed by conflict. The U.S.-Israeli attacks on Iran have only compounded those risks.",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 4,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-035",
+      "title": "Trump says Iran's army, navy, communications and leaders are 'gone'",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/world/video-trump-says-irans-army-navy-communications-and-leaders-are-gone/",
+        "published_date": "Sat, 07 Mar 2026 15:48:54 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "U.S. President Donald Trump said Friday Iran's army, navy, communications and their leaders 'are gone', as he responded to questions about the conflict after hosting a roundtable on college sports.",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 4,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-036",
+      "title": "Day 2: Middle East war widens as attacks on Iran intensify",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/world/article-iran-us-israel-uae-trump-ayatollah-ali-khamenei-live-updates/",
+        "published_date": "Sun, 01 Mar 2026 19:56:23 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Hezbollah joins conflict, prompting Israeli strikes on Lebanon; air raid sirens sound across Israel, as Iran launches new wave of missiles",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 4,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-037",
+      "title": "When it comes to the Iran war, Trump has no clear goal or answers",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/world/us-politics/article-iran-us-war-aims-trump/",
+        "published_date": "Fri, 06 Mar 2026 16:05:07 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "The diverse war aims the U.S. President has set out amount to a multiple-choice proposition for opponents of his war effort",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 4,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-038",
+      "title": "Pentagon designates Anthropic a supply chain risk",
+      "classification": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/world/video-pentagon-designates-anthropic-a-supply-chain-risk/",
+        "published_date": "Fri, 06 Mar 2026 12:37:00 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "The Pentagon slapped a formal supply-chain risk designation on artificial intelligence lab Anthropic on Thursday, limiting use of a technology that a source said was being used for military operations in Iran.",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 2,
+          "E_Economic": 1,
+          "P_Political": 2,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-globeandmail-039",
+      "title": "Tanker attack in the northern Persian Gulf boosts oil and gas prices, signals Iran war is widening",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "globeandmail",
+        "type": "news",
+        "url": "https://www.theglobeandmail.com/business/international-business/african-and-mideast-business/article-tanker-attack-in-the-northern-persian-gulf-boosts-oil-and-gas-prices/",
+        "published_date": "Thu, 05 Mar 2026 10:50:56 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Marks the first time a ship was hit beyond the Strait of Hormuz area",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 2,
+          "S_Social": 0,
+          "E_Environmental": 2,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-aljazeera-040",
+      "title": "What defence support could Ukraine offer Middle East states amid Iran war?",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "aljazeera",
+        "type": "news",
+        "url": "https://www.aljazeera.com/news/2026/3/9/what-defence-support-could-ukraine-offer-middle-east-states-amid-iran-war?traffic_source=rss",
+        "published_date": "Mon, 09 Mar 2026 15:28:05 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Ukraine has built low-cost drones to counter Russian attacks with imported Iranian Shahed drones.",
+        "keywords": [
+          "News"
+        ],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 4,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-041",
+      "title": "China investors energise Hong Kong biotech stocks. Is foreign money missing out?",
+      "classification": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/business/china-business/article/3346016/china-investors-energise-hong-kong-biotech-stocks-foreign-money-missing-out?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 23:30:07 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Mainland Chinese investors can now buy shares in more than a dozen newly added Hong Kong-listed biotech and pharmaceutical companies after a reshuffle of the Stock Connect southbound trading list took effect on Monday, reflecting the sector’s growing role on the international stage.\nForeign capital, however, remained cautious, analysts said.\n“Mainland buyers have been the main force behind the latest healthcare rally. They tend to chase smaller-cap names where a tight free float makes it easier.",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 2,
+          "E_Economic": 1,
+          "P_Political": 1,
+          "S_Social": 1,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-042",
+      "title": "Economic Security 101: why China’s officials now have to study rare earths and supply chains",
+      "classification": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/news/china/politics/article/3345957/economic-security-101-why-chinas-officials-now-have-study-rare-earths-and-supply-chains?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 22:00:08 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "In his decades toiling as a health official in a coastal Chinese province, Alan Chen has rarely had to study a subject about which he knew so little.\n“Nd is Neodymium. It is needed for almost all modern EV motors. China dominates the refining of Nd oxide. Dy is Dysprosium. It is needed for magnets to operate at high temperatures and is also essential for EV motors.”\nThis was the kind of content Chen pored over in a training course he attended at the Central Party School, the Communist Party’s...",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 1,
+          "P_Political": 1,
+          "S_Social": 1,
+          "E_Environmental": 1,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-043",
+      "title": "Anthropic sues Trump administration as row over AI use by military deepens",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3346019/anthropic-sues-us-government-row-over-ai-use-military-deepens?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 16:36:30 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Anthropic on Monday filed a lawsuit to block the Pentagon from placing it on a national security blacklist, escalating the artificial intelligence lab’s high-stakes battle with the US military over usage restrictions on its technology.\nAnthropic said in its lawsuit that the designation was unlawful and violated its free speech and due process rights. The filing in federal court in California asked a judge to undo the designation and block federal ‌agencies from enforcing it.\n“These actions are..",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 2,
+          "E_Economic": 0,
+          "P_Political": 3,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-044",
+      "title": "Hong Kong urged to extend stock trading hours to keep up with rivals",
+      "classification": "E_Economic",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346018/hong-kong-urged-extend-stock-trading-hours-keep-rivals?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 15:53:50 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Hong Kong has been urged to extend its stock trading hours to maintain its status as an international financial hub, as competitors move towards near 24-hour operations to capture global liquidity.\nSpeaking at the “Redefining Hong Kong 2026 Budget Edition” forum organised by the South China Morning Post on Monday, Kenny Shui Chi-wai, vice-president of think tank Our Hong Kong Foundation, said the city should consider lengthening the stock market’s trading hours, which rivals were already...",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 2,
+          "P_Political": 2,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-045",
+      "title": "China can’t buy Elon Musk’s theory on space-based AI centres: experts",
+      "classification": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/news/china/science/article/3345685/china-cant-buy-elon-musks-theory-space-based-ai-centres-experts?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 15:30:08 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "China should not follow SpaceX in launching artificial intelligence data centres into orbit, but instead focus on more practical near-term space-based computing, a senior researcher has said.\nGao Wen, a computer scientist at Peking University and a member of the Chinese Academy of Engineering, said on Thursday that electricity demand was not a major bottleneck for AI data centres in China, meaning there was little reason to move them into space.\nIn a Sina News interview during the annual “two...",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 3,
+          "E_Economic": 0,
+          "P_Political": 1,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 1
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-046",
+      "title": "Chinese local governments offer OpenClaw project subsidies as security questions linger",
+      "classification": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H3",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/tech/policy/article/3345986/chinese-local-governments-offer-openclaw-project-subsidies-security-questions-linger?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 13:30:08 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Some local governments in China have rushed to support the adoption of OpenClaw, the artificial intelligence agent sweeping the country, even as warnings about privacy and security risks linger in the background.\nIn Shenzhen, China’s southern tech hub, the AI and robotics agency of Longgang district published a draft on Saturday proposing sweeping measures, including subsidies of up to 2 million yuan (US$290,000) for approved projects.\nThe initiative came a day after nearly a thousand people...",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 3,
+          "E_Economic": 0,
+          "P_Political": 2,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-047",
+      "title": "Hong Kong wetland records 40 times more petroleum after oil spill: Greenpeace",
+      "classification": "E_Environmental",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3346007/hong-kong-wetland-records-40-times-more-petroleum-after-oil-spill-greenpeace?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 12:30:18 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "A protected Hong Kong wetland on southern Lantau Island has recorded a high concentration of petroleum following an oil spill in September, with levels up to 40 times higher than those in unaffected areas, according to an environmental group’s study.\nGreenpeace in Hong Kong said the high concentration could threaten local ecology. It urged authorities to investigate the oil spill and include unprotected sites with high ecological value in the priority conservation projects under the Biodiversity",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 1,
+          "S_Social": 0,
+          "E_Environmental": 3,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-048",
+      "title": "What crises in Iran, Panama, Venezuela and Greenland have in common",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/opinion/world-opinion/article/3345449/what-crises-iran-panama-venezuela-and-greenland-have-common?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 12:30:08 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Over the past 12 months, a series of political and military crises has erupted in different parts of the world. Do they have anything in common?\nOn the surface, the dramas in Iran, Panama, Venezuela and Greenland look separate, each with its own cast, excuse and headlines. What links them is not ideology, or the public language used to sell each move. It is the map.\nIran sits beside the Strait of Hormuz, the choke point for Gulf energy flows. Panama sits astride one of the world’s trade...",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 1,
+          "P_Political": 2,
+          "S_Social": 0,
+          "E_Environmental": 1,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-049",
+      "title": "China’s Wang sees ‘landmark year’ in US relations",
+      "classification": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3345967/chinas-wang-sees-landmark-year-us-relations?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 09:00:11 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "Chinese Foreign Minister Wang Yi said 2026 could be a “landmark year” in relations with the United States, allaying concerns that the war in Iran might derail ties and an expected visit by US President Donald Trump.\n“I believe that when the two sides treat each other with sincerity and good faith, we will be able to lengthen the list of cooperation, and shorten the list of problems,” Wang told reporters in Beijing on Sunday. The countries could “produce results that are satisfactory to both...",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 0,
+          "P_Political": 4,
+          "S_Social": 0,
+          "E_Environmental": 0,
+          "s_spiritual": 0
+        }
+      }
+    },
+    {
+      "id": "news-20260310-scmp-050",
+      "title": "More gas from Russia? China flags new pipeline links amid Iran energy crisis",
+      "classification": "E_Environmental",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {
+        "name": "scmp",
+        "type": "news",
+        "url": "https://www.scmp.com/economy/china-economy/article/3345920/more-gas-russia-china-flags-new-pipeline-links-amid-iran-energy-crisis?utm_source=rss_feed",
+        "published_date": "Mon, 09 Mar 2026 08:01:15 +0000",
+        "reliability": "medium",
+        "language": "en",
+        "region": "unknown"
+      },
+      "content": {
+        "abstract": "China has included two pipelines transporting natural gas from Russia in the draft of its new five-year plan, raising market debate on whether the Power of Siberia 2 – a closely watched project viewed as symbolic of bilateral relations – could be on the fast track for construction.\nAlong with language on two other pipelines, the draft said China would “advance preparatory work for the central route of the China-Russia natural gas pipeline” in the next five years, which some market observers...",
+        "keywords": [],
+        "language": "en"
+      },
+      "signal_status": "NEW",
+      "impact_score": 6.0,
+      "probability": 70,
+      "urgency": 5,
+      "novelty": 5,
+      "scan_metadata": {
+        "keyword_relevance_score": 5,
+        "steeps_scores": {
+          "T_Technological": 1,
+          "E_Economic": 1,
+          "P_Political": 1,
+          "S_Social": 0,
+          "E_Environmental": 2,
+          "s_spiritual": 0
+        }
+      }
+    }
+  ],
+  "classification_stats": {
+    "steeps_distribution": {
+      "E_Economic": 8,
+      "P_Political": 31,
+      "T_Technological": 9,
+      "E_Environmental": 2
+    },
+    "fssf_distribution": {
+      "Driver": 18,
+      "Emerging Issue": 32
+    },
+    "horizon_distribution": {
+      "H2": 41,
+      "H3": 9
+    },
+    "language_distribution": {
+      "ko": 13,
+      "en": 35,
+      "ru": 2
+    }
+  }
+}
