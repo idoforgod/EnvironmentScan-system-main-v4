@@ -1,0 +1,406 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-03-12",
+    "scan_window": {
+      "start": "2026-03-10T22:24:37Z",
+      "end": "2026-03-11T22:24:37Z"
+    },
+    "sources_scanned": 25,
+    "sources_failed": ["PubMed Central", "OECD Newsroom", "Ars Technica", "Wired", "EUR-Lex", "World Bank Blogs", "IMF Blog"],
+    "total_signals_collected": 85
+  },
+  "items": [
+    {
+      "id": "fed-20260312-001",
+      "title": "Executive Order: Combating Cybercrime, Fraud, and Predatory Schemes Against American Citizens",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/11/2026-04826/combating-cybercrime-fraud-and-predatory-schemes-against-american-citizens", "published_date": "2026-03-11"},
+      "content": {"abstract": "Presidential executive action establishing federal framework for combating cybercrime and digital fraud targeting American citizens. Elevates digital crime prevention to executive priority level.", "keywords": ["cybercrime", "digital fraud", "executive order", "consumer protection"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "fed-20260312-002",
+      "title": "Unwrought Palladium from Russia: Preliminary Countervailing Duty Determination",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/11/2026-04765/unwrought-palladium-from-the-russian-federation", "published_date": "2026-03-11"},
+      "content": {"abstract": "Preliminary determination of countervailable subsidies for Russian palladium imports. Signals continued sanctions-related trade restrictions on critical materials from Russia.", "keywords": ["palladium", "Russia", "trade sanctions", "critical materials", "countervailing duty"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "fed-20260312-003",
+      "title": "NRC Proposes Streamlining Contested Adjudications in Nuclear Licensing",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/11/2026-04763/streamlining-contested-adjudications-in-licensing-proceedings", "published_date": "2026-03-11"},
+      "content": {"abstract": "Nuclear Regulatory Commission proposed rule to streamline licensing proceedings. Indicates push for faster nuclear energy deployment through regulatory efficiency.", "keywords": ["nuclear energy", "NRC", "licensing", "regulatory streamlining"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "who-20260312-001",
+      "title": "Conflict Deepens Health Crisis Across Middle East",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/11-03-2026-conflict-deepens-health-crisis-across-middle-east--who-says", "published_date": "2026-03-11"},
+      "content": {"abstract": "WHO reports catastrophic health impact: Iran 1300+ deaths, 9000+ injuries; Lebanon 570+ deaths; 18 verified attacks on healthcare in Iran; 100K+ displaced. WHO Dubai logistics hub disrupted affecting 50+ emergency supply requests for 1.5M people across 25 countries.", "keywords": ["Middle East conflict", "healthcare crisis", "displacement", "humanitarian", "WHO"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "tc-20260312-001",
+      "title": "Netflix Acquires Ben Affleck's AI Startup for $600M",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/11/netflix-may-have-paid-600-million-for-ben-afflecks-ai-startup/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Netflix potentially acquiring InterPositive, an AI filmmaking startup, for $600M — among the streaming giant's largest acquisitions ever. Signals major media industry pivot toward AI-powered content creation.", "keywords": ["Netflix", "AI", "media", "acquisition", "filmmaking"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "tc-20260312-002",
+      "title": "Lovable Adds $100M Revenue in Single Month with 146 Employees",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Swedish AI startup Lovable achieved $400M ARR in February with only 146 employees — unprecedented revenue-per-employee ratio in software history. Demonstrates vibe-coding market explosive growth.", "keywords": ["AI", "vibe-coding", "startup", "revenue", "product-led growth"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "tc-20260312-003",
+      "title": "Replit Reaches $9B Valuation — Triples in 6 Months",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Replit raised $400M at $9B valuation, tripling from $3B in just 6 months. Targeting $1B ARR by year-end. Vibe-coding platform riding massive AI developer tools demand wave.", "keywords": ["Replit", "AI", "developer tools", "vibe-coding", "valuation"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "tc-20260312-004",
+      "title": "Rivian Spin-Out Mind Robotics Raises $500M for Industrial AI Robots",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Mind Robotics, spun out from Rivian by founder RJ Scaringe, raised $500M Series A for manufacturing automation. Deploying AI-powered industrial robots in Rivian factories first.", "keywords": ["robotics", "AI", "manufacturing", "automation", "Rivian"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "tc-20260312-005",
+      "title": "VC Mega-Funds Resurge: General Catalyst $10B, Spark $3B",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/11/vc-mega-funds-are-back-with-general-catalyst-spark-rumored-to-be-raising-billions/", "published_date": "2026-03-11"},
+      "content": {"abstract": "General Catalyst reportedly raising $10B fund; Spark Capital targeting $3B. AI-driven investor frenzy fueling return of venture mega-funds. Nearly 40 new unicorns minted in 2026 so far.", "keywords": ["venture capital", "mega-fund", "AI investment", "startup ecosystem"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "tc-20260312-006",
+      "title": "Meta Acquires Moltbook — Signals Future Built on AI Agents",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/11/metas-moltbook-deal-points-to-a-future-built-around-ai-agents/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Meta's acquisition of Moltbook signals strategic pivot toward agentic commerce. AI agents will handle product discovery, purchasing, and advertising on Meta platforms.", "keywords": ["Meta", "AI agents", "agentic commerce", "acquisition"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "tc-20260312-007",
+      "title": "Pro-Iran Hacktivists Claim Attack on Medical Tech Giant Stryker",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/11/stryker-hack-pro-iran-hacktivist-group-handala-says-it-is-behind-attack/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Hacktivist group Handala claimed cyberattack on medical device company Stryker as retaliation for US strikes on Tehran. Healthcare sector cybersecurity under geopolitical threat.", "keywords": ["cybersecurity", "hacktivism", "healthcare", "Iran", "geopolitics"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "tc-20260312-008",
+      "title": "WhatsApp Launches Parent-Linked Accounts for Pre-Teens",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/11/whatsapp-is-launching-parent-linked-accounts-for-pre-teens/", "published_date": "2026-03-11"},
+      "content": {"abstract": "WhatsApp introducing under-13 accounts with parental controls, PIN-protected settings, and contact approval. Part of broader tech industry response to child safety regulation pressure.", "keywords": ["child safety", "parental controls", "WhatsApp", "Meta", "regulation"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "tc-20260312-009",
+      "title": "Quince Hits $10B Valuation with $500M Series E",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/11/quince-series-e-10b-valuation-with-500m-round-led-by-iconiq/", "published_date": "2026-03-11"},
+      "content": {"abstract": "E-commerce company Quince raised $500M at $10B valuation. Direct-to-consumer model disrupting traditional retail through radical supply chain efficiency.", "keywords": ["e-commerce", "valuation", "direct-to-consumer", "retail disruption"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "mtr-20260312-001",
+      "title": "China's OpenClaw AI Agent Gold Rush Creates Service Economy",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Cottage industry emerging around OpenClaw AI agent tool in China. Government cities offering incentives for OpenClaw ventures. Security experts warn of data breach risks. Rapid commercialization outpacing security readiness.", "keywords": ["AI agents", "China", "OpenClaw", "commercialization", "security risks"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "mtr-20260312-002",
+      "title": "Pokemon Go Data Powers Delivery Robot Navigation with Centimeter Accuracy",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/", "published_date": "2026-03-10"},
+      "content": {"abstract": "Niantic Spatial leverages 30B geotagged images from Pokemon Go to build visual positioning systems for autonomous delivery robots. Centimeter-level accuracy using crowdsourced gaming data for world models.", "keywords": ["robotics", "world models", "autonomous delivery", "crowdsourced data", "visual positioning"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "mtr-20260312-003",
+      "title": "Pentagon vs Anthropic: Legal Battle Over AI Domestic Surveillance",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Regulatory gap exposed: existing laws predate AI analytical power. Government can legally purchase commercial data on Americans without warrants. AI amplifies capability to aggregate non-sensitive data into detailed profiles.", "keywords": ["AI surveillance", "Pentagon", "Anthropic", "privacy", "regulation gap"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "mtr-20260312-004",
+      "title": "AI Turns Iran Conflict Into Prediction Market Theater",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/09/1134063/how-ai-is-turning-the-iran-conflict-into-theater/", "published_date": "2026-03-09"},
+      "content": {"abstract": "Real-time intelligence dashboards combining satellite, ship tracking, and AI analysis enable public speculation on military conflicts via prediction markets. AI-generated fake satellite imagery compounds misinformation problem.", "keywords": ["AI", "misinformation", "conflict", "prediction markets", "satellite imagery"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "mtr-20260312-005",
+      "title": "Data Centers to Consume 12% of US Electricity by 2028",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/10/1133972/prioritizing-energy-intelligence-for-sustainable-growth/", "published_date": "2026-03-10"},
+      "content": {"abstract": "Survey of 300 executives: 100% expect power measurement to become critical; 68% face 10%+ energy cost increases from AI; data centers currently at 4% US electricity may reach 12% by 2028. Cost opacity with cloud providers a major concern.", "keywords": ["AI energy", "data centers", "electricity consumption", "sustainability", "cloud computing"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "nat-20260312-001",
+      "title": "Large-Scale Coherent 4D Imaging Sensor with 0.6M+ Photonic Components",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10183-6", "published_date": "2026-03-11"},
+      "content": {"abstract": "Integrated LiDAR focal plane array with over 600,000 photonic components enables coherent 4D imaging at high frame rates. Revolutionary sensor technology for autonomous vehicles, robotics, and remote sensing.", "keywords": ["photonics", "LiDAR", "4D imaging", "autonomous vehicles", "sensors"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "nat-20260312-002",
+      "title": "Intestinal Dysfunction Drives Age-Associated Cognitive Decline via Gut-Brain Axis",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10191-6", "published_date": "2026-03-11"},
+      "content": {"abstract": "Microbiome changes increase MCFA-producing bacteria, triggering GPR84-mediated inflammation affecting vagal signaling and memory. Demonstrates direct gut-brain mechanism for age-related cognitive decline.", "keywords": ["microbiome", "cognitive decline", "aging", "gut-brain axis", "neuroscience"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "nat-20260312-003",
+      "title": "Ageing Promotes Metastasis via Integrated Stress Response in Lung Cancer",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10216-0", "published_date": "2026-03-11"},
+      "content": {"abstract": "Age reprograms KRAS-driven lung adenocarcinoma evolution, paradoxically limiting primary tumors while promoting metastatic spread. Reveals age as a fundamental variable in cancer biology.", "keywords": ["cancer", "aging", "metastasis", "lung cancer", "KRAS"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "nat-20260312-004",
+      "title": "Sorghum Pangenome Reference Accelerates Climate-Adapted Crop Breeding",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10229-9", "published_date": "2026-03-11"},
+      "content": {"abstract": "Comprehensive sorghum pangenome enables accelerated breeding for climate-adapted crops. Critical for food security under environmental change.", "keywords": ["pangenome", "sorghum", "climate adaptation", "food security", "crop breeding"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "nat-20260312-005",
+      "title": "ctDNA-Guided Risk-Adaptive Cancer Therapy Shows Clinical Promise",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10244-w", "published_date": "2026-03-11"},
+      "content": {"abstract": "Clinical trial demonstrates circulating tumor DNA clearance monitoring enables personalized treatment decisions for nasopharyngeal carcinoma. Paradigm shift toward liquid biopsy-guided oncology.", "keywords": ["ctDNA", "liquid biopsy", "precision medicine", "cancer therapy", "personalized treatment"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "nat-20260312-006",
+      "title": "Nanophotonic Chip Achieves Diffraction-Limited 2D Beam Scanning",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-025-10038-6", "published_date": "2026-03-11"},
+      "content": {"abstract": "Monolithic photonic design achieves diffraction-limited 2D beam scanning on a chip. Applications in AR displays, quantum computing, and communications.", "keywords": ["nanophotonics", "beam scanning", "AR", "quantum computing", "photonic chip"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "sci-20260312-001",
+      "title": "DOE Science Labs to Spearhead Federal AI Push",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/why-energy-department-s-science-labs-will-spearhead-federal-push-ai", "published_date": "2026-03-11"},
+      "content": {"abstract": "DOE national laboratories positioned to lead federal AI efforts due to extensive computing infrastructure, data capabilities, and research facilities. Signifies major institutional pivot.", "keywords": ["DOE", "AI", "national labs", "federal policy", "computing infrastructure"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "sci-20260312-002",
+      "title": "White House Plan to Break Up NCAR Climate Lab Advances",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/white-house-plan-break-iconic-u-s-climate-lab-moves-forward", "published_date": "2026-03-10"},
+      "content": {"abstract": "National Center for Atmospheric Research faces proposed dissolution. Multiple organizations bidding to assume operational segments. Threatens continuity of decades of climate research.", "keywords": ["NCAR", "climate research", "White House", "research funding", "institutional restructuring"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "sci-20260312-003",
+      "title": "Gut Microbe Promotes Memory Loss in Mouse Study",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/tour-de-force-mouse-study-shows-gut-microbe-can-promote-memory-loss", "published_date": "2026-03-11"},
+      "content": {"abstract": "Tour de force study demonstrates gut microbiome involvement in cognitive decline. Corroborates Nature finding on gut-brain axis in aging.", "keywords": ["microbiome", "memory loss", "cognitive decline", "gut-brain axis"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "ieee-20260312-001",
+      "title": "Intel Demos Heracles Chip: 5000x Speedup for Fully Homomorphic Encryption",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/fhe-intel", "published_date": "2026-03-10"},
+      "content": {"abstract": "Intel unveiled Heracles processor achieving 5000x speedup for FHE tasks. Built on 3nm FinFET with 48GB HBM. Encrypted voter-ballot verification in 14 microseconds vs 15ms on Xeon. Enables computing on encrypted data at practical speeds.", "keywords": ["FHE", "Intel", "encryption", "privacy", "hardware acceleration", "3nm"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "ieee-20260312-002",
+      "title": "AI Sycophancy: Why Chatbots Agree With You Even When Wrong",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/ai-sycophancy", "published_date": "2026-03-11"},
+      "content": {"abstract": "Research documents LLM sycophancy — agreeing with users despite factual errors. Simple prompts like 'Are you sure?' flip incorrect answers. OpenAI reverted GPT-4o update for being 'overly flattering.'", "keywords": ["AI safety", "sycophancy", "LLM", "alignment", "chatbots"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "ieee-20260312-003",
+      "title": "Military AI Policy Needs Democratic Oversight",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/military-ai-governance", "published_date": "2026-03-08"},
+      "content": {"abstract": "Anthropic-Pentagon dispute highlights governance gaps. Military AI boundaries should be established through Congress, not executive-vendor negotiations. Essential for autonomous weapons, surveillance, and rules of engagement.", "keywords": ["military AI", "governance", "democratic oversight", "autonomous weapons", "Pentagon"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "ieee-20260312-004",
+      "title": "Offshore Wind Farms and National Security: Radar Mitigation Solutions",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/offshore-wind-military-radar", "published_date": "2026-03-09"},
+      "content": {"abstract": "While offshore wind turbines degrade radar performance, modern phased-array systems can penetrate wind farms effectively. European nations integrating turbines into defense infrastructure through dual-use sensors.", "keywords": ["offshore wind", "national security", "radar", "defense", "renewable energy"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "un-20260312-001",
+      "title": "UN Relief Chief Condemns '$1 Billion-a-Day' Cost of Middle East War",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/en/story/2026/03/1167116", "published_date": "2026-03-11"},
+      "content": {"abstract": "UN emergency relief leadership condemned the $1 billion per day financial burden of Middle East conflict. Humanitarian assistance funding critically inadequate amid escalating needs across the region.", "keywords": ["Middle East", "humanitarian crisis", "war costs", "UN", "conflict"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "un-20260312-002",
+      "title": "Two-Thirds of Children Report Increased Cyberbullying",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/en/story/2026/03/1167111", "published_date": "2026-03-10"},
+      "content": {"abstract": "Global survey finds approximately two-thirds of children report increased cyberbullying. Many uncertain about accessing appropriate support resources. Signals growing digital harm to youth.", "keywords": ["cyberbullying", "children", "digital safety", "mental health", "youth"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "hn-20260312-001",
+      "title": "Dead Internet Theory Is No Longer a Theory",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.adriankrebs.ch/blog/dead-internet/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Analysis argues that AI-generated content has reached a tipping point where authentic human content is becoming minority on the internet. 272 points, 172 comments on HN.", "keywords": ["dead internet", "AI content", "authenticity", "internet quality"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "hn-20260312-002",
+      "title": "Google Closes $32B Wiz Acquisition — Largest Cloud Security Deal",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz", "published_date": "2026-03-11"},
+      "content": {"abstract": "Google completes $32B acquisition of cloud security company Wiz. Largest ever cloud security deal signals massive enterprise security investment wave.", "keywords": ["Google", "Wiz", "cloud security", "acquisition", "cybersecurity"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "hn-20260312-003",
+      "title": "HN Policy: Don't Post AI-Generated Comments — 1813 Points",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://news.ycombinator.com/newsguidelines.html#generated", "published_date": "2026-03-11"},
+      "content": {"abstract": "Hacker News explicitly bans AI-generated comments: 'HN is for conversation between humans.' 1813 points, 706 comments — highest engagement item. Signals growing platform resistance to AI content.", "keywords": ["AI content policy", "platform governance", "human authenticity", "community standards"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "hn-20260312-004",
+      "title": "SWE-Bench-Passing PRs Would Not Be Merged in Practice",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/", "published_date": "2026-03-10"},
+      "content": {"abstract": "METR analysis finds many AI-generated pull requests that pass SWE-bench benchmarks would not meet real-world code review standards. Questions validity of leading AI coding metrics.", "keywords": ["AI coding", "benchmarks", "SWE-bench", "code quality", "software engineering"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "cb-20260312-001",
+      "title": "Clean Energy Will Cut UK Gas Imports More Than North Sea Drilling",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/analysis-why-clean-energy-will-cut-uk-gas-imports-by-more-than-north-sea-drilling/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Analysis shows 15GW of new wind and solar would eliminate demand for ~78 LNG tankers annually by 2030 — nearly 6x the impact of new North Sea drilling licenses. Renewables superior to fossil fuel expansion for energy independence.", "keywords": ["clean energy", "UK energy", "gas imports", "wind solar", "energy independence"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "cb-20260312-002",
+      "title": "Net-Zero Will Protect UK from Fossil Fuel Price Shocks — CCC Report",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/ccc-net-zero-will-protect-uk-from-fossil-fuel-price-shocks/", "published_date": "2026-03-11"},
+      "content": {"abstract": "UK Climate Change Committee: net-zero transition generates £110B in average yearly benefits through 2050. Household energy bills rise only 4% in price crises vs 59% in fossil-dependent scenarios.", "keywords": ["net-zero", "energy resilience", "UK CCC", "fossil fuels", "economic benefits"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "cb-20260312-003",
+      "title": "Iran War Impact on Global Energy Transition and Climate Action",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/qa-what-does-the-iran-war-mean-for-the-energy-transition-and-climate-action/", "published_date": "2026-03-10"},
+      "content": {"abstract": "Comprehensive analysis of Middle East conflict disruption to global energy: Strait of Hormuz shipping paralysis, infrastructure damage to oil/LNG facilities, crude oil and gas price surges worldwide affecting Asia, Europe, Africa.", "keywords": ["Iran", "energy transition", "oil prices", "Strait of Hormuz", "climate action", "geopolitics"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "da-20260312-001",
+      "title": "East African EV Startup Zeno Raises $25M for Charging Infrastructure",
+      "source": {"name": "Disrupt Africa", "type": "tech_news", "url": "https://disruptafrica.com/2026/03/11/east-african-mobility-startup-zeno-raises-25m-to-expand-its-ev-charging-operations/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Zeno, founded by former Tesla executive, raised $25M to expand EV charging across East Africa. Operates 150+ chargepoints with 25,000-unit waitlist. Signals electric mobility adoption in developing markets.", "keywords": ["EV", "Africa", "charging infrastructure", "Tesla", "emerging markets"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "da-20260312-002",
+      "title": "Lipaworld Launches Stablecoin-Powered Card for Africa's Unbanked",
+      "source": {"name": "Disrupt Africa", "type": "tech_news", "url": "https://disruptafrica.com/2026/03/11/sas-lipaworld-launches-stablecoin-powered-card-to-unlock-economy-for-africas-unbanked/", "published_date": "2026-03-11"},
+      "content": {"abstract": "South African fintech Lipaworld launches stablecoin-linked card for unbanked Africans to transact at Visa merchants. Blockchain-based financial inclusion breakthrough.", "keywords": ["stablecoin", "financial inclusion", "Africa", "unbanked", "fintech", "blockchain"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "bis-20260312-001",
+      "title": "BOJ Governor Ueda: New Financial Ecosystem and Central Bank Roles",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/review/r260309i.htm", "published_date": "2026-03-10"},
+      "content": {"abstract": "Bank of Japan Governor Kazuo Ueda addresses central banking's evolving role amid AI and blockchain technological shifts in financial markets.", "keywords": ["central banking", "AI", "blockchain", "financial ecosystem", "BOJ"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "bis-20260312-002",
+      "title": "Bundesbank President: Central Banking in Age of Geoeconomic Fragmentation",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/review/r260303h.htm", "published_date": "2026-03-05"},
+      "content": {"abstract": "Deutsche Bundesbank President Joachim Nagel examines central banking challenges amid geopolitical fragmentation and macroeconomic instability.", "keywords": ["geoeconomic fragmentation", "central banking", "macroeconomic instability", "Bundesbank"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "bis-20260312-003",
+      "title": "Fed's Waller: Operationalizing AI at the Federal Reserve",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/review/r260302c.htm", "published_date": "2026-03-03"},
+      "content": {"abstract": "Federal Reserve Board Member Christopher Waller discusses AI implementation across Federal Reserve operations. Central bank adoption of AI for monetary policy analysis.", "keywords": ["Federal Reserve", "AI", "central banking", "monetary policy", "automation"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "pew-20260312-001",
+      "title": "Buddhism's Global Decline: Only Major Religion to Shrink 2010-2020",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/religion/2026/03/11/buddhisms-recent-decline-in-east-asia/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Pew Research: Buddhism is the only major religion whose global population shrank between 2010 and 2020, declining roughly 5%. Contraction concentrated in Japan and South Korea.", "keywords": ["Buddhism", "religion", "demographics", "East Asia", "secularization"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "aeon-20260312-001",
+      "title": "Does Culture Make Emotion? Boas Framework Revisited",
+      "source": {"name": "Aeon Magazine", "type": "blog", "url": "https://aeon.co/essays/who-am-i-when-i-care-emotion-through-the-lens-of-franz-boas", "published_date": "2026-03-10"},
+      "content": {"abstract": "Explores whether emotions originate from individual psychology or cultural context. Uses Franz Boas' anthropological framework to examine cultural construction of emotional experience.", "keywords": ["emotion", "culture", "anthropology", "psychology", "worldview"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "aeon-20260312-002",
+      "title": "Mathematical Beauty in the AI Age: Redefining Aesthetic in Mathematics",
+      "source": {"name": "Aeon Magazine", "type": "blog", "url": "https://aeon.co/essays/how-should-we-define-mathematical-beauty-in-the-ai-age", "published_date": "2026-03-09"},
+      "content": {"abstract": "Questions whether mathematical beauty is objective or subjective as AI systems increasingly perform mathematical work. Challenges human aesthetic appreciation of mathematics in the age of machine computation.", "keywords": ["mathematics", "AI", "beauty", "aesthetics", "philosophy"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-12T07:24:00Z"
+    },
+    {
+      "id": "qm-20260312-001",
+      "title": "Disorder Drives Nuclear Pore Complex — Nature's Most Complex Machine",
+      "source": {"name": "Quanta Magazine Biology", "type": "science_journalism", "url": "https://www.quantamagazine.org/disorder-drives-one-of-natures-most-complex-machines-20260309/", "published_date": "2026-03-09"},
+      "content": {"abstract": "High-resolution imaging reveals how nuclear pore complexes function. Hundreds to thousands of molecules continuously transit through these cellular gateways, driven by intrinsic disorder.", "keywords": ["nuclear pore", "molecular biology", "structural biology", "cellular machinery"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T07:24:00Z"
+    }
+  ]
+}

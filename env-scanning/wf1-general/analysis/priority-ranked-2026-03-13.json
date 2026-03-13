@@ -1,0 +1,1142 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf1-general",
+    "date": "2026-03-13",
+    "computed_at": "2026-03-12T22:24:02Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 51,
+    "warn_count": 51
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "tc-20260313-004",
+      "title": "Tesla becomes electricity utility in UK",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.7,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "mitr-20260313-001",
+      "title": "China OpenClaw AI creates cottage industry of service businesses",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.7,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "glp-20260313-002",
+      "title": "Systematic AI-powered visual misinformation deployed in Iran conflict",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.65,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "tc-20260313-005",
+      "title": "Honda scraps 3 US EVs citing tariffs and Chinese competition ($15.7B cost)",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.6,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "mitr-20260313-002",
+      "title": "US battery industry collapse — 24M Technologies ($1B+) shuts down",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.6,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "sci-20260313-003",
+      "title": "Ig Nobel ceremony leaves US for Switzerland — science culture signal",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.55,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "un-20260313-001",
+      "title": "UN Security Council condemns Iran — Gulf-backed resolution",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.55,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "un-20260313-004",
+      "title": "Sudan drone strikes kill 200+ civilians",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.55,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "hn-20260313-001",
+      "title": "AI facial recognition misidentification jails innocent grandmother",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.55,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "ws-20260313-001",
+      "title": "Iran conflict disrupts 20% of global oil — Brent from $70 to $110+",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.55,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "tc-20260313-001",
+      "title": "Atlassian cuts 1,600 staff to redirect funds to AI",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.5,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "nat-20260313-001",
+      "title": "AI in education debate — students using AI to bypass learning",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.5,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 13,
+      "id": "un-20260313-002",
+      "title": "Middle East war costs $1 billion per day",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.5,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "un-20260313-003",
+      "title": "Russia Ukraine child deportation — crime against humanity finding",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.5,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 15,
+      "id": "ws-20260313-002",
+      "title": "EU Green Transition Consumer Directive — Germany implementation deadline March 27",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.5,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 16,
+      "id": "da-20260313-001",
+      "title": "Stablecoin-powered payment card for Africa's unbanked (Lipaworld)",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.45,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 17,
+      "id": "who-20260313-001",
+      "title": "Middle East conflict deepens health crisis — 1300+ deaths, 18 healthcare attacks",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.45,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 1.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 18,
+      "id": "usfr-20260313-003",
+      "title": "Multiple antidumping actions against Chinese products",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.45,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 1.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 19,
+      "id": "ycc-20260313-001",
+      "title": "Feb 2026 fifth-warmest February despite absent El Nino",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.45,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 1.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 20,
+      "id": "tc-20260313-009",
+      "title": "International botnet takedown (SocksEscort)",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.45,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 1.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 21,
+      "id": "tc-20260313-007",
+      "title": "Gumloop raises $50M for democratized AI agent building",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.4,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 22,
+      "id": "pew-20260313-002",
+      "title": "Americans increasingly negative about data center impacts",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.4,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 23,
+      "id": "tc-20260313-008",
+      "title": "Grammarly class action over AI training on user content",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.4,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 24,
+      "id": "nat-20260313-002",
+      "title": "Frozen mouse brain activity revived for first time",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.35,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 4.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 25,
+      "id": "tc-20260313-003",
+      "title": "Uber-Wayve-Nissan robotaxi service launching in Tokyo 2026",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.35,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 26,
+      "id": "sci-20260313-001",
+      "title": "DOE national labs to lead federal AI push (Genesis Mission)",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.35,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 27,
+      "id": "ieee-20260313-002",
+      "title": "AI sycophancy — chatbots agreeing with wrong answers",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.35,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 28,
+      "id": "cb-20260313-001",
+      "title": "UK CCC: Net-zero costs less than single fossil fuel price shock (GBP 110B/year benefits)",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.35,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 29,
+      "id": "bis-20260313-001",
+      "title": "ECB Schnabel: AI and supply shocks reshaping inflation-employment dynamics",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.35,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 30,
+      "id": "cepr-20260313-001",
+      "title": "CEPR: 70% of firms actively use AI, predict 1.4% productivity boom",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.35,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 31,
+      "id": "glp-20260313-001",
+      "title": "EU gene-edited crop approval threatens to leave New Zealand behind",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.35,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 32,
+      "id": "nat-20260313-003",
+      "title": "Virtual cell simulates nearly every chemical reaction in cell division",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.3,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 33,
+      "id": "tc-20260313-006",
+      "title": "Meta AI auto-responds to Marketplace buyers",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.3,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 34,
+      "id": "nat-20260313-005",
+      "title": "China billion-dollar science funding boost",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.3,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 35,
+      "id": "hn-20260313-002",
+      "title": "Italy seeks Amazon trial for $1.4B tax evasion",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.3,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 36,
+      "id": "pew-20260313-003",
+      "title": "5 years of tracking how Americans view AI — comprehensive dataset",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.3,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 37,
+      "id": "cb-20260313-002",
+      "title": "Clean energy beats North Sea drilling for reducing UK gas imports",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.3,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 38,
+      "id": "pew-20260313-001",
+      "title": "60% majority supports abortion legality; Republican gender gap emerges",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.3,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 39,
+      "id": "tc-20260313-002",
+      "title": "Sunday humanoid robotics reaches $1.15B valuation for household robots",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.25,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 40,
+      "id": "mitr-20260313-003",
+      "title": "Pokemon Go imagery training world models for robot navigation",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.25,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 41,
+      "id": "nat-20260313-004",
+      "title": "Gut microbes drive memory loss in aging — gut-brain axis breakthrough",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.25,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 42,
+      "id": "nat-20260313-006",
+      "title": "Community intervention reduces child marriage by 80% in Nigeria",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.25,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 43,
+      "id": "usfr-20260313-001",
+      "title": "Presidential commitment to countering cartel criminal activity",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.25,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 1.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 44,
+      "id": "sci-20260313-002",
+      "title": "Sildenafil shows promise for Leigh syndrome treatment",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.2,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 45,
+      "id": "pew-20260313-004",
+      "title": "Buddhism declining globally — only major religion to shrink",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.2,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 46,
+      "id": "nat-20260313-007",
+      "title": "Mosquito-vectored bat vaccination for zoonotic disease prevention",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.15,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 2.0,
+        "novelty": 4.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 47,
+      "id": "bis-20260313-004",
+      "title": "ECB: Nature in decline, economy on the line — biodiversity as systemic risk",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.15,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 48,
+      "id": "tc-20260313-010",
+      "title": "Lucid Motors Lunar robotaxi concept",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.1,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 49,
+      "id": "aeon-20260313-001",
+      "title": "De-extinction redefining life, death, and extinction itself",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.05,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 2.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 50,
+      "id": "ieee-20260313-001",
+      "title": "6G as Internet of AI Agents — 40 years of wireless evolution",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.0,
+      "psst_score": 32.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 2.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 34,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 51,
+      "id": "usfr-20260313-002",
+      "title": "EPA ocean disposal site expansion proposal",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.0,
+      "psst_score": 30.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 1.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 26,
+        "DC": 72
+      }
+    }
+  ]
+}

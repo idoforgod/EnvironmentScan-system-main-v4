@@ -1,0 +1,115 @@
+{
+  "engine_version": "1.4.0",
+  "computed_at": "2026-03-12T00:14:25Z",
+  "source_file": "wf3-naver/analysis/priority-ranked-2026-03-12.json",
+  "workflow_type": "naver",
+  "total_signals": 0,
+  "raw_distributions": {
+    "steeps": {
+      "E": 0,
+      "T": 0,
+      "S": 0,
+      "P": 0,
+      "E_Environmental": 0,
+      "s": 0
+    },
+    "fssf": {
+      "Weak Signal": 0,
+      "Wild Card": 0,
+      "Discontinuity": 0,
+      "Driver": 0,
+      "Emerging Issue": 0,
+      "Precursor Event": 0,
+      "Trend": 0,
+      "Megatrend": 0
+    },
+    "horizons": {
+      "H1": 0,
+      "H2": 0,
+      "H3": 0
+    },
+    "tipping_point_alerts": {
+      "RED": {
+        "count": 0,
+        "signals": []
+      },
+      "ORANGE": {
+        "count": 0,
+        "signals": []
+      },
+      "YELLOW": {
+        "count": 0,
+        "signals": []
+      },
+      "GREEN": {
+        "count": 0,
+        "signals": []
+      }
+    },
+    "psst_grades": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    }
+  },
+  "placeholders": {
+    "TOTAL_NEW_SIGNALS": "0",
+    "DOMAIN_DISTRIBUTION": "",
+    "TOP_PRIORITY_COUNT": "0",
+    "FSSF_WEAK_SIGNAL_COUNT": "0",
+    "FSSF_WEAK_SIGNAL_PCT": "0%",
+    "FSSF_WILD_CARD_COUNT": "0",
+    "FSSF_WILD_CARD_PCT": "0%",
+    "FSSF_DISCONTINUITY_COUNT": "0",
+    "FSSF_DISCONTINUITY_PCT": "0%",
+    "FSSF_DRIVER_COUNT": "0",
+    "FSSF_DRIVER_PCT": "0%",
+    "FSSF_EMERGING_ISSUE_COUNT": "0",
+    "FSSF_EMERGING_ISSUE_PCT": "0%",
+    "FSSF_PRECURSOR_COUNT": "0",
+    "FSSF_PRECURSOR_PCT": "0%",
+    "FSSF_TREND_COUNT": "0",
+    "FSSF_TREND_PCT": "0%",
+    "FSSF_MEGATREND_COUNT": "0",
+    "FSSF_MEGATREND_PCT": "0%",
+    "FSSF_DIST_WS_COUNT": "0",
+    "FSSF_DIST_WC_COUNT": "0",
+    "FSSF_DIST_DC_COUNT": "0",
+    "FSSF_DIST_DR_COUNT": "0",
+    "FSSF_DIST_EI_COUNT": "0",
+    "FSSF_DIST_PE_COUNT": "0",
+    "FSSF_DIST_TR_COUNT": "0",
+    "FSSF_DIST_MT_COUNT": "0",
+    "H1_COUNT": "0",
+    "H1_PCT": "0%",
+    "H2_COUNT": "0",
+    "H2_PCT": "0%",
+    "H3_COUNT": "0",
+    "H3_PCT": "0%",
+    "TIPPING_POINT_ALERT_SUMMARY": "",
+    "SECTION_100_COUNT": "0",
+    "SECTION_101_COUNT": "0",
+    "SECTION_102_COUNT": "0",
+    "SECTION_103_COUNT": "0",
+    "SECTION_104_COUNT": "0",
+    "SECTION_105_COUNT": "0",
+    "CRAWL_DATETIME": "N/A",
+    "TOTAL_ARTICLES": "0",
+    "SN_RATIO": "N/A",
+    "CRAWL_STRATEGY_USED": "N/A",
+    "EVOLUTION_ACTIVE_THREADS": "0",
+    "EVOLUTION_NEW_COUNT": "0",
+    "EVOLUTION_NEW_PCT": "—",
+    "EVOLUTION_RECURRING_COUNT": "0",
+    "EVOLUTION_RECURRING_PCT": "—",
+    "EVOLUTION_STRENGTHENING_COUNT": "0",
+    "EVOLUTION_STRENGTHENING_PCT": "—",
+    "EVOLUTION_WEAKENING_COUNT": "0",
+    "EVOLUTION_WEAKENING_PCT": "—",
+    "EVOLUTION_FADED_COUNT": "0",
+    "EVOLUTION_FADED_PCT": "—",
+    "EVOLUTION_TABLE_STRENGTHENING": "N/A",
+    "EVOLUTION_TABLE_WEAKENING": "N/A"
+  }
+}

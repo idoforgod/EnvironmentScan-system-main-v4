@@ -1,0 +1,22 @@
+{
+  "workflow": "wf2-arxiv",
+  "scan_date": "2026-03-13",
+  "exploration_method": "rss_webfetch",
+  "sources_explored": [
+    {
+      "name": "arXiv RSS",
+      "type": "academic",
+      "enabled": true,
+      "critical": true
+    }
+  ],
+  "category_groups_covered": 22,
+  "total_categories": 180,
+  "signals_collected": 82,
+  "scan_window": {
+    "start": "2026-03-10T22:13:26Z",
+    "end": "2026-03-12T22:13:26Z",
+    "hours": 48
+  },
+  "generated_at": "2026-03-12T23:25:51.495250+00:00"
+}

@@ -1,0 +1,557 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "2.0.0",
+  "checked_at": "2026-03-12T00:10:25.517607+00:00",
+  "workflow": "wf3-naver",
+  "signals_file": "env-scanning/wf3-naver/raw/daily-crawl-2026-03-12.json",
+  "previous_file": "env-scanning/wf3-naver/signals/database.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "26 definite duplicate(s) removed. 39 uncertain signal(s) flagged for LLM review. 206 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3,
+    "title_similarity_definite": 0.9,
+    "title_similarity_uncertain": 0.8,
+    "entity_overlap_definite": 0.85,
+    "entity_overlap_uncertain": 0.7
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 271,
+    "definite_new": 206,
+    "definite_duplicates": 26,
+    "uncertain": 39,
+    "pass_through": 245
+  },
+  "stage_breakdown": {
+    "A_url": 0,
+    "B_topic": 6,
+    "C_title": 0,
+    "D_entity": 20
+  },
+  "duplicates": [
+    {
+      "signal_id": "naver-20260312-101-058",
+      "signal_title": "삼정KPMG \"미국·이스라엘과 이란 충돌, 자원·물류·AI 결합한 복합 위기\"",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-101-061",
+      "signal_title": "우정바이오 上…ETF 최대 비중 큐리언트 25% 상승[바이오맥짚기]",
+      "matched_signal_id": "naver-20260213-TOP-005",
+      "matched_title": "블랙록 한국 ETF 사상 최대 2.81억달러 유입 -- 반도체 랠리 견인",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-101-069",
+      "signal_title": "[기업이슈] 통신 인프라 투자 기대감에 방어주 부각…통신주 강세",
+      "matched_signal_id": "naver-20260309-101-084",
+      "matched_title": "[기업이슈] 에스팀, 코스닥 상장 첫날 공모가 대비 4배 '따따블'",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-101-071",
+      "signal_title": "순자산 400조원 육박한 ETF 시장...‘1조원 클럽’ 80개도 눈앞",
+      "matched_signal_id": "naver-20260213-TOP-005",
+      "matched_title": "블랙록 한국 ETF 사상 최대 2.81억달러 유입 -- 반도체 랠리 견인",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-101-076",
+      "signal_title": "[마켓PRO] Today's pick : \"포스코, 올 하반기부터 리튬 흑자 전환\"",
+      "matched_signal_id": "naver-20260309-102-138",
+      "matched_title": "[뉴스1 PICK] UAE 체류 한국인, 전세기 타고 무사 귀국 '따뜻한 가족 품으로'",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-101-078",
+      "signal_title": "[단독]왕서방 홀린 두산... 中 본토 첫 대규모 IR",
+      "matched_signal_id": "naver-20260309-105-232",
+      "matched_title": "파로스아이바이오, 글로벌 빅파마 몰리는 ‘바이오 차이나 2026’ 무대 선다… IR 피칭 기업 선정",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-101-082",
+      "signal_title": "[굿모닝 마켓] 오라클, 호실적에 'AI 투자' 우려 완화…반도체 강세",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-102-102",
+      "signal_title": "26만원 BTS 공연 티켓이 230만원?…문체부, 경찰 수사 의뢰",
+      "matched_signal_id": "naver-20260309-102-102",
+      "matched_title": "‘BTS 특수 노린 바가지 영업?’…서울시, 법규 위반 숙박업소 무더기 적발",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-102-113",
+      "signal_title": "\"티켓 한 장에 500만 원\"…AI 동원해 70억 벌어들인 기업형 암표상 '덜미'",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-103-140",
+      "signal_title": "2026년 3월 11일 띠별 운세[오늘의 운세]",
+      "matched_signal_id": "naver-20260309-103-140",
+      "matched_title": "2026년 3월 8일 띠별 운세[오늘의 운세]",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-103-155",
+      "signal_title": "[출근길 YTN 날씨 3/12] 서쪽 중심 초미세먼지...강원 산간 '대설특보'",
+      "matched_signal_id": "naver-20260309-103-155",
+      "matched_title": "[출근길 YTN 날씨 3/9] 오늘 중부 중심 비·눈...오전부터 중서부 초미세↑",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-103-168",
+      "signal_title": "[날씨클릭] 오늘 동쪽 비나 눈…강원 산간 최대 20㎝ 폭설",
+      "matched_signal_id": "naver-20260309-103-168",
+      "matched_title": "[날씨클릭] 중부지방 비나 눈…예년 이맘때보다 쌀쌀",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-104-186",
+      "signal_title": "이란 새 지도자 모즈타바, 父·母·妻·子 잃어…본인도 공습 당시 부상",
+      "matched_signal_id": "naver-20260309-104-197",
+      "matched_title": "왕정 몰아낸 혁명 정신, 이란 '부자 세습' 먹칠... 모즈타바 등극",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-229",
+      "signal_title": "김창한 크래프톤 대표, 美 설립 AI 로봇 기업 '루도로보틱스' 직접 이끈다",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-234",
+      "signal_title": "\"AI 썼더니 일 줄었다?\"…공들여 결과물 수정 '효과 반감'",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-235",
+      "signal_title": "KAIST 학생창업가, 모교에 10억 기부",
+      "matched_signal_id": "naver-20260306-105-230",
+      "matched_title": "KAIST, 지구 안전선 이미 넘었다…‘연간 배출량’ 기준 적용",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-244",
+      "signal_title": "'드래곤볼·슬램덩크' 만든 회사까지…'보수적' 일본마저 AI 손 잡았다",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-253",
+      "signal_title": "AI 앱 구독 유지율 21% 그쳐… ‘수익성 실종’에 거품론 확산",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-255",
+      "signal_title": "[비즈톡]통신 3사의 화려한 AI 기술 전쟁 너머 생존 전략은",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-258",
+      "signal_title": "'월드모델' 뭐길래…'AI 대부' 얀 르쿤 창업 회사에 투자금 몰렸다",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-259",
+      "signal_title": "‘톱스펙 AI’ 갤S26 vs ‘99만원 가성비’ 아이폰",
+      "matched_signal_id": "naver-20260306-105-259",
+      "matched_title": "노트북 시장, 99만원 '맥북 네오' 강풍 온다",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-264",
+      "signal_title": "AI 활용해 글 쓰다보면… 결국 AI 논리 따라가더라",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-265",
+      "signal_title": "AI, 편향 수렴·획일화→인류 지혜·적응력↓ [지금은 과학]",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-266",
+      "signal_title": "\"김 대리가 달라졌어요\"…휴대폰 붙들고 살더니 AI 말에 '고개 끄덕'[과학을읽다]",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-268",
+      "signal_title": "사람 죽이는 전쟁, AI가 지휘해도 되나… 美 정부·테크기업 충돌",
+      "matched_signal_id": "naver-20260206-105-037",
+      "matched_title": "AI가 관상동맥 시술 1분 만에 판단",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260312-105-271",
+      "signal_title": "옆에서 훔쳐보려 해도… 갤 S26 울트라 ‘검은 화면’만 보이네",
+      "matched_signal_id": "naver-20260226-105-002",
+      "matched_title": "갤럭시 S26 프라이버시 디스플레이…외신 \"애플이 베껴야 할 기능\"",
+      "stage": "D_entity",
+      "score": 1.0
+    }
+  ],
+  "uncertain_signals": [
+    {
+      "signal_id": "naver-20260312-100-003",
+      "signal_title": "북한 \"이란 하메네이 차남 후계 선출 '존중'‥내정 간섭 용납 안 돼\"",
+      "matched_signal_id": "naver-20260306-100-041",
+      "matched_title": "하메네이 사살 뒤 드론·미사일 빗발… 중동 전역 사이렌 [박수찬의 軍]",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-100-007",
+      "signal_title": "국민의힘 \"서울·충남 지방선거 공천 추가 접수\"",
+      "matched_signal_id": "naver-20260309-100-013",
+      "matched_title": "[6.3 지방선거 직격 인터뷰] 1. 김진태 강원도지사",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-100-009",
+      "signal_title": "주한미군, 한반도 밖에도?…'전략적 유연성' 현실화",
+      "matched_signal_id": "naver-20260306-100-009",
+      "matched_title": "주한미군 미사일까지 빼내나‥패트리엇 이동?",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-100-010",
+      "signal_title": "韓-가나, 기후변화 협력 강화…해적 등 해양범죄 정보 교환",
+      "matched_signal_id": "naver-20260216-TOP-015",
+      "matched_title": "기후위성 1호기 가동 + 타이어 3사 해외 생산 확대 -- 기후변화 모니터링과 탄소규제 대응 이중 신호",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260312-100-014",
+      "signal_title": "'李대통령 측근' 김용 \"재보선 출마하고 싶다\"",
+      "matched_signal_id": "naver-20260306-100-031",
+      "matched_title": "범여권 '조희대 탄핵 공청회' 개최에…윤상현 \"李대통령, 폭주 멈춰세워야\"",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-100-030",
+      "signal_title": "존재감 커진 오세훈 ‘절윤 드라이브’… 장동혁 “결의문이 끝”",
+      "matched_signal_id": "naver-20260215-TOP-006",
+      "matched_title": "다주택자 양도세 중과 -- 이재명 정부 부동산 정책 전면 드라이브",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-100-035",
+      "signal_title": "사법족쇄 푼 트럼프처럼…여당 \"李대통령 공소취소해야\"",
+      "matched_signal_id": "naver-20260309-100-001",
+      "matched_title": "李대통령, 10일 대·中企 상생간담회…삼성·SK·현대車 등 참석",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-100-041",
+      "signal_title": "'오세훈·김태흠 모시기'나선 장동혁, 국민의힘 공천 정상화 이끌까",
+      "matched_signal_id": "naver-20260309-100-011",
+      "matched_title": "조은희 \"오세훈·김태흠 미신청, 당의 현주소…일부 시도 장동혁 오지 말라\"",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-100-045",
+      "signal_title": "[영상] 조배숙, 인터넷 콘텐츠 '뉴스공장'에 \"프로그램 폐지\" 거론",
+      "matched_signal_id": "naver-20260307-101-006",
+      "matched_title": "이재명 대통령 유가 담합 경고…정유사에 '대가 알게 될 것' 경고, 100조+ 시장안정 프로그램 가동",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-101-057",
+      "signal_title": "엔비디아 '라이벌', 삼성전자에 러브콜?...AMD 리사 수 CEO, 이재용 만난다",
+      "matched_signal_id": "naver-20260306-105-251",
+      "matched_title": "“엔비디아, 中 수출용 H200 생산 중단”",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-101-059",
+      "signal_title": "2026년 송도 공급절벽… 2018년 데자뷔 속 ‘불장’ 재현될까?",
+      "matched_signal_id": "naver-20260309-103-140",
+      "matched_title": "2026년 3월 8일 띠별 운세[오늘의 운세]",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-101-062",
+      "signal_title": "“32만원 간다” 삼성전자 실적 레벨업 예상 나왔다",
+      "matched_signal_id": "naver-20260209-TOP-001",
+      "matched_title": "삼성전자 HBM4 세계 최초 양산 출하 -- AI 수익화의 핵심 공급망 입증",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-101-065",
+      "signal_title": "KB證 \"삼성전자, 내년까지 메모리 완판…목표가 32만원\"",
+      "matched_signal_id": "naver-20260213-TOP-001",
+      "matched_title": "코스피 사상 최초 5,500 돌파 -- 삼성전자 6.4% 폭등, 외국인 3조원 순매수",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-101-067",
+      "signal_title": "[클릭 e종목]\"명신산업, 북미 로보택시 수혜 기대…저평가 매력 부각\"",
+      "matched_signal_id": "naver-20260219-101-006",
+      "matched_title": "美 뉴욕주 로보택시 허용법안 철회 — 웨이모 확장 계획 타격, 자율주행 규제 역풍",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260312-101-074",
+      "signal_title": "[굿모닝증시]\"美 호르무즈 불안發 혼조세…韓 역대급 변동성 국면\"",
+      "matched_signal_id": "naver-20260306-104-206",
+      "matched_title": "봄철 파종 앞둔 농가도 '호르무즈 악재'…전세계 비료 운송 비상",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-101-075",
+      "signal_title": "“2027년까지 메모리 완판”…삼전 목표주가 32만원 [오늘 나온 보고서]",
+      "matched_signal_id": "naver-20260209-TOP-006",
+      "matched_title": "한국 반도체 구조적 성장주 전환 -- AI 메모리 슈퍼사이클 2027년까지",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-101-080",
+      "signal_title": "\"삼성전자, 실적 성장 본격화와 주가 재평가 국면…목표가↑\"-KB",
+      "matched_signal_id": "naver-20260213-TOP-001",
+      "matched_title": "코스피 사상 최초 5,500 돌파 -- 삼성전자 6.4% 폭등, 외국인 3조원 순매수",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-101-083",
+      "signal_title": "“삼성전자, 32만원 간다…내년까지 메모리 반도체 완판”",
+      "matched_signal_id": "naver-20260213-TOP-001",
+      "matched_title": "코스피 사상 최초 5,500 돌파 -- 삼성전자 6.4% 폭등, 외국인 3조원 순매수",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-101-091",
+      "signal_title": "\"두산에너빌리티, 원전·가스터빈 수주 모멘텀 확대\"-삼성",
+      "matched_signal_id": "naver-20260306-101-060",
+      "matched_title": "두산에너빌리티 임원 3인, 주식 2만5568주 장내매수",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260312-102-103",
+      "signal_title": "“네 애 좀 만지면 안 되냐”…6세 여아 성추행 후 엄마까지 폭행한 80대 [영상]",
+      "matched_signal_id": "naver-20260309-102-101",
+      "matched_title": "동급생 놀리고 동급생 엄마까지 폭행한 중학생…법원, 가해학생 부모에게 “손해배상하라”",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-102-104",
+      "signal_title": "\"호감 가는 외모에 감춰진 악마\"…'모텔 연쇄살인' 김소영에 분노한 변호사",
+      "matched_signal_id": "naver-20260309-102-104",
+      "matched_title": "'모텔 연쇄살인' 여성, 범행 뒤 '치킨 13만원어치' 가져간 이유는",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-102-106",
+      "signal_title": "\"이 시국에 ℓ당 1733원, 착한 주유소 돈쭐냅시다\"...'양심 사장님' 응원 물결 [어떻게 생각하세요]",
+      "matched_signal_id": "naver-20260309-102-114",
+      "matched_title": "몰래 대출받아 '코인 빚투' 한 남편, 적반하장 태도에 아내 분통 [어떻게 생각하세요]",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260312-102-107",
+      "signal_title": "동해안과 영남 곳곳에 눈·비…중서부는 미세먼지 '나쁨'",
+      "matched_signal_id": "naver-20260309-102-105",
+      "matched_title": "중부지방 곳곳 비·눈…북서풍에 낮에도 '쌀쌀', 미세먼지 유입",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260312-102-112",
+      "signal_title": "노란봉투법 첫날 '교섭 요구' 봇물…원청 응답은 5곳뿐",
+      "matched_signal_id": "naver-20260306-102-101",
+      "matched_title": "민주노총, ‘노란봉투법’ 시행 맞춰 원청교섭 투쟁 돌입",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-102-125",
+      "signal_title": "오늘~내일까지 비 또는 눈‥ 미세먼지 '보통'",
+      "matched_signal_id": "naver-20260309-102-105",
+      "matched_title": "중부지방 곳곳 비·눈…북서풍에 낮에도 '쌀쌀', 미세먼지 유입",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-102-135",
+      "signal_title": "숙명여대 바이오 스타트업 애니머스큐어, 루게릭병 치료제 美 FDA 희귀의약품 지정",
+      "matched_signal_id": "naver-20260219-105-012",
+      "matched_title": "트릴리온랩스 '트리 21B 씽크' 공개 — AI 글로벌 톱30 등재, 한국 AI 스타트업 글로벌 경쟁력 입증",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-103-158",
+      "signal_title": "비싼 보습크림 대신 ‘덱스판테놀’ 연고?…인터넷 정보 믿었다가 낭패",
+      "matched_signal_id": "naver-20260309-101-055",
+      "matched_title": "\"수소기업 투자로 매달 수백만원\"…‘투자 후기’ 믿었다가 낭패",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260312-103-174",
+      "signal_title": "[날씨] 동쪽 곳곳 눈,비…서쪽 중심 미세먼지",
+      "matched_signal_id": "naver-20260309-103-157",
+      "matched_title": "[날씨] 중부 곳곳 비나 눈…중서부 초미세먼지 '나쁨'",
+      "stage": "C_title",
+      "score": 0.8533
+    },
+    {
+      "signal_id": "naver-20260312-103-181",
+      "signal_title": "심장마비로 쓰러진 20대女, 손톱 때문에 죽을 뻔…무슨 일? [헬스톡]",
+      "matched_signal_id": "naver-20260309-102-112",
+      "matched_title": "70만원 받고 '보복 대행' 테러한 동탄 20대女 구속",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-104-183",
+      "signal_title": "이스라엘 \"이란 작전, 시간제한 없이 이길 때까지\"",
+      "matched_signal_id": "naver-20260216-TOP-001",
+      "matched_title": "트럼프-네타냐후, 이란 대중국 석유수출 차단 합의 -- '협상 결렬시 이스라엘 이란 공격 지지'",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-104-185",
+      "signal_title": "“호르무즈 해협에 기뢰 징후”…트럼프 “기뢰부설선 10척 완파”",
+      "matched_signal_id": "naver-20260306-104-206",
+      "matched_title": "봄철 파종 앞둔 농가도 '호르무즈 악재'…전세계 비료 운송 비상",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-104-202",
+      "signal_title": "트럼프 \"이번엔 끝까지 간다…對이란 임무 완수 전까지 작전 지속\"",
+      "matched_signal_id": "naver-20260212-TOP-008",
+      "matched_title": "트럼프 이란핵",
+      "stage": "C_title",
+      "score": 0.8048
+    },
+    {
+      "signal_id": "naver-20260312-104-207",
+      "signal_title": "이스라엘 공습, \"페르시아의 보석\" 유적지 대거 파괴",
+      "matched_signal_id": "naver-20260216-TOP-001",
+      "matched_title": "트럼프-네타냐후, 이란 대중국 석유수출 차단 합의 -- '협상 결렬시 이스라엘 이란 공격 지지'",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-104-210",
+      "signal_title": "시시각각 변하는 트럼프의 말...NYT \"전쟁 목표, 10개 넘는다\" 비판 [앵커리포트]",
+      "matched_signal_id": "naver-20260309-102-122",
+      "matched_title": "트럼프의  ‘장대한 분노’, ‘환경 재앙’  버튼이었나",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-104-220",
+      "signal_title": "트럼프 \"이란 해·공군 사실상 궤멸…한 시간 내 제거 가능\"",
+      "matched_signal_id": "naver-20260212-TOP-008",
+      "matched_title": "트럼프 이란핵",
+      "stage": "C_title",
+      "score": 0.8078
+    },
+    {
+      "signal_id": "naver-20260312-104-224",
+      "signal_title": "트럼프, 호르무즈 통행 독려…유가 다시 '껑충'",
+      "matched_signal_id": "naver-20260306-101-058",
+      "matched_title": "호르무즈 봉쇄에…유조선 통과 하루 50척→0척",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-104-227",
+      "signal_title": "\"호르무즈 통과 선박에 보험 제공\"…트럼프 큰소리쳤지만",
+      "matched_signal_id": "naver-20260306-104-206",
+      "matched_title": "봄철 파종 앞둔 농가도 '호르무즈 악재'…전세계 비료 운송 비상",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-105-263",
+      "signal_title": "우버 '자율주행 액셀' 밟는데… 규제에 속도 못내는 K모빌리티",
+      "matched_signal_id": "naver-20260219-101-006",
+      "matched_title": "美 뉴욕주 로보택시 허용법안 철회 — 웨이모 확장 계획 타격, 자율주행 규제 역풍",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260312-105-267",
+      "signal_title": "[100세 과학] 나이 들수록 떨어지는 기억력… 장-뇌 연결고리서 답 찾았다",
+      "matched_signal_id": "naver-20260306-105-261",
+      "matched_title": "[100세 과학] 비만 치료제, 알코올·마약 중독도 막는다",
+      "stage": "B_topic",
+      "score": 0.5
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "wf1": {
+    "top_count": 51,
+    "avg_psst": 31.5
+  },
+  "wf2": {
+    "signal_count": 82,
+    "top_count": 82,
+    "avg_psst": 42.9
+  },
+  "wf3": {
+    "signal_count": 270,
+    "top_count": 270,
+    "avg_psst": 31.3
+  },
+  "wf4": {
+    "signal_count": 1149,
+    "top_count": 1149,
+    "avg_psst": 31.3
+  }
+}

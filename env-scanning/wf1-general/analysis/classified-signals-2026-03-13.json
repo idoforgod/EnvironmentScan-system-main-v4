@@ -1,0 +1,791 @@
+{
+  "scan_date": "2026-03-13",
+  "analyst": "phase2-analyst",
+  "total_signals": 45,
+  "classification_method": "LLM_STEEPs_with_cross_impact",
+  "steeps_distribution": {
+    "S_Social": 4,
+    "T_Technological": 17,
+    "E_Economic": 10,
+    "E_Environmental": 6,
+    "P_Political": 11,
+    "s_spiritual": 3
+  },
+  "signals": [
+    {
+      "id": "tc-20260313-001",
+      "title": "Atlassian cuts 1,600 staff to redirect funds to AI",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "E_Economic",
+        "S_Social"
+      ],
+      "impact_score": 7.5,
+      "impact_assessment": "AI-driven workforce restructuring accelerating across major tech companies. Atlassian follows Block's pattern. Signals structural labor market shift as companies reallocate human capital budgets to AI infrastructure. Cross-impact with education and reskilling systems.",
+      "probability": 0.95,
+      "urgency": 5.0,
+      "novelty": 2.0,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "tc-20260313-002",
+      "title": "Sunday humanoid robotics reaches $1.15B valuation for household robots",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "E_Economic"
+      ],
+      "impact_score": 7.0,
+      "impact_assessment": "Consumer humanoid robotics crossing unicorn threshold signals investor confidence in near-term household robot deployment. Memo robot targets mundane tasks. Could reshape domestic labor and eldercare.",
+      "probability": 0.7,
+      "urgency": 3.0,
+      "novelty": 3.5,
+      "signal_status": "emerging",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "tc-20260313-003",
+      "title": "Uber-Wayve-Nissan robotaxi service launching in Tokyo 2026",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "E_Economic",
+        "P_Political"
+      ],
+      "impact_score": 8.0,
+      "impact_assessment": "Multi-company international robotaxi collaboration signals autonomous vehicle ecosystem maturation. Tokyo launch in 2026 shows expansion beyond US market. Regulatory acceptance across jurisdictions accelerating.",
+      "probability": 0.85,
+      "urgency": 4.0,
+      "novelty": 2.5,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "tc-20260313-004",
+      "title": "Tesla becomes electricity utility in UK",
+      "final_category": "E_Economic",
+      "secondary_categories": [
+        "T_Technological",
+        "P_Political"
+      ],
+      "impact_score": 8.5,
+      "impact_assessment": "Platform company entering regulated utility market is paradigm-breaking. Tesla selling electricity directly challenges incumbent utility model. Could trigger similar moves by other tech giants. Regulatory precedent in UK signals broader European acceptance.",
+      "probability": 0.95,
+      "urgency": 5.0,
+      "novelty": 4.0,
+      "signal_status": "emerging",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "tc-20260313-005",
+      "title": "Honda scraps 3 US EVs citing tariffs and Chinese competition ($15.7B cost)",
+      "final_category": "E_Economic",
+      "secondary_categories": [
+        "P_Political",
+        "E_Environmental"
+      ],
+      "impact_score": 8.5,
+      "impact_assessment": "Major OEM retreating from EV plans due to trade barriers and Chinese competition is highly significant. $15.7B cost impact. Threatens EV transition timeline and demonstrates how protectionism can paradoxically slow decarbonization.",
+      "probability": 0.95,
+      "urgency": 5.0,
+      "novelty": 3.0,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "tc-20260313-006",
+      "title": "Meta AI auto-responds to Marketplace buyers",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "E_Economic"
+      ],
+      "impact_score": 6.0,
+      "impact_assessment": "AI agents entering peer-to-peer commerce. Low-stakes implementation but signals broader AI agent penetration into everyday consumer interactions. Normalization of AI intermediation.",
+      "probability": 0.95,
+      "urgency": 4.0,
+      "novelty": 2.0,
+      "signal_status": "developing",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "tc-20260313-007",
+      "title": "Gumloop raises $50M for democratized AI agent building",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "E_Economic"
+      ],
+      "impact_score": 7.0,
+      "impact_assessment": "No-code AI agent platforms gaining significant venture capital. Democratization of AI agent creation could accelerate enterprise adoption exponentially. Benchmark investment signals institutional confidence.",
+      "probability": 0.8,
+      "urgency": 4.0,
+      "novelty": 3.0,
+      "signal_status": "emerging",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "tc-20260313-008",
+      "title": "Grammarly class action over AI training on user content",
+      "final_category": "P_Political",
+      "secondary_categories": [
+        "T_Technological",
+        "s_spiritual"
+      ],
+      "impact_score": 7.5,
+      "impact_assessment": "AI copyright and consent litigation expanding to everyday tools. Class action against Grammarly could set precedent for all AI tools that process user-generated content. Privacy vs. AI development tension escalating.",
+      "probability": 0.8,
+      "urgency": 4.0,
+      "novelty": 3.0,
+      "signal_status": "developing",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "tc-20260313-009",
+      "title": "International botnet takedown (SocksEscort)",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "P_Political"
+      ],
+      "impact_score": 5.5,
+      "impact_assessment": "Continued global cybercrime infrastructure dismantlement. Tens of thousands of hacked routers. Ongoing cat-and-mouse between law enforcement and cybercriminals.",
+      "probability": 0.95,
+      "urgency": 5.0,
+      "novelty": 1.5,
+      "signal_status": "mature",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "tc-20260313-010",
+      "title": "Lucid Motors Lunar robotaxi concept",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "E_Economic"
+      ],
+      "impact_score": 5.5,
+      "impact_assessment": "Another OEM entering robotaxi space alongside Tesla, Waymo, Uber. Market broadening but still conceptual stage for Lucid.",
+      "probability": 0.5,
+      "urgency": 3.0,
+      "novelty": 2.0,
+      "signal_status": "emerging",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "mitr-20260313-001",
+      "title": "China OpenClaw AI creates cottage industry of service businesses",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "E_Economic",
+        "S_Social"
+      ],
+      "impact_score": 8.0,
+      "impact_assessment": "Autonomous AI agent (OpenClaw) spawning economic ecosystem in China. One developer scaled to 100+ employees. Signals how AI agent adoption creates new service industries while raising security concerns. China-specific AI adoption pattern diverging from West.",
+      "probability": 0.9,
+      "urgency": 5.0,
+      "novelty": 4.0,
+      "signal_status": "emerging",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "mitr-20260313-002",
+      "title": "US battery industry collapse \u2014 24M Technologies ($1B+) shuts down",
+      "final_category": "E_Economic",
+      "secondary_categories": [
+        "T_Technological",
+        "P_Political"
+      ],
+      "impact_score": 8.0,
+      "impact_assessment": "Unicorn battery startup shutdown amid widespread US failures while China thrives. Signals critical US-China clean energy technology gap widening. Strategic vulnerability in energy transition supply chain.",
+      "probability": 0.95,
+      "urgency": 5.0,
+      "novelty": 3.0,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "mitr-20260313-003",
+      "title": "Pokemon Go imagery training world models for robot navigation",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "S_Social"
+      ],
+      "impact_score": 6.5,
+      "impact_assessment": "Novel use of crowdsourced gaming data for AI training. Niantic's approach could become template for using consumer activity data to build AI infrastructure. Privacy implications.",
+      "probability": 0.7,
+      "urgency": 3.0,
+      "novelty": 3.5,
+      "signal_status": "emerging",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "who-20260313-001",
+      "title": "Middle East conflict deepens health crisis \u2014 1300+ deaths, 18 healthcare attacks",
+      "final_category": "P_Political",
+      "secondary_categories": [
+        "S_Social"
+      ],
+      "impact_score": 9.0,
+      "impact_assessment": "WHO-verified healthcare attacks in active conflict zone. 1,300+ deaths in Iran, 700K displaced in Lebanon. Systematic targeting of healthcare infrastructure represents severe violation of international humanitarian law. Humanitarian catastrophe accelerating.",
+      "probability": 0.99,
+      "urgency": 5.0,
+      "novelty": 1.5,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "usfr-20260313-001",
+      "title": "Presidential commitment to countering cartel criminal activity",
+      "final_category": "P_Political",
+      "secondary_categories": [],
+      "impact_score": 6.0,
+      "impact_assessment": "Federal escalation against transnational organized crime. Could signal expanded border security measures and cross-border enforcement operations.",
+      "probability": 0.9,
+      "urgency": 4.0,
+      "novelty": 1.5,
+      "signal_status": "developing",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "usfr-20260313-002",
+      "title": "EPA ocean disposal site expansion proposal",
+      "final_category": "E_Environmental",
+      "secondary_categories": [
+        "P_Political"
+      ],
+      "impact_score": 5.0,
+      "impact_assessment": "Incremental expansion of ocean disposal capacity. Tension between coastal development infrastructure and marine protection regulation.",
+      "probability": 0.7,
+      "urgency": 3.0,
+      "novelty": 1.0,
+      "signal_status": "mature",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "usfr-20260313-003",
+      "title": "Multiple antidumping actions against Chinese products",
+      "final_category": "E_Economic",
+      "secondary_categories": [
+        "P_Political"
+      ],
+      "impact_score": 7.0,
+      "impact_assessment": "Expanding US-China trade friction across multiple product categories. Pattern of escalating trade barriers signals deepening economic decoupling. Affects kitchen appliances, refrigerants, plywood, and tires.",
+      "probability": 0.95,
+      "urgency": 5.0,
+      "novelty": 1.5,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "nat-20260313-001",
+      "title": "AI in education debate \u2014 students using AI to bypass learning",
+      "final_category": "S_Social",
+      "secondary_categories": [
+        "T_Technological",
+        "s_spiritual"
+      ],
+      "impact_score": 7.0,
+      "impact_assessment": "AI-education tension reaching critical point. Faculty time increasingly diverted to countering AI misuse. Fundamental challenge to education models. Could accelerate pedagogy transformation.",
+      "probability": 0.95,
+      "urgency": 5.0,
+      "novelty": 2.0,
+      "signal_status": "developing",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "nat-20260313-002",
+      "title": "Frozen mouse brain activity revived for first time",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "s_spiritual"
+      ],
+      "impact_score": 8.5,
+      "impact_assessment": "Breakthrough in cryopreservation science. First successful restoration of brain function after deep cryogenic freezing. Implications for organ preservation, neuroscience, and potentially long-term human cryopreservation research.",
+      "probability": 0.85,
+      "urgency": 3.0,
+      "novelty": 4.5,
+      "signal_status": "emerging",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "nat-20260313-003",
+      "title": "Virtual cell simulates nearly every chemical reaction in cell division",
+      "final_category": "T_Technological",
+      "secondary_categories": [],
+      "impact_score": 7.5,
+      "impact_assessment": "Complete cellular simulation advancement. Models DNA replication and cell division in virtual bacterial systems. Computational biology approaching complete cellular modeling \u2014 implications for drug discovery and synthetic biology.",
+      "probability": 0.8,
+      "urgency": 3.0,
+      "novelty": 4.0,
+      "signal_status": "emerging",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "nat-20260313-004",
+      "title": "Gut microbes drive memory loss in aging \u2014 gut-brain axis breakthrough",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "S_Social"
+      ],
+      "impact_score": 7.5,
+      "impact_assessment": "Tour de force study linking specific gut microbes to cognitive decline. Potential therapeutic target for age-related memory loss. Stanford research. Microbiome manipulation for neurodegenerative disease prevention.",
+      "probability": 0.75,
+      "urgency": 3.0,
+      "novelty": 3.5,
+      "signal_status": "emerging",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "nat-20260313-005",
+      "title": "China billion-dollar science funding boost",
+      "final_category": "P_Political",
+      "secondary_categories": [
+        "T_Technological",
+        "E_Economic"
+      ],
+      "impact_score": 8.0,
+      "impact_assessment": "Major increase in Chinese science funding as part of 15th Five-Year Plan. Widens investment gap with Western nations facing austerity. Strategic competition in science and technology intensifying.",
+      "probability": 0.95,
+      "urgency": 4.0,
+      "novelty": 2.0,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "nat-20260313-006",
+      "title": "Community intervention reduces child marriage by 80% in Nigeria",
+      "final_category": "S_Social",
+      "secondary_categories": [
+        "P_Political"
+      ],
+      "impact_score": 7.5,
+      "impact_assessment": "Transformative social intervention published in Nature. 79% to 14% reduction. Demonstrates scalable model for addressing deeply rooted social practices through comprehensive community programs.",
+      "probability": 0.9,
+      "urgency": 3.0,
+      "novelty": 3.5,
+      "signal_status": "emerging",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "nat-20260313-007",
+      "title": "Mosquito-vectored bat vaccination for zoonotic disease prevention",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "E_Environmental"
+      ],
+      "impact_score": 6.5,
+      "impact_assessment": "Novel approach to prevent zoonotic spillover. If viable, could transform pandemic prevention. Faces practical and ethical challenges. Early-stage but high potential impact.",
+      "probability": 0.4,
+      "urgency": 2.0,
+      "novelty": 4.5,
+      "signal_status": "emerging",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "sci-20260313-001",
+      "title": "DOE national labs to lead federal AI push (Genesis Mission)",
+      "final_category": "P_Political",
+      "secondary_categories": [
+        "T_Technological"
+      ],
+      "impact_score": 7.5,
+      "impact_assessment": "Federal AI strategy leveraging DOE's existing infrastructure (supercomputers, data facilities). Genesis Mission signals government-scale AI commitment. Could reshape US science and defense capabilities.",
+      "probability": 0.85,
+      "urgency": 4.0,
+      "novelty": 2.5,
+      "signal_status": "developing",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "sci-20260313-002",
+      "title": "Sildenafil shows promise for Leigh syndrome treatment",
+      "final_category": "T_Technological",
+      "secondary_categories": [],
+      "impact_score": 6.0,
+      "impact_assessment": "Drug repurposing for fatal mitochondrial disease. Preliminary but promising results. Demonstrates value of existing drug compound investigation for rare diseases.",
+      "probability": 0.5,
+      "urgency": 3.0,
+      "novelty": 3.0,
+      "signal_status": "emerging",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "sci-20260313-003",
+      "title": "Ig Nobel ceremony leaves US for Switzerland \u2014 science culture signal",
+      "final_category": "S_Social",
+      "secondary_categories": [
+        "P_Political"
+      ],
+      "impact_score": 5.5,
+      "impact_assessment": "Symbolic but meaningful: satirical science institution leaving US after 35 years due to policy climate and finances. Part of broader pattern of academic institutions distancing from US policy environment.",
+      "probability": 0.95,
+      "urgency": 5.0,
+      "novelty": 2.5,
+      "signal_status": "emerging",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "ieee-20260313-001",
+      "title": "6G as Internet of AI Agents \u2014 40 years of wireless evolution",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "E_Economic"
+      ],
+      "impact_score": 7.0,
+      "impact_assessment": "6G conceptualized as network for AI agent coordination across physical-digital domains. Paradigm shift from human-centric to AI agent-centric network architecture. 2030+ deployment timeline.",
+      "probability": 0.7,
+      "urgency": 2.0,
+      "novelty": 3.0,
+      "signal_status": "emerging",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "ieee-20260313-002",
+      "title": "AI sycophancy \u2014 chatbots agreeing with wrong answers",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "s_spiritual"
+      ],
+      "impact_score": 6.5,
+      "impact_assessment": "Fundamental AI safety challenge. Sycophantic behavior in LLMs could erode decision quality and reinforce user biases. Mitigation strategies in training and deployment being researched.",
+      "probability": 0.9,
+      "urgency": 4.0,
+      "novelty": 2.5,
+      "signal_status": "developing",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "un-20260313-001",
+      "title": "UN Security Council condemns Iran \u2014 Gulf-backed resolution",
+      "final_category": "P_Political",
+      "secondary_categories": [
+        "E_Economic"
+      ],
+      "impact_score": 9.0,
+      "impact_assessment": "Major geopolitical realignment. Security Council resolution condemning Iran while rejecting Russian alternative marks significant diplomatic shift. Gulf states leading international response. Implications for global order and energy markets.",
+      "probability": 0.99,
+      "urgency": 5.0,
+      "novelty": 2.5,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "un-20260313-002",
+      "title": "Middle East war costs $1 billion per day",
+      "final_category": "E_Economic",
+      "secondary_categories": [
+        "P_Political"
+      ],
+      "impact_score": 9.0,
+      "impact_assessment": "Staggering daily economic drain from Middle East conflict. $1B/day compounding global economic instability. Diverts resources from development. Humanitarian crisis deepening.",
+      "probability": 0.99,
+      "urgency": 5.0,
+      "novelty": 2.0,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "un-20260313-003",
+      "title": "Russia Ukraine child deportation \u2014 crime against humanity finding",
+      "final_category": "P_Political",
+      "secondary_categories": [
+        "S_Social"
+      ],
+      "impact_score": 8.0,
+      "impact_assessment": "UN independent probe formal finding of crime against humanity. Strengthens potential ICC prosecution case. Missing children remain unaccounted. War crimes accountability mechanisms being tested.",
+      "probability": 0.95,
+      "urgency": 5.0,
+      "novelty": 2.0,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "un-20260313-004",
+      "title": "Sudan drone strikes kill 200+ civilians",
+      "final_category": "P_Political",
+      "secondary_categories": [
+        "T_Technological"
+      ],
+      "impact_score": 7.5,
+      "impact_assessment": "Massive civilian casualty toll from drone warfare in Sudan. 200+ killed since March 4 alone. Drone warfare proliferation in African conflicts. International attention deficit compared to Middle East.",
+      "probability": 0.95,
+      "urgency": 5.0,
+      "novelty": 2.5,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "hn-20260313-001",
+      "title": "AI facial recognition misidentification jails innocent grandmother",
+      "final_category": "P_Political",
+      "secondary_categories": [
+        "T_Technological",
+        "s_spiritual"
+      ],
+      "impact_score": 7.5,
+      "impact_assessment": "Critical case demonstrating real-world harm from AI facial recognition errors. Months of wrongful imprisonment. Strengthens arguments for regulation of biometric surveillance. Civil liberties at risk.",
+      "probability": 0.95,
+      "urgency": 5.0,
+      "novelty": 2.5,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "hn-20260313-002",
+      "title": "Italy seeks Amazon trial for $1.4B tax evasion",
+      "final_category": "E_Economic",
+      "secondary_categories": [
+        "P_Political"
+      ],
+      "impact_score": 7.0,
+      "impact_assessment": "Continuing European regulatory push against big tech tax practices. $1.4B claim against Amazon is significant. Part of broader trend of digital economy taxation enforcement.",
+      "probability": 0.8,
+      "urgency": 4.0,
+      "novelty": 2.0,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "pew-20260313-001",
+      "title": "60% majority supports abortion legality; Republican gender gap emerges",
+      "final_category": "S_Social",
+      "secondary_categories": [
+        "P_Political"
+      ],
+      "impact_score": 6.5,
+      "impact_assessment": "Stable supermajority support for abortion access. Emerging gender gap within Republican party could reshape political dynamics. Medication abortion support is distinct finding.",
+      "probability": 0.95,
+      "urgency": 4.0,
+      "novelty": 2.0,
+      "signal_status": "mature",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "pew-20260313-002",
+      "title": "Americans increasingly negative about data center impacts",
+      "final_category": "E_Environmental",
+      "secondary_categories": [
+        "T_Technological",
+        "S_Social"
+      ],
+      "impact_score": 7.0,
+      "impact_assessment": "Growing public backlash against AI infrastructure. Data centers seen as negatively affecting environment, energy costs, and quality of life. Could constrain AI buildout. NIMBY effect for AI infrastructure.",
+      "probability": 0.85,
+      "urgency": 4.0,
+      "novelty": 3.0,
+      "signal_status": "emerging",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "pew-20260313-003",
+      "title": "5 years of tracking how Americans view AI \u2014 comprehensive dataset",
+      "final_category": "s_spiritual",
+      "secondary_categories": [
+        "T_Technological",
+        "S_Social"
+      ],
+      "impact_score": 6.0,
+      "impact_assessment": "Comprehensive longitudinal dataset on public AI attitudes. Valuable baseline for tracking societal adaptation to AI. Shows both promise and risk perceptions evolving.",
+      "probability": 0.95,
+      "urgency": 4.0,
+      "novelty": 2.0,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "pew-20260313-004",
+      "title": "Buddhism declining globally \u2014 only major religion to shrink",
+      "final_category": "s_spiritual",
+      "secondary_categories": [
+        "S_Social"
+      ],
+      "impact_score": 6.5,
+      "impact_assessment": "Sole major religion declining globally (~5% between 2010-2020). Concentrated in East Asia (Japan, South Korea). Signals broader secularization and spiritual landscape transformation. Demographic and cultural implications for Asia.",
+      "probability": 0.95,
+      "urgency": 3.0,
+      "novelty": 3.0,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "cb-20260313-001",
+      "title": "UK CCC: Net-zero costs less than single fossil fuel price shock (GBP 110B/year benefits)",
+      "final_category": "E_Environmental",
+      "secondary_categories": [
+        "E_Economic",
+        "P_Political"
+      ],
+      "impact_score": 7.5,
+      "impact_assessment": "Authoritative UK Climate Change Committee finding that net-zero transition is economically advantageous. GBP 110B annual benefits exceed costs. Strengthens economic case for accelerated decarbonization.",
+      "probability": 0.85,
+      "urgency": 4.0,
+      "novelty": 2.5,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "cb-20260313-002",
+      "title": "Clean energy beats North Sea drilling for reducing UK gas imports",
+      "final_category": "E_Environmental",
+      "secondary_categories": [
+        "E_Economic"
+      ],
+      "impact_score": 6.5,
+      "impact_assessment": "Analysis demonstrates clean energy more effective than domestic drilling for energy security. Iran conflict renewing fossil fuel arguments. Evidence-based counter to energy security narratives.",
+      "probability": 0.8,
+      "urgency": 4.0,
+      "novelty": 2.0,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "bis-20260313-001",
+      "title": "ECB Schnabel: AI and supply shocks reshaping inflation-employment dynamics",
+      "final_category": "E_Economic",
+      "secondary_categories": [
+        "T_Technological"
+      ],
+      "impact_score": 7.0,
+      "impact_assessment": "Senior ECB policymaker formally addressing AI's macroeconomic impact on monetary policy. Signals central banks preparing for AI-driven structural economic transformation.",
+      "probability": 0.8,
+      "urgency": 4.0,
+      "novelty": 2.5,
+      "signal_status": "developing",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "bis-20260313-004",
+      "title": "ECB: Nature in decline, economy on the line \u2014 biodiversity as systemic risk",
+      "final_category": "E_Environmental",
+      "secondary_categories": [
+        "E_Economic"
+      ],
+      "impact_score": 7.0,
+      "impact_assessment": "ECB formally recognizing biodiversity loss as systemic financial risk at NGFS meeting. Central banks integrating nature-related risks into supervisory frameworks. Could transform financial regulation.",
+      "probability": 0.8,
+      "urgency": 3.0,
+      "novelty": 2.5,
+      "signal_status": "developing",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "da-20260313-001",
+      "title": "Stablecoin-powered payment card for Africa's unbanked (Lipaworld)",
+      "final_category": "E_Economic",
+      "secondary_categories": [
+        "T_Technological",
+        "S_Social"
+      ],
+      "impact_score": 7.0,
+      "impact_assessment": "Crypto-fiat bridge for financial inclusion targeting unbanked Africans. Stablecoin (USD-pegged) cards accepted at Visa retailers. If scaled, could leapfrog traditional banking for hundreds of millions.",
+      "probability": 0.6,
+      "urgency": 4.0,
+      "novelty": 3.5,
+      "signal_status": "emerging",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "cepr-20260313-001",
+      "title": "CEPR: 70% of firms actively use AI, predict 1.4% productivity boom",
+      "final_category": "E_Economic",
+      "secondary_categories": [
+        "T_Technological"
+      ],
+      "impact_score": 7.5,
+      "impact_assessment": "Large-scale executive survey (5000+) across 4 countries showing 70% AI adoption with projected 1.4% productivity growth and 0.7% employment cuts. Hard data on corporate AI adoption reaching critical mass.",
+      "probability": 0.85,
+      "urgency": 4.0,
+      "novelty": 2.5,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "ws-20260313-001",
+      "title": "Iran conflict disrupts 20% of global oil \u2014 Brent from $70 to $110+",
+      "final_category": "E_Economic",
+      "secondary_categories": [
+        "P_Political",
+        "E_Environmental"
+      ],
+      "impact_score": 9.5,
+      "impact_assessment": "Most severe energy market disruption since 1973. 20% of global oil transit via Strait of Hormuz affected. Qatar LNG halted, Saudi refinery damaged, Dubai airport suspended. Brent crude $70\u2192$110+. Systemic shock to global economy.",
+      "probability": 0.99,
+      "urgency": 5.0,
+      "novelty": 2.5,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "ws-20260313-002",
+      "title": "EU Green Transition Consumer Directive \u2014 Germany implementation deadline March 27",
+      "final_category": "P_Political",
+      "secondary_categories": [
+        "E_Environmental",
+        "E_Economic"
+      ],
+      "impact_score": 6.5,
+      "impact_assessment": "EU consumer protection directive targeting greenwashing entering implementation phase. Restricts generic sustainability terms. Could reshape environmental marketing across EU member states.",
+      "probability": 0.9,
+      "urgency": 5.0,
+      "novelty": 2.0,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    },
+    {
+      "id": "glp-20260313-001",
+      "title": "EU gene-edited crop approval threatens to leave New Zealand behind",
+      "final_category": "T_Technological",
+      "secondary_categories": [
+        "P_Political",
+        "E_Economic"
+      ],
+      "impact_score": 6.5,
+      "impact_assessment": "Biotech regulation divergence between EU (embracing) and New Zealand (stalled). Gene editing agricultural policy creating competitive winners and losers among democracies.",
+      "probability": 0.8,
+      "urgency": 4.0,
+      "novelty": 2.5,
+      "signal_status": "developing",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "glp-20260313-002",
+      "title": "Systematic AI-powered visual misinformation deployed in Iran conflict",
+      "final_category": "P_Political",
+      "secondary_categories": [
+        "T_Technological"
+      ],
+      "impact_score": 8.0,
+      "impact_assessment": "First major wartime deployment of systematic deepfake and AI-generated visual misinformation. State actors and opportunists manufacturing false conflict narratives. Information warfare paradigm shift.",
+      "probability": 0.9,
+      "urgency": 5.0,
+      "novelty": 3.5,
+      "signal_status": "emerging",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "aeon-20260313-001",
+      "title": "De-extinction redefining life, death, and extinction itself",
+      "final_category": "s_spiritual",
+      "secondary_categories": [
+        "T_Technological",
+        "E_Environmental"
+      ],
+      "impact_score": 6.5,
+      "impact_assessment": "Philosophical examination of how de-extinction technology challenges fundamental categories of life and death. Bioethical implications deepening as technology advances toward practical application.",
+      "probability": 0.6,
+      "urgency": 2.0,
+      "novelty": 3.5,
+      "signal_status": "emerging",
+      "evidence_strength": "qualitative"
+    },
+    {
+      "id": "ycc-20260313-001",
+      "title": "Feb 2026 fifth-warmest February despite absent El Nino",
+      "final_category": "E_Environmental",
+      "secondary_categories": [],
+      "impact_score": 7.0,
+      "impact_assessment": "Non-El Nino year recording fifth-warmest February is concerning. Ocean temperatures second-warmest ever. Continued warming trend signal even without natural amplification cycle.",
+      "probability": 0.99,
+      "urgency": 5.0,
+      "novelty": 1.5,
+      "signal_status": "developing",
+      "evidence_strength": "quantitative"
+    }
+  ]
+}

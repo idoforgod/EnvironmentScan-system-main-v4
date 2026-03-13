@@ -1,0 +1,10 @@
+{
+  "scan_date": "2026-03-13",
+  "workflow": "wf3-naver",
+  "total_raw": 271,
+  "duplicates_removed": 1,
+  "new_signals": 270,
+  "dedup_method": "title_url_match",
+  "db_size": 998,
+  "generated_at": "2026-03-13T00:06:04.509500+00:00"
+}

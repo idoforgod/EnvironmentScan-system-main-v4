@@ -1,0 +1,2958 @@
+{
+  "scan_date": "2026-03-13",
+  "scan_window": {
+    "start": "2026-03-10T22:13:26.469862+00:00",
+    "end": "2026-03-12T22:13:26.469862+00:00",
+    "lookback_hours": 48
+  },
+  "total_raw": 82,
+  "duplicates_removed": 0,
+  "new_signals": 82,
+  "dedup_method": "id_title_match",
+  "signals": [
+    {
+      "id": "arxiv-2603.09980",
+      "title": "Explainable LLM Unlearning Through Reasoning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09980",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "LLM unlearning is essential for mitigating safety, copyright, and privacy concerns in pre-trained large language models. Compared to preference alignment, it offers a more explicit way by removing undesirable knowledge.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.09980",
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.09985",
+      "title": "The Dunning-Kruger Effect in Large Language Models: An Empirical Study of Confidence Calibration",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09985",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Large language models have demonstrated remarkable capabilities across diverse tasks, yet their ability to accurately assess their own confidence remains poorly understood.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.09985",
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.09986",
+      "title": "Quantifying Hallucinations in Language Models on Medical Textbooks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09986",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Hallucinations, the tendency for large language models to provide factually incorrect and unsupported claims, is a serious problem within natural language processing.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.09986",
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.09989",
+      "title": "The System Hallucination Scale (SHS): A Minimal yet Effective Human-Centered Instrument for Evaluating Hallucination-Related Behavior in LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09989",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "A lightweight and human-centered measurement instrument for assessing hallucination-related behavior in large language models.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.09989",
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.09997",
+      "title": "Empathy Is Not What Changed: Clinical Assessment of Psychological Safety Across GPT Model Generations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09997",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "When OpenAI deprecated GPT-4o in early 2026, thousands of users protested under #keep4o, claiming newer models had lost their empathy. No published study has tested this claim.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.09997",
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY",
+          "cs.HC"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10011",
+      "title": "Gemma Needs Help: Investigating and Mitigating Emotional Instability in LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10011",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Large language models can generate responses that resemble emotional distress, and this raises concerns around model reliability and safety.",
+        "keywords": [
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10011",
+        "arxiv_categories": [
+          "cs.CL"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10012",
+      "title": "Measuring and Eliminating Refusals in Military Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10012",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Military LLMs must provide accurate information to the warfighter in time-critical situations. However, today's LLMs are imbued with safety behaviors that cause refusals.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10012",
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10055",
+      "title": "Training Language Models via Neural Cellular Automata",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10055",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Pre-training is crucial for LLMs but natural language pre-training has problems: high-quality text is finite and increasingly exhausted.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10055",
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10009",
+      "title": "Personalized Group Relative Policy Optimization for Heterogeneous Preference Alignment",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10009",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "LLMs often fail to align with diverse individual preferences because standard post-training methods like RLHF treat all users as having the same preferences.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10009",
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10010",
+      "title": "FERRET: Framework for Expansion Reliant Red Teaming",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10010",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "A multi-faceted automated red teaming framework for generating multi-modal adversarial conversations that would break a target model.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10010",
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10069",
+      "title": "Improving Search Agent with One Line of Code",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10069",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Tool-based Agentic Reinforcement Learning has emerged as a promising paradigm for training search agents to interact with external tools autonomously.",
+        "keywords": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10069",
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10052",
+      "title": "OmniGuide: Universal Guidance Fields for Enhancing Generalist Robot Policies",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10052",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Vision-language-action models have shown great promise as generalist policies for a large range of tasks but demonstrate limited performance on complex tasks.",
+        "keywords": [
+          "cs.RO",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10052",
+        "arxiv_categories": [
+          "cs.RO",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10067",
+      "title": "HTMuon: Improving Muon via Heavy-Tailed Spectral Correction",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10067",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Muon has recently shown promising results in LLM training. We study how to further improve Muon arguing that Muon's orthogonalized update rule suppresses emergence of heavy-tailed spectra.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10067",
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10024",
+      "title": "LWM-Temporal: Sparse Spatio-Temporal Attention for Wireless Channel Representation Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10024",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "A new member of the Large Wireless Models family that targets the spatiotemporal nature of wireless channels as a task-agnostic foundation model.",
+        "keywords": [
+          "cs.LG",
+          "cs.IT"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10024",
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.IT"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10071",
+      "title": "Dissecting Chronos: Sparse Autoencoders Reveal Causal Feature Hierarchies in Time Series Foundation Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10071",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Time series foundation models are increasingly deployed in high-stakes domains, yet their internal representations remain opaque. First application of sparse autoencoders to TSFMs.",
+        "keywords": [
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10071",
+        "arxiv_categories": [
+          "cs.LG"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10042",
+      "title": "Targeted Bit-Flip Attacks on LLM-Based Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10042",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Targeted bit-flip attacks exploit hardware faults to manipulate model parameters, posing a significant security threat.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10042",
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10041",
+      "title": "Evaluating Generalization Mechanisms in Autonomous Cyber Attack Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10041",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Autonomous offensive agents often fail to transfer beyond the networks on which they are trained.",
+        "keywords": [
+          "cs.CR",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10041",
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10060",
+      "title": "Tool Receipts, Not Zero-Knowledge Proofs: Practical Hallucination Detection for AI Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10060",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "AI agents executing tasks via tool calls frequently hallucinate results by fabricating executions or misstating output counts.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10060",
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10163",
+      "title": "Compatibility at a Cost: Systematic Discovery and Exploitation of MCP Clause-Compliance Vulnerabilities",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10163",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Model Context Protocol is a recently proposed interoperability standard unifying how AI agents connect with external tools and data sources.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10163",
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10194",
+      "title": "MCP-in-SoS: Risk assessment framework for open-source MCP servers",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10194",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Model Context Protocol servers have rapidly emerged as widely adopted way enabling LLM agents to access dynamic, real-world tools.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10194",
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10092",
+      "title": "Execution Is the New Attack Surface: Survivability-Aware Agentic Crypto Trading with OpenClaw-Style Local Executors",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10092",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "OpenClaw-style agent stacks turn language into privileged execution, shifting safety failures from wrong answers to execution-induced loss.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10092",
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10387",
+      "title": "Don't Let the Claw Grip Your Hand: A Security Analysis and Defense Framework for OpenClaw",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10387",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Code agents powered by large language models execute shell commands, introducing severe security vulnerabilities.",
+        "keywords": [
+          "cs.CR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10387",
+        "arxiv_categories": [
+          "cs.CR"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10388",
+      "title": "Silent Subversion: Sensor Spoofing Attacks via Supply Chain Implants in Satellite Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10388",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Spoofing attacks are destructive cyber threats to terrestrial systems, becoming more dangerous in space.",
+        "keywords": [
+          "cs.CR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10388",
+        "arxiv_categories": [
+          "cs.CR"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10063",
+      "title": "Building Privacy-and-Security-Focused Federated Learning Infrastructure for Global Multi-Centre Healthcare Research",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10063",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Collaborative healthcare research across institutions requires diverse clinical datasets, yet cross-border sharing is constrained by privacy regulations.",
+        "keywords": [
+          "cs.CR",
+          "cs.SE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10063",
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.SE"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10274",
+      "title": "Post-Quantum Entropy as a Service for Embedded Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10274",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Embedded cryptography depends on entropy quality, yet small devices have few trustworthy sources.",
+        "keywords": [
+          "cs.CR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10274",
+        "arxiv_categories": [
+          "cs.CR"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10504",
+      "title": "Naive Exposure of Generative AI Capabilities Undermines Deepfake Detection",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10504",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Generative AI systems increasingly expose powerful reasoning and image refinement through user-facing chatbot interfaces.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10504",
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10091",
+      "title": "Multi-Stream Perturbation Attack: Breaking Safety Alignment of Thinking LLMs Through Concurrent Task Interference",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10091",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Thinking mode in LLMs enhances complex task processing while introducing new security risks during jailbreak attacks.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10091",
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10080",
+      "title": "Amnesia: Adversarial Semantic Layer Specific Activation Steering in LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10080",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Large Language Models have potential to create harmful content, requiring techniques ensuring safe and responsible response generation.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10080",
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10015",
+      "title": "The coordination gap in frontier AI safety policies",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10015",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Frontier AI Safety Policies concentrate on prevention while neglecting institutional capacity to coordinate responses when prevention fails.",
+        "keywords": [
+          "cs.CY",
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10015",
+        "arxiv_categories": [
+          "cs.CY",
+          "econ.GN"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10016",
+      "title": "Assessing Cognitive Biases in LLMs for Judicial Decision Support",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10016",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Investigates whether large language models display human-like cognitive biases in judicial sentencing, examining virtuous victim and halo effects.",
+        "keywords": [
+          "cs.CY",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10016",
+        "arxiv_categories": [
+          "cs.CY",
+          "cs.AI"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10017",
+      "title": "The science and practice of proportionality in AI risk evaluations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10017",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Addresses regulatory challenge of ensuring AI model evaluations provide meaningful risk information without imposing excessive burden on providers.",
+        "keywords": [
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10017",
+        "arxiv_categories": [
+          "cs.CY"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10023",
+      "title": "Defining AI Models and AI Systems: A Framework to Resolve the Boundary Problem",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10023",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Analyzes existing definitions of AI models and systems through systematic review, proposing conceptual and operational definitions for regulatory clarity.",
+        "keywords": [
+          "cs.CY",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10023",
+        "arxiv_categories": [
+          "cs.CY",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10028",
+      "title": "How to Count AIs: Individuation and Liability for AI Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10028",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Diagnoses legal problem of identifying AIs proposing Algorithmic Corporation solution to tie AI actions to human principals and enable accountability.",
+        "keywords": [
+          "cs.CY",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10028",
+        "arxiv_categories": [
+          "cs.CY",
+          "cs.AI"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10025",
+      "title": "A Review of the Negative Effects of Digital Technology on Cognition",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10025",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Synthesizes documented risks across more than 500 empirical studies analyzing cognitive impacts through mechanisms of interference and neuroplasticity.",
+        "keywords": [
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10025",
+        "arxiv_categories": [
+          "cs.CY"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10019",
+      "title": "Prompts and Prayers: the Rise of GPTheology",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10019",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Explores emergence of GPTheology as techno-religion examining how narratives around AI echo traditional religious constructs and beliefs.",
+        "keywords": [
+          "cs.CY",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10019",
+        "arxiv_categories": [
+          "cs.CY",
+          "cs.AI"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10498",
+      "title": "Efficiency vs Demand in AI Electricity: Implications for Post-AGI Scaling",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10498",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Couples AI service growth with energy intensity trajectories showing outcomes depend on efficiency gains versus demand-driven electricity expansion needs.",
+        "keywords": [
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10498",
+        "arxiv_categories": [
+          "cs.CY"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.11001",
+      "title": "RCTs and Human Uplift Studies: Methodological Challenges for Frontier AI Evaluation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.11001",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Reports findings from expert interviews on human uplift studies identifying tensions between causal inference assumptions and rapidly evolving AI systems.",
+        "keywords": [
+          "cs.CY",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.11001",
+        "arxiv_categories": [
+          "cs.CY",
+          "cs.AI"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10020",
+      "title": "Dark Patterns and Consumer Protection Law for App Makers",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10020",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Dark patterns in online commerce undermine consumer autonomy and distort online markets, proposing strategies to avoid infringing user autonomy.",
+        "keywords": [
+          "cs.CY",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10020",
+        "arxiv_categories": [
+          "cs.CY",
+          "cs.HC"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10191",
+      "title": "Regularized Warm-Started QAOA: Conditions for Surpassing Classical Solvers on Max-Cut",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10191",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Demonstrating quantum heuristics that outperform strong classical solvers on large-scale optimization remains an open challenge. Introduces RWS-QAOA.",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10191",
+        "arxiv_categories": [
+          "quant-ph"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10289",
+      "title": "Quantum entanglement provides a competitive advantage in adversarial games",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10289",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Whether uniquely quantum resources confer advantages in fully classical, competitive environments remains an open question. Competitive zero-sum reinforcement learning.",
+        "keywords": [
+          "quant-ph",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10289",
+        "arxiv_categories": [
+          "quant-ph",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10224",
+      "title": "Reducing Quantum Error Mitigation Bias Using Verifiable Benchmark Circuits",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10224",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "A simple, malleable and low-overhead approach for improving generic biased QEM methods, achieving up to 15% fidelity improvements over standard QEM on 100-qubit circuits.",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10224",
+        "arxiv_categories": [
+          "quant-ph"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10480",
+      "title": "Practical Methods for Distance-Adaptive CV-QKD",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10480",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Continuous-variable quantum key distribution is a promising quantum-safe alternative to classical asymmetric cryptography that enables two authenticated parties to establish a shared secret.",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10480",
+        "arxiv_categories": [
+          "quant-ph"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10083",
+      "title": "Mitigating Frequency Learning Bias in Quantum Models via Multi-Stage Residual Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10083",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Quantum machine learning models based on parameterized circuits can be viewed as Fourier series approximators but often struggle to learn multi-frequency functions.",
+        "keywords": [
+          "quant-ph",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10083",
+        "arxiv_categories": [
+          "quant-ph",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10119",
+      "title": "Digital dissipative state preparation for frustration-free gapless quantum systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10119",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Preparing algebraically correlated ground states of quantum many-body systems using local projective measurements and unitary feedback for frustration-free gapless systems.",
+        "keywords": [
+          "quant-ph",
+          "cond-mat.quant-gas"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10119",
+        "arxiv_categories": [
+          "quant-ph",
+          "cond-mat.quant-gas"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10137",
+      "title": "Uncertainty-Aware Deep Hedging",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10137",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Deep hedging trains neural networks to manage derivative risk under market frictions but produces hedge ratios with no measure of model confidence.",
+        "keywords": [
+          "q-fin.CP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10137",
+        "arxiv_categories": [
+          "q-fin.CP"
+        ],
+        "steeps_mapping": "E"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10155",
+      "title": "Towards macroeconomic analysis without microfoundations: measuring the entropy of simulated exchange economies",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10155",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "The theory of thermal macroeconomics analyses economic phenomena within the mathematical framework of classical thermodynamics.",
+        "keywords": [
+          "econ.GN",
+          "q-fin.EC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10155",
+        "arxiv_categories": [
+          "econ.GN",
+          "q-fin.EC"
+        ],
+        "steeps_mapping": "E"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10807",
+      "title": "Risk-Adjusted Harm Scoring for Automated Red Teaming for LLMs in Financial Services",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10807",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "The rapid adoption of large language models in financial services introduces new operational, regulatory, and security risks.",
+        "keywords": [
+          "q-fin.CP",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10807",
+        "arxiv_categories": [
+          "q-fin.CP",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "steeps_mapping": "E"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10559",
+      "title": "A Bipartite Graph Approach to U.S.-China Cross-Market Return Forecasting",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10559",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Studies cross-market return predictability through a machine learning framework exploiting non-overlapping trading hours of the U.S. and China.",
+        "keywords": [
+          "cs.LG",
+          "q-fin.CP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10559",
+        "arxiv_categories": [
+          "cs.LG",
+          "q-fin.CP"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10690",
+      "title": "When David becomes Goliath: Repo dealer-driven bond mispricing",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10690",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Studies the impact of funding market frictions on bond prices and market-wide liquidity using proprietary transaction-level data on gilt-backed repo trades.",
+        "keywords": [
+          "q-fin.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10690",
+        "arxiv_categories": [
+          "q-fin.GN"
+        ],
+        "steeps_mapping": "E"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10999",
+      "title": "Double Machine Learning for Time Series",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10999",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Modifies the Double Machine Learning estimator to broaden its applicability to macroeconomic time-series settings. A deterministic cross-fitting step.",
+        "keywords": [
+          "econ.EM"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10999",
+        "arxiv_categories": [
+          "econ.EM"
+        ],
+        "steeps_mapping": "E"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.11013",
+      "title": "A Semi-Structural Model with Household Debt for Israel",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.11013",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "A semi-structural DSGE model for the Israeli economy which contains a financial friction in the household sector credit market.",
+        "keywords": [
+          "econ.GN",
+          "q-fin.EC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.11013",
+        "arxiv_categories": [
+          "econ.GN",
+          "q-fin.EC"
+        ],
+        "steeps_mapping": "E"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10867",
+      "title": "Delegated Information Provision",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10867",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "A designer relies on an experimenter to provide information to a decision maker, but the experimenter has incentives to persuade rather than merely transmit.",
+        "keywords": [
+          "econ.TH"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10867",
+        "arxiv_categories": [
+          "econ.TH"
+        ],
+        "steeps_mapping": "E"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10193",
+      "title": "Charge-tunable Cooper-pair diode",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10193",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Superconducting diodes, devices that allow Cooper-pair currents to flow more easily in one direction, are set to become key building blocks for dissipationless electronics.",
+        "keywords": [
+          "cond-mat.mes-hall",
+          "cond-mat.supr-con"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10193",
+        "arxiv_categories": [
+          "cond-mat.mes-hall",
+          "cond-mat.supr-con"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10205",
+      "title": "Flexible Cutoff Learning: Optimizing Machine Learning Potentials After Training",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10205",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Introduces Flexible Cutoff Learning, a method for training MLIPs whose cutoff radii can be adjusted after training.",
+        "keywords": [
+          "cond-mat.mtrl-sci",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10205",
+        "arxiv_categories": [
+          "cond-mat.mtrl-sci",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10186",
+      "title": "Engineering photomagnetism in collinear van der Waals antiferromagnets",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10186",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Achieving efficient ultrafast optical control of antiferromagnetic spin dynamics is a central goal for next-generation high-speed THz spintronic and magnonic devices.",
+        "keywords": [
+          "cond-mat.mtrl-sci"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10186",
+        "arxiv_categories": [
+          "cond-mat.mtrl-sci"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10310",
+      "title": "Spin Inertia as a Driver of Chaotic and High-Speed Ferromagnetic Domain Walls",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10310",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Ferromagnetic domain walls are essential for racetrack memory, a device concept promising faster and more compact memory storage.",
+        "keywords": [
+          "cond-mat.mes-hall"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10310",
+        "arxiv_categories": [
+          "cond-mat.mes-hall"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10412",
+      "title": "Long-range magnetic order with disordered spin orientations in a high-entropy antiferromagnet",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10412",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Disorder in magnetic systems typically suppresses long-range order, promoting short-range states. Finding of magnetic ordering in a high-entropy material.",
+        "keywords": [
+          "cond-mat.str-el"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10412",
+        "arxiv_categories": [
+          "cond-mat.str-el"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10142",
+      "title": "Endohedral Derivatives of Two-Dimensional Fullerene Networks: Electronic and Optical Insights",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10142",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "The quasi-hexagonal phase of 2D fullerene network (qHPC60), recently synthesized, has emerged as a stable carbon-based material with distinct features.",
+        "keywords": [
+          "cond-mat.mtrl-sci"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10142",
+        "arxiv_categories": [
+          "cond-mat.mtrl-sci"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.09978",
+      "title": "One Model, Many Skills: Parameter-Efficient Fine-Tuning for Multitask Code Analysis",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09978",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "LLMs have recently surpassed specialized systems on code generation, yet effectiveness on other code-analysis tasks remains less clear.",
+        "keywords": [
+          "cs.SE",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.09978",
+        "arxiv_categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10044",
+      "title": "Safety Under Scaffolding: How Evaluation Conditions Shape Measured Safety",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10044",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Safety benchmarks evaluate language models in isolation; production deployments wrap these models in agentic scaffolds that change behavior.",
+        "keywords": [
+          "cs.SE",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10044",
+        "arxiv_categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10047",
+      "title": "Toward Epistemic Stability: Engineering Consistent Procedures for Industrial LLM Hallucination Reduction",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10047",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Hallucinations in LLMs are outputs that are syntactically coherent but factually incorrect. Compares five prompt engineering strategies.",
+        "keywords": [
+          "cs.SE",
+          "cs.AI",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10047",
+        "arxiv_categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.HC"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10249",
+      "title": "DUCTILE: Agentic LLM Orchestration of Engineering Analysis in Product Development Practice",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10249",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Engineering analysis automation relies on rigid interfaces between tools, data formats, and documented processes. Introduces agentic LLM orchestration.",
+        "keywords": [
+          "cs.SE",
+          "cs.AI",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10249",
+        "arxiv_categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.HC"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10057",
+      "title": "SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10057",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Software supply-chain security requires provenance mechanisms supporting reproducibility and vulnerability assessment under dynamic execution conditions.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI",
+          "cs.SE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10057",
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.AI",
+          "cs.SE"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10268",
+      "title": "SpecOps: A Fully Automated AI Agent Testing Framework in Real-World GUI Environments",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10268",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Autonomous AI agents powered by LLMs are increasingly deployed in real-world applications requiring reliable behavior.",
+        "keywords": [
+          "cs.SE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10268",
+        "arxiv_categories": [
+          "cs.SE"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10342",
+      "title": "AgentServe: Algorithm-System Co-Design for Efficient Agentic AI Serving on a Consumer-Grade GPU",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10342",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Large language models increasingly deploy as AI agents operating in short reasoning-action loops interleaving computation with external calls.",
+        "keywords": [
+          "cs.DC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10342",
+        "arxiv_categories": [
+          "cs.DC"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10353",
+      "title": "S-HPLB: Efficient LLM Attention Serving via Sparsity-Aware Head Parallelism Load Balance",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10353",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Increasing LLM volumes and expanding context lengths make attention computation a key performance bottleneck.",
+        "keywords": [
+          "cs.DC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10353",
+        "arxiv_categories": [
+          "cs.DC"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10221",
+      "title": "The propensity for disobedience: Rule-breaking, compliance and social phase transitions",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10221",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "A mathematical model describing persistence of rule-breaking behaviors in societies, such as traffic violations and noncompliance.",
+        "keywords": [
+          "physics.soc-ph",
+          "cond-mat.stat-mech"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10221",
+        "arxiv_categories": [
+          "physics.soc-ph",
+          "cond-mat.stat-mech"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10488",
+      "title": "Discontinuous Wealth-Gradient Transition Driving Cooperation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10488",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "The universal prevalence of cooperation is puzzling, as defection typically yields higher payoffs motivating searches for hidden pathways.",
+        "keywords": [
+          "physics.soc-ph",
+          "cond-mat.stat-mech"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10488",
+        "arxiv_categories": [
+          "physics.soc-ph",
+          "cond-mat.stat-mech"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10107",
+      "title": "The Cosmological Simulation Code OpenGadget3: Self-Interacting Dark Matter",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10107",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Dark matter could be subject to non-gravitational self-interactions relevant to resolve potential problems of cold DM on small scales.",
+        "keywords": [
+          "astro-ph.IM",
+          "astro-ph.CO",
+          "hep-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10107",
+        "arxiv_categories": [
+          "astro-ph.IM",
+          "astro-ph.CO",
+          "hep-ph"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10070",
+      "title": "CHRONOS Science Program",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10070",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Proposed next-generation ground-based gravitational-wave observatory using cryogenic sub-Hz cross torsion-bar detector with quantum non-demolition speed meter.",
+        "keywords": [
+          "astro-ph.IM",
+          "astro-ph.CO",
+          "gr-qc"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10070",
+        "arxiv_categories": [
+          "astro-ph.IM",
+          "astro-ph.CO",
+          "gr-qc"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10138",
+      "title": "Data-Driven Successive Linearization for Optimal Voltage Control",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10138",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Power distribution systems increasingly exposed to large voltage fluctuations driven by intermittent solar PV generation and rapidly varying loads.",
+        "keywords": [
+          "eess.SY",
+          "cs.SY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10138",
+        "arxiv_categories": [
+          "eess.SY",
+          "cs.SY"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10294",
+      "title": "Simulation-in-the-Reasoning (SiR): A Conceptual Framework for Empirically Grounded AI in Autonomous Transportation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10294",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Introduces SiR embedding domain-specific simulators directly into the LLM reasoning loop for hypothesis-simulate-analyze workflow.",
+        "keywords": [
+          "eess.SY",
+          "cs.AI",
+          "cs.SY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10294",
+        "arxiv_categories": [
+          "eess.SY",
+          "cs.AI",
+          "cs.SY"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10779",
+      "title": "A Control-Theoretic Foundation for Agentic Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10779",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Develops control-theoretic framework for analyzing agentic systems in feedback control loops, formalizing agency as hierarchical decision authority.",
+        "keywords": [
+          "eess.SY",
+          "cs.SY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10779",
+        "arxiv_categories": [
+          "eess.SY",
+          "cs.SY"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10880",
+      "title": "The potential and viability of V2G for California BEV drivers",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10880",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Vehicle-to-Grid adoption hindered by uncertainties regarding effects on battery lifetime. Leverages real-world Californian BEV usage data for V2G strategy.",
+        "keywords": [
+          "eess.SY",
+          "cs.SY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10880",
+        "arxiv_categories": [
+          "eess.SY",
+          "cs.SY"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10246",
+      "title": "Intrinsic Numerical Robustness and Fault Tolerance in a Neuromorphic Algorithm for Scientific Computing",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10246",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Neuromorphic algorithm for PDEs is intrinsically tolerant to structural perturbations: 32% neurons and 90% spikes may be dropped before significant degradation.",
+        "keywords": [
+          "cs.NE",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10246",
+        "arxiv_categories": [
+          "cs.NE",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10743",
+      "title": "Scaling and Trade-offs in Multi-agent Autonomous Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10743",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Designing autonomous drone swarms is hampered by a vast design space. Large-scale agent-based simulations in three canonical scenarios.",
+        "keywords": [
+          "eess.SY",
+          "cs.SY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10743",
+        "arxiv_categories": [
+          "eess.SY",
+          "cs.SY"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10285",
+      "title": "Conversational AI-Enhanced Exploration System for Museum Collections",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10285",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "System using conversational AI to query 1.7 million digitized specimens from Australian Museum enabling natural-language exploration.",
+        "keywords": [
+          "cs.HC",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10285",
+        "arxiv_categories": [
+          "cs.HC",
+          "cs.AI"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10374",
+      "title": "Reactive Writers: How Co-Writing with AI Changes Engagement with Ideas",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10374",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Reactive Writing: an evaluation-first, suggestion-led writing practice showing AI assistance shifts writing process away from traditional ideation.",
+        "keywords": [
+          "cs.HC",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10374",
+        "arxiv_categories": [
+          "cs.HC",
+          "cs.AI"
+        ],
+        "steeps_mapping": "S"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10357",
+      "title": "Utility Function is All You Need: LLM-based Congestion Control",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10357",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Congestion is critical challenging problem in communication networks. LLMs applied to tune sending rates.",
+        "keywords": [
+          "cs.NI",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10357",
+        "arxiv_categories": [
+          "cs.NI",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.11025",
+      "title": "LLMGreenRec: LLM-Based Multi-Agent Recommender System for Sustainable E-Commerce",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.11025",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Introduces LLMGreenRec, a multi-agent framework leveraging LLMs to promote sustainable consumption in e-commerce.",
+        "keywords": [
+          "cs.MA",
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.11025",
+        "arxiv_categories": [
+          "cs.MA",
+          "cs.IR"
+        ],
+        "steeps_mapping": "P"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10161",
+      "title": "Omics Data Discovery Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10161",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Presents agentic framework that fetches omics-related articles and transforms unstructured information into searchable research objects enabling data reuse.",
+        "keywords": [
+          "q-bio.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10161",
+        "arxiv_categories": [
+          "q-bio.GN"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10344",
+      "title": "Machine learning the arrow of time in solid-state spins",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10344",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Understanding the emergence of the thermodynamic arrow of time in microscopic systems is of fundamental importance.",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10344",
+        "arxiv_categories": [
+          "quant-ph"
+        ],
+        "steeps_mapping": "T"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T23:10:14.632914+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_rss_webfetch",
+          "timestamp": "2026-03-12T23:10:14.632914+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    }
+  ]
+}

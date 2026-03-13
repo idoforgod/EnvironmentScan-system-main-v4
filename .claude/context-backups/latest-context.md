@@ -1,6 +1,6 @@
 # Claude Code Context Summary
-**Project**: /Users/c/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4
-**Generated**: 2026-03-11 11:35:20
+**Project**: /Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4
+**Generated**: 2026-03-13 10:35:21
 **Version**: 2.0.0 (SOT-bound)
 
 ---
@@ -15,18 +15,16 @@
 
 **SOT Version**: 2.5.0
 
-**Master**: quadruple-scan-2026-03-11 | Status: **integrating**
+**Master**: quadruple-scan-2026-03-13 | Status: **initializing**
 **SOT Validation**: WARN
 
 | Workflow | Status | Signals | Validation |
 |----------|--------|---------|------------|
-| wf1-general | completed | 25 |  |
-| wf2-arxiv | completed | 15 |  |
+| wf1-general | pending |  |  |
+| wf2-arxiv | pending |  |  |
 | integrated | pending |  | - |
 
-**Master Gates**: M1: PASS | M2: PASS | M2a: PASS_DEGRADED | M2b: PASS | M3: pending | M4: pending
-
-**Human Approvals**: wf1_step_2_5: autopilot | wf1_step_3_4: autopilot | wf2_step_2_5: autopilot | wf2_step_3_4: autopilot | wf3_step_2_5: autopilot_skip | wf3_step_3_4: autopilot_skip | wf4_step_2_5: autopilot | wf4_step_3_4: autopilot
+**Master Gates**: M1: pending | M2: pending | M2a: pending | M2b: pending | M3: pending
 
 **Current Phase**:  | **Step**:  | **Status**: COMPLETE
 
@@ -38,283 +36,192 @@
 
 **Modified Files**:
 ```
- D .DS_Store
- D .claude/context-backups/context-backup-20260213_093617.md
- D .claude/context-backups/context-backup-20260213_094125.md
- D .claude/context-backups/context-backup-20260213_100608.md
- D .claude/context-backups/context-backup-20260213_100633.md
- D .claude/context-backups/context-backup-20260213_102817.md
- D .claude/context-backups/context-backup-20260215_120328.md
- D .claude/context-backups/context-backup-20260215_131233.md
- D .claude/context-backups/context-backup-20260215_140308.md
- D .claude/context-backups/context-backup-20260215_151541.md
- D .claude/context-backups/context-backup-20260215_153100.md
+ D .claude/context-backups/context-backup-20260309_155750.md
+ D .claude/context-backups/context-backup-20260310_074740.md
+ D .claude/context-backups/context-backup-20260310_082538.md
+ D .claude/context-backups/context-backup-20260310_085756.md
+ D .claude/context-backups/context-backup-20260310_092730.md
+ D .claude/context-backups/context-backup-20260311_083530.md
+ D .claude/context-backups/context-backup-20260311_092828.md
+ D .claude/context-backups/context-backup-20260311_100737.md
+ D .claude/context-backups/context-backup-20260311_104227.md
+ D .claude/context-backups/context-backup-20260311_113520.md
  M .claude/context-backups/latest-context.md
- D docs/.DS_Store
- D env-scanning/.DS_Store
- M env-scanning/core/__pycache__/dedup_gate.cpython-314.pyc
- M env-scanning/core/__pycache__/psst_calculator.cpython-314.pyc
- M env-scanning/core/__pycache__/report_metadata_injector.cpython-314.pyc
- M env-scanning/core/__pycache__/report_statistics_engine.cpython-314.pyc
- M env-scanning/core/__pycache__/signal_evolution_tracker.cpython-314.pyc
+ M env-scanning/core/__pycache__/unified_task_manager.cpython-314.pyc
+ M env-scanning/core/dedup_gate.py
  M env-scanning/integrated/logs/master-status.json
- D env-scanning/reports/.DS_Store
- M env-scanning/scripts/__pycache__/validate_report.cpython-314.pyc
+ M env-scanning/scanners/__pycache__/base_scanner.cpython-314.pyc
+ M env-scanning/scanners/__pycache__/rss_scanner.cpython-314.pyc
  M env-scanning/wf1-general/exploration/excluded-sources.json
  M env-scanning/wf1-general/signals/database.json
  M env-scanning/wf1-general/signals/evolution-index.json
+ M env-scanning/wf2-arxiv/logs/workflow-status.json
  M env-scanning/wf2-arxiv/signals/database.json
  M env-scanning/wf2-arxiv/signals/evolution-index.json
+ M env-scanning/wf3-naver/logs/workflow-status.json
+ M env-scanning/wf3-naver/signals/database.json
  M env-scanning/wf3-naver/signals/evolution-index.json
  M env-scanning/wf4-multiglobal-news/logs/learned-crawl-patterns.json
+ M env-scanning/wf4-multiglobal-news/logs/workflow-status.json
  M env-scanning/wf4-multiglobal-news/signals/database.json
- M env-scanning/wf4-multiglobal-news/signals/evolution-index-backup-2026-03-09.json
  M env-scanning/wf4-multiglobal-news/signals/evolution-index.json
- M tests/unit/__pycache__/test_report_statistics_engine.cpython-314-pytest-9.0.2.pyc
- M tests/unit/__pycache__/test_signal_evolution_tracker.cpython-314-pytest-9.0.2.pyc
-?? .claude/context-backups/context-backup-20260309_152410.md
-?? .claude/context-backups/context-backup-20260309_155750.md
-?? .claude/context-backups/context-backup-20260310_074740.md
-?? .claude/context-backups/context-backup-20260310_082538.md
-?? .claude/context-backups/context-backup-20260310_085756.md
-?? .claude/context-backups/context-backup-20260310_092730.md
-?? .claude/context-backups/context-backup-20260311_083530.md
-?? .claude/context-backups/context-backup-20260311_092828.md
-?? .claude/context-backups/context-backup-20260311_100737.md
-?? .claude/context-backups/context-backup-20260311_104227.md
-?? .claude/context-backups/context-backup-20260311_113520.md
-?? .claude/settings.local.json
-?? .playwright-mcp/
-?? env-scanning/__pycache__/__init__.cpython-313.pyc
-?? env-scanning/__pycache__/__init__.cpython-314.pyc
-?? env-scanning/__pycache__/agent_runner.cpython-313.pyc
-?? env-scanning/__pycache__/orchestrator.cpython-313.pyc
-?? env-scanning/core/__pycache__/__init__.cpython-313.pyc
-?? env-scanning/core/__pycache__/adaptive_fetcher.cpython-313.pyc
-?? env-scanning/core/__pycache__/bilingual_resolver.cpython-313.pyc
-?? env-scanning/core/__pycache__/context_manager.cpython-313.pyc
-?? env-scanning/core/__pycache__/database_recovery.cpython-313.pyc
-?? env-scanning/core/__pycache__/dedup_gate.cpython-313.pyc
-?? env-scanning/core/__pycache__/exploration_gate.cpython-313.pyc
-?? env-scanning/core/__pycache__/exploration_merge_gate.cpython-313.pyc
-?? env-scanning/core/__pycache__/frontier_selector.cpython-313.pyc
-?? env-scanning/core/__pycache__/naver_crawler.cpython-313.pyc
-?? env-scanning/core/__pycache__/naver_signal_processor.cpython-313.pyc
-?? env-scanning/core/__pycache__/news_direct_crawler.cpython-313.pyc
-?? env-scanning/core/__pycache__/news_signal_processor.cpython-313.pyc
-?? env-scanning/core/__pycache__/priority_score_calculator.cpython-313.pyc
-?? env-scanning/core/__pycache__/priority_score_calculator.cpython-314.pyc
-?? env-scanning/core/__pycache__/psst_calculator.cpython-313.pyc
-?? env-scanning/core/__pycache__/psst_calibrator.cpython-313.pyc
-?? env-scanning/core/__pycache__/redirect_resolver.cpython-313.pyc
-?? env-scanning/core/__pycache__/report_metadata_injector.cpython-313.pyc
-?? env-scanning/core/__pycache__/report_statistics_engine.cpython-313.pyc
-?? env-scanning/core/__pycache__/self_improvement_engine.cpython-313.pyc
-?? env-scanning/core/__pycache__/signal_evolution_tracker.cpython-313.pyc
-?? env-scanning/core/__pycache__/skeleton_mirror.cpython-313.pyc
-?? env-scanning/core/__pycache__/source_explorer.cpython-313.pyc
-?? env-scanning/core/__pycache__/source_health_checker.cpython-313.pyc
-?? env-scanning/core/__pycache__/temporal_anchor.cpython-313.pyc
-?? env-scanning/core/__pycache__/temporal_gate.cpython-313.pyc
-?? env-scanning/core/__pycache__/theme_discovery_engine.cpython-313.pyc
-?? env-scanning/core/__pycache__/theme_discovery_engine.cpython-314.pyc
-?? env-scanning/core/__pycache__/timeline_data_assembler.cpython-313.pyc
-?? env-scanning/core/__pycache__/timeline_data_assembler.cpython-314.pyc
-?? env-scanning/core/__pycache__/timeline_map_generator.cpython-313.pyc
-?? env-scanning/core/__pycache__/timeline_skeleton_filler.cpython-313.pyc
-?? env-scanning/core/__pycache__/timeline_skeleton_filler.cpython-314.pyc
-?? env-scanning/core/__pycache__/translation_parallelizer.cpython-313.pyc
-?? env-scanning/core/__pycache__/translation_validator.cpython-313.pyc
-?? env-scanning/core/__pycache__/unified_task_manager.cpython-313.pyc
-?? env-scanning/integrated/analysis/evolution/cross-evolution-map-2026-03-11.json
-?? env-scanning/integrated/analysis/integrated-exec-summary-2026-03-10.json
-?? env-scanning/integrated/analysis/integrated-exec-summary-2026-03-11.json
-?? env-scanning/integrated/analysis/integrated-report-statistics-2026-03-10.json
-?? env-scanning/integrated/analysis/integrated-report-statistics-2026-03-11.json
-?? env-scanning/integrated/analysis/integrated-top20-2026-03-10.json
-?? env-scanning/integrated/analysis/integrated-top20-2026-03-11.json
-?? env-scanning/integrated/logs/bilingual-config-2026-03-10.json
-?? env-scanning/integrated/logs/bilingual-config-2026-03-11.json
-?? env-scanning/integrated/logs/scan-window-2026-03-10.json
-?? env-scanning/integrated/logs/scan-window-2026-03-11.json
-?? env-scanning/integrated/reports/archive/2026/03/integrated-scan-2026-03-10-ko.md
-?? env-scanning/integrated/reports/archive/2026/03/integrated-scan-2026-03-10.md
-?? env-scanning/integrated/reports/archive/2026/03/timeline-map-2026-03-10.md
-?? env-scanning/integrated/reports/daily/_skeleton-prefilled-2026-03-10.md
-?? env-scanning/integrated/reports/daily/_skeleton-prefilled-2026-03-11.md
-?? env-scanning/integrated/reports/daily/integrated-scan-2026-03-10-ko.md
-?? env-scanning/integrated/reports/daily/integrated-scan-2026-03-10.md
-?? env-scanning/integrated/reports/daily/integrated-scan-2026-03-11-ko.md
-?? env-scanning/integrated/reports/daily/integrated-scan-2026-03-11.md
-?? env-scanning/integrated/reports/daily/timeline-map-2026-03-10.md
-?? env-scanning/scanners/__pycache__/__init__.cpython-313.pyc
-?? env-scanning/scanners/__pycache__/arxiv_scanner.cpython-313.pyc
-?? env-scanning/scanners/__pycache__/base_scanner.cpython-313.pyc
-?? env-scanning/scanners/__pycache__/federal_register_scanner.cpython-313.pyc
-?? env-scanning/scanners/__pycache__/rss_scanner.cpython-313.pyc
-?? env-scanning/scanners/__pycache__/scanner_factory.cpython-313.pyc
-?? env-scanning/scripts/__pycache__/validate_completion.cpython-313.pyc
-?? env-scanning/scripts/__pycache__/validate_phase2_output.cpython-313.pyc
-?? env-scanning/scripts/__pycache__/validate_report.cpython-313.pyc
-?? env-scanning/scripts/__pycache__/validate_report_quality.cpython-313.pyc
-?? env-scanning/scripts/__pycache__/validate_report_quality.cpython-314.pyc
-?? env-scanning/scripts/__pycache__/validate_timeline_map.cpython-313.pyc
-?? env-scanning/scripts/__pycache__/validate_timeline_map.cpython-314.pyc
-?? env-scanning/utils/__pycache__/entity_extractor.cpython-313.pyc
-?? env-scanning/wf1-general/analysis/2026-03-10/
-?? env-scanning/wf1-general/analysis/evolution/evolution-map-2026-03-10.json
-?? env-scanning/wf1-general/analysis/evolution/evolution-map-2026-03-11.json
-?? env-scanning/wf1-general/analysis/priority-ranked-2026-03-10.json
-?? env-scanning/wf1-general/analysis/priority-ranked-2026-03-11.json
-?? env-scanning/wf1-general/exploration/exploration-proof-2026-03-10.json
-?? env-scanning/wf1-general/exploration/exploration-proof-2026-03-11.json
-?? env-scanning/wf1-general/filtered/2026-03-10/
-?? env-scanning/wf1-general/reports/archive/2026/03/environmental-scan-2026-03-10-ko.md
-?? env-scanning/wf1-general/reports/archive/2026/03/environmental-scan-2026-03-10.md
-?? env-scanning/wf1-general/reports/archive/2026/03/environmental-scan-2026-03-11-ko.md
-?? env-scanning/wf1-general/reports/archive/2026/03/environmental-scan-2026-03-11.md
-?? env-scanning/wf1-general/reports/daily/_skeleton-prefilled-2026-03-10.md
-?? env-scanning/wf1-general/reports/daily/_skeleton-prefilled-2026-03-11.md
-?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-10-ko.md
-?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-10.md
-?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-11-ko.md
-?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-11.md
-?? env-scanning/wf1-general/reports/report-statistics-2026-03-10.json
-?? env-scanning/wf1-general/reports/report-statistics-2026-03-11.json
-?? env-scanning/wf1-general/signals/evolution-index-backup-2026-03-10.json
-?? env-scanning/wf1-general/signals/evolution-index-backup-2026-03-11.json
-?? env-scanning/wf1-general/signals/snapshots/database-2026-03-10-pre-update.json
-?? env-scanning/wf1-general/signals/snapshots/database-2026-03-11-pre-update.json
-?? env-scanning/wf1-general/structured/2026-03-10/
-?? env-scanning/wf1-general/structured/2026-03-11/
-?? env-scanning/wf1-general/structured/classified-signals-2026-03-10.json
-?? env-scanning/wf1-general/structured/classified-signals-2026-03-11.json
-?? env-scanning/wf1-general/workflow-status.json
-?? env-scanning/wf2-arxiv/analysis/evolution/evolution-map-2026-03-10.json
-?? env-scanning/wf2-arxiv/analysis/evolution/evolution-map-2026-03-11.json
-?? env-scanning/wf2-arxiv/analysis/priority-ranked-2026-03-10.json
-?? env-scanning/wf2-arxiv/analysis/priority-ranked-2026-03-11.json
-?? env-scanning/wf2-arxiv/context/
-?? env-scanning/wf2-arxiv/filtered/filtered-signals-2026-03-10.json
-?? env-scanning/wf2-arxiv/filtered/filtered-signals-2026-03-11.json
-?? env-scanning/wf2-arxiv/filtered/gate-filtered-arxiv-raw-2026-03-11.json
-?? env-scanning/wf2-arxiv/raw/arxiv-raw-2026-03-10.json
-?? env-scanning/wf2-arxiv/raw/arxiv-raw-2026-03-11.json
-?? env-scanning/wf2-arxiv/reports/archive/2026/03/arxiv-scan-2026-03-10-ko.md
-?? env-scanning/wf2-arxiv/reports/archive/2026/03/arxiv-scan-2026-03-11-ko.md
-?? env-scanning/wf2-arxiv/reports/archive/2026/03/environmental-scan-2026-03-10.md
-?? env-scanning/wf2-arxiv/reports/archive/2026/03/environmental-scan-2026-03-11.md
-?? env-scanning/wf2-arxiv/reports/daily/_skeleton-prefilled-2026-03-10.md
-?? env-scanning/wf2-arxiv/reports/daily/_skeleton-prefilled-2026-03-11.md
-?? env-scanning/wf2-arxiv/reports/daily/arxiv-scan-2026-03-10-ko.md
-?? env-scanning/wf2-arxiv/reports/daily/arxiv-scan-2026-03-11-ko.md
-?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-10.md
-?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-11.md
-?? env-scanning/wf2-arxiv/reports/report-statistics-2026-03-10.json
-?? env-scanning/wf2-arxiv/reports/report-statistics-2026-03-11.json
-?? env-scanning/wf2-arxiv/signals/database.json.bak
-?? env-scanning/wf2-arxiv/signals/evolution-index-backup-2026-03-10.json
-?? env-scanning/wf2-arxiv/signals/evolution-index-backup-2026-03-11.json
-?? env-scanning/wf2-arxiv/signals/snapshots/database-2026-03-11-pre-update.json
-?? env-scanning/wf2-arxiv/structured/classified-signals-2026-03-10.json
-?? env-scanning/wf2-arxiv/structured/classified-signals-2026-03-11.json
-?? env-scanning/wf2-arxiv/workflow-status.json
-?? env-scanning/wf3-naver/analysis/evolution/evolution-map-2026-03-10.json
-?? env-scanning/wf3-naver/analysis/priority-ranked-2026-03-10.json
-?? env-scanning/wf3-naver/raw/naver-raw-2026-03-10.json
-?? env-scanning/wf3-naver/raw/naver-raw-2026-03-11.json
-?? env-scanning/wf3-naver/reports/archive/2026/03/environmental-scan-2026-03-10-ko.md
-?? env-scanning/wf3-naver/reports/archive/2026/03/environmental-scan-2026-03-10.md
-?? env-scanning/wf3-naver/reports/archive/2026/03/naver-scan-2026-03-10-ko.md
-?? env-scanning/wf3-naver/reports/archive/2026/03/naver-scan-2026-03-10.md
-?? env-scanning/wf3-naver/reports/daily/_skeleton-prefilled-2026-03-10.md
-?? env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-10-ko.md
-?? env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-10.md
-?? env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-10-ko.md
-?? env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-10.md
-?? env-scanning/wf3-naver/reports/report-statistics-2026-03-10.json
-?? env-scanning/wf3-naver/signals/evolution-index-backup-2026-03-10.json
-?? env-scanning/wf3-naver/structured/classified-signals-2026-03-10.json
-?? env-scanning/wf3-naver/workflow-status.json
-?? env-scanning/wf4-multiglobal-news/analysis/evolution/evolution-map-2026-03-10.json
-?? env-scanning/wf4-multiglobal-news/analysis/evolution/evolution-map-2026-03-11.json
-?? env-scanning/wf4-multiglobal-news/analysis/priority-ranked-2026-03-10.json
-?? env-scanning/wf4-multiglobal-news/analysis/priority-ranked-2026-03-11.json
-?? env-scanning/wf4-multiglobal-news/filtered/filtered-signals-2026-03-10.json
-?? env-scanning/wf4-multiglobal-news/filtered/filtered-signals-2026-03-11.json
-?? env-scanning/wf4-multiglobal-news/filtered/gate-filtered-news-raw-2026-03-11.json
-?? env-scanning/wf4-multiglobal-news/raw/news-raw-2026-03-10.json
-?? env-scanning/wf4-multiglobal-news/raw/news-raw-2026-03-11.json
-?? env-scanning/wf4-multiglobal-news/reports/archive/2026/03/environmental-scan-2026-03-10-ko.md
-?? env-scanning/wf4-multiglobal-news/reports/archive/2026/03/environmental-scan-2026-03-10.md
-?? env-scanning/wf4-multiglobal-news/reports/archive/2026/03/environmental-scan-2026-03-11-ko.md
-?? env-scanning/wf4-multiglobal-news/reports/archive/2026/03/environmental-scan-2026-03-11.md
-?? env-scanning/wf4-multiglobal-news/reports/daily/_skeleton-prefilled-2026-03-10.md
-?? env-scanning/wf4-multiglobal-news/reports/daily/_skeleton-prefilled-2026-03-11.md
-?? env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-10-ko.md
-?? env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-10.md
-?? env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-11-ko.md
-?? env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-11.md
-?? env-scanning/wf4-multiglobal-news/reports/report-statistics-2026-03-10.json
-?? env-scanning/wf4-multiglobal-news/reports/report-statistics-2026-03-11.json
-?? env-scanning/wf4-multiglobal-news/signals/evolution-index-backup-2026-03-11.json
-?? env-scanning/wf4-multiglobal-news/signals/snapshots/database-2026-03-11-pre-update.json
-?? env-scanning/wf4-multiglobal-news/structured/classified-signals-2026-03-10.json
-?? env-scanning/wf4-multiglobal-news/structured/classified-signals-2026-03-11.json
-?? env-scanning/wf4-multiglobal-news/workflow-status.json
-?? tests/__pycache__/conftest.cpython-313-pytest-9.0.2.pyc
-?? tests/__pycache__/test_agent_swarm_integration.cpython-313-pytest-9.0.2.pyc
-?? tests/__pycache__/test_agent_swarm_parallel.cpython-313-pytest-9.0.2.pyc
-?? tests/__pycache__/test_agent_swarm_parallel.cpython-313.pyc
-?? tests/__pycache__/test_arxiv_agent_standalone.cpython-313-pytest-9.0.2.pyc
-?? tests/__pycache__/test_integration_translation.cpython-313-pytest-9.0.2.pyc
-?? tests/__pycache__/test_performance_benchmark.cpython-313-pytest-9.0.2.pyc
-?? tests/__pycache__/test_translation_parallelizer.cpython-313-pytest-9.0.2.pyc
-?? tests/__pycache__/test_unified_task_manager.cpython-313-pytest-9.0.2.pyc
-?? tests/e2e/__pycache__/test_full_workflow.cpython-313-pytest-9.0.2.pyc
-?? tests/integration/__pycache__/test_phase1_research.cpython-313-pytest-9.0.2.pyc
-?? tests/integration/__pycache__/test_phase2_analysis.cpython-313-pytest-9.0.2.pyc
-?? tests/integration/__pycache__/test_phase3_reporting.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_bilingual_resolver.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_dedup_gate.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_exploration_gate.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_exploration_merge_gate.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_frontier_selector.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_news_direct_crawler.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_news_signal_processor.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_priority_score_calculator.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_priority_score_calculator.cpython-314-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_psst_calculator.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_psst_calculator.cpython-314-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_report_statistics_engine.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_signal_evolution_tracker.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_skeleton_mirror.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_source_explorer.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_temporal_modules.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_theme_discovery_engine.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_theme_discovery_engine.cpython-314-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_timeline_data_assembler.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_timeline_data_assembler.cpython-314-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_timeline_map_generator.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_timeline_skeleton_filler.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_timeline_skeleton_filler.cpython-314-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_translation_validator.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_validate_completion.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_validate_phase2_output.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_validate_report.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_validate_report_quality_qc014.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_validate_timeline_map.cpython-313-pytest-9.0.2.pyc
-?? tests/unit/__pycache__/test_validate_timeline_map.cpython-314-pytest-9.0.2.pyc
+?? .claude/context-backups/context-backup-20260312_081035.md
+?? .claude/context-backups/context-backup-20260312_084955.md
+?? .claude/context-backups/context-backup-20260312_092241.md
+?? .claude/context-backups/context-backup-20260312_100202.md
+?? .claude/context-backups/context-backup-20260312_103002.md
+?? .claude/context-backups/context-backup-20260313_074434.md
+?? .claude/context-backups/context-backup-20260313_081719.md
+?? .claude/context-backups/context-backup-20260313_090723.md
+?? .claude/context-backups/context-backup-20260313_092420.md
+?? .claude/context-backups/context-backup-20260313_100244.md
+?? .claude/context-backups/context-backup-20260313_103521.md
+?? env-scanning/integrated/analysis/evolution/cross-evolution-map-2026-03-12.json
+?? env-scanning/integrated/analysis/evolution/cross-evolution-map-2026-03-13.json
+?? env-scanning/integrated/analysis/integrated-exec-summary-2026-03-12.json
+?? env-scanning/integrated/analysis/integrated-exec-summary-2026-03-13.json
+?? env-scanning/integrated/analysis/integrated-report-statistics-2026-03-12.json
+?? env-scanning/integrated/analysis/integrated-report-statistics-2026-03-13.json
+?? env-scanning/integrated/logs/bilingual-config-2026-03-12.json
+?? env-scanning/integrated/logs/bilingual-config-2026-03-13.json
+?? env-scanning/integrated/logs/scan-window-2026-03-12.json
+?? env-scanning/integrated/logs/scan-window-2026-03-13.json
+?? env-scanning/integrated/reports/archive/2026/03/integrated-scan-2026-03-12-ko.md
+?? env-scanning/integrated/reports/archive/2026/03/integrated-scan-2026-03-12.md
+?? env-scanning/integrated/reports/daily/_skeleton-prefilled-2026-03-12.md
+?? env-scanning/integrated/reports/daily/_skeleton-prefilled-2026-03-13.md
+?? env-scanning/integrated/reports/daily/integrated-scan-2026-03-12-ko.md
+?? env-scanning/integrated/reports/daily/integrated-scan-2026-03-12.md
+?? env-scanning/integrated/reports/daily/integrated-scan-2026-03-13-ko.md
+?? env-scanning/integrated/reports/daily/integrated-scan-2026-03-13.md
+?? env-scanning/integrated/reports/daily/timeline-map-2026-03-12.md
+?? env-scanning/integrated/reports/daily/timeline-map-2026-03-13.md
+?? env-scanning/integrated/reports/daily/timeline-summary-2026-03-13.txt
+?? env-scanning/wf1-general/analysis/classified-signals-2026-03-12.json
+?? env-scanning/wf1-general/analysis/classified-signals-2026-03-13.json
+?? env-scanning/wf1-general/analysis/evolution/evolution-map-2026-03-12.json
+?? env-scanning/wf1-general/analysis/evolution/evolution-map-2026-03-13.json
+?? env-scanning/wf1-general/analysis/priority-ranked-2026-03-13.json
+?? env-scanning/wf1-general/exploration/exploration-proof-2026-03-12.json
+?? env-scanning/wf1-general/exploration/exploration-proof-2026-03-13.json
+?? env-scanning/wf1-general/reports/archive/2026/03/environmental-scan-2026-03-12-ko.md
+?? env-scanning/wf1-general/reports/archive/2026/03/environmental-scan-2026-03-12.md
+?? env-scanning/wf1-general/reports/archive/2026/03/environmental-scan-2026-03-13-ko.md
+?? env-scanning/wf1-general/reports/archive/2026/03/environmental-scan-2026-03-13.md
+?? env-scanning/wf1-general/reports/daily/_skeleton-prefilled-2026-03-12.md
+?? env-scanning/wf1-general/reports/daily/_skeleton-prefilled-2026-03-13.md
+?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-12-ko.md
+?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-12.md
+?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-13-ko.md
+?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-13.md
+?? env-scanning/wf1-general/reports/report-statistics-2026-03-12.json
+?? env-scanning/wf1-general/reports/report-statistics-2026-03-13.json
+?? env-scanning/wf1-general/signals/evolution-index-backup-2026-03-12.json
+?? env-scanning/wf1-general/signals/evolution-index-backup-2026-03-13.json
+?? env-scanning/wf1-general/signals/snapshots/database-2026-03-12-pre-update.json
+?? env-scanning/wf1-general/signals/snapshots/database-2026-03-13-pre-update.json
+?? env-scanning/wf1-general/structured/signals-2026-03-12.json
+?? env-scanning/wf1-general/structured/signals-2026-03-13.json
+?? env-scanning/wf2-arxiv/analysis/evolution/evolution-map-2026-03-13.json
+?? env-scanning/wf2-arxiv/analysis/priority-ranked-2026-03-12.json
+?? env-scanning/wf2-arxiv/analysis/priority-ranked-2026-03-13.json
+?? env-scanning/wf2-arxiv/exploration/
+?? env-scanning/wf2-arxiv/filtered/filtered-signals-2026-03-12.json
+?? env-scanning/wf2-arxiv/filtered/filtered-signals-2026-03-13.json
+?? env-scanning/wf2-arxiv/raw/arxiv-raw-2026-03-12.json
+?? env-scanning/wf2-arxiv/raw/arxiv-raw-2026-03-13.json
+?? env-scanning/wf2-arxiv/reports/archive/2026/03/arxiv-scan-2026-03-12-ko.md
+?? env-scanning/wf2-arxiv/reports/archive/2026/03/arxiv-scan-2026-03-13-ko.md
+?? env-scanning/wf2-arxiv/reports/archive/2026/03/environmental-scan-2026-03-12.md
+?? env-scanning/wf2-arxiv/reports/archive/2026/03/environmental-scan-2026-03-13-ko.md
+?? env-scanning/wf2-arxiv/reports/archive/2026/03/environmental-scan-2026-03-13.md
+?? env-scanning/wf2-arxiv/reports/daily/_skeleton-prefilled-2026-03-12.md
+?? env-scanning/wf2-arxiv/reports/daily/_skeleton-prefilled-2026-03-13.md
+?? env-scanning/wf2-arxiv/reports/daily/arxiv-scan-2026-03-12-ko.md
+?? env-scanning/wf2-arxiv/reports/daily/arxiv-scan-2026-03-13-ko.md
+?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-12.md
+?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-13-ko.md
+?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-13.md
+?? env-scanning/wf2-arxiv/reports/report-statistics-2026-03-12.json
+?? env-scanning/wf2-arxiv/reports/report-statistics-2026-03-13.json
+?? env-scanning/wf2-arxiv/signals/database.json.snapshot-2026-03-12
+?? env-scanning/wf2-arxiv/signals/database.json.snapshot-2026-03-13
+?? env-scanning/wf2-arxiv/signals/evolution-index-backup-2026-03-13.json
+?? env-scanning/wf2-arxiv/structured/classified-signals-2026-03-12.json
+?? env-scanning/wf2-arxiv/structured/classified-signals-2026-03-13.json
+?? env-scanning/wf3-naver/analysis/evolution/evolution-map-2026-03-13.json
+?? env-scanning/wf3-naver/analysis/priority-ranked-2026-03-12.json
+?? env-scanning/wf3-naver/analysis/priority-ranked-2026-03-13.json
+?? env-scanning/wf3-naver/filtered/gate-filtered-daily-crawl-2026-03-12.json
+?? env-scanning/wf3-naver/filtered/gate-result-2026-03-12.json
+?? env-scanning/wf3-naver/filtered/gate-result-2026-03-13.json
+?? env-scanning/wf3-naver/filtered/new-signals-2026-03-12.json
+?? env-scanning/wf3-naver/filtered/new-signals-2026-03-13.json
+?? env-scanning/wf3-naver/raw/daily-crawl-2026-03-12.json
+?? env-scanning/wf3-naver/raw/daily-crawl-2026-03-13.json
+?? env-scanning/wf3-naver/reports/archive/2026/03/environmental-scan-2026-03-12-ko.md
+?? env-scanning/wf3-naver/reports/archive/2026/03/environmental-scan-2026-03-12.md
+?? env-scanning/wf3-naver/reports/archive/2026/03/environmental-scan-2026-03-13-ko.md
+?? env-scanning/wf3-naver/reports/archive/2026/03/environmental-scan-2026-03-13.md
+?? env-scanning/wf3-naver/reports/archive/2026/03/naver-scan-2026-03-12-ko.md
+?? env-scanning/wf3-naver/reports/archive/2026/03/naver-scan-2026-03-12.md
+?? env-scanning/wf3-naver/reports/archive/2026/03/naver-scan-2026-03-13-ko.md
+?? env-scanning/wf3-naver/reports/archive/2026/03/naver-scan-2026-03-13.md
+?? env-scanning/wf3-naver/reports/daily/_skeleton-prefilled-2026-03-12.md
+?? env-scanning/wf3-naver/reports/daily/_skeleton-prefilled-2026-03-13.md
+?? env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-12-ko.md
+?? env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-12.md
+?? env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-13-ko.md
+?? env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-13.md
+?? env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-12-ko.md
+?? env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-12.md
+?? env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-13-ko.md
+?? env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-13.md
+?? env-scanning/wf3-naver/reports/report-statistics-2026-03-12.json
+?? env-scanning/wf3-naver/reports/report-statistics-2026-03-13.json
+?? env-scanning/wf3-naver/signals/database.json.bak
+?? env-scanning/wf3-naver/signals/evolution-index-backup-2026-03-13.json
+?? env-scanning/wf3-naver/signals/snapshots/database-2026-03-13-pre-update.json
+?? env-scanning/wf3-naver/structured/classified-signals-2026-03-12.json
+?? env-scanning/wf3-naver/structured/classified-signals-2026-03-13.json
+?? env-scanning/wf4-multiglobal-news/analysis/evolution/evolution-map-2026-03-13.json
+?? env-scanning/wf4-multiglobal-news/analysis/priority-ranked-2026-03-12.json
+?? env-scanning/wf4-multiglobal-news/analysis/priority-ranked-2026-03-13.json
+?? env-scanning/wf4-multiglobal-news/filtered/gate-filtered-daily-crawl-2026-03-12.json
+?? env-scanning/wf4-multiglobal-news/filtered/gate-filtered-daily-crawl-2026-03-13.json
+?? env-scanning/wf4-multiglobal-news/filtered/gate-result-2026-03-12.json
+?? env-scanning/wf4-multiglobal-news/filtered/gate-result-2026-03-13.json
+?? env-scanning/wf4-multiglobal-news/filtered/new-signals-2026-03-12.json
+?? env-scanning/wf4-multiglobal-news/filtered/new-signals-2026-03-13.json
+?? env-scanning/wf4-multiglobal-news/raw/daily-crawl-2026-03-12.json
+?? env-scanning/wf4-multiglobal-news/raw/daily-crawl-2026-03-13.json
+?? env-scanning/wf4-multiglobal-news/reports/archive/2026/03/environmental-scan-2026-03-12-ko.md
+?? env-scanning/wf4-multiglobal-news/reports/archive/2026/03/environmental-scan-2026-03-12.md
+?? env-scanning/wf4-multiglobal-news/reports/archive/2026/03/environmental-scan-2026-03-13-ko.md
+?? env-scanning/wf4-multiglobal-news/reports/archive/2026/03/environmental-scan-2026-03-13.md
+?? env-scanning/wf4-multiglobal-news/reports/daily/_skeleton-prefilled-2026-03-12.md
+?? env-scanning/wf4-multiglobal-news/reports/daily/_skeleton-prefilled-2026-03-13.md
+?? env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-12-ko.md
+?? env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-12.md
+?? env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-13-ko.md
+?? env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-13.md
+?? env-scanning/wf4-multiglobal-news/reports/report-statistics-2026-03-12.json
+?? env-scanning/wf4-multiglobal-news/reports/report-statistics-2026-03-13.json
+?? env-scanning/wf4-multiglobal-news/signals/database.json.bak
+?? env-scanning/wf4-multiglobal-news/signals/evolution-index-backup-2026-03-13.json
+?? env-scanning/wf4-multiglobal-news/signals/snapshots/database-2026-03-13-pre-update.json
+?? env-scanning/wf4-multiglobal-news/structured/classified-signals-2026-03-12.json
+?? env-scanning/wf4-multiglobal-news/structured/classified-signals-2026-03-13.json
 
 ```
 
 **Recent Commits**:
 ```
+86cbd19 Add compiled Python cache files and generated artifacts
+80a931c Add 2026-03-10 and 2026-03-11 daily scan outputs
 d2bdfc6 Implement hallucination prevention (PG2, TERM fidelity, QC-014) + 2026-03-09 scan outputs
 8fcf3f3 Implement Timeline Map v3.1.0: Challenge-Response + Python 원천봉쇄 + full quality defense parity
 266b00b Add 2026-03-02 daily scan outputs + cleanup brand-logo-finder agent
-487572f Update all documentation to reflect Python 원천봉쇄 + Quality-First Architecture
-76d5d18 Implement Python 원천봉쇄 + Quality-First Architecture (2nd Critical Reflection)
 ```
 
 ---

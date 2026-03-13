@@ -1,68 +1,71 @@
 {
-  "workflow_id": "wf2-arxiv-2026-03-09",
-  "workflow_name": "arXiv Academic Deep Scanning",
-  "data_root": "env-scanning/wf2-arxiv",
-  "sources_config": "env-scanning/config/sources-arxiv.yaml",
+  "workflow": "wf2-arxiv",
+  "date": "2026-03-13",
   "status": "completed",
-  "current_phase": 3,
-  "current_step": "3.5",
-  "started_at": "2026-03-09T07:37:00+00:00",
-  "completed_at": "2026-03-08T23:38:04.240733+00:00",
-  "parameters": {
-    "days_back": 14,
-    "max_results_per_category": 50,
-    "extended_categories": true,
-    "scan_window": {
-      "lookback_hours": 48,
-      "tolerance_minutes": 60,
-      "enforce": "strict",
-      "window_start": "2026-03-06T22:36:42+00:00",
-      "window_end": "2026-03-08T22:36:42+00:00"
-    }
-  },
-  "execution_mode": "integrated",
-  "bilingual": {
-    "language": "en",
-    "report_skeleton": ".claude/skills/env-scanner/references/report-skeleton-en.md",
-    "validate_profile": "standard_en"
-  },
-  "human_decisions": {
-    "step_2_5": {
-      "decision": "auto-approved",
-      "timestamp": "2026-03-09T08:24:00+00:00",
-      "reason": "STEEPs distribution and ranking reasonable"
-    },
-    "step_3_4": {
-      "decision": "auto-approved",
-      "timestamp": "2026-03-08T23:38:04.241573+00:00",
-      "reason": "L2a 17/17 PASS, L2b 12/13 (0 CRITICAL, 0 ERROR)"
-    }
-  },
-  "phase_results": {
-    "phase1": {
+  "started_at": "2026-03-12T22:15:00Z",
+  "completed_at": "2026-03-12T23:25:51.494017+00:00",
+  "phases": {
+    "phase1_research": {
       "status": "completed",
-      "raw_signals": 792,
-      "after_dedup": 686
+      "signals_collected": 82,
+      "duplicates_removed": 0,
+      "collection_method": "rss_webfetch"
     },
-    "phase2": {
+    "phase2_planning": {
       "status": "completed",
-      "classified": 686,
+      "signals_classified": 82,
       "steeps_distribution": {
-        "T": 621,
-        "S": 28,
-        "E": 27,
-        "s": 8,
-        "P": 2
-      }
+        "T": 60,
+        "S": 14,
+        "E": 7,
+        "P": 1
+      },
+      "signals_ranked": 82
     },
-    "phase3": {
+    "phase3_implementation": {
       "status": "completed",
       "db_updated": true,
-      "db_total": 1001,
-      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-09.md",
-      "validation_l2a": "17/17 PASS",
-      "validation_l2b": "12/13 (0 CRITICAL, 0 ERROR, 1 WARN)",
+      "db_signals_total": 1194,
+      "report_en_validated": true,
+      "report_ko_validated": true,
+      "report_en_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-13.md",
+      "report_ko_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-13-ko.md",
       "archived": true
+    }
+  },
+  "human_approvals": {
+    "step_2_5": {
+      "decision": "approved",
+      "mode": "autopilot",
+      "timestamp": "2026-03-12T23:25:51.494190+00:00"
+    },
+    "step_3_4": {
+      "decision": "approved",
+      "mode": "autopilot",
+      "timestamp": "2026-03-12T23:25:51.494192+00:00"
+    }
+  },
+  "pipeline_gates": {
+    "gate1": {
+      "status": "PASS"
+    },
+    "gate2": {
+      "status": "PASS"
+    },
+    "gate3": {
+      "status": "PASS"
+    }
+  },
+  "verification_summary": {
+    "en_report": {
+      "passed": 17,
+      "warned": 0,
+      "failed": 0
+    },
+    "ko_report": {
+      "passed": 17,
+      "warned": 0,
+      "failed": 0
     }
   }
 }

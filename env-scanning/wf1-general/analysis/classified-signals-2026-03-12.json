@@ -1,0 +1,254 @@
+{
+  "analysis_metadata": {
+    "scan_date": "2026-03-12",
+    "analyst": "phase2-analyst",
+    "total_signals": 49,
+    "after_dedup": 45,
+    "duplicates_removed": 4,
+    "dedup_notes": "Removed: gut-brain axis duplicate (Nature + Science), military AI governance overlap (IEEE + MIT TR), Middle East crisis overlap (WHO + UN)"
+  },
+  "steeps_distribution": {
+    "T_Technological": 19,
+    "P_Political": 7,
+    "E_Economic": 6,
+    "E_Environmental": 6,
+    "S_Social": 4,
+    "s_spiritual": 4
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "tc-20260312-002",
+      "title": "Lovable Adds $100M Revenue in Single Month with 146 Employees",
+      "steeps": "T_Technological",
+      "impact_score": 9.2,
+      "psst_score": 82,
+      "psst_grade": "B",
+      "rationale": "Unprecedented revenue-per-employee ratio signals paradigm shift in software economics. Vibe-coding market explosion could restructure entire software industry employment, outsourcing, and pricing models. Cross-impact: reshapes E_Economic (labor markets), S_Social (employment)."
+    },
+    {
+      "rank": 2,
+      "id": "ieee-20260312-001",
+      "title": "Intel Heracles: 5000x FHE Speedup — Computing on Encrypted Data",
+      "steeps": "T_Technological",
+      "impact_score": 9.0,
+      "psst_score": 88,
+      "psst_grade": "B",
+      "rationale": "Makes fully homomorphic encryption practically viable for the first time. 5000x speedup enables secure computation on encrypted data at scale. Cross-impact: transforms P_Political (privacy regulation), E_Economic (data economy), s_spiritual (privacy rights)."
+    },
+    {
+      "rank": 3,
+      "id": "cb-20260312-003",
+      "title": "Iran War Disrupts Global Energy Transition — Strait of Hormuz Crisis",
+      "steeps": "E_Environmental",
+      "impact_score": 9.0,
+      "psst_score": 85,
+      "psst_grade": "B",
+      "rationale": "Middle East conflict threatening Strait of Hormuz creates cascading energy supply disruption affecting global climate transition. Oil/LNG price surges impact every economy. Cross-impact: E_Economic (prices), P_Political (geopolitics), S_Social (humanitarian)."
+    },
+    {
+      "rank": 4,
+      "id": "tc-20260312-004",
+      "title": "Mind Robotics $500M Series A — Industrial AI Robotics",
+      "steeps": "T_Technological",
+      "impact_score": 8.8,
+      "psst_score": 80,
+      "psst_grade": "B",
+      "rationale": "Massive Series A for manufacturing automation from Rivian founder signals acceleration of factory robotics. Cross-impact: E_Economic (manufacturing jobs), S_Social (labor displacement)."
+    },
+    {
+      "rank": 5,
+      "id": "mtr-20260312-001",
+      "title": "China's OpenClaw AI Agent Gold Rush",
+      "steeps": "T_Technological",
+      "impact_score": 8.5,
+      "psst_score": 78,
+      "psst_grade": "B",
+      "rationale": "Open-source AI agent commercialization outpacing security readiness in China. Government-backed adoption creates service economy. Security risks significant. Cross-impact: E_Economic (service industry), P_Political (China tech policy), s_spiritual (AI safety)."
+    },
+    {
+      "rank": 6,
+      "id": "tc-20260312-005",
+      "title": "VC Mega-Fund Resurgence: $10B+ Funds Return",
+      "steeps": "E_Economic",
+      "impact_score": 8.5,
+      "psst_score": 76,
+      "psst_grade": "B",
+      "rationale": "General Catalyst $10B, Spark $3B — AI-driven mega-fund wave signals unprecedented capital concentration in tech. Nearly 40 new unicorns in 2026 Q1. Cross-impact: T_Technological (innovation funding), S_Social (wealth concentration)."
+    },
+    {
+      "rank": 7,
+      "id": "mtr-20260312-005",
+      "title": "Data Centers to Consume 12% of US Electricity by 2028",
+      "steeps": "E_Environmental",
+      "impact_score": 8.5,
+      "psst_score": 84,
+      "psst_grade": "B",
+      "rationale": "AI infrastructure energy consumption tripling from 4% to 12% of US electricity by 2028. 100% of executives view power measurement as critical. Cross-impact: T_Technological (AI scaling limits), E_Economic (energy costs)."
+    },
+    {
+      "rank": 8,
+      "id": "who-20260312-001",
+      "title": "Middle East Health Crisis: 1300+ Dead in Iran, Healthcare Under Attack",
+      "steeps": "S_Social",
+      "impact_score": 8.5,
+      "psst_score": 90,
+      "psst_grade": "A",
+      "rationale": "WHO documents 18 verified attacks on healthcare in Iran, 100K+ displaced. WHO Dubai logistics hub disrupted affecting 1.5M people across 25 countries. Cross-impact: P_Political (humanitarian law), E_Economic (regional stability)."
+    },
+    {
+      "rank": 9,
+      "id": "hn-20260312-002",
+      "title": "Google Closes $32B Wiz Acquisition",
+      "steeps": "T_Technological",
+      "impact_score": 8.3,
+      "psst_score": 82,
+      "psst_grade": "B",
+      "rationale": "Largest cloud security acquisition ever. Signals massive enterprise security investment wave and Google's cloud dominance strategy. Cross-impact: E_Economic (M&A), P_Political (antitrust)."
+    },
+    {
+      "rank": 10,
+      "id": "tc-20260312-003",
+      "title": "Replit $9B Valuation — Triples in 6 Months",
+      "steeps": "T_Technological",
+      "impact_score": 8.2,
+      "psst_score": 78,
+      "psst_grade": "B",
+      "rationale": "Vibe-coding platform valuation tripling in 6 months confirms explosive demand for AI developer tools. Targeting $1B ARR. Cross-impact with Lovable signal: defines new market category."
+    },
+    {
+      "rank": 11,
+      "id": "nat-20260312-001",
+      "title": "0.6M+ Component Coherent 4D LiDAR Imaging Sensor",
+      "steeps": "T_Technological",
+      "impact_score": 8.0,
+      "psst_score": 90,
+      "psst_grade": "A",
+      "rationale": "Nature: integrated photonic focal plane with 600K+ components. Revolutionary for autonomous vehicles, robotics, remote sensing. Hardware breakthrough enabling next-gen autonomous systems."
+    },
+    {
+      "rank": 12,
+      "id": "mtr-20260312-003",
+      "title": "Pentagon vs Anthropic: AI Domestic Surveillance Legal Battle",
+      "steeps": "P_Political",
+      "impact_score": 8.0,
+      "psst_score": 76,
+      "psst_grade": "B",
+      "rationale": "Regulatory gap exposed: laws predate AI capability. Government can purchase commercial data on citizens without warrants. Defines boundary between AI companies and military. Cross-impact: s_spiritual (privacy), T_Technological (AI governance)."
+    },
+    {
+      "rank": 13,
+      "id": "cb-20260312-002",
+      "title": "Net-Zero Generates £110B Yearly Benefits — CCC Report",
+      "steeps": "E_Environmental",
+      "impact_score": 7.8,
+      "psst_score": 82,
+      "psst_grade": "B",
+      "rationale": "UK CCC quantifies: net-zero delivers £110B/yr benefits, household bills rise only 4% in crises vs 59% in fossil-dependent scenario. Strong economic case for energy transition."
+    },
+    {
+      "rank": 14,
+      "id": "tc-20260312-006",
+      "title": "Meta Acquires Moltbook — Agentic Commerce Future",
+      "steeps": "T_Technological",
+      "impact_score": 7.8,
+      "psst_score": 74,
+      "psst_grade": "B",
+      "rationale": "Meta's strategic pivot toward AI agents handling commerce and advertising. Signals platform-level shift from human browsing to agent-mediated transactions."
+    },
+    {
+      "rank": 15,
+      "id": "hn-20260312-001",
+      "title": "Dead Internet Theory Confirmed — AI Content Majority",
+      "steeps": "T_Technological",
+      "impact_score": 7.5,
+      "psst_score": 65,
+      "psst_grade": "C",
+      "rationale": "Analysis argues AI-generated content has reached tipping point where authentic human content becomes minority. Signals fundamental shift in information ecosystem. Cross-impact: s_spiritual (authenticity), S_Social (trust)."
+    },
+    {
+      "rank": 16,
+      "id": "hn-20260312-003",
+      "title": "HN Bans AI-Generated Comments — Platform Resistance Movement",
+      "steeps": "s_spiritual",
+      "impact_score": 7.5,
+      "psst_score": 70,
+      "psst_grade": "B",
+      "rationale": "Highest-engagement HN item (1813 points). 'HN is for conversation between humans.' Growing backlash against AI-generated content in human discourse spaces. Cross-impact: T_Technological (AI policy), S_Social (community norms)."
+    },
+    {
+      "rank": 17,
+      "id": "sci-20260312-002",
+      "title": "White House Plan to Break Up NCAR Climate Lab Advances",
+      "steeps": "P_Political",
+      "impact_score": 7.5,
+      "psst_score": 80,
+      "psst_grade": "B",
+      "rationale": "Iconic US climate research institution faces dissolution. Multiple organizations bidding for segments. Threatens decades of climate research continuity. Cross-impact: E_Environmental (climate science), T_Technological (research infrastructure)."
+    },
+    {
+      "rank": 18,
+      "id": "nat-20260312-002",
+      "title": "Gut-Brain Axis: Microbiome Drives Age-Related Cognitive Decline",
+      "steeps": "T_Technological",
+      "impact_score": 7.5,
+      "psst_score": 92,
+      "psst_grade": "A",
+      "rationale": "Nature: direct mechanism linking intestinal dysfunction to cognitive decline via MCFA-producing bacteria and GPR84 inflammation. Potential therapeutic target for aging-related dementia. Cross-impact: S_Social (aging population)."
+    },
+    {
+      "rank": 19,
+      "id": "pew-20260312-001",
+      "title": "Buddhism's Global Decline: Only Major Religion to Shrink",
+      "steeps": "s_spiritual",
+      "impact_score": 7.2,
+      "psst_score": 88,
+      "psst_grade": "B",
+      "rationale": "Pew: Buddhism the only major religion to decline globally (5% reduction 2010-2020). Concentrated in Japan and South Korea — linked to broader East Asian demographic and value shifts."
+    },
+    {
+      "rank": 20,
+      "id": "da-20260312-002",
+      "title": "Stablecoin-Powered Card for Africa's Unbanked — Financial Inclusion",
+      "steeps": "E_Economic",
+      "impact_score": 7.2,
+      "psst_score": 72,
+      "psst_grade": "B",
+      "rationale": "Blockchain-based financial inclusion breakthrough: stablecoin-linked Visa card for unbanked Africans. Bypasses traditional banking infrastructure. Cross-impact: T_Technological (blockchain), S_Social (inclusion)."
+    }
+  ],
+  "cross_impact_matrix": {
+    "key_interactions": [
+      {"from": "AI Agent Commercialization (T)", "to": "Labor Market Disruption (S/E)", "strength": "strong", "direction": "reinforcing"},
+      {"from": "Middle East Conflict (P)", "to": "Energy Transition (E_Env)", "strength": "strong", "direction": "accelerating"},
+      {"from": "Middle East Conflict (P)", "to": "Humanitarian Crisis (S)", "strength": "strong", "direction": "reinforcing"},
+      {"from": "AI Energy Consumption (E_Env)", "to": "AI Scaling (T)", "strength": "strong", "direction": "constraining"},
+      {"from": "Vibe-Coding Revolution (T)", "to": "Software Employment (E/S)", "strength": "strong", "direction": "disruptive"},
+      {"from": "FHE Breakthrough (T)", "to": "Privacy Regulation (P)", "strength": "moderate", "direction": "enabling"},
+      {"from": "Dead Internet (T)", "to": "Human Authenticity Values (s)", "strength": "strong", "direction": "reinforcing"},
+      {"from": "VC Mega-Funds (E)", "to": "AI Innovation (T)", "strength": "strong", "direction": "amplifying"}
+    ]
+  },
+  "emerging_themes": [
+    {
+      "theme": "AI Agent Economy Emergence",
+      "signals": ["tc-20260312-002", "tc-20260312-003", "mtr-20260312-001", "tc-20260312-006"],
+      "description": "Multiple signals converge on AI agents becoming economic actors: OpenClaw commercialization, vibe-coding platforms, Meta's agentic commerce. New service economies forming around AI tool deployment."
+    },
+    {
+      "theme": "Middle East Conflict Cascade",
+      "signals": ["who-20260312-001", "un-20260312-001", "cb-20260312-003", "tc-20260312-007"],
+      "description": "Iran conflict creating cascading disruptions across health, energy, cybersecurity, and humanitarian domains. $1B/day cost, Strait of Hormuz crisis, hacktivist attacks on healthcare."
+    },
+    {
+      "theme": "AI Content Authenticity Crisis",
+      "signals": ["hn-20260312-001", "hn-20260312-003", "mtr-20260312-004", "ieee-20260312-002"],
+      "description": "Convergent signals on AI-generated content overwhelming human content. Platform bans, dead internet thesis, AI misinformation in conflicts, sycophancy in chatbots."
+    },
+    {
+      "theme": "Energy-AI Nexus Tension",
+      "signals": ["mtr-20260312-005", "cb-20260312-001", "cb-20260312-002", "cb-20260312-003"],
+      "description": "AI infrastructure energy demand tripling while Middle East conflict disrupts energy supply. Net-zero economics strengthen but implementation challenged by geopolitical instability."
+    }
+  ]
+}

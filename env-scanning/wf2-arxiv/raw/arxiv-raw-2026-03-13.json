@@ -1,0 +1,2137 @@
+{
+  "scan_date": "2026-03-13",
+  "scan_window": {
+    "start": "2026-03-10T22:13:26.469862+00:00",
+    "end": "2026-03-12T22:13:26.469862+00:00",
+    "lookback_hours": 48
+  },
+  "source": "arXiv",
+  "total_collected": 50,
+  "pre_filter_count": 50,
+  "collection_timestamp": "2026-03-12T23:19:01.147431+00:00",
+  "signals": [
+    {
+      "id": "arxiv-2603.11047v1",
+      "title": "LiTo: Surface Light Field Tokenization",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.11047v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "We propose a 3D latent representation that jointly models object geometry and view-dependent appearance. Most prior works focus on either reconstructing 3D geometry or predicting view-independent diffuse appearance, and thus struggle to capture realistic view-dependent effects. Our approach leverages that RGB-depth images provide samples of a surface light field. By encoding random subsamples of this surface light field into a compact set of latent vectors, our model learns to represent both geometry and appearance within a unified 3D latent space. This representation reproduces view-dependent effects such as specular highlights and Fresnel reflections under complex lighting. We further train a latent flow matching model on this representation to learn its distribution conditioned on a single input image, enabling the generation of 3D objects with appearances consistent with the lighting and materials in the input. Experiments show that our approach achieves higher visual quality and better input fidelity than existing methods.",
+        "keywords": [
+          "cs.CV",
+          "cs.AI",
+          "cs.GR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.11047v1",
+        "authors": [
+          "Jen-Hao Rick Chang",
+          "Xiaoming Zhao",
+          "Dorian Chan",
+          "Oncel Tuzel"
+        ],
+        "arxiv_categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.GR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.368791+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.368791+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.11042v1",
+      "title": "V2M-Zero: Zero-Pair Time-Aligned Video-to-Music Generation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.11042v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Generating music that temporally aligns with video events is challenging for existing text-to-music models, which lack fine-grained temporal control. We introduce V2M-Zero, a zero-pair video-to-music generation approach that outputs time-aligned music for video. Our method is motivated by a key observation: temporal synchronization requires matching when and how much change occurs, not what changes. While musical and visual events differ semantically, they exhibit shared temporal structure that can be captured independently within each modality. We capture this structure through event curves computed from intra-modal similarity using pretrained music and video encoders. By measuring temporal change within each modality independently, these curves provide comparable representations across modalities. This enables a simple training strategy: fine-tune a text-to-music model on music-event curves, then substitute video-event curves at inference without cross-modal training or paired data. Across OES-Pub, MovieGenBench-Music, and AIST++, V2M-Zero achieves substantial gains over paired-data baselines: 5-21% higher audio quality, 13-15% better semantic alignment, 21-52% improved temporal synchronization, and 28% higher beat alignment on dance videos. We find similar results via a large crowd-source subjective listening test. Overall, our results validate that temporal alignment through within-modality features, rather than paired cross-modal supervision, is effective for video-to-music generation. Results are available at https://genjib.github.io/v2m_zero/",
+        "keywords": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG",
+          "cs.MM",
+          "cs.SD"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.11042v1",
+        "authors": [
+          "Yan-Bo Lin",
+          "Jonah Casebeer",
+          "Long Mai",
+          "Aniruddha Mahapatra",
+          "Gedas Bertasius"
+        ],
+        "arxiv_categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG",
+          "cs.MM",
+          "cs.SD"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.369161+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.369161+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.11040v1",
+      "title": "On positive definite thresholding of correlation matrices",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.11040v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Standard thresholding techniques for correlation matrices often destroy positive semidefiniteness. We investigate the construction of positive definite functions that vanish on specific sets $K \\subseteq [-1,1)$, ensuring that the thresholded matrix remains a valid correlation matrix. We establish existence results, define a criterion for faithfulness based on the linear coefficient of the normalized Gegenbauer expansion in analogy with Delsarte's method in coding theory, and provide bounds for thresholding at single points and pairs of points. We prove that for correlation matrices of rank $n$, any soft-thresholding operator that preserves positive semidefiniteness necessarily induces a geometric collapse of the feature space, as quantified by an $\\mathcal{O}(1/n)$ bound on the faithfulness constant. Such demonstrates that geometrically unbiased soft-thresholding limits the recoverable signal.",
+        "keywords": [
+          "math.ST",
+          "cs.IT",
+          "math.CA",
+          "math.FA",
+          "math.MG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.11040v1",
+        "authors": [
+          "Sujit Sakharam Damase",
+          "James Eldred Pascoe"
+        ],
+        "arxiv_categories": [
+          "math.ST",
+          "cs.IT",
+          "math.CA",
+          "math.FA",
+          "math.MG"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.369377+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.369377+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.11031v1",
+      "title": "Chasing RATs: Tracing Reading for and as Creative Activity",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.11031v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Creativity research has privileged making over the interpretive labor that precedes and shapes it. We introduce Reading Activity Traces (RATs), a proposal that treats reading -- broadly defined to include navigating, interpreting, and curating media across interconnected sources -- as creative activity both for future artifacts and as a form of creation in its own right. By tracing trajectories of traversal, association, and reflection as inspectable artifacts, RATs render visible the creative work that algorithmic feeds and AI summarization increasingly compress and automate away. We illustrate this through WikiRAT, a speculative instantiation on Wikipedia, and open new ground for reflective practice, reader modeling, collective sensemaking, and understanding what is lost when human interpretation is automated -- towards designing intelligent tools that preserve it.",
+        "keywords": [
+          "cs.HC",
+          "cs.IR",
+          "cs.MM",
+          "cs.SI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.11031v1",
+        "authors": [
+          "Sophia Liu",
+          "Shm Garanganao Almeda"
+        ],
+        "arxiv_categories": [
+          "cs.HC",
+          "cs.IR",
+          "cs.MM",
+          "cs.SI"
+        ],
+        "steeps_mapping": "S_Social"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-12T22:53:17.369591+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.369591+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.11025v1",
+      "title": "LLMGreenRec: LLM-Based Multi-Agent Recommender System for Sustainable E-Commerce",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.11025v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Rising environmental awareness in e-commerce necessitates recommender systems that not only guide users to sustainable products but also minimize their own digital carbon footprints. Traditional session-based systems, optimized for short-term conversions, often fail to capture nuanced user intents for eco-friendly choices, perpetuating a gap between green intentions and actions. To tackle this, we introduce LLMGreenRec, a novel multi-agent framework that leverages Large Language Models (LLMs) to promote sustainable consumption. Through collaborative analysis of user interactions and iterative prompt refinement, LLMGreenRec's specialized agents deduce green-oriented user intents and prioritize eco-friendly product recommendations. Notably, this intent-driven approach also reduces unnecessary interactions and energy consumption. Extensive experiments on benchmark datasets validate LLMGreenRec's effectiveness in recommending sustainable products, demonstrating a robust solution that fosters a responsible digital economy.",
+        "keywords": [
+          "cs.MA",
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.11025v1",
+        "authors": [
+          "Hao N. Nguyen",
+          "Hieu M. Nguyen",
+          "Son Van Nguyen",
+          "Nguyen Thi Hanh"
+        ],
+        "arxiv_categories": [
+          "cs.MA",
+          "cs.IR"
+        ],
+        "steeps_mapping": "P_Political"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-12T22:53:17.369833+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.369833+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.11008v1",
+      "title": "A Systematic Study of Pseudo-Relevance Feedback with LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.11008v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Pseudo-relevance feedback (PRF) methods built on large language models (LLMs) can be organized along two key design dimensions: the feedback source, which is where the feedback text is derived from and the feedback model, which is how the given feedback text is used to refine the query representation. However, the independent role that each dimension plays is unclear, as both are often entangled in empirical evaluations. In this paper, we address this gap by systematically studying how the choice of feedback source and feedback model impact PRF effectiveness through controlled experimentation. Across 13 low-resource BEIR tasks with five LLM PRF methods, our results show: (1) the choice of feedback model can play a critical role in PRF effectiveness; (2) feedback derived solely from LLM-generated text provides the most cost-effective solution; and (3) feedback derived from the corpus is most beneficial when utilizing candidate documents from a strong first-stage retriever. Together, our findings provide a better understanding of which elements in the PRF design space are most important.",
+        "keywords": [
+          "cs.IR",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.11008v1",
+        "authors": [
+          "Nour Jedidi",
+          "Jimmy Lin"
+        ],
+        "arxiv_categories": [
+          "cs.IR",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.370080+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.370080+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10996v1",
+      "title": "TreeON: Reconstructing 3D Tree Point Clouds from Orthophotos and Heightmaps",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10996v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "We present TreeON, a novel neural-based framework for reconstructing detailed 3D tree point clouds from sparse top-down geodata, using only a single orthophoto and its corresponding Digital Surface Model (DSM). Our method introduces a new training supervision strategy that combines both geometric supervision and differentiable shadow and silhouette losses to learn point cloud representations of trees without requiring species labels, procedural rules, terrestrial reconstruction data, or ground laser scans. To address the lack of ground truth data, we generate a synthetic dataset of point clouds from procedurally modeled trees and train our network on it. Quantitative and qualitative experiments demonstrate better reconstruction quality and coverage compared to existing methods, as well as strong generalization to real-world data, producing visually appealing and structurally plausible tree point cloud representations suitable for integration into interactive digital 3D maps. The codebase, synthetic dataset, and pretrained model are publicly available at https://angelikigram.github.io/treeON/.",
+        "keywords": [
+          "cs.GR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10996v1",
+        "authors": [
+          "Angeliki Grammatikaki",
+          "Johannes Eschner",
+          "Pedro Hermosilla",
+          "Oscar Argudo",
+          "Manuela Waldner"
+        ],
+        "arxiv_categories": [
+          "cs.GR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.370332+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.370332+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10982v1",
+      "title": "Poisson Sampling over Acyclic Joins",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10982v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "We introduce the problem of Poisson sampling over joins: compute a sample of the result of a join query by conceptually performing a Bernoulli trial for each join tuple, using a non-uniform and tuple-specific probability. We propose an algorithm for Poisson sampling over acyclic joins that is nearly instance-optimal, running in time O(N + k \\log N) where N is the size of the input database, and k is the size of the resulting sample. Our algorithm hinges on two building blocks: (1) The construction of a random-access index that allows, given a number i, to randomly access the i-th join tuple without fully materializing the (possibly large) join result; (2) The probing of this index to construct the result sample. We study the engineering trade-offs required to make both components practical, focusing on their implementation in column stores, and identify best-performing alternatives for both. Our experiments on real-world data demonstrate that this pair of alternatives significantly outperforms the repeated-Bernoulli-trial algorithm for Poisson sampling while also demonstrating that the random-access index by itself can be used to competively implement Yannakakis' acyclic join processing algorithm when no sampling is required. This shows that, as far a query engine design is concerned, it is possible to adopt a uniform basis for both classical acyclic join processing and Poisson sampling, both without regret compared to classical join and sampling algorithms.",
+        "keywords": [
+          "cs.DB"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10982v1",
+        "authors": [
+          "Liese Bekkers",
+          "Frank Neven",
+          "Lorrens Pantelis",
+          "Stijn Vansummeren"
+        ],
+        "arxiv_categories": [
+          "cs.DB"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.370647+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.370647+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10981v1",
+      "title": "Permutation-invariant codes: a numerical study and qudit constructions",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10981v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "We investigate Permutation-Invariant (PI) quantum error-correcting codes encoding a logical qudit of dimension $\\mathrm{d}_\\mathrm{L}$ in PI states using physical qudits of dimension $\\mathrm{d}_\\mathrm{P}$. We extend the Knill--Laflamme (KL) conditions for $d-1$ deletion errors from qubits to qudits and investigate numerically both qubit ($\\mathrm{d}_\\mathrm{L} = \\mathrm{d}_\\mathrm{P} = 2$) and qudit ($\\mathrm{d}_\\mathrm{L} > 2$ or $\\mathrm{d}_\\mathrm{P} > 2$) PI codes. We analyze the scaling of the block length $n$ in terms of the code distance $d$, and compare to existing families of PI codes due to Ouyang, Aydin--Alekseyev--Barg (AAB) and Pollatsek--Ruskai (PR). Our three main findings are: (i) We conjecture that qubit PI codes correcting up to $d-1$ deletion errors have block length $n(d) \\geq (3d^2 + 1) / 4$, which implies an upper bound $d \\leq \\sqrt{12n-3}/3$ on their code distance, and that PR codes can saturate this bound. (ii) For qudit PI codes encoding a single qudit we numerically observe that increasing $\\mathrm{d}_\\mathrm{P}$ results in $n$ monotonically decreasing and approaching the quantum Singleton bound $n(d) \\geq 2d-1$. (iii) We propose a semi-analytic extension of the qubit AAB construction to qudits that finds explicit solutions by solving a linear program. Our results therefore provide key insights into lower bounds on the block length scaling of both qubit and qudit PI codes, and demonstrate the benefit of increased physical local dimension in the context of PI codes.",
+        "keywords": [
+          "quant-ph",
+          "cs.IT"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10981v1",
+        "authors": [
+          "Liam J. Bond",
+          "Jiří Minář",
+          "Māris Ozols",
+          "Arghavan Safavi-Naini",
+          "Vladyslav Visnevskyi"
+        ],
+        "arxiv_categories": [
+          "quant-ph",
+          "cs.IT"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.370982+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.370982+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10934v1",
+      "title": "An Atlas of Extreme Properties in Cubic Symmetric Metamaterials",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10934v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Current research on three-dimensional metamaterial has largely focused on conventional strut, plate, and shell-based lattice designs. Although these designs offer several advantages, they possess inherent limitations that can restrict their performance in certain applications, motivating the exploration of alternative structural topologies. Here, we present a large-scale, symmetry guided framework for the generation and analysis of architected metamaterials based on all 36 cubic space groups. Using a voxel-based representation, we construct a database of approximately 1.95 million periodic unit cells spanning a broad range of relative densities and topological complexity. This dataset reveals a rich elastic property landscape shaped by crystallographic symmetry, including rare pentamode designs with high bulk to shear ratios such as $K/G \\approx 166$ , isotropic-auxetic architectures with Poisson's ratio as low as $ν=-0.76$, and structures achieving up to 93% of the Hashin-Shtrikman upper bound on stiffness. Complementing the dataset, we develop a three-dimensional convolutional neural network surrogate model trained and evaluated on the full database to predict strain-energy density values under uniaxial, shear, and hydrostatic loading. Together, this work establishes a comprehensive atlas of cubic symmetric metamaterials and provides a pre-trained model for the accelerated discovery and design of 3D architected materials with extreme mechanical properties.",
+        "keywords": [
+          "cs.CE",
+          "cond-mat.mtrl-sci",
+          "physics.app-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10934v1",
+        "authors": [
+          "Sahar Choukir",
+          "Nirosh Manohara",
+          "Chandra Veer Singh"
+        ],
+        "arxiv_categories": [
+          "cs.CE",
+          "cond-mat.mtrl-sci",
+          "physics.app-ph"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.371840+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.371840+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10921v1",
+      "title": "Training-Free Multi-Step Inference for Target Speaker Extraction",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10921v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Target speaker extraction (TSE) aims to recover a target speaker's speech from a mixture using a reference utterance as a cue. Most TSE systems adopt conditional auto-encoder architectures with one-step inference. Inspired by test-time scaling, we propose a training-free multi-step inference method that enables iterative refinement with a frozen pretrained model. At each step, new candidates are generated by interpolating the original mixture and the previous estimate, and the best candidate is selected for further refinement until convergence. Experiments show that, when ground-truth target speech is available, optimizing an intrusive metric (SI-SDRi) yields consistent gains across multiple evaluation metrics. Without ground truth, optimizing non-intrusive metrics (UTMOS or SpkSim) improves the corresponding metric but may hurt others. We therefore introduce joint metric optimization to balance these objectives, enabling controllable extraction preferences for practical deployment.",
+        "keywords": [
+          "cs.SD"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10921v1",
+        "authors": [
+          "Zhenghai You",
+          "Ying Shi",
+          "Lantian Li",
+          "Dong Wang"
+        ],
+        "arxiv_categories": [
+          "cs.SD"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.372075+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.372075+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10904v1",
+      "title": "When Fine-Tuning Fails and when it Generalises: Role of Data Diversity and Mixed Training in LLM-based TTS",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10904v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Large language models are increasingly adopted as semantic backbones for neural text-to-speech systems. However, frozen LLM representations are insufficient for modeling speaker specific acoustic and perceptual characteristics. Our experiments involving fine tuning of the Language Model backbone of TTS show promise in improving the voice consistency and Signal to Noise ratio SNR in voice cloning task. Across multiple speakers LoRA finetuning consistently outperforms the non-finetuned base Qwen-0.5B model across three complementary dimensions of speech quality. First, perceptual quality improves significantly with DNS-MOS gains of up to 0.42 points for speakers whose training data exhibits sufficient acoustic variability. Second, speaker fidelity improves for all evaluated speakers with consistent increases in voice similarity indicating that LoRA effectively adapts speaker identity representations without degrading linguistic modeling. Third, signal level quality improves in most cases with signal to noise ratio increasing by as much as 34 percent. Crucially these improvements are strongly governed by the characteristics of the training data. Speakers with high variability in acoustic energy and perceptual quality achieve simultaneous gains in DNS-MOS voice similarity and SNR. Overall this work establishes that LoRA finetuning is not merely a parameter efficient optimization technique but an effective mechanism for better speaker level adaptation in compact LLM-based TTS systems. When supported by sufficiently diverse training data LoRA adapted Qwen-0.5B consistently surpasses its frozen base model in perceptual quality speaker similarity with low latency using GGUF model hosted in quantized form.",
+        "keywords": [
+          "cs.SD",
+          "cs.AI",
+          "cs.ET"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10904v1",
+        "authors": [
+          "Anupam Purwar",
+          "Aditya Choudhary"
+        ],
+        "arxiv_categories": [
+          "cs.SD",
+          "cs.AI",
+          "cs.ET"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.372450+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.372450+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10891v1",
+      "title": "A Hybrid Knowledge-Grounded Framework for Safety and Traceability in Prescription Verification",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10891v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Medication errors pose a significant threat to patient safety, making pharmacist verification (PV) a critical, yet heavily burdened, final safeguard. The direct application of Large Language Models (LLMs) to this zero-tolerance domain is untenable due to their inherent factual unreliability, lack of traceability, and weakness in complex reasoning. To address these challenges, we introduce PharmGraph-Auditor, a novel system designed for safe and evidence-grounded prescription auditing. The core of our system is a trustworthy Hybrid Pharmaceutical Knowledge Base (HPKB), implemented under the Virtual Knowledge Graph (VKG) paradigm. This architecture strategically unifies a relational component for set constraint satisfaction and a graph component for topological reasoning via a rigorous mapping layer. To construct this HPKB, we propose the Iterative Schema Refinement (ISR) algorithm, a framework that enables the co-evolution of both graph and relational schemas from medical texts. For auditing, we introduce the KB-grounded Chain of Verification (CoV), a new reasoning paradigm that transforms the LLM from an unreliable generator into a transparent reasoning engine. CoV decomposes the audit task into a sequence of verifiable queries against the HPKB, generating hybrid query plans to retrieve evidence from the most appropriate data store. Experimental results demonstrate robust knowledge extraction capabilities and show promises of using PharmGraph-Auditor to enable pharmacists to achieve safer and faster prescription verification.",
+        "keywords": [
+          "cs.AI",
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10891v1",
+        "authors": [
+          "Yichi Zhu",
+          "Kan Ling",
+          "Xu Liu",
+          "Hengrun Zhang",
+          "Huiqun Yu"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.IR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.372793+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.372793+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10888v1",
+      "title": "VoxCare: Studying Natural Communication Behaviors of Hospital Caregivers through Wearable Sensing of Egocentric Audio",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10888v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Healthcare professionals work in complex, high-stakes environments where effective communication is critical for care delivery, team coordination, and individual well-being. However, communication activity in everyday clinical settings remains challenging to measure and largely unexplored in human behavioral research. We present VoxCare, a scalable egocentric wearable audio sensing and computing system that captures natural communication behaviors of hospital professionals in real-world settings without storing raw audio. VoxCare performs real-time, on-device acoustic feature extraction and applies a speech foundation model-guided teacher-student framework to identify foreground speech activity. From these features, VoxCare derives interpretable behavioral measures of communication frequency, duration, and vocal arousal. Our analyses reveal how, when, and how often clinicians communicate across different shifts and working units, and suggest that communication activity reflects underlying workload and stress. By enabling continuous assessment of communication patterns in everyday contexts, this study provides data-driven approaches to understand the behaviors of healthcare providers and ultimately improve healthcare delivery.",
+        "keywords": [
+          "cs.SD"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10888v1",
+        "authors": [
+          "Tiantian Feng",
+          "Kleanthis Avramidis",
+          "Anfeng Xu",
+          "Deqi Wang",
+          "Brandon M Booth"
+        ],
+        "arxiv_categories": [
+          "cs.SD"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.373077+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.373077+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10876v1",
+      "title": "An Extreme Multi-label Text Classification (XMTC) Library Dataset: What if we took \"Use of Practical AI in Digital Libraries\" seriously?",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10876v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Subject indexing is vital for discovery but hard to sustain at scale and across languages. We release a large bilingual (English/German) corpus of catalog records annotated with the Integrated Authority File (GND), plus a machine-actionable GND taxonomy. The resource enables ontology-aware multi-label classification, mapping text to authority terms, and agent-assisted cataloging with reproducible, authority-grounded evaluation. We provide a brief statistical profile and qualitative error analyses of three systems. We invite the community to assess not only accuracy but usefulness and transparency, toward authority-anchored AI co-pilots that amplify catalogers' work.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI",
+          "cs.DL",
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10876v1",
+        "authors": [
+          "Jennifer D'Souza",
+          "Sameer Sadruddin",
+          "Maximilian Kähler",
+          "Andrea Salfinger",
+          "Luca Zaccagna"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.DL",
+          "cs.IR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.373264+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.373264+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10862v1",
+      "title": "OSUM-Pangu: An Open-Source Multidimension Speech Understanding Foundation Model Built upon OpenPangu on Ascend NPUs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10862v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Recent advancements in Speech Large Language Models have significantly enhanced multi-dimensional speech understanding. However, the majority of high-performance frameworks are predominantly optimized for GPU centric ecosystems and proprietary backbones, creating a significant gap for deployment on non-CUDA computing infrastructures. In this paper, we present OSUM-Pangu, a fully open-source speech understanding foundation model developed on a completely non-CUDA software and hardware stack. By integrating an audio encoder with the openPangu-7B LLM backbone, we successfully implement the entire training and inference pipeline on the Ascend NPU platform. To facilitate efficient task alignment under non-CUDA resource constraints, we adopt a practical training process that sequentially bridges speech perception and user intent recognition. Experimental results demonstrate that OSUM-Pangu achieves task accuracy comparable to mainstream GPU-based models while maintaining robust natural language interaction capabilities. Our work provides a reproducible, non-CUDA baseline for the open-source speech community, promoting the independent evolution of multimodal intelligence.",
+        "keywords": [
+          "cs.SD"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10862v1",
+        "authors": [
+          "Yujie Liao",
+          "Xuelong Geng",
+          "Hongfei Xue",
+          "Shuiyuan Wang",
+          "Lei Xie"
+        ],
+        "arxiv_categories": [
+          "cs.SD"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.373541+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.373541+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10827v1",
+      "title": "Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10827v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Speech-aware large language models (LLMs) can accept speech inputs, yet their training objectives largely emphasize linguistic content or specific fields such as emotions or the speaker's gender, leaving it unclear whether they encode speaker identity. First, we propose a model-agnostic scoring protocol that produces continuous verification scores for both API-only and open-weight models, using confidence scores or log-likelihood ratios from the Yes/No token probabilities. Using this protocol, we benchmark recent speech-aware LLMs and observe weak speaker discrimination (EERs above 20% on VoxCeleb1). Second, we introduce a lightweight augmentation that equips an LLM with ASV capability by injecting frozen ECAPA-TDNN speaker embeddings through a learned projection and training only LoRA adapters. On TinyLLaMA-1.1B, the resulting ECAPA-LLM achieves 1.03% EER on VoxCeleb1-E, approaching a dedicated speaker verification system while preserving a natural-language interface.",
+        "keywords": [
+          "cs.SD",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10827v1",
+        "authors": [
+          "Thomas Thebaud",
+          "Yuzhe Wang",
+          "Laureano Moro-Velazquez",
+          "Jesus Villalba-Lopez",
+          "Najim Dehak"
+        ],
+        "arxiv_categories": [
+          "cs.SD",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.373772+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.373772+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10822v1",
+      "title": "Offset Pointing for Energy-efficient Reception in Underwater Optical Wireless Communication: Modeling and Performance Analysi",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10822v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Underwater Wireless Optical Communication is a key enabling technology for future space-air-ground-sea integrated networks. However, UOWC faces critical hurdles from spatial randomness and stringent energy constraints. These challenges fundamentally limit network lifetime and sustainability. This paper develops a comprehensive stochastic geometry framework to perform a differential energy analysis of UOWC links.Instead of relying on simplified models, we employ a three-dimensional truncated Poisson point process to accurately capture the anisotropic nature of the underwater environment, specifically the disparity between horizontal spread and vertical depth. It incorporates a Lambertian emission pattern, random receiver positions and orientations, and a realistic channel model with extinction effects. Under this model, we derive a full suite of closed-form expressions for key performance indicators. These include the nearest-neighbor distance distribution, expected received power, SNR, and BER. A principal and counter-intuitive finding of our analysis is an offset-pointing strategy. This strategy involves intentionally misaligning the receiver by a deterministically optimal angle. This approach maximizes the integrated received power across the aperture, contrary to the conventional pursuit of perfect alignment. We formulate and solve an energy-efficiency optimization problem. Our results demonstrate that this strategy enhances system robustness and yields substantial performance gains. Simulation results validate our analytical models. They show that the optimal offset strategy can reduce the required transmit power by nearly 20\\% to achieve a target BER. This reduction directly translates into extended network lifetime and higher total data throughput. These findings offer a new design paradigm for deploying robust, cost-effective, and sustainable UOWC networks.",
+        "keywords": [
+          "cs.IT"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10822v1",
+        "authors": [
+          "Qiyu Ma",
+          "Jiajie Xu",
+          "Mohamed-Slim Alouini"
+        ],
+        "arxiv_categories": [
+          "cs.IT"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.374184+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.374184+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10809v1",
+      "title": "Beyond Standard Datacubes: Extracting Features from Irregular and Branching Earth System Data",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10809v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Earth science datasets are growing rapidly in both volume and structural complexity. They increasingly contain richly labelled data with heterogeneous metadata and complex internal constraints that impose dependencies between variables and dimensions. Datacubes have become a common abstraction for organising such datasets, but traditional dense and orthogonal datacube models struggle to represent irregular, sparse or branching data spaces efficiently. In this paper, we introduce a generalised data hypercube representation based on compressed tree structures, which enables an accurate and compact description of complex data spaces. We describe the design of this representation and analyse its ability to capture sparsity and conditional relationships while remaining efficient to traverse. Using a concrete implementation, we study the performance characteristics of compressed tree data hypercubes and demonstrate their effectiveness as fast, cache-like indices over large backend data stores. Building on this representation, we present an integrated feature extraction system that operates directly on tree-based data hypercubes within the Polytope framework. By embedding data access strategies into the data hypercube abstraction itself, the system enables precise, sub-field data extraction and supports flexible, user-driven access patterns. We evaluate the performance of the integrated system and show how it enables new ways of interacting with complex datasets that are difficult to support using traditional access models. This work bridges the gap between expressive data hypercube models and efficient data access methods. In particular, it provides a unified framework that combines tree-based data representations with feature extraction capabilities. The proposed approach therefore offers a foundation for scalable and user-centric access to large heterogeneous Earth science datasets.",
+        "keywords": [
+          "cs.DB"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10809v1",
+        "authors": [
+          "Mathilde Leuridan",
+          "James Hawkes",
+          "Tiago Quintino",
+          "Martin Schultz"
+        ],
+        "arxiv_categories": [
+          "cs.DB"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.374580+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.374580+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10784v1",
+      "title": "Interpretable Chinese Metaphor Identification via LLM-Assisted MIPVU Rule Script Generation: A Comparative Protocol Study",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10784v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Metaphor identification is a foundational task in figurative language processing, yet most computational approaches operate as opaque classifiers offering no insight into why an expression is judged metaphorical. This interpretability gap is especially acute for Chinese, where rich figurative traditions, absent morphological cues, and limited annotated resources compound the challenge. We present an LLM-assisted pipeline that operationalises four metaphor identification protocols--MIP/MIPVU lexical analysis, CMDAG conceptual-mapping annotation, emotion-based detection, and simile-oriented identification--as executable, human-auditable rule scripts. Each protocol is a modular chain of deterministic steps interleaved with controlled LLM calls, producing structured rationales alongside every classification decision. We evaluate on seven Chinese metaphor datasets spanning token-, sentence-, and span-level annotation, establishing the first cross-protocol comparison for Chinese metaphor identification. Within-protocol evaluation shows Protocol A (MIP) achieves an F1 of 0.472 on token-level identification, while cross-protocol analysis reveals striking divergence: pairwise Cohen's kappa between Protocols A and D is merely 0.001, whereas Protocols B and C exhibit near-perfect agreement (kappa = 0.986). An interpretability audit shows all protocols achieve 100% deterministic reproducibility, with rationale correctness from 0.40 to 0.87 and editability from 0.80 to 1.00. Error analysis identifies conceptual-domain mismatch and register sensitivity as dominant failure modes. Our results demonstrate that protocol choice is the single largest source of variation in metaphor identification, exceeding model-level variation, and that rule-script architectures achieve competitive performance while maintaining full transparency.",
+        "keywords": [
+          "cs.CL",
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10784v1",
+        "authors": [
+          "Weihang Huang",
+          "Mengna Liu"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.IR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.374937+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.374937+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10769v1",
+      "title": "A Disguise-and-Squeeze PIR Scheme for the MDS-TPIR Setting and Beyond",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10769v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "We consider the problem of private information retrieval (PIR) from MDS coded databases with colluding servers, i.e., MDS-TPIR. In the MDS-TPIR setting, $M$ files are stored across $N$ servers, where each file is stored independently using an $(N,K)$-MDS code. A user wants to retrieve one file without disclosing the index of the desired file to any set of up to $T$ colluding servers. The general problem in studying PIR schemes is to maximize the PIR rate, defined as the ratio of the size of the desired file to the size of the total download. Freij-Hollanti et al. proposed a conjecture of the MDS-TPIR capacity (the maximum achievable PIR rate), which was later disproved by Sun and Jafar by a counterexample with $(M,N,T,K)=(2,4,2,2)$. In this paper, we propose a new MDS-TPIR scheme based on a disguise-and-squeeze approach. The features of our scheme include the following. Our scheme generalizes the Sun-Jafar counterexample to $(M,N,T,K)=(2,N,2,K)$ with $N\\geq K+2$ for an arbitrary $(N,K)$-MDS coded system, providing more counterexamples to the conjecture by Freij-Hollanti et al. For $(M,N,T,K)=(2,N,2,K)$ and a GRS (generalized Reed-Solomon codes) coded system, our scheme has rate $\\frac{N^2-N}{N^2+KN-2K}$, beating the state-of-the-art results. We further show that this rate achieves the linear MDS-TPIR capacity when $K=2$. Our scheme features a significantly smaller field size for implementation and the adaptiveness to generalized PIR models such as multi-file MDS-TPIR and MDS-PIR against cyclically adjacent colluding servers. Lastly, we provide an $ε$-error MDS-TPIR scheme for $T\\geq 3$ based on the disguise-and-squeeze framework.",
+        "keywords": [
+          "cs.IT"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10769v1",
+        "authors": [
+          "Rui Sun",
+          "Ran Tao",
+          "Jingke Xu",
+          "Yiwei Zhang"
+        ],
+        "arxiv_categories": [
+          "cs.IT"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.375792+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.375792+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10765v1",
+      "title": "RAGPerf: An End-to-End Benchmarking Framework for Retrieval-Augmented Generation Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10765v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "We present the design and implementation of a RAG-based AI system benchmarking (RAGPerf) framework for characterizing the system behaviors of RAG pipelines. To facilitate detailed profiling and fine-grained performance analysis, RAGPerf decouples the RAG workflow into several modular components - embedding, indexing, retrieval, reranking, and generation. RAGPerf offers the flexibility for users to configure the core parameters of each component and examine their impact on the end-to-end query performance and quality. RAGPerf has a workload generator to model real-world scenarios by supporting diverse datasets (e.g., text, pdf, code, and audio), different retrieval and update ratios, and query distributions. RAGPerf also supports different embedding models, major vector databases such as LanceDB, Milvus, Qdrant, Chroma, and Elasticsearch, as well as different LLMs for content generation. It automates the collection of performance metrics (i.e., end-to-end query throughput, host/GPU memory footprint, and CPU/GPU utilization) and accuracy metrics (i.e., context recall, query accuracy, and factual consistency). We demonstrate the capabilities of RAGPerf through a comprehensive set of experiments and open source its codebase at GitHub. Our evaluation shows that RAGPerf incurs negligible performance overhead.",
+        "keywords": [
+          "cs.PF",
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10765v1",
+        "authors": [
+          "Shaobo Li",
+          "Yirui Zhou",
+          "Yuan Xu",
+          "Kevin Chen",
+          "Daniel Waddington"
+        ],
+        "arxiv_categories": [
+          "cs.PF",
+          "cs.IR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.376061+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.376061+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10763v1",
+      "title": "Prioritizing Gradient Sign Over Modulus: An Importance-Aware Framework for Wireless Federated Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10763v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Wireless federated learning (FL) facilitates collaborative training of artificial intelligence (AI) models to support ubiquitous intelligent applications at the wireless edge. However, the inherent constraints of limited wireless resources inevitably lead to unreliable communication, which poses a significant challenge to wireless FL. To overcome this challenge, we propose Sign-Prioritized FL (SP-FL), a novel framework that improves wireless FL by prioritizing the transmission of important gradient information through uneven resource allocation. Specifically, recognizing the importance of descent direction in model updating, we transmit gradient signs in individual packets and allow their reuse for gradient descent if the remaining gradient modulus cannot be correctly recovered. To further improve the reliability of transmission of important information, we formulate a hierarchical resource allocation problem based on the importance disparity at both the packet and device levels, optimizing bandwidth allocation across multiple devices and power allocation between sign and modulus packets. To make the problem tractable, the one-step convergence behavior of SP-FL, which characterizes data importance at both levels in an explicit form, is analyzed. We then propose an alternating optimization algorithm to solve this problem using the Newton-Raphson method and successive convex approximation (SCA). Simulation results confirm the superiority of SP-FL, especially in resource-constrained scenarios, demonstrating up to 9.96\\% higher testing accuracy on the CIFAR-10 dataset compared to existing methods.",
+        "keywords": [
+          "cs.LG",
+          "cs.IT",
+          "eess.SP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10763v1",
+        "authors": [
+          "Yiyang Yue",
+          "Jiacheng Yao",
+          "Wei Xu",
+          "Zhaohui Yang",
+          "George K. Karagiannidis"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.IT",
+          "eess.SP"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.376374+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.376374+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10750v1",
+      "title": "Deep Randomized Distributed Function Computation (DeepRDFC): Neural Distributed Channel Simulation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10750v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "The randomized distributed function computation (RDFC) framework, which unifies many cutting-edge distributed computation and learning applications, is considered. An autoencoder (AE) architecture is proposed to minimize the total variation distance between the probability distribution simulated by the AE outputs and an unknown target distribution, using only data samples. We illustrate significantly high RDFC performance with communication load gains from our AEs compared to data compression methods. Our designs establish deep learning-based RDFC methods and aim to facilitate the use of RDFC methods, especially when the amount of common randomness is limited and strong function computation guarantees are required.",
+        "keywords": [
+          "cs.IT",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10750v1",
+        "authors": [
+          "Didrik Bergström",
+          "Onur Günlü"
+        ],
+        "arxiv_categories": [
+          "cs.IT",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.376537+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.376537+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10747v1",
+      "title": "Pneuma-Seeker: A Relational Reification Mechanism to Align AI Agents with Human Work over Relational Data",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10747v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "When faced with data problems, many data workers cannot articulate their information need precisely enough for software to help. Although LLMs interpret natural-language requests, they behave brittly when intent is under-specified, e.g., hallucinating fields, assuming join paths, or producing ungrounded answers. We present Pneuma-Seeker, a system built around a central idea: relational reification. Pneuma-Seeker represents a user's evolving information need as a relational schema: a concrete, analysis-ready data model shared between user and system. Rather than answering prompts directly, Pneuma-Seeker iteratively refines this schema, then discovers and prepares relevant sources to construct a relation and executable program that compute the answer. Pneuma-Seeker employs an LLM-powered agentic architecture with conductor-style planning and macro- and micro-level context management to operate effectively over heterogeneous relational corpora. We evaluate Pneuma-Seeker across multiple domains against state-of-the-art academic and industrial baselines, demonstrating higher answer accuracy. Deployment in a real organization highlights trust and inspectability as essential requirements for LLM-mediated data systems.",
+        "keywords": [
+          "cs.DB"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10747v1",
+        "authors": [
+          "Muhammad Imam Luthfi Balaka",
+          "John Hillesland",
+          "Kemal Badur",
+          "Raul Castro Fernandez"
+        ],
+        "arxiv_categories": [
+          "cs.DB"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.376787+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.376787+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10725v1",
+      "title": "Towards Robust Speech Deepfake Detection via Human-Inspired Reasoning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10725v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "The modern generative audio models can be used by an adversary in an unlawful manner, specifically, to impersonate other people to gain access to private information. To mitigate this issue, speech deepfake detection (SDD) methods started to evolve. Unfortunately, current SDD methods generally suffer from the lack of generalization to new audio domains and generators. More than that, they lack interpretability, especially human-like reasoning that would naturally explain the attribution of a given audio to the bona fide or spoof class and provide human-perceptible cues. In this paper, we propose HIR-SDD, a novel SDD framework that combines the strengths of Large Audio Language Models (LALMs) with the chain-of-thought reasoning derived from the novel proposed human-annotated dataset. Experimental evaluation demonstrates both the effectiveness of the proposed method and its ability to provide reasonable justifications for predictions.",
+        "keywords": [
+          "cs.SD",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10725v1",
+        "authors": [
+          "Artem Dvirniak",
+          "Evgeny Kushnir",
+          "Dmitrii Tarasov",
+          "Artem Iudin",
+          "Oleg Kiriukhin"
+        ],
+        "arxiv_categories": [
+          "cs.SD",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.376984+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.376984+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10713v1",
+      "title": "Probabilistic Verification of Voice Anti-Spoofing Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10713v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Recent advances in generative models have amplified the risk of malicious misuse of speech synthesis technologies, enabling adversaries to impersonate target speakers and access sensitive resources. Although speech deepfake detection has progressed rapidly, most existing countermeasures lack formal robustness guarantees or fail to generalize to unseen generation techniques. We propose PV-VASM, a probabilistic framework for verifying the robustness of voice anti-spoofing models (VASMs). PV-VASM estimates the probability of misclassification under text-to-speech (TTS), voice cloning (VC), and parametric signal transformations. The approach is model-agnostic and enables robustness verification against unseen speech synthesis techniques and input perturbations. We derive a theoretical upper bound on the error probability and validate the method across diverse experimental settings, demonstrating its effectiveness as a practical robustness verification tool.",
+        "keywords": [
+          "cs.SD",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10713v1",
+        "authors": [
+          "Evgeny Kushnir",
+          "Alexandr Kozodaev",
+          "Dmitrii Korzh",
+          "Mikhail Pautov",
+          "Oleg Kiriukhin"
+        ],
+        "arxiv_categories": [
+          "cs.SD",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.377180+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.377180+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10701v1",
+      "title": "AlphaFlowTSE: One-Step Generative Target Speaker Extraction via Conditional AlphaFlow",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10701v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "In target speaker extraction (TSE), we aim to recover target speech from a multi-talker mixture using a short enrollment utterance as reference. Recent studies on diffusion and flow-matching generators have improved target-speech fidelity. However, multi-step sampling increases latency, and one-step solutions often rely on a mixture-dependent time coordinate that can be unreliable for real-world conversations. We present AlphaFlowTSE, a one-step conditional generative model trained with a Jacobian-vector product (JVP)-free AlphaFlow objective. AlphaFlowTSE learns mean-velocity transport along a mixture-to-target trajectory starting from the observed mixture, eliminating auxiliary mixing-ratio prediction, and stabilizes training by combining flow matching with an interval-consistency teacher-student target. Experiments on Libri2Mix and REAL-T confirm that AlphaFlowTSE improves target-speaker similarity and real-mixture generalization for downstream automatic speech recognition (ASR).",
+        "keywords": [
+          "cs.SD",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10701v1",
+        "authors": [
+          "Duojia Li",
+          "Shuhan Zhang",
+          "Zihan Qian",
+          "Wenxuan Wu",
+          "Shuai Wang"
+        ],
+        "arxiv_categories": [
+          "cs.SD",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.377391+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.377391+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10700v1",
+      "title": "Structured Linked Data as a Memory Layer for Agent-Orchestrated Retrieval",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10700v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Retrieval-Augmented Generation (RAG) systems typically treat documents as flat text, ignoring the structured metadata and linked relationships that knowledge graphs provide. In this paper, we investigate whether structured linked data, specifically Schema.org markup and dereferenceable entity pages served by a Linked Data Platform, can improve retrieval accuracy and answer quality in both standard and agentic RAG systems. We conduct a controlled experiment across four domains (editorial, legal, travel, e-commerce) using Vertex AI Vector Search 2.0 for retrieval and the Google Agent Development Kit (ADK) for agentic reasoning. Our experimental design tests seven conditions: three document representations (plain HTML, HTML with JSON-LD, and an enhanced agentic-optimized entity page) crossed with two retrieval modes (standard RAG and agentic RAG with multi-hop link traversal), plus an Enhanced+ condition that adds rich navigational affordances and entity interlinking. Our results reveal that while JSON-LD markup alone provides only modest improvements, our enhanced entity page format, incorporating llms.txt-style agent instructions, breadcrumbs, and neural search capabilities, achieves substantial gains: +29.6% accuracy improvement for standard RAG and +29.8% for the full agentic pipeline. The Enhanced+ variant, with richer navigational affordances, achieves the highest absolute scores (accuracy: 4.85/5, completeness: 4.55/5), though the incremental gain over the base enhanced format is not statistically significant. We release our dataset, evaluation framework, and enhanced entity page templates to support reproducibility.",
+        "keywords": [
+          "cs.IR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10700v1",
+        "authors": [
+          "Andrea Volpini",
+          "Elie Raad",
+          "Beatrice Gamba",
+          "David Riccitelli"
+        ],
+        "arxiv_categories": [
+          "cs.IR",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.377724+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.377724+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10697v1",
+      "title": "EvoSchema: Towards Text-to-SQL Robustness Against Schema Evolution",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10697v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Neural text-to-SQL models, which translate natural language questions (NLQs) into SQL queries given a database schema, have achieved remarkable performance. However, database schemas frequently evolve to meet new requirements. Such schema evolution often leads to performance degradation for models trained on static schemas. Existing work either mainly focuses on simply paraphrasing some syntactic or semantic mappings among NLQ, DB and SQL, or lacks a comprehensive and controllable way to investigate the model robustness issue under the schema evolution, which is insufficient when facing the increasingly complex and rich database schema changes in reality, especially in the LLM era. To address the challenges posed by schema evolution, we present EvoSchema, a comprehensive benchmark designed to assess and enhance the robustness of text-to-SQL systems under real-world schema changes. EvoSchema introduces a novel schema evolution taxonomy, encompassing ten perturbation types across columnlevel and table-level modifications, systematically simulating the dynamic nature of database schemas. Through EvoSchema, we conduct an in-depth evaluation spanning different open source and closed-source LLMs, revealing that table-level perturbations have a significantly greater impact on model performance compared to column-level changes. Furthermore, EvoSchema inspires the development of more resilient text-to-SQL systems, in terms of both model training and database design. The models trained on EvoSchema's diverse schema designs can force the model to distinguish the schema difference for the same questions to avoid learning spurious patterns, which demonstrate remarkable robustness compared to those trained on unperturbed data on average. This benchmark offers valuable insights into model behavior and a path forward for designing systems capable of thriving in dynamic, real-world environments.",
+        "keywords": [
+          "cs.DB",
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10697v1",
+        "authors": [
+          "Tianshu Zhang",
+          "Kun Qian",
+          "Siddhartha Sahai",
+          "Yuan Tian",
+          "Shaddy Garg"
+        ],
+        "arxiv_categories": [
+          "cs.DB",
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.378074+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.378074+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10693v1",
+      "title": "Two-Layer Stacked Intelligent Metasurfaces: Balancing Performance and Complexity",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10693v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Stacked intelligent metasurfaces (SIMs) have emerged as a powerful paradigm for wave-domain signal processing, enabling fine-grained control over electromagnetic (EM) propagation in next-generation wireless systems. However, conventional multi-layer SIMs often suffer from excessive structural complexity, high computational overhead, and significant power attenuation across layers, limiting their performance. In this paper, we first characterize SIMs from the perspectives of functionality, application, and layer configuration, revealing the inherent trade-offs between signal processing flexibility and power efficiency. Then, two representative 2-layer architectures, the meta-fiber-connected SIM (MF-SIM) and the flexible intelligent layered metasurface (FILM), are introduced, each advocating a distinct 2-layer SIM design philosophy. Moreover, we identify several open challenges in topology optimization for MF-SIM, shape control for FILM, and hybrid 2-layer architectures. Finally, case studies considering 2-layer MF-SIM and FILM assisted point-to-point multiple-input multiple-output (MIMO) and multi-user communication systems validate that properly designed 2-layer SIMs can significantly reduce power loss and optimization burden while maintaining good signal processing performance, offering a promising pathway toward practical SIM-enabled 6G systems.",
+        "keywords": [
+          "cs.IT"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10693v1",
+        "authors": [
+          "Hong Niu",
+          "Chau Yuen",
+          "Marco Di Renzo",
+          "Mérouane Debbah",
+          "H. Vincent Poor"
+        ],
+        "arxiv_categories": [
+          "cs.IT"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.378342+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.378342+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10676v1",
+      "title": "Spatio-Temporal Attention Graph Neural Network: Explaining Causalities With Attention",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10676v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Industrial Control Systems (ICS) underpin critical infrastructure and face growing cyber-physical threats due to the convergence of operational technology and networked environments. While machine learning-based anomaly detection approaches in ICS shows strong theoretical performance, deployment is often limited by poor explainability, high false-positive rates, and sensitivity to evolving system behavior, i.e., baseline drifting. We propose a Spatio-Temporal Attention Graph Neural Network (STA-GNN) for unsupervised and explainable anomaly detection in ICS that models both temporal dynamics and relational structure of the system. Sensors, controllers, and network entities are represented as nodes in a dynamically learned graph, enabling the model to capture inter-dependencies across physical processes and communication patterns. Attention mechanisms provide influential relationships, supporting inspection of correlations and potential causal pathways behind detected events. The approach supports multiple data modalities, including SCADA point measurements, network flow features, and payload features, and thus enables unified cyber-physical analysis. To address operational requirements, we incorporate a conformal prediction strategy to control false alarm rates and monitor performance degradation under drifting of the environment. Our findings highlight the possibilities and limitations of model evaluation and common pitfalls in anomaly detection in ICS. Our findings emphasise the importance of explainable, drift-aware evaluation for reliable deployment of learning-based security monitoring systems.",
+        "keywords": [
+          "cs.LG",
+          "cs.CE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10676v1",
+        "authors": [
+          "Kosti Koistinen",
+          "Kirsi Hellsten",
+          "Joni Herttuainen",
+          "Kimmo K. Kaski"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.CE"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.378662+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.378662+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10673v1",
+      "title": "Breaking User-Centric Agency: A Tri-Party Framework for Agent-Based Recommendation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10673v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Recent advances in large language models (LLMs) have stimulated growing interest in agent-based recommender systems, enabling language-driven interaction and reasoning for more expressive preference modeling. However, most existing agentic approaches remain predominantly user-centric, treating items as passive entities and neglecting the interests of other critical stakeholders. This limitation exacerbates exposure concentration and long-tail under-representation, threatening long-term system sustainability. In this work, we identify this fundamental limitation and propose the first Tri-party LLM-agent Recommendation framework (TriRec) that explicitly coordinates user utility, item exposure, and platform-level fairness. The framework employs a two-stage architecture: Stage~1 empowers item agents with personalized self-promotion to improve matching quality and alleviate cold-start barriers, while Stage~2 uses a platform agent for sequential multi-objective re-ranking, balancing user relevance, item utility, and exposure fairness. Experiments on multiple benchmarks show consistent gains in accuracy, fairness, and item-level utility. Moreover, we find that item self-promotion can simultaneously enhance fairness and effectiveness, challenging the conventional trade-off assumption between relevance and fairness. Our code is available at https://github.com/Marfekey/TriRec.",
+        "keywords": [
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10673v1",
+        "authors": [
+          "Yaxin Gong",
+          "Chongming Gao",
+          "Chenxiao Fan",
+          "Wenjie Wang",
+          "Fuli Feng"
+        ],
+        "arxiv_categories": [
+          "cs.IR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.378936+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.378936+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10625v1",
+      "title": "A Hypergraph-Based Framework for Exploratory Business Intelligence",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10625v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Business Intelligence (BI) analysis is evolving towards Exploratory BI, an iterative, multi-round exploration paradigm where analysts progressively refine their understanding. However, traditional BI systems impose critical limits for Exploratory BI: heavy reliance on expert knowledge, high computational costs, static schemas, and lack of reusability. We present ExBI, a novel system that introduces the hypergraph data model with operators, including Source, Join, and View, to enable dynamic schema evolution and materialized view reuse. Using sampling-based algorithms with provable estimation guarantees, ExBI addresses the computational bottlenecks, while maintaining analytical accuracy. Experiments on LDBC datasets demonstrate that ExBI achieves significant speedups over existing systems: on average 16.21x (up to 146.25x) compared to Neo4j and 46.67x (up to 230.53x) compared to MySQL, while maintaining high accuracy with an average error rate of only 0.27% for COUNT, enabling efficient and accurate large-scale exploratory BI workflows.",
+        "keywords": [
+          "cs.DB",
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10625v1",
+        "authors": [
+          "Yunkai Lou",
+          "Shunyang Li",
+          "Longbin Lai",
+          "Jianke Yu",
+          "Wenyuan Yu"
+        ],
+        "arxiv_categories": [
+          "cs.DB",
+          "cs.IR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.379148+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.379148+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10623v1",
+      "title": "Geo-ATBench: A Benchmark for Geospatial Audio Tagging with Geospatial Semantic Context",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10623v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Environmental sound understanding in computational auditory scene analysis (CASA) is often formulated as an audio-only recognition problem. This formulation leaves a persistent drawback in multi-label audio tagging (AT): acoustic similarity can make certain events difficult to separate from waveforms alone. In such cases, disambiguating cues often lie outside the waveform. Geospatial semantic context (GSC), derived from geographic information system data, e.g., points of interest (POI), provides location-tied environmental priors that can help reduce this ambiguity. A systematic study of this direction is enabled through the proposed geospatial audio tagging (Geo-AT) task, which conditions multi-label sound event tagging on GSC alongside audio. To benchmark Geo-AT, Geo-ATBench is introduced as a polyphonic audio benchmark with geographical annotations, containing 10.71 hours of audio across 28 event categories; each clip is paired with a GSC representation from 11 semantic context categories. GeoFusion-AT is proposed as a unified geo-audio fusion framework that evaluates feature-, representation-, and decision-level fusion on representative audio backbones, with audio- and GSC-only baselines. Results show that incorporating GSC improves AT performance, especially on acoustically confounded labels, indicating geospatial semantics provide effective priors beyond audio alone. A crowdsourced listening study with 10 participants on 579 samples shows that there is no significant difference in performance between models on Geo-ATBench labels and aggregated human labels, supporting Geo-ATBench as a human-aligned benchmark. The Geo-AT task, benchmark Geo-ATBench, and reproducible geo-audio fusion framework GeoFusion-AT provide a foundation for studying AT with geospatial semantic context within the CASA community. Dataset, code, models are on homepage (https://github.com/WuYanru2002/Geo-ATBench).",
+        "keywords": [
+          "eess.AS",
+          "cs.LG",
+          "cs.SD"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10623v1",
+        "authors": [
+          "Yuanbo Hou",
+          "Yanru Wu",
+          "Qiaoqiao Ren",
+          "Shengchen Li",
+          "Stephen Roberts"
+        ],
+        "arxiv_categories": [
+          "eess.AS",
+          "cs.LG",
+          "cs.SD"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.379515+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.379515+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10606v1",
+      "title": "TopGen: Learning Structural Layouts and Cross-Fields for Quadrilateral Mesh Generation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10606v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "High-quality quadrilateral mesh generation is a fundamental challenge in computer graphics. Traditional optimization-based methods are often constrained by the topological quality of input meshes and suffer from severe efficiency bottlenecks, frequently becoming computationally prohibitive when handling high-resolution models. While emerging learning-based approaches offer greater flexibility, they primarily focus on cross-field prediction, often resulting in the loss of critical structural layouts and a lack of editability. In this paper, we propose TopGen, a robust and efficient learning-based framework that mimics professional manual modeling workflows by simultaneously predicting structural layouts and cross-fields. By processing input triangular meshes through point cloud sampling and a shape encoder, TopGen is inherently robust to non-manifold geometries and low-quality initial topologies. We introduce a dual-query decoder using edge-based and face-based sampling points as queries to perform structural line classification and cross-field regression in parallel. This integrated approach explicitly extracts the geometric skeleton while concurrently capturing orientation fields. Such synergy ensures the preservation of geometric integrity and provides an intuitive, editable foundation for subsequent quadrilateral remeshing. To support this framework, we also introduce a large-scale quadrilateral mesh dataset, TopGen-220K, featuring high-quality paired data comprising raw triangular meshes, structural layouts, cross-fields, and their corresponding quad meshes. Experimental results demonstrate that TopGen significantly outperforms existing state-of-the-art methods in both geometric fidelity and topological edge flow rationality.",
+        "keywords": [
+          "cs.GR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10606v1",
+        "authors": [
+          "Yuguang Chen",
+          "Xinhai Liu",
+          "Xiangyu Zhu",
+          "Yiling Zhu",
+          "Zhuo Chen"
+        ],
+        "arxiv_categories": [
+          "cs.GR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.379845+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.379845+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10600v1",
+      "title": "Trajectory-Informed Memory Generation for Self-Improving Agent Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10600v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "LLM-powered agents face a persistent challenge: learning from their execution experiences to improve future performance. While agents can successfully complete many tasks, they often repeat inefficient patterns, fail to recover from similar errors, and miss opportunities to apply successful strategies from past executions. We present a novel framework for automatically extracting actionable learnings from agent execution trajectories and utilizing them to improve future performance through contextual memory retrieval. Our approach comprises four components: (1) a Trajectory Intelligence Extractor that performs semantic analysis of agent reasoning patterns, (2) a Decision Attribution Analyzer that identifies which decisions and reasoning steps led to failures, recoveries, or inefficiencies, (3) a Contextual Learning Generator that produces three types of guidance -- strategy tips from successful patterns, recovery tips from failure handling, and optimization tips from inefficient but successful executions, and (4) an Adaptive Memory Retrieval System that injects relevant learnings into agent prompts based on multi-dimensional similarity. Unlike existing memory systems that store generic conversational facts, our framework understands execution patterns, extracts structured learnings with provenance, and retrieves guidance tailored to specific task contexts. Evaluation on the AppWorld benchmark demonstrates consistent improvements, with up to 14.3 percentage point gains in scenario goal completion on held-out tasks and particularly strong benefits on complex tasks (28.5~pp scenario goal improvement, a 149\\% relative increase).",
+        "keywords": [
+          "cs.AI",
+          "cs.DB",
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10600v1",
+        "authors": [
+          "Gaodan Fang",
+          "Vatche Isahagian",
+          "K. R. Jayaram",
+          "Ritesh Kumar",
+          "Vinod Muthusamy"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.DB",
+          "cs.IR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.380163+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.380163+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10590v1",
+      "title": "Exact Interpolation under Noise: A Reproducible Comparison of Clough-Tocher and Multiquadric RBF Surfaces",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10590v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "This paper presents a reproducible comparison of cubic and radial basis function (RBF) interpolants for multivariate surface analysis. To eliminate evaluation bias, both methods are assessed under a unified slice-wise train/test protocol on the same synthetic function family. Performance is reported using RMSE, MAE, and $R^2$ in two regimes: (i) noise-free observations and (ii) noisy observations. In the noise-free regime, both interpolants achieve high accuracy with output-dependent advantages. In the noisy regime, exact interpolation overfits noisy nodes and degrades out-of-sample performance for both methods; in our experimental setting, the cubic interpolant is comparatively more stable. All experiments are fully reproducible through a single SciPy/NumPy-based script with a fixed random seed, repeated splits, and bootstrap-based uncertainty summaries. From an environmental engineering perspective, the main practical implication is that noisy or apparently inconsistent measurements in thermodynamic process systems should not be discarded by default; instead, they can be structured and interpolated to recover physically meaningful process behavior.",
+        "keywords": [
+          "cs.GR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10590v1",
+        "authors": [
+          "Mirkan Emir Sancak"
+        ],
+        "arxiv_categories": [
+          "cs.GR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.380411+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.380411+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10587v1",
+      "title": "Distilling LLM Semantic Priors into Encoder-Only Multi-Talker ASR with Talker-Count Routing",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10587v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Large language models (LLMs) provide strong semantic priors that can improve multi-talker automatic speech recognition (MT-ASR), but using an LLM as an autoregressive decoder is computationally expensive and remains fragile under heavy overlap. In this paper, we propose an encoder-only MT-ASR framework that adapts an LLM to multi-talker conditioning and distills its semantic guidance into the encoder during training, while retaining fast CTC-style decoding at inference. Our model employs a post-encoder separator with serialized CTC to produce talker-ordered transcripts, and leverages an adapted LLM-based SOT objective as a multi-talker-aware teacher signal to explicitly regularize mixed-speech representations. To further support variable numbers of talkers, we introduce a Talker-Count Head that predicts the talker count and dynamically selects the appropriate decoding branch. Experiments on LibriMix show that the proposed encoder-only model achieves comparable performance to LLM-based systems in the two-talker condition, while delivering significant improvements in the three-talker condition with significant small RTF.",
+        "keywords": [
+          "cs.SD"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10587v1",
+        "authors": [
+          "Hao Shi",
+          "Yusuke Fujita",
+          "Roman Koshkin",
+          "Mengjie Zhao",
+          "Yuan Gao"
+        ],
+        "arxiv_categories": [
+          "cs.SD"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.380660+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.380660+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10578v1",
+      "title": "R4-CGQA: Retrieval-based Vision Language Models for Computer Graphics Image Quality Assessment",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10578v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Immersive Computer Graphics (CGs) rendering has become ubiquitous in modern daily life. However, comprehensively evaluating CG quality remains challenging for two reasons: First, existing CG datasets lack systematic descriptions of rendering quality; and second existing CG quality assessment methods cannot provide reasonable text-based explanations. To address these issues, we first identify six key perceptual dimensions of CG quality from the user perspective and construct a dataset of 3500 CG images with corresponding quality descriptions. Each description covers CG style, content, and perceived quality along the selected dimensions. Furthermore, we use a subset of the dataset to build several question-answer benchmarks based on the descriptions in order to evaluate the responses of existing Vision Language Models (VLMs). We find that current VLMs are not sufficiently accurate in judging fine-grained CG quality, but that descriptions of visually similar images can significantly improve a VLM's understanding of a given CG image. Motivated by this observation, we adopt retrieval-augmented generation and propose a two-stream retrieval framework that effectively enhances the CG quality assessment capabilities of VLMs. Experiments on several representative VLMs demonstrate that our method substantially improves their performance on CG quality assessment.",
+        "keywords": [
+          "cs.CV",
+          "cs.DB"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10578v1",
+        "authors": [
+          "Zhuangzi Li",
+          "Jian Jin",
+          "Shilv Cai",
+          "Weisi Lin"
+        ],
+        "arxiv_categories": [
+          "cs.CV",
+          "cs.DB"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.380936+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.380936+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10551v1",
+      "title": "P-GSVC: Layered Progressive 2D Gaussian Splatting for Scalable Image and Video",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10551v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Gaussian splatting has emerged as a competitive explicit representation for image and video reconstruction. In this work, we present P-GSVC, the first layered progressive 2D Gaussian splatting framework that provides a unified solution for scalable Gaussian representation in both images and videos. P-GSVC organizes 2D Gaussian splats into a base layer and successive enhancement layers, enabling coarse-to-fine reconstructions. To effectively optimize this layered representation, we propose a joint training strategy that simultaneously updates Gaussians across layers, aligning their optimization trajectories to ensure inter-layer compatibility and a stable progressive reconstruction. P-GSVC supports scalability in terms of both quality and resolution. Our experiments show that the joint training strategy can gain up to 1.9 dB improvement in PSNR for video and 2.6 dB improvement in PSNR for image when compared to methods that perform sequential layer-wise training. Project page: https://longanwang-cs.github.io/PGSVC-webpage/",
+        "keywords": [
+          "cs.CV",
+          "cs.MM"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10551v1",
+        "authors": [
+          "Longan Wang",
+          "Yuang Shi",
+          "Wei Tsang Ooi"
+        ],
+        "arxiv_categories": [
+          "cs.CV",
+          "cs.MM"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.381153+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.381153+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10514v1",
+      "title": "Estimating the condition number of Chebyshev filtered vectors with application to the ChASE library",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10514v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Chebyshev filtered subspace iteration is a well-known algorithm for the solution of (symmetric/Hermitian) algebraic eigenproblems which has been implemented in several application codes~\\cite{Kronik:2006ff, abinit:2020} or in stand alone libraries~\\cite{ChASE}. An essential part of the algorithm is the QR-factorization of the array of vectors spanning the active subspace that have been filtered by the Chebyshev filter. Typically such an array has an a-priori unknown high condition number that directly influences the choice of QR-factorization algorithm. In this work we show how such condition number can be bound from above with precise and inexpensive estimates. We then proceed to use these estimates to implement a mechanism for the choice of QR-factorization in the ChASE library. We show how such mechanism enhance the performance of the library without compromising on its accuracy.",
+        "keywords": [
+          "math.NA",
+          "cs.CE",
+          "cs.DC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10514v1",
+        "authors": [
+          "Edoardo Di Napoli",
+          "Xinzhe Wu"
+        ],
+        "arxiv_categories": [
+          "math.NA",
+          "cs.CE",
+          "cs.DC"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.381345+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.381345+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10471v1",
+      "title": "Modeling Stage-wise Evolution of User Interests for News Recommendation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10471v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Personalized news recommendation is highly time-sensitive, as user interests are often driven by emerging events, trending topics, and shifting real-world contexts. These dynamics make it essential to model not only users' long-term preferences, which reflect stable reading habits and high-order collaborative patterns, but also their short-term, context-dependent interests that change rapidly over time. However, most existing approaches rely on a single static interaction graph, which struggles to capture both long-term preference patterns and short-term interest changes as user behavior evolves. To address this challenge, we propose a unified framework that learns user preferences from both global and local temporal perspectives. A global preference modeling component captures long-term collaborative signals from the overall interaction graph, while a local preference modeling component partitions historical interactions into stage-wise temporal subgraphs to represent short-term dynamics. Within this module, an LSTM branch models the progressive evolution of recent interests, and a self-attention branch captures long-range temporal dependencies. Extensive experiments on two large-scale real-world datasets show that our approach consistently outperforms strong baselines and delivers fresher and more relevant recommendations across diverse user behaviors and temporal settings.",
+        "keywords": [
+          "cs.IR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10471v1",
+        "authors": [
+          "Zhiyong Cheng",
+          "Yike Jin",
+          "Zhijie Zhang",
+          "Huilin Chen",
+          "Zhangling Duan"
+        ],
+        "arxiv_categories": [
+          "cs.IR",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.381627+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.381627+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10468v1",
+      "title": "G-STAR: End-to-End Global Speaker-Tracking Attributed Recognition",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10468v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "We study timestamped speaker-attributed ASR for long-form, multi-party speech with overlap, where chunk-wise inference must preserve meeting-level speaker identity consistency while producing time-stamped, speaker-labeled transcripts. Previous Speech-LLM systems tend to prioritize either local diarization or global labeling, but often lack the ability to capture fine-grained temporal boundaries or robust cross-chunk identity linking. We propose G-STAR, an end-to-end system that couples a time-aware speaker-tracking module with a Speech-LLM transcription backbone. The tracker provides structured speaker cues with temporal grounding, and the LLM generates attributed text conditioned on these cues. G-STAR supports both component-wise optimization and joint end-to-end training, enabling flexible learning under heterogeneous supervision and domain shift. Experiments analyze cue fusion, local versus long-context trade-offs and hierarchical objectives.",
+        "keywords": [
+          "eess.AS",
+          "cs.AI",
+          "cs.HC",
+          "cs.MM",
+          "cs.SD"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10468v1",
+        "authors": [
+          "Jing Peng",
+          "Ziyi Chen",
+          "Haoyu Li",
+          "Yucheng Wang",
+          "Duo Ma"
+        ],
+        "arxiv_categories": [
+          "eess.AS",
+          "cs.AI",
+          "cs.HC",
+          "cs.MM",
+          "cs.SD"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.381825+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.381825+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10465v1",
+      "title": "MoXaRt: Audio-Visual Object-Guided Sound Interaction for XR",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10465v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "In Extended Reality (XR), complex acoustic environments often overwhelm users, compromising both scene awareness and social engagement due to entangled sound sources. We introduce MoXaRt, a real-time XR system that uses audio-visual cues to separate these sources and enable fine-grained sound interaction. MoXaRt's core is a cascaded architecture that performs coarse, audio-only separation in parallel with visual detection of sources (e.g., faces, instruments). These visual anchors then guide refinement networks to isolate individual sources, separating complex mixes of up to 5 concurrent sources (e.g., 2 voices + 3 instruments) with ~2 second processing latency. We validate MoXaRt through a technical evaluation on a new dataset of 30 one-minute recordings featuring concurrent speech and music, and a 22-participant user study. Empirical results indicate that our system significantly enhances speech intelligibility, yielding a 36.2% (p < 0.01) increase in listening comprehension within adversarial acoustic environments while substantially reducing cognitive load (p < 0.001), thereby paving the way for more perceptive and socially adept XR experiences.",
+        "keywords": [
+          "cs.SD",
+          "cs.CV",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10465v1",
+        "authors": [
+          "Tianyu Xu",
+          "Sieun Kim",
+          "Qianhui Zheng",
+          "Ruoyu Xu",
+          "Tejasvi Ravi"
+        ],
+        "arxiv_categories": [
+          "cs.SD",
+          "cs.CV",
+          "cs.HC"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.382053+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.382053+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10426v1",
+      "title": "3-D Trajectory Optimization for Robust Direction Sensing in Movable Antenna Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10426v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "This paper presents a novel wireless sensing system where a movable antenna (MA) continuously moves and receives sensing signals within a three-dimensional (3-D) region to enhance sensing performance compared with conventional fixed-position antenna (FPA)-based sensing. We show that the performance of direction vector estimation for a target is fundamentally related to the 3-D MA trajectory in terms of the mean square angular error lower-bound (MSAEB), which is adopted as a coordinate-invariant performance metric. In particular, the closed-form expression of the MSAEB is derived as a function of the trajectory covariance matrix. Theoretical analysis shows that two-dimensional (2-D) antenna movement suffers from performance divergence for target direction close to the endfire direction of the 2-D MA plane, whereas 3-D movement can achieve isotropic sensing performance over the entire angular region. To achieve robust sensing performance, we formulate a min-max optimization problem to minimize the maximum (worst-case) MSAEB over a given continuous angular region wherein the target is located. An efficient successive convex approximation (SCA) algorithm is developed to optimize the 3-D MA trajectory and obtain a locally optimal solution. Numerical results demonstrate that the proposed 3-D MA sensing scheme is able to significantly reduce the worst-case mean square angular error (MSAE) compared with conventional arrays with FPAs and MA systems with 2-D movement only, thus achieving more accurate and robust direction estimation over the entire angular region.",
+        "keywords": [
+          "cs.IT",
+          "eess.SP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10426v1",
+        "authors": [
+          "Wenyan Ma",
+          "Lipeng Zhu",
+          "Xiaodan Shao",
+          "Rui Zhang"
+        ],
+        "arxiv_categories": [
+          "cs.IT",
+          "eess.SP"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.382363+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.382363+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10420v1",
+      "title": "FireRedASR2S: A State-of-the-Art Industrial-Grade All-in-One Automatic Speech Recognition System",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10420v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "We present FireRedASR2S, a state-of-the-art industrial-grade all-in-one automatic speech recognition (ASR) system. It integrates four modules in a unified pipeline: ASR, Voice Activity Detection (VAD), Spoken Language Identification (LID), and Punctuation Prediction (Punc). All modules achieve SOTA performance on the evaluated benchmarks: FireRedASR2: An ASR module with two variants, FireRedASR2-LLM (8B+ parameters) and FireRedASR2-AED (1B+ parameters), supporting speech and singing transcription for Mandarin, Chinese dialects and accents, English, and code-switching. Compared to FireRedASR, FireRedASR2 delivers improved recognition accuracy and broader dialect and accent coverage. FireRedASR2-LLM achieves 2.89% average CER on 4 public Mandarin benchmarks and 11.55% on 19 public Chinese dialects and accents benchmarks, outperforming competitive baselines including Doubao-ASR, Qwen3-ASR, and Fun-ASR. FireRedVAD: An ultra-lightweight module (0.6M parameters) based on the Deep Feedforward Sequential Memory Network (DFSMN), supporting streaming VAD, non-streaming VAD, and multi-label VAD (mVAD). On the FLEURS-VAD-102 benchmark, it achieves 97.57% frame-level F1 and 99.60% AUC-ROC, outperforming Silero-VAD, TEN-VAD, FunASR-VAD, and WebRTC-VAD. FireRedLID: An Encoder-Decoder LID module supporting 100+ languages and 20+ Chinese dialects and accents. On FLEURS (82 languages), it achieves 97.18% utterance-level accuracy, outperforming Whisper and SpeechBrain. FireRedPunc: A BERT-style punctuation prediction module for Chinese and English. On multi-domain benchmarks, it achieves 78.90% average F1, outperforming FunASR-Punc (62.77%). To advance research in speech processing, we release model weights and code at https://github.com/FireRedTeam/FireRedASR2S.",
+        "keywords": [
+          "eess.AS",
+          "cs.SD"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10420v1",
+        "authors": [
+          "Kaituo Xu",
+          "Yan Jia",
+          "Kai Huang",
+          "Junjie Chen",
+          "Wenpeng Li"
+        ],
+        "arxiv_categories": [
+          "eess.AS",
+          "cs.SD"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.382689+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.382689+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10410v1",
+      "title": "Effective Dataset Distillation for Spatio-Temporal Forecasting with Bi-dimensional Compression",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10410v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Spatio-temporal time series are widely used in real-world applications, including traffic prediction and weather forecasting. They are sequences of observations over extensive periods and multiple locations, naturally represented as multidimensional data. Forecasting is a central task in spatio-temporal analysis, and numerous deep learning methods have been developed to address it. However, as dataset sizes and model complexities continue to grow in practice, training deep learning models has become increasingly time- and resource-intensive. A promising solution to this challenge is dataset distillation, which synthesizes compact datasets that can effectively replace the original data for model training. Although successful in various domains, including time series analysis, existing dataset distillation methods compress only one dimension, making them less suitable for spatio-temporal datasets, where both spatial and temporal dimensions jointly contribute to the large data volume. To address this limitation, we propose STemDist, the first dataset distillation method specialized for spatio-temporal time series forecasting. A key idea of our solution is to compress both temporal and spatial dimensions in a balanced manner, reducing training time and memory. We further reduce the distillation cost by performing distillation at the cluster level rather than the individual location level, and we complement this coarse-grained approach with a subset-based granular distillation technique that enhances forecasting performance. On five real-world datasets, we show empirically that, compared to both general and time-series dataset distillation methods, datasets distilled by our STemDist method enable model training (1) faster (up to 6X) (2) more memory-efficient (up to 8X), and (3) more effective (with up to 12% lower prediction error).",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.DB"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10410v1",
+        "authors": [
+          "Taehyung Kwon",
+          "Yeonje Choi",
+          "Yeongho Kim",
+          "Kijung Shin"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.DB"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.383007+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.383007+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10409v1",
+      "title": "Differentiable Geometric Indexing for End-to-End Generative Retrieval",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10409v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Generative Retrieval (GR) has emerged as a promising paradigm to unify indexing and search within a single probabilistic framework. However, existing approaches suffer from two intrinsic conflicts: (1) an Optimization Blockage, where the non-differentiable nature of discrete indexing creates a gradient blockage, decoupling index construction from the downstream retrieval objective; and (2) a Geometric Conflict, where standard unnormalized inner-product objectives induce norm-inflation instability, causing popular \"hub\" items to geometrically overshadow relevant long-tail items. To systematically resolve these misalignments, we propose Differentiable Geometric Indexing (DGI). First, to bridge the optimization gap, DGI enforces Operational Unification. It employs Soft Teacher Forcing via Gumbel-Softmax to establish a fully differentiable pathway, combined with Symmetric Weight Sharing to effectively align the quantizer's indexing space with the retriever's decoding space. Second, to restore geometric fidelity, DGI introduces Isotropic Geometric Optimization. We replace inner-product logits with scaled cosine similarity on the unit hypersphere to effectively decouple popularity bias from semantic relevance. Extensive experiments on large-scale industry search datasets and online e-commerce platform demonstrate that DGI outperforms competitive sparse, dense, and generative baselines. Notably, DGI exhibits superior robustness in long-tail scenarios, validating the necessity of harmonizing structural differentiability with geometric isotropy.",
+        "keywords": [
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10409v1",
+        "authors": [
+          "Xujing Wang",
+          "Yufeng Chen",
+          "Boxuan Zhang",
+          "Jie Zhao",
+          "Chao Wei"
+        ],
+        "arxiv_categories": [
+          "cs.IR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.383278+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.383278+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.10385v1",
+      "title": "Factor Dimensionality and the Bias-Variance Tradeoff in Diffusion Portfolio Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10385v1",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "In this paper, we implement and evaluate a conditional diffusion model for asset return prediction and portfolio construction on large-scale equity data. Our method models the full distribution of future returns conditioned on firm characteristics (i.e.\\ factors), using the resulting conditional moments to construct portfolios. We observe a clear bias--variance tradeoff: models conditioned on too few factors underfit and produce overly diversified portfolios, while models conditioned on too many factors overfit, resulting in unstable and highly concentrated allocations with poor out-of-sample performance. Through an ablation over factor dimensionality, we reveal an intermediate number of factors that achieves the best generalization and outperforms baseline portfolio strategies.",
+        "keywords": [
+          "cs.CE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2603.10385v1",
+        "authors": [
+          "Avi Bagchi",
+          "Michael Tesfaye",
+          "Om Shastri"
+        ],
+        "arxiv_categories": [
+          "cs.CE"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-12T22:53:17.383431+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "collector": "arxiv_scanner_direct",
+          "timestamp": "2026-03-12T22:53:17.383431+00:00",
+          "scan_window_start": "2026-03-10T22:13:26.469862+00:00",
+          "scan_window_end": "2026-03-12T22:13:26.469862+00:00"
+        }
+      }
+    }
+  ]
+}

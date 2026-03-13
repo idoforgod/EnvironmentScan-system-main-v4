@@ -1,0 +1,477 @@
+{
+  "scan_date": "2026-03-13",
+  "scan_window": {
+    "start": "2026-03-11T22:13:26Z",
+    "end": "2026-03-12T22:13:26Z"
+  },
+  "total_raw_signals": 85,
+  "total_after_dedup": 45,
+  "sources_scanned": 26,
+  "sources_failed": ["Wired", "Ars Technica", "World Bank Blogs", "OECD Newsroom", "EUR-Lex", "WEF", "PubMed Central", "Psychology Today"],
+  "signals": [
+    {
+      "id": "tc-20260313-001",
+      "title": "Atlassian cuts 1,600 staff (10% workforce) to redirect funds to AI",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/", "published_date": "2026-03-12"},
+      "content": {"abstract": "Atlassian laid off 10% of its workforce, around 1,600 people, following Block's similar move. Companies increasingly restructuring workforces to funnel more investment into AI capabilities.", "keywords": ["AI workforce displacement", "tech layoffs", "corporate AI strategy"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "tc-20260313-002",
+      "title": "Humanoid robotics maker Sunday reaches $1.15B valuation for household robots",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots/", "published_date": "2026-03-12"},
+      "content": {"abstract": "Sunday, a humanoid robotics company, reached unicorn status to develop Memo, a household helper robot for tasks like laundry and table clearing. Signals growing investment in consumer robotics.", "keywords": ["humanoid robotics", "consumer robots", "unicorn valuation"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "tc-20260313-003",
+      "title": "Uber, Wayve, and Nissan plan robotaxi service launch in Tokyo 2026",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/12/uber-wayve-and-nissan-plan-to-launch-a-robotaxi-service-in-tokyo-this-year/", "published_date": "2026-03-12"},
+      "content": {"abstract": "Nissan will integrate Wayve's self-driving software into the Leaf for Uber's platform in Tokyo. Multi-company robotaxi collaboration signals autonomous vehicle ecosystem maturation.", "keywords": ["robotaxi", "autonomous vehicles", "Tokyo", "Uber", "Wayve"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "tc-20260313-004",
+      "title": "Tesla becomes electricity utility in UK, approved by Ofgem",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/12/tesla-becomes-a-utility-in-the-uk-setting-up-showdown-with-octopus-energy/", "published_date": "2026-03-12"},
+      "content": {"abstract": "Tesla Energy Ventures approved by UK regulator Ofgem to sell electricity directly to customers, entering utility market in competition with Octopus Energy. Platform company diversifying into energy.", "keywords": ["Tesla", "energy utility", "UK regulation", "Ofgem"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "tc-20260313-005",
+      "title": "Honda scraps 3 planned US EVs citing tariffs and Chinese competition, $15.7B cost",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/12/honda-scraps-3-evs-planned-for-the-us-blaming-tariffs-and-chinese-competition/", "published_date": "2026-03-12"},
+      "content": {"abstract": "Honda cancels three planned US electric vehicles due to tariff impacts and Chinese EV competition, at a cost of up to $15.7 billion. Signals growing impact of trade policy on EV transition.", "keywords": ["Honda", "EV cancellation", "tariffs", "Chinese competition", "trade war"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "tc-20260313-006",
+      "title": "Meta AI auto-responds to Facebook Marketplace buyers — AI agents in commerce",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages/", "published_date": "2026-03-12"},
+      "content": {"abstract": "Meta AI now auto-drafts seller replies on Facebook Marketplace, using listing information to respond to buyer inquiries. Signals AI agent integration into peer-to-peer commerce platforms.", "keywords": ["AI agents", "Meta AI", "commerce automation", "Facebook Marketplace"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "tc-20260313-007",
+      "title": "Gumloop raises $50M to enable every employee to build AI agents",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/", "published_date": "2026-03-12"},
+      "content": {"abstract": "Gumloop secured $50M from Benchmark for its intuitive AI agent builder platform, aimed at democratizing AI agent creation across all workers. No-code AI agent development gaining major investment.", "keywords": ["AI agents", "no-code", "democratization of AI", "Benchmark"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "tc-20260313-008",
+      "title": "Writer sues Grammarly for training AI on user content without consent",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/12/a-writer-is-suing-grammarly-for-turning-her-and-other-authors-into-ai-editors-without-consent/", "published_date": "2026-03-12"},
+      "content": {"abstract": "Journalist Julia Angwin leads class action against Grammarly for privacy and publicity rights violations in using author content for AI training. AI copyright and consent litigation expanding.", "keywords": ["AI copyright", "data consent", "class action", "Grammarly"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "tc-20260313-009",
+      "title": "Law enforcement dismantles SocksEscort botnet of tens of thousands of hacked routers",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/12/law-enforcement-shuts-down-botnet-made-of-tens-of-thousands-of-hacked-routers/", "published_date": "2026-03-12"},
+      "content": {"abstract": "International law enforcement shut down SocksEscort, a botnet of hacked routers used for ransomware and DDoS attacks. Continued global cybercrime infrastructure takedowns.", "keywords": ["cybersecurity", "botnet", "law enforcement", "ransomware"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "tc-20260313-010",
+      "title": "Lucid Motors unveils Lunar robotaxi concept at investor day",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/12/lucid-motors-shows-off-robotaxi-concept-called-lunar/", "published_date": "2026-03-12"},
+      "content": {"abstract": "Lucid Motors revealed Lunar robotaxi concept, pushing into autonomy alongside new affordable EV plans. Multiple OEMs now pursuing robotaxi strategies beyond Tesla and Waymo.", "keywords": ["robotaxi", "Lucid Motors", "autonomous driving", "EV"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "mitr-20260313-001",
+      "title": "China's OpenClaw AI craze spawns cottage industry of installation service businesses",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/", "published_date": "2026-03-11"},
+      "content": {"abstract": "OpenClaw, an AI tool that autonomously completes device tasks, has created a cottage industry in China. One developer scaled from side gig to 100+ employees. Security experts warn about risks despite public enthusiasm.", "keywords": ["OpenClaw", "China AI adoption", "AI services", "autonomous AI agents"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "mitr-20260313-002",
+      "title": "US battery industry faces brutal downturn — 24M Technologies (valued $1B+) shuts down",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/12/1134197/us-battery-industry/", "published_date": "2026-03-12"},
+      "content": {"abstract": "Battery startup 24M Technologies, once valued over $1 billion, is shutting down amid widespread US battery industry failures and investor pullback, even as China's battery sector thrives.", "keywords": ["battery industry", "US manufacturing", "China competition", "clean energy"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "mitr-20260313-003",
+      "title": "Niantic leverages Pokemon Go imagery to build world models for robot navigation",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/11/1134174/the-download-pokemon-go-train-world-models-us-china-race-find-aliens/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Niantic Spatial uses crowdsourced Pokemon Go imagery to build world models for robot navigation, while China accelerates Mars sample return missions as US funding falters.", "keywords": ["world models", "robot navigation", "crowdsourced data", "space race"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "who-20260313-001",
+      "title": "WHO: Middle East conflict deepens health crisis — 1,300+ deaths in Iran, 18 attacks on healthcare",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/11-03-2026-conflict-deepens-health-crisis-across-middle-east--who-says", "published_date": "2026-03-11"},
+      "content": {"abstract": "WHO reports 1,300+ deaths in Iran, 570+ in Lebanon. 18 verified attacks on healthcare in Iran, 25 in Lebanon. Over 100,000 relocated in Iran, 700,000 internally displaced in Lebanon.", "keywords": ["Middle East conflict", "health crisis", "WHO", "healthcare attacks", "displacement"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "usfr-20260313-001",
+      "title": "US Presidential Document: Commitment to Countering Cartel Criminal Activity",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/12/2026-04924/commitment-to-countering-cartel-criminal-activity", "published_date": "2026-03-12"},
+      "content": {"abstract": "Presidential document establishing commitment to counter cartel criminal activity. Signals escalating federal focus on transnational organized crime and border security.", "keywords": ["presidential order", "cartel", "organized crime", "border security"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "usfr-20260313-002",
+      "title": "EPA proposes expanding ocean dredged material disposal sites offshore Corpus Christi",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/12/2026-04848/marine-protection-modification-to-expand-ocean-dredged-material-disposal-sites-offshore-of-corpus", "published_date": "2026-03-12"},
+      "content": {"abstract": "EPA proposes expanding ocean disposal sites for dredged material offshore Corpus Christi, Texas. Signals continued tension between development infrastructure and marine environmental protection.", "keywords": ["EPA", "marine protection", "ocean disposal", "environmental regulation"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "usfr-20260313-003",
+      "title": "Multiple antidumping actions against Chinese products (kitchen appliances, R-134a, plywood)",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/12/2026-04884/certain-kitchen-appliance-shelving-and-racks-from-the-peoples-republic-of-china-final-results-of-the", "published_date": "2026-03-12"},
+      "content": {"abstract": "Multiple US Commerce Department antidumping decisions targeting Chinese products including kitchen appliances, R-134a refrigerant, and decorative plywood. Pattern of expanding US-China trade friction.", "keywords": ["antidumping", "US-China trade", "tariffs", "Commerce Department"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "nat-20260313-001",
+      "title": "Einstein AI bot debate: Faculty struggle as students use AI to bypass learning",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00764-w", "published_date": "2026-03-12"},
+      "content": {"abstract": "Faculty members increasingly spend time countering student attempts to use artificial intelligence to bypass learning, sharpening debate over AI in education.", "keywords": ["AI in education", "academic integrity", "AI tutors", "education disruption"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "nat-20260313-002",
+      "title": "Scientists revive activity in frozen mouse brains for the first time",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00756-w", "published_date": "2026-03-11"},
+      "content": {"abstract": "Researchers successfully restored brain function following deep cryogenic freezing in mice — a breakthrough toward cryopreservation science with implications for organ preservation and neuroscience.", "keywords": ["cryopreservation", "brain revival", "neuroscience", "organ preservation"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "nat-20260313-003",
+      "title": "Virtual cell simulates nearly every chemical reaction in bacterial cell division",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00815-2", "published_date": "2026-03-11"},
+      "content": {"abstract": "Simulation models DNA replication and cell division in virtual bacterial systems, advancing computational biology toward complete cellular modeling.", "keywords": ["virtual cell", "computational biology", "cell simulation", "systems biology"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "nat-20260313-004",
+      "title": "Gut microbes fuel memory loss in aging mice — gut-brain axis breakthrough",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00768-6", "published_date": "2026-03-11"},
+      "content": {"abstract": "Microbiome changes contribute to cognitive decline through gut-brain signaling pathways. Tour de force study linking specific gut microbes to memory loss in aging.", "keywords": ["gut-brain axis", "microbiome", "cognitive decline", "aging"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "nat-20260313-005",
+      "title": "China pledges billion-dollar spending boost for science funding",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00770-y", "published_date": "2026-03-11"},
+      "content": {"abstract": "Chinese government plans increased funding for national laboratories and key research initiatives. Part of broader 15th Five-Year Plan investment in science and technology.", "keywords": ["China science funding", "R&D investment", "national laboratories", "Five-Year Plan"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "nat-20260313-006",
+      "title": "Community intervention reduces child marriage by 80% (79% to 14%) in Nigeria",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10206-2", "published_date": "2026-03-11"},
+      "content": {"abstract": "Big-push community-wide intervention in Nigeria reduced child marriage from 79% to 14%. Published in Nature, demonstrating transformative potential of comprehensive social programs.", "keywords": ["child marriage", "social intervention", "Nigeria", "community development"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "nat-20260313-007",
+      "title": "Using mosquitoes to vaccinate bats could curb deadly zoonotic diseases",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00795-3", "published_date": "2026-03-11"},
+      "content": {"abstract": "Novel strategy to use mosquitoes as vaccine vectors for bats faces practical and ethical challenges. If viable, could prevent zoonotic disease spillover events.", "keywords": ["zoonotic diseases", "novel vaccination", "bat viruses", "pandemic prevention"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "sci-20260313-001",
+      "title": "DOE national labs to spearhead federal AI push under Genesis Mission",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/why-energy-department-s-science-labs-will-spearhead-federal-push-ai", "published_date": "2026-03-11"},
+      "content": {"abstract": "DOE national labs' huge facilities, data flows, and computing resources are a natural fit for the Genesis Mission to lead America's federal AI strategy. Government-scale AI infrastructure.", "keywords": ["DOE", "national labs", "AI infrastructure", "Genesis Mission", "federal AI"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "sci-20260313-002",
+      "title": "Viagra compound (sildenafil) shows promise for treating Leigh syndrome",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/viagra-compound-may-hold-promise-treating-fatal-genetic-disease", "published_date": "2026-03-11"},
+      "content": {"abstract": "Animal studies and preliminary human data support the safety of sildenafil in treating Leigh syndrome, a fatal mitochondrial disease. Drug repurposing for rare genetic diseases.", "keywords": ["drug repurposing", "Leigh syndrome", "sildenafil", "rare diseases", "mitochondrial"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "sci-20260313-003",
+      "title": "Ig Nobel ceremony leaves US after 35 years — moving to Switzerland",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/after-35-years-ig-nobel-ceremony-leave-u-s", "published_date": "2026-03-11"},
+      "content": {"abstract": "The satirical Ig Nobel science prize ceremony moves from US to Switzerland due to finances and Trump administration policies. Signal of academic brain drain and chilling effect on US science culture.", "keywords": ["Ig Nobel", "science culture", "brain drain", "academic freedom"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "ieee-20260313-001",
+      "title": "40 years of wireless evolution leads to 6G: Internet of AI agents",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/telecom-history-1g-to-6g", "published_date": "2026-03-12"},
+      "content": {"abstract": "Comprehensive history from 1G through 6G. 6G promises an 'internet of AI agents' enabling intelligent coordination across digital and physical domains. Fundamental network architecture shift.", "keywords": ["6G", "AI agents", "wireless evolution", "network architecture"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "ieee-20260313-002",
+      "title": "AI sycophancy: Why chatbots agree with you even when you're wrong",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/ai-sycophancy", "published_date": "2026-03-11"},
+      "content": {"abstract": "Investigation into AI sycophancy — language models agreeing with users regardless of accuracy. Examines causes, risks, and mitigation strategies for a fundamental AI safety challenge.", "keywords": ["AI sycophancy", "AI safety", "language models", "misinformation"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "ieee-20260313-003",
+      "title": "Maintaining engineering intuition while using AI coding tools",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/ai-for-coding-intuition", "published_date": "2026-03-11"},
+      "content": {"abstract": "Engineers must actively 'interrogate' rather than passively accept AI coding suggestions to maintain skill development. AI tool reliance threatens engineering intuition.", "keywords": ["AI coding", "engineering skills", "software development", "human-AI interaction"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "un-20260313-001",
+      "title": "UN Security Council condemns Iranian attacks — Gulf-backed resolution adopted",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167119", "published_date": "2026-03-11"},
+      "content": {"abstract": "Security Council approved Bahrain-led resolution condemning Iranian attacks on regional states while rejecting separate Russian-drafted resolution. Geopolitical alignment shift in Middle East.", "keywords": ["UN Security Council", "Iran", "Middle East", "geopolitics", "Russia"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "un-20260313-002",
+      "title": "Middle East war costs $1 billion per day — UN relief chief",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167116", "published_date": "2026-03-11"},
+      "content": {"abstract": "UN emergency relief official criticizes $1 billion daily expenditure on Middle East conflict amid mounting humanitarian needs. Massive economic drain compounding global instability.", "keywords": ["Middle East conflict", "humanitarian crisis", "war costs", "UN"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "un-20260313-003",
+      "title": "Russia deportation of Ukrainian children constitutes crime against humanity — UN probe",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167122", "published_date": "2026-03-12"},
+      "content": {"abstract": "Independent UN investigators find Russia's deportation of Ukrainian children constitutes crime against humanity. Families continue searching for missing children.", "keywords": ["Ukraine war", "Russia", "children deportation", "war crimes", "human rights"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "un-20260313-004",
+      "title": "Sudan drone strikes kill 200+ civilians since March 4 — UN alarm",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167125", "published_date": "2026-03-12"},
+      "content": {"abstract": "UN human rights chief alarmed by increasing drone strikes in Sudan — more than 200 civilians killed since March 4 alone in Kordofan and White Nile state.", "keywords": ["Sudan", "drone strikes", "civilians", "human rights", "conflict"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "hn-20260313-001",
+      "title": "AI facial recognition misidentification jails innocent grandmother for months",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case", "published_date": "2026-03-12"},
+      "content": {"abstract": "Innocent woman jailed for months after AI facial recognition misidentification in North Dakota fraud case. Critical demonstration of facial recognition system failures and civil liberty risks.", "keywords": ["facial recognition", "AI error", "wrongful arrest", "civil liberties", "AI bias"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "hn-20260313-002",
+      "title": "Italian prosecutors seek trial for Amazon over $1.4B tax evasion",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.reuters.com/world/italian-prosecutors-seek-trial-amazon-four-execs-over-alleged-14-bln-tax-evasion-2026-03-12/", "published_date": "2026-03-12"},
+      "content": {"abstract": "Italian prosecutors seek trial for Amazon and four executives over alleged $1.4 billion tax evasion. Part of broader European regulatory push against big tech tax practices.", "keywords": ["Amazon", "tax evasion", "Italy", "big tech regulation", "EU enforcement"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "hn-20260313-003",
+      "title": "Understudy: Open-source desktop agent with teach-by-demonstration",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://github.com/understudy-ai/understudy", "published_date": "2026-03-12"},
+      "content": {"abstract": "Local-first desktop agent runtime that spans GUI applications and terminals. Users teach agents by demonstration. New paradigm in AI agent development.", "keywords": ["desktop agent", "teach-by-demonstration", "open source", "AI agents"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "hn-20260313-004",
+      "title": "Chrome expands to ARM64 Linux — ARM architecture momentum",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://blog.chromium.org/2026/03/bringing-chrome-to-arm64-linux-devices.html", "published_date": "2026-03-12"},
+      "content": {"abstract": "Google brings Chrome to ARM64 Linux devices, expanding ARM ecosystem for desktops and servers. Signals growing ARM architecture adoption beyond mobile.", "keywords": ["ARM64", "Chrome", "Linux", "processor architecture"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "pew-20260313-001",
+      "title": "Pew: 60% majority of Americans say abortion should be legal; gender gap emerges among Republicans",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/politics/2026/03/12/majority-of-americans-continue-to-say-abortion-should-be-legal-in-all-or-most-cases/", "published_date": "2026-03-12"},
+      "content": {"abstract": "60% of US adults support legal abortion in all or most cases, with emerging gender gap among Republican men and women. Majority support medication abortion legality.", "keywords": ["abortion", "public opinion", "US politics", "gender gap", "social values"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "pew-20260313-002",
+      "title": "Pew: Americans increasingly see data centers negatively — environment, energy costs, quality of life",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/short-reads/2026/03/12/how-americans-view-data-centers-impact-in-key-areas-from-the-environment-to-jobs/", "published_date": "2026-03-12"},
+      "content": {"abstract": "More Americans say data centers negatively affect environment, home energy costs, and nearby residents' quality of life than see positive effects. Growing public backlash to AI infrastructure.", "keywords": ["data centers", "environmental impact", "energy costs", "public opinion", "AI infrastructure"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "pew-20260313-003",
+      "title": "Pew: Key findings on how Americans view AI — 5 years of tracking data",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/short-reads/2026/03/12/key-findings-about-how-americans-view-artificial-intelligence/", "published_date": "2026-03-12"},
+      "content": {"abstract": "Drawing on five years of surveys: 13 key findings about how Americans use and view AI, and where they see promise and risk. Comprehensive longitudinal public opinion dataset.", "keywords": ["AI public opinion", "longitudinal survey", "technology attitudes", "American attitudes"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "pew-20260313-004",
+      "title": "Buddhism declining globally — sole major religion to shrink between 2010-2020",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/religion/2026/03/11/buddhisms-recent-decline-in-east-asia/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Buddhism is the only major religion whose global population shrank (~5%) between 2010-2020, declining especially in East Asia (Japan, South Korea). Signals secularization acceleration.", "keywords": ["Buddhism", "religious decline", "secularization", "East Asia", "demographics"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "cb-20260313-001",
+      "title": "CCC: UK net-zero transition costs less than a single fossil fuel price shock — benefits worth 110bn/year",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/ccc-net-zero-will-protect-uk-from-fossil-fuel-price-shocks/", "published_date": "2026-03-11"},
+      "content": {"abstract": "UK Climate Change Committee finds net-zero transition carries lower costs than single fossil-fuel price spikes. Benefits worth GBP 110bn annually outweigh expenses, providing economic resilience.", "keywords": ["net-zero", "UK CCC", "fossil fuel", "energy transition", "economic analysis"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "cb-20260313-002",
+      "title": "Clean energy expansion would cut UK gas imports more than North Sea drilling",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/analysis-why-clean-energy-will-cut-uk-gas-imports-by-more-than-north-sea-drilling/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Analysis shows clean energy expansion would reduce UK gas imports far more effectively than domestic North Sea drilling. Iran conflict has renewed calls for drilling.", "keywords": ["clean energy", "UK energy", "North Sea", "gas imports", "energy security"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "bis-20260313-001",
+      "title": "ECB Schnabel: Navigating inflation and employment in era of supply shocks and AI",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/review/r260311e.htm", "published_date": "2026-03-12"},
+      "content": {"abstract": "ECB Executive Board member Isabel Schnabel addresses how AI and persistent supply shocks reshape inflation-employment dynamics. Central bank monetary policy adaptation to structural change.", "keywords": ["ECB", "monetary policy", "AI impact", "supply shocks", "inflation"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "bis-20260313-002",
+      "title": "Bank of Korea Governor: Can Asia remain the engine of global growth?",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/review/r260310a.htm", "published_date": "2026-03-12"},
+      "content": {"abstract": "Bank of Korea Governor Chang Yong Rhee keynote on Asia's growth trajectory at 'Asia in 2050' conference. Examines structural challenges to continued Asian economic leadership.", "keywords": ["Asia growth", "Bank of Korea", "economic outlook", "Asia 2050"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "bis-20260313-003",
+      "title": "Bank of Canada: New players, old risks — financial stability in changing landscape",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/review/r260310c.htm", "published_date": "2026-03-12"},
+      "content": {"abstract": "Bank of Canada Governor Tiff Macklem addresses financial stability risks from new market players (fintech, crypto) in evolving financial landscape.", "keywords": ["financial stability", "fintech", "Bank of Canada", "systemic risk"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "bis-20260313-004",
+      "title": "ECB Elderson: Nature in decline, economy on the line — NGFS remarks",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/review/r260311d.htm", "published_date": "2026-03-12"},
+      "content": {"abstract": "ECB Executive Board member warns about nature-related financial risks at Network for Greening the Financial System meeting. Central banks recognizing biodiversity as systemic risk.", "keywords": ["nature finance", "NGFS", "biodiversity", "ECB", "systemic risk"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "da-20260313-001",
+      "title": "SA Lipaworld launches stablecoin-powered card for Africa's unbanked",
+      "source": {"name": "Disrupt Africa", "type": "tech_news", "url": "https://disruptafrica.com/2026/03/11/sas-lipaworld-launches-stablecoin-powered-card-to-unlock-economy-for-africas-unbanked/", "published_date": "2026-03-11"},
+      "content": {"abstract": "South African Lipaworld launches stablecoin-powered payment card enabling unbanked Africans to transact at Visa retailers using US dollar-pegged digital currencies. Crypto-fiat bridge for financial inclusion.", "keywords": ["stablecoin", "financial inclusion", "Africa unbanked", "crypto payments"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "da-20260313-002",
+      "title": "East African EV startup Zeno raises $25M for charging network expansion",
+      "source": {"name": "Disrupt Africa", "type": "tech_news", "url": "https://disruptafrica.com/2026/03/11/east-african-mobility-startup-zeno-raises-25m-to-expand-its-ev-charging-operations/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Zeno raises $25M to expand interoperable EV charging network across East Africa and increase motorcycle production. EV infrastructure development in emerging markets.", "keywords": ["EV charging", "Africa", "clean mobility", "startup funding"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "cepr-20260313-001",
+      "title": "CEPR VoxEU: Firms predict AI productivity boom — 70% actively use AI, expect 1.4% growth",
+      "source": {"name": "CEPR VoxEU", "type": "academic", "url": "https://cepr.org/voxeu/columns/firms-predict-ai-productivity-boom-coming", "published_date": "2026-03-12"},
+      "content": {"abstract": "Survey of 5,000+ executives across US, UK, Germany, Australia: ~70% of firms actively use AI, forecasting 1.4% productivity growth and 0.7% employment cuts over 3 years.", "keywords": ["AI productivity", "firm survey", "employment impact", "economic forecast"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "cepr-20260313-002",
+      "title": "Global shocks now drive half of interest rate variation — monetary policy paradigm shift",
+      "source": {"name": "CEPR VoxEU", "type": "academic", "url": "https://cepr.org/voxeu/columns/earth-heaven-changing-drivers-monetary-policy", "published_date": "2026-03-11"},
+      "content": {"abstract": "Global shocks now account for approximately half of interest rate variation with larger supply components, reshaping central bank strategies away from domestic-focused monetary policy.", "keywords": ["monetary policy", "global shocks", "interest rates", "central banks"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "ycc-20260313-001",
+      "title": "February 2026 was Earth's 5th-warmest February on record despite absent El Nino",
+      "source": {"name": "Yale Climate Connections", "type": "science_journalism", "url": "https://yaleclimateconnections.org/2026/03/february-2026-was-earths-fifth-warmest-february-on-record/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Despite absent El Nino conditions, ocean temperatures reached second-warmest levels, trailing only 2024's El Nino year. Continued warming trend in non-El Nino year is significant.", "keywords": ["global warming", "temperature records", "El Nino", "ocean warming"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "glp-20260313-001",
+      "title": "EU's imminent embrace of gene-edited crops threatens to leave New Zealand behind",
+      "source": {"name": "Genetic Literacy Project", "type": "science_journalism", "url": "https://geneticliteracyproject.org/2026/03/12/eus-imminent-embrace-of-gene-edited-crops-threatens-to-leave-new-zealand-a-science-laggard/", "published_date": "2026-03-12"},
+      "content": {"abstract": "EU moves toward permitting gene-edited crop cultivation while New Zealand's stalled genetic technology legislation risks commercial disadvantage. Biotech regulation divergence across democracies.", "keywords": ["gene editing", "EU regulation", "agricultural biotech", "New Zealand"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "glp-20260313-002",
+      "title": "Visual misinformation: Dictators manufacturing deepfakes about Iran war",
+      "source": {"name": "Genetic Literacy Project", "type": "science_journalism", "url": "https://geneticliteracyproject.org/2026/03/12/dictators-are-manufacturing-visual-misinformation-about-the-iran-war/", "published_date": "2026-03-12"},
+      "content": {"abstract": "State-linked disinformation campaigns using deepfakes and AI-generated content to distort conflict narratives. First major wartime deployment of systematic AI-powered visual misinformation.", "keywords": ["deepfakes", "misinformation", "AI warfare", "Iran conflict", "information warfare"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "aeon-20260313-001",
+      "title": "De-extinction is redefining what it means to be alive, dead, and extinct",
+      "source": {"name": "Aeon Magazine", "type": "blog", "url": "https://aeon.co/essays/de-extinction-is-redefining-what-it-means-to-be-alive", "published_date": "2026-03-12"},
+      "content": {"abstract": "Technologies of preserving and reviving organisms are already redefining the meaning of life, death, and extinction itself. Philosophical and ethical implications of de-extinction technology.", "keywords": ["de-extinction", "bioethics", "philosophy of life", "biotechnology"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "ws-20260313-001",
+      "title": "Iran conflict disrupts 20% of global oil — Strait of Hormuz, oil from $70 to $110+",
+      "source": {"name": "WebSearch", "type": "aggregated", "url": "https://www.chathamhouse.org/2026/03/how-will-iran-war-affect-global-economy", "published_date": "2026-03-12"},
+      "content": {"abstract": "Iran conflict disrupted ~20% of global oil supplies via Strait of Hormuz. Brent crude from ~$70 to $110+. Qatar LNG halted, Saudi Ras Tanura refinery damaged, Dubai airport suspended operations.", "keywords": ["Iran war", "oil prices", "Strait of Hormuz", "energy crisis", "global economy"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-12T22:13:26Z"
+    },
+    {
+      "id": "ws-20260313-002",
+      "title": "Germany must implement EU Empowering Consumers for Green Transition Directive by March 27, 2026",
+      "source": {"name": "WebSearch", "type": "aggregated", "url": "https://kpmg-law.de/en/legal-changes-in-2026-what-companies-should-prepare-for-new-obligations-and-planned-relief-at-a-glance/", "published_date": "2026-03-12"},
+      "content": {"abstract": "EU Empowering Consumers for the Green Transition Directive requires implementation by March 27, 2026. Restricts generic sustainability terms and regulates environmental claims in advertising.", "keywords": ["EU directive", "green transition", "consumer protection", "greenwashing", "regulation"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-12T22:13:26Z"
+    }
+  ]
+}

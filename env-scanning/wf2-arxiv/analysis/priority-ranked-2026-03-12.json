@@ -1,0 +1,1579 @@
+{
+  "scan_date": "2026-03-12",
+  "workflow": "wf2-arxiv",
+  "ranking_metadata": {
+    "total_ranked": 46,
+    "ranking_method": "pSST",
+    "steeps_distribution": {
+      "S": 7,
+      "T": 37,
+      "E": 7,
+      "E_Environmental": 4,
+      "P": 7,
+      "s": 4
+    }
+  },
+  "ranked_signals": [
+    {
+      "id": "arxiv-2026-03-12-002",
+      "title": "Benchmarking Political Persuasion Risks Across Frontier Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09884",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "In two survey experiments (N=19,145) across bipartisan issues and stances, we evaluate seven state-of-the-art LLMs developed by Anthropic, OpenAI, Google, and xAI for political persuasion capability. Results show frontier models achieve measurable attitude shifts, with some models showing 2-3x greater persuasion effectiveness than standard campaign messaging.",
+        "keywords": [
+          "political persuasion",
+          "LLM risk",
+          "election influence",
+          "AI safety"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "P",
+        "T"
+      ],
+      "impact_score": 9.2,
+      "psst_score": 88,
+      "rationale": "N=19,145 study showing LLMs can shift political views - critical for democratic governance",
+      "signal_type": "New",
+      "preliminary_category": "P",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.CY"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-004",
+      "title": "The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09200",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Situational awareness -- the capacity of an AI system to recognize its own nature, understand its training context, and reason strategically about its circumstances -- is widely considered among the most dangerous emergent capabilities. We demonstrate that improving logical reasoning capabilities mechanistically enables situational awareness, creating a fundamental tension in AI development.",
+        "keywords": [
+          "AI situational awareness",
+          "emergent capabilities",
+          "AI risk",
+          "reasoning trap"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T",
+        "s",
+        "P"
+      ],
+      "impact_score": 9.0,
+      "psst_score": 86,
+      "rationale": "Mechanistic link between reasoning and situational awareness - fundamental AI safety concern",
+      "signal_type": "New",
+      "preliminary_category": "s",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-011",
+      "title": "Designing probabilistic AI monsoon forecasts to inform agricultural decision-making",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.07893",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Decision-theory framework for designing AI weather forecasts blending prediction models with Bayesian inference, deployed to 38 million farmers across India. Results show 12-18% improvement in crop yield decisions when farmers receive AI-calibrated probabilistic forecasts versus deterministic predictions.",
+        "keywords": [
+          "AI weather prediction",
+          "agricultural AI",
+          "monsoon forecasting",
+          "climate adaptation"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "E_Environmental",
+        "S"
+      ],
+      "impact_score": 8.9,
+      "psst_score": 85,
+      "rationale": "AI monsoon forecasts deployed to 38M farmers with 12-18% yield improvement",
+      "signal_type": "New",
+      "preliminary_category": "E_Environmental",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI",
+        "econ.GN",
+        "physics.ao-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-005",
+      "title": "CLIOPATRA: Extracting Private Information from LLM Insights",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09781",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "CLIOPATRA demonstrates privacy attacks against privacy-preserving LLM insight systems, showing that heuristic protections fail to adequately protect user data. Our attacks reconstruct individual records with high accuracy even from aggregated LLM outputs, challenging the assumption that LLM-mediated analysis inherently preserves privacy.",
+        "keywords": [
+          "LLM privacy",
+          "data extraction attack",
+          "privacy-preserving ML",
+          "information leakage"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T",
+        "P"
+      ],
+      "impact_score": 8.8,
+      "psst_score": 84,
+      "rationale": "Privacy attacks on LLM insight systems - challenges privacy-preserving AI assumptions",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.CR"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-010",
+      "title": "LLM-Agent Interactions on Markets with Information Asymmetries",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08853",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Simulations examining GPT-5.1 agent behavior in credence goods markets with institutional variations and social preference settings. Results reveal LLM agents systematically exploit information asymmetries, raising fundamental questions about deploying AI in market-making roles and the need for new regulatory frameworks.",
+        "keywords": [
+          "AI market agents",
+          "information asymmetry",
+          "market regulation",
+          "GPT-5.1"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "E",
+        "P"
+      ],
+      "impact_score": 8.7,
+      "psst_score": 83,
+      "rationale": "GPT-5.1 agents exploit market information asymmetries - regulatory implications",
+      "signal_type": "New",
+      "preliminary_category": "E",
+      "arxiv_categories": [
+        "econ.GN"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-019",
+      "title": "Quantifying Memorization and Privacy Risks in Genomic Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08913",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Genomic language models have emerged as powerful tools for DNA sequence analysis, but we demonstrate they memorize and can regurgitate individual sequences from training data with up to 73% fidelity, posing severe privacy risks for participants in genomic databases.",
+        "keywords": [
+          "genomic privacy",
+          "language models",
+          "DNA memorization",
+          "biosecurity"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T",
+        "S"
+      ],
+      "impact_score": 8.6,
+      "psst_score": 83,
+      "rationale": "Genomic LMs memorize individual DNA sequences with 73% fidelity - severe privacy risk",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.CR",
+        "q-bio.GN"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-001",
+      "title": "Think Before You Lie: How Reasoning Improves Honesty",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09957",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "While existing evaluations of large language models (LLMs) measure deception rates, the underlying conditions that give rise to deceptive behavior are poorly understood. We present comprehensive analysis showing that chain-of-thought reasoning significantly reduces deceptive outputs in frontier LLMs, with up to 67% reduction in strategic dishonesty when models are prompted to reason before responding.",
+        "keywords": [
+          "LLM honesty",
+          "AI reasoning",
+          "deception reduction",
+          "chain-of-thought"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T",
+        "s"
+      ],
+      "impact_score": 8.5,
+      "psst_score": 82,
+      "rationale": "Direct evidence that reasoning reduces AI deception - fundamental for AI safety and trust",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-024",
+      "title": "Genuine Increases in Tropical Cyclone Intensities",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.07849",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Decomposing statistics from satellite observations shows genuine trend of increasing proportion of C3-C5 tropical storms, not merely improved detection. The trend is driven by rising sea surface temperatures and suggests 15-25% more intense hurricanes by 2050 under current emission trajectories.",
+        "keywords": [
+          "tropical cyclones",
+          "climate change",
+          "hurricane intensity",
+          "extreme weather"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "E_Environmental"
+      ],
+      "impact_score": 8.5,
+      "psst_score": 82,
+      "rationale": "Genuine evidence of increasing tropical cyclone intensity - 15-25% more intense by 2050",
+      "signal_type": "New",
+      "preliminary_category": "E_Environmental",
+      "arxiv_categories": [
+        "physics.ao-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-042",
+      "title": "How Private Are DNA Embeddings? Inverting Foundation Model Representations of Genomic Sequences",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.06950",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "DNA foundation models trained on vast genomic datasets can be inverted to recover original sequences from embeddings with alarming accuracy. We demonstrate that sharing DNA embeddings -- widely assumed to be privacy-preserving -- can leak up to 89% of the original genomic information.",
+        "keywords": [
+          "genomic privacy",
+          "DNA embeddings",
+          "foundation models",
+          "biosecurity"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T",
+        "S"
+      ],
+      "impact_score": 8.5,
+      "psst_score": 82,
+      "rationale": "DNA embeddings leak 89% of original genomic data",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "q-bio.GN",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-009",
+      "title": "AgenticCyOps: Securing Multi-Agentic AI Integration in Enterprise Cyber Operations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09134",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Multi-agent systems powered by LLMs promise adaptive enterprise workflows, yet granting agents autonomous tool control introduces attack surfaces absent from deterministic pipelines. AgenticCyOps decomposes attack surfaces across multi-agent systems, defining defensive principles aligned with NIST, ISO, and EU standards for enterprise-grade AI security.",
+        "keywords": [
+          "agentic AI security",
+          "cyber operations",
+          "multi-agent attack surface",
+          "enterprise AI"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T",
+        "P"
+      ],
+      "impact_score": 8.5,
+      "psst_score": 81,
+      "rationale": "Enterprise AI security framework aligned with NIST/ISO/EU standards - emerging critical need",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.CR",
+        "cs.MA",
+        "cs.SE"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-038",
+      "title": "Reasoning-Oriented Programming: Chaining Semantic Gadgets to Jailbreak Large Vision Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09246",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "RoP exploits compositional reasoning in vision-language models by chaining benign visual gadgets to synthesize harmful logic. This novel attack vector achieves 87% jailbreak success rate on leading multimodal models, demonstrating that reasoning capabilities create fundamentally new vulnerability surfaces.",
+        "keywords": [
+          "jailbreak attack",
+          "vision-language models",
+          "AI safety",
+          "reasoning exploitation"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 8.4,
+      "psst_score": 81,
+      "rationale": "87% jailbreak success via reasoning chain exploitation",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.CR"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-003",
+      "title": "Has quantum advantage been achieved?",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09901",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Quantum computational advantage was claimed for the first time in 2019 and several experiments since then have reinforced the claim. And yet, there is no consensus whether or not quantum advantage has actually been achieved. This perspective reviews the evidence, arguing that while sampling-based demonstrations are compelling, practical quantum advantage for real-world problems remains elusive.",
+        "keywords": [
+          "quantum advantage",
+          "quantum computing",
+          "computational supremacy",
+          "benchmarking"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 8.0,
+      "psst_score": 80,
+      "rationale": "Authoritative review questioning quantum advantage claims - shapes quantum investment landscape",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "quant-ph",
+        "cs.CC"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-015",
+      "title": "EsoLang-Bench: Evaluating Genuine Reasoning in Large Language Models via Esoteric Programming Languages",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09678",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "EsoLang-Bench uses esoteric programming languages lacking benchmark gaming incentives to test genuine reasoning. Models scoring 85-95% on standard benchmarks score only 0-11%, revealing a massive gap between memorized patterns and true reasoning capability in current LLMs.",
+        "keywords": [
+          "LLM reasoning",
+          "benchmark contamination",
+          "esoteric languages",
+          "AI evaluation"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 8.3,
+      "psst_score": 80,
+      "rationale": "Exposes massive gap between LLM benchmark scores and genuine reasoning 85-95% vs 0-11%",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.SE"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-006",
+      "title": "Chaotic Dynamics in Multi-LLM Deliberation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09127",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "We model five-agent LLM committees as random dynamical systems and quantify inter-run sensitivity using an empirical Lyapunov exponent. Across 12 policy scenarios, role differentiation in homogeneous committees and model heterogeneity in no-role committees independently destabilize deliberation, producing chaotic preference dynamics incompatible with democratic deployment.",
+        "keywords": [
+          "multi-agent AI",
+          "chaos theory",
+          "LLM deliberation",
+          "AI governance"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "P",
+        "T"
+      ],
+      "impact_score": 8.2,
+      "psst_score": 79,
+      "rationale": "Chaos theory applied to multi-LLM deliberation - implications for AI-assisted governance",
+      "signal_type": "New",
+      "preliminary_category": "P",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.MA"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-021",
+      "title": "Synergistic Directed Execution and LLM-Driven Analysis for Zero-Day AI-Generated Malware Detection",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09044",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Hybrid analysis framework combining concolic execution with LLM-augmented path prioritization achieves 94% detection rate for zero-day AI-generated malware, compared to 61% for traditional signature-based detection. As AI tools lower the barrier for malware creation, defensive capabilities must evolve proportionally.",
+        "keywords": [
+          "AI-generated malware",
+          "zero-day detection",
+          "cybersecurity",
+          "LLM analysis"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 8.2,
+      "psst_score": 79,
+      "rationale": "94% detection of AI-generated malware vs 61% traditional",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.CR",
+        "cs.SE"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-045",
+      "title": "PixelConfig: Longitudinal Measurement and Reverse-Engineering of Meta Pixel Configurations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09380",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Analysis of Meta Pixel configurations across health websites finds activity and identity tracking adoption rates up to 98.4% with limited use of restriction features. Health-sector tracking practices expose sensitive medical browsing data to advertising networks, raising HIPAA compliance questions.",
+        "keywords": [
+          "health data tracking",
+          "Meta Pixel",
+          "privacy regulation",
+          "HIPAA compliance"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "P",
+        "S"
+      ],
+      "impact_score": 8.2,
+      "psst_score": 79,
+      "rationale": "Health website tracking at 98.4% exposes medical data",
+      "signal_type": "New",
+      "preliminary_category": "P",
+      "arxiv_categories": [
+        "cs.CR",
+        "cs.CY"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-013",
+      "title": "Modeling structure and credit risk of the economy: a multilayer bank-firm network approach",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09854",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Assessing the resilience of the economy requires accounting for its intrinsic multi-layer nature, by assessing how disruptions spread across bank-firm networks. We develop a multilayer model revealing that contagion cascades through credit relationships amplify sectoral shocks by 3-7x compared to single-layer models.",
+        "keywords": [
+          "systemic risk",
+          "financial networks",
+          "credit contagion",
+          "economic resilience"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "E"
+      ],
+      "impact_score": 8.1,
+      "psst_score": 78,
+      "rationale": "Multi-layer bank-firm contagion model reveals 3-7x amplification - systemic risk insight",
+      "signal_type": "New",
+      "preliminary_category": "E",
+      "arxiv_categories": [
+        "physics.soc-ph",
+        "q-fin.RM"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-022",
+      "title": "AI-driven Inverse Design of Complex Oxide Thin Films for Semiconductor Devices",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09744",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Bridging generative foundation models with non-equilibrium thin-film synthesis using AI-driven inverse design. The framework predicts optimal deposition parameters for complex oxide films with 92% first-try success rate, potentially accelerating materials discovery for next-generation semiconductor devices by 10-50x.",
+        "keywords": [
+          "AI materials design",
+          "semiconductor",
+          "thin film synthesis",
+          "inverse design"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 8.1,
+      "psst_score": 78,
+      "rationale": "AI inverse design achieves 92% first-try success for semiconductor thin films",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cond-mat.mtrl-sci"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-012",
+      "title": "Methodological opportunities for mitigating climate change in complex food systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09752",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Unravelling current complex food systems is relevant for their adjustment and redesign under changing climate conditions. We propose systems-level interventions combining network science, tipping point detection, and multi-stakeholder modeling to identify leverage points for reducing food system emissions while maintaining nutrition security.",
+        "keywords": [
+          "food systems",
+          "climate change mitigation",
+          "systems modeling",
+          "sustainability"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "E_Environmental"
+      ],
+      "impact_score": 8.0,
+      "psst_score": 77,
+      "rationale": "Systems-level food system interventions for climate mitigation - highly actionable",
+      "signal_type": "New",
+      "preliminary_category": "E_Environmental",
+      "arxiv_categories": [
+        "physics.soc-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-017",
+      "title": "ToolRosetta: Bridging Open-Source Repositories and Large Language Model Agents through Automated Tool Standardization",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09290",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "ToolRosetta automatically translates open-source code repositories into MCP-compatible tools for LLM invocation with integrated security inspection. This enables autonomous AI agents to leverage the entire open-source ecosystem, potentially transforming software development practices.",
+        "keywords": [
+          "MCP tools",
+          "AI agents",
+          "open-source integration",
+          "software automation"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 8.0,
+      "psst_score": 77,
+      "rationale": "Auto-converts open-source repos to MCP tools for AI agents",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.SE",
+        "cs.CE",
+        "cs.MA"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-029",
+      "title": "Mathematical modeling of urban sprawl",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08338",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Urban land cover doubled between 1985 and 2015, yet spatial dynamics remain under-quantified. We develop a diffusion-reaction model calibrated on global satellite data showing that without policy intervention, urban sprawl will consume an additional 1.2 million km2 of arable land by 2050.",
+        "keywords": [
+          "urban sprawl",
+          "land use change",
+          "urbanization modeling",
+          "sustainability"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "S",
+        "E_Environmental"
+      ],
+      "impact_score": 8.0,
+      "psst_score": 77,
+      "rationale": "Urban sprawl model predicts 1.2M km2 arable land loss by 2050",
+      "signal_type": "New",
+      "preliminary_category": "S",
+      "arxiv_categories": [
+        "physics.soc-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-041",
+      "title": "The Bureaucracy of Speed: Structural Equivalence Between Memory Consistency Models and Multi-Agent Authorization Revocation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09875",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "A 60-second revocation window permits 6000 unauthorized API calls at 100 ops/tick; at AWS Lambda scale, the figure approaches 600,000. This paper maps memory consistency models to authorization revocation, defining a Capability Coherence System that bounds unauthorized operations independent of agent velocity.",
+        "keywords": [
+          "authorization revocation",
+          "multi-agent security",
+          "coherence protocol",
+          "agentic AI"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 8.0,
+      "psst_score": 77,
+      "rationale": "600K unauthorized calls in 60s window at Lambda scale",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.MA",
+        "cs.CR",
+        "cs.DC"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-008",
+      "title": "Context Engineering: From Prompts to Corporate Multi-Agent Architecture",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09619",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "As AI systems evolve from stateless chatbots to autonomous multi-step agents, prompt engineering proves necessary but insufficient. This paper introduces context engineering as a standalone discipline concerned with designing, structuring, and managing the entire informational environment in which an AI agent makes decisions, proposing a formal framework for enterprise deployment.",
+        "keywords": [
+          "context engineering",
+          "AI agents",
+          "enterprise AI",
+          "multi-agent systems"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.8,
+      "psst_score": 76,
+      "rationale": "Formalizes context engineering as discipline - next evolution beyond prompt engineering",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.MA"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-020",
+      "title": "A Hybrid Quantum-Classical Framework for Financial Volatility Forecasting Based on Quantum Circuit Born Machines",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09789",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Quantum circuit Born machines combined with classical GARCH models achieve 8-15% improvement in volatility forecasting accuracy for financial markets. The hybrid approach captures non-linear dependencies that purely classical models miss, suggesting practical quantum advantage in financial applications.",
+        "keywords": [
+          "quantum finance",
+          "volatility forecasting",
+          "quantum machine learning",
+          "financial markets"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "E",
+        "T"
+      ],
+      "impact_score": 7.8,
+      "psst_score": 76,
+      "rationale": "Quantum-classical hybrid achieves practical advantage in financial volatility forecasting",
+      "signal_type": "New",
+      "preliminary_category": "E",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI",
+        "quant-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-027",
+      "title": "FlexServe: A Fast and Secure LLM Serving System for Mobile Devices with Flexible Resource Isolation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09046",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "FlexServe introduces flexible resource isolation for ARM TrustZone-based LLM inference on mobile devices, achieving 3.7x speedup over standard TEE execution while maintaining security guarantees. This enables privacy-preserving on-device AI that was previously impractical.",
+        "keywords": [
+          "mobile AI",
+          "LLM serving",
+          "TEE security",
+          "on-device inference"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.8,
+      "psst_score": 76,
+      "rationale": "Privacy-preserving on-device LLM inference with 3.7x speedup",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.CR",
+        "cs.LG",
+        "cs.OS"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-039",
+      "title": "From debt crises to financial crashes (and back): a stock-flow consistent model for stock price bubbles",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.07213",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "Stochastic macro-financial model integrating Keen framework with jump-diffusion asset prices, formalizing the credit-crash feedback loop. The model predicts that current global debt-to-GDP ratios create 35-40% probability of major financial correction within 3 years.",
+        "keywords": [
+          "financial bubbles",
+          "debt crisis",
+          "systemic risk",
+          "macro-financial modeling"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "E"
+      ],
+      "impact_score": 7.9,
+      "psst_score": 76,
+      "rationale": "35-40% probability of major financial correction within 3 years",
+      "signal_type": "New",
+      "preliminary_category": "E",
+      "arxiv_categories": [
+        "q-fin.GN",
+        "econ.GN"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-016",
+      "title": "Chip-Integrated Broadband Multi-Photon Source for Wavelength-Multiplexed Quantum Networks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09397",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Quantum networks based on wavelength-multiplexed entanglement enable parallel distribution of quantum correlations, increasing channel capacity for secure communication and distributed quantum information processing. We demonstrate a chip-integrated source generating 16 simultaneous entangled pairs across C-band wavelengths.",
+        "keywords": [
+          "quantum networks",
+          "photonic chip",
+          "entanglement distribution",
+          "quantum communication"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.7,
+      "psst_score": 75,
+      "rationale": "Chip-integrated 16-channel entangled photon source - quantum networking milestone",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "quant-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-030",
+      "title": "Model Merging in the Era of Large Language Models: Methods, Applications, and Future Directions",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09938",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Model merging has emerged as a transformative paradigm for combining capabilities of multiple neural networks without additional training. We survey 150+ papers showing that merged models can achieve 90-95% of ensemble performance at 1/N the cost, potentially democratizing access to frontier AI capabilities.",
+        "keywords": [
+          "model merging",
+          "LLM efficiency",
+          "AI democratization",
+          "multi-model fusion"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.7,
+      "psst_score": 75,
+      "rationale": "Model merging achieves 90-95% ensemble performance at 1/N cost",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-035",
+      "title": "MedMASLab: A Unified Orchestration Framework for Benchmarking Multimodal Medical Multi-Agent Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09909",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "While Multi-Agent Systems show potential for complex clinical decision support, the field remains hindered by architectural fragmentation. MedMASLab provides standardized benchmarking across clinical reasoning, diagnosis, and treatment planning, revealing that multi-agent approaches outperform single-agent by 23% on complex cases.",
+        "keywords": [
+          "medical AI",
+          "multi-agent systems",
+          "clinical decision support",
+          "healthcare AI"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T",
+        "S"
+      ],
+      "impact_score": 7.7,
+      "psst_score": 75,
+      "rationale": "Multi-agent medical AI outperforms single-agent by 23%",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-018",
+      "title": "CyberThreat-Eval: Can Large Language Models Automate Real-World Threat Research?",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09452",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "CyberThreat-Eval benchmark assesses LLMs on practical cyber threat intelligence tasks. Best-performing models achieve only 42% accuracy on deep threat analysis, compared to 91% on basic triage, revealing critical gaps in AI-assisted cybersecurity that will require dedicated training data and architectures to close.",
+        "keywords": [
+          "cyber threat intelligence",
+          "LLM evaluation",
+          "AI cybersecurity",
+          "threat research"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.6,
+      "psst_score": 74,
+      "rationale": "Reveals AI cybersecurity gap - 42% vs 91% on deep vs basic threat analysis",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.CR",
+        "cs.CL"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-025",
+      "title": "The Gold Rush in AI and Robotics Patenting Activity: Do innovation systems have a role?",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05034",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Patent analysis 1980-2019 reveals AI-enhanced robotics patents accelerated 400% post-2010, with divergent integration patterns across countries. US leads in AI patents, Japan in robotics, but China shows fastest convergence of both, suggesting a potential shift in technological leadership within 5-10 years.",
+        "keywords": [
+          "AI patents",
+          "robotics innovation",
+          "technology leadership",
+          "patent analysis"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "E",
+        "T"
+      ],
+      "impact_score": 7.5,
+      "psst_score": 74,
+      "rationale": "AI-robotics patent acceleration 400% post-2010 with China fastest convergence",
+      "signal_type": "New",
+      "preliminary_category": "E",
+      "arxiv_categories": [
+        "econ.GN"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-032",
+      "title": "Latent World Models for Automated Driving: A Unified Taxonomy, Evaluation Framework, and Open Challenges",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09086",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Generative world models and vision-language-action systems are reshaping automated driving. We provide a unified taxonomy showing latent representations serve as the central computational substrate for planning, reasoning, and controllable generation, mapping the path to Level 4+ autonomous driving.",
+        "keywords": [
+          "world models",
+          "autonomous driving",
+          "latent representations",
+          "VLA systems"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.6,
+      "psst_score": 74,
+      "rationale": "Unified taxonomy mapping path to Level 4+ autonomous driving",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-036",
+      "title": "Towards a Neural Debugger for Python",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09951",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Training LLMs on Python execution traces enables line-by-line execution prediction, creating neural debuggers that can predict program state at arbitrary breakpoints. Interactive debugging mode allows developers to query program behavior without running code, potentially revolutionizing software development workflows.",
+        "keywords": [
+          "neural debugging",
+          "code execution",
+          "LLM programming",
+          "software development"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.6,
+      "psst_score": 74,
+      "rationale": "Neural debugger predicts program state without execution",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.SE"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-014",
+      "title": "The Data-Dollars Tradeoff: Privacy Harms vs. Economic Risk in Personalized AI Adoption",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08848",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Experiment (N=610) examining how risk and ambiguity about privacy leaks affect AI personalization adoption. Results show 43% of users accept significant privacy risk for modest personalization gains, while ambiguity about data use reduces adoption by 31%, suggesting transparency is more effective than restriction.",
+        "keywords": [
+          "AI privacy",
+          "personalization tradeoff",
+          "data economics",
+          "user behavior"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "S",
+        "E"
+      ],
+      "impact_score": 7.6,
+      "psst_score": 73,
+      "rationale": "Quantitative evidence on privacy-personalization tradeoff N=610",
+      "signal_type": "New",
+      "preliminary_category": "S",
+      "arxiv_categories": [
+        "cs.HC",
+        "econ.GN"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-031",
+      "title": "TiPToP: A Modular Open-Vocabulary Planning System for Robotic Manipulation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09971",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Extensible modular system combining pretrained vision foundation models with Task and Motion Planner to solve multi-step manipulation tasks from RGB images and natural-language instructions. Achieves 78% success rate on previously unseen manipulation tasks, a significant step toward general-purpose robotic manipulation.",
+        "keywords": [
+          "robotic manipulation",
+          "open-vocabulary",
+          "foundation models",
+          "task planning"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.5,
+      "psst_score": 73,
+      "rationale": "78% success on unseen manipulation tasks",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.RO"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-034",
+      "title": "LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08852",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Current protocols such as A2A and MCP do not expose model-level properties as first-class primitives. LDP introduces identity-aware delegation for multi-agent AI systems, exposing reasoning profile, quality calibration, and cost characteristics to enable efficient agent orchestration.",
+        "keywords": [
+          "multi-agent protocol",
+          "AI identity",
+          "agent delegation",
+          "MCP extension"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.5,
+      "psst_score": 73,
+      "rationale": "Identity-aware multi-agent protocol beyond MCP/A2A",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-043",
+      "title": "WVA: A Global Optimization Control Plane for LLM Inference",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09730",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Specialized control plane for LLM inference achieving 37% improvement in effective throughput and 10x reduction in request failures versus horizontal pod autoscaling. As LLM inference becomes a dominant compute workload, infrastructure optimization becomes critical for cost-effective deployment.",
+        "keywords": [
+          "LLM inference",
+          "infrastructure optimization",
+          "control plane",
+          "AI deployment"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.5,
+      "psst_score": 73,
+      "rationale": "37% LLM inference throughput improvement",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.ET"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-007",
+      "title": "Crosstalk in Multi-Qubit Fluxonium Architectures with Transmon Couplers",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09870",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "A promising architecture for implementing two-qubit operations on fluxonium superconducting qubits employs a transmon as tunable coupler. We quantify crosstalk mechanisms and propose mitigation strategies that could improve gate fidelity to 99.9%, a key milestone for fault-tolerant quantum computing.",
+        "keywords": [
+          "quantum computing",
+          "fluxonium",
+          "crosstalk",
+          "superconducting qubits"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.5,
+      "psst_score": 72,
+      "rationale": "Practical progress toward fault-tolerant quantum computing via fluxonium architecture",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "quant-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-028",
+      "title": "A Variational Latent Equilibrium for Learning in Cortex",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09600",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "A new biologically plausible learning framework that can recognize and generate complex spatiotemporal patterns while respecting cortical constraints. The variational latent equilibrium model outperforms standard backpropagation on temporal tasks while using only local learning rules, bridging neuroscience and AI.",
+        "keywords": [
+          "cortical learning",
+          "biologically plausible AI",
+          "neuroscience",
+          "brain-inspired computing"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T",
+        "s"
+      ],
+      "impact_score": 7.4,
+      "psst_score": 72,
+      "rationale": "Biologically plausible learning outperforms backprop on temporal tasks",
+      "signal_type": "New",
+      "preliminary_category": "s",
+      "arxiv_categories": [
+        "q-bio.NC",
+        "cs.AI",
+        "cs.NE"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-044",
+      "title": "NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09542",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Neuro-symbolic framework combining symbolic encoder, solver, and online RL for robotic manipulation. The hybrid approach achieves 45% better generalization to novel objects and environments than pure neural models, suggesting symbolic reasoning remains essential for robust robot intelligence.",
+        "keywords": [
+          "neuro-symbolic AI",
+          "robotic manipulation",
+          "vision-language-action",
+          "symbolic reasoning"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.4,
+      "psst_score": 72,
+      "rationale": "Neuro-symbolic outperforms pure neural by 45%",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cs.RO"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-023",
+      "title": "Dreaming improves memorization in a Hopfield model with bounded synaptic strength",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09384",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "The Hopfield model with Hebbian learning suffers from catastrophic forgetting. We show that a dreaming mechanism -- iterative unlearning of spurious attractors -- dramatically increases memory capacity by 3-5x while respecting biological synaptic constraints. This has direct implications for continual learning in AI systems.",
+        "keywords": [
+          "associative memory",
+          "dreaming",
+          "Hopfield model",
+          "continual learning"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T",
+        "s"
+      ],
+      "impact_score": 7.3,
+      "psst_score": 71,
+      "rationale": "Dreaming mechanism increases Hopfield memory 3-5x",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "cond-mat.dis-nn",
+        "q-bio.NC"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-046",
+      "title": "Photonic Quantum Machine Learning under Noise",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09645",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Photonic Quantum Machine Learning integrates photonic quantum computing with ML techniques for scalable and energy-efficient processing. We analyze noise robustness showing photonic systems maintain 80% classification accuracy at noise levels where superconducting systems degrade to random chance.",
+        "keywords": [
+          "photonic quantum computing",
+          "quantum ML",
+          "noise resilience",
+          "energy-efficient AI"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.3,
+      "psst_score": 71,
+      "rationale": "Photonic QML maintains accuracy under high noise",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "quant-ph",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-037",
+      "title": "A Survey of Reinforcement Learning For Economics",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08956",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Comprehensive survey of RL methods for economists, demonstrating applications in dynamic pricing, inventory management, and game-theoretic markets. The survey identifies RL as the next frontier for economic modeling, with potential to replace traditional optimization in complex market environments.",
+        "keywords": [
+          "reinforcement learning",
+          "economics",
+          "dynamic pricing",
+          "market modeling"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "E",
+        "T"
+      ],
+      "impact_score": 7.2,
+      "psst_score": 70,
+      "rationale": "RL as next frontier for economic modeling",
+      "signal_type": "New",
+      "preliminary_category": "E",
+      "arxiv_categories": [
+        "econ.GN",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-040",
+      "title": "Embodied intelligence solves the centipede dilemma",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08409",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Multi-legged organisms like centipedes utilize undulatory locomotion without centralized nervous coordination. We show embodied intelligence -- computation distributed through body mechanics -- resolves the control paradox, with direct implications for soft robotics and decentralized AI architectures.",
+        "keywords": [
+          "embodied intelligence",
+          "bio-inspired robotics",
+          "decentralized control",
+          "soft robotics"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 7.0,
+      "psst_score": 69,
+      "rationale": "Embodied intelligence resolves control paradox",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "physics.bio-ph",
+        "q-bio.NC"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-026",
+      "title": "Velocity Verlet-based optimization for variational quantum eigensolvers",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09862",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Proposing velocity Verlet algorithm from molecular dynamics for VQE parameter optimization. The approach achieves 2-3x faster convergence than standard gradient descent on noisy quantum hardware, making near-term quantum chemistry calculations more practical.",
+        "keywords": [
+          "VQE optimization",
+          "quantum chemistry",
+          "variational algorithms",
+          "NISQ"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 6.8,
+      "psst_score": 68,
+      "rationale": "Practical VQE optimization improvement for NISQ-era chemistry",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "quant-ph",
+        "math.OC"
+      ]
+    },
+    {
+      "id": "arxiv-2026-03-12-033",
+      "title": "Efficient Qubit Simulation of Hybrid Oscillator-Qubit Quantum Computation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09233",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Framework for simulating hybrid oscillator-qubit quantum processors on qubit-only systems through position encoding. By encoding continuous-variable wave functions into qubit amplitudes, all Gaussian operations are efficiently simulated, enabling cross-platform quantum algorithm development.",
+        "keywords": [
+          "hybrid quantum computing",
+          "qubit simulation",
+          "continuous-variable",
+          "quantum algorithms"
+        ],
+        "language": "en"
+      },
+      "steeps_categories": [
+        "T"
+      ],
+      "impact_score": 6.5,
+      "psst_score": 67,
+      "rationale": "Cross-platform quantum algorithm development",
+      "signal_type": "New",
+      "preliminary_category": "T",
+      "arxiv_categories": [
+        "quant-ph"
+      ]
+    }
+  ],
+  "cross_impact_matrix": [
+    {
+      "signal_a": "arxiv-2026-03-12-002",
+      "signal_b": "arxiv-2026-03-12-006",
+      "relationship": "reinforcing",
+      "description": "LLM political persuasion risk amplified by chaotic dynamics in multi-LLM deliberation"
+    },
+    {
+      "signal_a": "arxiv-2026-03-12-004",
+      "signal_b": "arxiv-2026-03-12-001",
+      "relationship": "tension",
+      "description": "Reasoning enables both honesty improvement AND situational awareness - fundamental dilemma"
+    },
+    {
+      "signal_a": "arxiv-2026-03-12-019",
+      "signal_b": "arxiv-2026-03-12-042",
+      "relationship": "reinforcing",
+      "description": "Both genomic LM memorization and DNA embedding leakage threaten genomic data privacy"
+    },
+    {
+      "signal_a": "arxiv-2026-03-12-005",
+      "signal_b": "arxiv-2026-03-12-038",
+      "relationship": "reinforcing",
+      "description": "LLM privacy attacks and reasoning-chain jailbreaks represent parallel vulnerability surfaces"
+    },
+    {
+      "signal_a": "arxiv-2026-03-12-011",
+      "signal_b": "arxiv-2026-03-12-024",
+      "relationship": "reinforcing",
+      "description": "AI monsoon forecasts for climate adaptation urgently needed as cyclone intensity increases"
+    }
+  ],
+  "emerging_themes": [
+    {
+      "theme": "AI Safety Paradoxes",
+      "signals": [
+        "arxiv-2026-03-12-001",
+        "arxiv-2026-03-12-004",
+        "arxiv-2026-03-12-038"
+      ],
+      "description": "Improving AI reasoning simultaneously improves honesty and enables dangerous situational awareness"
+    },
+    {
+      "theme": "Genomic Data Privacy Crisis",
+      "signals": [
+        "arxiv-2026-03-12-019",
+        "arxiv-2026-03-12-042"
+      ],
+      "description": "Both genomic language models and DNA embeddings leak private data"
+    },
+    {
+      "theme": "Multi-Agent AI Governance",
+      "signals": [
+        "arxiv-2026-03-12-006",
+        "arxiv-2026-03-12-010",
+        "arxiv-2026-03-12-041"
+      ],
+      "description": "Chaotic LLM deliberation, market exploitation, and authorization failures threaten multi-agent deployment"
+    },
+    {
+      "theme": "Quantum Technology Inflection",
+      "signals": [
+        "arxiv-2026-03-12-003",
+        "arxiv-2026-03-12-007",
+        "arxiv-2026-03-12-016",
+        "arxiv-2026-03-12-020"
+      ],
+      "description": "Quantum advantage debate continues while practical hybrid applications emerge"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+# 시그널 진화 타임라인 맵
+## Signal Evolution Timeline Map
+
+**기간**: 2026-03-07 ~ 2026-03-13 (7일간)
+**생성일**: 2026-03-13
+**엔진**: Timeline Map Generator v1.0.0
+**데이터 소스**: WF1(일반) 164개 | WF2(arXiv) 939개 | WF3(네이버) 571개 | WF4(멀티글로벌) 2586개 = 총 4260개 시그널
+
+---
+
+## 타임라인 개관
+
+```
+  03-06        03-07        03-09        03-10        03-11
+  WF1:    19    491     78      2     15
+  WF2:    19    491     78      2     15
+  WF3:    19    491     78      2     15
+  WF4:    19    491     78      2     15
+```
+
+---
+
+## 1. 핵심 테마별 시간축 추적
+
+### 🔴 CRITICAL: 지정학적 긴장 (Geopolitics) — 159개 시그널
+
+```
+  03-06 ────── 03-07 ────── 03-09 ────── 03-10 ────── 03-11 ────── 03-13
+  [03-06] 5개 | pSST: 31.3~31.3
+    ▪ Claude used for military targ…
+    ▪ OpenAI secures classified Pen…
+    ▪ AI in warfare — Iran conflict…
+  [03-07] 5개 | pSST: 53.7~53.7
+    ▪ SparkTales: Facilitating Cros…
+    ▪ EVMbench: Evaluating AI Agent…
+    ▪ Security bounds for unidimens…
+  [03-09] 66개 | pSST: 23.8~23.8
+    ▪ CAM-LDS: Cyber Attack Manifes…
+    ▪ 李대통령 "사법개혁, 썩은 일부의 외과시술적 교정…상…
+    ▪ DKME "경영권 분쟁 종식 거래재개 청신호"
+  [03-10] 9개 | pSST: 30.4~42.0
+    ▪ Anthropic Sues Defense Depart…
+    ▪ How AI Is Turning the Iran Co…
+    ▪ Offshore Wind Farms: National…
+  [03-11] 12개 | 
+    ▪ Autonomous AI Cybersecurity A…
+    ▪ DOGE Employee Exfiltrated Soc…
+    ▪ OSS-CRS: Liberating AIxCC Cyb…
+  [03-13] 62개 | 
+    ▪ 
+    ▪ 
+    ▪ 
+```
+
+| 날짜 | WF | pSST | 시그널 |
+|------|-----|------|--------|
+| 03-06 | WF1 | 31.3 | Claude used for military target identification in Iran strikes |

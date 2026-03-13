@@ -1,66 +1,78 @@
 {
-  "workflow_id": "wf4-multiglobal-news-2026-03-09",
-  "workflow_name": "Multi&Global-News Environmental Scanning",
-  "data_root": "env-scanning/wf4-multiglobal-news",
+  "workflow": "wf4-multiglobal-news",
+  "date": "2026-03-13",
   "status": "completed",
-  "current_phase": 3,
-  "current_step": "3.5",
-  "started_at": "2026-03-09T00:17:00+00:00",
-  "completed_at": "2026-03-09T00:30:51.323466+00:00",
-  "parameters": {
-    "scan_window": {
-      "lookback_hours": 24,
-      "tolerance_minutes": 30,
-      "enforce": "strict",
-      "window_start": "2026-03-07T15:00:00+00:00",
-      "window_end": "2026-03-09T15:00:00+00:00"
-    }
-  },
-  "execution_mode": "integrated",
-  "bilingual": {
-    "language": "en",
-    "report_skeleton": ".claude/skills/env-scanner/references/multiglobal-news-report-skeleton-en.md",
-    "validate_profile": "multiglobal-news_en"
-  },
-  "human_decisions": {
-    "step_2_5": {
-      "decision": "auto-approved",
-      "timestamp": "2026-03-09T00:30:51.324305+00:00",
-      "reason": "AUTOPILOT: STEEPs + FSSF classification reasonable"
-    },
-    "step_3_4": {
-      "decision": "auto-approved",
-      "timestamp": "2026-03-09T00:30:51.324307+00:00",
-      "reason": "L2a ALL PASS (0 CRITICAL, 0 ERROR)"
-    }
-  },
-  "phase_results": {
-    "phase1": {
+  "started_at": "2026-03-13T08:00:00+09:00",
+  "completed_at": "2026-03-13T10:30:00+09:00",
+  "phases": {
+    "phase1_research": {
       "status": "completed",
-      "raw_signals": 1434,
-      "after_dedup": 1372,
-      "sites_succeeded": 31,
-      "sites_failed": 13
+      "crawl_result": {
+        "sites_attempted": 44,
+        "sites_successful": 37,
+        "total_signals_crawled": 1717,
+        "intra_session_dupes_removed": 90,
+        "outside_window_filtered": 95
+      },
+      "dedup_result": {
+        "input_signals": 1717,
+        "definite_new": 769,
+        "definite_duplicate": 568,
+        "uncertain": 380,
+        "output_signals": 1149
+      },
+      "pipeline_gate_1": "PASS"
     },
-    "phase2": {
+    "phase2_planning": {
       "status": "completed",
-      "classified": 1372,
-      "steeps_distribution": {
-        "S": 667,
-        "P": 354,
-        "T": 180,
-        "E": 130,
-        "s": 27,
-        "E_env": 14
+      "classification": {
+        "total_classified": 1149,
+        "steeps_distribution": {"P": 898, "E_Economic": 88, "S": 86, "T": 59, "E_Environmental": 12, "s_spiritual": 6},
+        "fssf_distribution": {"Trend": 948, "Driver": 49, "Precursor Event": 45, "Wild Card": 36, "Weak Signal": 36, "Emerging Issue": 25, "Megatrend": 6, "Discontinuity": 4},
+        "horizons_distribution": {"H1": 1029, "H2": 110, "H3": 10}
+      },
+      "priority_ranking": {
+        "method": "priority_score_calculator.py",
+        "total_ranked": 1149
+      },
+      "pipeline_gate_2": "PASS",
+      "human_checkpoint_2_5": {
+        "status": "approved",
+        "mode": "autopilot",
+        "timestamp": "2026-03-13T09:30:00+09:00"
       }
     },
-    "phase3": {
+    "phase3_implementation": {
       "status": "completed",
-      "db_updated": true,
-      "db_total": 1597,
-      "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-09.md",
-      "validation_l2a": "ALL PASS",
-      "archived": true
+      "report_en": {
+        "path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-13.md",
+        "validation": "20/20 PASS (multiglobal-news_en profile)"
+      },
+      "report_ko": {
+        "path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-13-ko.md",
+        "validation": "20/20 PASS (multiglobal-news profile)"
+      },
+      "database_update": {
+        "signals_added": 1149,
+        "total_signals": 3835,
+        "snapshot": "signals/snapshots/database-2026-03-13-pre-update.json"
+      },
+      "archive": {
+        "en": "reports/archive/2026/03/environmental-scan-2026-03-13.md",
+        "ko": "reports/archive/2026/03/environmental-scan-2026-03-13-ko.md"
+      },
+      "pipeline_gate_3": "PASS",
+      "human_checkpoint_3_4": {
+        "status": "approved",
+        "mode": "autopilot",
+        "timestamp": "2026-03-13T10:30:00+09:00"
+      }
     }
+  },
+  "signal_count": 1149,
+  "verification_summary": {
+    "passed": 40,
+    "warned": 0,
+    "failed": 0
   }
 }

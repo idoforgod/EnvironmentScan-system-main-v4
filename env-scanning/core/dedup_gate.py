@@ -1011,11 +1011,12 @@ def main():
             lookback_days=args.lookback_days,
         )
 
+        status = result["gate_status"]
+
         if args.json_output:
             print(json.dumps(result, indent=2, ensure_ascii=False))
         else:
             # Human-readable summary
-            status = result["gate_status"]
             stats = result["statistics"]
             icon = "+" if status in ("PASS", "PASS_WITH_REMOVAL") else "!"
 
