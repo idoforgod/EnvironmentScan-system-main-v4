@@ -696,10 +696,31 @@ def compute_exploration_statistics(candidates_path: str, language: str = "ko") -
     except (json.JSONDecodeError, OSError):
         return _empty_exploration_placeholders(language)
 
-    viable = data.get("viable_candidates", [])
-    non_viable = data.get("non_viable_candidates", [])
+    viable_raw = data.get("viable_candidates", [])
+    non_viable_raw = data.get("non_viable_candidates", [])
     total_signals = data.get("total_exploration_signals", 0)
     method = data.get("method_used", "unknown")
+
+    # Handle both list and int formats for viable/non_viable
+    # Some exploration files store count (int) vs. list of candidate objects
+    candidates_list = data.get("candidates", [])
+    if isinstance(candidates_list, list):
+        all_candidates = candidates_list
+    else:
+        all_candidates = []
+
+    if isinstance(viable_raw, list):
+        viable = viable_raw
+    else:
+        # viable_raw is an int count; use candidates list as viable source
+        viable = [c for c in all_candidates if c.get("viable", True)]
+        if not viable and isinstance(viable_raw, int) and viable_raw > 0:
+            viable = all_candidates[:viable_raw]
+
+    if isinstance(non_viable_raw, list):
+        non_viable = non_viable_raw
+    else:
+        non_viable = [c for c in all_candidates if not c.get("viable", True)]
 
     # Extract gap categories from scan results or viable candidates
     gap_categories: set[str] = set()
@@ -707,6 +728,10 @@ def compute_exploration_statistics(candidates_path: str, language: str = "ko") -
         steeps = c.get("target_steeps", [])
         if isinstance(steeps, list):
             gap_categories.update(steeps)
+    # Also check gaps_analyzed field
+    gaps_analyzed = data.get("gaps_analyzed", [])
+    if isinstance(gaps_analyzed, list):
+        gap_categories.update(gaps_analyzed)
 
     # Count pending (viable but not yet decided)
     decided = set()
@@ -716,7 +741,9 @@ def compute_exploration_statistics(candidates_path: str, language: str = "ko") -
     pending = len(viable) - len(decided)
 
     discovered = len(viable) + len(non_viable)
-    viable_count = len(viable)
+    if discovered == 0 and isinstance(viable_raw, int):
+        discovered = viable_raw + (non_viable_raw if isinstance(non_viable_raw, int) else 0)
+    viable_count = len(viable) if isinstance(viable_raw, list) else (viable_raw if isinstance(viable_raw, int) else 0)
     sig_suffix = _t("counter_signals", language)
     none_text = _t("none", language)
 

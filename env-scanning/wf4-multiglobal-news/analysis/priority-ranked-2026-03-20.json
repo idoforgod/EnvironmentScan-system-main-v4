@@ -1,0 +1,250 @@
+{
+  "scan_date": "2026-03-20",
+  "workflow": "wf4-multiglobal-news",
+  "ranking_metadata": {
+    "method": "pSST_unified",
+    "total_ranked": 30
+  },
+  "ranked_signals": [
+    {
+      "id": "news-20260320-bbc-001",
+      "title": "Middle East Conflict Escalation -- Iran-US Military Standoff Intensifies",
+      "category": "P",
+      "psst_score": 9.5,
+      "impact_score": 9.5,
+      "rank": 1
+    },
+    {
+      "id": "news-20260320-reuters-001",
+      "title": "Global Trade Growth Slows to 2.6% Amid Tariff Uncertainties",
+      "category": "E",
+      "psst_score": 9.3,
+      "impact_score": 9.3,
+      "rank": 2
+    },
+    {
+      "id": "news-20260320-nyt-001",
+      "title": "EPA Endangerment Finding Reversal Faces Legal Challenges in 12 States",
+      "category": "P",
+      "psst_score": 9.2,
+      "impact_score": 9.2,
+      "rank": 3
+    },
+    {
+      "id": "news-20260320-guardian-001",
+      "title": "UN Water Bankruptcy Declaration Triggers Emergency Summit Plans",
+      "category": "E_Environmental",
+      "psst_score": 9.1,
+      "impact_score": 9.1,
+      "rank": 4
+    },
+    {
+      "id": "news-20260320-ft-001",
+      "title": "Fed Holds Rates Steady as Inflation Concerns Persist",
+      "category": "E",
+      "psst_score": 8.9,
+      "impact_score": 8.9,
+      "rank": 5
+    },
+    {
+      "id": "news-20260320-wsj-001",
+      "title": "AMI Labs World Model AI -- Industry Reactions and Skepticism",
+      "category": "T",
+      "psst_score": 8.8,
+      "impact_score": 8.8,
+      "rank": 6
+    },
+    {
+      "id": "news-20260320-lemonde-001",
+      "title": "EU AI Act Implementation Gaps -- Only 8/27 States Ready",
+      "category": "P",
+      "psst_score": 8.6,
+      "impact_score": 8.6,
+      "rank": 7
+    },
+    {
+      "id": "news-20260320-nhk-001",
+      "title": "Japan Emerges as New Africa Tech Investor Geography",
+      "category": "E",
+      "psst_score": 8.4,
+      "impact_score": 8.4,
+      "rank": 8
+    },
+    {
+      "id": "news-20260320-aljaz-001",
+      "title": "Qatar Helium Production Halt -- Drone Attack Supply Chain Impact",
+      "category": "T",
+      "psst_score": 8.3,
+      "impact_score": 8.3,
+      "rank": 9
+    },
+    {
+      "id": "news-20260320-dw-001",
+      "title": "German Auto Industry AI Transformation Accelerates",
+      "category": "T",
+      "psst_score": 8.2,
+      "impact_score": 8.2,
+      "rank": 10
+    },
+    {
+      "id": "news-20260320-scmp-001",
+      "title": "China Rare Earth Export Controls Expand to 7 New Elements",
+      "category": "P",
+      "psst_score": 8.0,
+      "impact_score": 8.0,
+      "rank": 11
+    },
+    {
+      "id": "news-20260320-hindu-001",
+      "title": "India e-Rupee CBDC Adoption Surges 334%",
+      "category": "E",
+      "psst_score": 7.8,
+      "impact_score": 7.8,
+      "rank": 12
+    },
+    {
+      "id": "news-20260320-globo-001",
+      "title": "Brazil Amazon Deforestation Reaches New Low After AI Monitoring",
+      "category": "E_Environmental",
+      "psst_score": 7.7,
+      "impact_score": 7.7,
+      "rank": 13
+    },
+    {
+      "id": "news-20260320-afp-001",
+      "title": "Global Ransomware Attacks Surge 47% in Q1 2026",
+      "category": "T",
+      "psst_score": 7.5,
+      "impact_score": 7.5,
+      "rank": 14
+    },
+    {
+      "id": "news-20260320-yonhap-001",
+      "title": "South Korea Won Hits 17-Year Low Against Dollar",
+      "category": "E",
+      "psst_score": 7.4,
+      "impact_score": 7.4,
+      "rank": 15
+    },
+    {
+      "id": "news-20260320-tass-001",
+      "title": "Russia-China Gas Pipeline Expansion Agreement Signed",
+      "category": "P",
+      "psst_score": 7.2,
+      "impact_score": 7.2,
+      "rank": 16
+    },
+    {
+      "id": "news-20260320-abc-001",
+      "title": "Australia Critical Minerals Strategy Targets Rare Earth Independence",
+      "category": "P",
+      "psst_score": 7.1,
+      "impact_score": 7.1,
+      "rank": 17
+    },
+    {
+      "id": "news-20260320-times-001",
+      "title": "UK NHS AI Diagnostic Tool Reduces Wait Times by 40%",
+      "category": "T",
+      "psst_score": 7.0,
+      "impact_score": 7.0,
+      "rank": 18
+    },
+    {
+      "id": "news-20260320-asahi-001",
+      "title": "Japan Population Falls Below 120M for First Time",
+      "category": "S",
+      "psst_score": 6.8,
+      "impact_score": 6.8,
+      "rank": 19
+    },
+    {
+      "id": "news-20260320-hankyoreh-001",
+      "title": "Korean Youth Mental Health Crisis -- Digital Detox Movement Grows",
+      "category": "s",
+      "psst_score": 6.7,
+      "impact_score": 6.7,
+      "rank": 20
+    },
+    {
+      "id": "news-20260320-mint-001",
+      "title": "India Solar Manufacturing Capacity Doubles in 18 Months",
+      "category": "E_Environmental",
+      "psst_score": 6.5,
+      "impact_score": 6.5,
+      "rank": 21
+    },
+    {
+      "id": "news-20260320-stern-001",
+      "title": "European Heat Wave Preparedness Plans for Summer 2026",
+      "category": "E_Environmental",
+      "psst_score": 6.3,
+      "impact_score": 6.3,
+      "rank": 22
+    },
+    {
+      "id": "news-20260320-corriere-001",
+      "title": "Italy Autonomous Vehicle Testing Regulations Adopted",
+      "category": "P",
+      "psst_score": 6.2,
+      "impact_score": 6.2,
+      "rank": 23
+    },
+    {
+      "id": "news-20260320-nikkei-001",
+      "title": "TSMC Japan Fab Kumamoto Phase 2 Construction Ahead of Schedule",
+      "category": "T",
+      "psst_score": 6.1,
+      "impact_score": 6.1,
+      "rank": 24
+    },
+    {
+      "id": "news-20260320-elp-001",
+      "title": "Spain Drought Emergency Declared in Catalonia Region",
+      "category": "E_Environmental",
+      "psst_score": 5.9,
+      "impact_score": 5.9,
+      "rank": 25
+    },
+    {
+      "id": "news-20260320-straitstimes-001",
+      "title": "Singapore AI Governance Framework Adopted by 15 ASEAN Members",
+      "category": "P",
+      "psst_score": 5.8,
+      "impact_score": 5.8,
+      "rank": 26
+    },
+    {
+      "id": "news-20260320-cna-001",
+      "title": "Taiwan Semiconductor Export Controls Tightened After China Pressure",
+      "category": "P",
+      "psst_score": 5.6,
+      "impact_score": 5.6,
+      "rank": 27
+    },
+    {
+      "id": "news-20260320-nation-001",
+      "title": "Kenya Launches Africa First Assistive Technology Fund $500K",
+      "category": "S",
+      "psst_score": 5.5,
+      "impact_score": 5.5,
+      "rank": 28
+    },
+    {
+      "id": "news-20260320-jpost-001",
+      "title": "Israel Defense AI Systems Deployed in Escalating Conflict",
+      "category": "T",
+      "psst_score": 5.3,
+      "impact_score": 5.3,
+      "rank": 29
+    },
+    {
+      "id": "news-20260320-globe-001",
+      "title": "Philippines Typhoon Season AI Early Warning System Saves 2,000 Lives",
+      "category": "T",
+      "psst_score": 5.2,
+      "impact_score": 5.2,
+      "rank": 30
+    }
+  ]
+}

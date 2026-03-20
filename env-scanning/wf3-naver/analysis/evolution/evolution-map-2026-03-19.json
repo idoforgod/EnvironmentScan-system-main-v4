@@ -1,0 +1,422 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf3-naver",
+  "scan_date": "2026-03-19",
+  "computed_at": "2026-03-19T01:24:28Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 15,
+    "new_signals": 15,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 0,
+    "active_threads": 99
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "naver-20260319-IT-001",
+      "thread_id": "THREAD-WF3-653",
+      "canonical_title": "에이전틱 AI 시대 개막 — 2026년 3월 267개 신규 AI 모델 출시, 어도비·삼성·구글 전면 전환",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "에이전틱 AI 시대 개막 — 2026년 3월 267개 신규 AI 모델 출시, 어도비·삼성·구글 전면 전환",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-EC-001",
+      "thread_id": "THREAD-WF3-654",
+      "canonical_title": "원·달러 환율 1,500원 돌파 — 2009년 글로벌 금융위기 이후 최초, 중동 긴장 확산",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "원·달러 환율 1,500원 돌파 — 2009년 글로벌 금융위기 이후 최초, 중동 긴장 확산",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-EC-002",
+      "thread_id": "THREAD-WF3-655",
+      "canonical_title": "엥겔계수 31년 만에 30% 돌파 — 식료품비 부담 역대급, 가계 구매력 약화 심화",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "엥겔계수 31년 만에 30% 돌파 — 식료품비 부담 역대급, 가계 구매력 약화 심화",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-EC-003",
+      "thread_id": "THREAD-WF3-656",
+      "canonical_title": "주택담보대출 금리 6.5% 상한 돌파 — 2년 5개월래 최고, 영끌족 부담 심화",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "주택담보대출 금리 6.5% 상한 돌파 — 2년 5개월래 최고, 영끌족 부담 심화",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-PL-001",
+      "thread_id": "THREAD-WF3-657",
+      "canonical_title": "촉법소년 연령 14세→13세 하향 추진 — 73년 만의 첫 조정, 청소년 강력범죄 대응",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "촉법소년 연령 14세→13세 하향 추진 — 73년 만의 첫 조정, 청소년 강력범죄 대응",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-SC-001",
+      "thread_id": "THREAD-WF3-658",
+      "canonical_title": "늘봄학교 전국 2,741개 초등학교 운영 — 오전 7시~오후 8시 돌봄, 맞벌이 부담 완화",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "늘봄학교 전국 2,741개 초등학교 운영 — 오전 7시~오후 8시 돌봄, 맞벌이 부담 완화",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-PL-002",
+      "thread_id": "THREAD-WF3-659",
+      "canonical_title": "대통령 '위기가 자본시장 개혁의 기회' 발언 — 경제 위기 속 구조개혁 추진 시사",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "대통령 '위기가 자본시장 개혁의 기회' 발언 — 경제 위기 속 구조개혁 추진 시사",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-EC-004",
+      "thread_id": "THREAD-WF3-660",
+      "canonical_title": "UAE 긴급 원유 도입 — '한국보다 먼저 받는 나라 없다', 에너지 안보 협력 강화",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "UAE 긴급 원유 도입 — '한국보다 먼저 받는 나라 없다', 에너지 안보 협력 강화",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-IT-002",
+      "thread_id": "THREAD-WF3-661",
+      "canonical_title": "칩플레이션 — NAND 플래시 가격 하룻밤 50% 급등, AI 수요 확대로 메모리 공급부족 우려",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "칩플레이션 — NAND 플래시 가격 하룻밤 50% 급등, AI 수요 확대로 메모리 공급부족 우려",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-IT-003",
+      "thread_id": "THREAD-WF3-662",
+      "canonical_title": "SMR(소형모듈원전) AI 데이터센터 전력 필수 옵션 부상 — 재생에너지와 차세대 원자력 수렴",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "SMR(소형모듈원전) AI 데이터센터 전력 필수 옵션 부상 — 재생에너지와 차세대 원자력 수렴",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-SP-001",
+      "thread_id": "THREAD-WF3-663",
+      "canonical_title": "AI 윤리 2026년 새 시대 과제 — 한국 규제 프레임워크 미흡, 사회적 합의 필요",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "AI 윤리 2026년 새 시대 과제 — 한국 규제 프레임워크 미흡, 사회적 합의 필요",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-EV-001",
+      "thread_id": "THREAD-WF3-664",
+      "canonical_title": "전국 미세먼지 '매우 나쁨' — 중국발 미세먼지와 대기 정체 복합, 환경 건강 위협",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "전국 미세먼지 '매우 나쁨' — 중국발 미세먼지와 대기 정체 복합, 환경 건강 위협",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-PL-003",
+      "thread_id": "THREAD-WF3-665",
+      "canonical_title": "더불어민주연합 출범 — 범야 비례대표 공동 정당, 이재명 '윤 정권 폭주 저지' 강조",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "더불어민주연합 출범 — 범야 비례대표 공동 정당, 이재명 '윤 정권 폭주 저지' 강조",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-EC-005",
+      "thread_id": "THREAD-WF3-666",
+      "canonical_title": "한은 총재 교체 임박 — 4년 임기 만료, 통화정책 방향 전환 가능성",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "한은 총재 교체 임박 — 4년 임기 만료, 통화정책 방향 전환 가능성",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260319-SC-002",
+      "thread_id": "THREAD-WF3-667",
+      "canonical_title": "뉴욕증시 다우존스 768포인트(1.63%) 급락 — 중동 긴장·연준 매파 발언 영향",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "뉴욕증시 다우존스 768포인트(1.63%) 급락 — 중동 긴장·연준 매파 발언 영향",
+          "psst": 31.3
+        }
+      ]
+    }
+  ],
+  "faded_threads": [],
+  "new_threads_created": [
+    "THREAD-WF3-653",
+    "THREAD-WF3-654",
+    "THREAD-WF3-655",
+    "THREAD-WF3-656",
+    "THREAD-WF3-657",
+    "THREAD-WF3-658",
+    "THREAD-WF3-659",
+    "THREAD-WF3-660",
+    "THREAD-WF3-661",
+    "THREAD-WF3-662",
+    "THREAD-WF3-663",
+    "THREAD-WF3-664",
+    "THREAD-WF3-665",
+    "THREAD-WF3-666",
+    "THREAD-WF3-667"
+  ]
+}

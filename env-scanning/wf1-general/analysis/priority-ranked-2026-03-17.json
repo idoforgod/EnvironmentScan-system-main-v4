@@ -1,0 +1,140 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf1-general",
+    "date": "2026-03-17",
+    "computed_at": "2026-03-16T23:33:07Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 15,
+    "warn_count": 32
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "tc-20260317-001",
+      "title": "Nvidia Unveils Vera Rubin Architecture and $1T Revenue Projection at GTC 2026",
+      "steeps": "T_Technological",
+      "psst_score": 88.5,
+      "psst_grade": "A"
+    },
+    {
+      "rank": 2,
+      "id": "nat-20260317-001",
+      "title": "China Approves World First Commercial Brain-Computer Interface for Paralysis",
+      "steeps": "T_Technological",
+      "psst_score": 85.2,
+      "psst_grade": "A"
+    },
+    {
+      "rank": 3,
+      "id": "fr-20260317-001",
+      "title": "CFTC Launches Formal Rulemaking for Prediction Markets Regulation",
+      "steeps": "P_Political",
+      "psst_score": 82.0,
+      "psst_grade": "A"
+    },
+    {
+      "rank": 4,
+      "id": "tc-20260317-004",
+      "title": "xAI Faces Child Safety Lawsuit Over Grok AI Image Generation",
+      "steeps": "s_spiritual",
+      "psst_score": 80.5,
+      "psst_grade": "B+"
+    },
+    {
+      "rank": 5,
+      "id": "nvd-20260317-004",
+      "title": "Nemotron Coalition: Six Frontier Model Families",
+      "steeps": "T_Technological",
+      "psst_score": 79.8,
+      "psst_grade": "B+"
+    },
+    {
+      "rank": 6,
+      "id": "ws-20260317-005",
+      "title": "Global Growth Slows to 2.7% in 2026",
+      "steeps": "E_Economic",
+      "psst_score": 78.3,
+      "psst_grade": "B+"
+    },
+    {
+      "rank": 7,
+      "id": "pew-20260317-001",
+      "title": "Federal Workforce Shrank 10%: 238,000 Workers Lost",
+      "steeps": "P_Political",
+      "psst_score": 77.6,
+      "psst_grade": "B"
+    },
+    {
+      "rank": 8,
+      "id": "hn-20260317-005",
+      "title": "Polymarket Gamblers Threaten Journalist Over Iran Missile Reporting",
+      "steeps": "s_spiritual",
+      "psst_score": 76.8,
+      "psst_grade": "B"
+    },
+    {
+      "rank": 9,
+      "id": "mtr-20260317-001",
+      "title": "OpenAI Technology in Military Applications: Iran Operations Context",
+      "steeps": "P_Political",
+      "psst_score": 75.5,
+      "psst_grade": "B"
+    },
+    {
+      "rank": 10,
+      "id": "ieee-20260317-003",
+      "title": "Waabi Raises $750M for Level-4 Autonomous Trucks",
+      "steeps": "T_Technological",
+      "psst_score": 74.2,
+      "psst_grade": "B"
+    },
+    {
+      "rank": 11,
+      "id": "nvd-20260317-001",
+      "title": "Nvidia Healthcare Robotics Suite: Surgical AI",
+      "steeps": "T_Technological",
+      "psst_score": 73.5,
+      "psst_grade": "B"
+    },
+    {
+      "rank": 12,
+      "id": "ws-20260317-001",
+      "title": "Strong El Nino Likely to Develop in 2026",
+      "steeps": "E_Environmental",
+      "psst_score": 72.8,
+      "psst_grade": "B-"
+    },
+    {
+      "rank": 13,
+      "id": "hn-20260317-001",
+      "title": "Mistral AI Launches Leanstral: Formal Verification for AI Code",
+      "steeps": "T_Technological",
+      "psst_score": 71.5,
+      "psst_grade": "B-"
+    },
+    {
+      "rank": 14,
+      "id": "nat-20260317-005",
+      "title": "China Intensifies Push for Tech Self-Reliance",
+      "steeps": "P_Political",
+      "psst_score": 70.2,
+      "psst_grade": "B-"
+    },
+    {
+      "rank": 15,
+      "id": "mtr-20260317-002",
+      "title": "Agentic AI Governance: Beyond the Toddler Stage",
+      "steeps": "T_Technological",
+      "psst_score": 68.5,
+      "psst_grade": "C+"
+    }
+  ]
+}

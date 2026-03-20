@@ -1,0 +1,197 @@
+{
+  "generated_at": "2026-03-19T10:30:00+09:00",
+  "generated_by": "exploration-orchestrator (Stage C)",
+  "scan_date": "2026-03-19",
+  "method_used": "single-agent",
+  "frontier_keywords_used": [
+    "youth culture generation Z trends research",
+    "bioethics gene editing moral framework",
+    "Latin American sustainability news",
+    "death dying dignity end of life ethics RSS"
+  ],
+  "gaps_analyzed": ["S_Social", "s_spiritual", "P_Political", "E_Environmental"],
+  "candidates_discovered": 5,
+  "viable_candidates": 5,
+  "candidates": [
+    {
+      "name": "The Hastings Center",
+      "url": "https://www.thehastingscenter.org",
+      "rss_url": "https://www.thehastingscenter.org/feed/",
+      "type": "academic",
+      "description": "Leading bioethics research institute -- publishes analysis on gene editing ethics, end-of-life care, AI ethics, research integrity, and moral frameworks in healthcare and technology",
+      "discovery_method": "gap_directed",
+      "discovery_keyword": "bioethics gene editing moral framework",
+      "frontier_category": "steeps_gap_spiritual",
+      "steeps_focus": ["s_spiritual", "S_Social"],
+      "scan_status": "viable",
+      "health_check": {
+        "rss_accessible": true,
+        "items_found": 10,
+        "latest_item_date": "2026-03-16",
+        "content_quality": "high",
+        "update_frequency": "weekly"
+      },
+      "test_signals": [
+        {
+          "title": "Genetic Therapies for Rare Diseases: Developing Ethical Regulatory Policies",
+          "date": "2026-03-12",
+          "relevance": "s_spiritual -- bioethics governance of gene therapy, balancing patient access with safety protections"
+        },
+        {
+          "title": "Whispered Compassion: Slow Codes, Ritual, and the Moral Limits of Transparency",
+          "date": "2026-01-28",
+          "relevance": "s_spiritual -- end-of-life ethics, moral tension between medical transparency and compassionate care"
+        },
+        {
+          "title": "More and 'Better' Babies: The Dark Side of the Pronatalist Movement",
+          "date": "2026-01-14",
+          "relevance": "s_spiritual + S_Social -- eugenics parallels in tech elite pronatalism, genetic embryo selection ethics"
+        }
+      ],
+      "recommendation": "STRONG -- premier bioethics source, directly fills s_spiritual gap with rigorous academic-quality content. No existing source covers bioethics at this depth."
+    },
+    {
+      "name": "The New Humanitarian",
+      "url": "https://www.thenewhumanitarian.org",
+      "rss_url": "https://www.thenewhumanitarian.org/rss",
+      "type": "news",
+      "description": "Independent journalism on humanitarian crises, displacement, migration, conflict, and social justice worldwide -- formerly IRIN News (UN-affiliated until 2015)",
+      "discovery_method": "gap_directed",
+      "discovery_keyword": "death dying dignity end of life ethics RSS",
+      "frontier_category": "steeps_gap_spiritual",
+      "steeps_focus": ["S_Social", "P_Political", "s_spiritual"],
+      "scan_status": "viable",
+      "health_check": {
+        "rss_accessible": true,
+        "items_found": 10,
+        "latest_item_date": "2026-03-18",
+        "content_quality": "high",
+        "update_frequency": "daily"
+      },
+      "test_signals": [
+        {
+          "title": "Displaced but uncounted: The people aid is leaving behind in Lebanon's war",
+          "date": "2026-03-17",
+          "relevance": "S_Social -- vulnerable populations overlooked in humanitarian response, displacement crisis"
+        },
+        {
+          "title": "When gender equity NGOs close, more disappears than can be measured",
+          "date": "2026-03-16",
+          "relevance": "S_Social + s_spiritual -- systemic impact on women's rights when civil society organizations collapse"
+        },
+        {
+          "title": "South Sudan power-sharing collapse drives violence and mass displacement",
+          "date": "2026-03-12",
+          "relevance": "P_Political + S_Social -- political instability causing humanitarian crisis, governance failure"
+        }
+      ],
+      "recommendation": "STRONG -- fills S_Social and P_Political gaps with high-quality independent humanitarian journalism. Unique geographic coverage (Africa, Middle East, Latin America) not duplicated by existing sources."
+    },
+    {
+      "name": "Mongabay",
+      "url": "https://news.mongabay.com",
+      "rss_url": "https://news.mongabay.com/feed/",
+      "type": "science_journalism",
+      "description": "Award-winning conservation and environmental science journalism -- covers biodiversity, deforestation, climate change, with strong Latin America and Global South coverage",
+      "discovery_method": "gap_directed",
+      "discovery_keyword": "Latin American sustainability news",
+      "frontier_category": "geographic",
+      "steeps_focus": ["E_Environmental", "S_Social"],
+      "scan_status": "viable",
+      "health_check": {
+        "rss_accessible": true,
+        "items_found": 35,
+        "latest_item_date": "2026-03-18",
+        "content_quality": "high",
+        "update_frequency": "daily"
+      },
+      "test_signals": [
+        {
+          "title": "Brazil protects huge coastal area with endangered dolphins",
+          "date": "2026-03-18",
+          "relevance": "E_Environmental -- 1 million hectares marine protection, 25 endangered species, Latin America conservation"
+        },
+        {
+          "title": "Rare ocelot spotted on Mexico's Cozumel Island",
+          "date": "2026-03-18",
+          "relevance": "E_Environmental -- invasive species dynamics, island ecology disruption, Latin America biodiversity"
+        },
+        {
+          "title": "Paul Ehrlich, 'Population Bomb' ecologist, dies at 93",
+          "date": "2026-03-18",
+          "relevance": "E_Environmental + S_Social -- legacy of population-environment thinking, foundational figure in sustainability debate"
+        }
+      ],
+      "recommendation": "STRONG -- high-volume daily feed with excellent Latin America coverage. Directly fills E_Environmental gap and adds geographic diversity. Previously identified as viable in exploration history (2026-02-15, 2026-03-09)."
+    },
+    {
+      "name": "MercoPress",
+      "url": "https://en.mercopress.com",
+      "rss_url": "https://en.mercopress.com/rss",
+      "type": "news",
+      "description": "South Atlantic and Latin America news agency -- covers politics, economics, environment, and trade across Mercosur region and beyond",
+      "discovery_method": "random",
+      "discovery_keyword": "Latin American sustainability news",
+      "frontier_category": "geographic",
+      "steeps_focus": ["P_Political", "E_Economic", "E_Environmental"],
+      "scan_status": "viable",
+      "health_check": {
+        "rss_accessible": true,
+        "items_found": 10,
+        "latest_item_date": "2026-03-18",
+        "content_quality": "medium",
+        "update_frequency": "daily"
+      },
+      "test_signals": [
+        {
+          "title": "Argentina officially withdraws from the WHO",
+          "date": "2026-03-17",
+          "relevance": "P_Political -- major geopolitical shift in global health governance, institutional withdrawal"
+        },
+        {
+          "title": "Brazil promulgates Mercosur-EU deal, completing domestic ratification",
+          "date": "2026-03-18",
+          "relevance": "P_Political + E_Economic -- landmark trade pact completion, geopolitical economic alignment"
+        },
+        {
+          "title": "Brazil's central bank starts easing cycle, cuts Selic rate to 14.75%",
+          "date": "2026-03-18",
+          "relevance": "E_Economic -- major emerging market monetary policy shift after extended tightening"
+        }
+      ],
+      "recommendation": "GOOD -- unique Latin American political and economic coverage fills P_Political gap and adds geographic diversity. Complements Mongabay's environmental focus with political/economic lens."
+    },
+    {
+      "name": "Social Current",
+      "url": "https://www.social-current.org",
+      "rss_url": "https://www.social-current.org/feed/",
+      "type": "blog",
+      "description": "Social sector trends, social work research, nonprofit sector analysis -- covers workforce trends, inequality, philanthropy, and social innovation",
+      "discovery_method": "gap_directed",
+      "discovery_keyword": "youth culture generation Z trends research",
+      "frontier_category": "steeps_gap_social",
+      "steeps_focus": ["S_Social"],
+      "scan_status": "viable",
+      "health_check": {
+        "rss_accessible": true,
+        "items_found": 10,
+        "latest_item_date": "2026-03-17",
+        "content_quality": "medium",
+        "update_frequency": "weekly"
+      },
+      "test_signals": [
+        {
+          "title": "Social Current Celebrates National Social Work Month 2026",
+          "date": "2026-03-03",
+          "relevance": "S_Social -- social work sector challenges amid policy changes, workforce transformation"
+        },
+        {
+          "title": "If Philanthropy Believes in the Social Sector, It Must Invest in Women's Leadership",
+          "date": "2026-03-13",
+          "relevance": "S_Social -- gender equity in nonprofit leadership, philanthropic investment patterns"
+        }
+      ],
+      "recommendation": "MODERATE -- fills S_Social gap but with narrower scope (US nonprofit sector focus). Lower priority than Hastings Center and New Humanitarian."
+    }
+  ]
+}

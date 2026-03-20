@@ -257,6 +257,63 @@
           "discovery_query": "global economic policy shifts emerging markets"
         }
       ]
+    },
+    {
+      "date": "2026-03-19",
+      "timestamp": "2026-03-19T00:22:09.144949+00:00",
+      "method_used": "single-agent",
+      "candidates_discovered": 5,
+      "viable_count": 5,
+      "signals_collected": 8,
+      "gaps_analyzed": [
+        "S_Social",
+        "s_spiritual",
+        "P_Political",
+        "E_Environmental"
+      ],
+      "candidates": [
+        {
+          "name": "The Hastings Center",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "bioethics gene editing moral framework"
+        },
+        {
+          "name": "The New Humanitarian",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "death dying dignity end of life ethics RSS"
+        },
+        {
+          "name": "Mongabay",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "Latin American sustainability news"
+        },
+        {
+          "name": "MercoPress",
+          "discovery_method": "random",
+          "scan_status": "viable",
+          "discovery_query": "Latin American sustainability news"
+        },
+        {
+          "name": "Social Current",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "youth culture generation Z trends research"
+        }
+      ],
+      "recorded_by": "exploration-orchestrator (Stage C)"
+    },
+    {
+      "date": "2026-03-20",
+      "timestamp": "2026-03-19T23:10:50.009653+00:00",
+      "method_used": "agent-team",
+      "candidates_discovered": 3,
+      "viable_count": 2,
+      "signals_collected": 6,
+      "gaps_analyzed": [],
+      "recorded_by": "exploration_gate.py (safety net)"
     }
   ],
   "approved": [
@@ -298,13 +355,33 @@
         "S_Social"
       ],
       "approval_reason": "User-approved: deep science journalism filling interdisciplinary gap"
+    },
+    {
+      "name": "IPBES News",
+      "decision": "approved",
+      "decided_at": "2026-03-19T23:10:49.976306+00:00",
+      "url": "https://www.ipbes.net/news",
+      "type": "policy",
+      "auto_promoted": true,
+      "quality_score": 0.75,
+      "discovery_method": "unknown"
+    },
+    {
+      "name": "Earth.Org",
+      "decision": "approved",
+      "decided_at": "2026-03-19T23:10:50.008260+00:00",
+      "url": "https://earth.org/feed/",
+      "type": "science_journalism",
+      "auto_promoted": true,
+      "quality_score": 0.82,
+      "discovery_method": "unknown"
     }
   ],
   "discarded": [],
   "deferred": [],
   "learning": {
-    "last_update": "2026-03-07T01:08:36.901903+00:00",
-    "scans_analyzed": 4,
+    "last_update": "2026-03-19T00:22:09.145422+00:00",
+    "scans_analyzed": 5,
     "keyword_successes": {
       "environmental sustainability climate change independent news": 1,
       "conservation environment Latin America sustainability": 1,
@@ -317,7 +394,11 @@
       "environmental sustainability climate change news RSS feed": 1,
       "global economics finance trade news RSS feed research blog": 1,
       "synthetic biology ethics governance RSS feed": 1,
-      "ethics psychology values meaning well-being spirituality RSS feed blog": 1
+      "ethics psychology values meaning well-being spirituality RSS feed blog": 1,
+      "bioethics gene editing moral framework": 1,
+      "death dying dignity end of life ethics RSS": 1,
+      "Latin American sustainability news": 1,
+      "youth culture generation Z trends research": 1
     }
   }
 }

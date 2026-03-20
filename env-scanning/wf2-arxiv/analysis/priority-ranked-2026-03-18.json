@@ -1,0 +1,1186 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf2-arxiv",
+    "date": "2026-03-18",
+    "computed_at": "2026-03-18T01:27:27Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 53,
+    "warn_count": 106
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "arxiv-2603.09001",
+      "title": "DeepSeek mHC: Manifold-Constrained Hyper-Connections for Scalable Transformer Architectures",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "arxiv-2603.09002",
+      "title": "ScienceClaw + Infinite: Autonomous Multi-Agent Framework for Iterative Scientific Discovery",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "arxiv-2603.09003",
+      "title": "LTX-2: Unified Audiovisual Diffusion for Synchronized Video-Audio Generation",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "arxiv-2603.09004",
+      "title": "Attn-QAT: Attention-Aware Quantization for 4-Bit Transformer Inference at Scale",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "arxiv-2603.09005",
+      "title": "Breaking the Factorization Barrier in Discrete Diffusion Language Models",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "arxiv-2603.04584",
+      "title": "Fault-Tolerant Execution of Error-Corrected Quantum Algorithms on Trapped-Ion Processors",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "arxiv-2603.09007",
+      "title": "ReloQate: Real-Time Recalibration of Surface Code Quantum Error Correction",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "arxiv-2603.00932",
+      "title": "No Last Mile: A Theory of the Human Data Market Under AI Commodification",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "arxiv-2603.12128",
+      "title": "How Vulnerable is India's Economy to Foreign Sanctions? A Network Analysis",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "arxiv-2603.08603",
+      "title": "A Dynamic Equilibrium Model for Automated Market Makers in DeFi",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "arxiv-2603.00068",
+      "title": "The Global Landscape of Environmental AI Regulation: A Comparative Framework",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "arxiv-2603.00065",
+      "title": "Self-Service or Not? Guiding Practitioners in Classifying AI Systems Under the EU AI Act",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 13,
+      "id": "arxiv-2603.01245",
+      "title": "Insights for an AI Whistleblower Office: Evidence from 30 Case Studies",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "arxiv-2603.03515",
+      "title": "The Controllability Trap: A Governance Framework for Military AI Agents",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 15,
+      "id": "arxiv-2603.02640",
+      "title": "Credibility Governance: Social Mechanisms for Collective Self-Correction in AI-Mediated Information",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 16,
+      "id": "arxiv-2603.00164",
+      "title": "Reverse CAPTCHA: Evaluating LLM Susceptibility to Invisible Unicode Instruction Injection",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 17,
+      "id": "arxiv-2603.00476",
+      "title": "Atomicity for Agents: TOCTOU Vulnerabilities in Browser-Use AI Agents",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 18,
+      "id": "arxiv-2603.01246",
+      "title": "Defensive Refusal Bias: How Safety Alignment Fails Cyber Defenders",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 19,
+      "id": "arxiv-2603.00172",
+      "title": "Hidden in the Metadata: Stealth Poisoning Attacks on Multimodal RAG Systems",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 20,
+      "id": "arxiv-2603.00732",
+      "title": "UniHM: Unified Dexterous Hand Manipulation via Vision-Language-Action Models",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 21,
+      "id": "arxiv-2603.01151",
+      "title": "D-REX: Differentiable Real-to-Sim-to-Real for Learning Dexterous Grasping",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 22,
+      "id": "arxiv-2603.01113",
+      "title": "From Dialogue to Execution: Mixture-of-Agents for Behavior Tree-Based Long-Horizon Robot Tasks",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 23,
+      "id": "arxiv-2603.00048",
+      "title": "MOSAIC: Unveiling the Moral, Social, and Individual Dimensions of Large Language Models",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 24,
+      "id": "arxiv-2603.00534",
+      "title": "Pressure-Tuned Double-Dome Superconductivity in KZnBi with Honeycomb Lattice",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 25,
+      "id": "arxiv-2603.00648",
+      "title": "High-Temperature Superconductivity in Hydrogenated Hexagonal BC3 Monolayer via Sigma-Band Mechanism",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 26,
+      "id": "arxiv-2603.00740",
+      "title": "Mechanically Assisted Symmetry Reconstruction for Extraordinary Piezoelectricity",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 27,
+      "id": "arxiv-2603.00591",
+      "title": "Liquid Metals Routes towards Making Superconductors: A Scalable Manufacturing Pathway",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 28,
+      "id": "arxiv-2603.00130",
+      "title": "Agentic Hives: Equilibrium, Indeterminacy, and Endogenous Cycles in Self-Organizing Autonomous Systems",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 29,
+      "id": "arxiv-2603.01045",
+      "title": "Silo-Bench: Evaluating Distributed Coordination in Multi-Agent LLM Systems at Scale",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 30,
+      "id": "arxiv-2603.04474",
+      "title": "From Spark to Fire: Error Cascades and Mitigation in Multi-Agent LLM Collaboration",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 31,
+      "id": "arxiv-2603.00173",
+      "title": "Summer-22B: A Systematic Approach to Video Foundation Model Development at Scale",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 32,
+      "id": "arxiv-2603.00136",
+      "title": "TinyVLM: Zero-Shot Object Detection on Microcontrollers via Knowledge Distillation",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 33,
+      "id": "arxiv-2603.00729",
+      "title": "Qwen3-Coder-Next: Advancing Code-Focused Language Models with Execution-Guided Training",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 34,
+      "id": "arxiv-2603.00296",
+      "title": "Length-Efficient Chain-of-Thought: Reducing Reasoning Verbosity Without Sacrificing Accuracy",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 35,
+      "id": "arxiv-2603.01192",
+      "title": "Grokking as a Phase Transition: Understanding Delayed Generalization Through Singular Learning Theory",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 36,
+      "id": "arxiv-2603.00520",
+      "title": "SWE-ABS: Adversarial Benchmark Strengthening Reveals Inflated Success Rates in Code Agents",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 37,
+      "id": "arxiv-2603.01327",
+      "title": "SWE-Adept: Agentic Framework for Deep Repository-Level Code Understanding and Issue Resolution",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 38,
+      "id": "arxiv-2603.00193",
+      "title": "Multimodal Alignment Improves Generalizability of Genomic Biomarker Prediction in Computational Pathology",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 39,
+      "id": "arxiv-2603.02402",
+      "title": "GPU-Accelerated Single-Cell Analysis at Scale with rapids-singlecell",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 40,
+      "id": "arxiv-2603.07331",
+      "title": "Causal Attribution of Coastal Water Clarity Degradation to Nickel Processing Expansion in Indonesia",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 41,
+      "id": "arxiv-2603.07227",
+      "title": "Estimating Changes in Extreme Temperature Quantiles: Applied to Desert Temperature Records",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 42,
+      "id": "arxiv-2603.01906",
+      "title": "ScreenAnt: Transparent On-Screen Antennas for 6G Wireless Communications",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 43,
+      "id": "arxiv-2603.01855",
+      "title": "Quantum-PROBE: Rydberg Atomic Receiver for Multi-Angle RF Sensing with Quantum Advantage",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 44,
+      "id": "arxiv-2603.02898",
+      "title": "Range-Based Volatility Estimators for Monitoring Market Stress: Evidence from Local Food Price Data",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 45,
+      "id": "arxiv-2603.00089",
+      "title": "Who Controls the Conversation? User Perspectives on Generative AI System Prompts",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 46,
+      "id": "arxiv-2603.12417",
+      "title": "Topology as Information: Network Effects in Corporate Lending and Systemic Risk",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 47,
+      "id": "arxiv-2603.01042",
+      "title": "Thoth: Bridging Language Models to Time Series Understanding via Mid-Training Integration",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 48,
+      "id": "arxiv-2603.00902",
+      "title": "Clawdrain: Exploiting Tool-Calling Chains for Stealthy Token Exhaustion in AI Agents",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 49,
+      "id": "arxiv-2603.00185",
+      "title": "ThreatFormer-IDS: Robust Intrusion Detection with Zero-Day Generalization",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 50,
+      "id": "arxiv-2603.02032",
+      "title": "MetaRCA: Generalizable Root Cause Analysis for Cloud-Native Systems via Meta Causal Knowledge",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 51,
+      "id": "arxiv-2603.01109",
+      "title": "A Stochastic Correlation Extension of the Vasicek Credit Risk Model for Macro-Prudential Stress Testing",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 52,
+      "id": "arxiv-2603.00706",
+      "title": "Startup Contracting and Entrepreneur-Investor Bargaining Under AI-Driven Valuation",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 53,
+      "id": "arxiv-2603.00016",
+      "title": "Beyond Static Instruction: Multi-Agent AI Framework for Adaptive Augmented Reality Robot Training",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    }
+  ]
+}

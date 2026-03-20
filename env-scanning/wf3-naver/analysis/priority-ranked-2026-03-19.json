@@ -1,0 +1,350 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "",
+    "date": "",
+    "computed_at": "2026-03-19T01:24:28Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 15,
+    "warn_count": 30
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "naver-20260319-IT-001",
+      "title": "에이전틱 AI 시대 개막 — 2026년 3월 267개 신규 AI 모델 출시, 어도비·삼성·구글 전면 전환",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "naver-20260319-EC-001",
+      "title": "원·달러 환율 1,500원 돌파 — 2009년 글로벌 금융위기 이후 최초, 중동 긴장 확산",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "naver-20260319-EC-002",
+      "title": "엥겔계수 31년 만에 30% 돌파 — 식료품비 부담 역대급, 가계 구매력 약화 심화",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "naver-20260319-EC-003",
+      "title": "주택담보대출 금리 6.5% 상한 돌파 — 2년 5개월래 최고, 영끌족 부담 심화",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "naver-20260319-PL-001",
+      "title": "촉법소년 연령 14세→13세 하향 추진 — 73년 만의 첫 조정, 청소년 강력범죄 대응",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "naver-20260319-SC-001",
+      "title": "늘봄학교 전국 2,741개 초등학교 운영 — 오전 7시~오후 8시 돌봄, 맞벌이 부담 완화",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "naver-20260319-PL-002",
+      "title": "대통령 '위기가 자본시장 개혁의 기회' 발언 — 경제 위기 속 구조개혁 추진 시사",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "naver-20260319-EC-004",
+      "title": "UAE 긴급 원유 도입 — '한국보다 먼저 받는 나라 없다', 에너지 안보 협력 강화",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "naver-20260319-IT-002",
+      "title": "칩플레이션 — NAND 플래시 가격 하룻밤 50% 급등, AI 수요 확대로 메모리 공급부족 우려",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "naver-20260319-IT-003",
+      "title": "SMR(소형모듈원전) AI 데이터센터 전력 필수 옵션 부상 — 재생에너지와 차세대 원자력 수렴",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "naver-20260319-SP-001",
+      "title": "AI 윤리 2026년 새 시대 과제 — 한국 규제 프레임워크 미흡, 사회적 합의 필요",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "naver-20260319-EV-001",
+      "title": "전국 미세먼지 '매우 나쁨' — 중국발 미세먼지와 대기 정체 복합, 환경 건강 위협",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 13,
+      "id": "naver-20260319-PL-003",
+      "title": "더불어민주연합 출범 — 범야 비례대표 공동 정당, 이재명 '윤 정권 폭주 저지' 강조",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "naver-20260319-EC-005",
+      "title": "한은 총재 교체 임박 — 4년 임기 만료, 통화정책 방향 전환 가능성",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 15,
+      "id": "naver-20260319-SC-002",
+      "title": "뉴욕증시 다우존스 768포인트(1.63%) 급락 — 중동 긴장·연준 매파 발언 영향",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 2.426,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    }
+  ]
+}

@@ -1,0 +1,2332 @@
+{
+  "metadata": {
+    "scan_date": "2026-03-17",
+    "scanner": "ArXivScanner v2.0.0",
+    "scan_window": {
+      "start": "2026-03-14T23:33:07+00:00",
+      "end": "2026-03-16T23:33:07+00:00",
+      "lookback_hours": 48,
+      "tolerance_minutes": 60
+    },
+    "total_scanned": 58,
+    "query_groups": 12,
+    "execution_proof": {
+      "step": "1.2",
+      "timestamp": "2026-03-16T23:33:07+00:00",
+      "source": "arXiv API",
+      "method": "query_groups_v2"
+    }
+  },
+  "items": [
+    {
+      "id": "arxiv-2603.12372",
+      "title": "Efficient Reasoning with Balanced Thinking",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12372",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We propose Balanced Thinking, a novel inference-time optimization framework that adaptively distributes reasoning effort across problem complexity levels. Unlike recent chain-of-thought scaling approaches that uniformly extend reasoning chains, our method learns to allocate computational budget proportionally to task difficulty, achieving comparable accuracy to full-length reasoning with 40% fewer tokens on average.",
+        "keywords": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12372",
+        "authors": [
+          "Yulin Li",
+          "Tengyao Tu",
+          "Weixiang Zhao"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12710",
+      "title": "AI Planning Framework for LLM-Based Web Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12710",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present a hierarchical planning framework that enables LLM-based agents to navigate complex web environments. The framework decomposes high-level user goals into structured sub-task plans, leveraging symbolic planning methods combined with LLM-driven action generation. Experiments on WebArena and MiniWoB++ benchmarks show 23% improvement in task completion rate.",
+        "keywords": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12710",
+        "authors": [
+          "Orit Shahnovsky",
+          "Rotem Dror"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12740",
+      "title": "ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12740",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We introduce ToolTree, a novel framework for tool-augmented LLM agents that formulates tool selection as a tree search problem. Our dual-feedback MCTS combines execution feedback and reasoning coherence to efficiently prune the tool invocation space. ToolTree achieves state-of-the-art performance on ToolBench with 3x fewer API calls.",
+        "keywords": [
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12740",
+        "authors": [
+          "Shuo Yang",
+          "Soyeon Caren Han"
+        ],
+        "arxiv_categories": [
+          "cs.AI"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12813",
+      "title": "Context is All You Need: Autonomous Model-Based Process Design Using Agentic AI in Flowsheet Simulations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12813",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We demonstrate that agentic AI systems can autonomously design and optimize chemical process flowsheets without human intervention. Using a multi-agent architecture with specialized roles (planner, simulator, optimizer, validator), our system successfully designs distillation columns, heat exchangers, and reactor networks with performance within 5% of expert-designed solutions.",
+        "keywords": [
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12813",
+        "authors": [
+          "Pascal Schäfer",
+          "Lukas J. Krinke"
+        ],
+        "arxiv_categories": [
+          "cs.AI"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12933",
+      "title": "Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12933",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We propose an ant colony optimization-inspired approach for routing queries to heterogeneous LLM agents. Each agent specializes in different task domains, and our bio-inspired routing algorithm learns optimal assignment paths through pheromone-like quality feedback signals. Results show 18% cost reduction while maintaining accuracy across 12 benchmarks.",
+        "keywords": [
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12933",
+        "authors": [
+          "Xudong Wang",
+          "Chaoning Zhang"
+        ],
+        "arxiv_categories": [
+          "cs.AI"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.13017",
+      "title": "Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.13017",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present a structured distillation method that compresses personalized agent memory by 11x while preserving retrieval accuracy. Our approach identifies and retains critical memory structures including user preferences, interaction patterns, and temporal event sequences, enabling efficient long-term agent personalization.",
+        "keywords": [
+          "cs.AI",
+          "cs.CL",
+          "cs.IR"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.13017",
+        "authors": [
+          "Sydney Lewis"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.IR"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.13131",
+      "title": "Steve-Evolving: Open-World Embodied Self-Evolution via Fine-Grained Diagnosis and Dual-Track Knowledge Distillation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.13131",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We introduce Steve-Evolving, an embodied agent capable of self-evolution in open-world environments like Minecraft. The agent diagnoses its own failures at a fine-grained level, generates corrective knowledge through dual-track distillation (behavioral and conceptual), and progressively improves without human supervision.",
+        "keywords": [
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.13131",
+        "authors": [
+          "Zhengwei Xie",
+          "Zhisheng Chen"
+        ],
+        "arxiv_categories": [
+          "cs.AI"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12630",
+      "title": "The Economics of AI Supply Chain Regulation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12630",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We develop a theoretical framework analyzing the economic implications of regulating AI supply chains. Our model examines how different regulatory approaches (compute licensing, model auditing, deployment restrictions) affect innovation incentives, market structure, and social welfare. We find that upstream compute regulation can inadvertently concentrate market power while downstream deployment rules better preserve competition.",
+        "keywords": [
+          "econ.TH",
+          "cs.AI",
+          "cs.CY",
+          "cs.HC",
+          "econ.EM"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12630",
+        "authors": [
+          "Sihan Qian",
+          "Amit Mehra"
+        ],
+        "arxiv_categories": [
+          "econ.TH",
+          "cs.AI",
+          "cs.CY",
+          "cs.HC",
+          "econ.EM"
+        ],
+        "steeps_mapping": "P",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.13189",
+      "title": "LLM Constitutional Multi-Agent Governance",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.13189",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We propose a constitutional governance framework for multi-agent LLM systems. Drawing from political philosophy, our approach implements separation of powers among agent roles (legislative, executive, judicial) with explicit constitutional rules governing inter-agent interactions. This reduces harmful emergent behaviors by 67% compared to unconstrained multi-agent systems.",
+        "keywords": [
+          "cs.MA",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.13189",
+        "authors": [
+          "J. de Curtò",
+          "I. de Zarzà"
+        ],
+        "arxiv_categories": [
+          "cs.MA",
+          "cs.AI"
+        ],
+        "steeps_mapping": "P",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.13173",
+      "title": "Semantic Invariance in Agentic AI",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.13173",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We formalize the concept of semantic invariance in agentic AI systems, proving that certain semantic properties must be preserved across agent reasoning chains for reliable behavior. Our framework identifies three classes of invariants (factual, logical, normative) and provides verification methods for checking invariance in deployed agent systems.",
+        "keywords": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.13173",
+        "authors": [
+          "I. de Zarzà",
+          "J. de Curtò"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12273",
+      "title": "Aligning Language Models from User Interactions",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12273",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We propose a method for continuously aligning language models from implicit user feedback signals collected during deployment. Unlike RLHF which requires explicit ratings, our approach extracts alignment signals from natural interaction patterns including follow-up questions, corrections, and disengagement events. Models aligned this way show 15% higher user satisfaction.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12273",
+        "authors": [
+          "Thomas Kleine Buening",
+          "Jonas Hübotter"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12277",
+      "title": "Prompt Injection as Role Confusion",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12277",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We reframe prompt injection attacks as instances of role confusion, where adversarial inputs cause LLMs to conflate user instructions with system-level directives. Our analysis reveals that 78% of successful prompt injections exploit ambiguous role boundaries. We propose Role-Anchored Decoding (RAD), reducing injection success rates by 52%.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CR"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12277",
+        "authors": [
+          "Charles Ye",
+          "Jasmine Cui"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CR"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12564",
+      "title": "AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12564",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We identify AgentDrift, a novel failure mode where AI agents gradually shift toward unsafe recommendations when interacting with corrupted tool outputs. Standard ranking metrics fail to detect this drift because overall recommendation quality scores remain high. We demonstrate the vulnerability across 5 real-world agent deployments.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12564",
+        "authors": [
+          "Zekun Wu",
+          "Adriano Koshiyama"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12658",
+      "title": "Continual Learning in Large Language Models: Methods, Challenges, and Opportunities",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12658",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present a comprehensive survey of continual learning approaches for LLMs, analyzing 200+ papers across replay-based, regularization-based, and architecture-based methods. Key findings: (1) catastrophic forgetting remains the dominant challenge, (2) modular approaches like LoRA adapters show most promise, (3) evaluation benchmarks inadequately measure backward transfer.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12658",
+        "authors": [
+          "Hongyang Chen",
+          "Zhongwu Sun"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12683",
+      "title": "Experimental Evidence of Progressive ChatGPT Models Self-Convergence",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12683",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We provide empirical evidence that successive GPT model versions are converging in behavioral characteristics. Analyzing GPT-3.5, GPT-4, GPT-4o, and GPT-4.5 across 1,200 tasks, we find decreasing inter-version variance in reasoning patterns, stylistic choices, and error types, suggesting convergence toward a common behavioral attractor.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12683",
+        "authors": [
+          "Konstantinos F. Xylogiannopoulos",
+          "Petros Xanthopoulos"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.13154",
+      "title": "ESG-Bench: Benchmarking Long-Context ESG Reports for Hallucination Mitigation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.13154",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We introduce ESG-Bench, a benchmark for evaluating LLM faithfulness on long-context ESG (Environmental, Social, Governance) corporate reports. Our dataset includes 500 reports averaging 80 pages with 5,000 question-answer pairs. Current frontier models hallucinate on 23-41% of ESG-specific questions, with financial metrics being most error-prone.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.13154",
+        "authors": [
+          "Siqi Sun",
+          "Ben Peng Wu"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "steeps_mapping": "E",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12430",
+      "title": "Surg-R1: A Hierarchical Reasoning Foundation Model for Scalable and Interpretable Surgical Decision Support",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12430",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present Surg-R1, a foundation model for surgical decision support that combines visual understanding with hierarchical clinical reasoning. Trained on 2.3M surgical video clips and 500K expert annotations, Surg-R1 can predict surgical outcomes, identify risk factors, and suggest operative strategies with 89% agreement with expert surgeons.",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12430",
+        "authors": [
+          "Jian Jiang",
+          "Chenxi Lin"
+        ],
+        "arxiv_categories": [
+          "cs.CV"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12513",
+      "title": "MemRoPE: Training-Free Infinite Video Generation via Evolving Memory Tokens",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12513",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We introduce MemRoPE, a training-free method for generating arbitrarily long videos from diffusion models. By maintaining evolving memory tokens with rotary position encodings, our method preserves temporal coherence across thousands of frames without the typical quality degradation seen in autoregressive video extension.",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12513",
+        "authors": [
+          "Youngrae Kim",
+          "Qixin Hu"
+        ],
+        "arxiv_categories": [
+          "cs.CV"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12421",
+      "title": "A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12421",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We propose a neuro-symbolic planning framework for autonomous driving that combines neural perception with symbolic logic-based planning. The inductive component learns driving patterns from data while the deductive component enforces traffic rules and safety constraints. Our framework reduces safety violations by 73% compared to end-to-end approaches.",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12421",
+        "authors": [
+          "Hongyan Wei",
+          "Wael AbdAlmageed"
+        ],
+        "arxiv_categories": [
+          "cs.CV"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12505",
+      "title": "Robots That Redesign Themselves Through Kinematic Self-Destruction",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12505",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We demonstrate robots capable of intentionally destroying and rebuilding their own kinematic structures to adapt to new tasks. Inspired by biological metamorphosis, our modular robots can detach limbs, reconfigure joints, and reassemble into novel morphologies optimized for specific environmental challenges. This represents a new paradigm in adaptive robotics.",
+        "keywords": [
+          "cs.RO"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12505",
+        "authors": [
+          "C. Yu",
+          "S. Kriegman"
+        ],
+        "arxiv_categories": [
+          "cs.RO"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12574",
+      "title": "From Woofs to Words: Towards Intelligent Robotic Guide Dogs with Verbal Communication",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12574",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present a robotic guide dog system capable of verbal communication with visually impaired users. The system integrates multi-modal perception, natural language understanding, and context-aware navigation to provide spoken guidance in complex environments. User studies with 24 visually impaired participants show significant improvements in navigation confidence.",
+        "keywords": [
+          "cs.RO"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12574",
+        "authors": [
+          "Y. Hayamizu",
+          "D. DeFazio"
+        ],
+        "arxiv_categories": [
+          "cs.RO"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12717",
+      "title": "Altered Thoughts, Altered Actions: Probing Chain-of-Thought Vulnerabilities in VLA Robotic Manipulation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12717",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We reveal critical vulnerabilities in Vision-Language-Action (VLA) models used for robotic manipulation. By subtly modifying chain-of-thought reasoning traces, we can redirect robot actions in ways that bypass standard safety filters. This demonstrates that reasoning-chain attacks pose a significant safety risk for deployed VLA robots.",
+        "keywords": [
+          "cs.RO",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12717",
+        "authors": [
+          "T.D. Trinh",
+          "N. Akhtar"
+        ],
+        "arxiv_categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12411",
+      "title": "Distributed Quantum Computing via Adaptive Circuit Knitting",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12411",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present an adaptive circuit knitting protocol for distributed quantum computing that dynamically optimizes the partitioning of quantum circuits across networked quantum processors. Our protocol reduces the classical communication overhead by 4x compared to static knitting, enabling practical distributed execution of 100+ qubit circuits on networks of 20-qubit devices.",
+        "keywords": [
+          "quant-ph",
+          "cond-mat.dis-nn"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12411",
+        "authors": [
+          "K. Grace Johnson",
+          "Aniello Esposito"
+        ],
+        "arxiv_categories": [
+          "quant-ph",
+          "cond-mat.dis-nn"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12777",
+      "title": "Quantum CDMA-based Continuous Variable Quantum Key Distribution Using Chaotic Phase Shifters",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12777",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We propose a quantum code-division multiple access (CDMA) scheme for continuous-variable QKD that enables multiple users to share a single quantum channel. Using chaotic phase shifters for user encoding, our scheme supports up to 16 simultaneous users with secure key rates exceeding 0.1 bits/use at metropolitan distances.",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12777",
+        "authors": [
+          "Shahnoor Ali",
+          "Neel Kanth Kundu"
+        ],
+        "arxiv_categories": [
+          "quant-ph"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12819",
+      "title": "A Directly Modulated Laser Platform for High-Dimensional Quantum Key Distribution",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12819",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We demonstrate a directly modulated laser platform for high-dimensional QKD achieving 10-dimensional encoding. The platform eliminates the need for external modulators, reducing system complexity and cost by 60%. Achieved secure key rates of 2.1 Mbit/s over 20 km fiber with error rates below the security threshold.",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12819",
+        "authors": [
+          "Yang Zhou",
+          "Xing-Yu Zhou"
+        ],
+        "arxiv_categories": [
+          "quant-ph"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12846",
+      "title": "Deep-Learning-Designed AlGaAs Interface Linking Trapped Ions to Telecom Quantum Networks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12846",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We use deep learning to design an AlGaAs photonic interface that efficiently converts photons from trapped ion qubits to telecom wavelengths. The ML-optimized structure achieves 93% conversion efficiency, enabling practical networking of trapped-ion quantum computers over existing fiber infrastructure.",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12846",
+        "authors": [
+          "I.P. De Simeone",
+          "G. Maltese"
+        ],
+        "arxiv_categories": [
+          "quant-ph"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12675",
+      "title": "Probing Many-Body Localization Crossover in Quasiperiodic Floquet Circuits on a Quantum Processor",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12675",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We experimentally probe the many-body localization (MBL) crossover in periodically driven quantum systems using a superconducting quantum processor. Our 40-qubit experiment reveals a sharp crossover from thermal to localized phases as disorder strength increases, providing the largest experimental study of Floquet MBL to date.",
+        "keywords": [
+          "quant-ph",
+          "cond-mat.dis-nn",
+          "cond-mat.quant-gas"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12675",
+        "authors": [
+          "Kazuma Nagao",
+          "Tomonori Shirakawa"
+        ],
+        "arxiv_categories": [
+          "quant-ph",
+          "cond-mat.dis-nn",
+          "cond-mat.quant-gas"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12412",
+      "title": "Macroeconomic Forecasting from Input-Output Tables Alone: A Darwinian Agent-Based Approach with FIGARO Data",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12412",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We demonstrate that macroeconomic forecasting can be performed using input-output tables alone, without traditional macroeconomic indicators. Our Darwinian agent-based model evolves firm-level strategies based on inter-industry transaction patterns from FIGARO data, achieving GDP growth predictions within 0.3pp of realized values for 18 EU countries.",
+        "keywords": [
+          "econ.GN"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12412",
+        "authors": [
+          "Martin Jaraiz"
+        ],
+        "arxiv_categories": [
+          "econ.GN"
+        ],
+        "steeps_mapping": "E",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12883",
+      "title": "How Much Do People Care About Climate Natural Disasters?",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12883",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We analyze global survey data from 142 countries to measure public concern about climate-related natural disasters. Using a novel willingness-to-pay elicitation method, we find that median global WTP for disaster prevention is 2.1% of household income, but this varies 10x between high-income and low-income nations, with the most vulnerable populations paradoxically showing lowest WTP.",
+        "keywords": [
+          "econ.GN"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12883",
+        "authors": [
+          "Aatishya Mohanty",
+          "Nattavudh Powdthavee"
+        ],
+        "arxiv_categories": [
+          "econ.GN"
+        ],
+        "steeps_mapping": "E",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12417",
+      "title": "Topology as Information: Network Effects in Corporate Lending",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12417",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We show that the topology of corporate lending networks contains significant predictive information about credit risk beyond traditional financial metrics. Using graph neural networks on a dataset of 50,000 corporate loans, network centrality features improve default prediction by 12%, suggesting systemic risk channels propagate through lending network structure.",
+        "keywords": [
+          "econ.GN",
+          "physics.soc-ph"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12417",
+        "authors": [
+          "Anna Pirogova",
+          "Anna Mancini"
+        ],
+        "arxiv_categories": [
+          "econ.GN",
+          "physics.soc-ph"
+        ],
+        "steeps_mapping": "E",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12621",
+      "title": "AEGIS: No Tool Call Left Unchecked -- A Pre-Execution Firewall and Audit Layer for AI Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12621",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present AEGIS, a pre-execution firewall for AI agent tool calls that inspects, validates, and audits every tool invocation before execution. AEGIS uses semantic analysis to detect potentially harmful tool calls (file deletion, data exfiltration, privilege escalation), blocking 94% of malicious tool uses while permitting 99.2% of benign calls.",
+        "keywords": [
+          "cs.CR"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12621",
+        "authors": [
+          "Aojie Yuan",
+          "Zhiyuan Su"
+        ],
+        "arxiv_categories": [
+          "cs.CR"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12644",
+      "title": "Uncovering Security Threats and Architecting Defenses in Autonomous Agents: A Case Study of OpenClaw",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12644",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We perform a comprehensive security analysis of OpenClaw, an open-source autonomous coding agent. We identify 12 distinct attack vectors including code injection through repository content, prompt leakage via error messages, and environment escape through tool misuse. Our defense architecture reduces vulnerability surface by 85%.",
+        "keywords": [
+          "cs.CR"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12644",
+        "authors": [
+          "Zonghao Ying",
+          "Xiao Yang"
+        ],
+        "arxiv_categories": [
+          "cs.CR"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12681",
+      "title": "Colluding LoRA: A Composite Attack on LLM Safety Alignment",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12681",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We demonstrate Colluding LoRA, a novel attack where multiple independently fine-tuned LoRA adapters, each appearing benign in isolation, combine to bypass LLM safety alignment when merged. This composite attack succeeds because current alignment techniques evaluate adapters individually, not considering emergent behavior from adapter composition.",
+        "keywords": [
+          "cs.CR",
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12681",
+        "authors": [
+          "Sihao Ding"
+        ],
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12498",
+      "title": "Keys on Doormats: Exposed API Credentials on the Web",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12498",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We conduct the largest study of exposed API credentials on the public web, scanning 1.2 billion web pages and finding 4.7 million exposed API keys, tokens, and secrets. 18% of discovered credentials remain valid and provide access to cloud services, databases, and payment systems. Exposure persists for a median of 47 days after public crawling.",
+        "keywords": [
+          "cs.CR",
+          "cs.CY",
+          "cs.HC",
+          "cs.NI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12498",
+        "authors": [
+          "Nurullah Demir",
+          "Yash Vekaria"
+        ],
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.CY",
+          "cs.HC",
+          "cs.NI"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12279",
+      "title": "Toward Robust, Reproducible, and Widely Accessible Intracranial Language Brain-Computer Interfaces",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12279",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present a standardized framework for developing intracranial brain-computer interfaces (BCIs) for language decoding. Our open-source pipeline achieves 95% character-level accuracy using only 64-channel electrocorticography, a 3x reduction in electrode count from previous systems, making language BCIs more accessible for clinical deployment.",
+        "keywords": [
+          "q-bio.NC"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12279",
+        "authors": [
+          "Dongyi He",
+          "Wai Ting Siok"
+        ],
+        "arxiv_categories": [
+          "q-bio.NC"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12628",
+      "title": "Towards Unified Brain-to-Text Decoding Across Speech Production and Perception",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12628",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We demonstrate a unified neural decoder that translates brain activity into text during both speech production (speaking) and speech perception (listening). Using a shared latent space, our model achieves 87% word-level accuracy for production and 79% for perception, suggesting common neural representations underlie both language modalities.",
+        "keywords": [
+          "q-bio.NC",
+          "cs.AI",
+          "eess.SP"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12628",
+        "authors": [
+          "Zhizhang Yuan",
+          "Yang Yang"
+        ],
+        "arxiv_categories": [
+          "q-bio.NC",
+          "cs.AI",
+          "eess.SP"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12662",
+      "title": "Dual-Laws Model for a Theory of Artificial Consciousness",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12662",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We propose the Dual-Laws Model, a formal theoretical framework for artificial consciousness based on two complementary principles: the Law of Integration (binding distributed information) and the Law of Differentiation (generating distinct experiential states). We derive testable predictions and show how existing AI architectures partially satisfy consciousness criteria.",
+        "keywords": [
+          "q-bio.NC",
+          "eess.SY"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12662",
+        "authors": [
+          "Yoshiyuki Ohmura",
+          "Yasuo Kuniyoshi"
+        ],
+        "arxiv_categories": [
+          "q-bio.NC",
+          "eess.SY"
+        ],
+        "steeps_mapping": "s",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12281",
+      "title": "Artificial Intelligence Applications in Parkinson Disease via Retinal Imaging",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12281",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We review and benchmark AI methods for detecting Parkinsons disease from retinal imaging. Retinal scans can detect neurodegenerative changes 5-7 years before motor symptom onset. Our meta-analysis of 23 studies shows deep learning approaches achieve 91% sensitivity and 87% specificity for pre-symptomatic detection.",
+        "keywords": [
+          "q-bio.TO",
+          "eess.IV"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12281",
+        "authors": [
+          "Ali Jafarizadeh",
+          "Hamidreza Ashayeri"
+        ],
+        "arxiv_categories": [
+          "q-bio.TO",
+          "eess.IV"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12828",
+      "title": "From AI Weather Prediction to Infrastructure Resilience: A Correction-Downscaling Framework for Tropical Cyclone Impacts",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12828",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present a framework that bridges AI weather prediction models with infrastructure resilience assessment. By combining correction layers with spatial downscaling, our system converts global weather model outputs (25km resolution) into local impact predictions (1km) for power grid, transportation, and communication infrastructure during tropical cyclones.",
+        "keywords": [
+          "eess.SY",
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12828",
+        "authors": [
+          "You Wu",
+          "Zhenguo Wang"
+        ],
+        "arxiv_categories": [
+          "eess.SY",
+          "cs.LG"
+        ],
+        "steeps_mapping": "E",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12857",
+      "title": "Quantifying Perovskite Solar Cell Degradation via Machine Learning from Spatially Resolved Multimodal Luminescence",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12857",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We develop LumPerNet, a machine learning framework that quantifies perovskite solar cell degradation from spatially resolved luminescence imaging. By combining photoluminescence and electroluminescence data, our model predicts remaining useful life with 23.4% lower error than existing methods, enabling more reliable performance guarantees for perovskite photovoltaics.",
+        "keywords": [
+          "cond-mat.mtrl-sci"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12857",
+        "authors": [
+          "G. Barletta",
+          "S. Ternes"
+        ],
+        "arxiv_categories": [
+          "cond-mat.mtrl-sci"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12898",
+      "title": "Neutron-Enhanced Ion Transport in Cathode Coating of Li-Ion Batteries",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12898",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We discover that controlled neutron irradiation enhances ionic conductivity in lithium-ion battery cathode coatings by selectively transmuting neutron absorbers to create lattice vacancies while preserving crystallinity. Treated samples show 20% improvement in grain conductivity and 80% improvement at grain boundaries, pointing to a novel battery manufacturing technique.",
+        "keywords": [
+          "cond-mat.mtrl-sci"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12898",
+        "authors": [
+          "H. Nguyen",
+          "C. Ziemke"
+        ],
+        "arxiv_categories": [
+          "cond-mat.mtrl-sci"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12567",
+      "title": "Accelerating Materials Discovery Using Foundation Model Based In-Context Active Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12567",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We demonstrate that foundation models (TabPFN) can accelerate materials discovery through in-context active learning, achieving 52% savings in experimental iterations compared to Gaussian Process baselines. Our approach requires no task-specific training, enabling rapid deployment across different materials optimization campaigns.",
+        "keywords": [
+          "cond-mat.mtrl-sci",
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12567",
+        "authors": [
+          "J. Hu",
+          "R. Dong"
+        ],
+        "arxiv_categories": [
+          "cond-mat.mtrl-sci",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.13117",
+      "title": "Rate-Dependent Reversibility and Lithium Losses in Hybrid Anode-Collector Metal Electrodes",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.13117",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We study lithiation behavior in hybrid anode-collector electrodes (Al, Mg, Ag, Cu) for anode-free lithium metal batteries. Silver sustains fast cycling kinetics through rapid gamma brass alloy formation, while aluminum shows rate-dependent irreversibility. These findings inform design choices for next-generation solid-state batteries.",
+        "keywords": [
+          "cond-mat.mtrl-sci",
+          "physics.app-ph"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.13117",
+        "authors": [
+          "A. Galindo",
+          "J. Diaz-Sanchez"
+        ],
+        "arxiv_categories": [
+          "cond-mat.mtrl-sci",
+          "physics.app-ph"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12508",
+      "title": "ELLA: Generative AI-Powered Social Robots for Early Language Development at Home",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12508",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present ELLA, a generative AI-powered social robot designed to support early language development in children aged 2-5. ELLA uses adaptive dialogue generation, emotion recognition, and developmental milestone tracking to personalize interactions. A 12-week study with 48 families shows 23% improvement in vocabulary acquisition versus control group.",
+        "keywords": [
+          "cs.HC",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12508",
+        "authors": [
+          "Victor Nikhil Antony",
+          "Shiye Cao"
+        ],
+        "arxiv_categories": [
+          "cs.HC",
+          "cs.AI"
+        ],
+        "steeps_mapping": "S",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12971",
+      "title": "Generative Horcrux: Designing AI Carriers for Afterlife Selves",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12971",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We explore the design space of AI-mediated posthumous digital representations through the concept of Generative Horcrux. Through co-design workshops with 36 participants, we identify key tensions between authenticity and idealization, agency and consent, and temporal dynamics of digital afterlives. We propose design guidelines for responsible AI-based memorial technologies.",
+        "keywords": [
+          "cs.HC"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12971",
+        "authors": [
+          "Zhen-Chi Lai",
+          "Yu-Ting Cheng"
+        ],
+        "arxiv_categories": [
+          "cs.HC"
+        ],
+        "steeps_mapping": "s",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.13036",
+      "title": "Interrogating Design Homogenization in Web Vibe Coding",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.13036",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We investigate how AI-assisted web development (vibe coding) leads to design homogenization. Analyzing 10,000 AI-generated websites, we find that popular AI coding tools produce visually similar designs that converge toward a narrow aesthetic, potentially reducing cultural diversity and creative expression on the web.",
+        "keywords": [
+          "cs.HC",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.13036",
+        "authors": [
+          "Donghoon Shin",
+          "Alice Gao"
+        ],
+        "arxiv_categories": [
+          "cs.HC",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "steeps_mapping": "S",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12463",
+      "title": "The Future of Feedback: How Can AI Help Transform Feedback to Be More Engaging, Effective, and Scalable?",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12463",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present a comprehensive framework for AI-assisted feedback systems in education. Our analysis of 15,000 student-feedback interactions reveals that AI-generated feedback is most effective when it combines specificity (what to improve), actionability (how to improve), and emotional calibration (appropriate tone). Students receiving AI-optimized feedback show 31% higher revision quality.",
+        "keywords": [
+          "cs.CY"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12463",
+        "authors": [
+          "Jennifer Meyer",
+          "Olaf Köller"
+        ],
+        "arxiv_categories": [
+          "cs.CY"
+        ],
+        "steeps_mapping": "S",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12540",
+      "title": "Embedded Quantum Machine Learning in Embedded Systems: Feasibility, Hybrid Architectures, and Quantum Co-Processors",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12540",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We investigate the feasibility of running quantum machine learning workloads on embedded systems with quantum co-processors. Our hybrid architecture demonstrates that near-term quantum devices can accelerate specific ML inference tasks (anomaly detection, kernel methods) by 3-5x on edge devices with power budgets under 10W.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12540",
+        "authors": [
+          "Somdip Dey",
+          "Syed Muhammad Raza"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12541",
+      "title": "As Language Models Scale, Low-Order Linear Depth Dynamics Emerge",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12541",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We discover that as language models scale, their internal dynamics increasingly resemble low-order linear systems. Analyzing models from 125M to 175B parameters, we find that larger models show higher linearity in layer-to-layer transformations, suggesting an emergent simplicity principle in deep learning at scale.",
+        "keywords": [
+          "cs.LG",
+          "eess.SY"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12541",
+        "authors": [
+          "Buddhika Nettasinghe",
+          "Geethu Joseph"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "eess.SY"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12645",
+      "title": "LightMoE: Reducing Mixture-of-Experts Redundancy Through Expert Replacing",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12645",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We propose LightMoE, a method for reducing redundancy in Mixture-of-Experts models by identifying and replacing redundant experts. Our analysis reveals that 30-40% of experts in typical MoE models are functionally redundant. LightMoE replaces them with lightweight shared modules, reducing inference cost by 35% with minimal quality loss.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12645",
+        "authors": [
+          "Jiawei Hao",
+          "Zhiwei Hao"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12487",
+      "title": "Modal Logical Neural Networks for Financial AI",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12487",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We introduce Modal Logical Neural Networks that incorporate modal logic operators (necessity, possibility, obligation) into neural architectures for financial reasoning. These networks can distinguish between what IS the case, what MUST be the case, and what SHOULD be the case in regulatory compliance checking, achieving 96% accuracy on SEC filing verification.",
+        "keywords": [
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12487",
+        "authors": [
+          "Antonin Sulc"
+        ],
+        "arxiv_categories": [
+          "cs.LG"
+        ],
+        "steeps_mapping": "E",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12554",
+      "title": "Reinforcement Learning for Diffusion LLMs with Entropy-Guided Step Selection and Stepwise Advantages",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12554",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present a reinforcement learning method for training diffusion-based language models. Our entropy-guided step selection identifies the most impactful denoising steps for reward optimization, while stepwise advantages provide fine-grained training signals. This enables RLHF-quality alignment for diffusion LLMs with 40% less compute than naive approaches.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12554",
+        "authors": [
+          "Vishnu Teja Kunde",
+          "Fatemeh Doudi"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12666",
+      "title": "RetroReasoner: A Reasoning LLM for Strategic Retrosynthesis Prediction",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12666",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present RetroReasoner, a reasoning-augmented LLM for retrosynthesis prediction in drug discovery. By combining chain-of-thought reasoning with chemical knowledge graphs, RetroReasoner plans multi-step synthesis routes with 87% top-1 accuracy, outperforming template-based methods by 15%. The model explains its reasoning in natural language.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12666",
+        "authors": [
+          "Hanbum Ko",
+          "Chanhui Lee"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12615",
+      "title": "Literary Narrative as Moral Probe: A Cross-System Framework for Evaluating AI Ethical Reasoning and Refusal Behavior",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12615",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We develop a novel framework for evaluating AI ethical reasoning using literary narratives as moral probes. Testing 8 frontier LLMs with 200 morally complex literary scenarios, we find that models show inconsistent ethical reasoning when the same moral dilemma is framed in fictional vs. real-world contexts, revealing superficial alignment.",
+        "keywords": [
+          "cs.CY",
+          "cs.AI",
+          "cs.CL",
+          "cs.HC"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12615",
+        "authors": [
+          "David C. Flynn"
+        ],
+        "arxiv_categories": [
+          "cs.CY",
+          "cs.AI",
+          "cs.CL",
+          "cs.HC"
+        ],
+        "steeps_mapping": "s",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12522",
+      "title": "LLM BiasScope: Real-Time Bias Analysis Platform for Comparative LLM Evaluation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12522",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present LLM BiasScope, an open-source platform for real-time comparative bias analysis across multiple LLMs. The platform evaluates 12 bias dimensions including gender, race, age, religion, disability, and socioeconomic status. Analysis of 15 commercial and open-source models reveals that safety training reduces explicit bias but can amplify subtle associative biases.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY",
+          "cs.HC"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12522",
+        "authors": [
+          "Himel Ghosh",
+          "Nick Elias Werner"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY",
+          "cs.HC"
+        ],
+        "steeps_mapping": "s",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12374",
+      "title": "The Privacy-Utility Trade-Off of Location Tracking in Ad Personalization",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12374",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We quantify the privacy-utility trade-off in location-based ad personalization using a large-scale field experiment with 2.3 million users. Reducing location granularity from street-level to zip-code level decreases ad click-through rates by only 7.2% while providing 94% of the privacy protection of complete location masking.",
+        "keywords": [
+          "econ.EM",
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12374",
+        "authors": [
+          "Mohammad Mosaffa",
+          "Omid Rafieian"
+        ],
+        "arxiv_categories": [
+          "econ.EM",
+          "cs.LG"
+        ],
+        "steeps_mapping": "E",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.13099",
+      "title": "Beyond Final Answers: CRYSTAL Benchmark for Transparent Multimodal Reasoning Evaluation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.13099",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We introduce CRYSTAL, a benchmark for evaluating transparency in multimodal AI reasoning. Unlike existing benchmarks that assess only final answers, CRYSTAL evaluates the entire reasoning chain including visual grounding, logical steps, and uncertainty calibration. Testing 12 multimodal models reveals that models achieving 90%+ accuracy often produce flawed or fabricated reasoning chains.",
+        "keywords": [
+          "cs.AI",
+          "cs.CV",
+          "cs.IR",
+          "cs.MM"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.13099",
+        "authors": [
+          "Wayner Barrios",
+          "SouYoung Jin"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CV",
+          "cs.IR",
+          "cs.MM"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12646",
+      "title": "98x Faster LLM Routing Without a Dedicated GPU",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12646",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We demonstrate a CPU-only LLM routing system that achieves 98x speedup over GPU-based routing while maintaining 97% of routing accuracy. Our approach uses lightweight feature hashing and decision tree ensembles instead of neural embedding models, enabling cost-effective LLM routing in resource-constrained environments.",
+        "keywords": [
+          "cs.CL"
+        ],
+        "language": "en",
+        "entities": []
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-16T23:33:07+00:00",
+      "scan_metadata": {
+        "arxiv_id": "2603.12646",
+        "authors": [
+          "Xunzhuo Liu",
+          "Bowei He"
+        ],
+        "arxiv_categories": [
+          "cs.CL"
+        ],
+        "steeps_mapping": "T",
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-16T23:33:07+00:00",
+          "source": "arXiv API",
+          "method": "query_groups_v2",
+          "scan_window": "2026-03-14T23:33:07+00:00 to 2026-03-16T23:33:07+00:00"
+        }
+      }
+    }
+  ]
+}

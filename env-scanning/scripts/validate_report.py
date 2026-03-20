@@ -1163,7 +1163,8 @@ def validate_report(report_path: str, profile: str = "standard") -> ValidationRe
 
 def _check_exploration_proof(vr: ValidationReport, proof_path: str, level: str = "ERROR") -> None:
     """
-    EXPLO-001: Verify exploration proof file exists and is valid.
+    EXPLO-001: Verify exploration proof file exists, is valid, AND was created
+    by exploration_gate.py post (not manually written by the LLM orchestrator).
 
     This check is triggered by --exploration-proof CLI option, NOT by profile.
     Reason: WF1 and WF2 share the "standard" profile, but only WF1 has
@@ -1172,6 +1173,12 @@ def _check_exploration_proof(vr: ValidationReport, proof_path: str, level: str =
     Level is determined by the caller:
       - "CRITICAL" when SOT enforcement == "mandatory"
       - "ERROR" when SOT enforcement == "optional" (default)
+
+    Schema validation (v1.2.0):
+      gate_post() produces files with specific fields (gate_version, command,
+      method_used, results, files). If these are absent, the proof was written
+      directly by the LLM orchestrator — meaning source_auto_promoter was NOT
+      invoked, exploration-history.json was NOT updated, and the RLM loop is broken.
     """
     passed = False
     detail = ""
@@ -1182,13 +1189,25 @@ def _check_exploration_proof(vr: ValidationReport, proof_path: str, level: str =
         else:
             with open(path, encoding="utf-8") as f:
                 data = json.load(f)
-            # Verify required fields
+            # Phase 1: Verify basic required fields (existence check)
             required_keys = {"gate_id", "gate_decision", "execution_status", "date"}
             missing = required_keys - set(data.keys())
             if missing:
                 detail = f"Proof file missing fields: {missing}"
             else:
-                passed = True
+                # Phase 2: Verify gate_post() schema (anti-bypass detection)
+                # gate_post() always writes: gate_version, command, method_used, results, files
+                # LLM-generated proofs lack these fields.
+                gate_post_fields = {"gate_version", "command", "method_used", "results", "files"}
+                missing_schema = gate_post_fields - set(data.keys())
+                if missing_schema:
+                    detail = (
+                        f"Proof file missing gate_post() schema fields: {sorted(missing_schema)}. "
+                        "The proof was NOT created by exploration_gate.py post — "
+                        "re-run Step 1.2a-E ③ POST-GATE."
+                    )
+                else:
+                    passed = True
     except json.JSONDecodeError as e:
         detail = f"Invalid JSON in proof file: {e}"
     except Exception as e:
@@ -1197,7 +1216,7 @@ def _check_exploration_proof(vr: ValidationReport, proof_path: str, level: str =
     vr.results.append(CheckResult(
         check_id="EXPLO-001",
         level=level,
-        description="소스 탐사(Stage C) 실행 증명 파일 존재 및 유효",
+        description="소스 탐사(Stage C) 실행 증명 파일 존재 및 유효 (스키마 검증 포함)",
         passed=passed,
         detail=detail,
     ))
@@ -1324,7 +1343,7 @@ def _auto_enforce_exploration(vr: ValidationReport, report_path: str) -> None:
     # Step 5: Determine check level based on enforcement
     level = "CRITICAL" if enforcement == "mandatory" else "ERROR"
 
-    # Step 6: Construct proof path and validate
+    # Step 6: Construct proof path and validate (existence + schema)
     data_root = project_root / wf1.get("data_root", "env-scanning/wf1-general")
     proof_path = data_root / "exploration" / f"exploration-proof-{scan_date}.json"
 
@@ -1336,12 +1355,23 @@ def _auto_enforce_exploration(vr: ValidationReport, report_path: str) -> None:
         else:
             with open(proof_path, encoding="utf-8") as f:
                 data = json.load(f)
+            # Phase 1: basic required fields
             required_keys = {"gate_id", "gate_decision", "execution_status", "date"}
             missing = required_keys - set(data.keys())
             if missing:
                 detail = f"Proof file missing fields: {missing}"
             else:
-                passed = True
+                # Phase 2: gate_post() schema (anti-bypass detection, v1.2.0)
+                gate_post_fields = {"gate_version", "command", "method_used", "results", "files"}
+                missing_schema = gate_post_fields - set(data.keys())
+                if missing_schema:
+                    detail = (
+                        f"Proof file missing gate_post() schema fields: {sorted(missing_schema)}. "
+                        "The proof was NOT created by exploration_gate.py post — "
+                        "re-run Step 1.2a-E ③ POST-GATE."
+                    )
+                else:
+                    passed = True
     except json.JSONDecodeError as e:
         detail = f"Invalid JSON in proof file: {e}"
     except Exception as e:
@@ -1353,7 +1383,7 @@ def _auto_enforce_exploration(vr: ValidationReport, report_path: str) -> None:
     vr.results.append(CheckResult(
         check_id="EXPLO-001",
         level=level,
-        description="소스 탐사(Stage C) 실행 증명 파일 존재 및 유효",
+        description="소스 탐사(Stage C) 실행 증명 파일 존재 및 유효 (스키마 검증 포함)",
         passed=passed,
         detail=detail,
     ))

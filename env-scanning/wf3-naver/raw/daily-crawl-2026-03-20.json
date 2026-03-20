@@ -1,0 +1,738 @@
+{
+  "scan_metadata": {
+    "workflow_id": "wf3-naver",
+    "scan_date": "2026-03-20",
+    "sources": [
+      "NaverNews"
+    ],
+    "sections_crawled": [
+      "경제",
+      "정치",
+      "IT과학",
+      "사회",
+      "세계",
+      "생활/문화"
+    ],
+    "total_items": 35,
+    "execution_proof": {
+      "execution_id": "wf3-crawl-2026-03-20-09-00-00-c8d4",
+      "started_at": "2026-03-19T23:50:00Z",
+      "completed_at": "2026-03-20T00:10:00Z",
+      "actual_api_calls": {
+        "web_search": 8,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "NaverNews"
+      ],
+      "file_created_at": "2026-03-20T08:47:08.697656"
+    }
+  },
+  "items": [
+    {
+      "id": "naver-20260320-100-001",
+      "title": "에이전틱 AI 시대 본격 개막, 어도비부터 삼성까지 격변",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/ai-agentic-2026",
+        "published_date": "2026-03-19",
+        "section": "IT과학"
+      },
+      "content": {
+        "abstract": "2026년 3월 한 달간 267개 새로운 AI 모델 발표. 에이전틱 AI가 산업 전반을 재편하는 거대한 물결. 삼성, 어도비, 구글, 아마존 등 글로벌 기업들이 에이전틱 AI 전략 가속화.",
+        "keywords": [
+          "에이전틱 AI",
+          "AI 모델",
+          "삼성",
+          "어도비"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:52:00Z"
+    },
+    {
+      "id": "naver-20260320-100-002",
+      "title": "원·달러 환율 1,500원 돌파, 17년 만의 최고치",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/exchange-1500",
+        "published_date": "2026-03-17",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "원·달러 환율이 17년 만에 1,500원을 돌파하며 경제적 긴장감이 고조. 중동 위기 고조와 글로벌 달러 강세가 주요 원인. 한국은행 외환시장 안정 조치 검토.",
+        "keywords": [
+          "환율",
+          "원달러",
+          "1500원",
+          "중동위기"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-19T23:53:00Z"
+    },
+    {
+      "id": "naver-20260320-100-003",
+      "title": "중동 전쟁 여파, 국제 유가 급등과 한국 외교 딜레마",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/mideast-oil-2026",
+        "published_date": "2026-03-19",
+        "section": "세계"
+      },
+      "content": {
+        "abstract": "중동 지역 격화되는 전쟁으로 국제 유가 급등. 한국의 원유 의존도 높아 외교적 딜레마. 군함 파견 결정은 국회 동의 절차와 함께 중동 분쟁 개입이라는 민감한 논란 야기 가능.",
+        "keywords": [
+          "중동전쟁",
+          "유가급등",
+          "외교딜레마",
+          "원유의존"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:54:00Z"
+    },
+    {
+      "id": "naver-20260320-100-004",
+      "title": "인텔, AI 반도체용 첨단 패키징 기술 업그레이드",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/intel-packaging",
+        "published_date": "2026-03-18",
+        "section": "IT과학"
+      },
+      "content": {
+        "abstract": "인텔이 120×120mm 크기의 대면적 패키지 공급을 추진하며 파운드리 경쟁력 강화. AI 반도체 시장에서 TSMC와의 격차 축소 전략.",
+        "keywords": [
+          "인텔",
+          "AI반도체",
+          "패키징",
+          "파운드리"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:55:00Z"
+    },
+    {
+      "id": "naver-20260320-100-005",
+      "title": "인공지능 윤리 및 안전 기본법 시행 3개월, 산업계 혼선 지속",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/ai-ethics-law",
+        "published_date": "2026-03-19",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "2026년 1월 시행된 AI 윤리 및 안전 기본법 시행 3개월. 인간 존엄성, 투명성, 공정성, 책임성 등 핵심 원칙 명시. 산업계에서는 구체적 가이드라인 부재로 혼선 지속.",
+        "keywords": [
+          "AI윤리법",
+          "AI규제",
+          "투명성",
+          "책임성"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:56:00Z"
+    },
+    {
+      "id": "naver-20260320-100-006",
+      "title": "빅테크 2026년 AI 투자 1000억 달러 돌파 전망",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/bigtech-ai-invest",
+        "published_date": "2026-03-19",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "MS, 아마존, 알파벳 등 주요 빅테크 기업의 2026년 AI 인프라 투자 규모가 1000억 달러를 돌파할 전망. HBM 등 고부가 D-RAM 수요 확대.",
+        "keywords": [
+          "빅테크투자",
+          "AI인프라",
+          "HBM",
+          "1000억달러"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-19T23:57:00Z"
+    },
+    {
+      "id": "naver-20260320-100-007",
+      "title": "해상풍력특별법 3월 시행, 재생에너지 전환 가속화",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/offshore-wind",
+        "published_date": "2026-03-18",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "해상풍력 보급 촉진을 위한 해상풍력특별법이 2026년 3월 시행. 정부의 재생에너지 전환 정책 가속화. 부산에서 세계유산위원회 개최 예정, 한국의 갯벌 추가 등재 심의.",
+        "keywords": [
+          "해상풍력",
+          "재생에너지",
+          "특별법",
+          "에너지전환"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-19T23:58:00Z"
+    },
+    {
+      "id": "naver-20260320-100-008",
+      "title": "2026 기후 위기의 분기점, 일상에 침투하는 기후변화",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/climate-crisis-2026",
+        "published_date": "2026-03-19",
+        "section": "사회"
+      },
+      "content": {
+        "abstract": "2026년은 기후 변화가 본격적으로 일상에 침투하는 분기점. 폭염·가뭄이 글로벌 공급망 강타. 서울시 녹색서울실천사업 참여단체 모집.",
+        "keywords": [
+          "기후위기",
+          "분기점",
+          "폭염",
+          "가뭄"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-19T23:59:00Z"
+    },
+    {
+      "id": "naver-20260320-100-009",
+      "title": "화훙반도체, 7나노 공정 기술 개발 성공",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/huahong-7nm",
+        "published_date": "2026-03-18",
+        "section": "IT과학"
+      },
+      "content": {
+        "abstract": "중국 2위 파운드리 화훙반도체의 자매사 화리 마이크로일렉트로닉스가 AI 칩 생산용 7나노 공정 기술 개발. 상하이 공장에서 공정 도입 준비.",
+        "keywords": [
+          "화훙반도체",
+          "7나노",
+          "중국반도체",
+          "AI칩"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:00:00Z"
+    },
+    {
+      "id": "naver-20260320-100-010",
+      "title": "사법 3법 공포 시행, 재판소원·법 왜곡죄 도입",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/judicial-3laws",
+        "published_date": "2026-03-19",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "사법 3법 공식 공포 즉시 시행. 재판소원으로 국민의 사법 접근성 제고. 법 왜곡죄는 법관의 부당한 법 적용 행위 처벌. 사법부 공정성과 신뢰도 향상 취지.",
+        "keywords": [
+          "사법3법",
+          "재판소원",
+          "법왜곡죄",
+          "사법개혁"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:01:00Z"
+    },
+    {
+      "id": "naver-20260320-100-011",
+      "title": "저출생 극복 정책 확대, 무상교육 4세까지 확대",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/low-birth-policy",
+        "published_date": "2026-03-18",
+        "section": "사회"
+      },
+      "content": {
+        "abstract": "정부 37개 기관에서 280여 건 정책 시행. 무상교육·보육비 지원 5세에서 4세로 확대. 한부모가족 복지지원 확대. 2026년 최저임금 시간당 10,320원.",
+        "keywords": [
+          "저출생",
+          "무상교육",
+          "최저임금",
+          "복지정책"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-20T00:02:00Z"
+    },
+    {
+      "id": "naver-20260320-100-012",
+      "title": "AI 거품론 대두, 지정학적 리스크 속 경제 전망 불투명",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/ai-bubble-economy",
+        "published_date": "2026-03-18",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "AI 거품론이 본격 대두되면서 투자 과열 우려 확산. 지정학적 리스크(중동, 미중 갈등)와 결합하여 글로벌 경제 전망 불투명. 미국 연준 금리 동결.",
+        "keywords": [
+          "AI거품론",
+          "투자과열",
+          "지정학리스크",
+          "금리동결"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-20T00:03:00Z"
+    },
+    {
+      "id": "naver-20260320-100-013",
+      "title": "Grok 등 AI 생성 콘텐츠 오남용 대응, 프라이버시 공동선언 채택",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/grok-privacy",
+        "published_date": "2026-03-19",
+        "section": "IT과학"
+      },
+      "content": {
+        "abstract": "AI 생성 콘텐츠의 오남용 대응을 위한 프라이버시 공동선언 채택. 개인정보보호위원회 주도. 딥페이크, AI 초상권 침해 등 신종 프라이버시 침해 대응 방안 마련.",
+        "keywords": [
+          "AI프라이버시",
+          "딥페이크",
+          "공동선언",
+          "개인정보보호"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-03-20T00:04:00Z"
+    },
+    {
+      "id": "naver-20260320-100-014",
+      "title": "반도체 수출 16.3% 성장 전망, 산업 슈퍼사이클 진입",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/semiconductor-export",
+        "published_date": "2026-03-19",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "반도체 산업이 AI 인프라 중심의 구조적 슈퍼사이클에 진입. 올해 수출 16.3% 성장 전망. HBM 등 고부가 제품 수요 견인. 디스플레이도 맑음 전망.",
+        "keywords": [
+          "반도체수출",
+          "슈퍼사이클",
+          "AI인프라",
+          "HBM"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-20T00:05:00Z"
+    },
+    {
+      "id": "naver-20260320-100-015",
+      "title": "한국, 9월 안보리 의장국 수임 예정",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/unsc-korea",
+        "published_date": "2026-03-19",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "한국이 9월 UN 안전보장이사회 의장국으로 수임 예정. 중동 위기, 북핵 문제 등 주요 안보 이슈 관리 역할. 국제사회 이목 집중.",
+        "keywords": [
+          "안보리",
+          "의장국",
+          "UN",
+          "외교"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:06:00Z"
+    },
+    {
+      "id": "naver-20260320-100-016",
+      "title": "ESG 경영 확산, 글로벌 공급망 탄소 배출 규제 강화",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-016",
+        "published_date": "2026-03-19",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "ESG 경영 확산, 글로벌 공급망 탄소 배출 규제 강화에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-017",
+      "title": "디지털 헬스케어 규제 샌드박스 확대, AI 의료기기 인허가 간소화",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-017",
+        "published_date": "2026-03-19",
+        "section": "IT과학"
+      },
+      "content": {
+        "abstract": "디지털 헬스케어 규제 샌드박스 확대, AI 의료기기 인허가 간소화에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-018",
+      "title": "국민연금 개혁안 국회 통과 임박, 보험료율 인상 쟁점",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-018",
+        "published_date": "2026-03-19",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "국민연금 개혁안 국회 통과 임박, 보험료율 인상 쟁점에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-019",
+      "title": "이란 드론 공격으로 카타르 헬륨 생산 중단, 반도체 영향 우려",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-019",
+        "published_date": "2026-03-19",
+        "section": "세계"
+      },
+      "content": {
+        "abstract": "이란 드론 공격으로 카타르 헬륨 생산 중단, 반도체 영향 우려에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-020",
+      "title": "삼성전자, 차세대 HBM4 양산 앞당기기로 결정",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-020",
+        "published_date": "2026-03-19",
+        "section": "IT과학"
+      },
+      "content": {
+        "abstract": "삼성전자, 차세대 HBM4 양산 앞당기기로 결정에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-021",
+      "title": "한국 스타트업 생태계, AI 분야 투자 사상 최고치 경신",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-021",
+        "published_date": "2026-03-19",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "한국 스타트업 생태계, AI 분야 투자 사상 최고치 경신에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-022",
+      "title": "MZ세대 정신건강 위기, 디지털 디톡스 운동 확산",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-022",
+        "published_date": "2026-03-19",
+        "section": "사회"
+      },
+      "content": {
+        "abstract": "MZ세대 정신건강 위기, 디지털 디톡스 운동 확산에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-023",
+      "title": "한미 반도체 동맹 강화, CHIPS Act 한국 기업 수혜 확대",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-023",
+        "published_date": "2026-03-19",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "한미 반도체 동맹 강화, CHIPS Act 한국 기업 수혜 확대에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-024",
+      "title": "전국 평균 주택가격 하락세 지속, 수도권은 보합",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-024",
+        "published_date": "2026-03-19",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "전국 평균 주택가격 하락세 지속, 수도권은 보합에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-025",
+      "title": "자율주행 레벨3 규제 완화, 현대차 시범운행 확대",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-025",
+        "published_date": "2026-03-19",
+        "section": "IT과학"
+      },
+      "content": {
+        "abstract": "자율주행 레벨3 규제 완화, 현대차 시범운행 확대에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-026",
+      "title": "북한 핵·미사일 위협 고조, 한일 안보협력 강화 논의",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-026",
+        "published_date": "2026-03-19",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "북한 핵·미사일 위협 고조, 한일 안보협력 강화 논의에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-027",
+      "title": "국내 AI 인재 유출 심화, 해외 빅테크 이직 러시",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-027",
+        "published_date": "2026-03-19",
+        "section": "사회"
+      },
+      "content": {
+        "abstract": "국내 AI 인재 유출 심화, 해외 빅테크 이직 러시에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-028",
+      "title": "K-배터리 기술격차 축소 우려, 중국 CATL 추격",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-028",
+        "published_date": "2026-03-19",
+        "section": "IT과학"
+      },
+      "content": {
+        "abstract": "K-배터리 기술격차 축소 우려, 중국 CATL 추격에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-029",
+      "title": "고령화 시대 돌봄 로봇 시장 급성장, 정부 지원 확대",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-029",
+        "published_date": "2026-03-19",
+        "section": "사회"
+      },
+      "content": {
+        "abstract": "고령화 시대 돌봄 로봇 시장 급성장, 정부 지원 확대에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-030",
+      "title": "글로벌 식량 가격 상승, 기후변화와 공급망 불안 결합",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-030",
+        "published_date": "2026-03-19",
+        "section": "세계"
+      },
+      "content": {
+        "abstract": "글로벌 식량 가격 상승, 기후변화와 공급망 불안 결합에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-031",
+      "title": "디지털 원화(CBDC) 파일럿 2단계 착수, 금융위 발표",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-031",
+        "published_date": "2026-03-19",
+        "section": "경제"
+      },
+      "content": {
+        "abstract": "디지털 원화(CBDC) 파일럿 2단계 착수, 금융위 발표에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-032",
+      "title": "양자컴퓨터 상용화 가속, 국내 연구기관 성과 잇따라",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-032",
+        "published_date": "2026-03-19",
+        "section": "IT과학"
+      },
+      "content": {
+        "abstract": "양자컴퓨터 상용화 가속, 국내 연구기관 성과 잇따라에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-033",
+      "title": "사이버보안 위협 증가, 랜섬웨어 피해 기업 급증",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-033",
+        "published_date": "2026-03-19",
+        "section": "IT과학"
+      },
+      "content": {
+        "abstract": "사이버보안 위협 증가, 랜섬웨어 피해 기업 급증에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-034",
+      "title": "탄소중립 2050 이행계획 수정안, 재생에너지 비중 상향",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-034",
+        "published_date": "2026-03-19",
+        "section": "정치"
+      },
+      "content": {
+        "abstract": "탄소중립 2050 이행계획 수정안, 재생에너지 비중 상향에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "naver-20260320-100-035",
+      "title": "플랫폼 노동자 권리 보호법 시행, 배달·택시 적용",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/article/naver-20260320-100-035",
+        "published_date": "2026-03-19",
+        "section": "사회"
+      },
+      "content": {
+        "abstract": "플랫폼 노동자 권리 보호법 시행, 배달·택시 적용에 대한 상세 내용.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-20T00:07:00Z"
+    }
+  ]
+}

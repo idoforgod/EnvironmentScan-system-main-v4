@@ -100,11 +100,14 @@ If any HALT-level check fails, return `{"status": "error", "reason": "..."}`.
    python3 env-scanning/core/frontier_selector.py select \
        --frontiers {frontiers_config} \
        --history {data_root}/exploration/history/exploration-history.json \
-       --samples {exploration_config.selection.samples_per_scan or 3} \
+       --samples {exploration_config.selection.samples_per_scan or 4} \
+       --gaps {comma_separated_gap_codes_from_step_3} \
        --output {data_root}/exploration/frontier-selection-{date}.json \
        --json
    ```
    - This uses Python `random.choices()` for TRUE weighted-random selection
+   - **Gap-boost (v2.0.0)**: Pass `--gaps S_Social,s_spiritual` (or whatever gaps exist) to
+     activate gap-targeted keyword boosting (3x weight) and guaranteed slot reservation
    - The output file is passed to discovery-beta (beta reads, does NOT select itself)
    - If the selector returns NO_KEYWORDS or NO_ELIGIBLE, beta agent is skipped
 
@@ -159,6 +162,19 @@ agent_team_failure:
      Both recordings are correct — either one guarantees the RLM loop gets updated.
 5. Update frontiers weights via `ExplorationLearningLoop.update_frontiers_weights()`
 
+### Step 4.5: Auto-Promotion (Python-Enforced)
+
+> **NEW (v2.0.0)**: Viable candidates are automatically promoted to expansion tier.
+> This is handled by `source_auto_promoter.py` called from `exploration_gate.py post`.
+> The orchestrator does NOT need to manually invoke promotion — it happens in the gate.
+>
+> Behavior:
+> - SOT `auto_promotion_scans: 1` → immediate promotion on first viable
+> - SOT `auto_promotion_scans: N` → tracked across N consecutive scans
+> - Safety checks: excluded sources, duplicate prevention, quality score floor (0.5)
+> - Promoted sources get `tier: expansion`, `auto_promoted: true` in sources.yaml
+> - Promotion report: `{data_root}/exploration/promotion-report-{date}.json`
+
 ### Step 5: Post-Verify (Python-Enforced)
 
 > **NOTE**: Do NOT manually verify exploration signal tags/counts.
@@ -184,9 +200,34 @@ agent_team_failure:
    - **Do NOT skip Step 2.5 under any circumstance**, including when gaps=0
    - This is the Python safety net that enforces "always run regardless of gaps" policy
 
+5. **Self-verify frontier-selection file before returning (MANDATORY)**:
+   ```bash
+   python3 -c "
+   import json, sys, pathlib
+   p = pathlib.Path('{data_root}/exploration/frontier-selection-{date}.json')
+   if not p.exists():
+       print('FAIL: frontier-selection file missing — re-running frontier_selector.py')
+       sys.exit(1)
+   d = json.load(open(p))
+   print(f'PASS: frontier-selection exists, {d.get(\"selected_count\", 0)} keywords selected')
+   "
+   ```
+   - If this check FAILS → **immediately re-run Step 2 (frontier_selector.py select)** before returning
+   - This self-verify catches cases where Step 2 was skipped due to context compression
+   - VP-5 at PG1 is the external enforcer; this is the internal safety net
+
 ### Step 6: Return Results
 
 Return the Output dict to the WF1 orchestrator.
+
+> **CRITICAL REMINDER for the parent WF1 orchestrator**:
+> After receiving this output, the parent MUST run `exploration_gate.py post` (Step 1.2a-E ③).
+> Do NOT write exploration-proof-{date}.json manually — the proof file MUST be created by
+> `exploration_gate.py post` because it:
+>   (a) calls `source_auto_promoter.py` internally (auto-promotion)
+>   (b) updates `exploration-history.json` (RLM loop continuity)
+>   (c) produces the standard schema required by VP-6 (anti-bypass detection)
+> Manually written proof files will be rejected by VP-6 at PG1 and EXPLO-001 at Phase 3.
 
 ---
 

@@ -1,0 +1,557 @@
+{
+  "metadata": {
+    "scan_date": "2026-03-18",
+    "content_date": "2026-03-17",
+    "scan_window": "March 16, 2026 23:31 UTC ~ March 17, 2026 23:31 UTC",
+    "scan_window_hours": 24,
+    "workflow": "wf4-multiglobal-news",
+    "collection_method": "WebSearch multi-source aggregation",
+    "sources_scanned": 44,
+    "articles_collected": 22,
+    "collection_timestamp": "2026-03-18T03:08:32.674617+00:00"
+  },
+  "items": [
+    {
+      "id": "news-20260317-reuters-001",
+      "title": "Israel Eliminates Iran Security Chief Ali Larijani in Tehran Strike; Basij Commander Also Killed",
+      "source": {
+        "name": "Reuters/CNN",
+        "type": "news_wire",
+        "url": "https://us.cnn.com/world/live-news/iran-war-us-israel-trump-03-17-26",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Israel targeted Iran Secretary of the Supreme National Security Council Ali Larijani in a strike on Tehran. Israeli Defense Minister said Larijani had been eliminated. Also killed was the head of Iranian Revolutionary Guards all-volunteer Basij force Gholamreza Soleimani. Brent crude traded above $103/barrel. Iran confirms both deaths hours later.",
+        "keywords": [
+          "Iran war",
+          "Israel strike",
+          "Larijani",
+          "Basij",
+          "Tehran",
+          "assassination",
+          "oil prices"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-18T03:08:32.674420+00:00"
+    },
+    {
+      "id": "news-20260317-fortune-002",
+      "title": "Iran War Creates Biggest Oil Supply Disruption in History — Strait of Hormuz Effectively Closed",
+      "source": {
+        "name": "Fortune/IEA",
+        "type": "news_major",
+        "url": "https://fortune.com/2026/03/13/middle-east-energy-crisis-could-outlast-the-iran-war/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Iran effectively closed Strait of Hormuz threatening shipping traffic, sending 20 million barrels/day of oil offline. IEA calls it biggest oil supply disruption in history. Crude oil rose 51% and LNG 77% between Feb 27 and Mar 9. Energy crisis could outlast the war itself due to infrastructure damage. WTI near $96.80, Brent $103.",
+        "keywords": [
+          "Hormuz",
+          "oil disruption",
+          "energy crisis",
+          "IEA",
+          "crude oil",
+          "LNG"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_economic",
+      "collected_at": "2026-03-18T03:08:32.674585+00:00"
+    },
+    {
+      "id": "news-20260317-time-003",
+      "title": "Iran War Pushes South and Southeast Asia into Energy Triage — India, Bangladesh, Nepal Impose Emergency Rationing",
+      "source": {
+        "name": "Time/PBS/AP",
+        "type": "news_major",
+        "url": "https://time.com/article/2026/03/16/us-israel-iran-war-trump-asia-economy-oil-energy-inflation-recession/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Asian nations face energy crisis as 80% of Asias oil imports pass through Hormuz. India invoked emergency powers for LPG redistribution. Bangladesh closed universities, rationed fuel, deployed troops at oil depots. Nepal began rationing cooking gas. Pakistan and Indonesia have only 20 days reserves. Southeast Asia shutting offices and limiting travel.",
+        "keywords": [
+          "Asia energy crisis",
+          "India",
+          "Bangladesh",
+          "Nepal",
+          "rationing",
+          "Hormuz",
+          "energy triage"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-18T03:08:32.674587+00:00"
+    },
+    {
+      "id": "news-20260317-cnbc-004",
+      "title": "NVIDIA GTC 2026: Vera Rubin Platform Unveiled, Space-1 Module for Orbital Data Centers, $1T Revenue Target by 2027",
+      "source": {
+        "name": "CNBC/The Register",
+        "type": "news_tech",
+        "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "NVIDIA CEO Jensen Huang unveiled Vera Rubin next-generation AI data center platform and Rubin Ultra GPU architecture at GTC 2026. Space-1 Vera Rubin Module for orbital data centers delivers 25x more AI compute than H100 for space-based inferencing. Partners include Axiom Space, Starcloud, Planet. Sees $1 trillion in cumulative orders through 2027.",
+        "keywords": [
+          "NVIDIA",
+          "GTC 2026",
+          "Vera Rubin",
+          "Space-1",
+          "orbital data center",
+          "AI chips",
+          "Jensen Huang"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-18T03:08:32.674589+00:00"
+    },
+    {
+      "id": "news-20260317-cnbc-005",
+      "title": "Fed March Meeting Begins — Rate Hold Expected at 3.5-3.75% as Oil Shock Complicates Rate Cut Path",
+      "source": {
+        "name": "CNBC/Kiplinger",
+        "type": "news_financial",
+        "url": "https://www.cnbc.com/2026/03/17/the-fed-issues-its-latest-interest-rate-decision-wednesday-heres-what-to-expect.html",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Federal Reserve March meeting begins March 17-18. Rate hold at 3.5-3.75% expected. January PPI surged 0.5% vs 0.3% expected showing sticky inflation. Goldman Sachs pushes rate cut forecast to September and December. Dot plot will show updated projections. Oil shock from Iran war complicating rate cut timeline.",
+        "keywords": [
+          "Fed",
+          "interest rates",
+          "FOMC",
+          "inflation",
+          "PPI",
+          "dot plot",
+          "rate hold"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_economic",
+      "collected_at": "2026-03-18T03:08:32.674590+00:00"
+    },
+    {
+      "id": "news-20260317-cnn-006",
+      "title": "US Government Shutdown Cripples TSA — 366 Officers Quit, Airport Closures Warned, Spring Break Chaos",
+      "source": {
+        "name": "CNN/Time",
+        "type": "news_major",
+        "url": "https://www.cnn.com/2026/03/16/us/airport-wait-tsa-delay-agents-quit",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "US DHS partial shutdown enters 5th week. 366 TSA officers quit. Callouts spiked 50%+ in Houston, 30%+ in Atlanta. TSA official warns some airports may close. Houston Hobby hit 55% callout rate. Security wait times up to 2 hours during spring break travel season. Shutdown approaching 2nd longest in US history.",
+        "keywords": [
+          "government shutdown",
+          "TSA",
+          "airport security",
+          "DHS",
+          "spring break",
+          "airport closures"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-18T03:08:32.674592+00:00"
+    },
+    {
+      "id": "news-20260317-cnn-007",
+      "title": "Cuba Grid Collapse: Nationwide Blackout Hits 11 Million, Protests Intensify, Trump Muses Taking Cuba",
+      "source": {
+        "name": "CNN/CBS/AlJazeera",
+        "type": "news_major",
+        "url": "https://www.cnn.com/2026/03/16/americas/cuba-power-grid-collapse-intl-latam",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Cuba electrical grid suffered total collapse March 16 plunging 11 million into darkness. US-led oil blockade combined with chronic mismanagement triggered crisis. Protestors torched Communist Party HQ in Moron on March 14. 10th consecutive day of protests. Trump mused about taking Cuba. Regime faces most serious legitimacy crisis since Cold War end.",
+        "keywords": [
+          "Cuba",
+          "blackout",
+          "protests",
+          "grid collapse",
+          "Trump",
+          "energy crisis",
+          "Communist Party"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-18T03:08:32.674593+00:00"
+    },
+    {
+      "id": "news-20260317-bloomberg-008",
+      "title": "Wall Street Stages Strongest Rally in 3 Weeks — S&P 500 +0.25%, Oil Retreats from $100",
+      "source": {
+        "name": "Bloomberg/CNBC",
+        "type": "news_financial",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-16/stock-market-today-dow-s-p-live-updates-",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "S&P 500 rose 0.25% to 6716.09, Nasdaq +0.47% to 22479.53, Dow +46.85 to 46993.26. Oil retreated from $100 after Treasury Secretary Bessent confirmed Iranian tankers transiting Hormuz. Strongest rally in 3 weeks. Markets cautious ahead of Fed decision Wednesday.",
+        "keywords": [
+          "stock market",
+          "S&P 500",
+          "Nasdaq",
+          "Dow",
+          "oil retreat",
+          "Wall Street",
+          "Fed"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_economic",
+      "collected_at": "2026-03-18T03:08:32.674597+00:00"
+    },
+    {
+      "id": "news-20260317-japantimes-009",
+      "title": "China-Japan Diplomatic Crisis Deepens — Chinese Tourism Down 60%, Taiwan Coast Guard Prepares for Blockade",
+      "source": {
+        "name": "Japan Times/CNBC",
+        "type": "news_major",
+        "url": "https://www.japantimes.co.jp/news/2026/03/16/asia-pacific/politics/taiwan-coast-guard-china-blockade/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Japan-China relations enter colder phase after PM Takaichi reelection. Chinese tourists to Japan plunged 60% YoY in January. Taiwan coast guard boosting capabilities and training with US, Japanese, Philippine counterparts as China rehearses blockade. Asian allies worried about US military asset transfers to Middle East.",
+        "keywords": [
+          "China-Japan",
+          "diplomatic crisis",
+          "tourism",
+          "Taiwan",
+          "blockade",
+          "Takaichi",
+          "military"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-18T03:08:32.674598+00:00"
+    },
+    {
+      "id": "news-20260317-ap-010",
+      "title": "Mediterranean Migration Crisis: 682 Missing in 2026 — Deadliest Start to Any Year, Authorities Withholding Information",
+      "source": {
+        "name": "AP/IOM",
+        "type": "news_wire",
+        "url": "https://www.dailynews.com/2026/03/17/migrants-vanishing-mediterranean/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "UN IOM reports 682 confirmed missing in Mediterranean as of March 16 — deadliest start to any year. Italy, Tunisia, Malta restricting information on rescues and shipwrecks. Central Mediterranean remains worlds deadliest migration corridor. 2025 saw 1340 deaths. 400+ missing that cannot be verified by human rights groups.",
+        "keywords": [
+          "Mediterranean",
+          "migration",
+          "IOM",
+          "refugees",
+          "drownings",
+          "Tunisia",
+          "Italy"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-18T03:08:32.674600+00:00"
+    },
+    {
+      "id": "news-20260317-guardian-011",
+      "title": "Trump Asks Beijing to Delay Xi Summit by One Month — Iran War Overriding All Diplomatic Calendars",
+      "source": {
+        "name": "The Guardian",
+        "type": "news_major",
+        "url": "https://www.theguardian.com/world/2026/mar/15/uk-china-japan-countries-debating-strait-of-hormuz-ships-iran-you-now",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Trump asked Beijing to delay planned meeting with Xi Jinping by about a month, saying he needs to remain in Washington to oversee Iran war. Summit was originally scheduled for March 31-April 2. Trumps call for allied deployment to Strait of Hormuz met muted response from UK, Japan and other allies.",
+        "keywords": [
+          "Trump",
+          "Xi Jinping",
+          "summit delay",
+          "Hormuz",
+          "allied deployment",
+          "diplomacy"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-18T03:08:32.674601+00:00"
+    },
+    {
+      "id": "news-20260317-rba-012",
+      "title": "Reserve Bank of Australia Hikes Rates to 4.10% in Split Decision — War-Fueled Inflation Fears Drive Divergent Central Bank Paths",
+      "source": {
+        "name": "RioTimes/Bloomberg",
+        "type": "news_financial",
+        "url": "https://www.riotimesonline.com/global-economy-briefing-march-17-2026/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Reserve Bank of Australia hiked rates to 4.10% in split 5-4 decision driven by war-fueled inflation fears. Canada CPI fell to 1.8% making April rate cut virtually certain. NY Empire State manufacturing index slipped into contraction. Central banks diverging as oil shock creates asymmetric inflation pressures.",
+        "keywords": [
+          "RBA",
+          "rate hike",
+          "Australia",
+          "Canada",
+          "inflation",
+          "central banks",
+          "divergence"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_economic",
+      "collected_at": "2026-03-18T03:08:32.674602+00:00"
+    },
+    {
+      "id": "news-20260317-fcc-013",
+      "title": "FCC Chair Threatens to Revoke Broadcast Licenses Over Iran War Coverage — Republican Rebuke",
+      "source": {
+        "name": "The Guardian",
+        "type": "news_major",
+        "url": "https://www.theguardian.com/us-news/2026/mar/15/fcc-chair-broadcasters-license-iran-war",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "FCC Chair Brendan Carr warned broadcasters could lose licenses if they run what the federal agency deems fake news over Iran conflict. Republican lawmaker pushed back against the threat. Press freedom concerns mount during wartime. Echoes historical precedents of government media pressure during conflicts.",
+        "keywords": [
+          "FCC",
+          "broadcast licenses",
+          "press freedom",
+          "Iran war",
+          "media",
+          "censorship"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-18T03:08:32.674604+00:00"
+    },
+    {
+      "id": "news-20260317-eu-014",
+      "title": "EU Environment Ministers Debate Post-2030 Climate Framework — CO2 Standards for Cars and European Grids Package",
+      "source": {
+        "name": "EU Council/Clean Energy Wire",
+        "type": "news_policy",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/13/forward-look-2026/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "EU environment ministers held policy debate on CO2 emission standards for cars and vans and decarbonisation in post-2030 framework. EU energy ministers debated European grids package and action plan for affordable energy. New laws for binding 90% net reduction by 2040 expected in H2 2026. Will update ETS and CBAM. Clean Energy Union summit scheduled.",
+        "keywords": [
+          "EU",
+          "climate policy",
+          "post-2030",
+          "CO2 standards",
+          "CBAM",
+          "ETS",
+          "energy grids"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_environmental",
+      "collected_at": "2026-03-18T03:08:32.674605+00:00"
+    },
+    {
+      "id": "news-20260317-quantum-015",
+      "title": "JVG Algorithm Threatens RSA Encryption — Quantum Computing Requires 1000x Fewer Qubits for Integer Factorization",
+      "source": {
+        "name": "Yahoo Finance/AQTI",
+        "type": "news_tech",
+        "url": "https://finance.yahoo.com/news/cybersecurity-apocalypse-2026-algorithm-according-130000288.html",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Jesse-Victor-Gharabaghi (JVG) Algorithm is a hybrid method that restructures how quantum computers approach integer factorization underlying RSA encryption. Requires 1000x fewer quantum resources (qubits and quantum gates). FBI and NIST backing global effort to align quantum security practices. Harvest now decrypt later threat model driving urgency.",
+        "keywords": [
+          "quantum computing",
+          "JVG algorithm",
+          "RSA encryption",
+          "cybersecurity",
+          "NIST",
+          "post-quantum"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-18T03:08:32.674606+00:00"
+    },
+    {
+      "id": "news-20260317-anthropic-016",
+      "title": "Anthropic Releases Claude Cowork for OS X — Agentic AI Moves Beyond Developers to Knowledge Workers",
+      "source": {
+        "name": "Crescendo AI/AI News",
+        "type": "news_tech",
+        "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Anthropic released Claude Cowork on OS X bringing agentic capabilities to everyday knowledge work beyond developers. GPT-5.4 shipped with native computer-use abilities in Codex. Microsoft feeds Anthropic Claude Sonnet into M365 Copilot. 267+ AI models released in March 2026 with dominant agentic capabilities.",
+        "keywords": [
+          "Claude Cowork",
+          "Anthropic",
+          "agentic AI",
+          "GPT-5.4",
+          "Microsoft Copilot",
+          "knowledge workers"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-18T03:08:32.674608+00:00"
+    },
+    {
+      "id": "news-20260317-wef-017",
+      "title": "WEF: Global Price Tag of Middle East War — Cascading Economic Fallout Reshapes Commodity Markets, Food Systems, Supply Chains",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "news_think_tank",
+        "url": "https://www.weforum.org/stories/2026/03/the-global-price-tag-of-war-in-the-middle-east/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "WEF analysis of cascading economic fallout from Iran war. Effects radiating beyond Gulf reshaping commodity markets, food systems, industrial supply chains, financial conditions and geopolitical alignments. Economists El-Erian and Krugman warn of slower growth and higher inflation. Strategic oil releases cannot fix Hormuz disruption.",
+        "keywords": [
+          "WEF",
+          "economic impact",
+          "Iran war",
+          "commodity markets",
+          "supply chains",
+          "food systems",
+          "inflation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_economic",
+      "collected_at": "2026-03-18T03:08:32.674609+00:00"
+    },
+    {
+      "id": "news-20260317-oscars-018",
+      "title": "One Battle After Another Sweeps 98th Oscars — Korean Netflix Anime K-Pop Demon Hunters Wins Best Animated Feature",
+      "source": {
+        "name": "The Guardian",
+        "type": "news_major",
+        "url": "https://www.theguardian.com/film/2026/mar/15/oscars-2026-best-picture-one-battle-after-another-win",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Paul Thomas Andersons One Battle After Another swept 98th Oscars. Michael B Jordan and Jessie Buckley won acting awards. Netflix anime K-Pop Demon Hunters won Best Animated Feature and Best Song. Korean cultural content continues global expansion through streaming platforms.",
+        "keywords": [
+          "Oscars 2026",
+          "K-Pop Demon Hunters",
+          "Netflix",
+          "Korean animation",
+          "cultural export",
+          "soft power"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-18T03:08:32.674610+00:00"
+    },
+    {
+      "id": "news-20260317-chile-019",
+      "title": "Chiles New President Kast Launches Migration Control Plan — Latin Americas Rightward Shift Continues",
+      "source": {
+        "name": "RioTimes",
+        "type": "news_regional",
+        "url": "https://www.riotimesonline.com/sao-paulo-daily-brief-for-tuesday-march-17-2026/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Chiles President Jose Antonio Kast launched migration control plan in northern Arica y Parinacota region. Colombia President Petro accused Ecuador of bombing Colombian territory. Brazil-Bolivia signed security and energy cooperation. Mexico meeting with DEA on drug enforcement. Latin Americas political landscape shifts rightward.",
+        "keywords": [
+          "Chile",
+          "Kast",
+          "migration",
+          "Latin America",
+          "Colombia",
+          "Ecuador",
+          "Brazil"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-18T03:08:32.674612+00:00"
+    },
+    {
+      "id": "news-20260317-cleanenergy-020",
+      "title": "UN Climate Chief: Iran Energy Crisis Must Be Wake-Up Call for Fossil Fuel Dependency — Denmark Thor Wind Farm Online",
+      "source": {
+        "name": "Green Energy Times/UN",
+        "type": "news_policy",
+        "url": "https://greenenergytimes.org/2026/03/march-17-green-energy-news/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "UN climate chief Simon Stiell said Iran war energy disruption should be wake-up call for continued fossil fuel reliance. Crude oil hovered around $101/barrel, 44% increase since conflict started. Denmarks 1.1-GW Thor offshore wind farm delivered first electricity to grid. IEEFA: Iran tensions underscore urgency of Asias renewables pivot for macroeconomic stability.",
+        "keywords": [
+          "renewable energy",
+          "fossil fuels",
+          "wind farm",
+          "Thor",
+          "Denmark",
+          "UN climate",
+          "energy transition"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_environmental",
+      "collected_at": "2026-03-18T03:08:32.674613+00:00"
+    },
+    {
+      "id": "news-20260317-psi-021",
+      "title": "PsiQuantum-Japan Cancer Center Alliance + EarlyBIRDD: Quantum Computing Enters Drug Discovery and Clinical Oncology",
+      "source": {
+        "name": "Quantum Computing Report",
+        "type": "news_tech",
+        "url": "https://quantumcomputingreport.com/news/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "PsiQuantum and National Cancer Center Japan formed alliance for utility-scale quantum computing in cancer research. EarlyBIRDD project launched by Kvantify, Atom Computing, Aarhus University for drug discovery via early fault-tolerant quantum computing. Targeting binding affinity problem for predicting drug-protein interactions.",
+        "keywords": [
+          "quantum computing",
+          "drug discovery",
+          "PsiQuantum",
+          "cancer research",
+          "EarlyBIRDD",
+          "clinical oncology"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-18T03:08:32.674614+00:00"
+    },
+    {
+      "id": "news-20260317-uae-022",
+      "title": "UAE Shuts Airspace Over Missile Threats, Saudi Intercepts Dozen Drones — Gulf States Under Direct Fire",
+      "source": {
+        "name": "JustSecurity/10Things",
+        "type": "news_wire",
+        "url": "https://www.justsecurity.org/134160/early-edition-march-17-2026/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "UAE shut down airspace in response to missile and drone threats from Iran. Saudi Arabia Defense Ministry said it intercepted a dozen drones. Airspace closure later lifted. Gulf states facing direct security threats from Iran conflict expansion. Aviation disruptions affect global trade routes.",
+        "keywords": [
+          "UAE",
+          "airspace closure",
+          "Saudi Arabia",
+          "drones",
+          "missiles",
+          "Gulf security",
+          "aviation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-18T03:08:32.674615+00:00"
+    }
+  ]
+}

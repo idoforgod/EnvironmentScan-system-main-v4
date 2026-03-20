@@ -1,0 +1,1023 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf4-multiglobal-news",
+  "scan_date": "2026-03-20",
+  "computed_at": "2026-03-19T23:53:42Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 30,
+    "new_signals": 30,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 35,
+    "active_threads": 67
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "news-20260320-bbc-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2628",
+      "canonical_title": "Middle East Conflict Escalation -- Iran-US Military Standoff Intensifies",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 9.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Middle East Conflict Escalation -- Iran-US Military Standoff Intensifies",
+          "psst": 9.5
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-reuters-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2629",
+      "canonical_title": "Global Trade Growth Slows to 2.6% Amid Tariff Uncertainties",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 9.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Global Trade Growth Slows to 2.6% Amid Tariff Uncertainties",
+          "psst": 9.3
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-nyt-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2630",
+      "canonical_title": "EPA Endangerment Finding Reversal Faces Legal Challenges in 12 States",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 9.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "EPA Endangerment Finding Reversal Faces Legal Challenges in 12 States",
+          "psst": 9.2
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-guardian-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2631",
+      "canonical_title": "UN Water Bankruptcy Declaration Triggers Emergency Summit Plans",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 9.1,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "UN Water Bankruptcy Declaration Triggers Emergency Summit Plans",
+          "psst": 9.1
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-ft-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2632",
+      "canonical_title": "Fed Holds Rates Steady as Inflation Concerns Persist",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Fed Holds Rates Steady as Inflation Concerns Persist",
+          "psst": 8.9
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-wsj-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2633",
+      "canonical_title": "AMI Labs World Model AI -- Industry Reactions and Skepticism",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.8,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "AMI Labs World Model AI -- Industry Reactions and Skepticism",
+          "psst": 8.8
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-lemonde-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2634",
+      "canonical_title": "EU AI Act Implementation Gaps -- Only 8/27 States Ready",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.6,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "EU AI Act Implementation Gaps -- Only 8/27 States Ready",
+          "psst": 8.6
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-nhk-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2635",
+      "canonical_title": "Japan Emerges as New Africa Tech Investor Geography",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Japan Emerges as New Africa Tech Investor Geography",
+          "psst": 8.4
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-aljaz-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2636",
+      "canonical_title": "Qatar Helium Production Halt -- Drone Attack Supply Chain Impact",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Qatar Helium Production Halt -- Drone Attack Supply Chain Impact",
+          "psst": 8.3
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-dw-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2637",
+      "canonical_title": "German Auto Industry AI Transformation Accelerates",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "German Auto Industry AI Transformation Accelerates",
+          "psst": 8.2
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-scmp-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2638",
+      "canonical_title": "China Rare Earth Export Controls Expand to 7 New Elements",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "China Rare Earth Export Controls Expand to 7 New Elements",
+          "psst": 8.0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-hindu-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2639",
+      "canonical_title": "India e-Rupee CBDC Adoption Surges 334%",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.8,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "India e-Rupee CBDC Adoption Surges 334%",
+          "psst": 7.8
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-globo-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2640",
+      "canonical_title": "Brazil Amazon Deforestation Reaches New Low After AI Monitoring",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.7,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Brazil Amazon Deforestation Reaches New Low After AI Monitoring",
+          "psst": 7.7
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-afp-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2641",
+      "canonical_title": "Global Ransomware Attacks Surge 47% in Q1 2026",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Global Ransomware Attacks Surge 47% in Q1 2026",
+          "psst": 7.5
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-yonhap-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2642",
+      "canonical_title": "South Korea Won Hits 17-Year Low Against Dollar",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "South Korea Won Hits 17-Year Low Against Dollar",
+          "psst": 7.4
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-tass-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2643",
+      "canonical_title": "Russia-China Gas Pipeline Expansion Agreement Signed",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Russia-China Gas Pipeline Expansion Agreement Signed",
+          "psst": 7.2
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-abc-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2644",
+      "canonical_title": "Australia Critical Minerals Strategy Targets Rare Earth Independence",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.1,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Australia Critical Minerals Strategy Targets Rare Earth Independence",
+          "psst": 7.1
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-times-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2645",
+      "canonical_title": "UK NHS AI Diagnostic Tool Reduces Wait Times by 40%",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "UK NHS AI Diagnostic Tool Reduces Wait Times by 40%",
+          "psst": 7.0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-asahi-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2646",
+      "canonical_title": "Japan Population Falls Below 120M for First Time",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.8,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Japan Population Falls Below 120M for First Time",
+          "psst": 6.8
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-hankyoreh-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2647",
+      "canonical_title": "Korean Youth Mental Health Crisis -- Digital Detox Movement Grows",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.7,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Korean Youth Mental Health Crisis -- Digital Detox Movement Grows",
+          "psst": 6.7
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-mint-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2648",
+      "canonical_title": "India Solar Manufacturing Capacity Doubles in 18 Months",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "India Solar Manufacturing Capacity Doubles in 18 Months",
+          "psst": 6.5
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-stern-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2649",
+      "canonical_title": "European Heat Wave Preparedness Plans for Summer 2026",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "European Heat Wave Preparedness Plans for Summer 2026",
+          "psst": 6.3
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-corriere-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2650",
+      "canonical_title": "Italy Autonomous Vehicle Testing Regulations Adopted",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Italy Autonomous Vehicle Testing Regulations Adopted",
+          "psst": 6.2
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-nikkei-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2651",
+      "canonical_title": "TSMC Japan Fab Kumamoto Phase 2 Construction Ahead of Schedule",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.1,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "TSMC Japan Fab Kumamoto Phase 2 Construction Ahead of Schedule",
+          "psst": 6.1
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-elp-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2652",
+      "canonical_title": "Spain Drought Emergency Declared in Catalonia Region",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 5.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Spain Drought Emergency Declared in Catalonia Region",
+          "psst": 5.9
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-straitstimes-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2653",
+      "canonical_title": "Singapore AI Governance Framework Adopted by 15 ASEAN Members",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 5.8,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Singapore AI Governance Framework Adopted by 15 ASEAN Members",
+          "psst": 5.8
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-cna-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2654",
+      "canonical_title": "Taiwan Semiconductor Export Controls Tightened After China Pressure",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 5.6,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Taiwan Semiconductor Export Controls Tightened After China Pressure",
+          "psst": 5.6
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-nation-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2655",
+      "canonical_title": "Kenya Launches Africa First Assistive Technology Fund $500K",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 5.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Kenya Launches Africa First Assistive Technology Fund $500K",
+          "psst": 5.5
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-jpost-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2656",
+      "canonical_title": "Israel Defense AI Systems Deployed in Escalating Conflict",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 5.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Israel Defense AI Systems Deployed in Escalating Conflict",
+          "psst": 5.3
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260320-globe-001",
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2657",
+      "canonical_title": "Philippines Typhoon Season AI Early Warning System Saves 2,000 Lives",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 5.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Philippines Typhoon Season AI Early Warning System Saves 2,000 Lives",
+          "psst": 5.2
+        }
+      ]
+    }
+  ],
+  "faded_threads": [
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2556",
+      "canonical_title": "Iran War Enters Third Week — Global Economy Shows Tell-Tale Signs of Crisis",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2557",
+      "canonical_title": "How the War With Iran Is Impacting Economies Across Asia — Inflation Wave",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2558",
+      "canonical_title": "What Does the Iran War Mean for Global Energy Markets? — CSIS Analysis",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2559",
+      "canonical_title": "The Global Price Tag of War in the Middle East — WEF Assessment",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2560",
+      "canonical_title": "Iran War Day 17: Pentagon Sends USS Tripoli to Middle East, Trump Calls on Allies",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2561",
+      "canonical_title": "Trump Section 301 Trade Probes to Replace IEEPA Tariffs — 60 Countries Scrutinized",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2562",
+      "canonical_title": "Middle East Conflict Hits Shipping and Oil Prices — Global Trade Fragmenting",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2563",
+      "canonical_title": "Trump Tariffs Largest US Tax Increase Since 1993 — $1,500 Per Household Average",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2564",
+      "canonical_title": "NVIDIA GTC 2026: Jensen Huang Projects $1 Trillion in Orders Through 2027",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2565",
+      "canonical_title": "NVIDIA-AWS Expanded Partnership: 1 Million GPUs, Full AI Computing Stack",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2566",
+      "canonical_title": "Autonomous Vehicles Surge: Uber 28-City Fleet, Nissan/BYD/Hyundai Level 4 on NVIDIA Drive",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2567",
+      "canonical_title": "Samsung and SK Hynix Tapped as NVIDIA Vera Rubin HBM4 Suppliers — Shipments Start March",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2568",
+      "canonical_title": "Nuclear Energy Summit 2026: China and Brazil Join Pledge to Triple Capacity by 2050",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2569",
+      "canonical_title": "Orban: Europe Preparing for War — Deployment of Troops to Ukraine Matter of Time",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2570",
+      "canonical_title": "Russia Could Field Up to 9 Million Drones in 2026 — EU Commissioner Warning",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2571",
+      "canonical_title": "EU Extends Ukraine-Related Sanctions for Six More Months — Until September 2026",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2572",
+      "canonical_title": "Trump Postpones US-China Relations Reboot Amid Hormuz Pressure",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2573",
+      "canonical_title": "South Korea: Former President Yoon Suk Yeol Sentenced to Life — Democracy Test",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2574",
+      "canonical_title": "North Korea: Kim Jong Un Demands US Accept Nuclear Status Before Talks Resume",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2575",
+      "canonical_title": "Global Health Update March 16: PEPFAR Transition, WHO Withdrawal, Bilateral Agreements",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2576",
+      "canonical_title": "Social Protection Leaves 3.8 Billion Unprotected — Bounded Universalism Emerges",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2577",
+      "canonical_title": "AI-Driven Cyberattacks Surge in March 2026 — Deepfake Campaigns Escalate",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2578",
+      "canonical_title": "Quantum Computing Reaches 'Transistor Moment' — Error Correction Breakthrough in 2026",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2579",
+      "canonical_title": "Trump Reopens US Embassy in Venezuela; Cuba Energy Crisis Deepens with Protests",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2580",
+      "canonical_title": "Japan Strategic Shift: Growing Support for Nationalist AI and Defense Capabilities",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2581",
+      "canonical_title": "China Strengthens Undersea Warfare for Far-Seas Power Projection",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2582",
+      "canonical_title": "India-Russia Crude Oil Flows May Endure Despite US Pressure — Middle East Disruption Factor",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2583",
+      "canonical_title": "Roche Deploys 3,500+ NVIDIA Blackwell GPUs for AI-Driven Drug Discovery",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2584",
+      "canonical_title": "Global Economic Outlook 2026: War and Tariffs Create Dual Headwinds",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2585",
+      "canonical_title": "Pandemic Preparedness 2026: WHO Pandemic Agreement Annex Critical Year",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2586",
+      "canonical_title": "Dassault AI-Powered Virtual Twins at GTC 2026 — Biology, Materials, Manufacturing",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2587",
+      "canonical_title": "Chickpeas Grown in Lunar Soil Simulation — Breakthrough for Space Colonization Food Security",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2588",
+      "canonical_title": "EU and Ukraine War: More Money But Not More Europe — Defense Budget Dilemma",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2589",
+      "canonical_title": "Lancet Commission: Global Health Trends 1970-2050 — Demographic and Epidemiological Shifts",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF4MULTIGLOBALNEWS-2590",
+      "canonical_title": "SanDisk: NVIDIA GTC 2026 Storage Announcement Could Be Gamechanger",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    }
+  ],
+  "new_threads_created": [
+    "THREAD-WF4MULTIGLOBALNEWS-2628",
+    "THREAD-WF4MULTIGLOBALNEWS-2629",
+    "THREAD-WF4MULTIGLOBALNEWS-2630",
+    "THREAD-WF4MULTIGLOBALNEWS-2631",
+    "THREAD-WF4MULTIGLOBALNEWS-2632",
+    "THREAD-WF4MULTIGLOBALNEWS-2633",
+    "THREAD-WF4MULTIGLOBALNEWS-2634",
+    "THREAD-WF4MULTIGLOBALNEWS-2635",
+    "THREAD-WF4MULTIGLOBALNEWS-2636",
+    "THREAD-WF4MULTIGLOBALNEWS-2637",
+    "THREAD-WF4MULTIGLOBALNEWS-2638",
+    "THREAD-WF4MULTIGLOBALNEWS-2639",
+    "THREAD-WF4MULTIGLOBALNEWS-2640",
+    "THREAD-WF4MULTIGLOBALNEWS-2641",
+    "THREAD-WF4MULTIGLOBALNEWS-2642",
+    "THREAD-WF4MULTIGLOBALNEWS-2643",
+    "THREAD-WF4MULTIGLOBALNEWS-2644",
+    "THREAD-WF4MULTIGLOBALNEWS-2645",
+    "THREAD-WF4MULTIGLOBALNEWS-2646",
+    "THREAD-WF4MULTIGLOBALNEWS-2647",
+    "THREAD-WF4MULTIGLOBALNEWS-2648",
+    "THREAD-WF4MULTIGLOBALNEWS-2649",
+    "THREAD-WF4MULTIGLOBALNEWS-2650",
+    "THREAD-WF4MULTIGLOBALNEWS-2651",
+    "THREAD-WF4MULTIGLOBALNEWS-2652",
+    "THREAD-WF4MULTIGLOBALNEWS-2653",
+    "THREAD-WF4MULTIGLOBALNEWS-2654",
+    "THREAD-WF4MULTIGLOBALNEWS-2655",
+    "THREAD-WF4MULTIGLOBALNEWS-2656",
+    "THREAD-WF4MULTIGLOBALNEWS-2657"
+  ]
+}

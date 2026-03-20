@@ -1,0 +1,893 @@
+{
+  "scan_date": "2026-03-19",
+  "workflow": "wf2-arxiv",
+  "source": "arXiv",
+  "items": [
+    {
+      "id": "arxiv-20260319-001",
+      "title": "KineVLA: Kinematics-Aware Vision-Language-Action Models with Bi-Level Action Decomposition",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17524",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Introduces a kinematics-rich vision-language-action task where language commands densely encode diverse kinematic attributes throughout execution. Supports fine-grained robotic manipulation with integrated visual, linguistic, and action understanding. Represents advancement in embodied AI and robot learning from natural language.",
+        "keywords": [
+          "VLA models",
+          "robotics",
+          "kinematics",
+          "embodied AI",
+          "action decomposition"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17524v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-002",
+      "title": "Detecting the Machine: Comprehensive Benchmark of AI-Generated Text Detectors Across Architectures",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17522",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Rapid proliferation of large language models creates urgent need for robust AI text detectors. Existing benchmarks evaluate narrowly. This comprehensive benchmark tests detectors across architectures, domains, and adversarial conditions. Critical for AI governance and content authenticity.",
+        "keywords": [
+          "AI detection",
+          "text forensics",
+          "LLM",
+          "AI governance",
+          "adversarial robustness"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17522v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-003",
+      "title": "Inducing Epistemological Humility in Large Language Models: Reducing Hallucination via Targeted SFT",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17504",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "LLMs often hallucinate, producing fluent but false information, because supervised fine-tuning implicitly rewards always responding confidently. This paper introduces epistemological humility through targeted SFT to teach models to acknowledge uncertainty rather than confabulate. Fundamental advance in AI reliability.",
+        "keywords": [
+          "hallucination",
+          "LLM reliability",
+          "epistemological humility",
+          "SFT",
+          "AI safety"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17504v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-004",
+      "title": "Learning When to Attend: Conditional Memory Access for Long-Context LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17484",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Language models struggle to generalize beyond pretraining context lengths, limiting long-horizon reasoning and retrieval. Conditional memory access mechanism enables efficient processing of contexts far exceeding training window. Addresses core scalability bottleneck of transformer architectures.",
+        "keywords": [
+          "long-context",
+          "memory access",
+          "transformer",
+          "attention mechanism",
+          "scalability"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17484v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-005",
+      "title": "UniSAFE: Comprehensive Safety Benchmark for Unified Multimodal Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17476",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Unified Multimodal Models offer powerful cross-modality capabilities but introduce new safety risks not covered by existing benchmarks. UniSAFE provides comprehensive evaluation framework across modalities. Essential infrastructure for responsible AI deployment.",
+        "keywords": [
+          "AI safety",
+          "multimodal",
+          "benchmark",
+          "safety evaluation",
+          "responsible AI"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "arxiv_id": "2603.17476v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-006",
+      "title": "When Only the Final Text Survives: Implicit Execution Tracing for Multi-Agent Attribution",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17445",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "When multi-agent AI systems produce incorrect or harmful answers, who is accountable if execution logs are unavailable? Multi-agent language systems increasingly deployed without adequate attribution mechanisms. Proposes implicit execution tracing for accountability in agentic AI.",
+        "keywords": [
+          "multi-agent",
+          "attribution",
+          "accountability",
+          "agentic AI",
+          "AI governance"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "arxiv_id": "2603.17445v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-007",
+      "title": "Caging the Agents: Zero Trust Security Architecture for Autonomous AI in Healthcare",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17419",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Autonomous AI agents with LLM capabilities including shell execution and file system access deployed in healthcare production. Proposes zero-trust security architecture constraining agent capabilities. Critical as autonomous AI enters safety-critical medical domains.",
+        "keywords": [
+          "AI security",
+          "healthcare AI",
+          "zero trust",
+          "autonomous agents",
+          "safety-critical systems"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17419v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-008",
+      "title": "LLMs as Semantic Interface and Ethical Mediator in Neuro-Digital Ecosystems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17444",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Introduces Neuro-Linguistic Integration (NLI), a novel paradigm for human-technology interaction where LLMs act as semantic interface between neural cognition and digital systems. Frames LLMs as ethical mediators in brain-computer integration. Philosophical and technical implications for post-human interface design.",
+        "keywords": [
+          "neuro-digital",
+          "brain-computer interface",
+          "LLM",
+          "ethical mediation",
+          "human-AI interaction"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "arxiv_id": "2603.17444v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-009",
+      "title": "Is Your LLM-as-a-Recommender Agent Trustable? BiasRecBench for Algorithmic Bias Detection",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17417",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "BiasRecBench highlights vulnerability of LLM agents to systematic biases in high-value decision-making tasks including hiring, e-commerce, and content curation. Demonstrates that LLM agents inherit and amplify biases. Critical for fairness and equity in algorithmic decision-making.",
+        "keywords": [
+          "algorithmic bias",
+          "LLM agents",
+          "fairness",
+          "recommendation systems",
+          "AI equity"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "arxiv_id": "2603.17417v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-010",
+      "title": "An Auditable AI Agent Loop for Empirical Economics",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17381",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "AI coding agents make empirical specification search fast and cheap, but also widen hidden researcher degrees of freedom. Proposes auditable agent loop for economic research. Addresses transparency and reproducibility concerns in AI-assisted scientific research.",
+        "keywords": [
+          "AI agents",
+          "economics",
+          "auditability",
+          "reproducibility",
+          "scientific methodology"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "arxiv_id": "2603.17381v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-011",
+      "title": "TRiMS: Real-Time Tracking of Minimal Sufficient Length for Efficient Reasoning via RL",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17449",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "LLMs achieve reasoning breakthroughs via long chain-of-thought sequences but this leads to severe reasoning inflation, causing excessive compute and latency. TRiMS tracks minimal sufficient reasoning length in real-time using reinforcement learning, reducing costs while maintaining quality.",
+        "keywords": [
+          "reasoning efficiency",
+          "chain-of-thought",
+          "reinforcement learning",
+          "LLM optimization",
+          "compute efficiency"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17449v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-012",
+      "title": "ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17435",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Lossless model compression addresses memory and bandwidth bottlenecks in LLM serving. ZipServ provides hardware-aware compression enabling larger models on existing infrastructure. Directly addresses the energy and cost constraints limiting AI deployment at scale.",
+        "keywords": [
+          "LLM inference",
+          "model compression",
+          "hardware optimization",
+          "memory efficiency",
+          "AI infrastructure"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17435v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-013",
+      "title": "The Phasor Transformer: Resolving Attention Bottlenecks on the Unit Circle",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17433",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Novel transformer architecture that resolves dot-product self-attention quadratic token-mixing bottleneck for long-context sequences using unit circle phasor representations. Potential paradigm shift in transformer architecture design for time-series and long-context applications.",
+        "keywords": [
+          "transformer architecture",
+          "attention mechanism",
+          "phasor",
+          "long-context",
+          "efficiency"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17433v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-014",
+      "title": "Argument Reconstruction as Supervision for Critical Thinking in LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17432",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Human learners develop critical thinking through argument identification, reconstruction, and evaluation. This paper applies argument reconstruction as supervision signal for LLMs, teaching models to reason about argument validity. Advance toward more epistemically rigorous AI systems.",
+        "keywords": [
+          "critical thinking",
+          "argument reconstruction",
+          "LLM training",
+          "reasoning",
+          "epistemology"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "arxiv_id": "2603.17432v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-015",
+      "title": "From Digital Twins to World Models: Opportunities for Mobile Edge General Intelligence",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17420",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Rapid evolution toward 6G communication accelerates convergence of digital twins and world models at network edge. Traditional digital twins provide static replicas; world models enable dynamic, predictive simulation. Foundational for next-generation intelligent infrastructure.",
+        "keywords": [
+          "digital twins",
+          "world models",
+          "6G",
+          "edge computing",
+          "intelligent infrastructure"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17420v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-016",
+      "title": "Federated Computing as Code (FCaC): Sovereignty-aware Systems by Design",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17331",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Declarative architecture enabling collaborative computation across organizations while preserving data sovereignty. Essential framework for cross-border AI systems operating under diverse regulatory regimes (EU AI Act, national data protection laws).",
+        "keywords": [
+          "data sovereignty",
+          "federated computing",
+          "cross-border AI",
+          "regulation compliance",
+          "declarative architecture"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "arxiv_id": "2603.17331v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-017",
+      "title": "QuantFL: Sustainable Federated Learning for Edge IoT via Pre-Trained Model Quantisation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17507",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Federated Learning enables privacy-preserving intelligence on IoT devices but incurs significant carbon footprint due to high energy cost. QuantFL addresses sustainability through quantized pre-trained models, reducing environmental impact of distributed AI.",
+        "keywords": [
+          "federated learning",
+          "IoT",
+          "sustainability",
+          "carbon footprint",
+          "model quantization"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "arxiv_id": "2603.17507v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-018",
+      "title": "Proof-of-Authorship for Diffusion-based AI Generated Content",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17513",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "AI-generated content introduces new challenges in intellectual property protection. Proposes cryptographic proof-of-authorship framework for diffusion model outputs. Addresses ownership and authenticity in an era where AI-generated and human-created content become indistinguishable.",
+        "keywords": [
+          "AI authorship",
+          "intellectual property",
+          "diffusion models",
+          "content authenticity",
+          "digital rights"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "arxiv_id": "2603.17513v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-019",
+      "title": "General Circuit Compilation Protocol into Partially Fault-Tolerant Quantum Computing Architecture",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17428",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Circuit execution protocol for the space-time efficient analog rotation (STAR) architecture using lattice surgery. Advances practical quantum computing by enabling fault-tolerant circuit compilation in near-term quantum hardware.",
+        "keywords": [
+          "quantum computing",
+          "fault tolerance",
+          "circuit compilation",
+          "lattice surgery",
+          "STAR architecture"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17428v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-020",
+      "title": "SCALE: Scalable Conditional Atlas-Level Endpoint Transport for Virtual Cell Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17380",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Virtual cell models enable in silico experimentation predicting cellular responses to genetic, chemical, or cytokine perturbations. SCALE provides scalable transport framework connecting atlas-level cellular states. Foundational for computational biology and drug discovery.",
+        "keywords": [
+          "virtual cell",
+          "computational biology",
+          "drug discovery",
+          "cellular perturbation",
+          "in silico"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17380v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-021",
+      "title": "DexEXO: Wearability-First Dexterous Exoskeleton for Scalable Robot Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17323",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Scaling dexterous robot learning constrained by difficulty of collecting high-quality demonstrations. DexEXO prioritizes wearability to enable diverse operators to generate training data. Removes critical bottleneck in robot learning from human demonstrations.",
+        "keywords": [
+          "exoskeleton",
+          "robot learning",
+          "dexterous manipulation",
+          "wearable robotics",
+          "teleoperation"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17323v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-022",
+      "title": "Interpreting Context-Aware Human Preferences for Multi-Objective Robot Navigation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17510",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Robots operating in human-shared environments must achieve navigation objectives while adapting to nuanced human preferences. Proposes interpretable framework for context-aware multi-objective navigation. Key for social robotics and human-robot cohabitation.",
+        "keywords": [
+          "social robotics",
+          "human preferences",
+          "robot navigation",
+          "multi-objective",
+          "human-robot interaction"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "arxiv_id": "2603.17510v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-023",
+      "title": "Efficient Soft Actor-Critic with LLM-Based Action-Level Guidance for Continuous Control",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17468",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "GuidedSAC leverages LLMs to provide action-level guidance for reinforcement learning in continuous control. Bridges language understanding and physical control. Represents convergence of foundation models and robotics control theory.",
+        "keywords": [
+          "reinforcement learning",
+          "LLM guidance",
+          "continuous control",
+          "robotics",
+          "SAC"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17468v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-024",
+      "title": "Proactive Knowledge Inquiry in Doctor-Patient Dialogue: Stateful Extraction and Path-Aware Planning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17425",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Most medical record pipelines remain output-oriented post-consultation. This paper proposes proactive knowledge inquiry during doctor-patient dialogue with stateful extraction and belief updating. Shifts AI from passive medical transcription to active clinical decision support.",
+        "keywords": [
+          "medical AI",
+          "clinical dialogue",
+          "knowledge extraction",
+          "decision support",
+          "healthcare"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "arxiv_id": "2603.17425v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-025",
+      "title": "Noise-Resilient Nonadiabatic Geometric Quantum Computation for Bosonic Binomial Codes",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17250",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Binomial codes offer parity-mediated loss immunity and error recoverability. Geometric phases provide inherent noise resilience. Combination enables robust quantum computation. Advances toward practical error-protected quantum information processing.",
+        "keywords": [
+          "quantum error correction",
+          "geometric computation",
+          "bosonic codes",
+          "noise resilience",
+          "quantum information"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17250v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-026",
+      "title": "Optimizing Logical Mappings for Quantum Low-Density Parity Check Codes",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17167",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Early demonstrations of fault-tolerant quantum systems pave the way for logical-level compilation. Optimizes logical mappings for quantum LDPC codes. Practical framework for scaling quantum error correction toward utility-scale quantum computing.",
+        "keywords": [
+          "LDPC codes",
+          "quantum error correction",
+          "fault tolerance",
+          "logical mapping",
+          "quantum compilation"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17167v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-027",
+      "title": "Mirror Descent on Riemannian Manifolds",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17527",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Mirror Descent scalable first-order optimization method extended to Riemannian manifolds. Applications in image processing, policy optimization, and neural network training. Fundamental mathematical advance with broad computational implications.",
+        "keywords": [
+          "optimization",
+          "Riemannian manifolds",
+          "mirror descent",
+          "machine learning",
+          "mathematics"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17527v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-028",
+      "title": "Language on Demand, Knowledge at Core: Composing LLMs with Translation Models for Extensible Multilinguality",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17512",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "LLMs exhibit strong general intelligence but multilingual performance remains highly imbalanced. Proposes composing LLMs with encoder-decoder translation models for extensible multilingual capability without retraining. Addresses critical language equity gap in AI.",
+        "keywords": [
+          "multilinguality",
+          "LLM",
+          "translation",
+          "language equity",
+          "NLP"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "arxiv_id": "2603.17512v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-029",
+      "title": "Bringing Network Coding into Multi-Robot Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17472",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Communication is core enabler for multi-robot systems. Network coding applied to multi-robot communication for improved reliability and efficiency. Direct applications in autonomous vehicle coordination and robotic swarm operations.",
+        "keywords": [
+          "network coding",
+          "multi-robot systems",
+          "communication",
+          "swarm robotics",
+          "reliability"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17472v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    },
+    {
+      "id": "arxiv-20260319-030",
+      "title": "GUIDE: GenAI Units In Digital Design Education",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17296",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Open courseware repository with runnable labs for integrating generative AI into hardware design education. Addresses critical need for AI literacy in engineering curricula. Democratizes access to cutting-edge AI tools for educational institutions.",
+        "keywords": [
+          "AI education",
+          "hardware design",
+          "generative AI",
+          "courseware",
+          "engineering education"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "arxiv_id": "2603.17296v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z"
+    }
+  ],
+  "total_items": 30,
+  "scan_metadata": {
+    "execution_proof": {
+      "execution_id": "wf2-scan-2026-03-19-01-00-00-b2c3",
+      "started_at": "2026-03-19T01:00:00Z",
+      "completed_at": "2026-03-19T01:10:00Z",
+      "actual_api_calls": {
+        "web_search": 0,
+        "arxiv_api": 5
+      },
+      "actual_sources_scanned": [
+        "arXiv"
+      ],
+      "file_created_at": "2026-03-19T01:10:00Z"
+    }
+  }
+}

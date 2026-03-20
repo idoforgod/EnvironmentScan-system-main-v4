@@ -1,0 +1,6 @@
+{
+  "date": "2026-03-20",
+  "frontier_type": "gap_directed",
+  "target_gaps": ["E_Environmental", "s_spiritual"],
+  "selected_by": "frontier_selector.py"
+}

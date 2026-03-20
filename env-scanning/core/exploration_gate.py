@@ -65,7 +65,7 @@ except ImportError:
 # Constants
 # ---------------------------------------------------------------------------
 
-VERSION = "1.0.0"
+VERSION = "1.3.0"  # v1.3.0: fix gap_preview category extraction + post schema mismatch
 GATE_ID = "exploration_gate.py"
 
 # Decision values (deterministic outcomes)
@@ -169,7 +169,16 @@ def gate_check(
             from collections import Counter
             cat_counts: Counter = Counter()
             for sig in signals:
-                cat = sig.get("category") or sig.get("preliminary_category", "")
+                if not isinstance(sig, dict):
+                    continue
+                # Try all known category field names (schemas vary by phase)
+                cat = (
+                    sig.get("final_category")
+                    or sig.get("category")
+                    or sig.get("preliminary_category")
+                    or sig.get("steeps_category")
+                    or ""
+                )
                 if cat:
                     cat_counts[cat] += 1
             threshold = exp_cfg.get("coverage_gap_threshold", 0.15)
@@ -256,11 +265,42 @@ def gate_post(
         if candidates_path and Path(candidates_path).exists():
             try:
                 cand_data = _load_json(Path(candidates_path))
-                candidates_discovered = cand_data.get("total_candidates_discovered",
-                                                       len(cand_data.get("viable_candidates", [])) +
-                                                       len(cand_data.get("non_viable_candidates", [])))
-                viable_count = len(cand_data.get("viable_candidates", []))
-                gaps_analyzed = cand_data.get("gap_analysis_result", {}).get("pre_exploration_gaps", [])
+
+                # Extract candidates_discovered: may be int field or list length
+                raw_discovered = cand_data.get("candidates_discovered",
+                                               cand_data.get("total_candidates_discovered"))
+                if isinstance(raw_discovered, int):
+                    candidates_discovered = raw_discovered
+                else:
+                    # Fallback: count from candidates list
+                    cand_list = cand_data.get("candidates", [])
+                    candidates_discovered = len(cand_list) if isinstance(cand_list, list) else 0
+
+                # Extract viable_count: may be int field or list length
+                raw_viable = cand_data.get("viable_candidates",
+                                           cand_data.get("viable_count"))
+                if isinstance(raw_viable, int):
+                    viable_count = raw_viable
+                elif isinstance(raw_viable, list):
+                    viable_count = len(raw_viable)
+                else:
+                    # Fallback: count viable from candidates list
+                    cand_list = cand_data.get("candidates", [])
+                    if isinstance(cand_list, list):
+                        viable_count = sum(
+                            1 for c in cand_list
+                            if isinstance(c, dict) and c.get("scan_status") == "viable"
+                        )
+
+                # Extract gaps_analyzed: top-level or nested
+                raw_gaps = cand_data.get("gaps_analyzed")
+                if isinstance(raw_gaps, list):
+                    gaps_analyzed = raw_gaps
+                else:
+                    # Fallback: nested under gap_analysis_result
+                    gap_result = cand_data.get("gap_analysis_result")
+                    if isinstance(gap_result, dict):
+                        gaps_analyzed = gap_result.get("pre_exploration_gaps", [])
             except Exception:
                 pass
 
@@ -271,8 +311,12 @@ def gate_post(
                 if isinstance(sig_data, list):
                     signals_collected = len(sig_data)
                 elif isinstance(sig_data, dict):
-                    items = sig_data.get("items", sig_data.get("signals", []))
-                    signals_collected = len(items)
+                    sig_count = sig_data.get("signal_count")
+                    if isinstance(sig_count, int):
+                        signals_collected = sig_count
+                    else:
+                        items = sig_data.get("signals", sig_data.get("items", []))
+                        signals_collected = len(items) if isinstance(items, list) else 0
             except Exception:
                 pass
 
@@ -313,6 +357,51 @@ def gate_post(
     )
     _write_json(proof_path, proof)
     proof["proof_file"] = str(proof_path)
+
+    # Auto-promote viable candidates (Python-enforced, deterministic)
+    if gate_decision == DECISION_MUST_RUN and candidates_path and Path(candidates_path).exists():
+        try:
+            from source_auto_promoter import promote_viable_candidates
+            scan_date_for_promo = decision.get("date", "")
+
+            # Derive paths from data_root
+            data_root_path = Path(data_root)
+            sources_yaml = str(data_root_path.parent / "config" / "sources.yaml")
+            excluded_path = str(data_root_path / "exploration" / "excluded-sources.json")
+            history_dir_path = str(data_root_path / "exploration" / "history")
+            sot_for_promo = None
+
+            # Try to find SOT path from decision file's exploration_config
+            exp_cfg = decision.get("exploration_config", {})
+            if "gate_script" in exp_cfg:
+                # Derive SOT path: gate_script is in core/, SOT is in config/
+                sot_for_promo = str(data_root_path.parent / "config" / "workflow-registry.yaml")
+
+            promo_output = str(
+                data_root_path / "exploration" / f"promotion-report-{scan_date_for_promo}.json"
+            )
+
+            promo_result = promote_viable_candidates(
+                candidates_path=candidates_path,
+                sources_yaml_path=sources_yaml,
+                excluded_sources_path=excluded_path,
+                history_dir=history_dir_path,
+                sot_path=sot_for_promo,
+                scan_date=scan_date_for_promo,
+                output_path=promo_output,
+            )
+            proof["auto_promotion"] = {
+                "status": promo_result.get("status", "unknown"),
+                "promotions_count": promo_result.get("promotions_count", 0),
+                "promoted_sources": [
+                    p.get("name") for p in promo_result.get("promotions", [])
+                ],
+            }
+        except Exception as e:
+            proof["auto_promotion"] = {
+                "status": "error",
+                "error": str(e)[:200],
+            }
 
     # Safety net: record in ExplorationHistory (with duplicate prevention)
     if gate_decision == DECISION_MUST_RUN:
@@ -363,13 +452,17 @@ def gate_verify(
     """
     Verify exploration proof file integrity. Called at PG1.
 
-    Checks (VP-1 through VP-5):
+    Checks (VP-1 through VP-6):
         VP-1: Proof file exists and is valid JSON
         VP-2: gate_decision field matches decision file (if provided)
         VP-3: If decision was MUST_RUN, execution_status must be "executed"
         VP-4: If executed, signals_collected must be >= 0 (proof of actual execution)
         VP-5: If MUST_RUN+executed, frontier-selection file must exist on disk
               (Python-enforced proof that frontier_selector.py ran past gap analysis)
+        VP-6: Proof file schema validation — gate_post() produces specific fields
+              (gate_version, command, method_used, results, files).
+              If these are missing, the proof was NOT created by gate_post()
+              but was manually written by the LLM orchestrator (bypass detection).
 
     Args:
         proof_path: Path to exploration-proof-{date}.json
@@ -518,9 +611,50 @@ def gate_verify(
             "passed": True,
         })
 
+    # VP-6: Proof file schema validation — anti-bypass detection.
+    # gate_post() produces a proof file with specific structural fields:
+    #   gate_version, command, method_used, results, files
+    # If these are absent, the proof was written directly by the LLM orchestrator
+    # instead of calling gate_post(), which means:
+    #   (a) source_auto_promoter was NOT invoked (promotion skipped)
+    #   (b) exploration-history.json was NOT updated (RLM loop broken)
+    #   (c) VP-3/VP-5 checks may pass on non-standard values
+    # gate_version is the strongest discriminator: it's set from the VERSION constant
+    # and cannot be guessed by the LLM without reading the source code.
+    _GATE_POST_REQUIRED_FIELDS = {"gate_version", "command", "method_used", "results", "files"}
+    if proof is not None:
+        proof_keys = set(proof.keys())
+        missing_schema = _GATE_POST_REQUIRED_FIELDS - proof_keys
+        if missing_schema:
+            vp6_passed = False
+            vp6_detail = (
+                f"Proof file missing gate_post() schema fields: {sorted(missing_schema)}. "
+                "This indicates the proof was written directly by the LLM orchestrator "
+                "instead of calling exploration_gate.py post. "
+                "Recovery: re-run Step 1.2a-E ③ POST-GATE (exploration_gate.py post)."
+            )
+        else:
+            vp6_passed = True
+            vp6_detail = ""
+        checks.append({
+            "id": "VP-6",
+            "description": "Proof file has gate_post() schema (anti-bypass detection)",
+            "passed": vp6_passed,
+            "detail": vp6_detail,
+        })
+    else:
+        # VP-1 already failed — no proof to check schema on
+        checks.append({
+            "id": "VP-6",
+            "description": "Proof file has gate_post() schema (anti-bypass detection)",
+            "passed": False,
+            "detail": "Cannot check schema — proof file missing (VP-1 failed)",
+        })
+
     all_passed = all(c["passed"] for c in checks)
     status = "PASS" if all_passed else "FAIL"
 
+    failed_count = sum(1 for c in checks if not c["passed"])
     result = {
         "gate_id": GATE_ID,
         "gate_version": VERSION,
@@ -528,8 +662,8 @@ def gate_verify(
         "verified_at": datetime.now(timezone.utc).isoformat(),
         "proof_file": proof_path,
         "status": status,
-        "message": f"All {len(checks)} verification checks passed" if all_passed else
-                   f"{sum(1 for c in checks if not c['passed'])}/{len(checks)} checks FAILED",
+        "message": f"All {len(checks)} verification checks passed (VP-1~VP-6)" if all_passed else
+                   f"{failed_count}/{len(checks)} checks FAILED",
         "checks": checks,
         "all_passed": all_passed,
     }

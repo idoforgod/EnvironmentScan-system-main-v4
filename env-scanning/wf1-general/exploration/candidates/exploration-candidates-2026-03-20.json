@@ -1,0 +1,34 @@
+{
+  "date": "2026-03-20",
+  "candidates_discovered": 3,
+  "viable_candidates": 2,
+  "candidates": [
+    {
+      "source_name": "IPBES News",
+      "url": "https://www.ipbes.net/news",
+      "type": "policy",
+      "steeps_focus": ["E_Environmental"],
+      "signals_found": 2,
+      "scan_status": "viable",
+      "quality_score": 0.75
+    },
+    {
+      "source_name": "Religion News Service",
+      "url": "https://religionnews.com/feed/",
+      "type": "news",
+      "steeps_focus": ["s_spiritual"],
+      "signals_found": 1,
+      "scan_status": "not_viable",
+      "quality_score": 0.40
+    },
+    {
+      "source_name": "Earth.Org",
+      "url": "https://earth.org/feed/",
+      "type": "science_journalism",
+      "steeps_focus": ["E_Environmental"],
+      "signals_found": 3,
+      "scan_status": "viable",
+      "quality_score": 0.82
+    }
+  ]
+}

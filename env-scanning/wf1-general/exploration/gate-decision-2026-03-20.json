@@ -1,0 +1,10 @@
+{
+  "gate_id": "EG-2026-03-20-wf1",
+  "date": "2026-03-20",
+  "workflow": "wf1-general",
+  "decision": "MUST_RUN",
+  "reason": "Coverage gap detected: E_Environmental (9.4%), s_spiritual (5.7%) below 15% threshold",
+  "coverage_gaps": ["E_Environmental", "s_spiritual"],
+  "gap_threshold": 0.15,
+  "computed_at": "2026-03-19T23:10:00Z"
+}

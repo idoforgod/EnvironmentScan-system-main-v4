@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quadruple Environmental Scan — 2026-03-20</title>
+<style>
+:root {
+  --bg: #0f1117;
+  --surface: #1a1d27;
+  --card: #22252f;
+  --border: #2e3140;
+  --text: #e1e4ea;
+  --text-dim: #8b8fa3;
+  --accent: #6c8cff;
+  --accent2: #4ecdc4;
+  --red: #ff6b6b;
+  --orange: #ffa94d;
+  --yellow: #ffd43b;
+  --green: #51cf66;
+  --purple: #b197fc;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Pretendard', -apple-system, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+
+/* Header */
+.header { text-align: center; padding: 40px 0 30px; border-bottom: 1px solid var(--border); margin-bottom: 30px; }
+.header h1 { font-size: 2em; font-weight: 700; background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px; }
+.header .subtitle { color: var(--text-dim); font-size: 0.95em; }
+.header .stats-row { display: flex; justify-content: center; gap: 40px; margin-top: 20px; flex-wrap: wrap; }
+.stat { text-align: center; }
+.stat .num { font-size: 2.2em; font-weight: 700; color: var(--accent); }
+.stat .label { font-size: 0.8em; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; }
+
+/* Time Summary */
+.time-bar { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 24px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+.time-bar .total { font-size: 1.3em; font-weight: 600; color: var(--accent2); }
+.time-bar .phases { display: flex; gap: 8px; flex-wrap: wrap; }
+.phase-chip { background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 4px 10px; font-size: 0.75em; color: var(--text-dim); }
+.phase-chip .ph-time { color: var(--accent); font-weight: 600; }
+
+/* Tabs */
+.tabs { display: flex; gap: 4px; margin-bottom: 0; background: var(--surface); border-radius: 12px 12px 0 0; padding: 8px 8px 0; border: 1px solid var(--border); border-bottom: none; flex-wrap: wrap; }
+.tab { padding: 10px 20px; cursor: pointer; border-radius: 8px 8px 0 0; font-size: 0.9em; font-weight: 500; color: var(--text-dim); transition: all 0.2s; border: 1px solid transparent; border-bottom: none; }
+.tab:hover { color: var(--text); background: var(--card); }
+.tab.active { background: var(--card); color: var(--accent); border-color: var(--border); }
+.tab-content { display: none; background: var(--card); border: 1px solid var(--border); border-radius: 0 0 12px 12px; padding: 30px; overflow-x: auto; }
+.tab-content.active { display: block; }
+
+/* Report Content */
+.report { font-size: 0.95em; }
+.report h1 { font-size: 1.6em; color: var(--accent); margin: 0 0 16px; padding-bottom: 12px; border-bottom: 2px solid var(--border); }
+.report h2 { font-size: 1.3em; color: var(--accent2); margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+.report h3 { font-size: 1.1em; color: var(--text); margin: 24px 0 12px; }
+.report h4 { font-size: 1em; color: var(--accent); margin: 16px 0 8px; }
+.report p { margin: 10px 0; color: var(--text); }
+.report ul, .report ol { margin: 8px 0 8px 24px; }
+.report li { margin: 4px 0; }
+.report strong { color: #fff; }
+.report blockquote { border-left: 3px solid var(--accent); padding: 8px 16px; margin: 12px 0; background: rgba(108,140,255,0.05); border-radius: 0 8px 8px 0; color: var(--text-dim); }
+.report hr { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
+.report table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.9em; }
+.report th { background: var(--surface); color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); font-weight: 600; }
+.report td { padding: 8px 12px; border: 1px solid var(--border); vertical-align: top; }
+.report tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+.report code { background: var(--surface); padding: 2px 6px; border-radius: 4px; font-size: 0.9em; color: var(--accent2); }
+.report pre { background: var(--surface); padding: 16px; border-radius: 8px; overflow-x: auto; margin: 12px 0; border: 1px solid var(--border); }
+.report pre code { background: none; padding: 0; }
+
+/* Signal Cards */
+.signal-priority { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700; margin-right: 8px; }
+.signal-priority.critical { background: rgba(255,107,107,0.2); color: var(--red); }
+.signal-priority.high { background: rgba(255,169,77,0.2); color: var(--orange); }
+
+/* Dashboard Grid */
+.dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px; margin-bottom: 24px; }
+.dash-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+.dash-card h3 { font-size: 0.85em; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+.dash-card .value { font-size: 1.6em; font-weight: 700; }
+.wf-badge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 600; margin: 2px; }
+.wf1 { background: rgba(108,140,255,0.2); color: var(--accent); }
+.wf2 { background: rgba(177,151,252,0.2); color: var(--purple); }
+.wf3 { background: rgba(78,205,196,0.2); color: var(--accent2); }
+.wf4 { background: rgba(255,169,77,0.2); color: var(--orange); }
+
+/* Escalation */
+.esc-bar { display: flex; align-items: center; gap: 8px; margin: 6px 0; }
+.esc-dot { width: 10px; height: 10px; border-radius: 50%; }
+.esc-dot.orange { background: var(--orange); box-shadow: 0 0 8px var(--orange); }
+.esc-dot.yellow { background: var(--yellow); box-shadow: 0 0 8px var(--yellow); }
+.esc-dot.green { background: var(--green); }
+.esc-label { font-size: 0.85em; }
+
+/* Scenario cards */
+.scenario { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin: 8px 0; }
+.scenario-title { font-weight: 700; margin-bottom: 6px; }
+.scenario .prob { float: right; font-weight: 700; padding: 2px 10px; border-radius: 4px; font-size: 0.85em; }
+
+/* Footer */
+.footer { text-align: center; padding: 30px 0; color: var(--text-dim); font-size: 0.8em; border-top: 1px solid var(--border); margin-top: 40px; }
+
+@media (max-width: 768px) {
+  .container { padding: 12px; }
+  .header h1 { font-size: 1.4em; }
+  .header .stats-row { gap: 20px; }
+  .stat .num { font-size: 1.6em; }
+  .tab { padding: 8px 12px; font-size: 0.8em; }
+  .tab-content { padding: 16px; }
+  .dashboard { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>Quadruple Environmental Scanning Report</h1>
+  <div class="subtitle">2026년 3월 20일 (목) &mdash; Quadruple Environmental Scanning System v2.5.0</div>
+  <div class="stats-row">
+    <div class="stat"><div class="num">158</div><div class="label">Total Signals</div></div>
+    <div class="stat"><div class="num">4</div><div class="label">Workflows</div></div>
+    <div class="stat"><div class="num">79</div><div class="label">Sources</div></div>
+    <div class="stat"><div class="num">10</div><div class="label">Reports</div></div>
+    <div class="stat"><div class="num">22</div><div class="label">Top Signals</div></div>
+  </div>
+</div>
+
+<div class="time-bar">
+  <div class="total">총 소요 시간: 1시간 59분</div>
+  <div class="phases">
+    <div class="phase-chip">WF1 <span class="ph-time">50분</span></div>
+    <div class="phase-chip">WF2 <span class="ph-time">17분</span></div>
+    <div class="phase-chip">WF3 <span class="ph-time">12분</span></div>
+    <div class="phase-chip">WF4 <span class="ph-time">9분</span></div>
+    <div class="phase-chip">통합 <span class="ph-time">31분</span></div>
+  </div>
+</div>
+
+<!-- Dashboard Overview -->
+<div class="dashboard">
+  <div class="dash-card">
+    <h3>워크플로우별 시그널</h3>
+    <div style="margin:8px 0"><span class="wf-badge wf1">WF1 General</span> <span class="value" style="font-size:1.2em">53</span></div>
+    <div style="margin:8px 0"><span class="wf-badge wf2">WF2 arXiv</span> <span class="value" style="font-size:1.2em">40</span></div>
+    <div style="margin:8px 0"><span class="wf-badge wf3">WF3 Naver</span> <span class="value" style="font-size:1.2em">35</span></div>
+    <div style="margin:8px 0"><span class="wf-badge wf4">WF4 Global</span> <span class="value" style="font-size:1.2em">30</span></div>
+  </div>
+  <div class="dash-card">
+    <h3>STEEPs 분포</h3>
+    <div style="margin:4px 0">T (기술): <strong>71</strong> — 44.9%</div>
+    <div style="margin:4px 0">P (정치): <strong>27</strong> — 17.1%</div>
+    <div style="margin:4px 0">E (경제): <strong>22</strong> — 13.9%</div>
+    <div style="margin:4px 0">E (환경): <strong>15</strong> — 9.5%</div>
+    <div style="margin:4px 0">S (사회): <strong>13</strong> — 8.2%</div>
+    <div style="margin:4px 0">s (영적): <strong>9</strong> — 5.7%</div>
+  </div>
+  <div class="dash-card">
+    <h3>에스컬레이션 모니터링</h3>
+    <div class="esc-bar"><div class="esc-dot orange"></div><span class="esc-label"><strong>EPA 위험성 판정 폐지</strong> — CRITICAL</span></div>
+    <div class="esc-bar"><div class="esc-dot orange"></div><span class="esc-label"><strong>글로벌 물 파산 시대</strong> — CRITICAL</span></div>
+    <div class="esc-bar"><div class="esc-dot yellow"></div><span class="esc-label"><strong>미-중 대분기</strong> — HIGH</span></div>
+    <div class="esc-bar"><div class="esc-dot yellow"></div><span class="esc-label"><strong>AI 규제 슈퍼사이클</strong> — HIGH</span></div>
+    <div class="esc-bar"><div class="esc-dot yellow"></div><span class="esc-label"><strong>CRISPR-GPT 바이오 융합</strong> — HIGH</span></div>
+    <div class="esc-bar"><div class="esc-dot green"></div><span class="esc-label"><strong>반도체 공급 재편</strong> — MEDIUM</span></div>
+  </div>
+  <div class="dash-card">
+    <h3>시나리오 전망</h3>
+    <div class="scenario"><div class="scenario-title">B: 분절된 질서 속 적응 <span class="prob" style="background:rgba(255,169,77,0.2);color:var(--orange)">45%</span></div><div style="font-size:0.85em;color:var(--text-dim)">미-중 대분기 지속, AI 규제 분절화, 물 위기 관리 실패</div></div>
+    <div class="scenario"><div class="scenario-title">A: 협력적 전환 <span class="prob" style="background:rgba(78,205,196,0.2);color:var(--accent2)">30%</span></div><div style="font-size:0.85em;color:var(--text-dim)">EPA 후속 대응, AI 거버넌스 수렴, 기후-기술 조화</div></div>
+    <div class="scenario"><div class="scenario-title">C: 다중 위기 연쇄 <span class="prob" style="background:rgba(255,107,107,0.2);color:var(--red)">25%</span></div><div style="font-size:0.85em;color:var(--text-dim)">환경 규제 해체 + 물 위기 + 공급망 단절 동시 발생</div></div>
+  </div>
+</div>
+
+<!-- Tabs -->
+<div class="tabs">
+  <div class="tab active" onclick="showTab('integrated')">통합 보고서 (KO)</div>
+  <div class="tab" onclick="showTab('timeline')">Timeline Map</div>
+  <div class="tab" onclick="showTab('wf1')">WF1 General</div>
+  <div class="tab" onclick="showTab('wf2')">WF2 arXiv</div>
+  <div class="tab" onclick="showTab('wf3')">WF3 Naver</div>
+  <div class="tab" onclick="showTab('wf4')">WF4 Global</div>
+</div>
+
+<div id="tab-integrated" class="tab-content active">
+  <div class="report" id="report-integrated">Loading...</div>
+</div>
+<div id="tab-timeline" class="tab-content">
+  <div class="report" id="report-timeline">Loading...</div>
+</div>
+<div id="tab-wf1" class="tab-content">
+  <div class="report" id="report-wf1">Loading...</div>
+</div>
+<div id="tab-wf2" class="tab-content">
+  <div class="report" id="report-wf2">Loading...</div>
+</div>
+<div id="tab-wf3" class="tab-content">
+  <div class="report" id="report-wf3">Loading...</div>
+</div>
+<div id="tab-wf4" class="tab-content">
+  <div class="report" id="report-wf4">Loading...</div>
+</div>
+
+<div class="footer">
+  Quadruple Environmental Scanning System v2.5.0 &mdash; 2026-03-20<br>
+  WF1 (34 sources) + WF2 (arXiv) + WF3 (Naver News) + WF4 (43 global news sites, 11 languages)<br>
+  Total: 158 signals | 10 reports (EN+KO) | 1 Timeline Map | All validations PASS
+</div>
+
+</div>
+
+<script>
+function showTab(id) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// Simple markdown to HTML converter
+function md2html(md) {
+  let html = md;
+  // Code blocks
+  html = html.replace(/```(\w*)\n([\s\S]*?)```/g, '<pre><code>$2</code></pre>');
+  // Inline code
+  html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+  // Headers
+  html = html.replace(/^#### (.+)$/gm, '<h4>$1</h4>');
+  html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+  html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+  html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+  // Bold
+  html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  // Italic
+  html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  // Links
+  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" style="color:var(--accent)">$1</a>');
+  // Blockquotes
+  html = html.replace(/^> (.+)$/gm, '<blockquote>$1</blockquote>');
+  // HR
+  html = html.replace(/^---$/gm, '<hr>');
+  // Tables
+  html = html.replace(/^\|(.+)\|$/gm, function(match) {
+    const cells = match.split('|').filter(c => c.trim());
+    if (cells.every(c => /^[\s-:]+$/.test(c))) return '<!--sep-->';
+    return '<tr>' + cells.map(c => '<td>' + c.trim() + '</td>').join('') + '</tr>';
+  });
+  html = html.replace(/((?:<tr>.*<\/tr>\n?)+)/g, function(block) {
+    let rows = block.trim().split('\n').filter(r => r && !r.includes('<!--sep-->'));
+    if (rows.length === 0) return '';
+    let first = rows[0].replace(/<td>/g, '<th>').replace(/<\/td>/g, '</th>');
+    return '<table>' + first + rows.slice(1).join('\n') + '</table>';
+  });
+  html = html.replace(/<!--sep-->\n?/g, '');
+  // Lists
+  html = html.replace(/^(\d+)\. (.+)$/gm, '<li>$2</li>');
+  html = html.replace(/^- (.+)$/gm, '<li>$1</li>');
+  // Paragraphs
+  html = html.replace(/\n\n/g, '</p><p>');
+  html = '<p>' + html + '</p>';
+  html = html.replace(/<p>\s*(<h[1-4]>)/g, '$1');
+  html = html.replace(/(<\/h[1-4]>)\s*<\/p>/g, '$1');
+  html = html.replace(/<p>\s*(<table>)/g, '$1');
+  html = html.replace(/(<\/table>)\s*<\/p>/g, '$1');
+  html = html.replace(/<p>\s*(<hr>)/g, '$1');
+  html = html.replace(/(<hr>)\s*<\/p>/g, '$1');
+  html = html.replace(/<p>\s*(<blockquote>)/g, '$1');
+  html = html.replace(/(<\/blockquote>)\s*<\/p>/g, '$1');
+  html = html.replace(/<p>\s*(<pre>)/g, '$1');
+  html = html.replace(/(<\/pre>)\s*<\/p>/g, '$1');
+  html = html.replace(/<p>\s*<\/p>/g, '');
+  return html;
+}
+
+// Load reports from local files via fetch (they must be served or embedded)
+// Since this is a local file, we embed the reports directly
+async function loadReports() {
+  const files = {
+    'integrated': 'env-scanning/integrated/reports/daily/integrated-scan-2026-03-20-ko.md',
+    'timeline': 'env-scanning/integrated/reports/daily/timeline-map-2026-03-20.md',
+    'wf1': 'env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-20-ko.md',
+    'wf2': 'env-scanning/wf2-arxiv/reports/daily/arxiv-scan-2026-03-20-ko.md',
+    'wf3': 'env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-20-ko.md',
+    'wf4': 'env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-20-ko.md',
+  };
+  for (const [id, path] of Object.entries(files)) {
+    try {
+      const resp = await fetch(path);
+      if (resp.ok) {
+        const text = await resp.text();
+        document.getElementById('report-' + id).innerHTML = md2html(text);
+      } else {
+        document.getElementById('report-' + id).innerHTML = '<p style="color:var(--text-dim)">파일을 로드하려면 로컬 서버가 필요합니다. 아래 명령어를 실행하세요:<br><code>cd ' + location.pathname.replace(/\/[^/]*$/, '') + ' && python3 -m http.server 8080</code><br>그런 다음 <a href="http://localhost:8080/scan-report-2026-03-20.html" style="color:var(--accent)">http://localhost:8080/scan-report-2026-03-20.html</a> 로 접속하세요.</p>';
+      }
+    } catch(e) {
+      document.getElementById('report-' + id).innerHTML = '<p style="color:var(--text-dim)">로컬 파일 로드에는 HTTP 서버가 필요합니다:<br><code>python3 -m http.server 8080</code><br>그런 다음 <a href="http://localhost:8080/scan-report-2026-03-20.html" style="color:var(--accent)">http://localhost:8080/scan-report-2026-03-20.html</a> 로 접속하세요.</p>';
+    }
+  }
+}
+loadReports();
+</script>
+</body>
+</html>

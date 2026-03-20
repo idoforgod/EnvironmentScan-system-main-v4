@@ -1,0 +1,255 @@
+{
+  "scan_date": "2026-03-20",
+  "workflow": "wf3-naver",
+  "ranking_metadata": {
+    "method": "pSST_unified",
+    "total_ranked": 35
+  },
+  "ranked_signals": [
+    {
+      "id": "naver-20260320-100-001",
+      "title": "에이전틱 AI 시대 본격 개막, 어도비부터 삼성까지 격변",
+      "psst_score": 9.5,
+      "impact_score": 9.5,
+      "rank": 1
+    },
+    {
+      "id": "naver-20260320-100-002",
+      "title": "원·달러 환율 1,500원 돌파, 17년 만의 최고치",
+      "psst_score": 9.4,
+      "impact_score": 9.4,
+      "rank": 2
+    },
+    {
+      "id": "naver-20260320-100-003",
+      "title": "중동 전쟁 여파, 국제 유가 급등과 한국 외교 딜레마",
+      "psst_score": 9.3,
+      "impact_score": 9.3,
+      "rank": 3
+    },
+    {
+      "id": "naver-20260320-100-004",
+      "title": "인텔, AI 반도체용 첨단 패키징 기술 업그레이드",
+      "psst_score": 9.1,
+      "impact_score": 9.1,
+      "rank": 4
+    },
+    {
+      "id": "naver-20260320-100-005",
+      "title": "인공지능 윤리 및 안전 기본법 시행 3개월, 산업계 혼선 지속",
+      "psst_score": 9.0,
+      "impact_score": 9.0,
+      "rank": 5
+    },
+    {
+      "id": "naver-20260320-100-006",
+      "title": "빅테크 2026년 AI 투자 1000억 달러 돌파 전망",
+      "psst_score": 8.9,
+      "impact_score": 8.9,
+      "rank": 6
+    },
+    {
+      "id": "naver-20260320-100-007",
+      "title": "해상풍력특별법 3월 시행, 재생에너지 전환 가속화",
+      "psst_score": 8.8,
+      "impact_score": 8.8,
+      "rank": 7
+    },
+    {
+      "id": "naver-20260320-100-008",
+      "title": "2026 기후 위기의 분기점, 일상에 침투하는 기후변화",
+      "psst_score": 8.7,
+      "impact_score": 8.7,
+      "rank": 8
+    },
+    {
+      "id": "naver-20260320-100-009",
+      "title": "화훙반도체, 7나노 공정 기술 개발 성공",
+      "psst_score": 8.5,
+      "impact_score": 8.5,
+      "rank": 9
+    },
+    {
+      "id": "naver-20260320-100-010",
+      "title": "사법 3법 공포 시행, 재판소원·법 왜곡죄 도입",
+      "psst_score": 8.4,
+      "impact_score": 8.4,
+      "rank": 10
+    },
+    {
+      "id": "naver-20260320-100-011",
+      "title": "저출생 극복 정책 확대, 무상교육 4세까지 확대",
+      "psst_score": 8.3,
+      "impact_score": 8.3,
+      "rank": 11
+    },
+    {
+      "id": "naver-20260320-100-012",
+      "title": "AI 거품론 대두, 지정학적 리스크 속 경제 전망 불투명",
+      "psst_score": 8.2,
+      "impact_score": 8.2,
+      "rank": 12
+    },
+    {
+      "id": "naver-20260320-100-013",
+      "title": "Grok 등 AI 생성 콘텐츠 오남용 대응, 프라이버시 공동선언 채택",
+      "psst_score": 8.1,
+      "impact_score": 8.1,
+      "rank": 13
+    },
+    {
+      "id": "naver-20260320-100-014",
+      "title": "반도체 수출 16.3% 성장 전망, 산업 슈퍼사이클 진입",
+      "psst_score": 7.9,
+      "impact_score": 7.9,
+      "rank": 14
+    },
+    {
+      "id": "naver-20260320-100-015",
+      "title": "한국, 9월 안보리 의장국 수임 예정",
+      "psst_score": 7.8,
+      "impact_score": 7.8,
+      "rank": 15
+    },
+    {
+      "id": "naver-20260320-100-016",
+      "title": "ESG 경영 확산, 글로벌 공급망 탄소 배출 규제 강화",
+      "psst_score": 7.7,
+      "impact_score": 7.7,
+      "rank": 16
+    },
+    {
+      "id": "naver-20260320-100-017",
+      "title": "디지털 헬스케어 규제 샌드박스 확대, AI 의료기기 인허가 간소화",
+      "psst_score": 7.6,
+      "impact_score": 7.6,
+      "rank": 17
+    },
+    {
+      "id": "naver-20260320-100-018",
+      "title": "국민연금 개혁안 국회 통과 임박, 보험료율 인상 쟁점",
+      "psst_score": 7.5,
+      "impact_score": 7.5,
+      "rank": 18
+    },
+    {
+      "id": "naver-20260320-100-019",
+      "title": "이란 드론 공격으로 카타르 헬륨 생산 중단, 반도체 영향 우려",
+      "psst_score": 7.3,
+      "impact_score": 7.3,
+      "rank": 19
+    },
+    {
+      "id": "naver-20260320-100-020",
+      "title": "삼성전자, 차세대 HBM4 양산 앞당기기로 결정",
+      "psst_score": 7.2,
+      "impact_score": 7.2,
+      "rank": 20
+    },
+    {
+      "id": "naver-20260320-100-021",
+      "title": "한국 스타트업 생태계, AI 분야 투자 사상 최고치 경신",
+      "psst_score": 7.1,
+      "impact_score": 7.1,
+      "rank": 21
+    },
+    {
+      "id": "naver-20260320-100-022",
+      "title": "MZ세대 정신건강 위기, 디지털 디톡스 운동 확산",
+      "psst_score": 7.0,
+      "impact_score": 7.0,
+      "rank": 22
+    },
+    {
+      "id": "naver-20260320-100-023",
+      "title": "한미 반도체 동맹 강화, CHIPS Act 한국 기업 수혜 확대",
+      "psst_score": 6.9,
+      "impact_score": 6.9,
+      "rank": 23
+    },
+    {
+      "id": "naver-20260320-100-024",
+      "title": "전국 평균 주택가격 하락세 지속, 수도권은 보합",
+      "psst_score": 6.7,
+      "impact_score": 6.7,
+      "rank": 24
+    },
+    {
+      "id": "naver-20260320-100-025",
+      "title": "자율주행 레벨3 규제 완화, 현대차 시범운행 확대",
+      "psst_score": 6.6,
+      "impact_score": 6.6,
+      "rank": 25
+    },
+    {
+      "id": "naver-20260320-100-026",
+      "title": "북한 핵·미사일 위협 고조, 한일 안보협력 강화 논의",
+      "psst_score": 6.5,
+      "impact_score": 6.5,
+      "rank": 26
+    },
+    {
+      "id": "naver-20260320-100-027",
+      "title": "국내 AI 인재 유출 심화, 해외 빅테크 이직 러시",
+      "psst_score": 6.4,
+      "impact_score": 6.4,
+      "rank": 27
+    },
+    {
+      "id": "naver-20260320-100-028",
+      "title": "K-배터리 기술격차 축소 우려, 중국 CATL 추격",
+      "psst_score": 6.3,
+      "impact_score": 6.3,
+      "rank": 28
+    },
+    {
+      "id": "naver-20260320-100-029",
+      "title": "고령화 시대 돌봄 로봇 시장 급성장, 정부 지원 확대",
+      "psst_score": 6.1,
+      "impact_score": 6.1,
+      "rank": 29
+    },
+    {
+      "id": "naver-20260320-100-030",
+      "title": "글로벌 식량 가격 상승, 기후변화와 공급망 불안 결합",
+      "psst_score": 6.0,
+      "impact_score": 6.0,
+      "rank": 30
+    },
+    {
+      "id": "naver-20260320-100-031",
+      "title": "디지털 원화(CBDC) 파일럿 2단계 착수, 금융위 발표",
+      "psst_score": 5.9,
+      "impact_score": 5.9,
+      "rank": 31
+    },
+    {
+      "id": "naver-20260320-100-032",
+      "title": "양자컴퓨터 상용화 가속, 국내 연구기관 성과 잇따라",
+      "psst_score": 5.8,
+      "impact_score": 5.8,
+      "rank": 32
+    },
+    {
+      "id": "naver-20260320-100-033",
+      "title": "사이버보안 위협 증가, 랜섬웨어 피해 기업 급증",
+      "psst_score": 5.7,
+      "impact_score": 5.7,
+      "rank": 33
+    },
+    {
+      "id": "naver-20260320-100-034",
+      "title": "탄소중립 2050 이행계획 수정안, 재생에너지 비중 상향",
+      "psst_score": 5.5,
+      "impact_score": 5.5,
+      "rank": 34
+    },
+    {
+      "id": "naver-20260320-100-035",
+      "title": "플랫폼 노동자 권리 보호법 시행, 배달·택시 적용",
+      "psst_score": 5.4,
+      "impact_score": 5.4,
+      "rank": 35
+    }
+  ]
+}

@@ -1,23 +1,42 @@
 {
   "workflow": "wf3-naver",
-  "scan_date": "2026-03-11",
-  "status": "completed_empty",
-  "completed_at": "2026-03-11T00:27:20Z",
-  "signal_count": 0,
-  "articles_crawled": 272,
-  "articles_after_tc_filter": 0,
-  "reason": "All 272 crawled articles were published 2026-03-11, outside scan window [2026-03-09T22:59Z, 2026-03-10T22:59Z]. Naver front page rotates daily; articles from the scan window period are no longer available on the front page.",
+  "status": "completed",
+  "date": "2026-03-19",
+  "started_at": "2026-03-19T01:15:00Z",
+  "completed_at": "2026-03-19T01:33:30.792651+00:00",
+  "signal_count": 15,
+  "sources_scanned": 1,
+  "report_path": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-19.md",
+  "report_ko_path": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-19-ko.md",
+  "verification_summary": {
+    "L2a_en": "20/20 PASS"
+  },
   "human_approvals": {
-    "step_2_5": {"decision": "autopilot_skip", "reason": "No signals to review"},
-    "step_3_4": {"decision": "autopilot_skip", "reason": "No report to approve"}
+    "step_2_5": {
+      "decision": "approved",
+      "timestamp": "2026-03-19T01:20:00Z"
+    },
+    "step_3_4": {
+      "decision": "approved",
+      "timestamp": "2026-03-19T01:33:30.792770+00:00"
+    }
   },
-  "reports": {
-    "en": null,
-    "ko": null
+  "phases": {
+    "phase1": "completed",
+    "phase2": "completed",
+    "phase3": "completed"
   },
-  "pipeline_gates": {
-    "gate1": "PASS_EMPTY",
-    "gate2": "SKIP",
-    "gate3": "SKIP"
-  }
+  "fssf_distribution": {
+    "Driver": 4,
+    "Precursor Event": 5,
+    "Trend": 4,
+    "Emerging Issue": 2
+  },
+  "tipping_alerts": {
+    "GREEN": 15,
+    "YELLOW": 0,
+    "ORANGE": 0,
+    "RED": 0
+  },
+  "archived": true
 }

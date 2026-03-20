@@ -1,0 +1,11 @@
+{
+  "date": "2026-03-20",
+  "signals": [
+    {"id": "explore-20260320-ipbes-001", "title": "IPBES Global Assessment Update on Biodiversity Loss Drivers", "source": "IPBES News", "steeps": "E_Environmental"},
+    {"id": "explore-20260320-ipbes-002", "title": "Pollinator Decline Accelerating in Temperate Regions", "source": "IPBES News", "steeps": "E_Environmental"},
+    {"id": "explore-20260320-earthorg-001", "title": "Water Scarcity Compounds Agricultural Challenges in South Asia", "source": "Earth.Org", "steeps": "E_Environmental"},
+    {"id": "explore-20260320-earthorg-002", "title": "Microplastic Pollution Reaches Deep Ocean Trenches", "source": "Earth.Org", "steeps": "E_Environmental"},
+    {"id": "explore-20260320-earthorg-003", "title": "Mangrove Restoration Shows Carbon Sequestration Promise", "source": "Earth.Org", "steeps": "E_Environmental"},
+    {"id": "explore-20260320-rns-001", "title": "Religious Leaders Issue Joint Statement on AI Ethics", "source": "Religion News Service", "steeps": "s_spiritual"}
+  ]
+}

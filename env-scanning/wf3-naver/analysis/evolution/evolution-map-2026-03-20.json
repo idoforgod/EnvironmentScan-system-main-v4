@@ -1,0 +1,1129 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf3-naver",
+  "scan_date": "2026-03-20",
+  "computed_at": "2026-03-19T23:47:18Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 35,
+    "new_signals": 35,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 31,
+    "active_threads": 103
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "naver-20260320-100-001",
+      "thread_id": "THREAD-WF3-668",
+      "canonical_title": "에이전틱 AI 시대 본격 개막, 어도비부터 삼성까지 격변",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 9.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "에이전틱 AI 시대 본격 개막, 어도비부터 삼성까지 격변",
+          "psst": 9.5
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-002",
+      "thread_id": "THREAD-WF3-669",
+      "canonical_title": "원·달러 환율 1,500원 돌파, 17년 만의 최고치",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 9.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "원·달러 환율 1,500원 돌파, 17년 만의 최고치",
+          "psst": 9.4
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-003",
+      "thread_id": "THREAD-WF3-670",
+      "canonical_title": "중동 전쟁 여파, 국제 유가 급등과 한국 외교 딜레마",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 9.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "중동 전쟁 여파, 국제 유가 급등과 한국 외교 딜레마",
+          "psst": 9.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-004",
+      "thread_id": "THREAD-WF3-671",
+      "canonical_title": "인텔, AI 반도체용 첨단 패키징 기술 업그레이드",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 9.1,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "인텔, AI 반도체용 첨단 패키징 기술 업그레이드",
+          "psst": 9.1
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-005",
+      "thread_id": "THREAD-WF3-672",
+      "canonical_title": "인공지능 윤리 및 안전 기본법 시행 3개월, 산업계 혼선 지속",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 9.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "인공지능 윤리 및 안전 기본법 시행 3개월, 산업계 혼선 지속",
+          "psst": 9.0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-006",
+      "thread_id": "THREAD-WF3-673",
+      "canonical_title": "빅테크 2026년 AI 투자 1000억 달러 돌파 전망",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "빅테크 2026년 AI 투자 1000억 달러 돌파 전망",
+          "psst": 8.9
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-007",
+      "thread_id": "THREAD-WF3-674",
+      "canonical_title": "해상풍력특별법 3월 시행, 재생에너지 전환 가속화",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.8,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "해상풍력특별법 3월 시행, 재생에너지 전환 가속화",
+          "psst": 8.8
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-008",
+      "thread_id": "THREAD-WF3-675",
+      "canonical_title": "2026 기후 위기의 분기점, 일상에 침투하는 기후변화",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.7,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "2026 기후 위기의 분기점, 일상에 침투하는 기후변화",
+          "psst": 8.7
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-009",
+      "thread_id": "THREAD-WF3-676",
+      "canonical_title": "화훙반도체, 7나노 공정 기술 개발 성공",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "화훙반도체, 7나노 공정 기술 개발 성공",
+          "psst": 8.5
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-010",
+      "thread_id": "THREAD-WF3-677",
+      "canonical_title": "사법 3법 공포 시행, 재판소원·법 왜곡죄 도입",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "사법 3법 공포 시행, 재판소원·법 왜곡죄 도입",
+          "psst": 8.4
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-011",
+      "thread_id": "THREAD-WF3-678",
+      "canonical_title": "저출생 극복 정책 확대, 무상교육 4세까지 확대",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "저출생 극복 정책 확대, 무상교육 4세까지 확대",
+          "psst": 8.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-012",
+      "thread_id": "THREAD-WF3-679",
+      "canonical_title": "AI 거품론 대두, 지정학적 리스크 속 경제 전망 불투명",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "AI 거품론 대두, 지정학적 리스크 속 경제 전망 불투명",
+          "psst": 8.2
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-013",
+      "thread_id": "THREAD-WF3-680",
+      "canonical_title": "Grok 등 AI 생성 콘텐츠 오남용 대응, 프라이버시 공동선언 채택",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.1,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Grok 등 AI 생성 콘텐츠 오남용 대응, 프라이버시 공동선언 채택",
+          "psst": 8.1
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-014",
+      "thread_id": "THREAD-WF3-681",
+      "canonical_title": "반도체 수출 16.3% 성장 전망, 산업 슈퍼사이클 진입",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "반도체 수출 16.3% 성장 전망, 산업 슈퍼사이클 진입",
+          "psst": 7.9
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-015",
+      "thread_id": "THREAD-WF3-682",
+      "canonical_title": "한국, 9월 안보리 의장국 수임 예정",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.8,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "한국, 9월 안보리 의장국 수임 예정",
+          "psst": 7.8
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-016",
+      "thread_id": "THREAD-WF3-683",
+      "canonical_title": "ESG 경영 확산, 글로벌 공급망 탄소 배출 규제 강화",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.7,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "ESG 경영 확산, 글로벌 공급망 탄소 배출 규제 강화",
+          "psst": 7.7
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-017",
+      "thread_id": "THREAD-WF3-684",
+      "canonical_title": "디지털 헬스케어 규제 샌드박스 확대, AI 의료기기 인허가 간소화",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.6,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "디지털 헬스케어 규제 샌드박스 확대, AI 의료기기 인허가 간소화",
+          "psst": 7.6
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-018",
+      "thread_id": "THREAD-WF3-685",
+      "canonical_title": "국민연금 개혁안 국회 통과 임박, 보험료율 인상 쟁점",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "국민연금 개혁안 국회 통과 임박, 보험료율 인상 쟁점",
+          "psst": 7.5
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-019",
+      "thread_id": "THREAD-WF3-686",
+      "canonical_title": "이란 드론 공격으로 카타르 헬륨 생산 중단, 반도체 영향 우려",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "이란 드론 공격으로 카타르 헬륨 생산 중단, 반도체 영향 우려",
+          "psst": 7.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-020",
+      "thread_id": "THREAD-WF3-687",
+      "canonical_title": "삼성전자, 차세대 HBM4 양산 앞당기기로 결정",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.2,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "삼성전자, 차세대 HBM4 양산 앞당기기로 결정",
+          "psst": 7.2
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-021",
+      "thread_id": "THREAD-WF3-688",
+      "canonical_title": "한국 스타트업 생태계, AI 분야 투자 사상 최고치 경신",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.1,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "한국 스타트업 생태계, AI 분야 투자 사상 최고치 경신",
+          "psst": 7.1
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-022",
+      "thread_id": "THREAD-WF3-689",
+      "canonical_title": "MZ세대 정신건강 위기, 디지털 디톡스 운동 확산",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "MZ세대 정신건강 위기, 디지털 디톡스 운동 확산",
+          "psst": 7.0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-023",
+      "thread_id": "THREAD-WF3-690",
+      "canonical_title": "한미 반도체 동맹 강화, CHIPS Act 한국 기업 수혜 확대",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "한미 반도체 동맹 강화, CHIPS Act 한국 기업 수혜 확대",
+          "psst": 6.9
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-024",
+      "thread_id": "THREAD-WF3-691",
+      "canonical_title": "전국 평균 주택가격 하락세 지속, 수도권은 보합",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.7,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "전국 평균 주택가격 하락세 지속, 수도권은 보합",
+          "psst": 6.7
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-025",
+      "thread_id": "THREAD-WF3-692",
+      "canonical_title": "자율주행 레벨3 규제 완화, 현대차 시범운행 확대",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.6,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "자율주행 레벨3 규제 완화, 현대차 시범운행 확대",
+          "psst": 6.6
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-026",
+      "thread_id": "THREAD-WF3-693",
+      "canonical_title": "북한 핵·미사일 위협 고조, 한일 안보협력 강화 논의",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "북한 핵·미사일 위협 고조, 한일 안보협력 강화 논의",
+          "psst": 6.5
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-027",
+      "thread_id": "THREAD-WF3-694",
+      "canonical_title": "국내 AI 인재 유출 심화, 해외 빅테크 이직 러시",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "국내 AI 인재 유출 심화, 해외 빅테크 이직 러시",
+          "psst": 6.4
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-028",
+      "thread_id": "THREAD-WF3-695",
+      "canonical_title": "K-배터리 기술격차 축소 우려, 중국 CATL 추격",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "K-배터리 기술격차 축소 우려, 중국 CATL 추격",
+          "psst": 6.3
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-029",
+      "thread_id": "THREAD-WF3-696",
+      "canonical_title": "고령화 시대 돌봄 로봇 시장 급성장, 정부 지원 확대",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.1,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "고령화 시대 돌봄 로봇 시장 급성장, 정부 지원 확대",
+          "psst": 6.1
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-030",
+      "thread_id": "THREAD-WF3-697",
+      "canonical_title": "글로벌 식량 가격 상승, 기후변화와 공급망 불안 결합",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "글로벌 식량 가격 상승, 기후변화와 공급망 불안 결합",
+          "psst": 6.0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-031",
+      "thread_id": "THREAD-WF3-698",
+      "canonical_title": "디지털 원화(CBDC) 파일럿 2단계 착수, 금융위 발표",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 5.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "디지털 원화(CBDC) 파일럿 2단계 착수, 금융위 발표",
+          "psst": 5.9
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-032",
+      "thread_id": "THREAD-WF3-699",
+      "canonical_title": "양자컴퓨터 상용화 가속, 국내 연구기관 성과 잇따라",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 5.8,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "양자컴퓨터 상용화 가속, 국내 연구기관 성과 잇따라",
+          "psst": 5.8
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-033",
+      "thread_id": "THREAD-WF3-700",
+      "canonical_title": "사이버보안 위협 증가, 랜섬웨어 피해 기업 급증",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 5.7,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "사이버보안 위협 증가, 랜섬웨어 피해 기업 급증",
+          "psst": 5.7
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-034",
+      "thread_id": "THREAD-WF3-701",
+      "canonical_title": "탄소중립 2050 이행계획 수정안, 재생에너지 비중 상향",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 5.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "탄소중립 2050 이행계획 수정안, 재생에너지 비중 상향",
+          "psst": 5.5
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260320-100-035",
+      "thread_id": "THREAD-WF3-702",
+      "canonical_title": "플랫폼 노동자 권리 보호법 시행, 배달·택시 적용",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 5.4,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "플랫폼 노동자 권리 보호법 시행, 배달·택시 적용",
+          "psst": 5.4
+        }
+      ]
+    }
+  ],
+  "faded_threads": [
+    {
+      "thread_id": "THREAD-WF3-569",
+      "canonical_title": "감사원, 서울 한강버스 사업 강행 감사 결과 공개 — 기준속도 미달·사업비 오류 적발",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-571",
+      "canonical_title": "미 무역법 301조 조사 개시 — 한국 포함 16개국 대상, 제조업 84% 직격탄 우려",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-574",
+      "canonical_title": "이란전쟁 장기화로 유가 $106 돌파 — 한국 30년만에 석유제품 최고가격제 시행",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-575",
+      "canonical_title": "KOSPI 2008년 이후 최대 폭락 — 서킷브레이커 발동, 아시아 증시 동반 급락",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-577",
+      "canonical_title": "기초연금 부부감액 단계적 폐지 추진 — 소득 하위 40% 대상",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-578",
+      "canonical_title": "삼성전자 HBM4 세계 최초 양산 — SK하이닉스와 AI 메모리 패권 경쟁 격화",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-579",
+      "canonical_title": "주식 이탈자금 26조원 부동산으로 이동 — 서울 상급지 아파트 거래 증가",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-580",
+      "canonical_title": "토스뱅크 환율 고시 오류 — 엔화 환전 전 고객에 현금 1만원 보상",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-582",
+      "canonical_title": "정부 100조원 시장안정화 프로그램 가동 — 유가 쇼크 대응 긴급 경제 대책",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-583",
+      "canonical_title": "미 301조 + 10% 관세 만료 — 7월 이후 품목별 차등관세 폭풍 예고",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-584",
+      "canonical_title": "초고령사회 진입 — 65세 이상 20% 돌파, 노인장기요양보험 16조원",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-585",
+      "canonical_title": "출생아 수 23만명 수준 — 2024년 대비 5% 감소, 인구절벽 가속",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-586",
+      "canonical_title": "AI 기술, 정신건강까지 확장 — AI 헬스케어 스타트업 투자 활발",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-587",
+      "canonical_title": "에너지 위기, 아시아 시민 생활패턴 변화 — 재택근무 확대, 에너지 절약",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-588",
+      "canonical_title": "원전 6기 순차 재가동 — 에너지 안보 위한 원전 확대 정책 가속",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-589",
+      "canonical_title": "기후대응위, 국제감축사업 통합 설명회 3/20 개최",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-591",
+      "canonical_title": "2026 이상기후 농업 위기 — 식량 안보 대책 시급",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-593",
+      "canonical_title": "카타르 헬륨 생산 중단 — 반도체 제조 차질 우려, 한·일·대만 직격탄",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-594",
+      "canonical_title": "김정은, 최고인민회의 투표 후 탄광 방문 — 5개년 계획·석탄생산 강조",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-595",
+      "canonical_title": "2026 APEC 정상회의(중국) — 한중 셔틀 정상회담·북미 회담 가능성",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-596",
+      "canonical_title": "트럼프 무역분절화 가속 — 고율 관세 효과 가시화, 글로벌 무역 위축",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-598",
+      "canonical_title": "한국 AI 스타트업 투자 역대급 — 업스테이지 470억·보스반도체 870억 유치",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-599",
+      "canonical_title": "K-AI 반도체 양산 원년 — 스타트업 칩 시장 출시, 실적 증명 관문",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-601",
+      "canonical_title": "Dahua AI 교통시스템 Intertraffic 2026 공개 — 능동적·예측적 교통관리",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-602",
+      "canonical_title": "한국 통합 R&D — AI·산업·지역개발 연결, 중소벤처부·산업부 공동 추진",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-603",
+      "canonical_title": "EU-한국 연구혁신의 날 2026 (3/24) — 양자컴퓨팅·AI·기후 공동연구",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-604",
+      "canonical_title": "CES 2026 역대 최대 한국관 — B2B AI·산업기술 전략 전환",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-606",
+      "canonical_title": "인천시, 배달 식품업소 위생 단속 — 소비기한 미표시 6곳 적발",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-607",
+      "canonical_title": "포항시의원 공천 논란 — 음주운전·탈당 전력 후보, '사전 내정' 의혹",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-608",
+      "canonical_title": "김병헌 위안부법폐지국민행동 대표 구속영장 신청",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF3-609",
+      "canonical_title": "아시아 전역 에너지 절약 모드 — 재택근무·계단 이용 등 긴급 조치",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    }
+  ],
+  "new_threads_created": [
+    "THREAD-WF3-668",
+    "THREAD-WF3-669",
+    "THREAD-WF3-670",
+    "THREAD-WF3-671",
+    "THREAD-WF3-672",
+    "THREAD-WF3-673",
+    "THREAD-WF3-674",
+    "THREAD-WF3-675",
+    "THREAD-WF3-676",
+    "THREAD-WF3-677",
+    "THREAD-WF3-678",
+    "THREAD-WF3-679",
+    "THREAD-WF3-680",
+    "THREAD-WF3-681",
+    "THREAD-WF3-682",
+    "THREAD-WF3-683",
+    "THREAD-WF3-684",
+    "THREAD-WF3-685",
+    "THREAD-WF3-686",
+    "THREAD-WF3-687",
+    "THREAD-WF3-688",
+    "THREAD-WF3-689",
+    "THREAD-WF3-690",
+    "THREAD-WF3-691",
+    "THREAD-WF3-692",
+    "THREAD-WF3-693",
+    "THREAD-WF3-694",
+    "THREAD-WF3-695",
+    "THREAD-WF3-696",
+    "THREAD-WF3-697",
+    "THREAD-WF3-698",
+    "THREAD-WF3-699",
+    "THREAD-WF3-700",
+    "THREAD-WF3-701",
+    "THREAD-WF3-702"
+  ]
+}

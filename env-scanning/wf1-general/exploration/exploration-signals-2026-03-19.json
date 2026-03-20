@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-03-19T10:35:00+09:00",
+  "generated_by": "exploration-orchestrator (Stage C)",
+  "scan_date": "2026-03-19",
+  "signal_count": 8,
+  "signals": [
+    {
+      "id": "explore-20260319-hastings-001",
+      "title": "희귀질환 유전자 치료를 위한 윤리적 규제 정책 개발",
+      "title_en": "Genetic Therapies for Rare Diseases: Developing Ethical Regulatory Policies",
+      "source": {
+        "name": "The Hastings Center",
+        "type": "academic",
+        "url": "https://www.thehastingscenter.org",
+        "tier": "exploration",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "희귀질환 환자의 유전자 치료 접근성과 안전성 보호 간의 균형을 분석하며, 증거 수준에 기반한 차별화된 승인 시스템을 제안한다. 이 프레임워크는 환자 접근권과 규제 안전장치 사이의 윤리적 긴장을 해결하기 위한 새로운 접근법을 제시한다.",
+        "keywords": ["bioethics", "gene therapy", "rare diseases", "regulatory policy", "patient access"],
+        "language": "en"
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-19T10:30:00+09:00",
+      "scan_metadata": {
+        "execution_proof": "RSS feed fetched from thehastingscenter.org/feed/, 10 items available, article dated 2026-03-12",
+        "discovery_keyword": "bioethics gene editing moral framework",
+        "frontier_category": "steeps_gap_spiritual"
+      }
+    },
+    {
+      "id": "explore-20260319-hastings-002",
+      "title": "프로네이탈리즘 운동의 어두운 면: 유전자 배아 선별과 우생학의 재부상",
+      "title_en": "More and 'Better' Babies: The Dark Side of the Pronatalist Movement",
+      "source": {
+        "name": "The Hastings Center",
+        "type": "academic",
+        "url": "https://www.thehastingscenter.org",
+        "tier": "exploration",
+        "published_date": "2026-01-14"
+      },
+      "content": {
+        "abstract": "테크 엘리트 사이에서 확산되는 프로네이탈리즘 운동과 유전자 배아 선별 기술의 결합이 역사적 우생학과의 유사성을 보이는 위험을 분석한다. 현대 기술이 '더 나은 아기' 담론을 어떻게 강화하는지 비판적으로 검토한다.",
+        "keywords": ["eugenics", "pronatalism", "embryo selection", "bioethics", "tech elites"],
+        "language": "en"
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-19T10:30:00+09:00",
+      "scan_metadata": {
+        "execution_proof": "RSS feed fetched from thehastingscenter.org/feed/, article dated 2026-01-14",
+        "discovery_keyword": "bioethics gene editing moral framework",
+        "frontier_category": "steeps_gap_spiritual"
+      }
+    },
+    {
+      "id": "explore-20260319-newhumanitarian-001",
+      "title": "레바논 전쟁에서 집계되지 않는 실향민: 인도주의 지원의 사각지대",
+      "title_en": "Displaced but uncounted: The people aid is leaving behind in Lebanon's war",
+      "source": {
+        "name": "The New Humanitarian",
+        "type": "news",
+        "url": "https://www.thenewhumanitarian.org",
+        "tier": "exploration",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "레바논 분쟁 속에서 인도주의 지원 시스템에 의해 간과되는 취약 인구의 실태를 분석한다. 공식 통계에서 누락되는 실향민들의 존재는 현 인도주의 대응 체계의 구조적 한계를 드러낸다.",
+        "keywords": ["displacement", "humanitarian crisis", "Lebanon", "vulnerable populations", "social exclusion"],
+        "language": "en"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-19T10:30:00+09:00",
+      "scan_metadata": {
+        "execution_proof": "RSS feed fetched from thenewhumanitarian.org/rss, 10 items available, article dated 2026-03-17",
+        "discovery_keyword": "death dying dignity end of life ethics RSS",
+        "frontier_category": "steeps_gap_spiritual"
+      }
+    },
+    {
+      "id": "explore-20260319-newhumanitarian-002",
+      "title": "젠더 평등 NGO 폐쇄의 연쇄 효과: 측정할 수 없는 손실",
+      "title_en": "When gender equity NGOs close, more disappears than can be measured",
+      "source": {
+        "name": "The New Humanitarian",
+        "type": "news",
+        "url": "https://www.thenewhumanitarian.org",
+        "tier": "exploration",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "여성 권리 및 젠더 평등 NGO의 폐쇄가 미치는 시스템적 영향을 분석한다. 시민사회 조직의 소멸은 단순한 서비스 중단을 넘어, 사회적 안전망과 가치 체계의 구조적 약화를 초래한다.",
+        "keywords": ["gender equity", "NGO", "civil society", "women's rights", "social impact"],
+        "language": "en"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-19T10:30:00+09:00",
+      "scan_metadata": {
+        "execution_proof": "RSS feed fetched from thenewhumanitarian.org/rss, article dated 2026-03-16",
+        "discovery_keyword": "death dying dignity end of life ethics RSS",
+        "frontier_category": "steeps_gap_spiritual"
+      }
+    },
+    {
+      "id": "explore-20260319-mongabay-001",
+      "title": "브라질, 멸종위기 돌고래 서식지 포함 100만 헥타르 해양보호구역 지정",
+      "title_en": "Brazil protects huge coastal area with endangered dolphins",
+      "source": {
+        "name": "Mongabay",
+        "type": "science_journalism",
+        "url": "https://news.mongabay.com",
+        "tier": "exploration",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "브라질 연방정부가 25종의 멸종위기종과 홍적세 화석을 포함하는 100만 헥타르 이상의 해양보호구역을 설정했다. 이는 라틴아메리카 해양 보전 정책의 중요한 진전을 의미한다.",
+        "keywords": ["marine conservation", "Brazil", "endangered species", "biodiversity", "Latin America"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-19T10:30:00+09:00",
+      "scan_metadata": {
+        "execution_proof": "RSS feed fetched from news.mongabay.com/feed/, 35 items available, article dated 2026-03-18",
+        "discovery_keyword": "Latin American sustainability news",
+        "frontier_category": "geographic"
+      }
+    },
+    {
+      "id": "explore-20260319-mongabay-002",
+      "title": "인구폭탄 저자 폴 에를리히 별세(향년 93세): 지속가능성 담론의 유산",
+      "title_en": "Paul Ehrlich, 'Population Bomb' ecologist, dies at 93",
+      "source": {
+        "name": "Mongabay",
+        "type": "science_journalism",
+        "url": "https://news.mongabay.com",
+        "tier": "exploration",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "인구-환경 관계 연구의 선구자이자 1968년 '인구폭탄'의 저자 폴 에를리히가 93세로 별세했다. 그의 유산은 현대 지속가능성 논의의 근간을 형성하며 인구통계학과 환경 정책의 교차점에 깊은 영향을 남겼다.",
+        "keywords": ["population", "sustainability", "ecology", "demographics", "environmental policy"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-19T10:30:00+09:00",
+      "scan_metadata": {
+        "execution_proof": "RSS feed fetched from news.mongabay.com/feed/, article dated 2026-03-18",
+        "discovery_keyword": "Latin American sustainability news",
+        "frontier_category": "geographic"
+      }
+    },
+    {
+      "id": "explore-20260319-mercopress-001",
+      "title": "아르헨티나 WHO 공식 탈퇴: 글로벌 보건 거버넌스의 균열",
+      "title_en": "Argentina officially withdraws from the WHO",
+      "source": {
+        "name": "MercoPress",
+        "type": "news",
+        "url": "https://en.mercopress.com",
+        "tier": "exploration",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "아르헨티나가 WHO에서 공식 탈퇴를 완료했으며, PAHO(범미보건기구) 회원자격은 유지한다. 이 결정은 글로벌 보건 거버넌스 체제의 균열과 다자주의 기관에 대한 신뢰 약화를 반영하는 중요한 정치적 시그널이다.",
+        "keywords": ["WHO", "Argentina", "global health governance", "multilateralism", "institutional withdrawal"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-19T10:30:00+09:00",
+      "scan_metadata": {
+        "execution_proof": "RSS feed fetched from en.mercopress.com/rss, 10 items available, article dated 2026-03-17",
+        "discovery_keyword": "Latin American sustainability news",
+        "frontier_category": "geographic"
+      }
+    },
+    {
+      "id": "explore-20260319-mercopress-002",
+      "title": "브라질, Mercosur-EU 무역협정 비준 완료: 남미-유럽 경제동맹의 이정표",
+      "title_en": "Brazil promulgates Mercosur-EU deal, completing domestic ratification",
+      "source": {
+        "name": "MercoPress",
+        "type": "news",
+        "url": "https://en.mercopress.com",
+        "tier": "exploration",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "브라질 의회가 Mercosur-EU 무역협정의 국내 비준 절차를 완료했다. 이 역사적 무역 협정은 라틴아메리카와 유럽 간의 경제적 연계를 강화하며, 글로벌 무역 질서 재편의 핵심 축이 될 전망이다.",
+        "keywords": ["Mercosur", "EU", "trade agreement", "Brazil", "economic integration", "Latin America"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-19T10:30:00+09:00",
+      "scan_metadata": {
+        "execution_proof": "RSS feed fetched from en.mercopress.com/rss, article dated 2026-03-18",
+        "discovery_keyword": "Latin American sustainability news",
+        "frontier_category": "geographic"
+      }
+    }
+  ]
+}

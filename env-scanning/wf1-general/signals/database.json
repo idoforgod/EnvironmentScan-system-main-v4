@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "created_at": "2026-01-30T12:11:53.840986",
-  "last_updated": "2026-03-11T22:45:31.937948+00:00",
-  "total_signals": 951,
+  "last_updated": "2026-03-20T08:24:20.716709",
+  "total_signals": 1158,
   "first_scan_date": "2026-01-30",
   "latest_scan_date": "2026-03-12",
   "statistics": {
@@ -30869,11 +30869,2870 @@
       "added_at": "2026-03-12T22:34:57.604075+00:00",
       "signal_status": "developing",
       "evidence_strength": "quantitative"
+    },
+    {
+      "id": "wf1-20260318-001",
+      "title": "NVIDIA GTC 2026: Vera Rubin GPUs, $1T Blackwell Orders, Physical AI Robotics Push",
+      "source": "TechCrunch/NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:35:00Z",
+      "category": "T_Technological",
+      "psst_score": 89,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-002",
+      "title": "Pentagon Plans Classified AI Training Facilities for Military Models",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:35:00Z",
+      "category": "P_Political",
+      "psst_score": 87,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-003",
+      "title": "OpenAI Expands Government Footprint with AWS Deal for Classified Operations",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:35:00Z",
+      "category": "P_Political",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-004",
+      "title": "Mistral Forge: Enterprise Custom AI Model Platform Challenges OpenAI/Anthropic",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:35:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-005",
+      "title": "Strait of Hormuz Disruption: Oil Above $100, Asia Faces Stagflation Risk",
+      "source": "Al Jazeera/WEF/CNBC",
+      "url": "https://www.weforum.org/stories/2026/03/the-global-price-tag-of-war-in-the-middle-east/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:36:00Z",
+      "category": "E_Economic",
+      "psst_score": 92,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-006",
+      "title": "Middle East Conflict: 45 Million Face Hunger Crisis, Pakistan Strikes Kabul",
+      "source": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/03/1167147",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:36:00Z",
+      "category": "P_Political",
+      "psst_score": 87,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-007",
+      "title": "Section 301 Trade Investigations: US Targets Manufacturing Overcapacity in 15 Economies",
+      "source": "US Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/03/17/2026-05214/initiation-of-section-301-investigations-acts-policies-and-practices-of-certain-economies-relating",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:36:00Z",
+      "category": "E_Economic",
+      "psst_score": 86,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-008",
+      "title": "White House Lifts NIH Research Spending Hold",
+      "source": "Science Magazine",
+      "url": "https://www.science.org/content/article/white-house-lifts-hold-nih-research-spending",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:36:00Z",
+      "category": "P_Political",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-009",
+      "title": "Non-Invasive Deep Brain Stimulation: Colliding Currents Show Epilepsy Treatment Promise",
+      "source": "Science Magazine",
+      "url": "https://www.science.org/content/article/colliding-currents-can-target-deep-brain-without-surgery",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:36:00Z",
+      "category": "T_Technological",
+      "psst_score": 82,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-010",
+      "title": "Sensorveillance: IoT Devices Create Pervasive Surveillance Infrastructure",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/digital-surveillance",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:37:00Z",
+      "category": "s_spiritual",
+      "psst_score": 81,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-011",
+      "title": "New Polymer Blend Capacitor: 4x Energy Storage at 250C for Grid and EVs",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/polymer-blend-capacitor",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:37:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-012",
+      "title": "EU Digital Sovereignty Push: EURO-3C Initiative to Replace US Cloud Providers",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/europe-cloud-sovereignty",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:37:00Z",
+      "category": "P_Political",
+      "psst_score": 84,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-013",
+      "title": "Power Grid Under Siege: Tenfold Increase in Physical Attacks Over Decade",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/power-grid-attack-gridex-drone",
+      "published_date": "2026-03-16",
+      "collected_at": "2026-03-17T23:37:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-014",
+      "title": "Triple-Junction Solar Cells Achieve New Efficiency Records",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10385-y",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:37:00Z",
+      "category": "E_Environmental",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-015",
+      "title": "Practical Anode-Free Lithium Batteries: Planar Deposition Enables Pouch Cells",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10402-0",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:37:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-016",
+      "title": "Wearable Devices Predict Insulin Resistance Before Disease Onset",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10179-2",
+      "published_date": "2026-03-16",
+      "collected_at": "2026-03-17T23:37:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-017",
+      "title": "Ryugu Asteroid Samples Contain All DNA and RNA Building Blocks",
+      "source": "Hacker News/phys.org",
+      "url": "https://phys.org/news/2026-03-ryugu-asteroid-samples-dna-rna.html",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:38:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-018",
+      "title": "Apple Launches MacBook Neo, iPhone 17e, and First Background Security Update",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/everything-apple-announced-macbook-neo-iphone-17e-ipad-air/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:38:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-019",
+      "title": "Google Personal Intelligence Feature Expands to All US Users",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:38:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-020",
+      "title": "Stryker Medical Devices Hit by Pro-Iran Cyberattack: Thousands of Employee Devices Wiped",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/stryker-says-its-restoring-systems-after-pro-iran-hackers-wiped-thousands-of-employee-devices/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:38:00Z",
+      "category": "T_Technological",
+      "psst_score": 84,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-021",
+      "title": "AI Gender Funding Gap: Women's Exclusion from AI Leadership Widens Wealth Inequality",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/ais-boys-club-could-widen-the-wealth-gap-for-women-says-rana-el-kaliouby/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:38:00Z",
+      "category": "S_Social",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-022",
+      "title": "H&M Partners with Rubi to Make Clothing from CO2",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/hm-wants-to-make-clothing-from-co2-using-this-startups-tech/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:38:00Z",
+      "category": "E_Environmental",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-023",
+      "title": "Google Data Center Power Strategy Shift Toward Sustainable Energy Procurement",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/googles-data-center-power-playbook-comes-into-focus/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:38:00Z",
+      "category": "E_Environmental",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-024",
+      "title": "World (Sam Altman) Launches Human Verification for AI Shopping Agents",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:39:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-025",
+      "title": "Kagi Small Web: Curated 30K+ Independent Websites Launch on Mobile",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/kagi-small-web-human-authored-indie-internet-mobile-ios-android-devices/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:39:00Z",
+      "category": "s_spiritual",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-026",
+      "title": "Niv-AI Exits Stealth: $12M to Optimize GPU Power and Performance",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:39:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-027",
+      "title": "EU Environment Council: CO2 Standards, Decarbonisation Post-2030, Climate Resilience",
+      "source": "EU Council/Web Search",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/16/media-advisory-environment-council-of-17-march-2026/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:39:00Z",
+      "category": "E_Environmental",
+      "psst_score": 85,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-028",
+      "title": "Arctic Sea Ice Sets Record Daily Low: 4,400 km2 Below Previous Record",
+      "source": "Climate/Web Search",
+      "url": "https://climateandeconomy.com/2026/03/17/17th-march-2026-todays-round-up-of-climate-news/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:39:00Z",
+      "category": "E_Environmental",
+      "psst_score": 88,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-029",
+      "title": "Kalshi Prediction Markets Face First Criminal Charges in Arizona",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/kalshis-legal-troubles-pile-up-as-arizona-files-first-ever-criminal-charges-over-illegal-gambling-business/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:39:00Z",
+      "category": "P_Political",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-030",
+      "title": "India's National AI Platform Bhashini Tackles Multilingual AI Access",
+      "source": "Science Magazine",
+      "url": "https://www.science.org/content/article/india-s-national-ai-platform-tackles-country-s-many-tongues",
+      "published_date": "2026-03-16",
+      "collected_at": "2026-03-17T23:40:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-031",
+      "title": "Samsung Unveils HBM4E Memory at NVIDIA GTC 2026",
+      "source": "Samsung/NVIDIA",
+      "url": "https://news.samsung.com/global/samsung-unveils-hbm4e-showcasing-comprehensive-ai-solutions-nvidia-partnership-and-vision-at-nvidia-gtc-2026",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:40:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-032",
+      "title": "UN Reports AI-Powered Deepfake Fraud: $2.5M Loss in Single Australian Scheme",
+      "source": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/03/1167144",
+      "published_date": "2026-03-16",
+      "collected_at": "2026-03-17T23:40:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-033",
+      "title": "Renewable Energy Disrupted: Middle East Conflict Drives Oil and Gas Price Surge",
+      "source": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/03/1167135",
+      "published_date": "2026-03-16",
+      "collected_at": "2026-03-17T23:40:00Z",
+      "category": "E_Environmental",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-034",
+      "title": "Federal Workforce Shrank 10.3% in 2025: 238,000 Workers Lost",
+      "source": "Pew Research Center",
+      "url": "https://www.pewresearch.org/short-reads/2026/03/13/federal-workforce-shrank-10-in-trumps-first-year-back-in-office/",
+      "published_date": "2026-03-13",
+      "collected_at": "2026-03-17T23:40:00Z",
+      "category": "P_Political",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-035",
+      "title": "Americans View Data Centers Negatively: Environment, Energy Costs, Quality of Life",
+      "source": "Pew Research Center",
+      "url": "https://www.pewresearch.org/short-reads/2026/03/12/how-americans-view-data-centers-impact-in-key-areas-from-the-environment-to-jobs/",
+      "published_date": "2026-03-12",
+      "collected_at": "2026-03-17T23:40:00Z",
+      "category": "S_Social",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-036",
+      "title": "Meta Horizon Worlds Discontinued: Metaverse Retreat Continues",
+      "source": "Hacker News/Meta",
+      "url": "https://communityforums.atmeta.com/blog/AnnouncementsBlog/updates-to-your-meta-quest-experience-in-2026/1369435",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:41:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-037",
+      "title": "Meta and TikTok Whistleblower: Platforms Prioritize Engagement Over Safety",
+      "source": "Hacker News/BBC",
+      "url": "https://www.bbc.com/news/articles/cqj9kgxqjwjo",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:41:00Z",
+      "category": "s_spiritual",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-038",
+      "title": "Illinois Proposes Operating System Account Age Verification Bill",
+      "source": "Hacker News",
+      "url": "https://www.ilga.gov/Legislation/BillStatus?DocTypeID=HB&DocNum=5511",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:41:00Z",
+      "category": "P_Political",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-039",
+      "title": "Python 3.15 JIT Compiler Back on Track for Performance Gains",
+      "source": "Hacker News",
+      "url": "https://fidget-spinner.github.io/posts/jit-on-track.html",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:41:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-040",
+      "title": "IEA Historic 400-Million-Barrel Strategic Oil Release",
+      "source": "Carbon Brief/Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/3/15/strategic-oil-release-may-calm-markets-but-cannot-fix-hormuz-disruption",
+      "published_date": "2026-03-15",
+      "collected_at": "2026-03-17T23:41:00Z",
+      "category": "E_Economic",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-041",
+      "title": "Iran Water Crisis: Climate Change and War Threaten Water Supplies",
+      "source": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/qa-how-climate-change-and-war-threaten-irans-water-supplies/",
+      "published_date": "2026-03-13",
+      "collected_at": "2026-03-17T23:42:00Z",
+      "category": "E_Environmental",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-042",
+      "title": "EU Considers Delaying High-Risk AI Rules from August 2026 to Late 2027",
+      "source": "Web Search/IAPP",
+      "url": "https://www.credo.ai/blog/latest-ai-regulations-update-what-enterprises-need-to-know",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:42:00Z",
+      "category": "P_Political",
+      "psst_score": 82,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-043",
+      "title": "China's 15th Five-Year Plan Focuses on Modernizing Traditional Industries",
+      "source": "Web Search",
+      "url": "https://www.nature.com/articles/d41586-026-00814-3",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:42:00Z",
+      "category": "P_Political",
+      "psst_score": 83,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-044",
+      "title": "Apple Siri Gemini Partnership: Google 1.2T Parameter Model for iOS 26.4",
+      "source": "Web Search",
+      "url": "https://techcrunch.com/2026/03/17/everything-apple-announced-macbook-neo-iphone-17e-ipad-air/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:42:00Z",
+      "category": "T_Technological",
+      "psst_score": 81,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-045",
+      "title": "GPT-5.4 Launch: 1 Million Token Context with Native Computer Use",
+      "source": "Web Search/crescendo.ai",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "published_date": "2026-03-05",
+      "collected_at": "2026-03-17T23:42:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-046",
+      "title": "Uber-NVIDIA Robotaxi Fleet: 28 Cities, 4 Continents by 2028",
+      "source": "NVIDIA/Web Search",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:42:00Z",
+      "category": "T_Technological",
+      "psst_score": 85,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-047",
+      "title": "90% of North American Insect/Arachnid Species Lack Conservation Status",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260314030512.htm",
+      "published_date": "2026-03-14",
+      "collected_at": "2026-03-17T23:43:00Z",
+      "category": "E_Environmental",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-048",
+      "title": "FCC Proposes Telecom Relay Service Modernization with Speech Recognition AI",
+      "source": "US Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/03/17/2026-05213/internet-based-telecommunications-relay-service-modernization",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:43:00Z",
+      "category": "P_Political",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-049",
+      "title": "Model Organism Research Declining: Fruit Flies and Lab Species Publications Fall",
+      "source": "Science Magazine",
+      "url": "https://www.science.org/content/article/research-fruit-flies-and-other-model-organisms-may-be-declining",
+      "published_date": "2026-03-17",
+      "collected_at": "2026-03-17T23:43:00Z",
+      "category": "T_Technological",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260318-050",
+      "title": "Buddhism Shrinks 5% Globally: Only Major Religion to Decline 2010-2020",
+      "source": "Pew Research Center",
+      "url": "https://www.pewresearch.org/short-reads/2026/03/11/why-is-buddhism-shrinking-worldwide/",
+      "published_date": "2026-03-11",
+      "collected_at": "2026-03-17T23:43:00Z",
+      "category": "s_spiritual",
+      "psst_score": 0,
+      "scan_date": "2026-03-18",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-001",
+      "title": "Sequen Raises $16M for TikTok-Style AI Personalization Infrastructure",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Sequen closed $16M Series A to offer real-time AI personalization and ranking infrastructure previously exclusive to big tech. Former Etsy executive drove $1B+ GMV increase using AI ranking systems. Technology democratizes recommendation algorithms for mid-market consumer businesses.",
+        "keywords": [
+          "AI personalization",
+          "recommendation systems",
+          "Series A",
+          "consumer tech",
+          "ranking infrastructure"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-002",
+      "title": "Eragon Launches $12M AI Operating System for Enterprise at $100M Valuation",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/18/this-startup-wants-to-make-enterprise-software-look-more-like-a-prompt/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Eragon raised $12M at $100M post-money valuation to build agentic AI operating system replacing Salesforce, Snowflake, Tableau, and Jira through LLM interfaces. Founded August 2025 by Josh Sirota. Represents shift toward AI-native enterprise software consolidation.",
+        "keywords": [
+          "agentic AI",
+          "enterprise software",
+          "LLM interface",
+          "SaaS disruption",
+          "startup"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-004",
+      "title": "Nvidia Restarts H200 AI Chip Production for China Under New US Policy",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://techstartups.com/2026/03/18/top-tech-news-today-march-18-2026/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Nvidia restarting production of H200 AI processors for China, marking significant shift in advanced chip geopolitics. US policy now allows H200 sales to China under special conditions. Chinese authorities signaled approval. Infrastructure startups becoming capital-intensive geopolitical players.",
+        "keywords": [
+          "Nvidia",
+          "H200",
+          "AI chips",
+          "China",
+          "geopolitics",
+          "semiconductor",
+          "export controls"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-005",
+      "title": "OpenAI Signs AWS Contract to Sell AI Tools to US Government Customers",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://techstartups.com/2026/03/18/top-tech-news-today-march-18-2026/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "OpenAI signed new contract with Amazon Web Services to sell AI tools to US government customers. Represents shift toward multi-cloud future from earlier exclusive Microsoft Azure relationship. Government AI adoption accelerating through commercial cloud providers.",
+        "keywords": [
+          "OpenAI",
+          "AWS",
+          "government AI",
+          "cloud computing",
+          "multi-cloud"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-006",
+      "title": "Reflection AI and Shinsegae Partner on Multi-Billion Dollar AI Data Center in South Korea",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techstartups.com/2026/03/18/top-tech-news-today-march-18-2026/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Reflection AI, Nvidia-backed US startup, partnering with South Korea's Shinsegae Group to build major AI data center costing several billion dollars. Infrastructure startups becoming nation-level geopolitical players resembling energy or telecom projects rather than traditional venture-backed growth.",
+        "keywords": [
+          "AI data center",
+          "South Korea",
+          "Nvidia",
+          "infrastructure",
+          "Shinsegae",
+          "geopolitics"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-007",
+      "title": "Google Patent: Memory Protection Technologies with Encryption and Error Correction",
+      "source": {
+        "name": "Google Patents",
+        "type": "patent",
+        "url": "https://patents.google.com",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Google published patent on March 12, 2026 describing memory protection techniques within computing devices including memory region allocation, bitmap creation for memory blocks, and enabling memory protection through encryption and error correction. Filed November 2025.",
+        "keywords": [
+          "memory protection",
+          "encryption",
+          "error correction",
+          "patent",
+          "computing"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-008",
+      "title": "Google Overtakes IBM as Global Leader in Generative AI Patent Filings — 12,400+ Filed in 2025",
+      "source": {
+        "name": "Google Patents",
+        "type": "patent",
+        "url": "https://insights.greyb.com/google-patents/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Google overtook IBM as global leader in generative AI patent filings. Over 12,400 generative AI patents filed globally in 2025, with US alone receiving 5,100+ applications. Signals massive corporate investment in AI IP positioning and competitive moat building.",
+        "keywords": [
+          "generative AI",
+          "patents",
+          "Google",
+          "IBM",
+          "intellectual property",
+          "AI competition"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-009",
+      "title": "US Federal Register: 124 Documents from 36 Agencies Filed March 18 — 9 New Rules",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "124 documents from 36 agencies filed at the Federal Register on March 18, 2026: 109 Notices, 6 Proposed Rules, 9 Rules. Includes DOT hazardous materials special permit applications with April 17 comment deadline. Regulatory activity across multiple federal agencies.",
+        "keywords": [
+          "federal regulation",
+          "rulemaking",
+          "hazardous materials",
+          "DOT",
+          "government"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-010",
+      "title": "EU Parliament Votes March 19 on EU-US Trade Deal Implementation — Tariff Elimination on US Imports",
+      "source": {
+        "name": "EUR-Lex Recent Acts",
+        "type": "policy",
+        "url": "https://borderlex.net/2026/03/17/eu-lawmakers-to-vote-on-us-tariff-deal-insist-on-safeguards/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "EU Parliament International Trade Committee scheduled March 19 vote on legislation implementing tariff commitments under 2025 EU-US Framework Agreement. Deal includes sunset clause (March 2028 expiry) and suspension clause. EU accepted 15% floor/ceiling US tariff on most exports. Steel and aluminium Section 232 tariffs remain.",
+        "keywords": [
+          "EU-US trade",
+          "tariffs",
+          "trade agreement",
+          "European Parliament",
+          "trade policy"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-011",
+      "title": "EU Carbon Border Adjustment Mechanism (CBAM) Enters Definitive Phase — Certificates Required",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://esgnews.com/esg-newsletter-march-18-2026-7-esg-insights-2-global-events/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "EU CBAM regulation entered definitive period January 1, 2026. EU importers now required to purchase CBAM certificates for affected goods exceeding 50 tonnes. Major policy instrument linking trade and climate, affecting carbon-intensive imports globally.",
+        "keywords": [
+          "CBAM",
+          "carbon border",
+          "EU regulation",
+          "climate policy",
+          "trade"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-012",
+      "title": "EU Nations Approve 90% Greenhouse Gas Emission Reduction Target by 2030",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.weforum.org/stories/2026/03/world-on-course-breach-15c-before-2030-climate-nature-news/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "European Union nations approved ambitious new climate target to reduce greenhouse gas emissions 90% by 2030. World on course to breach 1.5C before 2030. Latest assessments highlight accelerating planetary energy imbalance, unprecedented ocean warming, and declining land carbon absorption capacity.",
+        "keywords": [
+          "EU climate target",
+          "emission reduction",
+          "1.5C",
+          "climate crisis",
+          "energy imbalance"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-013",
+      "title": "World on Course to Breach 1.5C Before 2030 — Planetary Energy Imbalance Accelerating",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "blog",
+        "url": "https://www.weforum.org/stories/2026/03/world-on-course-breach-15c-before-2030-climate-nature-news/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Latest climate assessments confirm planet may breach 1.5C warming threshold before 2030. Accelerating planetary energy imbalance, unprecedented ocean warming, and declining land carbon sink capacity. Critical implications for Paris Agreement targets and adaptation planning.",
+        "keywords": [
+          "1.5C breach",
+          "climate warming",
+          "ocean warming",
+          "carbon sink",
+          "Paris Agreement"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-014",
+      "title": "China Launches World's First AI System for Global Aerosol Forecasting — 5-Day Predictions in Under 1 Minute",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://esgnews.com/esg-newsletter-march-18-2026-7-esg-insights-2-global-events/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "China launched world's first AI system capable of global aerosol forecasting, producing five-day worldwide predictions in under one minute. Convergence of AI and climate science for environmental monitoring. Potential paradigm shift in weather and pollution forecasting accuracy.",
+        "keywords": [
+          "AI forecasting",
+          "aerosol",
+          "China",
+          "climate AI",
+          "environmental monitoring"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-020",
+      "title": "Future AI Chips Could Be Built on Glass — Reducing Energy Demands of High-Performance Computing",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+        "published_date": "2026-03-13"
+      },
+      "content": {
+        "abstract": "Glass substrate technology could reduce energy demands of high-performance AI computing chips used in data centers. Potential extension to consumer laptops and mobile devices if production costs fall. All executives surveyed expect energy consumption to become key business metric within two years.",
+        "keywords": [
+          "glass chips",
+          "AI hardware",
+          "energy efficiency",
+          "data centers",
+          "semiconductor"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-021",
+      "title": "Synthetic Genetic Circuit Enables Precise Control of Cell-Type Ratios in Multicellular Populations",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/nature/articles?year=2026",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Recombinase-based cell-fate branching devices enable precise control over cell type ratios in offspring populations from single founder strain. Could build user-defined multicellular aggregates. Represents major advance in synthetic biology and cellular engineering.",
+        "keywords": [
+          "synthetic biology",
+          "genetic circuit",
+          "cell engineering",
+          "recombinase",
+          "multicellular"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-022",
+      "title": "SWOT Satellite Maps Tidal Dynamics for Thousands of Coastal Rivers Globally",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/nature/articles?year=2026",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Data from SWOT wide-swath satellite altimeter maps tidal dynamics for thousands of coastal rivers, documenting factors controlling inland extent of tides. New capability for understanding coastal hydrology, climate impact assessment, and flood risk management.",
+        "keywords": [
+          "SWOT satellite",
+          "tidal dynamics",
+          "coastal rivers",
+          "hydrology",
+          "climate monitoring"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-023",
+      "title": "Thymic Function Assessment Reveals Lifelong Health Importance — Potential Anti-Aging Target",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/nature/articles?year=2026",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Assessment of thymic function highlights lifelong importance of thymus as organ that could be targeted to improve health outcomes, protect against disease, and promote healthy aging. Potential therapeutic target for immunosenescence and age-related disease.",
+        "keywords": [
+          "thymus",
+          "aging",
+          "immunology",
+          "health",
+          "anti-aging",
+          "immunosenescence"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-024",
+      "title": "Fossil Evidence: 80% of Earth's Life Died 550 Million Years Ago in Previously Unknown Mass Extinction",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/news/latest-news",
+        "published_date": "2026-03-13"
+      },
+      "content": {
+        "abstract": "Fossil finds suggest nearly 80% of life on Earth died approximately 550 million years ago in a previously unknown mass extinction event. Rewriting understanding of early animal evolution and biodiversity patterns. Major paleontological discovery.",
+        "keywords": [
+          "mass extinction",
+          "paleontology",
+          "fossil",
+          "biodiversity",
+          "Ediacaran"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-025",
+      "title": "Global Health Leaders Convene in London for Inaugural International Case Management Conference",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.globenewswire.com/news-release/2026/03/18/3258355/0/en/Global-Health-Leaders-to-Convene-in-London-for-Inaugural-International-Case-Management-Conference.html",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Global health leaders convening in London for inaugural International Case Management Conference. Focus on pandemic preparedness, WHO PIP Framework for influenza pandemic response. Amid context of US bilateral health agreement shifts under America First MOU.",
+        "keywords": [
+          "global health",
+          "case management",
+          "WHO",
+          "pandemic preparedness",
+          "PIP Framework"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-026",
+      "title": "AI Governance Transitions from Aspirational Guidelines to Enforceable Standards Globally",
+      "source": {
+        "name": "The Conversation - Ethics",
+        "type": "academic",
+        "url": "https://www.researchgate.net/publication/398878820_Ethics_Governance_and_Regulation_of_AI_in_the_2026_Landscape",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "AI ethical, legal, and governance frameworks transitioning from aspirational guidelines to enforceable standards in 2026. US federal agencies introduced 59 AI regulations in 2024 (doubled from prior year). Legislative mentions of AI rose across 75 countries. EU AI Act implementation staggering through 2025-2026. Boards institutionalizing AI governance as core competency.",
+        "keywords": [
+          "AI governance",
+          "AI ethics",
+          "EU AI Act",
+          "regulation",
+          "AI compliance"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-027",
+      "title": "Brookings Study: Generative AI in Education — Potential Harms to Young Learners Currently Outweigh Benefits",
+      "source": {
+        "name": "Brookings Institution",
+        "type": "blog",
+        "url": "https://www.nepc.colorado.edu/publication-announcement/2026/03/generative-ai",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Brookings Institution year-long study synthesized findings concluding generative AI's potential harms to young people's learning and development currently outweigh its benefits. Raises fundamental questions about AI deployment in educational contexts and child development impacts.",
+        "keywords": [
+          "generative AI",
+          "education",
+          "child development",
+          "learning",
+          "AI risks",
+          "Brookings"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-028",
+      "title": "US Stablecoin Regulatory Framework (GENIUS Act) — Implementing Rules Due July 2026",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/2026-digital-assets-regulatory-update-a-landmark-2025-but-more-developments-on-the-horizon",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "GENIUS Act established US stablecoin regulatory framework. Supervisory agencies required to publish implementing rules by July 18, 2026, taking effect January 2027. SEC and CFTC partnering on Project Crypto for unified federal oversight. Democratization of digital assets as key 2026 theme.",
+        "keywords": [
+          "stablecoin",
+          "GENIUS Act",
+          "crypto regulation",
+          "SEC",
+          "CFTC",
+          "digital assets"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-029",
+      "title": "Sustainability Reporting Becomes Mandatory in Chile, Nigeria, Brazil, Mexico Under ISSB Standards",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://esgnews.com/esg-newsletter-march-18-2026-7-esg-insights-2-global-events/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "ISSB disclosure standards becoming mandatory in Chile, Nigeria, Brazil, Mexico. China, Malaysia, Philippines phasing in sustainability reporting. Growing global convergence on ESG reporting requirements. Transforming corporate accountability for environmental and social impacts.",
+        "keywords": [
+          "ISSB",
+          "sustainability reporting",
+          "ESG",
+          "corporate disclosure",
+          "emerging markets"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-030",
+      "title": "Commonwealth Fusion Systems Raises Nearly $3B for Sparc Reactor — Nvidia and Google Invest",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://www.asme.org/topics-resources/content/what-nuclear-energy-technologies-are-actually-advancing-in-2026",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Commonwealth Fusion Systems raised nearly $3B for experimental Sparc reactor, with investments from Nvidia and Google. Helion begins construction on plant to supply power to Microsoft data centers from 2028. DOE Reactor Pilot Program expects criticality by July 4, 2026.",
+        "keywords": [
+          "fusion energy",
+          "Sparc reactor",
+          "Commonwealth Fusion",
+          "Nvidia",
+          "nuclear energy"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-031",
+      "title": "World Bank: Sub-Saharan Africa Growth to Reach 4.3% in 2026, But Per Capita Income Recovery Insufficient",
+      "source": {
+        "name": "World Bank Blogs",
+        "type": "policy",
+        "url": "https://www.worldbank.org/en/publication/global-economic-prospects",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Sub-Saharan Africa growth projected at 4.3% in 2026 and 4.5% in 2027. However, real per capita income growth averaging 2.8% remains insufficient to recover pandemic-era losses or generate adequate job creation. Extreme poverty remains widespread.",
+        "keywords": [
+          "World Bank",
+          "Africa",
+          "economic growth",
+          "poverty",
+          "per capita income"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-032",
+      "title": "Latin America AI Market Scales from $11.8B to $47.9B by 2031 — Fintech Dominates at 39% of VC",
+      "source": {
+        "name": "Disrupt Africa",
+        "type": "tech_news",
+        "url": "https://www.weforum.org/stories/2026/01/latin-america-innovation-paradox-growth/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Latin America AI market scaling from $11.82B (2025) to $47.88B by 2031 at 26.25% CAGR. Digital transformation market reached $86M in 2024, projected to $1.9B by 2032. Fintech dominates at 39% of VC investment. Five African startups selected for EU-backed innovation program.",
+        "keywords": [
+          "Latin America",
+          "AI market",
+          "fintech",
+          "Africa startups",
+          "digital transformation",
+          "emerging markets"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-033",
+      "title": "Commercial Space Station Race: Vast's Haven-1 Set for 2027 Launch, ISS Retirement by 2031",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/12/1130030/commercial-space-stations-2026-breakthrough-technology/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Vast Space plans Haven-1 space station launch early 2027 on SpaceX Falcon 9. NASA awarded $500M+ to multiple companies for private space station development. ISS retirement expected 2031. Global space economy reached $613B in 2024, growing 7.8% YoY, 78% commercial.",
+        "keywords": [
+          "space station",
+          "Vast Space",
+          "Haven-1",
+          "ISS",
+          "commercial space",
+          "SpaceX"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-035",
+      "title": "Gene Editing Crosses Regulatory Milestone: Designer Babies and De-Extinction Advance in 2026",
+      "source": {
+        "name": "Genetic Literacy Project",
+        "type": "science_journalism",
+        "url": "https://www.technologyreview.com/2026/01/16/1131363/three-technologies-shape-biotech-in-2026-gene-editing-embryo-scoring/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Gene editing crossed regulatory milestone thresholds with strengthened commercial confidence in CRISPR therapies. Technologies shaping biotech in 2026: editing baby genes and resurrecting ancient species via de-extinction. CRISPR delivery and safety advancing toward clinical applications.",
+        "keywords": [
+          "CRISPR",
+          "gene editing",
+          "designer babies",
+          "de-extinction",
+          "biotech regulation"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-036",
+      "title": "Return-to-Office Mandates Rising: 30% of Companies to Require 5-Day Office by 2026",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.venasolutions.com/blog/remote-work-statistics",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Companies requiring full five-day office attendance expected to rise to 30% in 2026, with nearly half planning four or more days. 77% of Gen Z and 75% of Millennials would seek new jobs if forced to return full-time. Hybrid preferred by 55% of job seekers. Significant generational and demographic divides in remote work adoption.",
+        "keywords": [
+          "remote work",
+          "return to office",
+          "hybrid work",
+          "labor market",
+          "generational divide"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-037",
+      "title": "6.5 Million Somalis Facing Crisis-Level Hunger — Drought, Failed Harvests, Shrinking Humanitarian Funding",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://www.weforum.org/stories/2026/03/world-on-course-breach-15c-before-2030-climate-nature-news/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "6.5 million Somalis facing crisis levels of hunger or worse. Over 1.8 million children under five facing acute malnutrition. Severe drought, failed harvests, livestock losses, and high food prices colliding with shrinking humanitarian funding. Climate-security nexus driving humanitarian emergency.",
+        "keywords": [
+          "Somalia",
+          "famine",
+          "drought",
+          "humanitarian crisis",
+          "food security",
+          "malnutrition"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-038",
+      "title": "Brookings: Chinese Investment in US Clean Energy — Strategic Debate Intensifies",
+      "source": {
+        "name": "Brookings Institution",
+        "type": "blog",
+        "url": "https://www.brookings.edu/",
+        "published_date": "2026-03-13"
+      },
+      "content": {
+        "abstract": "Brookings analyzing whether Chinese investment in US clean energy sectors helps or hurts America. US Trade Policy after IEEPA and new Section 301 investigations under review. Strategic debate intensifying around green technology supply chains and national security.",
+        "keywords": [
+          "China",
+          "clean energy",
+          "US trade policy",
+          "IEEPA",
+          "Section 301",
+          "national security"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-039",
+      "title": "20 GW of Utility-Scale Battery Storage to be Added to US Grid in 2026",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://www.powermag.com/powering-tomorrow-a-multi-technology-roadmap-for-the-global-energy-transition/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "EIA projected 20 GW of utility-scale battery storage additions to US grid in 2026. 1,650+ GW of renewable projects in advanced development awaiting grid connection. Renewables expected to meet all additional global electricity demand growth through 2026.",
+        "keywords": [
+          "battery storage",
+          "grid",
+          "renewables",
+          "energy transition",
+          "electricity"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-042",
+      "title": "IMF: Central Bank Independence Paramount as Real Neutral Interest Rates May Rise in Tech Boom",
+      "source": {
+        "name": "IMF Blog",
+        "type": "blog",
+        "url": "https://www.imf.org/en/news/articles/2026/03/09/sp030926-coping-and-thriving-in-a-fluid-world",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "IMF warns tech boom may push real neutral interest rates higher, similar to dot-com era, requiring monetary policy tightening. Central bank independence remains paramount for monetary and financial stability. ECB more aggressive in easing due to euro area's weaker growth profile.",
+        "keywords": [
+          "central bank",
+          "interest rates",
+          "monetary policy",
+          "tech boom",
+          "ECB",
+          "IMF"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-044",
+      "title": "Brain Circuitry Mapped: Mice Tooth Grinding Linked to Pleasure Pathways — Neuroscience Advances",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/news/latest-news",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Newly mapped brain circuitry in mice links tooth grinding to pleasure pathways. Insects can stay alive for up to a week in flooded nests. Pre-Inca elites wore headdresses made of Amazonian macaw feathers. Multiple advances in neuroscience and evolutionary biology.",
+        "keywords": [
+          "neuroscience",
+          "brain circuitry",
+          "pleasure pathways",
+          "mice",
+          "behavioral neuroscience"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-045",
+      "title": "Amazon Molly Fish Thrives 10x Longer Than Predicted: Asexual Reproduction Challenges Evolutionary Theory",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/news/latest-news",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Amazon molly, which reproduces asexually, has survived and thrived at least 10 times longer than evolutionary theory predicted. Challenges fundamental assumptions about sexual reproduction as evolutionary advantage. Major finding in evolutionary biology.",
+        "keywords": [
+          "asexual reproduction",
+          "evolution",
+          "Amazon molly",
+          "evolutionary biology",
+          "genetics"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-046",
+      "title": "BIS Central Bank Digital Currency Speeches: Financial Stability and Monetary Policy Implications",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/doclist/cbspeeches.rss",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Bank for International Settlements publishing central bank speeches on financial stability, digital currencies, and monetary policy. Context of stablecoin regulation (GENIUS Act) and crypto asset market evolution. Central banking at crossroads of fintech innovation.",
+        "keywords": [
+          "BIS",
+          "CBDC",
+          "central banking",
+          "financial stability",
+          "digital currency"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-047",
+      "title": "Aeon Magazine: Post-Humanism and Transhumanism Philosophy in the Age of AI — Worldview Shifts",
+      "source": {
+        "name": "Aeon Magazine",
+        "type": "blog",
+        "url": "https://aeon.co/feed.rss",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Philosophical essays exploring post-humanism, transhumanism, and worldview shifts in the age of AI. Examining meaning crisis, existential implications of AI, and shifting human identity. Deep cultural inquiry into technology's impact on human values and consciousness.",
+        "keywords": [
+          "post-humanism",
+          "transhumanism",
+          "AI philosophy",
+          "meaning crisis",
+          "worldview"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-048",
+      "title": "Psychology Today: AI Chatbot Psychological Risks — New Research Raises Uncomfortable Questions",
+      "source": {
+        "name": "Psychology Today",
+        "type": "blog",
+        "url": "https://techstartups.com/2026/03/18/top-tech-news-today-march-18-2026/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "New research raising uncomfortable questions about psychological risks of AI chatbots. Microsoft weighing legal action over cloud rights, regulators tightening cyber rules after wave of outages. Growing concern about AI's impact on mental health and social relationships.",
+        "keywords": [
+          "AI chatbots",
+          "psychological risks",
+          "mental health",
+          "social psychology",
+          "AI safety"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-049",
+      "title": "Nature: Seven Technologies to Watch in 2026 — Quantum Computing, mRNA Therapeutics, AI Chips",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00188-6",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Nature identifies seven technologies to watch in 2026: quantum computing, mRNA therapeutics, glass-based AI chips, fusion energy, synthetic biology tools, CRISPR advances, and satellite monitoring. Convergence of multiple technology frontiers reaching maturity simultaneously.",
+        "keywords": [
+          "quantum computing",
+          "mRNA",
+          "AI chips",
+          "fusion",
+          "synthetic biology",
+          "CRISPR"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-050",
+      "title": "Microbiome May Contribute to Cognitive Decline — Human Relevance Unclear",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/news/latest-news",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Research suggests gut microbiome may contribute to cognitive decline, but relevance in humans remains unclear. Growing evidence of gut-brain axis influence on neurological function. Potential implications for Alzheimer's and dementia prevention strategies.",
+        "keywords": [
+          "microbiome",
+          "cognitive decline",
+          "gut-brain axis",
+          "neuroscience",
+          "dementia"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-18T23:30:00Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-051",
+      "title": "DOD Labels Anthropic 'Unacceptable National Security Risk' Over AI Red Lines — Pentagon Orders Removal",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/18/dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "US Department of Defense declared Anthropic poses unacceptable national security risk due to company's refusal to grant unrestricted military use of Claude AI. Pentagon ordered removal of Anthropic technology from military systems within 6 months. OpenAI signed replacement contract for DOD classified networks. Core conflict: Anthropic's corporate red lines on mass surveillance and autonomous weapons vs military demand for unrestricted access. EFF and legal experts question constitutionality.",
+        "keywords": [
+          "Anthropic",
+          "DOD",
+          "AI military",
+          "red lines",
+          "national security",
+          "autonomous weapons",
+          "AI ethics"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-052",
+      "title": "Microsoft Acqui-Hires Sequoia-Backed AI Collaboration Platform Cove — Product Shutting Down April 1",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/18/microsoft-hires-the-team-of-sequioa-backed-ai-collaboration-platform-cove/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Microsoft hired entire team from Sequoia-backed AI collaboration platform Cove. Product shutting down April 1 with full data deletion and subscription refunds. Represents accelerating pattern of big tech acqui-hiring AI startups to consolidate talent.",
+        "keywords": [
+          "Microsoft",
+          "Cove",
+          "acqui-hire",
+          "AI talent",
+          "collaboration",
+          "Sequoia"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-053",
+      "title": "Nothing CEO Predicts Smartphone Apps Will Disappear — AI Agents to Replace App Paradigm",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Nothing CEO Carl Pei predicts AI agents will replace smartphone apps. Envisions shift from discrete app model to AI systems that understand intent and act on user's behalf. Represents fundamental paradigm shift in human-computer interaction and mobile computing architecture.",
+        "keywords": [
+          "AI agents",
+          "smartphone",
+          "apps",
+          "paradigm shift",
+          "mobile computing",
+          "Nothing"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-054",
+      "title": "NVIDIA GTC 2026: Physical AI Data Factory Blueprint — Open Architecture for Robotics and Autonomous Vehicles",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-open-physical-ai-data-factory-blueprint-to-accelerate-robotics-vision-ai-agents-and-autonomous-vehicle-development",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "NVIDIA announced Physical AI Data Factory Blueprint at GTC 2026 — open reference architecture automating training data generation for robotics, autonomous vehicles, and vision AI. New foundation models: Cosmos 3 for simulation, Isaac GR00T N1.7 for humanoid robots, Alpamayo 1.5 for autonomous driving. Uber partnership for autonomous fleet in 28 cities by 2028. McKinsey estimates AI-powered robots could unlock $2.9T annual US economic value by 2030.",
+        "keywords": [
+          "NVIDIA",
+          "physical AI",
+          "robotics",
+          "autonomous vehicles",
+          "GTC 2026",
+          "data factory"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-055",
+      "title": "2026 Tech Layoffs Reach 45,000 in March — Over 9,200 Directly Due to AI and Automation",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://technode.global/2026/03/09/2026-tech-layoffs-reach-45000-in-march-more-than-9200-due-to-ai-and-automation-rationalfx/",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Tech layoffs in 2026 reached 45,000 by March, with over 9,200 directly attributed to AI and automation replacing human roles. Amazon accounted for 30,000 cuts. MIT study estimates 11.7% of US workforce jobs could be automated with current AI technology. 2.5 million ChatGPT users cancelled after OpenAI-Pentagon deal. Shift from AI making humans productive to AI replacing work itself.",
+        "keywords": [
+          "AI layoffs",
+          "workforce displacement",
+          "automation",
+          "labor market",
+          "tech layoffs",
+          "MIT study"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-056",
+      "title": "EU AI Act Omnibus: Parliament Committees Vote March 18 on Streamlined Rules — High-Risk Timeline Extended 16 Months",
+      "source": {
+        "name": "EUR-Lex Recent Acts",
+        "type": "policy",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/13/council-agrees-position-to-streamline-rules-on-artificial-intelligence/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "EU Parliament committees voted March 18 on AI Act omnibus amendments. Commission proposed 16-month extension for high-risk AI system rules until standards and tools are ready. Council reached negotiating mandate on Digital omnibus on AI. MEPs reached preliminary political agreement. Full applicability August 2, 2026.",
+        "keywords": [
+          "EU AI Act",
+          "AI regulation",
+          "high-risk AI",
+          "European Parliament",
+          "omnibus"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-059",
+      "title": "US 25% Semiconductor Tariffs in Effect — Taiwan Trade Deal, 1:1 Chip Production Rule Under Consideration",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.whitecase.com/insight-alert/president-trump-orders-narrowly-targeted-25-section-232-tariff-certain-advanced",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "25% tariff on advanced semiconductors (NVIDIA H200, AMD MI325X) since January 15. US-Taiwan deal allows duty-free imports up to 2.5x planned production during construction. Proposed 1:1 chip production rule: companies must produce domestically as many chips as they import, with up to 100% tariff for non-compliance. April 14 USTR review deadline.",
+        "keywords": [
+          "semiconductor tariffs",
+          "chip production",
+          "Taiwan trade",
+          "Section 232",
+          "NVIDIA",
+          "supply chain"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-060",
+      "title": "AI Ethics Shift from Principles to Enforcement — Digital Backlash, Community Protests Against Data Centers",
+      "source": {
+        "name": "The Conversation - Ethics",
+        "type": "academic",
+        "url": "https://aihub.org/2026/03/04/top-ai-ethics-and-policy-issues-of-2025-and-what-to-expect-in-2026/",
+        "published_date": "2026-03-04"
+      },
+      "content": {
+        "abstract": "Shannon Vallor warns society underprepared for psychological and social effects of AI. Communities expressing 'digital backlash' via protests against data center projects and AI systems perceived as harmful. Educators, labor unions, and community groups increasingly opposing algorithmic technologies. Shift from aspirational ethical principles to enforceable adaptive governance frameworks.",
+        "keywords": [
+          "AI ethics",
+          "digital backlash",
+          "data centers",
+          "community protest",
+          "adaptive governance",
+          "AI social impact"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-061",
+      "title": "Q/C Technologies Launches Optical Processing Unit for AI — Photonic Matrix Multiplication to Replace GPUs",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.stocktitan.net/news/QCLS/q-c-technologies-launches-optical-processing-unit-opu-initiative-to-vtltv29b7zp7.html",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Q/C Technologies launched initiative to design and prototype proprietary optical processing unit (OPU) for AI inference. Program targets photonic matrix multiplication to reduce energy use and boost bandwidth versus electronic GPUs. Filing foundational patents. Represents potential paradigm shift from electronic to photonic computing for AI.",
+        "keywords": [
+          "optical computing",
+          "photonic AI",
+          "OPU",
+          "GPU alternative",
+          "energy efficiency",
+          "matrix multiplication"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-062",
+      "title": "CAR-A Therapy: Chimeric Antigen Receptor Astrocytes Target Amyloid-Beta in Alzheimer's — Cell Study",
+      "source": {
+        "name": "PubMed Central",
+        "type": "academic",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/trending/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Research published in Cell demonstrates chimeric antigen receptor astrocyte (CAR-A) therapy targeting amyloid-beta pathology in Alzheimer's disease. Novel approach adapts CAR-T cancer therapy principles to neurodegenerative disease. Represents potential paradigm shift in Alzheimer's treatment from passive antibodies to engineered cellular therapeutics.",
+        "keywords": [
+          "CAR-A therapy",
+          "Alzheimers",
+          "astrocytes",
+          "amyloid-beta",
+          "neurodegenerative",
+          "Cell journal"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-063",
+      "title": "Pew Research: 28% of US Adults Religiously Unaffiliated — Caregiving Crisis as Population Ages",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Pew Research data shows 28% of US adults now religiously unaffiliated (atheists, agnostics, or 'nothing in particular'). Caregiving burden increasing as population ages — gender disparities in caregiving responsibilities. 64% of teens use AI chatbots, 30% daily. Upper-income older adults most likely to prefer assisted living.",
+        "keywords": [
+          "religious decline",
+          "caregiving",
+          "aging",
+          "AI chatbots",
+          "demographics",
+          "teens"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-064",
+      "title": "Japan Announces $376 Billion Investment in AI, Space, and Nuclear Fusion by 2030",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.hokanews.com/2026/03/japan-plans-376-billion-investment-in.html",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Japan plans to invest approximately $376 billion by 2030 in artificial intelligence, space exploration, and nuclear fusion development. Reflects growing national strategic commitment to frontier technologies. Fusion private funding globally reached $10.6B between 2021-2025 with companies doubling from 23 to 53.",
+        "keywords": [
+          "Japan",
+          "investment",
+          "AI",
+          "space",
+          "nuclear fusion",
+          "strategic technology",
+          "national policy"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "wf1-20260319-065",
+      "title": "Superluminous Supernova Brightness Oscillations Reveal Magnetar Power Source — Nature March 2026",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/latest-news",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Nature study reveals oscillations in superluminous supernova brightness powered by magnetized neutron star distorting surrounding gas orbit. Provides new understanding of extreme stellar phenomena and neutron star physics. Published March 18, 2026.",
+        "keywords": [
+          "supernova",
+          "magnetar",
+          "neutron star",
+          "astrophysics",
+          "Nature"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T00:28:07Z",
+      "psst_score": 31.3,
+      "added_date": "2026-03-19",
+      "workflow": "wf1-general"
+    },
+    {
+      "id": "websearch-20260320-001",
+      "final_category": "T",
+      "subcategory": "AI/ML",
+      "confidence": 0.95,
+      "impact_score": 8.5,
+      "cross_impacts": [
+        "E_Economic",
+        "S_Social"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-002",
+      "final_category": "T",
+      "subcategory": "AI/ML",
+      "confidence": 0.92,
+      "impact_score": 9.0,
+      "cross_impacts": [
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-003",
+      "final_category": "T",
+      "subcategory": "AI Hardware",
+      "confidence": 0.94,
+      "impact_score": 8.0,
+      "cross_impacts": [
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-004",
+      "final_category": "T",
+      "subcategory": "Defense/Autonomous",
+      "confidence": 0.9,
+      "impact_score": 7.5,
+      "cross_impacts": [
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-005",
+      "final_category": "E_Environmental",
+      "subcategory": "Climate",
+      "confidence": 0.96,
+      "impact_score": 9.0,
+      "cross_impacts": [
+        "S_Social",
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-006",
+      "final_category": "P",
+      "subcategory": "Regulation",
+      "confidence": 0.97,
+      "impact_score": 9.5,
+      "cross_impacts": [
+        "E_Environmental",
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-007",
+      "final_category": "P",
+      "subcategory": "Regulation",
+      "confidence": 0.93,
+      "impact_score": 7.5,
+      "cross_impacts": [
+        "E_Environmental",
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-008",
+      "final_category": "E",
+      "subcategory": "Trade",
+      "confidence": 0.94,
+      "impact_score": 8.5,
+      "cross_impacts": [
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-009",
+      "final_category": "E",
+      "subcategory": "Trade",
+      "confidence": 0.88,
+      "impact_score": 7.0,
+      "cross_impacts": [
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-010",
+      "final_category": "T",
+      "subcategory": "Biotech",
+      "confidence": 0.93,
+      "impact_score": 9.0,
+      "cross_impacts": [
+        "s_spiritual"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-011",
+      "final_category": "T",
+      "subcategory": "Quantum/Pharma",
+      "confidence": 0.91,
+      "impact_score": 8.5,
+      "cross_impacts": [
+        "S_Social"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-012",
+      "final_category": "T",
+      "subcategory": "Clean Energy",
+      "confidence": 0.9,
+      "impact_score": 8.0,
+      "cross_impacts": [
+        "E_Environmental"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-013",
+      "final_category": "S",
+      "subcategory": "Health",
+      "confidence": 0.92,
+      "impact_score": 7.0,
+      "cross_impacts": [
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-014",
+      "final_category": "E",
+      "subcategory": "Finance",
+      "confidence": 0.85,
+      "impact_score": 5.5,
+      "cross_impacts": [],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-015",
+      "final_category": "E",
+      "subcategory": "Innovation",
+      "confidence": 0.9,
+      "impact_score": 7.5,
+      "cross_impacts": [
+        "T_Technological"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-016",
+      "final_category": "P",
+      "subcategory": "AI Regulation",
+      "confidence": 0.95,
+      "impact_score": 9.0,
+      "cross_impacts": [
+        "T_Technological"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-017",
+      "final_category": "T",
+      "subcategory": "Semiconductor",
+      "confidence": 0.93,
+      "impact_score": 8.5,
+      "cross_impacts": [
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-018",
+      "final_category": "T",
+      "subcategory": "Semiconductor",
+      "confidence": 0.91,
+      "impact_score": 8.0,
+      "cross_impacts": [
+        "P_Political",
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-019",
+      "final_category": "E_Environmental",
+      "subcategory": "Biodiversity",
+      "confidence": 0.95,
+      "impact_score": 9.0,
+      "cross_impacts": [
+        "S_Social"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-020",
+      "final_category": "S",
+      "subcategory": "Healthcare",
+      "confidence": 0.94,
+      "impact_score": 8.5,
+      "cross_impacts": [
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-021",
+      "final_category": "P",
+      "subcategory": "Transportation",
+      "confidence": 0.93,
+      "impact_score": 8.5,
+      "cross_impacts": [
+        "T_Technological"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-022",
+      "final_category": "T",
+      "subcategory": "Cybersecurity",
+      "confidence": 0.94,
+      "impact_score": 9.0,
+      "cross_impacts": [
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-023",
+      "final_category": "E_Environmental",
+      "subcategory": "Water",
+      "confidence": 0.96,
+      "impact_score": 9.5,
+      "cross_impacts": [
+        "S_Social",
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-024",
+      "final_category": "s",
+      "subcategory": "Psychology",
+      "confidence": 0.93,
+      "impact_score": 8.5,
+      "cross_impacts": [
+        "S_Social",
+        "T_Technological"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-025",
+      "final_category": "E",
+      "subcategory": "Trade",
+      "confidence": 0.95,
+      "impact_score": 9.0,
+      "cross_impacts": [
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-026",
+      "final_category": "T",
+      "subcategory": "Space",
+      "confidence": 0.88,
+      "impact_score": 7.0,
+      "cross_impacts": [
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-027",
+      "final_category": "E",
+      "subcategory": "Finance",
+      "confidence": 0.92,
+      "impact_score": 8.0,
+      "cross_impacts": [
+        "T_Technological",
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-028",
+      "final_category": "T",
+      "subcategory": "Clean Energy",
+      "confidence": 0.91,
+      "impact_score": 8.0,
+      "cross_impacts": [
+        "E_Environmental"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-029",
+      "final_category": "T",
+      "subcategory": "Supply Chain",
+      "confidence": 0.92,
+      "impact_score": 8.5,
+      "cross_impacts": [
+        "P_Political",
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-030",
+      "final_category": "S",
+      "subcategory": "Labor",
+      "confidence": 0.9,
+      "impact_score": 7.5,
+      "cross_impacts": [
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-031",
+      "final_category": "P",
+      "subcategory": "ESG",
+      "confidence": 0.9,
+      "impact_score": 7.5,
+      "cross_impacts": [
+        "E_Environmental",
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-032",
+      "final_category": "s",
+      "subcategory": "Values/Ethics",
+      "confidence": 0.88,
+      "impact_score": 7.5,
+      "cross_impacts": [
+        "T_Technological",
+        "S_Social"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-033",
+      "final_category": "P",
+      "subcategory": "Trade",
+      "confidence": 0.93,
+      "impact_score": 8.0,
+      "cross_impacts": [
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-034",
+      "final_category": "S",
+      "subcategory": "Innovation",
+      "confidence": 0.87,
+      "impact_score": 6.5,
+      "cross_impacts": [
+        "T_Technological"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-035",
+      "final_category": "T",
+      "subcategory": "IP/Patents",
+      "confidence": 0.85,
+      "impact_score": 6.0,
+      "cross_impacts": [
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-036",
+      "final_category": "T",
+      "subcategory": "Automation",
+      "confidence": 0.92,
+      "impact_score": 8.5,
+      "cross_impacts": [
+        "S_Social"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-037",
+      "final_category": "T",
+      "subcategory": "Clean Energy",
+      "confidence": 0.86,
+      "impact_score": 6.5,
+      "cross_impacts": [
+        "E_Environmental"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-038",
+      "final_category": "S",
+      "subcategory": "Health",
+      "confidence": 0.84,
+      "impact_score": 5.5,
+      "cross_impacts": [],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-039",
+      "final_category": "P",
+      "subcategory": "AI Regulation",
+      "confidence": 0.93,
+      "impact_score": 8.5,
+      "cross_impacts": [
+        "T_Technological"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-040",
+      "final_category": "P",
+      "subcategory": "Procurement",
+      "confidence": 0.82,
+      "impact_score": 4.5,
+      "cross_impacts": [],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-041",
+      "final_category": "P",
+      "subcategory": "Geopolitics",
+      "confidence": 0.94,
+      "impact_score": 9.0,
+      "cross_impacts": [
+        "T_Technological",
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-042",
+      "final_category": "E_Environmental",
+      "subcategory": "Energy",
+      "confidence": 0.93,
+      "impact_score": 8.0,
+      "cross_impacts": [
+        "T_Technological"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-043",
+      "final_category": "E",
+      "subcategory": "Finance",
+      "confidence": 0.91,
+      "impact_score": 8.0,
+      "cross_impacts": [
+        "T_Technological",
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-044",
+      "final_category": "s",
+      "subcategory": "AI Ethics",
+      "confidence": 0.91,
+      "impact_score": 8.0,
+      "cross_impacts": [
+        "T_Technological",
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-045",
+      "final_category": "T",
+      "subcategory": "Space",
+      "confidence": 0.87,
+      "impact_score": 7.0,
+      "cross_impacts": [],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-046",
+      "final_category": "T",
+      "subcategory": "Clean Energy",
+      "confidence": 0.89,
+      "impact_score": 7.5,
+      "cross_impacts": [
+        "E_Environmental"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-047",
+      "final_category": "T",
+      "subcategory": "Cybersecurity",
+      "confidence": 0.93,
+      "impact_score": 8.5,
+      "cross_impacts": [
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-048",
+      "final_category": "E_Environmental",
+      "subcategory": "Food/Water",
+      "confidence": 0.95,
+      "impact_score": 9.0,
+      "cross_impacts": [
+        "S_Social",
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-049",
+      "final_category": "P",
+      "subcategory": "Transportation",
+      "confidence": 0.9,
+      "impact_score": 7.5,
+      "cross_impacts": [
+        "T_Technological"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-050",
+      "final_category": "E",
+      "subcategory": "Trade",
+      "confidence": 0.92,
+      "impact_score": 8.0,
+      "cross_impacts": [
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-051",
+      "final_category": "T",
+      "subcategory": "Clean Energy",
+      "confidence": 0.84,
+      "impact_score": 6.0,
+      "cross_impacts": [
+        "E_Environmental"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-052",
+      "final_category": "T",
+      "subcategory": "AI/ML",
+      "confidence": 0.92,
+      "impact_score": 8.0,
+      "cross_impacts": [
+        "E_Economic"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "websearch-20260320-053",
+      "final_category": "S",
+      "subcategory": "Health",
+      "confidence": 0.9,
+      "impact_score": 7.0,
+      "cross_impacts": [
+        "P_Political"
+      ],
+      "added_date": "2026-03-20"
     }
   ],
   "metadata": {
-    "total_signals": 1002,
-    "last_updated": "2026-03-12T22:34:57.604077+00:00",
+    "total_signals": 1052,
+    "last_updated": "2026-03-18T00:00:00Z",
     "last_scan_date": "2026-03-13"
   }
 }

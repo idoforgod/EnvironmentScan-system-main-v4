@@ -1,88 +1,81 @@
 {
-  "master_id": "quadruple-scan-2026-03-13",
+  "master_id": "quadruple-scan-2026-03-20",
   "system_name": "Quadruple Environmental Scanning System",
   "status": "completed",
   "registry_version": "2.5.0",
-  "started_at": "2026-03-12T22:13:26Z",
-  "completed_at": "2026-03-13T02:04:00Z",
-  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-03-13.json",
-  "bilingual_config_file": "env-scanning/integrated/logs/bilingual-config-2026-03-13.json",
+  "started_at": "2026-03-19T22:56:25Z",
+  "scan_date": "2026-03-20",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-03-20.json",
+  "bilingual_config_file": "env-scanning/integrated/logs/bilingual-config-2026-03-20.json",
   "sot_validation": {
     "status": "WARN",
-    "timestamp": "2026-03-12T22:13:26Z",
+    "timestamp": "2026-03-19T22:56:25Z",
+    "passed": 65,
+    "total": 66,
+    "halt_fails": 0,
     "warnings": [
-      "SOT-042: Dedup index files are stale (>48h) for all workflows"
+      "SOT-042: Dedup index files older than 48h (pre-existing, non-blocking)"
     ]
   },
   "workflow_results": {
     "wf1-general": {
       "status": "completed",
-      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-13.md",
-      "report_path_ko": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-13-ko.md",
-      "signal_count": 51,
-      "completed_at": "2026-03-12T23:45:00Z"
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-20.md",
+      "signal_count": 53,
+      "completed_at": "2026-03-20T00:28:39.755007Z"
     },
     "wf2-arxiv": {
       "status": "completed",
-      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-13.md",
-      "report_path_ko": "env-scanning/wf2-arxiv/reports/daily/arxiv-scan-2026-03-13-ko.md",
-      "signal_count": 82,
-      "completed_at": "2026-03-13T00:15:00Z"
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-20.md",
+      "signal_count": 40,
+      "completed_at": "2026-03-20T00:28:39.755007Z"
     },
     "wf3-naver": {
       "status": "completed",
-      "report_path": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-13.md",
-      "report_path_ko": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-13-ko.md",
-      "signal_count": 270,
-      "completed_at": "2026-03-13T00:45:00Z"
+      "report_path": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-20.md",
+      "signal_count": 35,
+      "completed_at": "2026-03-20T00:28:39.755007Z"
     },
     "wf4-multiglobal-news": {
       "status": "completed",
-      "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-13.md",
-      "report_path_ko": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-13-ko.md",
-      "signal_count": 1149,
-      "completed_at": "2026-03-13T01:15:00Z"
+      "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-20.md",
+      "signal_count": 30,
+      "completed_at": "2026-03-20T00:28:39.755007Z"
     }
   },
   "integration_result": {
     "status": "completed",
-    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-13.md",
-    "report_path_ko": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-13-ko.md",
-    "timeline_map": "env-scanning/integrated/reports/daily/timeline-map-2026-03-13.md",
-    "total_signals": 1552,
-    "top_signals": 20,
-    "integration_method": "single-agent"
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-20.md",
+    "total_signals": 158,
+    "top_signals": 22,
+    "completed_at": "2026-03-20T00:28:39.755007Z"
   },
-  "human_decisions": {
-    "wf1_step_2_5": { "decision": "approved", "mode": "autopilot", "timestamp": "2026-03-12T23:30:00Z" },
-    "wf1_step_3_4": { "decision": "approved", "mode": "autopilot", "timestamp": "2026-03-12T23:45:00Z" },
-    "wf2_step_2_5": { "decision": "approved", "mode": "autopilot", "timestamp": "2026-03-13T00:00:00Z" },
-    "wf2_step_3_4": { "decision": "approved", "mode": "autopilot", "timestamp": "2026-03-13T00:15:00Z" },
-    "wf3_step_2_5": { "decision": "approved", "mode": "autopilot", "timestamp": "2026-03-13T00:30:00Z" },
-    "wf3_step_3_4": { "decision": "approved", "mode": "autopilot", "timestamp": "2026-03-13T00:45:00Z" },
-    "wf4_step_2_5": { "decision": "approved", "mode": "autopilot", "timestamp": "2026-03-13T01:00:00Z" },
-    "wf4_step_3_4": { "decision": "approved", "mode": "autopilot", "timestamp": "2026-03-13T01:15:00Z" },
-    "integrated_final": { "decision": "approved", "mode": "autopilot", "timestamp": "2026-03-13T02:04:00Z" }
-  },
+  "human_decisions": {},
   "master_gates": {
-    "M1": { "status": "PASS", "timestamp": "2026-03-12T23:50:00Z" },
-    "M2": { "status": "PASS", "timestamp": "2026-03-13T00:20:00Z" },
-    "M2a": { "status": "PASS", "timestamp": "2026-03-13T00:50:00Z" },
-    "M2b": { "status": "PASS", "timestamp": "2026-03-13T01:20:00Z" },
-    "M3": { "status": "PASS", "timestamp": "2026-03-13T02:03:40Z" },
-    "M4": { "status": "PASS", "checks": "46/46", "timestamp": "2026-03-13T02:03:40Z" }
-  },
-  "completion_gate": {
-    "status": "PASS",
-    "checks_passed": 46,
-    "checks_total": 46,
-    "critical_failures": 0,
-    "ko_ratios": {
-      "wf1": "55.9%",
-      "wf2": "45.0%",
-      "wf3": "62.9%",
-      "wf4": "63.1%",
-      "integrated": "57.3%"
+    "M1": {
+      "status": "PASS",
+      "timestamp": "2026-03-20T00:28:39.755007Z"
+    },
+    "M2": {
+      "status": "PASS",
+      "timestamp": "2026-03-20T00:28:39.755007Z"
+    },
+    "M2a": {
+      "status": "PASS",
+      "timestamp": "2026-03-20T00:28:39.755007Z"
+    },
+    "M2b": {
+      "status": "PASS",
+      "timestamp": "2026-03-20T00:28:39.755007Z"
+    },
+    "M3": {
+      "status": "PASS",
+      "timestamp": "2026-03-20T00:28:39.755007Z"
+    },
+    "M4": {
+      "status": "PASS",
+      "timestamp": "2026-03-20T00:28:39.755007Z"
     }
-  }
+  },
+  "completed_at": "2026-03-20T00:28:39.755007Z"
 }

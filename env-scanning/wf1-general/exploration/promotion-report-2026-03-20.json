@@ -1,0 +1,41 @@
+{
+  "promoter_id": "source_auto_promoter.py",
+  "promoter_version": "1.0.0",
+  "executed_at": "2026-03-19T23:10:50.009451+00:00",
+  "date": "2026-03-20",
+  "status": "SUCCESS",
+  "message": "Promoted 2 source(s) to expansion tier",
+  "promotions": [
+    {
+      "status": "promoted",
+      "name": "IPBES News",
+      "url": "https://www.ipbes.net/news",
+      "type": "policy",
+      "tier": "expansion",
+      "steeps_focus": [
+        "E_Environmental"
+      ],
+      "discovery_method": "unknown",
+      "quality_score": 0.75,
+      "promoted_at": "2026-03-19T23:10:49.976306+00:00",
+      "promoted_date": "2026-03-20"
+    },
+    {
+      "status": "promoted",
+      "name": "Earth.Org",
+      "url": "https://earth.org/feed/",
+      "type": "science_journalism",
+      "tier": "expansion",
+      "steeps_focus": [
+        "E_Environmental"
+      ],
+      "discovery_method": "unknown",
+      "quality_score": 0.82,
+      "promoted_at": "2026-03-19T23:10:50.008260+00:00",
+      "promoted_date": "2026-03-20"
+    }
+  ],
+  "promotions_count": 2,
+  "skipped": [],
+  "skipped_count": 0
+}

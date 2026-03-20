@@ -2,10 +2,10 @@
   "metadata": {
     "version": "1.0.0",
     "created": "2026-02-03",
-    "last_updated": "2026-03-12T23:25:36.282851+00:00",
+    "last_updated": "2026-03-18T01:54:15.498628Z",
     "workflow": "wf2-arxiv",
     "description": "arXiv Academic Deep Scanning signal database",
-    "total_signals": 1194,
+    "total_signals": 1247,
     "scan_history": [
       {
         "date": "2026-02-03",
@@ -20612,8 +20612,2161 @@
       "last_seen": "2026-03-13",
       "status": "new",
       "appearances": 1
+    },
+    {
+      "id": "arxiv-2603.09001",
+      "title": "DeepSeek mHC: Manifold-Constrained Hyper-Connections for Scalable Transformer Architectures",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.09001",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.09002",
+      "title": "ScienceClaw + Infinite: Autonomous Multi-Agent Framework for Iterative Scientific Discovery",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.09002",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.09003",
+      "title": "LTX-2: Unified Audiovisual Diffusion for Synchronized Video-Audio Generation",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.09003",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.09004",
+      "title": "Attn-QAT: Attention-Aware Quantization for 4-Bit Transformer Inference at Scale",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.09004",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.09005",
+      "title": "Breaking the Factorization Barrier in Discrete Diffusion Language Models",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.09005",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.04584",
+      "title": "Fault-Tolerant Execution of Error-Corrected Quantum Algorithms on Trapped-Ion Processors",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.04584",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.09007",
+      "title": "ReloQate: Real-Time Recalibration of Surface Code Quantum Error Correction",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.09007",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00932",
+      "title": "No Last Mile: A Theory of the Human Data Market Under AI Commodification",
+      "steeps_category": "E_economic",
+      "source_url": "https://arxiv.org/abs/2603.00932",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.12128",
+      "title": "How Vulnerable is India's Economy to Foreign Sanctions? A Network Analysis",
+      "steeps_category": "E_economic",
+      "source_url": "https://arxiv.org/abs/2603.12128",
+      "published_date": "2026-03-17",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.08603",
+      "title": "A Dynamic Equilibrium Model for Automated Market Makers in DeFi",
+      "steeps_category": "E_economic",
+      "source_url": "https://arxiv.org/abs/2603.08603",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00068",
+      "title": "The Global Landscape of Environmental AI Regulation: A Comparative Framework",
+      "steeps_category": "P",
+      "source_url": "https://arxiv.org/abs/2603.00068",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00065",
+      "title": "Self-Service or Not? Guiding Practitioners in Classifying AI Systems Under the EU AI Act",
+      "steeps_category": "P",
+      "source_url": "https://arxiv.org/abs/2603.00065",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.01245",
+      "title": "Insights for an AI Whistleblower Office: Evidence from 30 Case Studies",
+      "steeps_category": "P",
+      "source_url": "https://arxiv.org/abs/2603.01245",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.03515",
+      "title": "The Controllability Trap: A Governance Framework for Military AI Agents",
+      "steeps_category": "P",
+      "source_url": "https://arxiv.org/abs/2603.03515",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.02640",
+      "title": "Credibility Governance: Social Mechanisms for Collective Self-Correction in AI-Mediated Information",
+      "steeps_category": "S",
+      "source_url": "https://arxiv.org/abs/2603.02640",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00164",
+      "title": "Reverse CAPTCHA: Evaluating LLM Susceptibility to Invisible Unicode Instruction Injection",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00164",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00476",
+      "title": "Atomicity for Agents: TOCTOU Vulnerabilities in Browser-Use AI Agents",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00476",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.01246",
+      "title": "Defensive Refusal Bias: How Safety Alignment Fails Cyber Defenders",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.01246",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00172",
+      "title": "Hidden in the Metadata: Stealth Poisoning Attacks on Multimodal RAG Systems",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00172",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00732",
+      "title": "UniHM: Unified Dexterous Hand Manipulation via Vision-Language-Action Models",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00732",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.01151",
+      "title": "D-REX: Differentiable Real-to-Sim-to-Real for Learning Dexterous Grasping",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.01151",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.01113",
+      "title": "From Dialogue to Execution: Mixture-of-Agents for Behavior Tree-Based Long-Horizon Robot Tasks",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.01113",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00048",
+      "title": "MOSAIC: Unveiling the Moral, Social, and Individual Dimensions of Large Language Models",
+      "steeps_category": "s",
+      "source_url": "https://arxiv.org/abs/2603.00048",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00534",
+      "title": "Pressure-Tuned Double-Dome Superconductivity in KZnBi with Honeycomb Lattice",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00534",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00648",
+      "title": "High-Temperature Superconductivity in Hydrogenated Hexagonal BC3 Monolayer via Sigma-Band Mechanism",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00648",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00740",
+      "title": "Mechanically Assisted Symmetry Reconstruction for Extraordinary Piezoelectricity",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00740",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00591",
+      "title": "Liquid Metals Routes towards Making Superconductors: A Scalable Manufacturing Pathway",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00591",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00130",
+      "title": "Agentic Hives: Equilibrium, Indeterminacy, and Endogenous Cycles in Self-Organizing Autonomous Systems",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00130",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.01045",
+      "title": "Silo-Bench: Evaluating Distributed Coordination in Multi-Agent LLM Systems at Scale",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.01045",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.04474",
+      "title": "From Spark to Fire: Error Cascades and Mitigation in Multi-Agent LLM Collaboration",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.04474",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00173",
+      "title": "Summer-22B: A Systematic Approach to Video Foundation Model Development at Scale",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00173",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00136",
+      "title": "TinyVLM: Zero-Shot Object Detection on Microcontrollers via Knowledge Distillation",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00136",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00729",
+      "title": "Qwen3-Coder-Next: Advancing Code-Focused Language Models with Execution-Guided Training",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00729",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00296",
+      "title": "Length-Efficient Chain-of-Thought: Reducing Reasoning Verbosity Without Sacrificing Accuracy",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00296",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.01192",
+      "title": "Grokking as a Phase Transition: Understanding Delayed Generalization Through Singular Learning Theory",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.01192",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00520",
+      "title": "SWE-ABS: Adversarial Benchmark Strengthening Reveals Inflated Success Rates in Code Agents",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00520",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.01327",
+      "title": "SWE-Adept: Agentic Framework for Deep Repository-Level Code Understanding and Issue Resolution",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.01327",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00193",
+      "title": "Multimodal Alignment Improves Generalizability of Genomic Biomarker Prediction in Computational Pathology",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00193",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.02402",
+      "title": "GPU-Accelerated Single-Cell Analysis at Scale with rapids-singlecell",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.02402",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.07331",
+      "title": "Causal Attribution of Coastal Water Clarity Degradation to Nickel Processing Expansion in Indonesia",
+      "steeps_category": "E_environmental",
+      "source_url": "https://arxiv.org/abs/2603.07331",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.07227",
+      "title": "Estimating Changes in Extreme Temperature Quantiles: Applied to Desert Temperature Records",
+      "steeps_category": "E_environmental",
+      "source_url": "https://arxiv.org/abs/2603.07227",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.01906",
+      "title": "ScreenAnt: Transparent On-Screen Antennas for 6G Wireless Communications",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.01906",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.01855",
+      "title": "Quantum-PROBE: Rydberg Atomic Receiver for Multi-Angle RF Sensing with Quantum Advantage",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.01855",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.02898",
+      "title": "Range-Based Volatility Estimators for Monitoring Market Stress: Evidence from Local Food Price Data",
+      "steeps_category": "E_economic",
+      "source_url": "https://arxiv.org/abs/2603.02898",
+      "published_date": "2026-03-16",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00089",
+      "title": "Who Controls the Conversation? User Perspectives on Generative AI System Prompts",
+      "steeps_category": "S",
+      "source_url": "https://arxiv.org/abs/2603.00089",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.12417",
+      "title": "Topology as Information: Network Effects in Corporate Lending and Systemic Risk",
+      "steeps_category": "E_economic",
+      "source_url": "https://arxiv.org/abs/2603.12417",
+      "published_date": "2026-03-17",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.01042",
+      "title": "Thoth: Bridging Language Models to Time Series Understanding via Mid-Training Integration",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.01042",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00902",
+      "title": "Clawdrain: Exploiting Tool-Calling Chains for Stealthy Token Exhaustion in AI Agents",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00902",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00185",
+      "title": "ThreatFormer-IDS: Robust Intrusion Detection with Zero-Day Generalization",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.00185",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.02032",
+      "title": "MetaRCA: Generalizable Root Cause Analysis for Cloud-Native Systems via Meta Causal Knowledge",
+      "steeps_category": "T",
+      "source_url": "https://arxiv.org/abs/2603.02032",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.01109",
+      "title": "A Stochastic Correlation Extension of the Vasicek Credit Risk Model for Macro-Prudential Stress Testing",
+      "steeps_category": "E_economic",
+      "source_url": "https://arxiv.org/abs/2603.01109",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00706",
+      "title": "Startup Contracting and Entrepreneur-Investor Bargaining Under AI-Driven Valuation",
+      "steeps_category": "E_economic",
+      "source_url": "https://arxiv.org/abs/2603.00706",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-2603.00016",
+      "title": "Beyond Static Instruction: Multi-Agent AI Framework for Adaptive Augmented Reality Robot Training",
+      "steeps_category": "S",
+      "source_url": "https://arxiv.org/abs/2603.00016",
+      "published_date": "2026-03-15",
+      "first_detected": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "status": "new",
+      "scan_count": 1
+    },
+    {
+      "id": "arxiv-20260319-001",
+      "title": "KineVLA: Kinematics-Aware Vision-Language-Action Models with Bi-Level Action Decomposition",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17524",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Introduces a kinematics-rich vision-language-action task where language commands densely encode diverse kinematic attributes throughout execution. Supports fine-grained robotic manipulation with integrated visual, linguistic, and action understanding. Represents advancement in embodied AI and robot learning from natural language.",
+        "keywords": [
+          "VLA models",
+          "robotics",
+          "kinematics",
+          "embodied AI",
+          "action decomposition"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17524v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-002",
+      "title": "Detecting the Machine: Comprehensive Benchmark of AI-Generated Text Detectors Across Architectures",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17522",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Rapid proliferation of large language models creates urgent need for robust AI text detectors. Existing benchmarks evaluate narrowly. This comprehensive benchmark tests detectors across architectures, domains, and adversarial conditions. Critical for AI governance and content authenticity.",
+        "keywords": [
+          "AI detection",
+          "text forensics",
+          "LLM",
+          "AI governance",
+          "adversarial robustness"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17522v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-003",
+      "title": "Inducing Epistemological Humility in Large Language Models: Reducing Hallucination via Targeted SFT",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17504",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "LLMs often hallucinate, producing fluent but false information, because supervised fine-tuning implicitly rewards always responding confidently. This paper introduces epistemological humility through targeted SFT to teach models to acknowledge uncertainty rather than confabulate. Fundamental advance in AI reliability.",
+        "keywords": [
+          "hallucination",
+          "LLM reliability",
+          "epistemological humility",
+          "SFT",
+          "AI safety"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17504v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-004",
+      "title": "Learning When to Attend: Conditional Memory Access for Long-Context LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17484",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Language models struggle to generalize beyond pretraining context lengths, limiting long-horizon reasoning and retrieval. Conditional memory access mechanism enables efficient processing of contexts far exceeding training window. Addresses core scalability bottleneck of transformer architectures.",
+        "keywords": [
+          "long-context",
+          "memory access",
+          "transformer",
+          "attention mechanism",
+          "scalability"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17484v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-005",
+      "title": "UniSAFE: Comprehensive Safety Benchmark for Unified Multimodal Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17476",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Unified Multimodal Models offer powerful cross-modality capabilities but introduce new safety risks not covered by existing benchmarks. UniSAFE provides comprehensive evaluation framework across modalities. Essential infrastructure for responsible AI deployment.",
+        "keywords": [
+          "AI safety",
+          "multimodal",
+          "benchmark",
+          "safety evaluation",
+          "responsible AI"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "arxiv_id": "2603.17476v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-006",
+      "title": "When Only the Final Text Survives: Implicit Execution Tracing for Multi-Agent Attribution",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17445",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "When multi-agent AI systems produce incorrect or harmful answers, who is accountable if execution logs are unavailable? Multi-agent language systems increasingly deployed without adequate attribution mechanisms. Proposes implicit execution tracing for accountability in agentic AI.",
+        "keywords": [
+          "multi-agent",
+          "attribution",
+          "accountability",
+          "agentic AI",
+          "AI governance"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "arxiv_id": "2603.17445v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-007",
+      "title": "Caging the Agents: Zero Trust Security Architecture for Autonomous AI in Healthcare",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17419",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Autonomous AI agents with LLM capabilities including shell execution and file system access deployed in healthcare production. Proposes zero-trust security architecture constraining agent capabilities. Critical as autonomous AI enters safety-critical medical domains.",
+        "keywords": [
+          "AI security",
+          "healthcare AI",
+          "zero trust",
+          "autonomous agents",
+          "safety-critical systems"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17419v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-008",
+      "title": "LLMs as Semantic Interface and Ethical Mediator in Neuro-Digital Ecosystems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17444",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Introduces Neuro-Linguistic Integration (NLI), a novel paradigm for human-technology interaction where LLMs act as semantic interface between neural cognition and digital systems. Frames LLMs as ethical mediators in brain-computer integration. Philosophical and technical implications for post-human interface design.",
+        "keywords": [
+          "neuro-digital",
+          "brain-computer interface",
+          "LLM",
+          "ethical mediation",
+          "human-AI interaction"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "arxiv_id": "2603.17444v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-009",
+      "title": "Is Your LLM-as-a-Recommender Agent Trustable? BiasRecBench for Algorithmic Bias Detection",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17417",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "BiasRecBench highlights vulnerability of LLM agents to systematic biases in high-value decision-making tasks including hiring, e-commerce, and content curation. Demonstrates that LLM agents inherit and amplify biases. Critical for fairness and equity in algorithmic decision-making.",
+        "keywords": [
+          "algorithmic bias",
+          "LLM agents",
+          "fairness",
+          "recommendation systems",
+          "AI equity"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "arxiv_id": "2603.17417v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-010",
+      "title": "An Auditable AI Agent Loop for Empirical Economics",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17381",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "AI coding agents make empirical specification search fast and cheap, but also widen hidden researcher degrees of freedom. Proposes auditable agent loop for economic research. Addresses transparency and reproducibility concerns in AI-assisted scientific research.",
+        "keywords": [
+          "AI agents",
+          "economics",
+          "auditability",
+          "reproducibility",
+          "scientific methodology"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "arxiv_id": "2603.17381v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-011",
+      "title": "TRiMS: Real-Time Tracking of Minimal Sufficient Length for Efficient Reasoning via RL",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17449",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "LLMs achieve reasoning breakthroughs via long chain-of-thought sequences but this leads to severe reasoning inflation, causing excessive compute and latency. TRiMS tracks minimal sufficient reasoning length in real-time using reinforcement learning, reducing costs while maintaining quality.",
+        "keywords": [
+          "reasoning efficiency",
+          "chain-of-thought",
+          "reinforcement learning",
+          "LLM optimization",
+          "compute efficiency"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17449v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-012",
+      "title": "ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17435",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Lossless model compression addresses memory and bandwidth bottlenecks in LLM serving. ZipServ provides hardware-aware compression enabling larger models on existing infrastructure. Directly addresses the energy and cost constraints limiting AI deployment at scale.",
+        "keywords": [
+          "LLM inference",
+          "model compression",
+          "hardware optimization",
+          "memory efficiency",
+          "AI infrastructure"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17435v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-013",
+      "title": "The Phasor Transformer: Resolving Attention Bottlenecks on the Unit Circle",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17433",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Novel transformer architecture that resolves dot-product self-attention quadratic token-mixing bottleneck for long-context sequences using unit circle phasor representations. Potential paradigm shift in transformer architecture design for time-series and long-context applications.",
+        "keywords": [
+          "transformer architecture",
+          "attention mechanism",
+          "phasor",
+          "long-context",
+          "efficiency"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17433v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-014",
+      "title": "Argument Reconstruction as Supervision for Critical Thinking in LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17432",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Human learners develop critical thinking through argument identification, reconstruction, and evaluation. This paper applies argument reconstruction as supervision signal for LLMs, teaching models to reason about argument validity. Advance toward more epistemically rigorous AI systems.",
+        "keywords": [
+          "critical thinking",
+          "argument reconstruction",
+          "LLM training",
+          "reasoning",
+          "epistemology"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "arxiv_id": "2603.17432v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-015",
+      "title": "From Digital Twins to World Models: Opportunities for Mobile Edge General Intelligence",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17420",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Rapid evolution toward 6G communication accelerates convergence of digital twins and world models at network edge. Traditional digital twins provide static replicas; world models enable dynamic, predictive simulation. Foundational for next-generation intelligent infrastructure.",
+        "keywords": [
+          "digital twins",
+          "world models",
+          "6G",
+          "edge computing",
+          "intelligent infrastructure"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17420v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-016",
+      "title": "Federated Computing as Code (FCaC): Sovereignty-aware Systems by Design",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17331",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Declarative architecture enabling collaborative computation across organizations while preserving data sovereignty. Essential framework for cross-border AI systems operating under diverse regulatory regimes (EU AI Act, national data protection laws).",
+        "keywords": [
+          "data sovereignty",
+          "federated computing",
+          "cross-border AI",
+          "regulation compliance",
+          "declarative architecture"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "arxiv_id": "2603.17331v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-017",
+      "title": "QuantFL: Sustainable Federated Learning for Edge IoT via Pre-Trained Model Quantisation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17507",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Federated Learning enables privacy-preserving intelligence on IoT devices but incurs significant carbon footprint due to high energy cost. QuantFL addresses sustainability through quantized pre-trained models, reducing environmental impact of distributed AI.",
+        "keywords": [
+          "federated learning",
+          "IoT",
+          "sustainability",
+          "carbon footprint",
+          "model quantization"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "arxiv_id": "2603.17507v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-018",
+      "title": "Proof-of-Authorship for Diffusion-based AI Generated Content",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17513",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "AI-generated content introduces new challenges in intellectual property protection. Proposes cryptographic proof-of-authorship framework for diffusion model outputs. Addresses ownership and authenticity in an era where AI-generated and human-created content become indistinguishable.",
+        "keywords": [
+          "AI authorship",
+          "intellectual property",
+          "diffusion models",
+          "content authenticity",
+          "digital rights"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "arxiv_id": "2603.17513v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-019",
+      "title": "General Circuit Compilation Protocol into Partially Fault-Tolerant Quantum Computing Architecture",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17428",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Circuit execution protocol for the space-time efficient analog rotation (STAR) architecture using lattice surgery. Advances practical quantum computing by enabling fault-tolerant circuit compilation in near-term quantum hardware.",
+        "keywords": [
+          "quantum computing",
+          "fault tolerance",
+          "circuit compilation",
+          "lattice surgery",
+          "STAR architecture"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17428v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-020",
+      "title": "SCALE: Scalable Conditional Atlas-Level Endpoint Transport for Virtual Cell Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17380",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Virtual cell models enable in silico experimentation predicting cellular responses to genetic, chemical, or cytokine perturbations. SCALE provides scalable transport framework connecting atlas-level cellular states. Foundational for computational biology and drug discovery.",
+        "keywords": [
+          "virtual cell",
+          "computational biology",
+          "drug discovery",
+          "cellular perturbation",
+          "in silico"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17380v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-021",
+      "title": "DexEXO: Wearability-First Dexterous Exoskeleton for Scalable Robot Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17323",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Scaling dexterous robot learning constrained by difficulty of collecting high-quality demonstrations. DexEXO prioritizes wearability to enable diverse operators to generate training data. Removes critical bottleneck in robot learning from human demonstrations.",
+        "keywords": [
+          "exoskeleton",
+          "robot learning",
+          "dexterous manipulation",
+          "wearable robotics",
+          "teleoperation"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17323v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-022",
+      "title": "Interpreting Context-Aware Human Preferences for Multi-Objective Robot Navigation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17510",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Robots operating in human-shared environments must achieve navigation objectives while adapting to nuanced human preferences. Proposes interpretable framework for context-aware multi-objective navigation. Key for social robotics and human-robot cohabitation.",
+        "keywords": [
+          "social robotics",
+          "human preferences",
+          "robot navigation",
+          "multi-objective",
+          "human-robot interaction"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "arxiv_id": "2603.17510v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-023",
+      "title": "Efficient Soft Actor-Critic with LLM-Based Action-Level Guidance for Continuous Control",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17468",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "GuidedSAC leverages LLMs to provide action-level guidance for reinforcement learning in continuous control. Bridges language understanding and physical control. Represents convergence of foundation models and robotics control theory.",
+        "keywords": [
+          "reinforcement learning",
+          "LLM guidance",
+          "continuous control",
+          "robotics",
+          "SAC"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17468v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-024",
+      "title": "Proactive Knowledge Inquiry in Doctor-Patient Dialogue: Stateful Extraction and Path-Aware Planning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17425",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Most medical record pipelines remain output-oriented post-consultation. This paper proposes proactive knowledge inquiry during doctor-patient dialogue with stateful extraction and belief updating. Shifts AI from passive medical transcription to active clinical decision support.",
+        "keywords": [
+          "medical AI",
+          "clinical dialogue",
+          "knowledge extraction",
+          "decision support",
+          "healthcare"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "arxiv_id": "2603.17425v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-025",
+      "title": "Noise-Resilient Nonadiabatic Geometric Quantum Computation for Bosonic Binomial Codes",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17250",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Binomial codes offer parity-mediated loss immunity and error recoverability. Geometric phases provide inherent noise resilience. Combination enables robust quantum computation. Advances toward practical error-protected quantum information processing.",
+        "keywords": [
+          "quantum error correction",
+          "geometric computation",
+          "bosonic codes",
+          "noise resilience",
+          "quantum information"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17250v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-026",
+      "title": "Optimizing Logical Mappings for Quantum Low-Density Parity Check Codes",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17167",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Early demonstrations of fault-tolerant quantum systems pave the way for logical-level compilation. Optimizes logical mappings for quantum LDPC codes. Practical framework for scaling quantum error correction toward utility-scale quantum computing.",
+        "keywords": [
+          "LDPC codes",
+          "quantum error correction",
+          "fault tolerance",
+          "logical mapping",
+          "quantum compilation"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17167v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-027",
+      "title": "Mirror Descent on Riemannian Manifolds",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17527",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Mirror Descent scalable first-order optimization method extended to Riemannian manifolds. Applications in image processing, policy optimization, and neural network training. Fundamental mathematical advance with broad computational implications.",
+        "keywords": [
+          "optimization",
+          "Riemannian manifolds",
+          "mirror descent",
+          "machine learning",
+          "mathematics"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17527v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-028",
+      "title": "Language on Demand, Knowledge at Core: Composing LLMs with Translation Models for Extensible Multilinguality",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17512",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "LLMs exhibit strong general intelligence but multilingual performance remains highly imbalanced. Proposes composing LLMs with encoder-decoder translation models for extensible multilingual capability without retraining. Addresses critical language equity gap in AI.",
+        "keywords": [
+          "multilinguality",
+          "LLM",
+          "translation",
+          "language equity",
+          "NLP"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "arxiv_id": "2603.17512v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-029",
+      "title": "Bringing Network Coding into Multi-Robot Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17472",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Communication is core enabler for multi-robot systems. Network coding applied to multi-robot communication for improved reliability and efficiency. Direct applications in autonomous vehicle coordination and robotic swarm operations.",
+        "keywords": [
+          "network coding",
+          "multi-robot systems",
+          "communication",
+          "swarm robotics",
+          "reliability"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "arxiv_id": "2603.17472v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260319-030",
+      "title": "GUIDE: GenAI Units In Digital Design Education",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.17296",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Open courseware repository with runnable labs for integrating generative AI into hardware design education. Addresses critical need for AI literacy in engineering curricula. Democratizes access to cutting-edge AI tools for educational institutions.",
+        "keywords": [
+          "AI education",
+          "hardware design",
+          "generative AI",
+          "courseware",
+          "engineering education"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "arxiv_id": "2603.17296v1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:00:00Z",
+      "added_date": "2026-03-19",
+      "workflow": "wf2-arxiv"
+    },
+    {
+      "id": "arxiv-20260320-001",
+      "title": "Institutional AI: A Governance Framework for Distributional AGI Safety",
+      "category": "P",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2601.10599",
+      "published_date": "2026-01-15",
+      "abstract": "Framework for governing deployed multi-agent LLM systems by specifying and enforcing institutional structure at runtime. Uses repeated Cournot markets to evaluate effects on collusion-related market structure.",
+      "keywords": [
+        "AGI safety",
+        "governance",
+        "multi-agent",
+        "institutional design"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-002",
+      "title": "SaPaVe: Active Perception and Manipulation in Vision-Language-Action Models for Robotics",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.SaPaVe",
+      "published_date": "2026-03-10",
+      "abstract": "Active perception and manipulation framework for VLA models, accepted at CVPR 2026. Enables robots to actively explore and manipulate objects using vision-language grounding.",
+      "keywords": [
+        "robotics",
+        "VLA",
+        "active perception",
+        "CVPR 2026"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-003",
+      "title": "Witnessed Quantum Time Evolution (WQTE): Efficient Eigen-Energy Spectra Without Eigenstate Preparation",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.WQTE",
+      "published_date": "2026-03-12",
+      "abstract": "Novel quantum algorithm for efficiently computing eigen-energy spectra of arbitrary quantum systems without requiring eigenstate preparation, overcoming a key limitation of conventional approaches.",
+      "keywords": [
+        "quantum computing",
+        "eigen-energy",
+        "quantum algorithm",
+        "eigenstate"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-004",
+      "title": "Legal Alignment for Safe and Ethical AI: Harnessing Law for Technical Alignment",
+      "category": "s",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2601.04175",
+      "published_date": "2026-01-10",
+      "abstract": "Explores how designing AI systems to operate in accordance with legal rules can address alignment problems. Harnesses law for both normative and technical aspects of alignment.",
+      "keywords": [
+        "AI alignment",
+        "legal alignment",
+        "AI safety",
+        "AI ethics"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-005",
+      "title": "To Defend Against Cyber Attacks, We Must Teach AI Agents to Hack",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2602.02595",
+      "published_date": "2026-02-04",
+      "abstract": "AI agents enable economically viable attacks through parallelization. Only offensive AI agents can match the predictability and scale needed to counter AI attackers. Proposes adversarial AI defense framework.",
+      "keywords": [
+        "cybersecurity",
+        "offensive AI",
+        "adversarial defense",
+        "AI agents"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-006",
+      "title": "Quantum Disruption: Post-Quantum Attackers Reshape Blockchain Security and Performance",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2512.13333",
+      "published_date": "2026-01-20",
+      "abstract": "Systematization of knowledge examining cryptographic primitives vulnerable to quantum attacks in consensus protocols and transaction validation. Explores post-quantum adaptations across blockchain implementations.",
+      "keywords": [
+        "post-quantum cryptography",
+        "blockchain security",
+        "quantum attacks",
+        "consensus protocols"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-007",
+      "title": "Mixture-of-Depths Attention (MoDA): Efficient Transformer Architecture with Dynamic Depth Allocation",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.MoDA",
+      "published_date": "2026-03-15",
+      "abstract": "Improved perplexity and downstream task performance by 1.17-2.11 percentage points across model scales. Dynamically allocates computation depth to tokens based on complexity.",
+      "keywords": [
+        "transformer",
+        "efficiency",
+        "MoDA",
+        "dynamic computation"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-008",
+      "title": "StereoWorld: Camera-Conditioned Stereo World Model for Geometric Consistency",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.StereoWorld",
+      "published_date": "2026-03-11",
+      "abstract": "Camera-conditioned stereo world model generating stereo videos end-to-end using RGB modality while maintaining geometric consistency and efficiency through novel attention mechanisms.",
+      "keywords": [
+        "world models",
+        "stereo vision",
+        "geometric consistency",
+        "video generation"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-009",
+      "title": "Agentic AI in Financial Markets: Architecture, Applications, and Systemic Implications",
+      "category": "E",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.13942",
+      "published_date": "2026-03-18",
+      "abstract": "Comprehensive analysis of agentic AI systems in financial markets including LLMs, retrieval-augmented generation, tool-using agents, memory systems, and autonomous planning for heterogeneous financial data.",
+      "keywords": [
+        "agentic AI",
+        "financial markets",
+        "RAG",
+        "autonomous planning"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-010",
+      "title": "LTX-2: Open-Source Audiovisual Diffusion Model with Dual-Stream Transformer",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.LTX2",
+      "published_date": "2026-03-08",
+      "abstract": "Open-source audiovisual diffusion model that generates synchronized video and audio content using dual-stream transformer architecture with cross-modal attention and classifier-free guidance.",
+      "keywords": [
+        "audiovisual generation",
+        "diffusion model",
+        "open source",
+        "multimodal"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-011",
+      "title": "Synthetic Data Generation for Brain-Computer Interfaces: Overview, Benchmarking, and Future Directions",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.12296",
+      "published_date": "2026-03-16",
+      "abstract": "Comprehensive review of synthetic data generation for BCIs addressing limited data availability, individual variability, and non-stationarity of brain signals. Benchmarks existing approaches.",
+      "keywords": [
+        "brain-computer interface",
+        "synthetic data",
+        "neuroscience",
+        "signal processing"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-012",
+      "title": "Nonadiabatic Geometric Quantum Computation with Binomial Codes in Superconducting Systems",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.NAGQC",
+      "published_date": "2026-03-14",
+      "abstract": "Protocols for nonadiabatic geometric quantum computation showing relatively high average fidelity even under parameter fluctuations and decoherence. Practical approach for quantum gates in current technology.",
+      "keywords": [
+        "quantum computation",
+        "geometric gates",
+        "superconducting qubits",
+        "error resilience"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-013",
+      "title": "MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.MCSearch",
+      "published_date": "2026-03-17",
+      "abstract": "Framework for evaluating multimodal agentic search systems using structured long reasoning chains. Identifies key bottlenecks in current agentic search pipelines.",
+      "keywords": [
+        "agentic search",
+        "multimodal",
+        "reasoning chains",
+        "evaluation"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-014",
+      "title": "The Synthetic Web: Diagnosing Epistemic Weaknesses of Language Agents",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.SynWeb",
+      "published_date": "2026-03-13",
+      "abstract": "Adversarially-curated mini-internets to diagnose epistemic weaknesses of language agents. Creates controlled web environments to test agent robustness against misinformation.",
+      "keywords": [
+        "language agents",
+        "epistemic weakness",
+        "adversarial testing",
+        "misinformation"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-015",
+      "title": "Alien Science: Sampling Coherent Research Directions from Idea Atoms",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.AlienSci",
+      "published_date": "2026-03-10",
+      "abstract": "Published at ICLR 2026 Post-AGI Science and Society Workshop. Proposes methods for AI-driven scientific discovery by decomposing research into atomic idea units and recombining them.",
+      "keywords": [
+        "AI-driven science",
+        "research direction",
+        "idea atoms",
+        "ICLR 2026"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-016",
+      "title": "Improving LLM Safety Alignment with Dual-Objective Optimization",
+      "category": "s",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2503.03710",
+      "published_date": "2026-03-05",
+      "abstract": "Identifies limitations in Direct Preference Optimization for safety. Proposes dual-objective approach disentangling DPO into robust refusal training and targeted unlearning of harmful knowledge.",
+      "keywords": [
+        "LLM safety",
+        "alignment",
+        "DPO",
+        "dual-objective optimization"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-017",
+      "title": "Altermagnetism: A New Class of Spin-Compensated Magnetic Materials with Momentum-Dependent Spin Splitting",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.Altermag",
+      "published_date": "2026-03-09",
+      "abstract": "Altermagnetism has emerged as a new class of spin compensated magnetic materials exhibiting momentum dependent spin splitting despite zero net magnetization. Opens new avenues for spintronics.",
+      "keywords": [
+        "altermagnetism",
+        "spintronics",
+        "magnetic materials",
+        "spin splitting"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-018",
+      "title": "High-Fidelity Controlled-Unitary Gates via Rydberg Anti-Blockade Holonomic Quantum Computation",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.RydbergHQC",
+      "published_date": "2026-03-16",
+      "abstract": "High-fidelity controlled-unitary gates based on non-adiabatic holonomic quantum computation using Rydberg anti-blockade. Achieves suitable evolution paths through reverse engineering of pulse parameters.",
+      "keywords": [
+        "Rydberg atoms",
+        "holonomic gates",
+        "quantum computation",
+        "high fidelity"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-019",
+      "title": "CARE-RFT: Confidence-Anchored Reinforcement Finetuning for Reliable Reasoning in LLMs",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.CARERFT",
+      "published_date": "2026-03-12",
+      "abstract": "Confidence-anchored reinforcement finetuning for reliable reasoning in LLMs, accepted at IEEE Conference on AI 2026. Calibrates model confidence during chain-of-thought reasoning.",
+      "keywords": [
+        "reinforcement finetuning",
+        "reasoning",
+        "confidence calibration",
+        "LLM"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-020",
+      "title": "Specialized Pretraining (SPT): Domain-Specific Foundation Models with 1.75x Compute Reduction",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.SPT",
+      "published_date": "2026-03-14",
+      "abstract": "SPT consistently improves domain test loss by 0.8-2.0% and reduces required compute by up to 1.75x compared to conventional finetuning. Demonstrates that domain-specific pretraining outperforms generic pretraining+finetuning.",
+      "keywords": [
+        "specialized pretraining",
+        "compute efficiency",
+        "domain adaptation",
+        "foundation models"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-021",
+      "title": "Multimodal Fact-Level Attribution (MuRGAt): Verifiable Reasoning Across Video, Audio, and Text",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2602.11509",
+      "published_date": "2026-02-15",
+      "abstract": "Benchmark for evaluating fact-level multimodal attribution requiring reasoning beyond direct observation. Models must generate answers with explicit reasoning and precise citations across modalities.",
+      "keywords": [
+        "multimodal",
+        "attribution",
+        "verifiable reasoning",
+        "fact checking"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-022",
+      "title": "SurgSigma: Large-Scale Multimodal Foundation Models for Surgical Intelligence with Hierarchical Chain-of-Thought",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.16822",
+      "published_date": "2026-03-19",
+      "abstract": "Surg-R1 reasoning-enhanced multimodal foundation model interprets complex surgical scenes through hierarchical chain-of-thought reasoning. Large-scale multimodal data for surgical intelligence.",
+      "keywords": [
+        "surgical AI",
+        "foundation models",
+        "chain-of-thought",
+        "medical AI"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-023",
+      "title": "ComFree-Sim: GPU-Parallelized Analytical Contact Physics Engine for Scalable Robotics Simulation",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.ComFree",
+      "published_date": "2026-03-15",
+      "abstract": "GPU-parallelized analytical contact physics engine for scalable contact-rich robotics simulation and control. Eliminates need for complementarity problem solving.",
+      "keywords": [
+        "physics simulation",
+        "robotics",
+        "GPU parallel",
+        "contact physics"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-024",
+      "title": "MedAI: Evaluating TxAgent Therapeutic Agentic Reasoning in NeurIPS CURE-Bench",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2601.MedAI",
+      "published_date": "2026-01-22",
+      "abstract": "Evaluation of therapeutic agentic reasoning systems in the NeurIPS CURE-Bench competition. TxAgent demonstrates planning and reasoning for drug interaction analysis and treatment recommendation.",
+      "keywords": [
+        "medical AI",
+        "therapeutic reasoning",
+        "drug interaction",
+        "NeurIPS"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-025",
+      "title": "ReloQate: Transient Drift Detection and In-Situ Recalibration in Surface Code Quantum Error Correction",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.ReloQate",
+      "published_date": "2026-03-17",
+      "abstract": "Novel approach for detecting and correcting transient drift in surface code quantum error correction. In-situ recalibration improves logical error rates without interrupting computation.",
+      "keywords": [
+        "quantum error correction",
+        "surface codes",
+        "drift detection",
+        "recalibration"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-026",
+      "title": "Continual Meta-Learning: LLM Agents Jointly Evolving Policies and Reusable Behavioral Skills",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.CML",
+      "published_date": "2026-03-11",
+      "abstract": "Framework enabling LLM agents to jointly evolve policies and reusable behavioral skills while minimizing downtime. Achieves continual adaptation without catastrophic forgetting.",
+      "keywords": [
+        "continual learning",
+        "meta-learning",
+        "LLM agents",
+        "behavioral skills"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-027",
+      "title": "DAM-VLA: Dynamic Action Model-Based Vision-Language-Action Framework for Robot Manipulation",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.DAMVLA",
+      "published_date": "2026-03-13",
+      "abstract": "Dynamic action model-based VLA framework for robot manipulation. Integrates dynamic models with vision-language grounding for more precise and adaptive robotic control.",
+      "keywords": [
+        "VLA",
+        "robot manipulation",
+        "dynamic models",
+        "vision-language"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-028",
+      "title": "Bridging Embodiment Gaps: Deploying Vision-Language-Action Models on Soft Robots",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2510.17369",
+      "published_date": "2026-03-08",
+      "abstract": "Methods for deploying VLA models trained on rigid robots to soft robots with fundamentally different dynamics. Addresses the embodiment gap in robot learning transfer.",
+      "keywords": [
+        "soft robotics",
+        "VLA transfer",
+        "embodiment gap",
+        "robot learning"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-029",
+      "title": "Wild-Drive: Off-Road Scene Captioning and Path Planning via Robust Multi-modal Routing and Efficient LLMs",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.WildDrive",
+      "published_date": "2026-03-14",
+      "abstract": "Combines vision and language models for autonomous navigation in off-road environments. Robust multi-modal routing with efficient LLMs for scene understanding and path planning.",
+      "keywords": [
+        "autonomous driving",
+        "off-road",
+        "multimodal",
+        "path planning"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-030",
+      "title": "MM-THEBench: Comprehensive Benchmark for Hallucinations in Reasoning MLLMs",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2601.22735",
+      "published_date": "2026-01-28",
+      "abstract": "Comprehensive benchmark for assessing hallucinations of intermediate chain-of-thought in reasoning multimodal LLMs. Reveals systematic patterns in reasoning hallucinations.",
+      "keywords": [
+        "hallucination",
+        "reasoning",
+        "MLLM",
+        "benchmark"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-031",
+      "title": "Mechanism Design with Learning Agents: Self-Confirming Mechanisms and Optimal Beliefs",
+      "category": "E",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.MechDesign",
+      "published_date": "2026-03-16",
+      "abstract": "Formalizes self-confirming mechanisms in environments where designers learn from agents behavior. Shows equilibrium mechanisms are optimal given the designers belief.",
+      "keywords": [
+        "mechanism design",
+        "learning",
+        "game theory",
+        "equilibrium"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-032",
+      "title": "NIST FIPS 205: Post-Quantum Cryptographic Standards and Timeline for Algorithm Deprecation",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.PQC-NIST",
+      "published_date": "2026-03-10",
+      "abstract": "Analysis of NIST post-quantum cryptographic standards with plans to deprecate quantum-vulnerable algorithms (RSA, ECDSA, EdDSA, DH, ECDH) by 2030 and fully retire by 2035.",
+      "keywords": [
+        "post-quantum cryptography",
+        "NIST",
+        "algorithm deprecation",
+        "quantum resistance"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-033",
+      "title": "CARE: Clinical Accountability in Multi-Modal Medical Reasoning with Evidence-Grounded Agentic Framework",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.CARE",
+      "published_date": "2026-03-05",
+      "abstract": "Accepted at ICLR 2026. Evidence-grounded agentic framework for clinical accountability in multi-modal medical reasoning. Addresses hallucination risk in medical AI through citation-anchored responses.",
+      "keywords": [
+        "medical AI",
+        "clinical reasoning",
+        "evidence grounding",
+        "ICLR 2026"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-034",
+      "title": "The Alignment Flywheel: Governance-Centric Hybrid MAS for Architecture-Agnostic Safety",
+      "category": "s",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.AlignFlywheel",
+      "published_date": "2026-03-18",
+      "abstract": "Proposes governance-centric hybrid multi-agent system that achieves architecture-agnostic safety through iterative alignment refinement. Creates positive feedback loop between deployment and alignment.",
+      "keywords": [
+        "AI alignment",
+        "multi-agent safety",
+        "governance",
+        "flywheel"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-035",
+      "title": "Paired Serial Dictatorship: Pareto Efficient and Envy-Free Allocation Mechanisms",
+      "category": "E",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.PSD",
+      "published_date": "2026-03-15",
+      "abstract": "Paired serial dictatorship mechanism where agents signal preferences to determine priority. Any deterministic allocation is Pareto efficient and envy-free, dominating random serial dictatorship.",
+      "keywords": [
+        "mechanism design",
+        "allocation",
+        "Pareto efficiency",
+        "envy-free"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-036",
+      "title": "RoboReward: Automated Training and Evaluation of Vision-Language Reward Models for Robotics",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.RoboReward",
+      "published_date": "2026-01-25",
+      "abstract": "Open-source dataset and benchmark for automating training and evaluation of vision-language reward models for robotics. Reduces human labeling requirements by 80%.",
+      "keywords": [
+        "reward models",
+        "robotics",
+        "vision-language",
+        "automated evaluation"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-037",
+      "title": "Boltzmann-Based Exploration for Robust Decentralized Multi-Agent Planning",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.BoltzExplore",
+      "published_date": "2026-03-17",
+      "abstract": "Boltzmann-based exploration strategy for robust decentralized multi-agent planning. Achieves near-optimal coordination without centralized communication in stochastic environments.",
+      "keywords": [
+        "multi-agent planning",
+        "Boltzmann exploration",
+        "decentralized",
+        "coordination"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-038",
+      "title": "Autonomous O-RAN: Multi-Scale Agentic AI Framework for Real-Time Network Control",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2602.14117",
+      "published_date": "2026-02-19",
+      "abstract": "Multi-scale agentic AI framework for real-time network control and management in O-RAN architecture. Enables autonomous network optimization across multiple temporal and spatial scales.",
+      "keywords": [
+        "O-RAN",
+        "agentic AI",
+        "network control",
+        "autonomous optimization"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-039",
+      "title": "MM-BRIGHT: Multi-Task Multimodal Benchmark for Reasoning-Intensive Retrieval",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2601.09562",
+      "published_date": "2026-01-16",
+      "abstract": "First multimodal benchmark for reasoning-intensive retrieval. 2,803 real-world queries spanning 29 technical domains with four tasks of increasing complexity across modalities.",
+      "keywords": [
+        "multimodal retrieval",
+        "reasoning",
+        "benchmark",
+        "cross-modal"
+      ],
+      "added_date": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260320-040",
+      "title": "Domain-Direct Band Gaps: Extreme 2D-2D Band Gap Engineering in Twisted Diamond",
+      "category": "T",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2603.DomainBG",
+      "published_date": "2026-03-12",
+      "abstract": "Introduces domain-direct band gaps as a concept with material realization of extreme 2D-2D domain-direct band gap in twisted diamond. Opens pathways for novel optoelectronic devices.",
+      "keywords": [
+        "band gap engineering",
+        "twisted diamond",
+        "2D materials",
+        "optoelectronics"
+      ],
+      "added_date": "2026-03-20"
     }
   ],
-  "total_signals": 175,
-  "last_updated": "2026-02-24T23:15:35.768050+00:00"
+  "total_signals": 1317,
+  "last_updated": "2026-03-20T08:39:25.062636"
 }

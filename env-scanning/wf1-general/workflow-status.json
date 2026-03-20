@@ -1,30 +1,32 @@
 {
   "workflow": "wf1-general",
   "status": "completed",
-  "date": "2026-03-11",
-  "started_at": "2026-03-10T22:59:22Z",
-  "completed_at": "2026-03-11T08:30:00Z",
-  "signal_count": 25,
-  "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-11.md",
-  "report_ko_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-11-ko.md",
+  "date": "2026-03-19",
+  "started_at": "2026-03-19T00:45:50Z",
+  "completed_at": "2026-03-19T01:04:18.933634+00:00",
+  "signal_count": 53,
+  "sources_scanned": 34,
+  "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-19.md",
+  "report_ko_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-19-ko.md",
   "verification_summary": {
-    "passed": 18,
-    "warned": 0,
-    "failed": 0
+    "L2a_en": "18/18 PASS",
+    "L2a_ko": "17/17 PASS",
+    "L2b": "10/14 (0 CRITICAL)"
   },
   "human_approvals": {
     "step_2_5": {
       "decision": "approved",
-      "mode": "autopilot"
+      "timestamp": "2026-03-19T09:00:00Z"
     },
     "step_3_4": {
       "decision": "approved",
-      "mode": "autopilot"
+      "timestamp": "2026-03-19T01:04:18.933785+00:00"
     }
   },
   "phases": {
     "phase1": "completed",
     "phase2": "completed",
     "phase3": "completed"
-  }
+  },
+  "archived": true
 }

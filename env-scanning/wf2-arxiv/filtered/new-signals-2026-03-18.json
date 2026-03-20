@@ -1,0 +1,389 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "2.0.0",
+  "checked_at": "2026-03-18T01:22:57.413484+00:00",
+  "workflow": "wf2-arxiv",
+  "signals_file": "/Users/c/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4/env-scanning/wf2-arxiv/raw/daily-scan-2026-03-18.json",
+  "previous_file": "/Users/c/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4/env-scanning/wf2-arxiv/signals/database.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "9 definite duplicate(s) removed. 35 uncertain signal(s) flagged for LLM review. 14 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3,
+    "title_similarity_definite": 0.9,
+    "title_similarity_uncertain": 0.8,
+    "entity_overlap_definite": 0.85,
+    "entity_overlap_uncertain": 0.7
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 58,
+    "definite_new": 14,
+    "definite_duplicates": 9,
+    "uncertain": 35,
+    "pass_through": 49
+  },
+  "stage_breakdown": {
+    "A_url": 3,
+    "B_topic": 6,
+    "C_title": 0,
+    "D_entity": 0
+  },
+  "duplicates": [
+    {
+      "signal_id": "arxiv-2603.09008",
+      "signal_title": "Scaling Quantum Machine Learning: Variational Image Generation Beyond Classical Simulability",
+      "matched_signal_id": "arxiv-2026-03-12-046",
+      "matched_title": "Photonic Quantum Machine Learning under Noise",
+      "stage": "B_topic",
+      "score": 0.6
+    },
+    {
+      "signal_id": "arxiv-2603.08853",
+      "signal_title": "LLM-Agent Interactions on Markets with Information Asymmetries",
+      "matched_signal_id": "arxiv-2026-03-12-010",
+      "matched_title": "LLM-Agent Interactions on Markets with Information Asymmetries",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.07213",
+      "signal_title": "From Debt Crises to Financial Crashes: A Stock-Flow Consistent Model for Stock Price Bubbles",
+      "matched_signal_id": "arxiv-2026-03-12-039",
+      "matched_title": "From debt crises to financial crashes (and back): a stock-flow consistent model for stock price bubbles",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.01820",
+      "signal_title": "Deep Learning for Financial Time Series: A Large-Scale Benchmark of Risk-Adjusted Performance",
+      "matched_signal_id": "arxiv-2603.10999",
+      "matched_title": "Double Machine Learning for Time Series",
+      "stage": "B_topic",
+      "score": 0.6
+    },
+    {
+      "signal_id": "arxiv-2603.00048",
+      "signal_title": "MOSAIC: Unveiling the Moral, Social, and Individual Dimensions of Large Language Models",
+      "matched_signal_id": "wf2-2603.04276v1",
+      "matched_title": "Causality Elicitation from Large Language Models",
+      "stage": "B_topic",
+      "score": 0.6
+    },
+    {
+      "signal_id": "arxiv-2603.04939",
+      "signal_title": "When Minor Issues Matter: Symmetries, Pluralism, and Polarization in Opinion Dynamics",
+      "matched_signal_id": "wf2-2603.04939v1",
+      "matched_title": "When minor issues matter: symmetries, pluralism, and polarization in similarity-based opinion dynamics",
+      "stage": "B_topic",
+      "score": 0.9
+    },
+    {
+      "signal_id": "arxiv-2603.10221",
+      "signal_title": "The Propensity for Disobedience: Rule-Breaking, Compliance, and Social Phase Transitions",
+      "matched_signal_id": "arxiv-2603.10221",
+      "matched_title": "The propensity for disobedience: Rule-breaking, compliance and social phase transitions",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.01855",
+      "signal_title": "Quantum-PROBE: Rydberg Atomic Receiver for Multi-Angle RF Sensing with Quantum Advantage",
+      "matched_signal_id": "arxiv-2026-03-12-003",
+      "matched_title": "Has quantum advantage been achieved?",
+      "stage": "B_topic",
+      "score": 0.6667
+    },
+    {
+      "signal_id": "arxiv-2603.03555",
+      "signal_title": "Molt Dynamics: Emergent Social Phenomena in Autonomous AI Agent Populations",
+      "matched_signal_id": "wf2-2603.03555",
+      "matched_title": "",
+      "stage": "A_url",
+      "score": 1.0
+    }
+  ],
+  "uncertain_signals": [
+    {
+      "signal_id": "arxiv-2603.09001",
+      "signal_title": "DeepSeek mHC: Manifold-Constrained Hyper-Connections for Scalable Transformer Architectures",
+      "matched_signal_id": "arxiv-2603.05621v1",
+      "matched_title": "RACAS: Controlling Diverse Robots With a Single Agentic System",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.09002",
+      "signal_title": "ScienceClaw + Infinite: Autonomous Multi-Agent Framework for Iterative Scientific Discovery",
+      "matched_signal_id": "wf2-2603.05342v1",
+      "matched_title": "Scientific performance of on-board analyses for the SVOM X-ray telescope MXT",
+      "stage": "C_title",
+      "score": 0.8216
+    },
+    {
+      "signal_id": "arxiv-2603.09003",
+      "signal_title": "LTX-2: Unified Audiovisual Diffusion for Synchronized Video-Audio Generation",
+      "matched_signal_id": "arxiv-2603.06577v1",
+      "matched_title": "Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion",
+      "stage": "B_topic",
+      "score": 0.4444
+    },
+    {
+      "signal_id": "arxiv-2603.09005",
+      "signal_title": "Breaking the Factorization Barrier in Discrete Diffusion Language Models",
+      "matched_signal_id": "wf2-2603.04324v1",
+      "matched_title": "Breaking Bad Email Habits: Bounding the Impact of Simulated Phishing Campaigns",
+      "stage": "C_title",
+      "score": 0.8409
+    },
+    {
+      "signal_id": "arxiv-2603.04584",
+      "signal_title": "Fault-Tolerant Execution of Error-Corrected Quantum Algorithms on Trapped-Ion Processors",
+      "matched_signal_id": "wf2-2603.04758v1",
+      "matched_title": "Quantum Algorithms for Network Signal Coordination",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.09007",
+      "signal_title": "ReloQate: Real-Time Recalibration of Surface Code Quantum Error Correction",
+      "matched_signal_id": "arxiv-20260224-007",
+      "matched_title": "Quantum Error Correction and Dynamical Decoupling: Better Together or Apart?",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "arxiv-2603.12128",
+      "signal_title": "How Vulnerable is India's Economy to Foreign Sanctions? A Network Analysis",
+      "matched_signal_id": "arxiv-20260224-028",
+      "matched_title": "How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning",
+      "stage": "C_title",
+      "score": 0.8433
+    },
+    {
+      "signal_id": "arxiv-2603.08603",
+      "signal_title": "A Dynamic Equilibrium Model for Automated Market Makers in DeFi",
+      "matched_signal_id": "wf2-2603.04916v1",
+      "matched_title": "A Dynamical Lie-Algebraic Framework for Hamiltonian Engineering and Quantum Control",
+      "stage": "C_title",
+      "score": 0.8238
+    },
+    {
+      "signal_id": "arxiv-2603.00068",
+      "signal_title": "The Global Landscape of Environmental AI Regulation: A Comparative Framework",
+      "matched_signal_id": "arxiv-2603.05789v1",
+      "matched_title": "The Coordination Gap: Alternation Metrics for Temporal Dynamics in Multi-Agent Battle of the Exes",
+      "stage": "C_title",
+      "score": 0.8324
+    },
+    {
+      "signal_id": "arxiv-2603.00065",
+      "signal_title": "Self-Service or Not? Guiding Practitioners in Classifying AI Systems Under the EU AI Act",
+      "matched_signal_id": "arxiv-20260224-006",
+      "matched_title": "Self-Correction Phase Transition in the Dissipative Toric Code",
+      "stage": "C_title",
+      "score": 0.8413
+    },
+    {
+      "signal_id": "arxiv-2603.03515",
+      "signal_title": "The Controllability Trap: A Governance Framework for Military AI Agents",
+      "matched_signal_id": "arxiv-2603.10017",
+      "matched_title": "The science and practice of proportionality in AI risk evaluations",
+      "stage": "C_title",
+      "score": 0.8361
+    },
+    {
+      "signal_id": "arxiv-2603.02640",
+      "signal_title": "Credibility Governance: Social Mechanisms for Collective Self-Correction in AI-Mediated Information",
+      "matched_signal_id": "wf2-2603.04172v1",
+      "matched_title": "The Pivotal Information Criterion",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.00164",
+      "signal_title": "Reverse CAPTCHA: Evaluating LLM Susceptibility to Invisible Unicode Instruction Injection",
+      "matched_signal_id": "wf2-2603.04726v1",
+      "matched_title": "Revealing the Topology invariance of vectorial vortex beam in complex media",
+      "stage": "C_title",
+      "score": 0.8065
+    },
+    {
+      "signal_id": "arxiv-2603.00732",
+      "signal_title": "UniHM: Unified Dexterous Hand Manipulation via Vision-Language-Action Models",
+      "matched_signal_id": "wf2-20260219-008",
+      "matched_title": "One Hand to Rule Them All: Canonical Representations for Unified Dexterous Robot Manipulation",
+      "stage": "B_topic",
+      "score": 0.4444
+    },
+    {
+      "signal_id": "arxiv-2603.01151",
+      "signal_title": "D-REX: Differentiable Real-to-Sim-to-Real for Learning Dexterous Grasping",
+      "matched_signal_id": "arxiv-2602.15817v1",
+      "matched_title": "Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.01113",
+      "signal_title": "From Dialogue to Execution: Mixture-of-Agents for Behavior Tree-Based Long-Horizon Robot Tasks",
+      "matched_signal_id": "wf2-2603.05279v1",
+      "matched_title": "From Code to Road: A Vehicle-in-the-Loop and Digital Twin-Based Framework for Central Car Server Testing in Autonomous Driving",
+      "stage": "C_title",
+      "score": 0.8263
+    },
+    {
+      "signal_id": "arxiv-2603.00534",
+      "signal_title": "Pressure-Tuned Double-Dome Superconductivity in KZnBi with Honeycomb Lattice",
+      "matched_signal_id": "wf2-2603.04251v2",
+      "matched_title": "Predicting oscillations in complex networks with delayed feedback",
+      "stage": "C_title",
+      "score": 0.8146
+    },
+    {
+      "signal_id": "arxiv-2603.00648",
+      "signal_title": "High-Temperature Superconductivity in Hydrogenated Hexagonal BC3 Monolayer via Sigma-Band Mechanism",
+      "matched_signal_id": "wf2-2603.04578v1",
+      "matched_title": "High Purity OAM Entangled Photons from SPDC with Reduced Spatial Spectral Correlations",
+      "stage": "C_title",
+      "score": 0.8226
+    },
+    {
+      "signal_id": "arxiv-2603.00193",
+      "signal_title": "Multimodal Alignment Improves Generalizability of Genomic Biomarker Prediction in Computational Pathology",
+      "matched_signal_id": "wf2-2603.05238v1",
+      "matched_title": "Multi-fidelity Machine Learning Interatomic Potentials for Charged Point Defects",
+      "stage": "C_title",
+      "score": 0.8339
+    },
+    {
+      "signal_id": "arxiv-2603.07331",
+      "signal_title": "Causal Attribution of Coastal Water Clarity Degradation to Nickel Processing Expansion in Indonesia",
+      "matched_signal_id": "wf2-2603.05018v1",
+      "matched_title": "Causal Fermion Systems, Non-Commutative Geometry and Generalized Trace Dynamics",
+      "stage": "C_title",
+      "score": 0.8016
+    },
+    {
+      "signal_id": "arxiv-2603.07227",
+      "signal_title": "Estimating Changes in Extreme Temperature Quantiles: Applied to Desert Temperature Records",
+      "matched_signal_id": "wf2-2603.04570v1",
+      "matched_title": "Estimation of Persistence Diagrams via the Three Gap Theorem",
+      "stage": "C_title",
+      "score": 0.8333
+    },
+    {
+      "signal_id": "arxiv-2603.00130",
+      "signal_title": "Agentic Hives: Equilibrium, Indeterminacy, and Endogenous Cycles in Self-Organizing Autonomous Systems",
+      "matched_signal_id": "arxiv-2603.10342",
+      "matched_title": "AgentServe: Algorithm-System Co-Design for Efficient Agentic AI Serving on a Consumer-Grade GPU",
+      "stage": "C_title",
+      "score": 0.8377
+    },
+    {
+      "signal_id": "arxiv-2603.01045",
+      "signal_title": "Silo-Bench: Evaluating Distributed Coordination in Multi-Agent LLM Systems at Scale",
+      "matched_signal_id": "arxiv-2603.10388",
+      "matched_title": "Silent Subversion: Sensor Spoofing Attacks via Supply Chain Implants in Satellite Systems",
+      "stage": "C_title",
+      "score": 0.807
+    },
+    {
+      "signal_id": "arxiv-2603.04474",
+      "signal_title": "From Spark to Fire: Error Cascades and Mitigation in Multi-Agent LLM Collaboration",
+      "matched_signal_id": "wf2-2603.04495v1",
+      "matched_title": "From BPS geodesics to mode-driven dynamics in the scattering of multiple BPS vortices",
+      "stage": "C_title",
+      "score": 0.833
+    },
+    {
+      "signal_id": "arxiv-2603.00173",
+      "signal_title": "Summer-22B: A Systematic Approach to Video Foundation Model Development at Scale",
+      "matched_signal_id": "wf2-2603.04105v1",
+      "matched_title": "A Random Rule Model",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.00136",
+      "signal_title": "TinyVLM: Zero-Shot Object Detection on Microcontrollers via Knowledge Distillation",
+      "matched_signal_id": "wf2-2603.05365v1",
+      "matched_title": "Detection of C3 in Titan with VLT-ESPRESSO",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.00729",
+      "signal_title": "Qwen3-Coder-Next: Advancing Code-Focused Language Models with Execution-Guided Training",
+      "matched_signal_id": "arxiv-2603.10055",
+      "matched_title": "Training Language Models via Neural Cellular Automata",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "arxiv-2603.00296",
+      "signal_title": "Length-Efficient Chain-of-Thought: Reducing Reasoning Verbosity Without Sacrificing Accuracy",
+      "matched_signal_id": "wf2-2603.05488v1",
+      "matched_title": "Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.01192",
+      "signal_title": "Grokking as a Phase Transition: Understanding Delayed Generalization Through Singular Learning Theory",
+      "matched_signal_id": "wf2-20260210-003",
+      "matched_title": "Grounding Generative Planners in Verifiable Logic: A Hybrid Architecture for Trustworthy Embodied AI",
+      "stage": "C_title",
+      "score": 0.8043
+    },
+    {
+      "signal_id": "arxiv-2603.00520",
+      "signal_title": "SWE-ABS: Adversarial Benchmark Strengthening Reveals Inflated Success Rates in Code Agents",
+      "matched_signal_id": "arxiv-20260226-016",
+      "matched_title": "SWE-Protege: Small LMs as Software Engineering Agents",
+      "stage": "C_title",
+      "score": 0.8031
+    },
+    {
+      "signal_id": "arxiv-2603.01327",
+      "signal_title": "SWE-Adept: Agentic Framework for Deep Repository-Level Code Understanding and Issue Resolution",
+      "matched_signal_id": "arxiv-20260226-016",
+      "matched_title": "SWE-Protege: Small LMs as Software Engineering Agents",
+      "stage": "C_title",
+      "score": 0.805
+    },
+    {
+      "signal_id": "arxiv-2603.12417",
+      "signal_title": "Topology as Information: Network Effects in Corporate Lending and Systemic Risk",
+      "matched_signal_id": "wf2-2603.04149v1",
+      "matched_title": "Topological Origin of the Diversity of Timescales in Recurrent Neural Circuits",
+      "stage": "C_title",
+      "score": 0.8353
+    },
+    {
+      "signal_id": "arxiv-2603.01042",
+      "signal_title": "Thoth: Bridging Language Models to Time Series Understanding via Mid-Training Integration",
+      "matched_signal_id": "wf2-2603.04276v1",
+      "matched_title": "Causality Elicitation from Large Language Models",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.00185",
+      "signal_title": "ThreatFormer-IDS: Robust Intrusion Detection with Zero-Day Generalization",
+      "matched_signal_id": "wf2-2603.05365v1",
+      "matched_title": "Detection of C3 in Titan with VLT-ESPRESSO",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.01109",
+      "signal_title": "A Stochastic Correlation Extension of the Vasicek Credit Risk Model for Macro-Prudential Stress Testing",
+      "matched_signal_id": "wf2-2603.05038v1",
+      "matched_title": "A stabilizer interpretation of the (extended) linearized double shuffle Lie algebra",
+      "stage": "C_title",
+      "score": 0.8023
+    }
+  ]
+}

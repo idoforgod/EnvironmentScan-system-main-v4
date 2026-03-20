@@ -1,0 +1,1693 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf1-general",
+  "scan_date": "2026-03-20",
+  "computed_at": "2026-03-19T23:23:58Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 53,
+    "new_signals": 53,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 47,
+    "active_threads": 156
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "websearch-20260320-001",
+      "thread_id": "THREAD-WF1-382",
+      "canonical_title": "websearch-20260320-001",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-001",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-002",
+      "thread_id": "THREAD-WF1-383",
+      "canonical_title": "websearch-20260320-002",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-002",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-003",
+      "thread_id": "THREAD-WF1-384",
+      "canonical_title": "websearch-20260320-003",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-003",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-004",
+      "thread_id": "THREAD-WF1-385",
+      "canonical_title": "websearch-20260320-004",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-004",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-005",
+      "thread_id": "THREAD-WF1-386",
+      "canonical_title": "websearch-20260320-005",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-005",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-006",
+      "thread_id": "THREAD-WF1-387",
+      "canonical_title": "websearch-20260320-006",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-006",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-007",
+      "thread_id": "THREAD-WF1-388",
+      "canonical_title": "websearch-20260320-007",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-007",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-008",
+      "thread_id": "THREAD-WF1-389",
+      "canonical_title": "websearch-20260320-008",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-008",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-009",
+      "thread_id": "THREAD-WF1-390",
+      "canonical_title": "websearch-20260320-009",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-009",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-010",
+      "thread_id": "THREAD-WF1-391",
+      "canonical_title": "websearch-20260320-010",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-010",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-011",
+      "thread_id": "THREAD-WF1-392",
+      "canonical_title": "websearch-20260320-011",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-011",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-012",
+      "thread_id": "THREAD-WF1-393",
+      "canonical_title": "websearch-20260320-012",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-012",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-013",
+      "thread_id": "THREAD-WF1-394",
+      "canonical_title": "websearch-20260320-013",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-013",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-014",
+      "thread_id": "THREAD-WF1-395",
+      "canonical_title": "websearch-20260320-014",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-014",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-015",
+      "thread_id": "THREAD-WF1-396",
+      "canonical_title": "websearch-20260320-015",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-015",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-016",
+      "thread_id": "THREAD-WF1-397",
+      "canonical_title": "websearch-20260320-016",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-016",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-017",
+      "thread_id": "THREAD-WF1-398",
+      "canonical_title": "websearch-20260320-017",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-017",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-018",
+      "thread_id": "THREAD-WF1-399",
+      "canonical_title": "websearch-20260320-018",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-018",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-019",
+      "thread_id": "THREAD-WF1-400",
+      "canonical_title": "websearch-20260320-019",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-019",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-020",
+      "thread_id": "THREAD-WF1-401",
+      "canonical_title": "websearch-20260320-020",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-020",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-021",
+      "thread_id": "THREAD-WF1-402",
+      "canonical_title": "websearch-20260320-021",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-021",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-022",
+      "thread_id": "THREAD-WF1-403",
+      "canonical_title": "websearch-20260320-022",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-022",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-023",
+      "thread_id": "THREAD-WF1-404",
+      "canonical_title": "websearch-20260320-023",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-023",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-024",
+      "thread_id": "THREAD-WF1-405",
+      "canonical_title": "websearch-20260320-024",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-024",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-025",
+      "thread_id": "THREAD-WF1-406",
+      "canonical_title": "websearch-20260320-025",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-025",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-026",
+      "thread_id": "THREAD-WF1-407",
+      "canonical_title": "websearch-20260320-026",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-026",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-027",
+      "thread_id": "THREAD-WF1-408",
+      "canonical_title": "websearch-20260320-027",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-027",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-028",
+      "thread_id": "THREAD-WF1-409",
+      "canonical_title": "websearch-20260320-028",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-028",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-029",
+      "thread_id": "THREAD-WF1-410",
+      "canonical_title": "websearch-20260320-029",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-029",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-030",
+      "thread_id": "THREAD-WF1-411",
+      "canonical_title": "websearch-20260320-030",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-030",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-031",
+      "thread_id": "THREAD-WF1-412",
+      "canonical_title": "websearch-20260320-031",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-031",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-032",
+      "thread_id": "THREAD-WF1-413",
+      "canonical_title": "websearch-20260320-032",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-032",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-033",
+      "thread_id": "THREAD-WF1-414",
+      "canonical_title": "websearch-20260320-033",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-033",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-034",
+      "thread_id": "THREAD-WF1-415",
+      "canonical_title": "websearch-20260320-034",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-034",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-035",
+      "thread_id": "THREAD-WF1-416",
+      "canonical_title": "websearch-20260320-035",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-035",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-036",
+      "thread_id": "THREAD-WF1-417",
+      "canonical_title": "websearch-20260320-036",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-036",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-037",
+      "thread_id": "THREAD-WF1-418",
+      "canonical_title": "websearch-20260320-037",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-037",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-038",
+      "thread_id": "THREAD-WF1-419",
+      "canonical_title": "websearch-20260320-038",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-038",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-039",
+      "thread_id": "THREAD-WF1-420",
+      "canonical_title": "websearch-20260320-039",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-039",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-040",
+      "thread_id": "THREAD-WF1-421",
+      "canonical_title": "websearch-20260320-040",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-040",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-041",
+      "thread_id": "THREAD-WF1-422",
+      "canonical_title": "websearch-20260320-041",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-041",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-042",
+      "thread_id": "THREAD-WF1-423",
+      "canonical_title": "websearch-20260320-042",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-042",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-043",
+      "thread_id": "THREAD-WF1-424",
+      "canonical_title": "websearch-20260320-043",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-043",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-044",
+      "thread_id": "THREAD-WF1-425",
+      "canonical_title": "websearch-20260320-044",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-044",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-045",
+      "thread_id": "THREAD-WF1-426",
+      "canonical_title": "websearch-20260320-045",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-045",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-046",
+      "thread_id": "THREAD-WF1-427",
+      "canonical_title": "websearch-20260320-046",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-046",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-047",
+      "thread_id": "THREAD-WF1-428",
+      "canonical_title": "websearch-20260320-047",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-047",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-048",
+      "thread_id": "THREAD-WF1-429",
+      "canonical_title": "websearch-20260320-048",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-048",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-049",
+      "thread_id": "THREAD-WF1-430",
+      "canonical_title": "websearch-20260320-049",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-049",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-050",
+      "thread_id": "THREAD-WF1-431",
+      "canonical_title": "websearch-20260320-050",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-050",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-051",
+      "thread_id": "THREAD-WF1-432",
+      "canonical_title": "websearch-20260320-051",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-051",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-052",
+      "thread_id": "THREAD-WF1-433",
+      "canonical_title": "websearch-20260320-052",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-052",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "websearch-20260320-053",
+      "thread_id": "THREAD-WF1-434",
+      "canonical_title": "websearch-20260320-053",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "websearch-20260320-053",
+          "psst": 31.3
+        }
+      ]
+    }
+  ],
+  "faded_threads": [
+    {
+      "thread_id": "THREAD-WF1-232",
+      "canonical_title": "Nvidia Unveils Vera Rubin Architecture and $1T Revenue Projection at GTC 2026",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-233",
+      "canonical_title": "Nvidia NemoClaw: Open Enterprise AI Agent Platform with Security Focus",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-234",
+      "canonical_title": "Warren Presses Pentagon Over xAI Access to Classified Networks",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-235",
+      "canonical_title": "xAI Faces Child Safety Lawsuit Over Grok AI Image Generation",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-236",
+      "canonical_title": "Memories AI: Visual Memory Layer for Wearables and Robotics",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-237",
+      "canonical_title": "Samsung Invests in GridBeyond: Software-Battery Grid Balancing",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-238",
+      "canonical_title": "Merriam-Webster and Britannica Sue OpenAI Over 100K Articles",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-239",
+      "canonical_title": "Shopify Prepares for AI Shopping Agents to Transform E-Commerce",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-240",
+      "canonical_title": "Frore Deep Tech Chip Startup Reaches $1.64B Unicorn Valuation",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-241",
+      "canonical_title": "PhonePe Shelves $10B IPO as Geopolitical Tensions Rattle Markets",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-242",
+      "canonical_title": "Billionaires Withdrawing from Giving Pledge Signals Philanthropy Shift",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-243",
+      "canonical_title": "OpenAI Technology in Military Applications: Iran Operations Context",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-244",
+      "canonical_title": "Agentic AI Governance: Beyond the Toddler Stage",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-245",
+      "canonical_title": "Glass-Based AI Chips and AI-Free Product Labels Emerge",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-246",
+      "canonical_title": "China Approves World's First Commercial Brain-Computer Interface for Paralysis",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-247",
+      "canonical_title": "Wearable Devices Predict Insulin Resistance via Machine Learning",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-248",
+      "canonical_title": "Single Antibiotic Course Causes Lingering Gut Microbiome Changes for Years",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-249",
+      "canonical_title": "AI Weather Forecasting Reliability Under Scrutiny for Extreme Events",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-250",
+      "canonical_title": "China Intensifies Push for Tech Self-Reliance in New Five-Year Plan",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-251",
+      "canonical_title": "CFTC Launches Formal Rulemaking for Prediction Markets Regulation",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-252",
+      "canonical_title": "Drone Strikes Intensify Across Sudan: Kordofan and Darfur Under Attack",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-253",
+      "canonical_title": "UN Chief Warns of Rising Anti-Muslim Hatred Globally",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-254",
+      "canonical_title": "Mistral AI Launches Leanstral: Open-Source Trustworthy AI Coding Framework",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-255",
+      "canonical_title": "LLM Teams as Distributed Systems: New Framework for Multi-Agent Coordination",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-256",
+      "canonical_title": "US Healthcare Pricing: Commercial Insurers Pay 254% of Medicare Rates",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-257",
+      "canonical_title": "Karpathy Launches US Job Market Visualizer: AI Tracking Labor Dynamics",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-258",
+      "canonical_title": "Polymarket Gamblers Threaten Journalist Over Iran Missile Reporting",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-259",
+      "canonical_title": "Utilities Study Grid Protection Against Rising Physical and Drone Threats",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-260",
+      "canonical_title": "6G Network Evolution: From Communication to Universal AI Sensing Fabric",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-261",
+      "canonical_title": "Waabi Raises $750M for Level-4 Autonomous Trucks with Nvidia Partnership",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-262",
+      "canonical_title": "Federal Workforce Shrank 10% in Trump's First Year Back: 238,000 Workers Lost",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-263",
+      "canonical_title": "Washington DC Leads US in Regional Job Loss After Federal Cuts",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-264",
+      "canonical_title": "Strong El Nino Likely to Develop in 2026: Record Heat Year Ahead",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-265",
+      "canonical_title": "NCAR Restructuring: White House Targets Leading Climate Research Lab",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-266",
+      "canonical_title": "10% Marine Species at Extinction Risk, 40% Impacted by Climate Change",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-267",
+      "canonical_title": "EU Environment Council Meeting: Grids Package and Green Transition Debate",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-268",
+      "canonical_title": "Global Growth Slows to 2.7% in 2026 Amid Tariff and Geopolitical Headwinds",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-269",
+      "canonical_title": "Nvidia Healthcare Robotics Suite: Surgical AI with GR00T-H and Open-H Dataset",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-270",
+      "canonical_title": "Nvidia Brings AI Data Centers to Space with Space-1 Vera Rubin Systems",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-271",
+      "canonical_title": "Nvidia Quantum Chemistry Library: 30x Acceleration for Semiconductor Design",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-272",
+      "canonical_title": "Nemotron Coalition: Six Frontier Model Families Covering Language to Climate",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-273",
+      "canonical_title": "AI Ethics Backlash Intensifies: Digital Communities Resist Algorithmic Technologies",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-274",
+      "canonical_title": "BYD, Hyundai, Nissan Build Level 4 Autonomous Vehicles on Nvidia Platform",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-275",
+      "canonical_title": "Middle East Conflict Disrupts Global Energy Supplies: Oil Prices Surge",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-276",
+      "canonical_title": "Climate Science Removed from US Judicial Manual After Decades",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-277",
+      "canonical_title": "MacBook Neo Achieves Highest Repairability Score in 14 Years",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF1-278",
+      "canonical_title": "AI Coding Quality Concerns: Cursor AI Study Shows Speed vs Quality Tradeoff",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    }
+  ],
+  "new_threads_created": [
+    "THREAD-WF1-382",
+    "THREAD-WF1-383",
+    "THREAD-WF1-384",
+    "THREAD-WF1-385",
+    "THREAD-WF1-386",
+    "THREAD-WF1-387",
+    "THREAD-WF1-388",
+    "THREAD-WF1-389",
+    "THREAD-WF1-390",
+    "THREAD-WF1-391",
+    "THREAD-WF1-392",
+    "THREAD-WF1-393",
+    "THREAD-WF1-394",
+    "THREAD-WF1-395",
+    "THREAD-WF1-396",
+    "THREAD-WF1-397",
+    "THREAD-WF1-398",
+    "THREAD-WF1-399",
+    "THREAD-WF1-400",
+    "THREAD-WF1-401",
+    "THREAD-WF1-402",
+    "THREAD-WF1-403",
+    "THREAD-WF1-404",
+    "THREAD-WF1-405",
+    "THREAD-WF1-406",
+    "THREAD-WF1-407",
+    "THREAD-WF1-408",
+    "THREAD-WF1-409",
+    "THREAD-WF1-410",
+    "THREAD-WF1-411",
+    "THREAD-WF1-412",
+    "THREAD-WF1-413",
+    "THREAD-WF1-414",
+    "THREAD-WF1-415",
+    "THREAD-WF1-416",
+    "THREAD-WF1-417",
+    "THREAD-WF1-418",
+    "THREAD-WF1-419",
+    "THREAD-WF1-420",
+    "THREAD-WF1-421",
+    "THREAD-WF1-422",
+    "THREAD-WF1-423",
+    "THREAD-WF1-424",
+    "THREAD-WF1-425",
+    "THREAD-WF1-426",
+    "THREAD-WF1-427",
+    "THREAD-WF1-428",
+    "THREAD-WF1-429",
+    "THREAD-WF1-430",
+    "THREAD-WF1-431",
+    "THREAD-WF1-432",
+    "THREAD-WF1-433",
+    "THREAD-WF1-434"
+  ]
+}

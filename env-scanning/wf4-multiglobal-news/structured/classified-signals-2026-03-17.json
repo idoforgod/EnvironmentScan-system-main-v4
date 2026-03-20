@@ -1,0 +1,1201 @@
+{
+  "metadata": {
+    "workflow": "wf4-multiglobal-news",
+    "date": "2026-03-17",
+    "classified_at": "2026-03-17T01:49:20.174329+00:00",
+    "total_signals": 35,
+    "classification_method": "STEEPs + FSSF 8-type + Three Horizons + Tipping Point"
+  },
+  "signals": [
+    {
+      "id": "news-20260317-aljazeera-001",
+      "title": "Iran War Enters Third Week — Global Economy Shows Tell-Tale Signs of Crisis",
+      "steeps_category": "E_Economic",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "RED",
+        "indicators": []
+      },
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_direct",
+        "url": "https://www.aljazeera.com/news/2026/3/16/the-tell-tale-signs-how-bad-has-the-iran-war-hit-the-global-economy",
+        "published_date": "2026-03-16T06:00:00Z"
+      },
+      "content": {
+        "abstract": "The US-Israeli war on Iran and Tehran retaliatory strikes across Gulf region have upended global financial and energy markets. Oil at $90/barrel up from $60 in December. Strait of Hormuz maritime traffic at near standstill, halting oil and LNG exports. Raising concerns of global economic crisis and recession.",
+        "keywords": [
+          "Iran war",
+          "oil crisis",
+          "Hormuz",
+          "global economy",
+          "recession"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 9.5,
+        "probability": 0.7,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "news-20260317-time-001",
+      "title": "How the War With Iran Is Impacting Economies Across Asia — Inflation Wave",
+      "steeps_category": "E_Economic",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "RED",
+        "indicators": []
+      },
+      "source": {
+        "name": "Time",
+        "type": "news_direct",
+        "url": "https://time.com/article/2026/03/16/us-israel-iran-war-trump-asia-economy-oil-energy-inflation-recession/",
+        "published_date": "2026-03-16T08:00:00Z"
+      },
+      "content": {
+        "abstract": "From New Delhi to Bangkok, governments are bracing for new wave of inflation driven by disruptions in Strait of Hormuz, the world's most important energy corridor. Asia especially pronounced impact. Energy prices surge across region.",
+        "keywords": [
+          "Asia",
+          "inflation",
+          "Hormuz",
+          "energy",
+          "Iran war"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 9.5,
+        "probability": 0.7,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "news-20260317-csis-001",
+      "title": "What Does the Iran War Mean for Global Energy Markets? — CSIS Analysis",
+      "steeps_category": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "RED",
+        "indicators": []
+      },
+      "source": {
+        "name": "CSIS",
+        "type": "news_direct",
+        "url": "https://www.csis.org/analysis/what-does-iran-war-mean-global-energy-markets",
+        "published_date": "2026-03-16T10:00:00Z"
+      },
+      "content": {
+        "abstract": "CSIS analysis of Iran war impact on global energy markets. Oil price trajectories, LNG supply disruption, Hormuz Strait scenarios. Strategic implications for energy-dependent economies. Alternative supply routes and strategic reserves analysis.",
+        "keywords": [
+          "energy markets",
+          "Iran war",
+          "oil",
+          "LNG",
+          "strategic analysis"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 9.0,
+        "probability": 0.7,
+        "urgency": 9,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-wef-001",
+      "title": "The Global Price Tag of War in the Middle East — WEF Assessment",
+      "steeps_category": "E_Economic",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "RED",
+        "indicators": []
+      },
+      "source": {
+        "name": "World Economic Forum",
+        "type": "news_direct",
+        "url": "https://www.weforum.org/stories/2026/03/the-global-price-tag-of-war-in-the-middle-east/",
+        "published_date": "2026-03-16T07:00:00Z"
+      },
+      "content": {
+        "abstract": "WEF comprehensive assessment of the economic cost of Middle East conflict. Oil and natural gas prices surged since Feb 28 strikes. Brent crude rising 13% to $82/barrel on Mar 2. Shipping disruptions, trade rerouting, and financial market contagion.",
+        "keywords": [
+          "WEF",
+          "Middle East",
+          "economic cost",
+          "oil price",
+          "shipping"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 9.5,
+        "probability": 0.7,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "news-20260317-cnn-001",
+      "title": "Iran War Day 17: Pentagon Sends USS Tripoli to Middle East, Trump Calls on Allies",
+      "steeps_category": "P_Political",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "RED",
+        "indicators": []
+      },
+      "source": {
+        "name": "CNN",
+        "type": "news_direct",
+        "url": "https://www.cnn.com/2026/03/16/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk",
+        "published_date": "2026-03-16T12:00:00Z"
+      },
+      "content": {
+        "abstract": "Pentagon sending amphibious assault ship USS Tripoli and Marine expeditionary unit to Middle East. Trump calls on China, Britain, France, Japan, South Korea to send warships for Hormuz. Iran's FM says open to discussions. Thick black smoke over Tehran as Israeli strikes continue.",
+        "keywords": [
+          "Pentagon",
+          "USS Tripoli",
+          "Hormuz",
+          "Trump",
+          "military deployment"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 9.5,
+        "probability": 0.7,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "news-20260317-cnbc-001",
+      "title": "Trump Section 301 Trade Probes to Replace IEEPA Tariffs — 60 Countries Scrutinized",
+      "steeps_category": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "ORANGE",
+        "indicators": []
+      },
+      "source": {
+        "name": "CNBC",
+        "type": "news_direct",
+        "url": "https://www.cnbc.com/2026/03/11/trump-trade-investigations-ieepa-tariffs.html",
+        "published_date": "2026-03-16T09:00:00Z"
+      },
+      "content": {
+        "abstract": "Trump administration announced two new Section 301 trade investigations scrutinizing 60 countries after Supreme Court struck down IEEPA tariffs. Pivot to 301 legal authority. Federal judge ruled government must pay $130B in tariff refunds to 2000+ companies including Costco and FedEx.",
+        "keywords": [
+          "Section 301",
+          "tariffs",
+          "IEEPA",
+          "trade investigation",
+          "Supreme Court"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 8.0,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-wef-002",
+      "title": "Middle East Conflict Hits Shipping and Oil Prices — Global Trade Fragmenting",
+      "steeps_category": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "ORANGE",
+        "indicators": []
+      },
+      "source": {
+        "name": "World Economic Forum",
+        "type": "news_direct",
+        "url": "https://www.weforum.org/stories/2026/03/us-trade-deficit-international-trade-stories-march-2026/",
+        "published_date": "2026-03-16T11:00:00Z"
+      },
+      "content": {
+        "abstract": "Middle East conflict hitting shipping routes and oil prices. USMCA review negotiations to start week of March 16. Global trade fragmentation accelerating. WEF analysis of 10 trends shaping global trade in 2026.",
+        "keywords": [
+          "trade",
+          "shipping",
+          "oil prices",
+          "USMCA",
+          "fragmentation"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 8.0,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-taxfound-001",
+      "title": "Trump Tariffs Largest US Tax Increase Since 1993 — $1,500 Per Household Average",
+      "steeps_category": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "ORANGE",
+        "indicators": []
+      },
+      "source": {
+        "name": "Tax Foundation",
+        "type": "news_direct",
+        "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+        "published_date": "2026-03-16T14:00:00Z"
+      },
+      "content": {
+        "abstract": "Trump tariffs are the largest US tax increase as percent of GDP since 1993. Average tax increase per US household of $1,500 in 2026. Comprehensive tariff tracker shows scope of trade war across all trading partners.",
+        "keywords": [
+          "tariffs",
+          "tax increase",
+          "GDP",
+          "household cost",
+          "trade war"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 7.0,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-nvidia-001",
+      "title": "NVIDIA GTC 2026: Jensen Huang Projects $1 Trillion in Orders Through 2027",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "CNBC/NVIDIA",
+        "type": "news_direct",
+        "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+        "published_date": "2026-03-16T16:00:00Z"
+      },
+      "content": {
+        "abstract": "Jensen Huang announces $1 trillion in expected purchase orders for Blackwell and Vera Rubin through 2027. Unveiled Groq 3 LPU (Language Processing Unit) from $20B acquisition. AWS to deploy 1M+ NVIDIA GPUs. Uber autonomous fleet in 28 cities by 2028.",
+        "keywords": [
+          "NVIDIA",
+          "GTC 2026",
+          "Vera Rubin",
+          "Groq 3",
+          "$1 trillion"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.5,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 6
+      }
+    },
+    {
+      "id": "news-20260317-nvidia-002",
+      "title": "NVIDIA-AWS Expanded Partnership: 1 Million GPUs, Full AI Computing Stack",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "NVIDIA Blog",
+        "type": "news_direct",
+        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+        "published_date": "2026-03-16T17:00:00Z"
+      },
+      "content": {
+        "abstract": "AWS to deploy NVIDIA AI infrastructure including LPUs and 1M+ GPUs spanning Blackwell and Rubin architectures, RTX PRO Blackwell Server Edition, and Groq 3 LPUs. Microsoft updates unified platform combining Foundry with NVIDIA open models.",
+        "keywords": [
+          "NVIDIA",
+          "AWS",
+          "cloud computing",
+          "GPU deployment",
+          "AI infrastructure"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.5,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-nvidia-003",
+      "title": "Autonomous Vehicles Surge: Uber 28-City Fleet, Nissan/BYD/Hyundai Level 4 on NVIDIA Drive",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "NVIDIA/Yahoo",
+        "type": "news_direct",
+        "url": "https://tech.yahoo.com/ai/apple-intelligence/breaking-news/live/nvidia-gtc-2026-live",
+        "published_date": "2026-03-16T18:00:00Z"
+      },
+      "content": {
+        "abstract": "Uber to launch NVIDIA Drive AV-powered fleet across 28 cities in 4 continents by 2028. Nissan, BYD, Geely, Isuzu, Hyundai building Level 4 autonomous vehicles on NVIDIA Drive Hyperion. Roche deploys 3,500+ Blackwell GPUs for drug discovery.",
+        "keywords": [
+          "autonomous vehicles",
+          "Uber",
+          "Level 4",
+          "NVIDIA Drive",
+          "BYD"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.5,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 6
+      }
+    },
+    {
+      "id": "news-20260317-sedaily-001",
+      "title": "Samsung and SK Hynix Tapped as NVIDIA Vera Rubin HBM4 Suppliers — Shipments Start March",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "Seoul Economic Daily",
+        "type": "news_direct",
+        "url": "https://en.sedaily.com/finance/2026/03/16/nvidia-to-unveil-vera-rubin-ai-chip-at-gtc-2026-samsung-sk",
+        "published_date": "2026-03-16T06:30:00Z"
+      },
+      "content": {
+        "abstract": "Samsung Electronics and SK hynix confirmed as component suppliers for NVIDIA Vera Rubin. Samsung kicked off HBM4 shipments in February. SK hynix expected to take over half of NVIDIA total HBM supply in 2026. HBM4 presentations at GTC.",
+        "keywords": [
+          "Samsung",
+          "SK Hynix",
+          "HBM4",
+          "NVIDIA",
+          "Vera Rubin"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.5,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 6
+      }
+    },
+    {
+      "id": "news-20260317-iaea-001",
+      "title": "Nuclear Energy Summit 2026: China and Brazil Join Pledge to Triple Capacity by 2050",
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "level": "YELLOW",
+        "indicators": []
+      },
+      "source": {
+        "name": "IAEA/Climate Change News",
+        "type": "news_direct",
+        "url": "https://www.climatechangenews.com/2026/03/13/china-joins-pledge-to-triple-global-nuclear-energy-capacity/",
+        "published_date": "2026-03-16T08:00:00Z"
+      },
+      "content": {
+        "abstract": "Paris Nuclear Energy Summit produced formal declaration to triple global nuclear capacity by 2050. China, Brazil, Italy, Belgium join — total 38 backers. Strongest coordinated policy signal for nuclear. 60 countries considering nuclear. Current 10% of global electricity.",
+        "keywords": [
+          "nuclear energy",
+          "Paris Summit",
+          "China",
+          "triple capacity",
+          "2050"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 7.0,
+        "probability": 0.5,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-eadaily-001",
+      "title": "Orban: Europe Preparing for War — Deployment of Troops to Ukraine Matter of Time",
+      "steeps_category": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "ORANGE",
+        "indicators": []
+      },
+      "source": {
+        "name": "EADaily",
+        "type": "news_direct",
+        "url": "https://eadaily.com/en/news/2026/03/16/orban-europe-is-preparing-for-war-the-deployment-of-troops-on-ukraine-is-a-matter-of-time",
+        "published_date": "2026-03-16T09:00:00Z"
+      },
+      "content": {
+        "abstract": "Hungarian PM Viktor Orban claims EU conducting serious preparations for war with Russia. EU leaders preparing to send soldiers to Ukraine. European troop deployment discussion escalating. EU Foreign Affairs Council meets March 16.",
+        "keywords": [
+          "Orban",
+          "Europe",
+          "war",
+          "Ukraine",
+          "troops"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 8.0,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "news-20260317-united24-001",
+      "title": "Russia Could Field Up to 9 Million Drones in 2026 — EU Commissioner Warning",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "ORANGE",
+        "indicators": []
+      },
+      "source": {
+        "name": "United24 Media",
+        "type": "news_direct",
+        "url": "https://united24media.com/latest-news/russia-could-field-up-to-9-million-drones-in-2026-eu-commissioner-warns-16912",
+        "published_date": "2026-03-16T10:00:00Z"
+      },
+      "content": {
+        "abstract": "Russia deploying 7-9 million drones in 2026 per EU Defense Commissioner Kubilius. Russia military spending approaching EU combined defense budget in PPP. NATO needs 400% increase in air defense. No peace on horizon in Ukraine war.",
+        "keywords": [
+          "Russia",
+          "drones",
+          "9 million",
+          "EU defense",
+          "NATO"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 8.0,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-consilium-001",
+      "title": "EU Extends Ukraine-Related Sanctions for Six More Months — Until September 2026",
+      "steeps_category": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "EU Council",
+        "type": "news_direct",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/14/",
+        "published_date": "2026-03-14T12:00:00Z"
+      },
+      "content": {
+        "abstract": "EU Council decided to prolong restrictive measures targeting those responsible for undermining Ukraine's territorial integrity for another six months until September 15, 2026. Latvia Foreign Minister emphasizes strengthening military support.",
+        "keywords": [
+          "EU",
+          "sanctions",
+          "Ukraine",
+          "Russia",
+          "extension"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.0,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-diplo-001",
+      "title": "Trump Postpones US-China Relations Reboot Amid Hormuz Pressure",
+      "steeps_category": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW",
+        "indicators": []
+      },
+      "source": {
+        "name": "The Diplomat",
+        "type": "news_direct",
+        "url": "https://thediplomat.com/",
+        "published_date": "2026-03-16T07:00:00Z"
+      },
+      "content": {
+        "abstract": "Trump says long-anticipated reboot of US-China relations could be postponed amid mounting pressure to reopen Strait of Hormuz. Middle East crisis displacing Asia pivot. China-US tensions on hold as both face energy security challenge.",
+        "keywords": [
+          "US-China",
+          "Trump",
+          "Hormuz",
+          "postpone",
+          "geopolitics"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.5,
+        "probability": 0.5,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-diplo-002",
+      "title": "South Korea: Former President Yoon Suk Yeol Sentenced to Life — Democracy Test",
+      "steeps_category": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW",
+        "indicators": []
+      },
+      "source": {
+        "name": "Various Sources",
+        "type": "news_direct",
+        "url": "https://www.csis.org/regions/asia",
+        "published_date": "2026-03-16T14:00:00Z"
+      },
+      "content": {
+        "abstract": "Court denied prosecutors' request for death penalty, imposed life sentence on Yoon Suk Yeol for martial law declaration. Pivotal moment for South Korea's democracy. Political transition continues amid economic crisis.",
+        "keywords": [
+          "South Korea",
+          "Yoon Suk Yeol",
+          "life sentence",
+          "democracy",
+          "martial law"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 7.0,
+        "probability": 0.5,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-diplo-003",
+      "title": "North Korea: Kim Jong Un Demands US Accept Nuclear Status Before Talks Resume",
+      "steeps_category": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "ORANGE",
+        "indicators": []
+      },
+      "source": {
+        "name": "Various Sources",
+        "type": "news_direct",
+        "url": "https://thediplomat.com/",
+        "published_date": "2026-03-16T11:00:00Z"
+      },
+      "content": {
+        "abstract": "North Korea's leader says would only restart talks if US ends 'hostile' policies and accepts Pyongyang's nuclear status. Comes amid USFK force posture changes due to Middle East deployments. Increased security vacuum concern.",
+        "keywords": [
+          "North Korea",
+          "nuclear status",
+          "Kim Jong Un",
+          "talks",
+          "USFK"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 8.0,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "news-20260317-bush-001",
+      "title": "Global Health Update March 16: PEPFAR Transition, WHO Withdrawal, Bilateral Agreements",
+      "steeps_category": "S_Social",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "level": "YELLOW",
+        "indicators": []
+      },
+      "source": {
+        "name": "Bush Center",
+        "type": "news_direct",
+        "url": "https://www.bushcenter.org/publications/global-health-update-mar-16-2026",
+        "published_date": "2026-03-16T09:00:00Z"
+      },
+      "content": {
+        "abstract": "US signed 24 MOUs with partner countries totaling $20.2B health financing 2026-2030. PEPFAR saved 26M lives. UNAIDS new Global AIDS Strategy 2026-2031. US withdrawal from WHO creates governance gap. Zambia and Zimbabwe resist bilateral terms.",
+        "keywords": [
+          "PEPFAR",
+          "WHO withdrawal",
+          "global health",
+          "bilateral agreements",
+          "UNAIDS"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 7.0,
+        "probability": 0.5,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-unicef-001",
+      "title": "Social Protection Leaves 3.8 Billion Unprotected — Bounded Universalism Emerges",
+      "steeps_category": "S_Social",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "UNICEF Innocenti",
+        "type": "news_direct",
+        "url": "https://www.unicef.org/innocenti/stories/2026-global-outlook-social-protection",
+        "published_date": "2026-03-16T10:00:00Z"
+      },
+      "content": {
+        "abstract": "Social protection systems now reach only about half the global population, leaving 3.8 billion without meaningful protection. Governments shifting to 'bounded universalism'. Away from both narrow targeting and Universal Basic Income.",
+        "keywords": [
+          "social protection",
+          "3.8 billion",
+          "bounded universalism",
+          "UNICEF",
+          "coverage gap"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.0,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-healtho-001",
+      "title": "AI-Driven Cyberattacks Surge in March 2026 — Deepfake Campaigns Escalate",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW",
+        "indicators": []
+      },
+      "source": {
+        "name": "Our Healtho / Tech Insight",
+        "type": "news_direct",
+        "url": "https://ourhealtho.com/tech-insight-mar-15-2026/",
+        "published_date": "2026-03-15T12:00:00Z"
+      },
+      "content": {
+        "abstract": "Significant surge in AI-driven cyberattacks in March 2026. Advanced phishing with AI-crafted personalized messages. Sophisticated deepfake operations for reputational damage. AI-powered defenses now essential, not just advantageous.",
+        "keywords": [
+          "cybersecurity",
+          "AI attacks",
+          "deepfake",
+          "phishing",
+          "AI defense"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 7.0,
+        "probability": 0.5,
+        "urgency": 5,
+        "novelty": 6
+      }
+    },
+    {
+      "id": "news-20260317-quantum-001",
+      "title": "Quantum Computing Reaches 'Transistor Moment' — Error Correction Breakthrough in 2026",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "ScienceDaily / Quantum Insider",
+        "type": "news_direct",
+        "url": "https://www.sciencedaily.com/releases/2026/01/260127010136.htm",
+        "published_date": "2026-03-16T10:00:00Z"
+      },
+      "content": {
+        "abstract": "Scientists say quantum tech has reached its transistor moment. Microsoft collaborating with Atom Computing for error-corrected quantum computer. QuEra delivers error-correction-ready machine to Japan AIST. Equal1 raises $60M for semiconductor-based quantum. Hybrid quantum-classical computing as top 2026 trend.",
+        "keywords": [
+          "quantum computing",
+          "error correction",
+          "transistor moment",
+          "Microsoft",
+          "QuEra"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.5,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 6
+      }
+    },
+    {
+      "id": "news-20260317-democnow-001",
+      "title": "Trump Reopens US Embassy in Venezuela; Cuba Energy Crisis Deepens with Protests",
+      "steeps_category": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "Democracy Now",
+        "type": "news_direct",
+        "url": "https://www.democracynow.org/2026/3/16/headlines",
+        "published_date": "2026-03-16T08:00:00Z"
+      },
+      "content": {
+        "abstract": "Trump Administration reopened US Embassy in Venezuela for first time since 2019. Protesters reportedly attacked Communist Party office in Cuba as energy crisis deepens. Latin American geopolitical realignment accelerating.",
+        "keywords": [
+          "Venezuela",
+          "embassy",
+          "Cuba",
+          "energy crisis",
+          "Latin America"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.0,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-csis-002",
+      "title": "Japan Strategic Shift: Growing Support for Nationalist AI and Defense Capabilities",
+      "steeps_category": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "level": "YELLOW",
+        "indicators": []
+      },
+      "source": {
+        "name": "CSIS",
+        "type": "news_direct",
+        "url": "https://www.csis.org/regions/asia",
+        "published_date": "2026-03-16T13:00:00Z"
+      },
+      "content": {
+        "abstract": "Japan undergoing internal transition in defense and technology policies. Growing support for nationalist policies strengthening AI and intelligence capabilities. Response to China and North Korea threats. Defense budget expansion accelerating.",
+        "keywords": [
+          "Japan",
+          "defense",
+          "AI capabilities",
+          "nationalist",
+          "China threat"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.5,
+        "probability": 0.5,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-csis-003",
+      "title": "China Strengthens Undersea Warfare for Far-Seas Power Projection",
+      "steeps_category": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "level": "YELLOW",
+        "indicators": []
+      },
+      "source": {
+        "name": "CSIS",
+        "type": "news_direct",
+        "url": "https://www.csis.org/analysis/escalating-japan-china-tensions-insights-past-and-prospects-future",
+        "published_date": "2026-03-16T14:00:00Z"
+      },
+      "content": {
+        "abstract": "China strengthening undersea warfare capabilities and operational training. Expanding from near-seas denial to far-seas power projection. Major implications for Indo-Pacific security architecture and US naval dominance.",
+        "keywords": [
+          "China",
+          "undersea warfare",
+          "far-seas",
+          "power projection",
+          "Indo-Pacific"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 7.0,
+        "probability": 0.5,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-diplo-004",
+      "title": "India-Russia Crude Oil Flows May Endure Despite US Pressure — Middle East Disruption Factor",
+      "steeps_category": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "Various Sources",
+        "type": "news_direct",
+        "url": "https://thediplomat.com/",
+        "published_date": "2026-03-16T11:00:00Z"
+      },
+      "content": {
+        "abstract": "Middle East tensions and threats to Gulf oil supply complicate US pressure on India to phase out Russian crude. Russian crude oil flows to India might endure not by necessity but by economic pragmatism amid Hormuz disruption.",
+        "keywords": [
+          "India",
+          "Russia",
+          "crude oil",
+          "US pressure",
+          "Hormuz"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.0,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-nvidia-004",
+      "title": "Roche Deploys 3,500+ NVIDIA Blackwell GPUs for AI-Driven Drug Discovery",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "Investing.com/NVIDIA",
+        "type": "news_direct",
+        "url": "https://www.investing.com/news/transcripts/nvidia-at-gtc-2026-ai-expansion-and-strategic-partnerships-93CH-4564073",
+        "published_date": "2026-03-16T16:30:00Z"
+      },
+      "content": {
+        "abstract": "Roche announced deployment spanning 3,500+ NVIDIA Blackwell GPUs across worldwide operations to accelerate drug discovery and manufacturing breakthroughs. Dassault Systemes demos AI-powered virtual twins for biology and materials.",
+        "keywords": [
+          "Roche",
+          "drug discovery",
+          "AI",
+          "Blackwell GPU",
+          "pharma"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.5,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 6
+      }
+    },
+    {
+      "id": "news-20260317-deloitte-001",
+      "title": "Global Economic Outlook 2026: War and Tariffs Create Dual Headwinds",
+      "steeps_category": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW",
+        "indicators": []
+      },
+      "source": {
+        "name": "Deloitte Insights",
+        "type": "news_direct",
+        "url": "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook-2026.html",
+        "published_date": "2026-03-16T06:00:00Z"
+      },
+      "content": {
+        "abstract": "Deloitte global economic outlook highlights dual headwinds of Middle East war and tariff escalation. Trade fragmentation accelerating. KPMG Trade Outlook calls 2026 a 'Herculean effort'. UNCTAD identifies 10 trends shaping global trade.",
+        "keywords": [
+          "economic outlook",
+          "Deloitte",
+          "trade",
+          "dual headwinds",
+          "2026"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.5,
+        "probability": 0.5,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-pbs-001",
+      "title": "Pandemic Preparedness 2026: WHO Pandemic Agreement Annex Critical Year",
+      "steeps_category": "S_Social",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "PBS Frontline",
+        "type": "news_direct",
+        "url": "https://www.pbs.org/wgbh/frontline/article/pandemic-preparedness-covid-19-global-health/",
+        "published_date": "2026-03-16T07:00:00Z"
+      },
+      "content": {
+        "abstract": "Countries have historic chance to strengthen global health security in 2026 through WHO Pandemic Agreement annex. Establishing fair rapid globally-agreed system for accessing vaccines. US withdrawal from WHO after 78 years complicates governance.",
+        "keywords": [
+          "pandemic",
+          "WHO",
+          "preparedness",
+          "agreement",
+          "global health"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 5.5,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 6
+      }
+    },
+    {
+      "id": "news-20260317-dassault-001",
+      "title": "Dassault AI-Powered Virtual Twins at GTC 2026 — Biology, Materials, Manufacturing",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "Dassault Systemes",
+        "type": "news_direct",
+        "url": "https://www.3ds.com/newsroom/media-alerts/nvidia-gtc-2026-dassault-systemes-demos-ai-powered-virtual-twins-advancing-biology-materials-engineering-and-manufacturing",
+        "published_date": "2026-03-16T15:00:00Z"
+      },
+      "content": {
+        "abstract": "Dassault Systemes demos AI-powered virtual twins at GTC advancing biology, materials, engineering and manufacturing. Integration of AI simulation into industrial processes. Digital twin technology maturing for production use.",
+        "keywords": [
+          "virtual twins",
+          "Dassault",
+          "AI",
+          "manufacturing",
+          "biology"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.5,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 6
+      }
+    },
+    {
+      "id": "news-20260317-science-001",
+      "title": "Chickpeas Grown in Lunar Soil Simulation — Breakthrough for Space Colonization Food Security",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "Planet News / Science",
+        "type": "news_direct",
+        "url": "https://planet.news/article/global-scientific-breakthroughs-march-2026",
+        "published_date": "2026-03-16T08:00:00Z"
+      },
+      "content": {
+        "abstract": "Greek researchers successfully cultivated chickpeas under conditions simulating lunar surface. Crucial breakthrough for future space colonization. Demonstrates feasibility of sustainable food production beyond Earth for extended missions.",
+        "keywords": [
+          "space colonization",
+          "lunar farming",
+          "chickpeas",
+          "food security",
+          "breakthrough"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 5.5,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 6
+      }
+    },
+    {
+      "id": "news-20260317-piie-001",
+      "title": "EU and Ukraine War: More Money But Not More Europe — Defense Budget Dilemma",
+      "steeps_category": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "PIIE",
+        "type": "news_direct",
+        "url": "https://www.piie.com/publications/policy-briefs/2026/european-union-and-war-ukraine-more-money-not-more-europe",
+        "published_date": "2026-03-16T09:00:00Z"
+      },
+      "content": {
+        "abstract": "PIIE analysis: EU spending more on defense but structural integration lacking. Russia military spending approaching EU combined budget in PPP. Defense industrialization without political integration. European sovereignty paradox.",
+        "keywords": [
+          "EU defense",
+          "budget",
+          "Ukraine",
+          "integration",
+          "sovereignty"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.0,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-lancet-001",
+      "title": "Lancet Commission: Global Health Trends 1970-2050 — Demographic and Epidemiological Shifts",
+      "steeps_category": "S_Social",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H3",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "The Lancet",
+        "type": "news_direct",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)00902-X/fulltext",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Third Lancet Commission on Investing in Health, Global Health 2050. Descriptive analysis of epidemiological and demographic trends 1970-2050. Maternal deaths 260,000 in 2023. Antimicrobial resistance rising. Mental health as new global priority.",
+        "keywords": [
+          "demographics",
+          "Lancet",
+          "global health",
+          "2050",
+          "AMR"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 6.0,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "news-20260317-seekalpha-001",
+      "title": "SanDisk: NVIDIA GTC 2026 Storage Announcement Could Be Gamechanger",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN",
+        "indicators": []
+      },
+      "source": {
+        "name": "Seeking Alpha",
+        "type": "news_direct",
+        "url": "https://seekingalpha.com/article/4882807-sandisk-this-nvidia-gtc-2026-announcement-could-be-a-gamechanger",
+        "published_date": "2026-03-16T14:00:00Z"
+      },
+      "content": {
+        "abstract": "SanDisk positioning for NVIDIA GTC 2026 storage announcement. AI infrastructure requires massive storage scaling alongside GPU compute. Data center storage architecture shift as AI workloads grow exponentially.",
+        "keywords": [
+          "SanDisk",
+          "storage",
+          "NVIDIA",
+          "data center",
+          "AI infrastructure"
+        ],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "overall": 5.5,
+        "probability": 0.5,
+        "urgency": 4,
+        "novelty": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,1186 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "",
+    "date": "",
+    "computed_at": "2026-03-18T02:01:06Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 53,
+    "warn_count": 106
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "naver-20260317-100-001",
+      "title": "감사원, 서울 한강버스 사업 강행 감사 결과 공개 — 기준속도 미달·사업비 오류 적발",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "naver-20260317-100-002",
+      "title": "국민의힘 공천관리위, 김영환 충북도지사 컷오프 결정",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "naver-20260317-100-003",
+      "title": "미 무역법 301조 조사 개시 — 한국 포함 16개국 대상, 제조업 84% 직격탄 우려",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "naver-20260317-100-005",
+      "title": "미 주한미군 미사일방어 자산 중동 이전 검토 — 한반도 안보공백 우려",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "naver-20260317-100-007",
+      "title": "미 대법원, 트럼프 상호관세 위법 판결 — 국가별 차등관세 법적 근거 붕괴",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "naver-20260317-101-001",
+      "title": "이란전쟁 장기화로 유가 $106 돌파 — 한국 30년만에 석유제품 최고가격제 시행",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "naver-20260317-101-002",
+      "title": "KOSPI 2008년 이후 최대 폭락 — 서킷브레이커 발동, 아시아 증시 동반 급락",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "naver-20260317-101-003",
+      "title": "두산에너빌리티 52주 신고가 — 원전 재가동 수혜, 에너지 안보 관심 급증",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "naver-20260317-101-005",
+      "title": "기초연금 부부감액 단계적 폐지 추진 — 소득 하위 40% 대상",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "naver-20260317-101-006",
+      "title": "삼성전자 HBM4 세계 최초 양산 — SK하이닉스와 AI 메모리 패권 경쟁 격화",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "naver-20260317-101-007",
+      "title": "주식 이탈자금 26조원 부동산으로 이동 — 서울 상급지 아파트 거래 증가",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "naver-20260317-101-008",
+      "title": "토스뱅크 환율 고시 오류 — 엔화 환전 전 고객에 현금 1만원 보상",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 13,
+      "id": "naver-20260317-101-009",
+      "title": "한국은행 금리 추가인하 여부 — 수도권 집값·환율 고려, 통화정책 딜레마",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "naver-20260317-101-010",
+      "title": "정부 100조원 시장안정화 프로그램 가동 — 유가 쇼크 대응 긴급 경제 대책",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 15,
+      "id": "naver-20260317-101-011",
+      "title": "미 301조 + 10% 관세 만료 — 7월 이후 품목별 차등관세 폭풍 예고",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 16,
+      "id": "naver-20260317-102-001",
+      "title": "초고령사회 진입 — 65세 이상 20% 돌파, 노인장기요양보험 16조원",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 17,
+      "id": "naver-20260317-102-004",
+      "title": "출생아 수 23만명 수준 — 2024년 대비 5% 감소, 인구절벽 가속",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 18,
+      "id": "naver-20260317-102-005",
+      "title": "AI 기술, 정신건강까지 확장 — AI 헬스케어 스타트업 투자 활발",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 19,
+      "id": "naver-20260317-102-006",
+      "title": "에너지 위기, 아시아 시민 생활패턴 변화 — 재택근무 확대, 에너지 절약",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 20,
+      "id": "naver-20260317-103-001",
+      "title": "원전 6기 순차 재가동 — 에너지 안보 위한 원전 확대 정책 가속",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 21,
+      "id": "naver-20260317-103-002",
+      "title": "기후대응위, 국제감축사업 통합 설명회 3/20 개최",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 22,
+      "id": "naver-20260317-103-003",
+      "title": "기후변화, 글로벌 공급망 심각 영향 — 에너지 패권 재편 가속",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 23,
+      "id": "naver-20260317-103-004",
+      "title": "2026 이상기후 농업 위기 — 식량 안보 대책 시급",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 24,
+      "id": "naver-20260317-104-001",
+      "title": "이란전쟁 3주째, 호르무즈 봉쇄 장기화 — 글로벌 GDP 영향 본격화",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 25,
+      "id": "naver-20260317-104-002",
+      "title": "카타르 헬륨 생산 중단 — 반도체 제조 차질 우려, 한·일·대만 직격탄",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 26,
+      "id": "naver-20260317-104-003",
+      "title": "김정은, 최고인민회의 투표 후 탄광 방문 — 5개년 계획·석탄생산 강조",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 27,
+      "id": "naver-20260317-104-005",
+      "title": "2026 APEC 정상회의(중국) — 한중 셔틀 정상회담·북미 회담 가능성",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 28,
+      "id": "naver-20260317-104-006",
+      "title": "트럼프 무역분절화 가속 — 고율 관세 효과 가시화, 글로벌 무역 위축",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 29,
+      "id": "naver-20260317-104-007",
+      "title": "글로벌 연료가격 급등 — 캄보디아 +68%, 베트남 +50%, 개도국 타격",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 30,
+      "id": "naver-20260317-105-001",
+      "title": "한국 AI 스타트업 투자 역대급 — 업스테이지 470억·보스반도체 870억 유치",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 31,
+      "id": "naver-20260317-105-002",
+      "title": "K-AI 반도체 양산 원년 — 스타트업 칩 시장 출시, 실적 증명 관문",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 32,
+      "id": "naver-20260317-105-003",
+      "title": "Samsung Galaxy S26 Ultra MWC 'Best in Show' — SK하이닉스 HBM4·LPDDR6 공개",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 33,
+      "id": "naver-20260317-105-004",
+      "title": "Dahua AI 교통시스템 Intertraffic 2026 공개 — 능동적·예측적 교통관리",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 34,
+      "id": "naver-20260317-105-005",
+      "title": "한국 통합 R&D — AI·산업·지역개발 연결, 중소벤처부·산업부 공동 추진",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 35,
+      "id": "naver-20260317-105-006",
+      "title": "EU-한국 연구혁신의 날 2026 (3/24) — 양자컴퓨팅·AI·기후 공동연구",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 36,
+      "id": "naver-20260317-105-007",
+      "title": "CES 2026 역대 최대 한국관 — B2B AI·산업기술 전략 전환",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 37,
+      "id": "naver-20260317-101-004",
+      "title": "포항 새마을금고 부동산 PF 부실 경영난 — 억대 연봉 임직원 논란",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 38,
+      "id": "naver-20260317-102-002",
+      "title": "인천시, 배달 식품업소 위생 단속 — 소비기한 미표시 6곳 적발",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 39,
+      "id": "naver-20260317-100-004",
+      "title": "포항시의원 공천 논란 — 음주운전·탈당 전력 후보, '사전 내정' 의혹",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 40,
+      "id": "naver-20260317-100-006",
+      "title": "김병헌 위안부법폐지국민행동 대표 구속영장 신청",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 41,
+      "id": "naver-20260317-104-004",
+      "title": "아시아 전역 에너지 절약 모드 — 재택근무·계단 이용 등 긴급 조치",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 42,
+      "id": "naver-20260317-105-008",
+      "title": "엔비디아 GTC 2026 AI 추론 전용 칩 '그록3 LPU' 공개 — 삼성전자 파운드리 제조",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 43,
+      "id": "naver-20260317-100-008",
+      "title": "공소청·중수청법 최종안 확정 — 검사 수사지휘권 삭제, 수사·기소 완전 분리",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 44,
+      "id": "naver-20260317-101-012",
+      "title": "이재명 대통령 중동 비상 대책 지시 — 자동차 5·10부제, 원전 가동 확대 검토",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 45,
+      "id": "naver-20260317-104-008",
+      "title": "미·이란 전쟁 군·민간인 사망자 3천 명 추산 — 이스라엘 레바논·가자 동시 공습",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 46,
+      "id": "naver-20260317-103-005",
+      "title": "기후에너지환경부 2026 업무보고 — 히트펌프 보급, 햇빛소득마을 연 500개 조성",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 47,
+      "id": "naver-20260317-101-013",
+      "title": "SK하이닉스 주가 100만원 돌파 — 엔비디아 GTC 효과, HBM4 공급 확대",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 48,
+      "id": "naver-20260317-105-009",
+      "title": "엔비디아 '스페이스 컴퓨팅' 선언 — AI를 우주에서 직접 실행하는 시대",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 49,
+      "id": "naver-20260317-101-014",
+      "title": "한국 원유 수입 비중동 다변화 — 미국산 셰일오일 12%로 확대, 2027년 40% 목표",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 50,
+      "id": "naver-20260317-104-009",
+      "title": "베이징-평양 직항 재개 — 대미 협상 카드 가능성, 한반도 정세 변수",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 51,
+      "id": "naver-20260317-102-007",
+      "title": "권창영 특검, 원희룡 전 장관 출국금지 — 양평고속도로 특혜 의혹 수사",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 52,
+      "id": "naver-20260317-105-010",
+      "title": "에이전틱 AI 시대 본격화 — 3월 한 달 267개 AI 모델 출시, 자율 에이전트 대세",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 53,
+      "id": "naver-20260317-101-015",
+      "title": "에너지경제연구원 경고 — 유가 $100 돌파 시 경상수지 200억달러 악화, 성장률 1%p 하락",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.658,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.145,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    }
+  ]
+}

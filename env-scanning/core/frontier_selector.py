@@ -8,6 +8,10 @@ for TRUE randomness, not LLM pattern completion.
 Applies success-based weights from exploration history and respects
 cooldown_after_failure to avoid repeatedly selecting failed keywords.
 
+v2.0.0: Gap-boost support — when STEEPs coverage gaps exist, keywords
+from gap-targeted categories receive a weight multiplier and one slot
+is guaranteed for gap-targeted keywords.
+
 Design Principle:
     "LLM이 '무작위로 선택하라'는 지시를 받으면, 패턴 완성으로 편향된 선택을 한다.
      Python random.choices()는 진정한 가중 무작위를 보장한다."
@@ -23,8 +27,9 @@ Usage (CLI):
     python3 env-scanning/core/frontier_selector.py select \\
         --frontiers env-scanning/config/exploration-frontiers.yaml \\
         --history env-scanning/wf1-general/exploration/history/exploration-history.json \\
-        --samples 3 \\
-        --output env-scanning/wf1-general/exploration/frontier-selection-2026-02-10.json
+        --samples 4 \\
+        --gaps S_Social,s_spiritual \\
+        --output env-scanning/wf1-general/exploration/frontier-selection-2026-03-18.json
 
 Usage (importable):
     from core.frontier_selector import select_frontier_keywords
@@ -32,6 +37,8 @@ Usage (importable):
 Exit codes:
     0 = SUCCESS (selection file written)
     1 = ERROR (missing files, invalid config)
+
+Version: 2.0.0
 """
 
 import argparse
@@ -49,11 +56,8 @@ import yaml
 # Constants
 # ---------------------------------------------------------------------------
 
-VERSION = "1.0.0"
+VERSION = "2.0.0"
 SELECTOR_ID = "frontier_selector.py"
-
-# Frontier categories in exploration-frontiers.yaml
-FRONTIER_CATEGORIES = ["geographic", "interdisciplinary", "emerging_domains", "paradigm_shifts"]
 
 # Default weight for keywords with no history
 DEFAULT_WEIGHT = 1.0
@@ -62,7 +66,7 @@ DEFAULT_WEIGHT = 1.0
 MIN_WEIGHT = 0.1
 
 # Maximum weight ceiling (prevent runaway success bias)
-MAX_WEIGHT = 5.0
+MAX_WEIGHT = 10.0  # Raised from 5.0 to accommodate gap-boost
 
 
 # ---------------------------------------------------------------------------
@@ -72,22 +76,25 @@ MAX_WEIGHT = 5.0
 def select_frontier_keywords(
     frontiers_path: str,
     history_path: str | None = None,
-    samples: int = 3,
+    samples: int = 4,
     avoid_patterns: list[str] | None = None,
     output_path: str | None = None,
     seed: int | None = None,
+    active_gaps: list[str] | None = None,
 ) -> dict[str, Any]:
     """
     Select frontier keywords using true weighted-random selection.
 
     Process:
-        1. Load all keywords from exploration-frontiers.yaml
+        1. Load all keywords from exploration-frontiers.yaml (all categories, dynamic)
         2. Load success/failure history from exploration-history.json
         3. Compute weights: base weight * success_multiplier / failure_penalty
-        4. Apply cooldown: exclude keywords that failed recently
-        5. Remove keywords matching avoid_patterns
-        6. Use random.choices() with computed weights for TRUE randomness
-        7. Write selection result to JSON file
+        4. Apply gap-boost: if STEEPs gaps exist, boost matching categories
+        5. Apply cooldown: exclude keywords that failed recently
+        6. Remove keywords matching avoid_patterns
+        7. If guaranteed_slot enabled: reserve 1 slot for gap-targeted keyword
+        8. Use random.choices() with computed weights for TRUE randomness
+        9. Write selection result to JSON file
 
     Args:
         frontiers_path: Path to exploration-frontiers.yaml
@@ -96,6 +103,7 @@ def select_frontier_keywords(
         avoid_patterns: Keywords/patterns to exclude
         output_path: Optional path to write selection JSON
         seed: Optional random seed for reproducible testing
+        active_gaps: List of STEEPs categories with coverage gaps (e.g. ["S_Social", "s_spiritual"])
 
     Returns:
         Selection result dictionary
@@ -113,6 +121,7 @@ def select_frontier_keywords(
 
     frontiers = frontiers_config.get("frontiers", {})
     selection_config = frontiers_config.get("selection", {})
+    gap_boost_config = frontiers_config.get("gap_boost", {})
 
     method = selection_config.get("method", "weighted_random")
     configured_samples = selection_config.get("samples_per_scan", samples)
@@ -120,15 +129,31 @@ def select_frontier_keywords(
     weight_by_success = selection_config.get("weight_by_success", True)
     cooldown_after_failure = selection_config.get("cooldown_after_failure", 3)
 
-    # 2. Collect all keywords with category metadata
-    all_keywords: list[dict[str, str]] = []
-    for category in FRONTIER_CATEGORIES:
-        keywords = frontiers.get(category, [])
+    # Gap-boost settings
+    gap_boost_enabled = gap_boost_config.get("enabled", False)
+    gap_multiplier = gap_boost_config.get("multiplier", 3.0)
+    guaranteed_slot = gap_boost_config.get("guaranteed_slot", False)
+    category_steeps_mapping = gap_boost_config.get("category_steeps_mapping", {})
+
+    # Determine which frontier categories map to active gaps
+    gap_boosted_categories: set[str] = set()
+    if gap_boost_enabled and active_gaps:
+        active_gaps_set = set(active_gaps)
+        for cat_name, steeps_code in category_steeps_mapping.items():
+            if steeps_code in active_gaps_set:
+                gap_boosted_categories.add(cat_name)
+
+    # 2. Collect all keywords from ALL categories (dynamic, not hardcoded)
+    all_keywords: list[dict[str, Any]] = []
+    for category, keywords in frontiers.items():
+        if not isinstance(keywords, list):
+            continue
         for kw in keywords:
             if isinstance(kw, str) and kw.strip():
                 all_keywords.append({
                     "keyword": kw.strip(),
                     "category": category,
+                    "is_gap_targeted": category in gap_boosted_categories,
                 })
 
     if not all_keywords:
@@ -157,6 +182,7 @@ def select_frontier_keywords(
 
     # 5. Compute weights and filter
     eligible_keywords: list[dict] = []
+    eligible_gap_keywords: list[dict] = []  # Track gap-targeted separately
     excluded_keywords: list[dict] = []
 
     for kw_info in all_keywords:
@@ -178,17 +204,24 @@ def select_frontier_keywords(
             })
             continue
 
-        # Compute weight
+        # Compute base weight
         if method == "weighted_random" and weight_by_success:
             successes = keyword_successes.get(kw, 0)
             failures = keyword_failures.get(kw, 0)
-            # Weight formula: base + success_bonus - failure_penalty
             weight = DEFAULT_WEIGHT + (successes * 0.5) - (failures * 0.3)
-            weight = max(MIN_WEIGHT, min(MAX_WEIGHT, weight))
         else:
             weight = DEFAULT_WEIGHT
 
-        eligible_keywords.append({**kw_info, "weight": weight})
+        # Apply gap-boost multiplier
+        if kw_info["is_gap_targeted"] and gap_boost_enabled:
+            weight *= gap_multiplier
+
+        weight = max(MIN_WEIGHT, min(MAX_WEIGHT, weight))
+        kw_entry = {**kw_info, "weight": weight}
+        eligible_keywords.append(kw_entry)
+
+        if kw_info["is_gap_targeted"]:
+            eligible_gap_keywords.append(kw_entry)
 
     if not eligible_keywords:
         return _build_result(
@@ -196,15 +229,31 @@ def select_frontier_keywords(
             [], method, excluded=excluded_keywords,
         )
 
-    # 6. Select using TRUE randomness
+    # 6. Select using TRUE randomness (with guaranteed gap slot)
     actual_samples = min(samples, len(eligible_keywords))
+    selected_items: list[dict] = []
 
-    if method == "random":
-        selected_items = random.sample(eligible_keywords, actual_samples)
-    else:  # weighted_random (default)
-        weights = [kw["weight"] for kw in eligible_keywords]
-        # random.choices allows duplicates; use a loop to ensure unique selection
-        selected_items = _weighted_sample_unique(eligible_keywords, weights, actual_samples)
+    # Step 6a: If guaranteed_slot and gap keywords exist, pick 1 gap keyword first
+    remaining_samples = actual_samples
+    if guaranteed_slot and eligible_gap_keywords and gap_boosted_categories:
+        gap_weights = [kw["weight"] for kw in eligible_gap_keywords]
+        gap_pick = random.choices(eligible_gap_keywords, weights=gap_weights, k=1)[0]
+        selected_items.append(gap_pick)
+        remaining_samples -= 1
+
+        # Remove the selected item from eligible pool
+        eligible_keywords = [kw for kw in eligible_keywords if kw["keyword"] != gap_pick["keyword"]]
+
+    # Step 6b: Fill remaining slots from full eligible pool
+    if remaining_samples > 0 and eligible_keywords:
+        remaining_samples = min(remaining_samples, len(eligible_keywords))
+        if method == "random":
+            selected_items.extend(random.sample(eligible_keywords, remaining_samples))
+        else:  # weighted_random
+            weights = [kw["weight"] for kw in eligible_keywords]
+            selected_items.extend(
+                _weighted_sample_unique(eligible_keywords, weights, remaining_samples)
+            )
 
     # 7. Build selection list
     selected = []
@@ -213,16 +262,20 @@ def select_frontier_keywords(
             "keyword": item["keyword"],
             "category": item["category"],
             "weight": round(item["weight"], 3),
+            "is_gap_targeted": item.get("is_gap_targeted", False),
         })
 
     result = _build_result(
         "SUCCESS",
-        f"Selected {len(selected)} keywords from {len(eligible_keywords)} eligible",
+        f"Selected {len(selected)} keywords from {len(eligible_keywords) + len(selected_items)} eligible",
         selected,
         method,
         excluded=excluded_keywords,
         total_keywords=len(all_keywords),
-        eligible_keywords=len(eligible_keywords),
+        eligible_keywords=len(eligible_keywords) + (1 if selected_items and guaranteed_slot and eligible_gap_keywords else 0),
+        gap_boost_applied=bool(gap_boosted_categories),
+        active_gaps=active_gaps or [],
+        gap_targeted_count=sum(1 for s in selected if s.get("is_gap_targeted")),
     )
 
     if output_path:
@@ -280,6 +333,9 @@ def _build_result(
             "total_keywords": kwargs.get("total_keywords", 0),
             "eligible_keywords": kwargs.get("eligible_keywords", 0),
             "excluded_count": len(excluded) if excluded else 0,
+            "gap_boost_applied": kwargs.get("gap_boost_applied", False),
+            "active_gaps": kwargs.get("active_gaps", []),
+            "gap_targeted_count": kwargs.get("gap_targeted_count", 0),
         },
     }
     if excluded:
@@ -311,10 +367,12 @@ def main():
                             help="Path to exploration-frontiers.yaml")
     sel_parser.add_argument("--history", default=None,
                             help="Path to exploration-history.json")
-    sel_parser.add_argument("--samples", type=int, default=3,
+    sel_parser.add_argument("--samples", type=int, default=4,
                             help="Number of keywords to select")
     sel_parser.add_argument("--avoid", nargs="*", default=None,
                             help="Keywords/patterns to avoid")
+    sel_parser.add_argument("--gaps", default=None,
+                            help="Comma-separated STEEPs gap codes (e.g. S_Social,s_spiritual)")
     sel_parser.add_argument("--output", default=None,
                             help="Output path for selection JSON")
     sel_parser.add_argument("--seed", type=int, default=None,
@@ -326,6 +384,7 @@ def main():
 
     try:
         if args.command == "select":
+            active_gaps = args.gaps.split(",") if args.gaps else None
             result = select_frontier_keywords(
                 frontiers_path=args.frontiers,
                 history_path=args.history,
@@ -333,24 +392,30 @@ def main():
                 avoid_patterns=args.avoid,
                 output_path=args.output,
                 seed=args.seed,
+                active_gaps=active_gaps,
             )
         else:
             print(f"Unknown command: {args.command}", file=sys.stderr)
             sys.exit(1)
 
+        status = result["status"]
         if args.json_output:
             print(json.dumps(result, indent=2, ensure_ascii=False))
         else:
-            status = result["status"]
             icon = "PASS" if status == "SUCCESS" else "WARN"
             print("=" * 60)
             print(f"  [{icon}] Frontier Selector: {args.command}")
             print(f"  Method: {result['method']}")
             print(f"  {result['message']}")
+            stats = result.get("statistics", {})
+            if stats.get("gap_boost_applied"):
+                print(f"  Gap boost: {stats.get('active_gaps', [])} "
+                      f"({stats.get('gap_targeted_count', 0)} gap-targeted)")
             if result["selected_keywords"]:
                 print("  Selected:")
                 for kw in result["selected_keywords"]:
-                    print(f"    - [{kw['category']}] {kw['keyword']} (w={kw['weight']})")
+                    gap_tag = " [GAP]" if kw.get("is_gap_targeted") else ""
+                    print(f"    - [{kw['category']}] {kw['keyword']} (w={kw['weight']}){gap_tag}")
             print("=" * 60)
 
         sys.exit(0 if status == "SUCCESS" else 1)

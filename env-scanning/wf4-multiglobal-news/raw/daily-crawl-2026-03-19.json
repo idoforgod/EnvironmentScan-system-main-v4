@@ -1,0 +1,478 @@
+{
+  "scan_date": "2026-03-19",
+  "workflow": "wf4-multiglobal-news",
+  "source": "MultiGlobalNews",
+  "items": [
+    {
+      "id": "news-20260319-DN-001",
+      "title": "Israel Kills Iran Intelligence Minister in Tehran Strike — Third Senior Official Assassination in Days",
+      "source": {
+        "name": "Democracy Now!",
+        "type": "news",
+        "url": "https://www.democracynow.org/2026/3/18/headlines",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Israel conducted overnight strike on Tehran killing Intelligence Minister Esmail Khatib. Follows Tuesday's assassination of Security Chief Ali Larijani and Basij Commander Soleimani. US National Counterterrorism Center Director Joe Kent resigned stating 'Iran posed no imminent threat to our nation.' Iran reports 1,444 killed and nearly 19,000 injured since February 28.",
+        "keywords": [
+          "Israel-Iran war",
+          "Tehran strike",
+          "intelligence minister",
+          "Middle East",
+          "escalation"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-DN-002",
+      "title": "Strait of Hormuz Crisis — Iran Blocks 20% of World Oil, US Gas Up 29%, NATO Refuses Coalition",
+      "source": {
+        "name": "Democracy Now!",
+        "type": "news",
+        "url": "https://www.democracynow.org/2026/3/18/headlines",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Iran blocks Strait of Hormuz carrying 20% of world's oil supply. US gas prices reach $3.84/gallon, up 29% since war began. NATO allies refuse to join US coalition to reopen strait. Iran parliament speaker: Strait 'won't return to pre-war status.' German Chancellor Merz would have 'advised against' the military action.",
+        "keywords": [
+          "Hormuz",
+          "oil supply",
+          "gas prices",
+          "NATO",
+          "energy crisis",
+          "geopolitics"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-DN-003",
+      "title": "UN Warns 45 Million Face Acute Hunger from Iran War — Global Food Price Crisis Escalating",
+      "source": {
+        "name": "Democracy Now!",
+        "type": "news",
+        "url": "https://www.democracynow.org/2026/3/18/headlines",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "UN warns 45 million people at risk of acute hunger due to rising food prices from US-Israeli war on Iran. Global food price inflation linked to energy cost disruptions and shipping route closures. Compounding existing food insecurity in Africa, Middle East, and South Asia.",
+        "keywords": [
+          "hunger crisis",
+          "food prices",
+          "UN warning",
+          "food security",
+          "inflation"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-DN-004",
+      "title": "Lebanon Humanitarian Catastrophe — 912 Killed, 1 Million Displaced, One-Sixth of Population",
+      "source": {
+        "name": "Democracy Now!",
+        "type": "news",
+        "url": "https://www.democracynow.org/2026/3/18/headlines",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Israeli strikes demolish residential buildings in central Beirut. Lebanon reports 912 killed including 111 children, 2,221 wounded. Over 1 million displaced — one-sixth of Lebanon's population. Israeli ground operations continue in southern Lebanon. UN agencies scaling emergency assistance.",
+        "keywords": [
+          "Lebanon",
+          "humanitarian crisis",
+          "displacement",
+          "civilian casualties",
+          "Beirut"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-DN-005",
+      "title": "EU Druzhba Pipeline Joint Statement — Energy Security Restructuring After Ukraine Conflict",
+      "source": {
+        "name": "EU Council",
+        "type": "policy",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/17/joint-statement-by-president-von-der-leyen-and-president-costa-on-the-druzhba-pipeline/",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "EU Council Presidents von der Leyen and Costa issued joint statement on Druzhba pipeline restructuring. European energy security transformation accelerating post-Ukraine conflict. Pipeline that historically carried Russian oil to EU being repurposed or decommissioned as part of energy independence strategy.",
+        "keywords": [
+          "Druzhba pipeline",
+          "EU energy security",
+          "Russia",
+          "Ukraine",
+          "energy independence"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-DN-006",
+      "title": "UK Approves 1GW AI Data Centre Campus — 15 Hyperscale Buildings, Largest European AI Infrastructure",
+      "source": {
+        "name": "The Global Eye",
+        "type": "news",
+        "url": "https://theglobaleye.it/2026/03/18/worlds-in-brief-18-march-2026-update/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "North Lincolnshire Council granted planning permission for Elsham Tech Park — proposed AI data centre campus with up to 15 hyperscale buildings, 1.5 million sqm floorspace, and up to 1GW computing capacity. Represents largest single AI infrastructure project in Europe. Raises energy supply and community impact questions.",
+        "keywords": [
+          "data center",
+          "hyperscale",
+          "1GW",
+          "UK",
+          "AI infrastructure",
+          "planning permission"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-DN-007",
+      "title": "US DHS Partial Shutdown Enters Second Month — Senate Democrats Counter-Offer with Judicial Warrant Demands",
+      "source": {
+        "name": "Democracy Now!",
+        "type": "news",
+        "url": "https://www.democracynow.org/2026/3/18/headlines",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Partial DHS shutdown ongoing for over one month. Senate Democrats send counteroffer demanding judicial warrants for home entry and limits on force. Homeland security operations affected. Immigration enforcement and border security operations disrupted.",
+        "keywords": [
+          "DHS shutdown",
+          "government shutdown",
+          "immigration",
+          "judicial warrants",
+          "border security"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-DN-008",
+      "title": "Trump Admin Considers Withholding HIV Treatments from Zambia for Mineral Access — Health as Leverage",
+      "source": {
+        "name": "Democracy Now! / NYT",
+        "type": "news",
+        "url": "https://www.democracynow.org/2026/3/18/headlines",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "NYT reports Trump administration considering withholding HIV treatments from Zambia to gain critical mineral extraction access. Part of broader resource extraction strategy. PEPFAR lifesaving treatments used as geopolitical leverage. Raises profound ethical questions about instrumentalizing health aid.",
+        "keywords": [
+          "PEPFAR",
+          "HIV",
+          "Zambia",
+          "critical minerals",
+          "health diplomacy",
+          "ethics"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-DN-009",
+      "title": "Federal Reserve Expected to Hold Rates Amid Geopolitical Uncertainty — Markets Adjust Expectations",
+      "source": {
+        "name": "KAOHOON International",
+        "type": "news",
+        "url": "https://www.kaohooninternational.com/markets/579407",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Federal Reserve widely anticipated to maintain current interest rates at upcoming policy meeting. Investors adjusting expectations in response to Middle East geopolitical developments and economic uncertainty. Rate trajectory clouded by conflicting inflation and growth signals.",
+        "keywords": [
+          "Federal Reserve",
+          "interest rates",
+          "monetary policy",
+          "market expectations",
+          "inflation"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-DN-010",
+      "title": "Iran Nuclear Plant Struck — UN Watchdog Reports Projectile Hit Bushehr Site, No Casualties",
+      "source": {
+        "name": "Democracy Now!",
+        "type": "news",
+        "url": "https://www.democracynow.org/2026/3/18/headlines",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "UN nuclear watchdog IAEA reports projectile struck site of Iran's Bushehr nuclear power plant. No casualties reported. Raises severe nuclear safety concerns and potential environmental contamination risks. Unprecedented targeting of active nuclear facility in military conflict.",
+        "keywords": [
+          "Bushehr",
+          "nuclear plant",
+          "IAEA",
+          "nuclear safety",
+          "military strike",
+          "environmental risk"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-DN-011",
+      "title": "El Salvador Deportation Disappearances — At Least 11 Deported Salvadorans Vanish After US Returns",
+      "source": {
+        "name": "Democracy Now! / HRW",
+        "type": "news",
+        "url": "https://www.democracynow.org/2026/3/18/headlines",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Human Rights Watch reports at least 11 deported Salvadorans disappeared after Trump administration deportations. Some detained since March at CECOT mega-prison. Reports document torture including sexual violence. Raises fundamental human rights questions about US deportation partnerships.",
+        "keywords": [
+          "El Salvador",
+          "deportation",
+          "CECOT",
+          "human rights",
+          "disappearances"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-GE-001",
+      "title": "German Chancellor Merz Criticizes US-Israel Iran Campaign — 'Would Have Advised Against'",
+      "source": {
+        "name": "The Global Eye",
+        "type": "news",
+        "url": "https://theglobaleye.it/2026/03/18/worlds-in-brief-18-march-2026-pm/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "German Chancellor Friedrich Merz stated Germany would have 'advised against' US-Israel military action against Iran if consulted. Reflects deepening transatlantic rift over Middle East policy. NATO cohesion tested as European allies refuse to join Hormuz reopening coalition.",
+        "keywords": [
+          "Germany",
+          "NATO",
+          "transatlantic",
+          "Middle East",
+          "Merz"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-GE-002",
+      "title": "NVIDIA Cosmos World Models and Isaac Simulation — Robot Training Before Physical Deployment",
+      "source": {
+        "name": "NVIDIA / The Global Eye",
+        "type": "news",
+        "url": "https://theglobaleye.it/2026/03/18/worlds-in-brief-18-march-2026-update/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "NVIDIA introduced Cosmos world models and updated Isaac simulation frameworks enabling developers to train and validate robots before physical deployment. Companies can simulate complex environments reducing risks and costs of real-world testing. Accelerates physical AI deployment timeline.",
+        "keywords": [
+          "NVIDIA",
+          "Cosmos",
+          "Isaac",
+          "robot simulation",
+          "physical AI",
+          "world models"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-JS-001",
+      "title": "US State Department Orders Global Security Review — All Diplomatic Posts Evaluate Amid Iran War",
+      "source": {
+        "name": "Just Security",
+        "type": "policy",
+        "url": "https://www.justsecurity.org/134188/early-edition-march-18-2026/",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "State Department ordered all US diplomatic posts worldwide to 'immediately' undertake security evaluations. First time all posts globally ordered to review security due to Iran conflict. Reflects scale of geopolitical destabilization from Middle East war.",
+        "keywords": [
+          "State Department",
+          "diplomatic security",
+          "global review",
+          "Iran war",
+          "geopolitics"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    },
+    {
+      "id": "news-20260319-UN-001",
+      "title": "Iran Reports 1,444 Killed, 19,000 Injured Since February 28 — Civilian Toll Mounting",
+      "source": {
+        "name": "Democracy Now!",
+        "type": "news",
+        "url": "https://www.democracynow.org/2026/3/18/headlines",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Iran reports 1,444 killed and nearly 19,000 injured in US-Israeli attacks since February 28. Civilian infrastructure targeted across multiple cities. Bushehr nuclear plant struck. Mounting international criticism of civilian casualties. Humanitarian access restricted.",
+        "keywords": [
+          "Iran casualties",
+          "civilian toll",
+          "humanitarian law",
+          "military conflict",
+          "civilian infrastructure"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 0,
+        "affected_sectors": [],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:30:00Z"
+    }
+  ],
+  "total_items": 15,
+  "scan_metadata": {
+    "execution_proof": {
+      "execution_id": "wf4-scan-2026-03-19-01-30-00-d4e5",
+      "started_at": "2026-03-19T01:30:00Z",
+      "completed_at": "2026-03-19T01:40:00Z",
+      "actual_api_calls": {
+        "web_search": 3,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "MultiGlobalNews"
+      ],
+      "file_created_at": "2026-03-19T01:40:00Z"
+    }
+  }
+}

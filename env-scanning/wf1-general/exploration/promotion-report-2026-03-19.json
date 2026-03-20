@@ -1,0 +1,33 @@
+{
+  "promoter_id": "source_auto_promoter.py",
+  "promoter_version": "1.0.0",
+  "executed_at": "2026-03-19T00:42:09.837025+00:00",
+  "date": "2026-03-19",
+  "status": "NO_PROMOTIONS",
+  "message": "No promotions (viable: 5, skipped: 5)",
+  "promotions": [],
+  "promotions_count": 0,
+  "skipped": [
+    {
+      "name": "The Hastings Center",
+      "reason": "quality_score_low (0.000 < 0.5)"
+    },
+    {
+      "name": "The New Humanitarian",
+      "reason": "quality_score_low (0.000 < 0.5)"
+    },
+    {
+      "name": "Mongabay",
+      "reason": "quality_score_low (0.000 < 0.5)"
+    },
+    {
+      "name": "MercoPress",
+      "reason": "quality_score_low (0.000 < 0.5)"
+    },
+    {
+      "name": "Social Current",
+      "reason": "quality_score_low (0.000 < 0.5)"
+    }
+  ],
+  "skipped_count": 5
+}

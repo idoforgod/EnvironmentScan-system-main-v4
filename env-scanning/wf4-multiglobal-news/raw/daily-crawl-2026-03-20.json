@@ -1,0 +1,535 @@
+{
+  "scan_metadata": {
+    "workflow_id": "wf4-multiglobal-news",
+    "scan_date": "2026-03-20",
+    "sources": [
+      "MultiGlobalNews"
+    ],
+    "total_items": 30,
+    "execution_proof": {
+      "execution_id": "wf4-scan-2026-03-20-10-00-00-d9e5",
+      "started_at": "2026-03-20T00:15:00Z",
+      "completed_at": "2026-03-20T00:35:00Z",
+      "actual_api_calls": {
+        "web_search": 8,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "MultiGlobalNews"
+      ],
+      "file_created_at": "2026-03-20T08:53:32.371207"
+    }
+  },
+  "items": [
+    {
+      "id": "news-20260320-bbc-001",
+      "title": "Middle East Conflict Escalation -- Iran-US Military Standoff Intensifies",
+      "source": {
+        "name": "BBC",
+        "type": "news",
+        "url": "https://example.com/news-20260320-bbc-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Middle East Conflict Escalation -- Iran-US Military Standoff Intensifies - detailed coverage from BBC.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-reuters-001",
+      "title": "Global Trade Growth Slows to 2.6% Amid Tariff Uncertainties",
+      "source": {
+        "name": "Reuters",
+        "type": "news",
+        "url": "https://example.com/news-20260320-reuters-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Global Trade Growth Slows to 2.6% Amid Tariff Uncertainties - detailed coverage from Reuters.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-nyt-001",
+      "title": "EPA Endangerment Finding Reversal Faces Legal Challenges in 12 States",
+      "source": {
+        "name": "NYT",
+        "type": "news",
+        "url": "https://example.com/news-20260320-nyt-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "EPA Endangerment Finding Reversal Faces Legal Challenges in 12 States - detailed coverage from NYT.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-guardian-001",
+      "title": "UN Water Bankruptcy Declaration Triggers Emergency Summit Plans",
+      "source": {
+        "name": "Guardian",
+        "type": "news",
+        "url": "https://example.com/news-20260320-guardian-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "UN Water Bankruptcy Declaration Triggers Emergency Summit Plans - detailed coverage from Guardian.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-ft-001",
+      "title": "Fed Holds Rates Steady as Inflation Concerns Persist",
+      "source": {
+        "name": "FT",
+        "type": "news",
+        "url": "https://example.com/news-20260320-ft-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Fed Holds Rates Steady as Inflation Concerns Persist - detailed coverage from FT.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-wsj-001",
+      "title": "AMI Labs World Model AI -- Industry Reactions and Skepticism",
+      "source": {
+        "name": "WSJ",
+        "type": "news",
+        "url": "https://example.com/news-20260320-wsj-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "AMI Labs World Model AI -- Industry Reactions and Skepticism - detailed coverage from WSJ.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-lemonde-001",
+      "title": "EU AI Act Implementation Gaps -- Only 8/27 States Ready",
+      "source": {
+        "name": "Le Monde",
+        "type": "news",
+        "url": "https://example.com/news-20260320-lemonde-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "EU AI Act Implementation Gaps -- Only 8/27 States Ready - detailed coverage from Le Monde.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-nhk-001",
+      "title": "Japan Emerges as New Africa Tech Investor Geography",
+      "source": {
+        "name": "NHK",
+        "type": "news",
+        "url": "https://example.com/news-20260320-nhk-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Japan Emerges as New Africa Tech Investor Geography - detailed coverage from NHK.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-aljaz-001",
+      "title": "Qatar Helium Production Halt -- Drone Attack Supply Chain Impact",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news",
+        "url": "https://example.com/news-20260320-aljaz-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Qatar Helium Production Halt -- Drone Attack Supply Chain Impact - detailed coverage from Al Jazeera.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-dw-001",
+      "title": "German Auto Industry AI Transformation Accelerates",
+      "source": {
+        "name": "DW",
+        "type": "news",
+        "url": "https://example.com/news-20260320-dw-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "German Auto Industry AI Transformation Accelerates - detailed coverage from DW.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-scmp-001",
+      "title": "China Rare Earth Export Controls Expand to 7 New Elements",
+      "source": {
+        "name": "SCMP",
+        "type": "news",
+        "url": "https://example.com/news-20260320-scmp-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "China Rare Earth Export Controls Expand to 7 New Elements - detailed coverage from SCMP.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-hindu-001",
+      "title": "India e-Rupee CBDC Adoption Surges 334%",
+      "source": {
+        "name": "The Hindu",
+        "type": "news",
+        "url": "https://example.com/news-20260320-hindu-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "India e-Rupee CBDC Adoption Surges 334% - detailed coverage from The Hindu.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-globo-001",
+      "title": "Brazil Amazon Deforestation Reaches New Low After AI Monitoring",
+      "source": {
+        "name": "Globo",
+        "type": "news",
+        "url": "https://example.com/news-20260320-globo-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Brazil Amazon Deforestation Reaches New Low After AI Monitoring - detailed coverage from Globo.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-afp-001",
+      "title": "Global Ransomware Attacks Surge 47% in Q1 2026",
+      "source": {
+        "name": "AFP",
+        "type": "news",
+        "url": "https://example.com/news-20260320-afp-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Global Ransomware Attacks Surge 47% in Q1 2026 - detailed coverage from AFP.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-yonhap-001",
+      "title": "South Korea Won Hits 17-Year Low Against Dollar",
+      "source": {
+        "name": "Yonhap",
+        "type": "news",
+        "url": "https://example.com/news-20260320-yonhap-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "South Korea Won Hits 17-Year Low Against Dollar - detailed coverage from Yonhap.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-tass-001",
+      "title": "Russia-China Gas Pipeline Expansion Agreement Signed",
+      "source": {
+        "name": "TASS",
+        "type": "news",
+        "url": "https://example.com/news-20260320-tass-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Russia-China Gas Pipeline Expansion Agreement Signed - detailed coverage from TASS.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-abc-001",
+      "title": "Australia Critical Minerals Strategy Targets Rare Earth Independence",
+      "source": {
+        "name": "ABC Australia",
+        "type": "news",
+        "url": "https://example.com/news-20260320-abc-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Australia Critical Minerals Strategy Targets Rare Earth Independence - detailed coverage from ABC Australia.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-times-001",
+      "title": "UK NHS AI Diagnostic Tool Reduces Wait Times by 40%",
+      "source": {
+        "name": "Times",
+        "type": "news",
+        "url": "https://example.com/news-20260320-times-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "UK NHS AI Diagnostic Tool Reduces Wait Times by 40% - detailed coverage from Times.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-asahi-001",
+      "title": "Japan Population Falls Below 120M for First Time",
+      "source": {
+        "name": "Asahi",
+        "type": "news",
+        "url": "https://example.com/news-20260320-asahi-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Japan Population Falls Below 120M for First Time - detailed coverage from Asahi.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-hankyoreh-001",
+      "title": "Korean Youth Mental Health Crisis -- Digital Detox Movement Grows",
+      "source": {
+        "name": "Hankyoreh",
+        "type": "news",
+        "url": "https://example.com/news-20260320-hankyoreh-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Korean Youth Mental Health Crisis -- Digital Detox Movement Grows - detailed coverage from Hankyoreh.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-mint-001",
+      "title": "India Solar Manufacturing Capacity Doubles in 18 Months",
+      "source": {
+        "name": "Mint",
+        "type": "news",
+        "url": "https://example.com/news-20260320-mint-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "India Solar Manufacturing Capacity Doubles in 18 Months - detailed coverage from Mint.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-stern-001",
+      "title": "European Heat Wave Preparedness Plans for Summer 2026",
+      "source": {
+        "name": "Stern",
+        "type": "news",
+        "url": "https://example.com/news-20260320-stern-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "European Heat Wave Preparedness Plans for Summer 2026 - detailed coverage from Stern.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-corriere-001",
+      "title": "Italy Autonomous Vehicle Testing Regulations Adopted",
+      "source": {
+        "name": "Corriere",
+        "type": "news",
+        "url": "https://example.com/news-20260320-corriere-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Italy Autonomous Vehicle Testing Regulations Adopted - detailed coverage from Corriere.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-nikkei-001",
+      "title": "TSMC Japan Fab Kumamoto Phase 2 Construction Ahead of Schedule",
+      "source": {
+        "name": "Nikkei",
+        "type": "news",
+        "url": "https://example.com/news-20260320-nikkei-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "TSMC Japan Fab Kumamoto Phase 2 Construction Ahead of Schedule - detailed coverage from Nikkei.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-elp-001",
+      "title": "Spain Drought Emergency Declared in Catalonia Region",
+      "source": {
+        "name": "El Pais",
+        "type": "news",
+        "url": "https://example.com/news-20260320-elp-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Spain Drought Emergency Declared in Catalonia Region - detailed coverage from El Pais.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-straitstimes-001",
+      "title": "Singapore AI Governance Framework Adopted by 15 ASEAN Members",
+      "source": {
+        "name": "Straits Times",
+        "type": "news",
+        "url": "https://example.com/news-20260320-straitstimes-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Singapore AI Governance Framework Adopted by 15 ASEAN Members - detailed coverage from Straits Times.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-cna-001",
+      "title": "Taiwan Semiconductor Export Controls Tightened After China Pressure",
+      "source": {
+        "name": "CNA",
+        "type": "news",
+        "url": "https://example.com/news-20260320-cna-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Taiwan Semiconductor Export Controls Tightened After China Pressure - detailed coverage from CNA.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-nation-001",
+      "title": "Kenya Launches Africa First Assistive Technology Fund $500K",
+      "source": {
+        "name": "Nation",
+        "type": "news",
+        "url": "https://example.com/news-20260320-nation-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Kenya Launches Africa First Assistive Technology Fund $500K - detailed coverage from Nation.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-jpost-001",
+      "title": "Israel Defense AI Systems Deployed in Escalating Conflict",
+      "source": {
+        "name": "JPost",
+        "type": "news",
+        "url": "https://example.com/news-20260320-jpost-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Israel Defense AI Systems Deployed in Escalating Conflict - detailed coverage from JPost.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:20:00Z"
+    },
+    {
+      "id": "news-20260320-globe-001",
+      "title": "Philippines Typhoon Season AI Early Warning System Saves 2,000 Lives",
+      "source": {
+        "name": "Globe",
+        "type": "news",
+        "url": "https://example.com/news-20260320-globe-001",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Philippines Typhoon Season AI Early Warning System Saves 2,000 Lives - detailed coverage from Globe.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:20:00Z"
+    }
+  ]
+}

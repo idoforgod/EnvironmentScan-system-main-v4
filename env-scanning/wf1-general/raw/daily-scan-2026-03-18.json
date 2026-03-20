@@ -1,0 +1,433 @@
+{
+  "scan_metadata": {
+    "workflow_id": "wf1-general",
+    "scan_date": "2026-03-18",
+    "scan_window": {
+      "start": "2026-03-16T23:31:25Z",
+      "end": "2026-03-17T23:31:25Z",
+      "T0": "2026-03-17T23:31:25Z",
+      "lookback_hours": 24
+    },
+    "sources_scanned": [
+      "TechCrunch", "MIT Technology Review", "WHO Press Releases", "US Federal Register",
+      "Nature News", "Science Magazine", "IEEE Spectrum", "Hacker News", "UN News",
+      "Pew Research Center", "Carbon Brief", "ScienceDaily Sustainability",
+      "Google Patents", "PubMed Central", "OECD Newsroom", "World Bank Blogs",
+      "EUR-Lex Recent Acts", "Brookings Institution", "World Economic Forum",
+      "Wired", "Ars Technica", "IMF Blog", "BIS Speeches", "Disrupt Africa",
+      "Quanta Magazine Biology", "The Conversation - Ethics", "Psychology Today",
+      "Aeon Magazine", "AI Ethics Brief", "NASA Climate Change",
+      "Yale Climate Connections", "CEPR VoxEU", "Genetic Literacy Project",
+      "Positive Psychology News"
+    ],
+    "sources_count": 34,
+    "total_items_collected": 75,
+    "execution_proof": {
+      "started_at": "2026-03-17T23:31:30Z",
+      "completed_at": "2026-03-17T23:45:00Z",
+      "method": "rss_feed_and_web_search"
+    }
+  },
+  "items": [
+    {
+      "id": "wf1-20260318-001",
+      "title": "NVIDIA GTC 2026: Vera Rubin GPUs, $1T Blackwell Orders, Physical AI Robotics Push",
+      "source": {"name": "TechCrunch/NVIDIA Blog", "type": "blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "published_date": "2026-03-17"},
+      "content": {"abstract": "NVIDIA CEO Jensen Huang announced $1 trillion in combined orders for Blackwell and Vera Rubin AI chips through 2027. Cloud partners have deployed over 1 million GPUs in AI factories globally (1.7 GW capacity). 110 robots showcased including Disney's Olaf. New robotaxi partners: BYD, Hyundai, Nissan, Geely. Uber will launch NVIDIA Drive AV-powered fleet across 28 cities by 2028. DLSS 5 announced. Physical AI blueprints and Cosmos world models open-sourced.", "keywords": ["NVIDIA", "GTC", "GPU", "AI infrastructure", "physical AI", "robotics", "autonomous vehicles", "Vera Rubin"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:35:00Z"
+    },
+    {
+      "id": "wf1-20260318-002",
+      "title": "Pentagon Plans Classified AI Training Facilities for Military Models",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/", "published_date": "2026-03-17"},
+      "content": {"abstract": "The Pentagon is setting up secure facilities where AI firms like OpenAI and xAI would train military-specific model versions on classified intelligence data. Experts warn of unique security risks including potential data leakage across different military departments with varying classification levels.", "keywords": ["Pentagon", "classified AI", "military AI", "OpenAI", "national security", "defense"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T23:35:00Z"
+    },
+    {
+      "id": "wf1-20260318-003",
+      "title": "OpenAI Expands Government Footprint with AWS Deal for Classified Operations",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/", "published_date": "2026-03-17"},
+      "content": {"abstract": "OpenAI partnered with AWS to supply AI systems for classified and unclassified government operations. Combined with Pentagon's classified training facilities announcement, signals major expansion of AI in national security apparatus.", "keywords": ["OpenAI", "AWS", "government AI", "classified", "defense contracting"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T23:35:00Z"
+    },
+    {
+      "id": "wf1-20260318-004",
+      "title": "Mistral Forge: Enterprise Custom AI Model Platform Challenges OpenAI/Anthropic",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Mistral Forge enables companies to develop custom AI models using proprietary data, positioning the French AI company against OpenAI and Anthropic in the enterprise AI market. Announced at NVIDIA GTC.", "keywords": ["Mistral", "enterprise AI", "custom models", "AI competition", "European AI"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:35:00Z"
+    },
+    {
+      "id": "wf1-20260318-005",
+      "title": "Strait of Hormuz Disruption: Oil Above $100, Asia Faces Stagflation Risk",
+      "source": {"name": "Al Jazeera/WEF/CNBC", "type": "policy", "url": "https://www.weforum.org/stories/2026/03/the-global-price-tag-of-war-in-the-middle-east/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Brent crude at $103.14/barrel after reaching nearly $120 earlier. Strait of Hormuz effectively shut by Iran in retaliation. 20% of global oil and LNG transit disrupted. 84% of strait oil bound for Asia. IEA released historic 400-million-barrel emergency reserves. Fertilizer prices up 30%. US GDP forecast cut to 1.2%. Central banks face 'stagflationary' pressure. Schools closed across Asia due to fuel crisis.", "keywords": ["oil prices", "Strait of Hormuz", "Iran", "stagflation", "energy crisis", "Asia", "economic impact"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T23:36:00Z"
+    },
+    {
+      "id": "wf1-20260318-006",
+      "title": "Middle East Conflict: 45 Million Face Hunger Crisis, Pakistan Strikes Kabul",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167147", "published_date": "2026-03-17"},
+      "content": {"abstract": "WFP warns Middle East war could push 45 million more people into acute hunger. Pakistan strikes Kabul rehabilitation center killing 400+. Oil above $100/barrel disrupting global shipping. UN calls it worst disruption to humanitarian work since COVID.", "keywords": ["Middle East", "hunger crisis", "WFP", "humanitarian", "conflict", "Pakistan"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T23:36:00Z"
+    },
+    {
+      "id": "wf1-20260318-007",
+      "title": "Section 301 Trade Investigations: US Targets Manufacturing Overcapacity in 15 Economies",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/17/2026-05214/initiation-of-section-301-investigations-acts-policies-and-practices-of-certain-economies-relating", "published_date": "2026-03-17"},
+      "content": {"abstract": "USTR initiates Section 301 investigations into structural manufacturing overcapacity in 15 target economies. Signals significant expansion of US trade enforcement beyond China. Could reshape global manufacturing and supply chain geography.", "keywords": ["Section 301", "trade", "manufacturing overcapacity", "USTR", "tariffs", "supply chain"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T23:36:00Z"
+    },
+    {
+      "id": "wf1-20260318-008",
+      "title": "White House Lifts NIH Research Spending Hold",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/white-house-lifts-hold-nih-research-spending", "published_date": "2026-03-17"},
+      "content": {"abstract": "NIH Director Jay Bhattacharya informed lawmakers that grantmaking and hiring are on track following the White House decision to release research funding holds. Comes after prolonged freeze that disrupted US biomedical research.", "keywords": ["NIH", "research funding", "White House", "biomedical research", "science policy"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T23:36:00Z"
+    },
+    {
+      "id": "wf1-20260318-009",
+      "title": "Non-Invasive Deep Brain Stimulation: Colliding Currents Show Epilepsy Treatment Promise",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/colliding-currents-can-target-deep-brain-without-surgery", "published_date": "2026-03-17"},
+      "content": {"abstract": "Clinical trials demonstrate a noninvasive brain stimulation technique using colliding electrical currents that can target deep brain regions without surgery. Shows potential for treating epilepsy and related neurological conditions.", "keywords": ["brain stimulation", "neurology", "epilepsy", "non-invasive", "clinical trials", "medical technology"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:36:00Z"
+    },
+    {
+      "id": "wf1-20260318-010",
+      "title": "Sensorveillance: IoT Devices Create Pervasive Surveillance Infrastructure",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/digital-surveillance", "published_date": "2026-03-17"},
+      "content": {"abstract": "Law professor Andrew Guthrie Ferguson examines how IoT devices and location tracking have created a surveillance infrastructure. Discusses geofence warrants, vehicle telemetry, and Google's Sensorvault. Raises Fourth Amendment concerns about the tension between convenience and privacy.", "keywords": ["surveillance", "IoT", "privacy", "Fourth Amendment", "geofence warrants", "digital rights"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-17T23:37:00Z"
+    },
+    {
+      "id": "wf1-20260318-011",
+      "title": "New Polymer Blend Capacitor: 4x Energy Storage at 250C for Grid and EVs",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/polymer-blend-capacitor", "published_date": "2026-03-17"},
+      "content": {"abstract": "Penn State researchers developed a polymer blend capacitor that operates at 250C while storing four times more energy than conventional polymer capacitors. Could reduce cooling systems in high-power electronics and enable smaller, lighter components for EVs and grid infrastructure.", "keywords": ["capacitor", "energy storage", "polymer", "EV", "grid", "materials science"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:37:00Z"
+    },
+    {
+      "id": "wf1-20260318-012",
+      "title": "EU Digital Sovereignty Push: EURO-3C Initiative to Replace US Cloud Providers",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/europe-cloud-sovereignty", "published_date": "2026-03-17"},
+      "content": {"abstract": "The EU is pushing for digital sovereignty through EURO-3C initiative, seeking to reduce dependence on US cloud giants AWS and Google Cloud. Examines regulatory frameworks, geopolitical tensions, and challenges facing European providers.", "keywords": ["EU", "cloud sovereignty", "digital sovereignty", "EURO-3C", "geopolitics", "data governance"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T23:37:00Z"
+    },
+    {
+      "id": "wf1-20260318-013",
+      "title": "Power Grid Under Siege: Tenfold Increase in Physical Attacks Over Decade",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/power-grid-attack-gridex-drone", "published_date": "2026-03-16"},
+      "content": {"abstract": "GridEx VIII exercise simulated coordinated attacks on power infrastructure. Reports tenfold increase in physical attacks over a decade. Emerging defenses include drone detection systems, fiber-optic sensing, and AI-powered security monitoring.", "keywords": ["power grid", "infrastructure security", "GridEx", "drone threats", "critical infrastructure", "cybersecurity"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:37:00Z"
+    },
+    {
+      "id": "wf1-20260318-014",
+      "title": "Triple-Junction Solar Cells Achieve New Efficiency Records",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10385-y", "published_date": "2026-03-17"},
+      "content": {"abstract": "Advances in multi-junction photovoltaic design improve energy conversion efficiency through optimized carrier and photon management. Demonstrates enhanced performance in triple-junction architecture.", "keywords": ["solar cells", "photovoltaic", "renewable energy", "efficiency", "clean energy"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-17T23:37:00Z"
+    },
+    {
+      "id": "wf1-20260318-015",
+      "title": "Practical Anode-Free Lithium Batteries: Planar Deposition Enables Pouch Cells",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10402-0", "published_date": "2026-03-17"},
+      "content": {"abstract": "Research demonstrates planar lithium deposition and dissolution enabling practical anode-free pouch cells. Could lead to higher energy density batteries with less material usage for EVs and grid storage.", "keywords": ["lithium batteries", "anode-free", "energy storage", "battery technology", "EVs"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:37:00Z"
+    },
+    {
+      "id": "wf1-20260318-016",
+      "title": "Wearable Devices Predict Insulin Resistance Before Disease Onset",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10179-2", "published_date": "2026-03-16"},
+      "content": {"abstract": "Machine learning integration of smartwatch data with routine blood biomarkers identifies metabolic dysfunction risk before disease onset. Could transform preventive healthcare through continuous monitoring.", "keywords": ["wearables", "insulin resistance", "machine learning", "preventive health", "metabolic disease", "digital health"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:37:00Z"
+    },
+    {
+      "id": "wf1-20260318-017",
+      "title": "Ryugu Asteroid Samples Contain All DNA and RNA Building Blocks",
+      "source": {"name": "Hacker News/phys.org", "type": "blog", "url": "https://phys.org/news/2026-03-ryugu-asteroid-samples-dna-rna.html", "published_date": "2026-03-17"},
+      "content": {"abstract": "Scientific discovery confirms all fundamental DNA and RNA building blocks found in Ryugu asteroid material collected by JAXA's Hayabusa2 mission. Strengthens panspermia hypothesis and understanding of life's origins.", "keywords": ["asteroid", "Ryugu", "DNA", "RNA", "panspermia", "space science", "JAXA"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:38:00Z"
+    },
+    {
+      "id": "wf1-20260318-018",
+      "title": "Apple Launches MacBook Neo, iPhone 17e, and First Background Security Update",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/17/everything-apple-announced-macbook-neo-iphone-17e-ipad-air/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Apple unveiled MacBook Neo, AirPods Max 2, iPhone 17e, updated iPad Air. Also rolled out first-ever background security update for iPhones/iPads/Macs to fix Safari vulnerability. New Siri with Google Gemini partnership for iOS 26.4.", "keywords": ["Apple", "MacBook Neo", "iPhone 17e", "Siri", "Gemini", "iOS", "security"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:38:00Z"
+    },
+    {
+      "id": "wf1-20260318-019",
+      "title": "Google Personal Intelligence Feature Expands to All US Users",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Google's AI assistant now integrates Gmail and Photos data to deliver personalized responses. Expanding to all US users marks a significant step in personal data integration with AI systems, raising both convenience and privacy questions.", "keywords": ["Google", "personal AI", "data integration", "privacy", "AI assistant"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:38:00Z"
+    },
+    {
+      "id": "wf1-20260318-020",
+      "title": "Stryker Medical Devices Hit by Pro-Iran Cyberattack: Thousands of Employee Devices Wiped",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/17/stryker-says-its-restoring-systems-after-pro-iran-hackers-wiped-thousands-of-employee-devices/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Major medical device manufacturer Stryker suffered massive cyberattack from pro-Iran hackers who wiped thousands of employee devices. Signals escalation of geopolitically-motivated cyber warfare targeting critical healthcare infrastructure.", "keywords": ["cyberattack", "Stryker", "healthcare", "Iran", "cyber warfare", "medical devices"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:38:00Z"
+    },
+    {
+      "id": "wf1-20260318-021",
+      "title": "AI Gender Funding Gap: Women's Exclusion from AI Leadership Widens Wealth Inequality",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/17/ais-boys-club-could-widen-the-wealth-gap-for-women-says-rana-el-kaliouby/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Investor Rana el Kaliouby warns that excluding women from AI leadership risks widening economic inequality. AI funding heavily concentrated among male-led companies, creating structural barriers.", "keywords": ["AI funding", "gender gap", "women in tech", "wealth inequality", "diversity"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-17T23:38:00Z"
+    },
+    {
+      "id": "wf1-20260318-022",
+      "title": "H&M Partners with Rubi to Make Clothing from CO2",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/17/hm-wants-to-make-clothing-from-co2-using-this-startups-tech/", "published_date": "2026-03-17"},
+      "content": {"abstract": "H&M partnered with startup Rubi to convert carbon dioxide into cellulose for sustainable fabric production. If scalable, could transform fashion industry's carbon footprint.", "keywords": ["CO2 capture", "sustainable fashion", "cellulose", "carbon conversion", "H&M", "circular economy"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-17T23:38:00Z"
+    },
+    {
+      "id": "wf1-20260318-023",
+      "title": "Google Data Center Power Strategy Shift Toward Sustainable Energy Procurement",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/17/googles-data-center-power-playbook-comes-into-focus/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Recent energy procurement agreements reveal Google shifting its approach to powering data centers sustainably. Amid AI infrastructure boom requiring massive energy, Google is pioneering new models for clean energy sourcing.", "keywords": ["Google", "data centers", "energy", "sustainability", "AI power consumption", "clean energy"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-17T23:38:00Z"
+    },
+    {
+      "id": "wf1-20260318-024",
+      "title": "World (Sam Altman) Launches Human Verification for AI Shopping Agents",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Sam Altman's World expanded verification services to authenticate humans managing AI shopping agents. Addresses growing concern about AI agents in e-commerce and digital identity.", "keywords": ["World", "identity verification", "AI agents", "e-commerce", "digital identity", "Sam Altman"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:39:00Z"
+    },
+    {
+      "id": "wf1-20260318-025",
+      "title": "Kagi Small Web: Curated 30K+ Independent Websites Launch on Mobile",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/17/kagi-small-web-human-authored-indie-internet-mobile-ios-android-devices/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Kagi expanded its curated collection of 30,000+ independent human-authored websites to mobile platforms (iOS/Android). Counter-trend to AI-generated content saturation. Emphasizes human-created content.", "keywords": ["Kagi", "small web", "indie internet", "human content", "AI resistance", "search"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-17T23:39:00Z"
+    },
+    {
+      "id": "wf1-20260318-026",
+      "title": "Niv-AI Exits Stealth: $12M to Optimize GPU Power and Performance",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Startup raised $12 million in seed funding to optimize GPU power consumption and performance in data centers. Addresses critical bottleneck as AI infrastructure scales.", "keywords": ["GPU optimization", "data centers", "energy efficiency", "AI infrastructure", "startup"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:39:00Z"
+    },
+    {
+      "id": "wf1-20260318-027",
+      "title": "EU Environment Council: CO2 Standards, Decarbonisation Post-2030, Climate Resilience",
+      "source": {"name": "EU Council/Web Search", "type": "policy", "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/16/media-advisory-environment-council-of-17-march-2026/", "published_date": "2026-03-17"},
+      "content": {"abstract": "EU Environment Council convened to discuss CO2 emission standards for cars and vans, decarbonisation post-2030, LULUCF Regulation, and EU Climate Resilience Framework principles. Key policy decisions on European climate trajectory.", "keywords": ["EU", "CO2 standards", "decarbonisation", "climate resilience", "LULUCF", "climate policy"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-17T23:39:00Z"
+    },
+    {
+      "id": "wf1-20260318-028",
+      "title": "Arctic Sea Ice Sets Record Daily Low: 4,400 km2 Below Previous Record",
+      "source": {"name": "Climate/Web Search", "type": "science_news", "url": "https://climateandeconomy.com/2026/03/17/17th-march-2026-todays-round-up-of-climate-news/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Arctic sea-ice extent set a record daily low, approximately 4,400 km2 below the previous record. Still on track to set new record low maximum. Accelerating ice loss signals climate system tipping point.", "keywords": ["Arctic", "sea ice", "record low", "climate change", "tipping point", "cryosphere"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-17T23:39:00Z"
+    },
+    {
+      "id": "wf1-20260318-029",
+      "title": "Kalshi Prediction Markets Face First Criminal Charges in Arizona",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/17/kalshis-legal-troubles-pile-up-as-arizona-files-first-ever-criminal-charges-over-illegal-gambling-business/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Arizona filed first-ever criminal charges against prediction market platform Kalshi for operating illegal gambling business. Sets legal precedent for prediction market regulation.", "keywords": ["prediction markets", "Kalshi", "regulation", "gambling law", "fintech"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T23:39:00Z"
+    },
+    {
+      "id": "wf1-20260318-030",
+      "title": "India's National AI Platform Bhashini Tackles Multilingual AI Access",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/india-s-national-ai-platform-tackles-country-s-many-tongues", "published_date": "2026-03-16"},
+      "content": {"abstract": "India's Bhashini initiative aims to democratize AI capabilities across linguistic communities, addressing the challenge of making AI accessible in the world's most linguistically diverse democracy.", "keywords": ["India", "Bhashini", "multilingual AI", "AI democratization", "language technology"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:40:00Z"
+    },
+    {
+      "id": "wf1-20260318-031",
+      "title": "Samsung Unveils HBM4E Memory at NVIDIA GTC 2026",
+      "source": {"name": "Samsung/NVIDIA", "type": "blog", "url": "https://news.samsung.com/global/samsung-unveils-hbm4e-showcasing-comprehensive-ai-solutions-nvidia-partnership-and-vision-at-nvidia-gtc-2026", "published_date": "2026-03-17"},
+      "content": {"abstract": "Samsung unveiled HBM4E next-generation high-bandwidth memory at NVIDIA GTC, showcasing comprehensive AI solutions and expanded NVIDIA partnership. HBM4E enables next-gen AI model training performance.", "keywords": ["Samsung", "HBM4E", "memory", "NVIDIA", "AI hardware", "semiconductor"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:40:00Z"
+    },
+    {
+      "id": "wf1-20260318-032",
+      "title": "UN Reports AI-Powered Deepfake Fraud: $2.5M Loss in Single Australian Scheme",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167144", "published_date": "2026-03-16"},
+      "content": {"abstract": "UN report details organized fraud using deepfakes and voice cloning. Australian investors lost over $2.5 million to AI-powered schemes. Highlights growing threat of AI-enabled financial crime.", "keywords": ["deepfakes", "AI fraud", "voice cloning", "financial crime", "cybersecurity"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:40:00Z"
+    },
+    {
+      "id": "wf1-20260318-033",
+      "title": "Renewable Energy Disrupted: Middle East Conflict Drives Oil and Gas Price Surge",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167135", "published_date": "2026-03-16"},
+      "content": {"abstract": "UN climate chief warns Middle East conflict is disrupting global energy supplies and driving oil and gas prices sharply higher. Could set back clean energy transition as countries revert to fossil fuel security.", "keywords": ["renewable energy", "oil prices", "energy transition", "Middle East", "climate", "fossil fuels"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-17T23:40:00Z"
+    },
+    {
+      "id": "wf1-20260318-034",
+      "title": "Federal Workforce Shrank 10.3% in 2025: 238,000 Workers Lost",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/short-reads/2026/03/13/federal-workforce-shrank-10-in-trumps-first-year-back-in-office/", "published_date": "2026-03-13"},
+      "content": {"abstract": "Federal workforce shrank by 10.3% in 2025, losing nearly 238,000 workers. Education Department and USAID experienced the most severe reductions. Unprecedented peacetime reduction of government capacity.", "keywords": ["federal workforce", "government", "workforce reduction", "DOGE", "public sector"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T23:40:00Z"
+    },
+    {
+      "id": "wf1-20260318-035",
+      "title": "Americans View Data Centers Negatively: Environment, Energy Costs, Quality of Life",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/short-reads/2026/03/12/how-americans-view-data-centers-impact-in-key-areas-from-the-environment-to-jobs/", "published_date": "2026-03-12"},
+      "content": {"abstract": "More Americans say data centers have a negative effect on the environment, home energy costs and quality of life nearby than say they have a positive effect. Growing public resistance to AI infrastructure expansion.", "keywords": ["data centers", "public opinion", "environment", "energy costs", "NIMBY", "AI infrastructure"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-17T23:40:00Z"
+    },
+    {
+      "id": "wf1-20260318-036",
+      "title": "Meta Horizon Worlds Discontinued: Metaverse Retreat Continues",
+      "source": {"name": "Hacker News/Meta", "type": "blog", "url": "https://communityforums.atmeta.com/blog/AnnouncementsBlog/updates-to-your-meta-quest-experience-in-2026/1369435", "published_date": "2026-03-17"},
+      "content": {"abstract": "Meta shutters Horizon Worlds virtual reality platform, refocusing Quest ecosystem. Signals continued retreat from metaverse vision. After billions invested, social VR fails to achieve mass adoption.", "keywords": ["Meta", "Horizon Worlds", "metaverse", "VR", "platform shutdown"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:41:00Z"
+    },
+    {
+      "id": "wf1-20260318-037",
+      "title": "Meta and TikTok Whistleblower: Platforms Prioritize Engagement Over Safety",
+      "source": {"name": "Hacker News/BBC", "type": "blog", "url": "https://www.bbc.com/news/articles/cqj9kgxqjwjo", "published_date": "2026-03-17"},
+      "content": {"abstract": "Whistleblower allegations reveal Meta and TikTok amplify harmful content to maximize engagement. Adds to growing evidence of platform safety failures.", "keywords": ["Meta", "TikTok", "whistleblower", "content safety", "social media", "platform regulation"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-17T23:41:00Z"
+    },
+    {
+      "id": "wf1-20260318-038",
+      "title": "Illinois Proposes Operating System Account Age Verification Bill",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.ilga.gov/Legislation/BillStatus?DocTypeID=HB&DocNum=5511", "published_date": "2026-03-17"},
+      "content": {"abstract": "Illinois HB5511 proposes OS-level age verification requirements for digital accounts. Represents novel regulatory approach to online safety at operating system layer.", "keywords": ["age verification", "Illinois", "regulation", "online safety", "OS-level", "legislation"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T23:41:00Z"
+    },
+    {
+      "id": "wf1-20260318-039",
+      "title": "Python 3.15 JIT Compiler Back on Track for Performance Gains",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://fidget-spinner.github.io/posts/jit-on-track.html", "published_date": "2026-03-17"},
+      "content": {"abstract": "Python 3.15's Just-In-Time compiler development resumes after delays. JIT could dramatically improve Python performance for AI/ML workloads.", "keywords": ["Python", "JIT", "performance", "programming", "AI/ML"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:41:00Z"
+    },
+    {
+      "id": "wf1-20260318-040",
+      "title": "IEA Historic 400-Million-Barrel Strategic Oil Release",
+      "source": {"name": "Carbon Brief/Al Jazeera", "type": "blog", "url": "https://www.aljazeera.com/economy/2026/3/15/strategic-oil-release-may-calm-markets-but-cannot-fix-hormuz-disruption", "published_date": "2026-03-15"},
+      "content": {"abstract": "IEA members released historic 400-million-barrel emergency oil reserves in response to Iran conflict and Strait of Hormuz disruption. Largest coordinated release ever. Markets calmed temporarily but structural disruption remains.", "keywords": ["IEA", "strategic reserves", "oil", "emergency release", "energy security", "Hormuz"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T23:41:00Z"
+    },
+    {
+      "id": "wf1-20260318-041",
+      "title": "Iran Water Crisis: Climate Change and War Threaten Water Supplies",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/qa-how-climate-change-and-war-threaten-irans-water-supplies/", "published_date": "2026-03-13"},
+      "content": {"abstract": "Iran faces unprecedented drought intensified by climate change, decades of unsustainable water management, and recent attacks on desalination infrastructure. Compound crisis of war + climate + water scarcity.", "keywords": ["Iran", "water crisis", "drought", "climate change", "desalination", "water security"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-17T23:42:00Z"
+    },
+    {
+      "id": "wf1-20260318-042",
+      "title": "EU Considers Delaying High-Risk AI Rules from August 2026 to Late 2027",
+      "source": {"name": "Web Search/IAPP", "type": "policy", "url": "https://www.credo.ai/blog/latest-ai-regulations-update-what-enterprises-need-to-know", "published_date": "2026-03-17"},
+      "content": {"abstract": "The EU is considering delaying implementation of its rules on high-risk AI systems, scheduled for August 2026, to late 2027. Industry pressure and implementation complexity driving the extension.", "keywords": ["EU AI Act", "AI regulation", "high-risk AI", "regulatory delay", "compliance"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T23:42:00Z"
+    },
+    {
+      "id": "wf1-20260318-043",
+      "title": "China's 15th Five-Year Plan Focuses on Modernizing Traditional Industries",
+      "source": {"name": "Web Search", "type": "policy", "url": "https://www.nature.com/articles/d41586-026-00814-3", "published_date": "2026-03-17"},
+      "content": {"abstract": "China's 15th Five-Year Plan primarily focuses on modernizing traditional industries and intensifying push to become world leader in tech and AI. Released March 2026.", "keywords": ["China", "Five-Year Plan", "AI", "industrial modernization", "technology leadership"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T23:42:00Z"
+    },
+    {
+      "id": "wf1-20260318-044",
+      "title": "Apple Siri Gemini Partnership: Google 1.2T Parameter Model for iOS 26.4",
+      "source": {"name": "Web Search", "type": "blog", "url": "https://techcrunch.com/2026/03/17/everything-apple-announced-macbook-neo-iphone-17e-ipad-air/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Apple partnering with Google to utilize 1.2 trillion parameter Gemini AI model for new Siri, running on Apple's Private Cloud Compute. Signals major AI alliance between tech giants. Target release: March 2026 with iOS 26.4.", "keywords": ["Apple", "Siri", "Google Gemini", "AI partnership", "Private Cloud Compute"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:42:00Z"
+    },
+    {
+      "id": "wf1-20260318-045",
+      "title": "GPT-5.4 Launch: 1 Million Token Context with Native Computer Use",
+      "source": {"name": "Web Search/crescendo.ai", "type": "blog", "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates", "published_date": "2026-03-05"},
+      "content": {"abstract": "OpenAI launched GPT-5.4 on March 5 supporting up to 1 million tokens of context with native computer use built-in. MiniMax M2.5 from China rivals Claude Opus 4.6 at lower cost.", "keywords": ["GPT-5.4", "OpenAI", "context window", "computer use", "MiniMax", "AI competition"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:42:00Z"
+    },
+    {
+      "id": "wf1-20260318-046",
+      "title": "Uber-NVIDIA Robotaxi Fleet: 28 Cities, 4 Continents by 2028",
+      "source": {"name": "NVIDIA/Web Search", "type": "blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "published_date": "2026-03-17"},
+      "content": {"abstract": "Uber will launch NVIDIA Drive AV-powered robotaxi fleet across 28 cities on four continents by 2028, starting with Los Angeles and San Francisco. BYD, Hyundai, Nissan, Geely building Level 4 autonomous vehicles on NVIDIA Drive Hyperion.", "keywords": ["Uber", "robotaxi", "autonomous driving", "NVIDIA", "Level 4", "BYD", "Hyundai"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:42:00Z"
+    },
+    {
+      "id": "wf1-20260318-047",
+      "title": "90% of North American Insect/Arachnid Species Lack Conservation Status",
+      "source": {"name": "ScienceDaily", "type": "science_news", "url": "https://www.sciencedaily.com/releases/2026/03/260314030512.htm", "published_date": "2026-03-14"},
+      "content": {"abstract": "Nearly 90% of North America's insect and arachnid species have no conservation status. Most US states provide no legal protections for arachnids despite their vital ecosystem roles. Highlights invertebrate conservation gap.", "keywords": ["biodiversity", "conservation", "insects", "arachnids", "invertebrates", "ecosystem"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-17T23:43:00Z"
+    },
+    {
+      "id": "wf1-20260318-048",
+      "title": "FCC Proposes Telecom Relay Service Modernization with Speech Recognition AI",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/17/2026-05213/internet-based-telecommunications-relay-service-modernization", "published_date": "2026-03-17"},
+      "content": {"abstract": "FCC proposes modernizing telecommunications relay services using speech recognition and text-to-speech technologies. Intersection of AI, accessibility, and telecommunications regulation.", "keywords": ["FCC", "telecom", "speech recognition", "accessibility", "AI regulation"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T23:43:00Z"
+    },
+    {
+      "id": "wf1-20260318-049",
+      "title": "Model Organism Research Declining: Fruit Flies and Lab Species Publications Fall",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/research-fruit-flies-and-other-model-organisms-may-be-declining", "published_date": "2026-03-17"},
+      "content": {"abstract": "Study examining published research reveals declining output on eight commonly-used laboratory species including fruit flies. Could impact foundational biological research and drug development pipelines.", "keywords": ["model organisms", "research decline", "fruit flies", "biology", "scientific research"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T23:43:00Z"
+    },
+    {
+      "id": "wf1-20260318-050",
+      "title": "Buddhism Shrinks 5% Globally: Only Major Religion to Decline 2010-2020",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/short-reads/2026/03/11/why-is-buddhism-shrinking-worldwide/", "published_date": "2026-03-11"},
+      "content": {"abstract": "Global Buddhist population shrank by approximately 5% between 2010 and 2020, the sole major religious group to decline worldwide. Signals demographic and cultural shift.", "keywords": ["Buddhism", "religion", "demographic decline", "secularization", "cultural change"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-17T23:43:00Z"
+    }
+  ]
+}

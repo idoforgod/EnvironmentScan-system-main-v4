@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "date": "2026-03-17",
+    "workflow": "wf2-arxiv",
+    "ranking_method": "pSST_unified",
+    "total_candidates": 58,
+    "total_ranked": 15
+  },
+  "ranking_metadata": {
+    "total_ranked": 15,
+    "score_range": "82.0-91.0"
+  },
+  "ranked_signals": [
+    {
+      "id": "arxiv-2603.12505",
+      "title": "Robots That Redesign Themselves Through Kinematic Self-Destruction",
+      "steeps_category": "T",
+      "psst_score": 91.0,
+      "ranking_reason": "Self-redesigning robots via kinematic self-destruction -- paradigm shift in adaptive robotics",
+      "source_url": "https://arxiv.org/abs/2603.12505",
+      "arxiv_categories": [
+        "cs.RO"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12372",
+      "title": "Efficient Reasoning with Balanced Thinking",
+      "steeps_category": "T",
+      "psst_score": 89.5,
+      "ranking_reason": "Balanced thinking for efficient LLM reasoning -- 40% token reduction with maintained accuracy",
+      "source_url": "https://arxiv.org/abs/2603.12372",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12630",
+      "title": "The Economics of AI Supply Chain Regulation",
+      "steeps_category": "P",
+      "psst_score": 88.0,
+      "ranking_reason": "Economics of AI supply chain regulation -- policy framework for AI governance",
+      "source_url": "https://arxiv.org/abs/2603.12630",
+      "arxiv_categories": [
+        "econ.TH",
+        "cs.AI",
+        "cs.CY",
+        "cs.HC",
+        "econ.EM"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12277",
+      "title": "Prompt Injection as Role Confusion",
+      "steeps_category": "T",
+      "psst_score": 87.5,
+      "ranking_reason": "Prompt injection as role confusion -- fundamental security insight for LLM deployment",
+      "source_url": "https://arxiv.org/abs/2603.12277",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CR"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12411",
+      "title": "Distributed Quantum Computing via Adaptive Circuit Knitting",
+      "steeps_category": "T",
+      "psst_score": 87.0,
+      "ranking_reason": "Distributed quantum computing via adaptive circuit knitting -- practical quantum networking",
+      "source_url": "https://arxiv.org/abs/2603.12411",
+      "arxiv_categories": [
+        "quant-ph",
+        "cond-mat.dis-nn"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12681",
+      "title": "Colluding LoRA: A Composite Attack on LLM Safety Alignment",
+      "steeps_category": "T",
+      "psst_score": 86.5,
+      "ranking_reason": "Colluding LoRA attack on safety alignment -- critical AI safety vulnerability",
+      "source_url": "https://arxiv.org/abs/2603.12681",
+      "arxiv_categories": [
+        "cs.CR",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12621",
+      "title": "AEGIS: No Tool Call Left Unchecked -- A Pre-Execution Firewall and Audit Layer for AI Agents",
+      "steeps_category": "T",
+      "psst_score": 86.0,
+      "ranking_reason": "AEGIS firewall for AI agent tool calls -- essential AI safety infrastructure",
+      "source_url": "https://arxiv.org/abs/2603.12621",
+      "arxiv_categories": [
+        "cs.CR"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12564",
+      "title": "AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics",
+      "steeps_category": "T",
+      "psst_score": 85.5,
+      "ranking_reason": "AgentDrift: unsafe recommendation drift in deployed AI agents",
+      "source_url": "https://arxiv.org/abs/2603.12564",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12279",
+      "title": "Toward Robust, Reproducible, and Widely Accessible Intracranial Language Brain-Computer Interfaces",
+      "steeps_category": "T",
+      "psst_score": 85.0,
+      "ranking_reason": "Accessible intracranial language BCIs -- 3x electrode reduction for clinical deployment",
+      "source_url": "https://arxiv.org/abs/2603.12279",
+      "arxiv_categories": [
+        "q-bio.NC"
+      ]
+    },
+    {
+      "id": "arxiv-2603.13189",
+      "title": "LLM Constitutional Multi-Agent Governance",
+      "steeps_category": "P",
+      "psst_score": 84.5,
+      "ranking_reason": "Constitutional governance for multi-agent LLM systems -- 67% harmful behavior reduction",
+      "source_url": "https://arxiv.org/abs/2603.13189",
+      "arxiv_categories": [
+        "cs.MA",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12430",
+      "title": "Surg-R1: A Hierarchical Reasoning Foundation Model for Scalable and Interpretable Surgical Decision Support",
+      "steeps_category": "T",
+      "psst_score": 84.0,
+      "ranking_reason": "Surg-R1: surgical decision support foundation model with 89% expert agreement",
+      "source_url": "https://arxiv.org/abs/2603.12430",
+      "arxiv_categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12662",
+      "title": "Dual-Laws Model for a Theory of Artificial Consciousness",
+      "steeps_category": "s",
+      "psst_score": 83.5,
+      "ranking_reason": "Dual-Laws Model for artificial consciousness theory -- formal testable framework",
+      "source_url": "https://arxiv.org/abs/2603.12662",
+      "arxiv_categories": [
+        "q-bio.NC",
+        "eess.SY"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12717",
+      "title": "Altered Thoughts, Altered Actions: Probing Chain-of-Thought Vulnerabilities in VLA Robotic Manipulation",
+      "steeps_category": "T",
+      "psst_score": 83.0,
+      "ranking_reason": "Chain-of-thought vulnerabilities in VLA robotic manipulation -- safety critical",
+      "source_url": "https://arxiv.org/abs/2603.12717",
+      "arxiv_categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12898",
+      "title": "Neutron-Enhanced Ion Transport in Cathode Coating of Li-Ion Batteries",
+      "steeps_category": "T",
+      "psst_score": 82.5,
+      "ranking_reason": "Neutron-enhanced battery ion transport -- novel manufacturing technique",
+      "source_url": "https://arxiv.org/abs/2603.12898",
+      "arxiv_categories": [
+        "cond-mat.mtrl-sci"
+      ]
+    },
+    {
+      "id": "arxiv-2603.12846",
+      "title": "Deep-Learning-Designed AlGaAs Interface Linking Trapped Ions to Telecom Quantum Networks",
+      "steeps_category": "T",
+      "psst_score": 82.0,
+      "ranking_reason": "DL-designed quantum interface for trapped ion networking -- 93% efficiency",
+      "source_url": "https://arxiv.org/abs/2603.12846",
+      "arxiv_categories": [
+        "quant-ph"
+      ]
+    }
+  ]
+}

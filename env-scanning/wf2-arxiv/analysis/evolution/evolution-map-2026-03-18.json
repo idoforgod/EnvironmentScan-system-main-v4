@@ -1,0 +1,1410 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf1-general",
+  "scan_date": "2026-03-18",
+  "computed_at": "2026-03-18T01:29:36Z",
+  "config_source": "/Users/c/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4/env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 53,
+    "new_signals": 53,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 0,
+    "active_threads": 111
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "arxiv-2603.09001",
+      "thread_id": "THREAD-WF1-2601",
+      "canonical_title": "DeepSeek mHC: Manifold-Constrained Hyper-Connections for Scalable Transformer Architectures",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "DeepSeek mHC: Manifold-Constrained Hyper-Connections for Scalable Transformer Architectures",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.09002",
+      "thread_id": "THREAD-WF1-2602",
+      "canonical_title": "ScienceClaw + Infinite: Autonomous Multi-Agent Framework for Iterative Scientific Discovery",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "ScienceClaw + Infinite: Autonomous Multi-Agent Framework for Iterative Scientific Discovery",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.09003",
+      "thread_id": "THREAD-WF1-2603",
+      "canonical_title": "LTX-2: Unified Audiovisual Diffusion for Synchronized Video-Audio Generation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "LTX-2: Unified Audiovisual Diffusion for Synchronized Video-Audio Generation",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.09004",
+      "thread_id": "THREAD-WF1-2604",
+      "canonical_title": "Attn-QAT: Attention-Aware Quantization for 4-Bit Transformer Inference at Scale",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Attn-QAT: Attention-Aware Quantization for 4-Bit Transformer Inference at Scale",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.09005",
+      "thread_id": "THREAD-WF1-2605",
+      "canonical_title": "Breaking the Factorization Barrier in Discrete Diffusion Language Models",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Breaking the Factorization Barrier in Discrete Diffusion Language Models",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.04584",
+      "thread_id": "THREAD-WF1-2606",
+      "canonical_title": "Fault-Tolerant Execution of Error-Corrected Quantum Algorithms on Trapped-Ion Processors",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Fault-Tolerant Execution of Error-Corrected Quantum Algorithms on Trapped-Ion Processors",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.09007",
+      "thread_id": "THREAD-WF1-2607",
+      "canonical_title": "ReloQate: Real-Time Recalibration of Surface Code Quantum Error Correction",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "ReloQate: Real-Time Recalibration of Surface Code Quantum Error Correction",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00932",
+      "thread_id": "THREAD-WF1-2608",
+      "canonical_title": "No Last Mile: A Theory of the Human Data Market Under AI Commodification",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "No Last Mile: A Theory of the Human Data Market Under AI Commodification",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.12128",
+      "thread_id": "THREAD-WF1-2609",
+      "canonical_title": "How Vulnerable is India's Economy to Foreign Sanctions? A Network Analysis",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "How Vulnerable is India's Economy to Foreign Sanctions? A Network Analysis",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.08603",
+      "thread_id": "THREAD-WF1-2610",
+      "canonical_title": "A Dynamic Equilibrium Model for Automated Market Makers in DeFi",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "A Dynamic Equilibrium Model for Automated Market Makers in DeFi",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00068",
+      "thread_id": "THREAD-WF1-2611",
+      "canonical_title": "The Global Landscape of Environmental AI Regulation: A Comparative Framework",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "The Global Landscape of Environmental AI Regulation: A Comparative Framework",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00065",
+      "thread_id": "THREAD-WF1-2612",
+      "canonical_title": "Self-Service or Not? Guiding Practitioners in Classifying AI Systems Under the EU AI Act",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Self-Service or Not? Guiding Practitioners in Classifying AI Systems Under the EU AI Act",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.01245",
+      "thread_id": "THREAD-WF1-2613",
+      "canonical_title": "Insights for an AI Whistleblower Office: Evidence from 30 Case Studies",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Insights for an AI Whistleblower Office: Evidence from 30 Case Studies",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.03515",
+      "thread_id": "THREAD-WF1-2614",
+      "canonical_title": "The Controllability Trap: A Governance Framework for Military AI Agents",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "The Controllability Trap: A Governance Framework for Military AI Agents",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.02640",
+      "thread_id": "THREAD-WF1-2615",
+      "canonical_title": "Credibility Governance: Social Mechanisms for Collective Self-Correction in AI-Mediated Information",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Credibility Governance: Social Mechanisms for Collective Self-Correction in AI-Mediated Information",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00164",
+      "thread_id": "THREAD-WF1-2616",
+      "canonical_title": "Reverse CAPTCHA: Evaluating LLM Susceptibility to Invisible Unicode Instruction Injection",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Reverse CAPTCHA: Evaluating LLM Susceptibility to Invisible Unicode Instruction Injection",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00476",
+      "thread_id": "THREAD-WF1-2617",
+      "canonical_title": "Atomicity for Agents: TOCTOU Vulnerabilities in Browser-Use AI Agents",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Atomicity for Agents: TOCTOU Vulnerabilities in Browser-Use AI Agents",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.01246",
+      "thread_id": "THREAD-WF1-2618",
+      "canonical_title": "Defensive Refusal Bias: How Safety Alignment Fails Cyber Defenders",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Defensive Refusal Bias: How Safety Alignment Fails Cyber Defenders",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00172",
+      "thread_id": "THREAD-WF1-2619",
+      "canonical_title": "Hidden in the Metadata: Stealth Poisoning Attacks on Multimodal RAG Systems",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Hidden in the Metadata: Stealth Poisoning Attacks on Multimodal RAG Systems",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00732",
+      "thread_id": "THREAD-WF1-2620",
+      "canonical_title": "UniHM: Unified Dexterous Hand Manipulation via Vision-Language-Action Models",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "UniHM: Unified Dexterous Hand Manipulation via Vision-Language-Action Models",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.01151",
+      "thread_id": "THREAD-WF1-2621",
+      "canonical_title": "D-REX: Differentiable Real-to-Sim-to-Real for Learning Dexterous Grasping",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "D-REX: Differentiable Real-to-Sim-to-Real for Learning Dexterous Grasping",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.01113",
+      "thread_id": "THREAD-WF1-2622",
+      "canonical_title": "From Dialogue to Execution: Mixture-of-Agents for Behavior Tree-Based Long-Horizon Robot Tasks",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "From Dialogue to Execution: Mixture-of-Agents for Behavior Tree-Based Long-Horizon Robot Tasks",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00048",
+      "thread_id": "THREAD-WF1-2623",
+      "canonical_title": "MOSAIC: Unveiling the Moral, Social, and Individual Dimensions of Large Language Models",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "MOSAIC: Unveiling the Moral, Social, and Individual Dimensions of Large Language Models",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00534",
+      "thread_id": "THREAD-WF1-2624",
+      "canonical_title": "Pressure-Tuned Double-Dome Superconductivity in KZnBi with Honeycomb Lattice",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Pressure-Tuned Double-Dome Superconductivity in KZnBi with Honeycomb Lattice",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00648",
+      "thread_id": "THREAD-WF1-2625",
+      "canonical_title": "High-Temperature Superconductivity in Hydrogenated Hexagonal BC3 Monolayer via Sigma-Band Mechanism",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "High-Temperature Superconductivity in Hydrogenated Hexagonal BC3 Monolayer via Sigma-Band Mechanism",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00740",
+      "thread_id": "THREAD-WF1-2626",
+      "canonical_title": "Mechanically Assisted Symmetry Reconstruction for Extraordinary Piezoelectricity",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Mechanically Assisted Symmetry Reconstruction for Extraordinary Piezoelectricity",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00591",
+      "thread_id": "THREAD-WF1-2627",
+      "canonical_title": "Liquid Metals Routes towards Making Superconductors: A Scalable Manufacturing Pathway",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Liquid Metals Routes towards Making Superconductors: A Scalable Manufacturing Pathway",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00130",
+      "thread_id": "THREAD-WF1-2628",
+      "canonical_title": "Agentic Hives: Equilibrium, Indeterminacy, and Endogenous Cycles in Self-Organizing Autonomous Systems",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Agentic Hives: Equilibrium, Indeterminacy, and Endogenous Cycles in Self-Organizing Autonomous Systems",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.01045",
+      "thread_id": "THREAD-WF1-2629",
+      "canonical_title": "Silo-Bench: Evaluating Distributed Coordination in Multi-Agent LLM Systems at Scale",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Silo-Bench: Evaluating Distributed Coordination in Multi-Agent LLM Systems at Scale",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.04474",
+      "thread_id": "THREAD-WF1-2630",
+      "canonical_title": "From Spark to Fire: Error Cascades and Mitigation in Multi-Agent LLM Collaboration",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "From Spark to Fire: Error Cascades and Mitigation in Multi-Agent LLM Collaboration",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00173",
+      "thread_id": "THREAD-WF1-2631",
+      "canonical_title": "Summer-22B: A Systematic Approach to Video Foundation Model Development at Scale",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Summer-22B: A Systematic Approach to Video Foundation Model Development at Scale",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00136",
+      "thread_id": "THREAD-WF1-2632",
+      "canonical_title": "TinyVLM: Zero-Shot Object Detection on Microcontrollers via Knowledge Distillation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "TinyVLM: Zero-Shot Object Detection on Microcontrollers via Knowledge Distillation",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00729",
+      "thread_id": "THREAD-WF1-2633",
+      "canonical_title": "Qwen3-Coder-Next: Advancing Code-Focused Language Models with Execution-Guided Training",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Qwen3-Coder-Next: Advancing Code-Focused Language Models with Execution-Guided Training",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00296",
+      "thread_id": "THREAD-WF1-2634",
+      "canonical_title": "Length-Efficient Chain-of-Thought: Reducing Reasoning Verbosity Without Sacrificing Accuracy",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Length-Efficient Chain-of-Thought: Reducing Reasoning Verbosity Without Sacrificing Accuracy",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.01192",
+      "thread_id": "THREAD-WF1-2635",
+      "canonical_title": "Grokking as a Phase Transition: Understanding Delayed Generalization Through Singular Learning Theory",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Grokking as a Phase Transition: Understanding Delayed Generalization Through Singular Learning Theory",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00520",
+      "thread_id": "THREAD-WF1-2636",
+      "canonical_title": "SWE-ABS: Adversarial Benchmark Strengthening Reveals Inflated Success Rates in Code Agents",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "SWE-ABS: Adversarial Benchmark Strengthening Reveals Inflated Success Rates in Code Agents",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.01327",
+      "thread_id": "THREAD-WF1-2637",
+      "canonical_title": "SWE-Adept: Agentic Framework for Deep Repository-Level Code Understanding and Issue Resolution",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "SWE-Adept: Agentic Framework for Deep Repository-Level Code Understanding and Issue Resolution",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00193",
+      "thread_id": "THREAD-WF1-2638",
+      "canonical_title": "Multimodal Alignment Improves Generalizability of Genomic Biomarker Prediction in Computational Pathology",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Multimodal Alignment Improves Generalizability of Genomic Biomarker Prediction in Computational Pathology",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.02402",
+      "thread_id": "THREAD-WF1-2639",
+      "canonical_title": "GPU-Accelerated Single-Cell Analysis at Scale with rapids-singlecell",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "GPU-Accelerated Single-Cell Analysis at Scale with rapids-singlecell",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.07331",
+      "thread_id": "THREAD-WF1-2640",
+      "canonical_title": "Causal Attribution of Coastal Water Clarity Degradation to Nickel Processing Expansion in Indonesia",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Causal Attribution of Coastal Water Clarity Degradation to Nickel Processing Expansion in Indonesia",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.07227",
+      "thread_id": "THREAD-WF1-2641",
+      "canonical_title": "Estimating Changes in Extreme Temperature Quantiles: Applied to Desert Temperature Records",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Estimating Changes in Extreme Temperature Quantiles: Applied to Desert Temperature Records",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.01906",
+      "thread_id": "THREAD-WF1-2642",
+      "canonical_title": "ScreenAnt: Transparent On-Screen Antennas for 6G Wireless Communications",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "ScreenAnt: Transparent On-Screen Antennas for 6G Wireless Communications",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.01855",
+      "thread_id": "THREAD-WF1-2643",
+      "canonical_title": "Quantum-PROBE: Rydberg Atomic Receiver for Multi-Angle RF Sensing with Quantum Advantage",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Quantum-PROBE: Rydberg Atomic Receiver for Multi-Angle RF Sensing with Quantum Advantage",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.02898",
+      "thread_id": "THREAD-WF1-2644",
+      "canonical_title": "Range-Based Volatility Estimators for Monitoring Market Stress: Evidence from Local Food Price Data",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Range-Based Volatility Estimators for Monitoring Market Stress: Evidence from Local Food Price Data",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00089",
+      "thread_id": "THREAD-WF1-2645",
+      "canonical_title": "Who Controls the Conversation? User Perspectives on Generative AI System Prompts",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Who Controls the Conversation? User Perspectives on Generative AI System Prompts",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.12417",
+      "thread_id": "THREAD-WF1-2646",
+      "canonical_title": "Topology as Information: Network Effects in Corporate Lending and Systemic Risk",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Topology as Information: Network Effects in Corporate Lending and Systemic Risk",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.01042",
+      "thread_id": "THREAD-WF1-2647",
+      "canonical_title": "Thoth: Bridging Language Models to Time Series Understanding via Mid-Training Integration",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Thoth: Bridging Language Models to Time Series Understanding via Mid-Training Integration",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00902",
+      "thread_id": "THREAD-WF1-2648",
+      "canonical_title": "Clawdrain: Exploiting Tool-Calling Chains for Stealthy Token Exhaustion in AI Agents",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Clawdrain: Exploiting Tool-Calling Chains for Stealthy Token Exhaustion in AI Agents",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00185",
+      "thread_id": "THREAD-WF1-2649",
+      "canonical_title": "ThreatFormer-IDS: Robust Intrusion Detection with Zero-Day Generalization",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "ThreatFormer-IDS: Robust Intrusion Detection with Zero-Day Generalization",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.02032",
+      "thread_id": "THREAD-WF1-2650",
+      "canonical_title": "MetaRCA: Generalizable Root Cause Analysis for Cloud-Native Systems via Meta Causal Knowledge",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "MetaRCA: Generalizable Root Cause Analysis for Cloud-Native Systems via Meta Causal Knowledge",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.01109",
+      "thread_id": "THREAD-WF1-2651",
+      "canonical_title": "A Stochastic Correlation Extension of the Vasicek Credit Risk Model for Macro-Prudential Stress Testing",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "A Stochastic Correlation Extension of the Vasicek Credit Risk Model for Macro-Prudential Stress Testing",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00706",
+      "thread_id": "THREAD-WF1-2652",
+      "canonical_title": "Startup Contracting and Entrepreneur-Investor Bargaining Under AI-Driven Valuation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Startup Contracting and Entrepreneur-Investor Bargaining Under AI-Driven Valuation",
+          "psst": 42.9
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-2603.00016",
+      "thread_id": "THREAD-WF1-2653",
+      "canonical_title": "Beyond Static Instruction: Multi-Agent AI Framework for Adaptive Augmented Reality Robot Training",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 42.9,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Beyond Static Instruction: Multi-Agent AI Framework for Adaptive Augmented Reality Robot Training",
+          "psst": 42.9
+        }
+      ]
+    }
+  ],
+  "faded_threads": [],
+  "new_threads_created": [
+    "THREAD-WF1-2601",
+    "THREAD-WF1-2602",
+    "THREAD-WF1-2603",
+    "THREAD-WF1-2604",
+    "THREAD-WF1-2605",
+    "THREAD-WF1-2606",
+    "THREAD-WF1-2607",
+    "THREAD-WF1-2608",
+    "THREAD-WF1-2609",
+    "THREAD-WF1-2610",
+    "THREAD-WF1-2611",
+    "THREAD-WF1-2612",
+    "THREAD-WF1-2613",
+    "THREAD-WF1-2614",
+    "THREAD-WF1-2615",
+    "THREAD-WF1-2616",
+    "THREAD-WF1-2617",
+    "THREAD-WF1-2618",
+    "THREAD-WF1-2619",
+    "THREAD-WF1-2620",
+    "THREAD-WF1-2621",
+    "THREAD-WF1-2622",
+    "THREAD-WF1-2623",
+    "THREAD-WF1-2624",
+    "THREAD-WF1-2625",
+    "THREAD-WF1-2626",
+    "THREAD-WF1-2627",
+    "THREAD-WF1-2628",
+    "THREAD-WF1-2629",
+    "THREAD-WF1-2630",
+    "THREAD-WF1-2631",
+    "THREAD-WF1-2632",
+    "THREAD-WF1-2633",
+    "THREAD-WF1-2634",
+    "THREAD-WF1-2635",
+    "THREAD-WF1-2636",
+    "THREAD-WF1-2637",
+    "THREAD-WF1-2638",
+    "THREAD-WF1-2639",
+    "THREAD-WF1-2640",
+    "THREAD-WF1-2641",
+    "THREAD-WF1-2642",
+    "THREAD-WF1-2643",
+    "THREAD-WF1-2644",
+    "THREAD-WF1-2645",
+    "THREAD-WF1-2646",
+    "THREAD-WF1-2647",
+    "THREAD-WF1-2648",
+    "THREAD-WF1-2649",
+    "THREAD-WF1-2650",
+    "THREAD-WF1-2651",
+    "THREAD-WF1-2652",
+    "THREAD-WF1-2653"
+  ]
+}

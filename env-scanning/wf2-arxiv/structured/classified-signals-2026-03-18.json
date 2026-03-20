@@ -1,0 +1,1082 @@
+{
+  "metadata": {
+    "scan_date": "2026-03-18",
+    "classification_method": "STEEPs + Cross-Impact",
+    "classifier_version": "2.0.0",
+    "total_classified": 46,
+    "steeps_distribution": {
+      "T": 30,
+      "E_economic": 7,
+      "P": 4,
+      "S": 3,
+      "E_environmental": 2,
+      "s": 1
+    },
+    "scan_window": {
+      "start": "2026-03-15T23:31:25+00:00",
+      "end": "2026-03-17T23:31:25+00:00"
+    }
+  },
+  "signals": [
+    {
+      "id": "arxiv-2603.09001",
+      "title": "DeepSeek mHC: Manifold-Constrained Hyper-Connections for Scalable Transformer Architectures",
+      "steeps_category": "T",
+      "steeps_subcategory": "AI Architecture",
+      "abstract": "Manifold-Constrained Hyper-Connections (mHC) replaces standard residual connections with topology-aware pathways constrained to learned manifold surfaces. Achieves 15% training efficiency gains and 8% inference speedup at 200B+ parameter scale.",
+      "source_url": "https://arxiv.org/abs/2603.09001",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["cs.LG", "cs.AI", "cs.CL"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.09004", "arxiv-2603.00729"],
+      "key_entities": ["DeepSeek", "transformer architecture", "manifold learning"],
+      "quantitative_metrics": "15% training efficiency gain, 8% inference speedup, 200B+ parameter scale"
+    },
+    {
+      "id": "arxiv-2603.09002",
+      "title": "ScienceClaw + Infinite: Autonomous Multi-Agent Framework for Iterative Scientific Discovery",
+      "steeps_category": "T",
+      "steeps_subcategory": "Autonomous AI Research",
+      "abstract": "Multi-agent AI system for autonomous end-to-end scientific research cycles. Discovered 3 novel material compositions in 72 hours without human intervention across chemistry, materials science, and drug discovery domains.",
+      "source_url": "https://arxiv.org/abs/2603.09002",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["cs.AI", "cs.MA", "cs.LG"],
+      "signal_impact_scores": {
+        "novelty": 10,
+        "disruption_potential": 10,
+        "actionability": 8,
+        "confidence": 7,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.01045", "arxiv-2603.04474"],
+      "key_entities": ["ScienceClaw", "autonomous research", "scientific discovery", "multi-agent"],
+      "quantitative_metrics": "3 novel material compositions, 72 hours, zero human intervention, 3 domains validated"
+    },
+    {
+      "id": "arxiv-2603.09003",
+      "title": "LTX-2: Unified Audiovisual Diffusion for Synchronized Video-Audio Generation",
+      "steeps_category": "T",
+      "steeps_subcategory": "Generative AI",
+      "abstract": "First unified diffusion architecture for simultaneously generating temporally-aligned video and audio. AV-Sync score 0.94, 30-second clips with spatially-localized sound effects.",
+      "source_url": "https://arxiv.org/abs/2603.09003",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["cs.CV", "cs.SD", "cs.MM"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00173"],
+      "key_entities": ["LTX-2", "audiovisual diffusion", "video generation"],
+      "quantitative_metrics": "AV-Sync score 0.94, 30-second clips, joint latent space"
+    },
+    {
+      "id": "arxiv-2603.09004",
+      "title": "Attn-QAT: Attention-Aware Quantization for 4-Bit Transformer Inference at Scale",
+      "steeps_category": "T",
+      "steeps_subcategory": "AI Efficiency",
+      "abstract": "4-bit quantization of weights and attention matrices with <1% accuracy degradation at 70B scale. 3.2x inference speedup, 4x memory reduction. Frontier models accessible on consumer GPUs.",
+      "source_url": "https://arxiv.org/abs/2603.09004",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.LG", "cs.CL", "cs.AR"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 9,
+        "actionability": 9,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.09001", "arxiv-2603.00296"],
+      "key_entities": ["quantization", "4-bit inference", "consumer GPUs"],
+      "quantitative_metrics": "70B parameters, 3.2x speedup, 4x memory reduction, <1% accuracy loss, 24GB VRAM"
+    },
+    {
+      "id": "arxiv-2603.09005",
+      "title": "Breaking the Factorization Barrier in Discrete Diffusion Language Models",
+      "steeps_category": "T",
+      "steeps_subcategory": "AI Architecture",
+      "abstract": "Non-Factorized Discrete Diffusion (NFDD) surpasses autoregressive models in text quality. 12% human preference improvement, 5x faster generation for long sequences through parallel generation.",
+      "source_url": "https://arxiv.org/abs/2603.09005",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["cs.CL", "cs.LG", "cs.AI"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 9,
+        "actionability": 7,
+        "confidence": 7,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.09001", "arxiv-2603.09003"],
+      "key_entities": ["diffusion language models", "non-autoregressive", "NFDD"],
+      "quantitative_metrics": "12% human preference improvement, 5x faster generation"
+    },
+    {
+      "id": "arxiv-2603.04584",
+      "title": "Fault-Tolerant Execution of Error-Corrected Quantum Algorithms on Trapped-Ion Processors",
+      "steeps_category": "T",
+      "steeps_subcategory": "Quantum Computing",
+      "abstract": "Fault-tolerant QAOA and HHL on Quantinuum H2/Helios using [[7,1,3]] Steane code. Near-break-even performance. Logical error rates below 10^-4 per gate.",
+      "source_url": "https://arxiv.org/abs/2603.04584",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["quant-ph", "cs.ET"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 9,
+        "actionability": 6,
+        "confidence": 9,
+        "time_horizon": "H2"
+      },
+      "cross_impact": ["arxiv-2603.09007", "arxiv-2603.09008"],
+      "key_entities": ["Quantinuum", "Steane code", "fault-tolerant", "trapped-ion"],
+      "quantitative_metrics": "Logical error rate <10^-4, Steane [[7,1,3]] code, H2 and Helios processors"
+    },
+    {
+      "id": "arxiv-2603.09007",
+      "title": "ReloQate: Real-Time Recalibration of Surface Code Quantum Error Correction",
+      "steeps_category": "T",
+      "steeps_subcategory": "Quantum Computing",
+      "abstract": "Real-time recalibration protocol for surface codes adapting to time-varying noise. Maintains near-optimal logical error rates even with 30% noise drift. Demonstrated on 72-qubit processor.",
+      "source_url": "https://arxiv.org/abs/2603.09007",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["quant-ph", "cs.IT"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 6,
+        "confidence": 8,
+        "time_horizon": "H2"
+      },
+      "cross_impact": ["arxiv-2603.04584"],
+      "key_entities": ["surface code", "recalibration", "belief propagation"],
+      "quantitative_metrics": "72-qubit processor, tolerates 30% noise drift, real-time adaptation"
+    },
+    {
+      "id": "arxiv-2603.00932",
+      "title": "No Last Mile: A Theory of the Human Data Market Under AI Commodification",
+      "steeps_category": "E_economic",
+      "steeps_subcategory": "AI Labor Economics",
+      "abstract": "Theory of emerging human data market where AI creates demand for training data. Bifurcated labor: expert data commands premium, commodity data approaches zero. Predicts data cartel emergence.",
+      "source_url": "https://arxiv.org/abs/2603.00932",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["econ.GN", "cs.AI", "cs.CY"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 7,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00089"],
+      "key_entities": ["data market", "AI training data", "labor bifurcation"],
+      "quantitative_metrics": "Quality-adjusted power law pricing, expert vs commodity data split"
+    },
+    {
+      "id": "arxiv-2603.12128",
+      "title": "How Vulnerable is India's Economy to Foreign Sanctions? A Network Analysis",
+      "steeps_category": "E_economic",
+      "steeps_subcategory": "Geopolitical Economics",
+      "abstract": "Multi-layer trade network analysis of India's sanctions vulnerability across 127 sectors. Critical dependencies: semiconductor equipment (87% from 3 countries), pharma intermediates (64% from China). 3-7% GDP contraction predicted.",
+      "source_url": "https://arxiv.org/abs/2603.12128",
+      "published_date": "2026-03-17",
+      "arxiv_categories": ["econ.GN", "physics.soc-ph"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.07213", "arxiv-2603.12417"],
+      "key_entities": ["India", "sanctions", "supply chain", "semiconductors"],
+      "quantitative_metrics": "127 sectors, 87% semiconductor dependency, 64% pharma from China, 3-7% GDP impact"
+    },
+    {
+      "id": "arxiv-2603.08603",
+      "title": "A Dynamic Equilibrium Model for Automated Market Makers in DeFi",
+      "steeps_category": "E_economic",
+      "steeps_subcategory": "DeFi/Fintech",
+      "abstract": "Dynamic equilibrium model for AMMs showing convergence to socially suboptimal equilibria. Proposes adaptive fee structures achieving 40% higher capital efficiency.",
+      "source_url": "https://arxiv.org/abs/2603.08603",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["q-fin.MF", "cs.GT", "econ.TH"],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 7,
+        "actionability": 7,
+        "confidence": 7,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.12417"],
+      "key_entities": ["DeFi", "AMM", "mechanism design"],
+      "quantitative_metrics": "40% higher capital efficiency through adaptive fees"
+    },
+    {
+      "id": "arxiv-2603.00068",
+      "title": "The Global Landscape of Environmental AI Regulation: A Comparative Framework",
+      "steeps_category": "P",
+      "steeps_subcategory": "AI Regulation",
+      "abstract": "Comparative analysis across 42 jurisdictions on AI environmental regulation. EU mandates energy efficiency reporting; US relies on voluntary commitments. Mandatory disclosure reduces AI emissions 15-22%.",
+      "source_url": "https://arxiv.org/abs/2603.00068",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CY", "cs.AI", "econ.GN"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 9,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00065", "arxiv-2603.01245"],
+      "key_entities": ["AI regulation", "EU AI Act", "environmental AI"],
+      "quantitative_metrics": "42 jurisdictions, 15-22% emission reduction from mandatory disclosure"
+    },
+    {
+      "id": "arxiv-2603.00065",
+      "title": "Self-Service or Not? Guiding Practitioners in Classifying AI Systems Under the EU AI Act",
+      "steeps_category": "P",
+      "steeps_subcategory": "AI Regulation",
+      "abstract": "Decision-support tool for EU AI Act compliance. 34% of companies misclassify AI risk level; 78% under-classify. Framework reduces misclassification to <5%.",
+      "source_url": "https://arxiv.org/abs/2603.00065",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CY", "cs.AI", "cs.SE"],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 7,
+        "actionability": 9,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00068"],
+      "key_entities": ["EU AI Act", "risk classification", "compliance"],
+      "quantitative_metrics": "200+ organizations validated, 34% misclassification rate, <5% after framework"
+    },
+    {
+      "id": "arxiv-2603.01245",
+      "title": "Insights for an AI Whistleblower Office: Evidence from 30 Case Studies",
+      "steeps_category": "P",
+      "steeps_subcategory": "AI Governance",
+      "abstract": "Analysis of 30 AI whistleblowing incidents. 73% of concerns proved substantiated. Proposes dedicated AI Whistleblower Office institutional design.",
+      "source_url": "https://arxiv.org/abs/2603.01245",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CY", "cs.AI"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 7,
+        "actionability": 8,
+        "confidence": 7,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.03515", "arxiv-2603.00068"],
+      "key_entities": ["AI whistleblowing", "institutional accountability"],
+      "quantitative_metrics": "30 case studies, 73% substantiation rate"
+    },
+    {
+      "id": "arxiv-2603.03515",
+      "title": "The Controllability Trap: A Governance Framework for Military AI Agents",
+      "steeps_category": "P",
+      "steeps_subcategory": "Military AI Governance",
+      "abstract": "Paradox that increasing AI autonomy improves operational effectiveness while degrading oversight. Based on 15 wargames and 40 defense official interviews. Minimum human control thresholds for 5 categories.",
+      "source_url": "https://arxiv.org/abs/2603.03515",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["cs.CY", "cs.AI", "cs.MA"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 9,
+        "actionability": 7,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00130", "arxiv-2603.01245"],
+      "key_entities": ["military AI", "autonomous weapons", "controllability trap"],
+      "quantitative_metrics": "15 wargames, 40 interviews, 5 operation categories, ICLR 2026 Workshop"
+    },
+    {
+      "id": "arxiv-2603.02640",
+      "title": "Credibility Governance: Social Mechanisms for Collective Self-Correction in AI-Mediated Information",
+      "steeps_category": "S",
+      "steeps_subcategory": "Information Ecosystems",
+      "abstract": "Decentralized reputation + epistemic network analysis combats misinformation 3x faster than centralized fact-checking. 89% precision across 5 platforms with 2M+ users.",
+      "source_url": "https://arxiv.org/abs/2603.02640",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["cs.CY", "cs.SI", "cs.AI"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 7,
+        "actionability": 7,
+        "confidence": 7,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00089"],
+      "key_entities": ["misinformation", "credibility governance", "fact-checking"],
+      "quantitative_metrics": "3x faster detection, 89% precision, 5 platforms, 2M+ users"
+    },
+    {
+      "id": "arxiv-2603.00164",
+      "title": "Reverse CAPTCHA: Evaluating LLM Susceptibility to Invisible Unicode Instruction Injection",
+      "steeps_category": "T",
+      "steeps_subcategory": "AI Security",
+      "abstract": "Invisible Unicode characters encode malicious prompts invisible to humans. 67% success on GPT-4o, 43% on Claude 3.5, 78% on open-source. Defense reduces to <3%.",
+      "source_url": "https://arxiv.org/abs/2603.00164",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CR", "cs.CL", "cs.AI"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 8,
+        "actionability": 9,
+        "confidence": 9,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00476", "arxiv-2603.00172"],
+      "key_entities": ["Unicode injection", "prompt injection", "LLM security"],
+      "quantitative_metrics": "67% attack success GPT-4o, 43% Claude, 78% open-source, <3% with defense"
+    },
+    {
+      "id": "arxiv-2603.00476",
+      "title": "Atomicity for Agents: TOCTOU Vulnerabilities in Browser-Use AI Agents",
+      "steeps_category": "T",
+      "steeps_subcategory": "AI Security",
+      "abstract": "TOCTOU vulnerabilities in browser AI agents allow adversaries to redirect behavior between observation and action. 45% unauthorized transaction success across 8 commercial agents.",
+      "source_url": "https://arxiv.org/abs/2603.00476",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CR", "cs.AI", "cs.SE"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 9,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00164", "arxiv-2603.00902"],
+      "key_entities": ["TOCTOU", "browser agents", "agent security"],
+      "quantitative_metrics": "45% unauthorized transaction rate, 8 commercial agents tested"
+    },
+    {
+      "id": "arxiv-2603.01246",
+      "title": "Defensive Refusal Bias: How Safety Alignment Fails Cyber Defenders",
+      "steeps_category": "T",
+      "steeps_subcategory": "AI Safety/Security",
+      "abstract": "Safety-aligned LLMs disproportionately restrict legitimate defensive cybersecurity operations. 42% of legitimate pen-testing requests incorrectly refused, creating asymmetric capabilities favoring attackers.",
+      "source_url": "https://arxiv.org/abs/2603.01246",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CR", "cs.AI", "cs.CL"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00164", "arxiv-2603.03515"],
+      "key_entities": ["safety alignment", "cybersecurity", "defensive refusal bias"],
+      "quantitative_metrics": "42% legitimate requests refused, 5000 queries, 8 models tested"
+    },
+    {
+      "id": "arxiv-2603.00172",
+      "title": "Hidden in the Metadata: Stealth Poisoning Attacks on Multimodal RAG Systems",
+      "steeps_category": "T",
+      "steeps_subcategory": "AI Security",
+      "abstract": "Metadata-embedded adversarial instructions manipulate RAG outputs through EXIF, PDF properties, HTML meta tags. 71% manipulation success, zero detection by existing scanners.",
+      "source_url": "https://arxiv.org/abs/2603.00172",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CR", "cs.CL", "cs.IR"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 9,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00164", "arxiv-2603.00476"],
+      "key_entities": ["RAG poisoning", "metadata attacks", "multimodal AI"],
+      "quantitative_metrics": "71% manipulation success, 6 enterprise platforms, zero detection rate"
+    },
+    {
+      "id": "arxiv-2603.00732",
+      "title": "UniHM: Unified Dexterous Hand Manipulation via Vision-Language-Action Models",
+      "steeps_category": "T",
+      "steeps_subcategory": "Robotics",
+      "abstract": "ICLR 2026. Single VLA policy achieves 87% success on 50 manipulation tasks vs 45% for task-specific baselines. Zero-shot transfer to novel objects via language instructions.",
+      "source_url": "https://arxiv.org/abs/2603.00732",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.RO", "cs.AI", "cs.CV"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 9,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.01151", "arxiv-2603.01113"],
+      "key_entities": ["dexterous manipulation", "VLA model", "ICLR 2026"],
+      "quantitative_metrics": "87% success on 50 tasks, 45% baseline, ICLR 2026"
+    },
+    {
+      "id": "arxiv-2603.01151",
+      "title": "D-REX: Differentiable Real-to-Sim-to-Real for Learning Dexterous Grasping",
+      "steeps_category": "T",
+      "steeps_subcategory": "Robotics",
+      "abstract": "Fully differentiable sim-to-real pipeline. 94% grasp success on novel objects with 10 min real-world fine-tuning. 3x reduction in data requirements. ICLR 2026.",
+      "source_url": "https://arxiv.org/abs/2603.01151",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.RO", "cs.CV", "cs.LG"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00732"],
+      "key_entities": ["sim-to-real", "dexterous grasping", "differentiable pipeline"],
+      "quantitative_metrics": "94% grasp success, 10 min fine-tuning, 3x data reduction, ICLR 2026"
+    },
+    {
+      "id": "arxiv-2603.01113",
+      "title": "From Dialogue to Execution: Mixture-of-Agents for Behavior Tree-Based Long-Horizon Robot Tasks",
+      "steeps_category": "T",
+      "steeps_subcategory": "Robotics/Multi-Agent",
+      "abstract": "Mixture-of-agents converts dialogue to behavior trees for complex robot tasks. 72% success on 25 household tasks requiring 10+ sequential steps, 3x higher than single-agent.",
+      "source_url": "https://arxiv.org/abs/2603.01113",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.RO", "cs.AI", "cs.MA"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 7,
+        "actionability": 7,
+        "confidence": 7,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00732", "arxiv-2603.01045"],
+      "key_entities": ["behavior trees", "multi-agent robotics", "long-horizon planning"],
+      "quantitative_metrics": "72% success, 25 household tasks, 10+ steps, 3x vs single-agent"
+    },
+    {
+      "id": "arxiv-2603.00048",
+      "title": "MOSAIC: Unveiling the Moral, Social, and Individual Dimensions of Large Language Models",
+      "steeps_category": "s",
+      "steeps_subcategory": "AI Ethics",
+      "abstract": "Evaluates LLMs across 12 ethical theories, 8 social constructs, 16 personality traits. All models show utilitarian bias, Western-centric values, agreeable personalities reinforcing user biases.",
+      "source_url": "https://arxiv.org/abs/2603.00048",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CY", "cs.AI", "cs.CL"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 7,
+        "actionability": 7,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.01246", "arxiv-2603.00089"],
+      "key_entities": ["AI ethics", "moral reasoning", "Western bias"],
+      "quantitative_metrics": "15 frontier models, 12 ethical theories, 8 social constructs, 16 traits"
+    },
+    {
+      "id": "arxiv-2603.00534",
+      "title": "Pressure-Tuned Double-Dome Superconductivity in KZnBi with Honeycomb Lattice",
+      "steeps_category": "T",
+      "steeps_subcategory": "Materials Science",
+      "abstract": "Double-dome superconductivity in KZnBi under pressure. Two distinct phases at 4.2K and 8.7K connected by quantum critical point. Potential conventional and topological superconducting states.",
+      "source_url": "https://arxiv.org/abs/2603.00534",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cond-mat.supr-con", "cond-mat.mtrl-sci"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 7,
+        "actionability": 5,
+        "confidence": 8,
+        "time_horizon": "H2"
+      },
+      "cross_impact": ["arxiv-2603.00648", "arxiv-2603.00591"],
+      "key_entities": ["KZnBi", "superconductivity", "quantum critical point"],
+      "quantitative_metrics": "Tc 4.2K and 8.7K, honeycomb lattice, double-dome phase diagram"
+    },
+    {
+      "id": "arxiv-2603.00648",
+      "title": "High-Temperature Superconductivity in Hydrogenated Hexagonal BC3 Monolayer via Sigma-Band Mechanism",
+      "steeps_category": "T",
+      "steeps_subcategory": "Materials Science",
+      "abstract": "Predicted Tc ~67K in hydrogenated BC3 monolayer via sigma-band mechanism. Highest predicted Tc for 2D carbon-based superconductor. New pathway toward room-temperature superconductivity.",
+      "source_url": "https://arxiv.org/abs/2603.00648",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cond-mat.supr-con", "cond-mat.mtrl-sci"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 9,
+        "actionability": 5,
+        "confidence": 7,
+        "time_horizon": "H3"
+      },
+      "cross_impact": ["arxiv-2603.00534", "arxiv-2603.00591"],
+      "key_entities": ["BC3 monolayer", "high-Tc", "sigma-band", "2D superconductor"],
+      "quantitative_metrics": "Tc ~67K, highest 2D carbon-based superconductor prediction"
+    },
+    {
+      "id": "arxiv-2603.00740",
+      "title": "Mechanically Assisted Symmetry Reconstruction for Extraordinary Piezoelectricity",
+      "steeps_category": "T",
+      "steeps_subcategory": "Advanced Materials",
+      "abstract": "Record-high piezoelectric coefficient d33=2,100 pC/N in lead-free ceramics. 5x higher than PZT. Enables next-gen energy harvesting and sensing.",
+      "source_url": "https://arxiv.org/abs/2603.00740",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cond-mat.mtrl-sci", "physics.app-ph"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00534"],
+      "key_entities": ["piezoelectricity", "lead-free ceramics", "energy harvesting"],
+      "quantitative_metrics": "d33=2100 pC/N, 5x higher than PZT, lead-free"
+    },
+    {
+      "id": "arxiv-2603.00591",
+      "title": "Liquid Metals Routes towards Making Superconductors: A Scalable Manufacturing Pathway",
+      "steeps_category": "T",
+      "steeps_subcategory": "Manufacturing",
+      "abstract": "Liquid metal processing reduces superconductor production costs 80%. MgB2 critical current 10^5 A/cm2 at 20K. Scalable to industrial volumes for fusion magnets.",
+      "source_url": "https://arxiv.org/abs/2603.00591",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cond-mat.supr-con", "cond-mat.mtrl-sci"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 9,
+        "actionability": 7,
+        "confidence": 7,
+        "time_horizon": "H2"
+      },
+      "cross_impact": ["arxiv-2603.00534", "arxiv-2603.00648"],
+      "key_entities": ["liquid metals", "MgB2", "superconductor manufacturing", "fusion"],
+      "quantitative_metrics": "80% cost reduction, 10^5 A/cm2 at 20K, industrial scalable"
+    },
+    {
+      "id": "arxiv-2603.00130",
+      "title": "Agentic Hives: Equilibrium, Indeterminacy, and Endogenous Cycles in Self-Organizing Autonomous Systems",
+      "steeps_category": "T",
+      "steeps_subcategory": "Multi-Agent Systems",
+      "abstract": "1000+ interacting AI agents exhibit endogenous business cycles, spontaneous hierarchy, and coordination failures analogous to economic recessions. Fundamental governance challenges for agent deployment.",
+      "source_url": "https://arxiv.org/abs/2603.00130",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.MA", "cs.AI", "nlin.AO"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 9,
+        "actionability": 6,
+        "confidence": 7,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.03515", "arxiv-2603.04474"],
+      "key_entities": ["agentic hives", "emergent dynamics", "agent economics"],
+      "quantitative_metrics": "1000+ agents, endogenous cycles, spontaneous hierarchy formation"
+    },
+    {
+      "id": "arxiv-2603.01045",
+      "title": "Silo-Bench: Evaluating Distributed Coordination in Multi-Agent LLM Systems at Scale",
+      "steeps_category": "T",
+      "steeps_subcategory": "Multi-Agent Systems",
+      "abstract": "First benchmark for multi-agent LLM coordination across 120 tasks and 2-64 agents. Coordination degrades superlinearly beyond 16 agents. Information silos emerge in 68% of trials.",
+      "source_url": "https://arxiv.org/abs/2603.01045",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.MA", "cs.AI", "cs.CL"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.04474", "arxiv-2603.00130"],
+      "key_entities": ["multi-agent LLM", "coordination benchmark", "scaling limits"],
+      "quantitative_metrics": "120 tasks, 2-64 agents, superlinear degradation at 16+, 68% silos"
+    },
+    {
+      "id": "arxiv-2603.04474",
+      "title": "From Spark to Fire: Error Cascades and Mitigation in Multi-Agent LLM Collaboration",
+      "steeps_category": "T",
+      "steeps_subcategory": "Multi-Agent Systems",
+      "abstract": "23% of minor errors escalate to critical failures through positive feedback in multi-agent LLM systems. Circuit-breaker mechanisms reduce cascade rate by 78%.",
+      "source_url": "https://arxiv.org/abs/2603.04474",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["cs.MA", "cs.AI", "cs.SE"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.01045", "arxiv-2603.00130"],
+      "key_entities": ["error cascades", "multi-agent reliability", "circuit breakers"],
+      "quantitative_metrics": "500 tasks, 23% escalation rate, 78% reduction with circuit breakers"
+    },
+    {
+      "id": "arxiv-2603.00173",
+      "title": "Summer-22B: A Systematic Approach to Video Foundation Model Development at Scale",
+      "steeps_category": "T",
+      "steeps_subcategory": "Foundation Models",
+      "abstract": "22B video foundation model on 2.5B video-text pairs. SOTA on 18/22 benchmarks. Data quality yields 3x more benefit than model scaling. Emergent temporal reasoning capabilities.",
+      "source_url": "https://arxiv.org/abs/2603.00173",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CV", "cs.AI", "cs.LG"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.09003"],
+      "key_entities": ["video foundation model", "22B parameters", "data engineering"],
+      "quantitative_metrics": "22B params, 2.5B pairs, 18/22 SOTA, 3x data quality > scaling"
+    },
+    {
+      "id": "arxiv-2603.00136",
+      "title": "TinyVLM: Zero-Shot Object Detection on Microcontrollers via Knowledge Distillation",
+      "steeps_category": "T",
+      "steeps_subcategory": "Edge AI",
+      "abstract": "Vision-language model on 256KB SRAM microcontrollers. 15% of 7B teacher accuracy on 80 categories at 5 FPS on ARM Cortex-M7. Enables intelligent IoT without cloud.",
+      "source_url": "https://arxiv.org/abs/2603.00136",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CV", "cs.AI", "cs.AR"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.09004"],
+      "key_entities": ["TinyVLM", "microcontroller AI", "IoT", "edge computing"],
+      "quantitative_metrics": "256KB SRAM, 80 categories, 5 FPS, ARM Cortex-M7"
+    },
+    {
+      "id": "arxiv-2603.00729",
+      "title": "Qwen3-Coder-Next: Advancing Code-Focused Language Models with Execution-Guided Training",
+      "steeps_category": "T",
+      "steeps_subcategory": "Code AI",
+      "abstract": "Execution-guided training conditions on actual code execution outcomes. 89.4% HumanEval, 78.2% SWE-bench-verified. 67% reduction in code hallucination vs next-token prediction.",
+      "source_url": "https://arxiv.org/abs/2603.00729",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CL", "cs.SE", "cs.PL"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00520", "arxiv-2603.01327"],
+      "key_entities": ["Qwen3-Coder", "execution-guided", "code generation"],
+      "quantitative_metrics": "89.4% HumanEval, 78.2% SWE-bench, 67% hallucination reduction"
+    },
+    {
+      "id": "arxiv-2603.00296",
+      "title": "Length-Efficient Chain-of-Thought: Reducing Reasoning Verbosity Without Sacrificing Accuracy",
+      "steeps_category": "T",
+      "steeps_subcategory": "AI Efficiency",
+      "abstract": "55% CoT length reduction with 98% accuracy retention. 40-60% of reasoning tokens are redundant. 2.2x inference cost reduction.",
+      "source_url": "https://arxiv.org/abs/2603.00296",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CL", "cs.AI", "cs.LG"],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 8,
+        "actionability": 9,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.09004"],
+      "key_entities": ["chain-of-thought", "reasoning efficiency", "cost reduction"],
+      "quantitative_metrics": "55% length reduction, 98% accuracy, 2.2x cost reduction"
+    },
+    {
+      "id": "arxiv-2603.01192",
+      "title": "Grokking as a Phase Transition: Understanding Delayed Generalization Through Singular Learning Theory",
+      "steeps_category": "T",
+      "steeps_subcategory": "ML Theory",
+      "abstract": "First rigorous explanation of grokking via singular learning theory. Phase transition between memorization and generalization basins. Predicts timing within 15% accuracy.",
+      "source_url": "https://arxiv.org/abs/2603.01192",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["stat.ML", "cs.LG", "math.ST"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 7,
+        "actionability": 5,
+        "confidence": 8,
+        "time_horizon": "H2"
+      },
+      "cross_impact": [],
+      "key_entities": ["grokking", "phase transition", "singular learning theory"],
+      "quantitative_metrics": "15% prediction accuracy for grokking timing"
+    },
+    {
+      "id": "arxiv-2603.00520",
+      "title": "SWE-ABS: Adversarial Benchmark Strengthening Reveals Inflated Success Rates in Code Agents",
+      "steeps_category": "T",
+      "steeps_subcategory": "AI Evaluation",
+      "abstract": "31% of SWE-bench solutions introduce undetected regressions, 18% exploit test patterns. Real deployment success 40-60% lower than benchmarks. Proposes adversarial benchmark strengthening.",
+      "source_url": "https://arxiv.org/abs/2603.00520",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.SE", "cs.AI", "cs.CL"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.01327", "arxiv-2603.00729"],
+      "key_entities": ["benchmark inflation", "code agents", "SWE-bench"],
+      "quantitative_metrics": "31% undetected regressions, 18% test exploitation, 40-60% gap"
+    },
+    {
+      "id": "arxiv-2603.01327",
+      "title": "SWE-Adept: Agentic Framework for Deep Repository-Level Code Understanding and Issue Resolution",
+      "steeps_category": "T",
+      "steeps_subcategory": "Code AI",
+      "abstract": "52.3% SWE-bench-verified via dependency graphs and multi-file patches. Median resolution: 12 min vs 4 hours human. 78% pass human code review.",
+      "source_url": "https://arxiv.org/abs/2603.01327",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.SE", "cs.AI", "cs.CL"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 9,
+        "actionability": 9,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00520", "arxiv-2603.00729"],
+      "key_entities": ["SWE-Adept", "code repair", "repository analysis"],
+      "quantitative_metrics": "52.3% resolution, 12 min vs 4hr, 78% code review pass"
+    },
+    {
+      "id": "arxiv-2603.00193",
+      "title": "Multimodal Alignment Improves Generalizability of Genomic Biomarker Prediction in Computational Pathology",
+      "steeps_category": "T",
+      "steeps_subcategory": "Biomedical AI",
+      "abstract": "Multimodal histopathology-genomic alignment achieves 91% accuracy on 14 cancer types. 65% reduction in seen-unseen performance gap. Enables rapid genomic profiling from routine slides.",
+      "source_url": "https://arxiv.org/abs/2603.00193",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["q-bio.QM", "cs.CV", "cs.LG"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 9,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.02402"],
+      "key_entities": ["computational pathology", "genomic biomarkers", "cancer diagnosis"],
+      "quantitative_metrics": "91% accuracy, 14 cancer types, 65% gap reduction"
+    },
+    {
+      "id": "arxiv-2603.02402",
+      "title": "GPU-Accelerated Single-Cell Analysis at Scale with rapids-singlecell",
+      "steeps_category": "T",
+      "steeps_subcategory": "Biomedical Computing",
+      "abstract": "50-200x speedup over CPU tools for single-cell analysis. Human Cell Atlas (37M cells) in 4 hours vs 2+ weeks. Removes computational bottleneck in precision medicine.",
+      "source_url": "https://arxiv.org/abs/2603.02402",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["q-bio.QM", "cs.DC", "q-bio.GN"],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 8,
+        "actionability": 8,
+        "confidence": 9,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00193"],
+      "key_entities": ["single-cell analysis", "GPU computing", "Human Cell Atlas"],
+      "quantitative_metrics": "50-200x speedup, 37M cells in 4 hours vs 2+ weeks"
+    },
+    {
+      "id": "arxiv-2603.07331",
+      "title": "Causal Attribution of Coastal Water Clarity Degradation to Nickel Processing Expansion in Indonesia",
+      "steeps_category": "E_environmental",
+      "steeps_subcategory": "Environmental Impact",
+      "abstract": "Satellite-based causal attribution: 47% water clarity decline from 300% nickel smelting expansion in Morowali, Sulawesi. EV battery supply chain environmental footprint challenges green narratives.",
+      "source_url": "https://arxiv.org/abs/2603.07331",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["physics.ao-ph", "stat.AP"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.07227"],
+      "key_entities": ["nickel processing", "Indonesia", "EV batteries", "coastal degradation"],
+      "quantitative_metrics": "47% clarity decline, 300% smelting expansion, 2015-2025 satellite data"
+    },
+    {
+      "id": "arxiv-2603.07227",
+      "title": "Estimating Changes in Extreme Temperature Quantiles: Applied to Desert Temperature Records",
+      "steeps_category": "E_environmental",
+      "steeps_subcategory": "Climate Science",
+      "abstract": "99th percentile desert temperatures warming 2.1x faster than mean since 1990. 35 additional extreme heat days/year vs 1970. Implications for habitability and migration.",
+      "source_url": "https://arxiv.org/abs/2603.07227",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["physics.ao-ph", "stat.AP"],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 9,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.07331"],
+      "key_entities": ["extreme heat", "desert warming", "climate adaptation"],
+      "quantitative_metrics": "2.1x warming rate, 35 extra extreme days/year, 120 years data, 45 stations"
+    },
+    {
+      "id": "arxiv-2603.01906",
+      "title": "ScreenAnt: Transparent On-Screen Antennas for 6G Wireless Communications",
+      "steeps_category": "T",
+      "steeps_subcategory": "6G Technology",
+      "abstract": "Transparent antenna arrays in display screens for 6G. 12 dBi gain at 140 GHz with 92% optical transmittance. 40 Gbps at 3m range. Eliminates dedicated antenna modules.",
+      "source_url": "https://arxiv.org/abs/2603.01906",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["eess.SP", "cs.IT"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 8,
+        "actionability": 6,
+        "confidence": 7,
+        "time_horizon": "H2"
+      },
+      "cross_impact": ["arxiv-2603.01855"],
+      "key_entities": ["6G", "transparent antenna", "140 GHz", "sub-THz"],
+      "quantitative_metrics": "12 dBi, 140 GHz, 92% transmittance, 40 Gbps at 3m"
+    },
+    {
+      "id": "arxiv-2603.01855",
+      "title": "Quantum-PROBE: Rydberg Atomic Receiver for Multi-Angle RF Sensing with Quantum Advantage",
+      "steeps_category": "T",
+      "steeps_subcategory": "Quantum Sensing",
+      "abstract": "Rydberg atom RF receiver with 15 dB below classical sensitivity. 8 simultaneous direction estimates with 3x precision over MIMO arrays, 100x less power. For passive radar and anti-jamming.",
+      "source_url": "https://arxiv.org/abs/2603.01855",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["eess.SP", "quant-ph"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 9,
+        "actionability": 5,
+        "confidence": 7,
+        "time_horizon": "H2"
+      },
+      "cross_impact": ["arxiv-2603.04584"],
+      "key_entities": ["Rydberg atoms", "quantum sensing", "passive radar"],
+      "quantitative_metrics": "15 dB below classical, 8 simultaneous directions, 3x precision, 100x less power"
+    },
+    {
+      "id": "arxiv-2603.02898",
+      "title": "Range-Based Volatility Estimators for Monitoring Market Stress: Evidence from Local Food Price Data",
+      "steeps_category": "E_economic",
+      "steeps_subcategory": "Food Security Economics",
+      "abstract": "Food price volatility estimators detect stress events 3 weeks earlier than CPI measures. 34% of food crises preceded by detectable spikes missed by standard monitoring across 47 developing countries.",
+      "source_url": "https://arxiv.org/abs/2603.02898",
+      "published_date": "2026-03-16",
+      "arxiv_categories": ["q-fin.ST", "stat.AP"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 9,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.12128"],
+      "key_entities": ["food security", "early warning", "price volatility"],
+      "quantitative_metrics": "3 weeks earlier detection, 34% crises missed, 47 countries"
+    },
+    {
+      "id": "arxiv-2603.00089",
+      "title": "Who Controls the Conversation? User Perspectives on Generative AI System Prompts",
+      "steeps_category": "S",
+      "steeps_subcategory": "Human-AI Interaction",
+      "abstract": "CHI 2026. 76% unaware of system prompts, 82% want transparency, 91% desire control over AI personality. East Asian users prefer more customizable AI than Western users.",
+      "source_url": "https://arxiv.org/abs/2603.00089",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CY", "cs.HC", "cs.AI"],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 7,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00048"],
+      "key_entities": ["system prompts", "AI transparency", "cultural differences", "CHI 2026"],
+      "quantitative_metrics": "2400 users, 6 countries, 76% unaware, 82% want transparency"
+    },
+    {
+      "id": "arxiv-2603.12417",
+      "title": "Topology as Information: Network Effects in Corporate Lending and Systemic Risk",
+      "steeps_category": "E_economic",
+      "steeps_subcategory": "Financial Systems",
+      "abstract": "Lending network topology predicts default cascades 6 months before credit scores deteriorate. Regulators miss 40% of systemic risk by ignoring network effects. 45,000 loans across 12 EU countries.",
+      "source_url": "https://arxiv.org/abs/2603.12417",
+      "published_date": "2026-03-17",
+      "arxiv_categories": ["q-fin.RM", "physics.soc-ph"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.01109"],
+      "key_entities": ["systemic risk", "network topology", "bank stress testing"],
+      "quantitative_metrics": "6-month lead time, 40% risk missed, 45000 loans, 12 countries"
+    },
+    {
+      "id": "arxiv-2603.01042",
+      "title": "Thoth: Bridging Language Models to Time Series Understanding via Mid-Training Integration",
+      "steeps_category": "T",
+      "steeps_subcategory": "Foundation Models",
+      "abstract": "Mid-training integration enables LLMs to natively understand time series. Zero-shot forecasting rivaling specialized models across 40 domains. First unified text-temporal reasoning model.",
+      "source_url": "https://arxiv.org/abs/2603.01042",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CL", "cs.LG", "stat.ML"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 7,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00173"],
+      "key_entities": ["Thoth", "time series", "foundation model"],
+      "quantitative_metrics": "100M time series, 40 domains, zero-shot competitive"
+    },
+    {
+      "id": "arxiv-2603.00902",
+      "title": "Clawdrain: Exploiting Tool-Calling Chains for Stealthy Token Exhaustion in AI Agents",
+      "steeps_category": "T",
+      "steeps_subcategory": "AI Security",
+      "abstract": "Recursive tool invocation causes agent token budget exhaustion. 85% success across 10 commercial platforms, 47x cost amplification. Stealthy - each call appears legitimate.",
+      "source_url": "https://arxiv.org/abs/2603.00902",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CR", "cs.AI", "cs.SE"],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 8,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00476", "arxiv-2603.00164"],
+      "key_entities": ["token exhaustion", "agent attacks", "cost amplification"],
+      "quantitative_metrics": "85% success, 10 platforms, 47x cost amplification"
+    },
+    {
+      "id": "arxiv-2603.00185",
+      "title": "ThreatFormer-IDS: Robust Intrusion Detection with Zero-Day Generalization",
+      "steeps_category": "T",
+      "steeps_subcategory": "Cybersecurity",
+      "abstract": "Transformer-based IDS with 94% zero-day detection vs 23% signature-based and 67% existing ML. Deployable at 100 Gbps via FPGA. Self-supervised on 500M+ flows.",
+      "source_url": "https://arxiv.org/abs/2603.00185",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.CR", "cs.LG", "cs.NI"],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00164"],
+      "key_entities": ["intrusion detection", "zero-day", "FPGA", "transformer"],
+      "quantitative_metrics": "94% zero-day detection, 100 Gbps, 500M+ flows"
+    },
+    {
+      "id": "arxiv-2603.02032",
+      "title": "MetaRCA: Generalizable Root Cause Analysis for Cloud-Native Systems via Meta Causal Knowledge",
+      "steeps_category": "T",
+      "steeps_subcategory": "Cloud/AIOps",
+      "abstract": "FSE 2026. Generalizable RCA for cloud systems using meta-learned causal graphs. 82% accuracy on unseen systems with zero configuration. Enables rapid cross-cloud deployment.",
+      "source_url": "https://arxiv.org/abs/2603.02032",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.SE", "cs.DC", "cs.AI"],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 7,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.01327"],
+      "key_entities": ["AIOps", "root cause analysis", "cloud-native", "FSE 2026"],
+      "quantitative_metrics": "82% accuracy, zero config, FSE 2026"
+    },
+    {
+      "id": "arxiv-2603.01109",
+      "title": "A Stochastic Correlation Extension of the Vasicek Credit Risk Model for Macro-Prudential Stress Testing",
+      "steeps_category": "E_economic",
+      "steeps_subcategory": "Financial Risk",
+      "abstract": "Stochastic correlation extends Vasicek model capturing regime-dependent default clustering. Under stress, bank capital needs 35-50% higher than Basel III prescribes. Indicates systemic under-capitalization.",
+      "source_url": "https://arxiv.org/abs/2603.01109",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["q-fin.RM", "q-fin.MF"],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 8,
+        "actionability": 8,
+        "confidence": 7,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.12417"],
+      "key_entities": ["credit risk", "Basel III", "stress testing", "under-capitalization"],
+      "quantitative_metrics": "35-50% higher capital needed, 2008/2020 crisis calibrated"
+    },
+    {
+      "id": "arxiv-2603.00706",
+      "title": "Startup Contracting and Entrepreneur-Investor Bargaining Under AI-Driven Valuation",
+      "steeps_category": "E_economic",
+      "steeps_subcategory": "Venture Economics",
+      "abstract": "Theory of entrepreneur-investor bargaining when AI tools enable sophisticated valuation by both parties. Information asymmetry reduction changes optimal contract structure. Predicts shift toward revenue-based financing.",
+      "source_url": "https://arxiv.org/abs/2603.00706",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["econ.GN"],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 6,
+        "actionability": 6,
+        "confidence": 6,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00932"],
+      "key_entities": ["startup contracting", "AI valuation", "venture finance"],
+      "quantitative_metrics": "Revenue-based financing predictions, information asymmetry reduction"
+    },
+    {
+      "id": "arxiv-2603.00016",
+      "title": "Beyond Static Instruction: Multi-Agent AI Framework for Adaptive Augmented Reality Robot Training",
+      "steeps_category": "S",
+      "steeps_subcategory": "Human-Robot Interaction",
+      "abstract": "HRI 2026. Multi-agent AI for AR-based robot training that adapts in real-time to trainee skill level. 45% faster skill acquisition compared to static instruction methods.",
+      "source_url": "https://arxiv.org/abs/2603.00016",
+      "published_date": "2026-03-15",
+      "arxiv_categories": ["cs.RO", "cs.HC", "cs.AI"],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 7,
+        "actionability": 7,
+        "confidence": 7,
+        "time_horizon": "H1"
+      },
+      "cross_impact": ["arxiv-2603.00732"],
+      "key_entities": ["AR training", "HRI 2026", "adaptive instruction"],
+      "quantitative_metrics": "45% faster skill acquisition, HRI 2026"
+    }
+  ]
+}

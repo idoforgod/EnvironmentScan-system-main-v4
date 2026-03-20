@@ -1,0 +1,1677 @@
+{
+  "scan_date": "2026-03-17",
+  "workflow": "wf3-naver",
+  "classification_metadata": {
+    "total_classified": 41,
+    "method": "phase2-analyst-unified",
+    "steeps_distribution": {
+      "P_Political": 10,
+      "E_Economic": 11,
+      "S_Social": 6,
+      "T_Technological": 10,
+      "E_Environmental": 4
+    },
+    "fssf_distribution": {
+      "Trend": 14,
+      "Driver": 8,
+      "Wild Card": 2,
+      "Discontinuity": 4,
+      "Precursor Event": 4,
+      "Emerging Issue": 4,
+      "Megatrend": 2,
+      "Weak Signal": 3
+    },
+    "horizon_distribution": {
+      "H1": 32,
+      "H2": 9
+    },
+    "tipping_alerts": {
+      "RED": 4,
+      "ORANGE": 6,
+      "YELLOW": 6,
+      "GREEN": 25
+    }
+  },
+  "signals": [
+    {
+      "id": "naver-20260317-100-001",
+      "title": "감사원, 서울 한강버스 사업 강행 감사 결과 공개 — 기준속도 미달·사업비 오류 적발",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/100",
+        "section": "정치",
+        "section_id": 100,
+        "published_date": "2026-03-16T10:30:00+09:00"
+      },
+      "content": {
+        "abstract": "서울시의 한강버스 선박들이 기준 속도를 충족하지 못했음에도 사업이 강행된 것으로 감사원이 16일 감사 결과를 공개했다. 총사업비 산정 오류로 행정안전부의 투자심사가 누락되는 등 절차적 문제가 확인되었다.",
+        "keywords": [
+          "한강버스",
+          "감사원",
+          "서울시",
+          "투자심사"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "서울경제"
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-100-002",
+      "title": "국민의힘 공천관리위, 김영환 충북도지사 컷오프 결정",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/100",
+        "section": "정치",
+        "section_id": 100,
+        "published_date": "2026-03-16T14:20:00+09:00"
+      },
+      "content": {
+        "abstract": "국민의힘 공천관리위원회는 16일 김영환 충북도지사를 컷오프(공천배제)하는 동시에 추가 공천 접수를 진행하기로 했다.",
+        "keywords": [
+          "공천",
+          "국민의힘",
+          "김영환",
+          "충북도지사"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "연합뉴스"
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-100-003",
+      "title": "미 무역법 301조 조사 개시 — 한국 포함 16개국 대상, 제조업 84% 직격탄 우려",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/100",
+        "section": "정치",
+        "section_id": 100,
+        "published_date": "2026-03-16T09:00:00+09:00"
+      },
+      "content": {
+        "abstract": "미국 무역대표부(USTR)가 3월 11일 한국을 포함한 16개국을 대상으로 무역법 301조 조사를 공식 개시했다. 자동차, 철강, 반도체, 선박 등 제조업 전반이 대상. 한국 대미 무역흑자 560억 달러가 주요 배경. 서면 의견 제출 3/17~4/15, 5월 공청회, 7월 결론.",
+        "keywords": [
+          "301조",
+          "트럼프",
+          "관세",
+          "제조업",
+          "USTR",
+          "반도체",
+          "자동차"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "한국경제"
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf_type": "Driver",
+        "three_horizons": "H1",
+        "uncertainty_level": "High",
+        "tipping_point_alert": "ORANGE"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 8.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-100-005",
+      "title": "미 주한미군 미사일방어 자산 중동 이전 검토 — 한반도 안보공백 우려",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/100",
+        "section": "정치",
+        "section_id": 100,
+        "published_date": "2026-03-16T08:30:00+09:00"
+      },
+      "content": {
+        "abstract": "미국이 중동 대응을 위해 주한미군 미사일 방어 자산 일부를 중동으로 이동시키는 방안을 논의 중. 한반도 안보 우려 증폭.",
+        "keywords": [
+          "주한미군",
+          "미사일방어",
+          "중동",
+          "안보공백"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "조선일보"
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf_type": "Wild Card",
+        "three_horizons": "H1",
+        "uncertainty_level": "Radical",
+        "tipping_point_alert": "ORANGE"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 8.5,
+        "probability": 0.4,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "naver-20260317-100-007",
+      "title": "미 대법원, 트럼프 상호관세 위법 판결 — 국가별 차등관세 법적 근거 붕괴",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/100",
+        "section": "정치",
+        "section_id": 100,
+        "published_date": "2026-03-16T18:00:00+09:00"
+      },
+      "content": {
+        "abstract": "미국 대법원이 트럼프 행정부의 상호관세를 위법으로 판결. 국가별 차등관세의 법적 근거가 붕괴. 301조 조사는 별개 법적 근거로 진행 중.",
+        "keywords": [
+          "대법원",
+          "상호관세",
+          "위법",
+          "트럼프"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "한국경제"
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf_type": "Driver",
+        "three_horizons": "H1",
+        "uncertainty_level": "High",
+        "tipping_point_alert": "ORANGE"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 7.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-101-001",
+      "title": "이란전쟁 장기화로 유가 $106 돌파 — 한국 30년만에 석유제품 최고가격제 시행",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/101",
+        "section": "경제",
+        "section_id": 101,
+        "published_date": "2026-03-16T07:00:00+09:00"
+      },
+      "content": {
+        "abstract": "브렌트유 $106/배럴 급등(전쟁 후 40% 상승). 한국 원유 수입의 70% 중동 의존, 95% 호르무즈 경유. 30년만에 석유제품 최고가격제 시행. 100조원 시장안정화 프로그램 가동. LNG 60% 급등, 항공유 $150-200/배럴.",
+        "keywords": [
+          "이란전쟁",
+          "유가",
+          "호르무즈",
+          "석유최고가격제",
+          "브렌트유"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "한국경제"
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf_type": "Discontinuity",
+        "three_horizons": "H1",
+        "uncertainty_level": "High",
+        "tipping_point_alert": "RED"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 9.5,
+        "probability": 0.7,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "naver-20260317-101-002",
+      "title": "KOSPI 2008년 이후 최대 폭락 — 서킷브레이커 발동, 아시아 증시 동반 급락",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/101",
+        "section": "경제",
+        "section_id": 101,
+        "published_date": "2026-03-16T16:30:00+09:00"
+      },
+      "content": {
+        "abstract": "KOSPI 하루 최대 12% 하락, 서킷브레이커 발동(3/4). 닛케이 -11%, 니프티 -7%, 항셍 -4%. 글로벌 주식 5.5% 하락. 사우디 타다울 -9.6%.",
+        "keywords": [
+          "KOSPI",
+          "서킷브레이커",
+          "폭락",
+          "아시아증시"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "매일경제"
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf_type": "Discontinuity",
+        "three_horizons": "H1",
+        "uncertainty_level": "High",
+        "tipping_point_alert": "RED"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 9.0,
+        "probability": 0.7,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "naver-20260317-101-003",
+      "title": "두산에너빌리티 52주 신고가 — 원전 재가동 수혜, 에너지 안보 관심 급증",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/101",
+        "section": "경제",
+        "section_id": 101,
+        "published_date": "2026-03-16T15:40:00+09:00"
+      },
+      "content": {
+        "abstract": "두산에너빌리티 52주 신고가 11만700원. 신월성 1호기·고리 2호기 재가동, 5월까지 추가 4기 순차 재가동.",
+        "keywords": [
+          "두산에너빌리티",
+          "원전",
+          "재가동",
+          "에너지안보"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "한국경제"
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf_type": "Precursor Event",
+        "three_horizons": "H1",
+        "uncertainty_level": "Low",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 6.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-101-005",
+      "title": "기초연금 부부감액 단계적 폐지 추진 — 소득 하위 40% 대상",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/101",
+        "section": "경제",
+        "section_id": 101,
+        "published_date": "2026-03-16T12:00:00+09:00"
+      },
+      "content": {
+        "abstract": "복지부가 기초연금 부부 감액 제도를 단계적으로 개선. 소득 하위 40% 대상 2027년 15%, 2030년 10%로 감액률 인하 검토.",
+        "keywords": [
+          "기초연금",
+          "부부감액",
+          "복지부",
+          "노인"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "연합뉴스"
+      },
+      "classification": {
+        "steeps": "S_Social",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-101-006",
+      "title": "삼성전자 HBM4 세계 최초 양산 — SK하이닉스와 AI 메모리 패권 경쟁 격화",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/101",
+        "section": "경제",
+        "section_id": 101,
+        "published_date": "2026-03-16T06:30:00+09:00"
+      },
+      "content": {
+        "abstract": "삼성전자 HBM4 세계 최초 양산. SK하이닉스와 AI 메모리 패권 경쟁 격화. HBM3E→HBM4 세대교체 원년.",
+        "keywords": [
+          "HBM4",
+          "삼성전자",
+          "SK하이닉스",
+          "AI메모리"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "전자신문"
+      },
+      "classification": {
+        "steeps": "T_Technological",
+        "fssf_type": "Emerging Issue",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 7.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-101-007",
+      "title": "주식 이탈자금 26조원 부동산으로 이동 — 서울 상급지 아파트 거래 증가",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/101",
+        "section": "경제",
+        "section_id": 101,
+        "published_date": "2026-03-16T08:00:00+09:00"
+      },
+      "content": {
+        "abstract": "2025년 하반기 증시에서 축적된 약 26조원이 2026년 부동산 시장으로 이동. 서울 상급지 아파트 거래 증가.",
+        "keywords": [
+          "부동산",
+          "증시이탈",
+          "자금이동",
+          "서울아파트"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "매일경제"
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-101-008",
+      "title": "토스뱅크 환율 고시 오류 — 엔화 환전 전 고객에 현금 1만원 보상",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/101",
+        "section": "경제",
+        "section_id": 101,
+        "published_date": "2026-03-16T14:00:00+09:00"
+      },
+      "content": {
+        "abstract": "토스뱅크 환율 고시 시스템 오류. 엔화 환전 고객에 현금 1만원 보상 지급 예정.",
+        "keywords": [
+          "토스뱅크",
+          "환율오류",
+          "핀테크",
+          "보상"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "한국경제"
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-101-009",
+      "title": "한국은행 금리 추가인하 여부 — 수도권 집값·환율 고려, 통화정책 딜레마",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/101",
+        "section": "경제",
+        "section_id": 101,
+        "published_date": "2026-03-16T09:00:00+09:00"
+      },
+      "content": {
+        "abstract": "한국은행 금리 추가 인하를 수도권 집값·환율 고려해 결정. 중동 전쟁발 인플레이션과 경기침체 우려 동시 작용.",
+        "keywords": [
+          "한국은행",
+          "금리",
+          "통화정책",
+          "인플레이션"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "머니S"
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-101-010",
+      "title": "정부 100조원 시장안정화 프로그램 가동 — 유가 쇼크 대응 긴급 경제 대책",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/101",
+        "section": "경제",
+        "section_id": 101,
+        "published_date": "2026-03-16T11:00:00+09:00"
+      },
+      "content": {
+        "abstract": "100조원(약 $68B) 규모 시장안정화. 전략비축유 방출, 석유제품 최고가격제, 에너지 바우처 확대, 기업 유동성 지원.",
+        "keywords": [
+          "시장안정화",
+          "100조원",
+          "유가쇼크",
+          "전략비축유"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "동아일보"
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf_type": "Discontinuity",
+        "three_horizons": "H1",
+        "uncertainty_level": "High",
+        "tipping_point_alert": "RED"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 8.0,
+        "probability": 0.7,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "naver-20260317-101-011",
+      "title": "미 301조 + 10% 관세 만료 — 7월 이후 품목별 차등관세 폭풍 예고",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/101",
+        "section": "경제",
+        "section_id": 101,
+        "published_date": "2026-03-16T15:00:00+09:00"
+      },
+      "content": {
+        "abstract": "한시적 10% 관세 만료와 301조 결론이 맞물림. 교차보복 가능해 반도체·자동차 직접 타격 우려.",
+        "keywords": [
+          "301조",
+          "관세",
+          "교차보복",
+          "반도체",
+          "자동차"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "매일경제"
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf_type": "Driver",
+        "three_horizons": "H1",
+        "uncertainty_level": "High",
+        "tipping_point_alert": "ORANGE"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 7.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-102-001",
+      "title": "초고령사회 진입 — 65세 이상 20% 돌파, 노인장기요양보험 16조원",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/102",
+        "section": "사회",
+        "section_id": 102,
+        "published_date": "2026-03-16T07:00:00+09:00"
+      },
+      "content": {
+        "abstract": "한국 초고령사회 진입. 65세 이상 20% 돌파. 2040년 3명 중 1명 65세 이상. 노인장기요양보험 16조원(전년 대비 10%+). 핵심 생산가능인구 감소로 잠재성장률 하락.",
+        "keywords": [
+          "초고령사회",
+          "인구감소",
+          "장기요양",
+          "잠재성장률"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "경향신문"
+      },
+      "classification": {
+        "steeps": "S_Social",
+        "fssf_type": "Megatrend",
+        "three_horizons": "H2",
+        "uncertainty_level": "Low",
+        "tipping_point_alert": "YELLOW"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 8.0,
+        "probability": 0.7,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-102-004",
+      "title": "출생아 수 23만명 수준 — 2024년 대비 5% 감소, 인구절벽 가속",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/102",
+        "section": "사회",
+        "section_id": 102,
+        "published_date": "2026-03-16T08:00:00+09:00"
+      },
+      "content": {
+        "abstract": "2025년 출생아 약 23만명, 2024년 대비 5% 감소. 인구절벽 가속. 산업 인력난·잠재성장률 하락 우려.",
+        "keywords": [
+          "출생아",
+          "저출생",
+          "인구절벽",
+          "인력난"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "조선일보"
+      },
+      "classification": {
+        "steeps": "S_Social",
+        "fssf_type": "Megatrend",
+        "three_horizons": "H2",
+        "uncertainty_level": "Low",
+        "tipping_point_alert": "YELLOW"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 8.0,
+        "probability": 0.7,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-102-005",
+      "title": "AI 기술, 정신건강까지 확장 — AI 헬스케어 스타트업 투자 활발",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/102",
+        "section": "사회",
+        "section_id": 102,
+        "published_date": "2026-03-16T09:30:00+09:00"
+      },
+      "content": {
+        "abstract": "AI 기술이 하드웨어에서 정신건강까지 확장. AI 기반 정신건강 관리, 맞춤형 건강 솔루션이 새 성장 분야.",
+        "keywords": [
+          "AI",
+          "정신건강",
+          "헬스케어",
+          "스타트업"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "유스연합"
+      },
+      "classification": {
+        "steeps": "T_Technological",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-102-006",
+      "title": "에너지 위기, 아시아 시민 생활패턴 변화 — 재택근무 확대, 에너지 절약",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/102",
+        "section": "사회",
+        "section_id": 102,
+        "published_date": "2026-03-16T13:00:00+09:00"
+      },
+      "content": {
+        "abstract": "중동 전쟁발 에너지 위기가 아시아 전역 시민 생활패턴 변화 촉발. 재택근무 확대, 대중교통 이용 증가.",
+        "keywords": [
+          "에너지위기",
+          "생활변화",
+          "재택근무",
+          "절약"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "SBS"
+      },
+      "classification": {
+        "steeps": "S_Social",
+        "fssf_type": "Precursor Event",
+        "three_horizons": "H1",
+        "uncertainty_level": "Low",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 6.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-103-001",
+      "title": "원전 6기 순차 재가동 — 에너지 안보 위한 원전 확대 정책 가속",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/103",
+        "section": "생활문화",
+        "section_id": 103,
+        "published_date": "2026-03-16T10:00:00+09:00"
+      },
+      "content": {
+        "abstract": "3월 중 신월성 1호기·고리 2호기 재가동. 5월까지 한빛 6호기, 한울 3호기, 월성 2·3호기 등 추가 4기 재가동. 재생에너지 전환이 근본적 안보 전략이라는 목소리도.",
+        "keywords": [
+          "원전",
+          "재가동",
+          "에너지안보",
+          "재생에너지"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "문화일보"
+      },
+      "classification": {
+        "steeps": "E_Environmental",
+        "fssf_type": "Precursor Event",
+        "three_horizons": "H1",
+        "uncertainty_level": "Low",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 6.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-103-002",
+      "title": "기후대응위, 국제감축사업 통합 설명회 3/20 개최",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/103",
+        "section": "생활문화",
+        "section_id": 103,
+        "published_date": "2026-03-16T10:30:00+09:00"
+      },
+      "content": {
+        "abstract": "국가기후위기대응위원회가 3/20 대한상공회의소에서 국제감축사업 설명회 개최. 기업 참여 확대 유도.",
+        "keywords": [
+          "기후대응",
+          "국제감축",
+          "온실가스",
+          "탄소중립"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "데일리비즈온"
+      },
+      "classification": {
+        "steeps": "E_Environmental",
+        "fssf_type": "Driver",
+        "three_horizons": "H2",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "YELLOW"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 7.5,
+        "probability": 0.7,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-103-003",
+      "title": "기후변화, 글로벌 공급망 심각 영향 — 에너지 패권 재편 가속",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/103",
+        "section": "생활문화",
+        "section_id": 103,
+        "published_date": "2026-03-16T09:00:00+09:00"
+      },
+      "content": {
+        "abstract": "기후변화가 글로벌 경제·공급망에 심각한 영향. 중동 전쟁과 맞물려 에너지 패권 재편 가속.",
+        "keywords": [
+          "기후변화",
+          "공급망",
+          "에너지패권"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "경향신문"
+      },
+      "classification": {
+        "steeps": "E_Environmental",
+        "fssf_type": "Driver",
+        "three_horizons": "H2",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "YELLOW"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 7.5,
+        "probability": 0.7,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-103-004",
+      "title": "2026 이상기후 농업 위기 — 식량 안보 대책 시급",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/103",
+        "section": "생활문화",
+        "section_id": 103,
+        "published_date": "2026-03-16T10:00:00+09:00"
+      },
+      "content": {
+        "abstract": "이상기후로 농업 위기 가속. 기온 상승·강우 패턴 변화로 생산성 하락 직면. 식량 안보 대책 시급.",
+        "keywords": [
+          "이상기후",
+          "농업위기",
+          "식량안보",
+          "기후변화"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "전국인력신문"
+      },
+      "classification": {
+        "steeps": "E_Environmental",
+        "fssf_type": "Driver",
+        "three_horizons": "H2",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "YELLOW"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 7.5,
+        "probability": 0.7,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-104-001",
+      "title": "이란전쟁 3주째, 호르무즈 봉쇄 장기화 — 글로벌 GDP 영향 본격화",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/104",
+        "section": "세계",
+        "section_id": 104,
+        "published_date": "2026-03-16T06:00:00+09:00"
+      },
+      "content": {
+        "abstract": "미-이스라엘 vs 이란 3주째. 글로벌 석유·가스 20% 호르무즈 통과. 아시아행 원유 84%, LNG 83% 경유. 장기화 시 브렌트 $130(Q2), $150(6개월). 유로존 0.5%, 중국 <3%, 미국 인플레 3%.",
+        "keywords": [
+          "이란전쟁",
+          "호르무즈",
+          "유가",
+          "GDP"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "Al Jazeera/연합"
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf_type": "Discontinuity",
+        "three_horizons": "H1",
+        "uncertainty_level": "High",
+        "tipping_point_alert": "RED"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 9.0,
+        "probability": 0.7,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "naver-20260317-104-002",
+      "title": "카타르 헬륨 생산 중단 — 반도체 제조 차질 우려, 한·일·대만 직격탄",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/104",
+        "section": "세계",
+        "section_id": 104,
+        "published_date": "2026-03-16T08:00:00+09:00"
+      },
+      "content": {
+        "abstract": "이란 보복 공격으로 카타르 헬륨 시설 피해. 반도체 제조 필수 소재 차질. 한국·일본·대만 직접 영향.",
+        "keywords": [
+          "헬륨",
+          "카타르",
+          "반도체",
+          "공급망"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "조선일보"
+      },
+      "classification": {
+        "steeps": "T_Technological",
+        "fssf_type": "Wild Card",
+        "three_horizons": "H1",
+        "uncertainty_level": "High",
+        "tipping_point_alert": "ORANGE"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 8.5,
+        "probability": 0.7,
+        "urgency": 9,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "naver-20260317-104-003",
+      "title": "김정은, 최고인민회의 투표 후 탄광 방문 — 5개년 계획·석탄생산 강조",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/104",
+        "section": "세계",
+        "section_id": 104,
+        "published_date": "2026-03-16T12:00:00+09:00"
+      },
+      "content": {
+        "abstract": "김정은이 제15기 최고인민회의 선거 맞아 천성청년탄광 방문. 5개년 계획·석탄 생산 강조.",
+        "keywords": [
+          "김정은",
+          "최고인민회의",
+          "탄광",
+          "북한"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "서울평양뉴스"
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-104-005",
+      "title": "2026 APEC 정상회의(중국) — 한중 셔틀 정상회담·북미 회담 가능성",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/104",
+        "section": "세계",
+        "section_id": 104,
+        "published_date": "2026-03-16T14:00:00+09:00"
+      },
+      "content": {
+        "abstract": "중국 APEC 계기 한중 셔틀 정상회담 전망. 북미 간 평화공존·비핵화 의제 공통분모로 정상회담 가능성 확대.",
+        "keywords": [
+          "APEC",
+          "한중",
+          "정상회담",
+          "북미"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "오마이뉴스"
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf_type": "Weak Signal",
+        "three_horizons": "H2",
+        "uncertainty_level": "High",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 6.0,
+        "probability": 0.7,
+        "urgency": 5,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "naver-20260317-104-006",
+      "title": "트럼프 무역분절화 가속 — 고율 관세 효과 가시화, 글로벌 무역 위축",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/104",
+        "section": "세계",
+        "section_id": 104,
+        "published_date": "2026-03-16T10:00:00+09:00"
+      },
+      "content": {
+        "abstract": "트럼프 고율 관세 효과 가시화. 지정학적 갈등 심화에 따른 무역 분절화 가속. 한국 중간선거(11월) 미-중 변수.",
+        "keywords": [
+          "트럼프",
+          "관세",
+          "무역분절화",
+          "지정학"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "경제조선"
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf_type": "Driver",
+        "three_horizons": "H1",
+        "uncertainty_level": "High",
+        "tipping_point_alert": "ORANGE"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 7.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-104-007",
+      "title": "글로벌 연료가격 급등 — 캄보디아 +68%, 베트남 +50%, 개도국 타격",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/104",
+        "section": "세계",
+        "section_id": 104,
+        "published_date": "2026-03-16T08:00:00+09:00"
+      },
+      "content": {
+        "abstract": "호르무즈 봉쇄로 글로벌 연료 급등. 캄보디아 +68%, 베트남 +50%, 나이지리아 +35%. 항공유 $150-200/배럴. 개도국 최대 타격.",
+        "keywords": [
+          "연료가격",
+          "급등",
+          "개발도상국",
+          "항공유"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "연합뉴스"
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-105-001",
+      "title": "한국 AI 스타트업 투자 역대급 — 업스테이지 470억·보스반도체 870억 유치",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/105",
+        "section": "IT과학",
+        "section_id": 105,
+        "published_date": "2026-03-16T09:00:00+09:00"
+      },
+      "content": {
+        "abstract": "한국 AI 생태계 역사적 성장. 업스테이지(LLM '솔라') 470억, 보스반도체(자율주행 SoC) 870억, 리얼월드(피지컬 AI) 390억, 페르소나AI(온디바이스) 120억 유치. 생성형+피지컬 AI 동시 성장.",
+        "keywords": [
+          "AI스타트업",
+          "투자",
+          "업스테이지",
+          "보스반도체",
+          "LLM"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "아이티인사이트"
+      },
+      "classification": {
+        "steeps": "T_Technological",
+        "fssf_type": "Emerging Issue",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 7.0,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-105-002",
+      "title": "K-AI 반도체 양산 원년 — 스타트업 칩 시장 출시, 실적 증명 관문",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/105",
+        "section": "IT과학",
+        "section_id": 105,
+        "published_date": "2026-03-16T08:00:00+09:00"
+      },
+      "content": {
+        "abstract": "2026년 K-AI 반도체 양산 원년. 스타트업 칩 일제히 출시. 기술 개발을 넘어 실적 증명 관문.",
+        "keywords": [
+          "AI반도체",
+          "양산",
+          "스타트업",
+          "K-AI"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "더에이아이"
+      },
+      "classification": {
+        "steeps": "T_Technological",
+        "fssf_type": "Emerging Issue",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 7.0,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-105-003",
+      "title": "Samsung Galaxy S26 Ultra MWC 'Best in Show' — SK하이닉스 HBM4·LPDDR6 공개",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/105",
+        "section": "IT과학",
+        "section_id": 105,
+        "published_date": "2026-03-16T11:00:00+09:00"
+      },
+      "content": {
+        "abstract": "갤럭시 S26 Ultra MWC 2026 Best in Show. SK하이닉스 HBM4·LPDDR6 공개. 한국 기업 글로벌 기술 리더십 재확인.",
+        "keywords": [
+          "갤럭시S26",
+          "MWC",
+          "HBM4",
+          "LPDDR6"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "전자신문"
+      },
+      "classification": {
+        "steeps": "T_Technological",
+        "fssf_type": "Emerging Issue",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 7.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-105-004",
+      "title": "Dahua AI 교통시스템 Intertraffic 2026 공개 — 능동적·예측적 교통관리",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/105",
+        "section": "IT과학",
+        "section_id": 105,
+        "published_date": "2026-03-16T13:00:00+09:00"
+      },
+      "content": {
+        "abstract": "Dahua Technology AI 기반 ITS Intertraffic Amsterdam 2026 공개. 수동 모니터링→능동적·예측적 교통관리 진화.",
+        "keywords": [
+          "AI교통",
+          "ITS",
+          "스마트시티"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "코리아헤럴드"
+      },
+      "classification": {
+        "steeps": "T_Technological",
+        "fssf_type": "Weak Signal",
+        "three_horizons": "H2",
+        "uncertainty_level": "High",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 6.0,
+        "probability": 0.7,
+        "urgency": 5,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "naver-20260317-105-005",
+      "title": "한국 통합 R&D — AI·산업·지역개발 연결, 중소벤처부·산업부 공동 추진",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/105",
+        "section": "IT과학",
+        "section_id": 105,
+        "published_date": "2026-03-16T10:00:00+09:00"
+      },
+      "content": {
+        "abstract": "중소벤처기업부·산업통상자원부 AI·산업·지역개발 통합 R&D 프레임워크. 연결된 혁신 엔진 구축.",
+        "keywords": [
+          "R&D",
+          "AI",
+          "산업정책",
+          "지역개발"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "KoreaTechDesk"
+      },
+      "classification": {
+        "steeps": "T_Technological",
+        "fssf_type": "Weak Signal",
+        "three_horizons": "H2",
+        "uncertainty_level": "High",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 6.0,
+        "probability": 0.7,
+        "urgency": 5,
+        "novelty": 8
+      }
+    },
+    {
+      "id": "naver-20260317-105-006",
+      "title": "EU-한국 연구혁신의 날 2026 (3/24) — 양자컴퓨팅·AI·기후 공동연구",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/105",
+        "section": "IT과학",
+        "section_id": 105,
+        "published_date": "2026-03-16T14:00:00+09:00"
+      },
+      "content": {
+        "abstract": "EU-한국 연구혁신의 날 3/24 개최. 양자컴퓨팅·AI·기후변화 공동연구 확대. 국제 과학기술 협력.",
+        "keywords": [
+          "EU",
+          "한국",
+          "양자컴퓨팅",
+          "국제협력"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "EEAS"
+      },
+      "classification": {
+        "steeps": "T_Technological",
+        "fssf_type": "Driver",
+        "three_horizons": "H2",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "YELLOW"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 7.5,
+        "probability": 0.7,
+        "urgency": 5,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-105-007",
+      "title": "CES 2026 역대 최대 한국관 — B2B AI·산업기술 전략 전환",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/105",
+        "section": "IT과학",
+        "section_id": 105,
+        "published_date": "2026-03-16T12:00:00+09:00"
+      },
+      "content": {
+        "abstract": "CES 2026 역대 최대 한국 통합관. 소비자 가전→B2B AI·산업기술 중심 전환 확인.",
+        "keywords": [
+          "CES2026",
+          "B2B",
+          "AI",
+          "산업기술"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "KoreaTechDesk"
+      },
+      "classification": {
+        "steeps": "T_Technological",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Low",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-101-004",
+      "title": "포항 새마을금고 부동산 PF 부실 경영난 — 억대 연봉 임직원 논란",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/101",
+        "section": "경제",
+        "section_id": 101,
+        "published_date": "2026-03-16T10:00:00+09:00"
+      },
+      "content": {
+        "abstract": "포항 새마을금고 부동산 PF 부실로 경영난 심화. 일부 임직원 억대 연봉 논란.",
+        "keywords": [
+          "새마을금고",
+          "부동산PF",
+          "경영난"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "매일신문"
+      },
+      "classification": {
+        "steeps": "E_Economic",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-102-002",
+      "title": "인천시, 배달 식품업소 위생 단속 — 소비기한 미표시 6곳 적발",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/102",
+        "section": "사회",
+        "section_id": 102,
+        "published_date": "2026-03-16T11:00:00+09:00"
+      },
+      "content": {
+        "abstract": "인천시가 배달 식품업소 중 소비기한 미표시 6곳 적발. 배달경제 식품안전 관리 강화 필요.",
+        "keywords": [
+          "배달",
+          "식품안전",
+          "위생",
+          "소비기한"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "인천일보"
+      },
+      "classification": {
+        "steeps": "S_Social",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-100-004",
+      "title": "포항시의원 공천 논란 — 음주운전·탈당 전력 후보, '사전 내정' 의혹",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/100",
+        "section": "정치",
+        "section_id": 100,
+        "published_date": "2026-03-16T11:00:00+09:00"
+      },
+      "content": {
+        "abstract": "포항시의원 공천 과정에서 논란 후보 대거 등록, 사전 내정 의혹.",
+        "keywords": [
+          "공천",
+          "포항",
+          "논란"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "경북일보"
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-100-006",
+      "title": "김병헌 위안부법폐지국민행동 대표 구속영장 신청",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/100",
+        "section": "정치",
+        "section_id": 100,
+        "published_date": "2026-03-16T15:00:00+09:00"
+      },
+      "content": {
+        "abstract": "사자명예훼손, 정보통신망법 명예훼손, 아동학대 혐의 구속영장 신청.",
+        "keywords": [
+          "위안부",
+          "명예훼손",
+          "구속"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "KBS"
+      },
+      "classification": {
+        "steeps": "P_Political",
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "uncertainty_level": "Medium",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 5.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    },
+    {
+      "id": "naver-20260317-104-004",
+      "title": "아시아 전역 에너지 절약 모드 — 재택근무·계단 이용 등 긴급 조치",
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "url": "https://news.naver.com/section/104",
+        "section": "세계",
+        "section_id": 104,
+        "published_date": "2026-03-16T07:00:00+09:00"
+      },
+      "content": {
+        "abstract": "유가 급등으로 아시아 전역 에너지 절약 모드. 재택근무·계단 이용 등. 한국도 에너지 효율화 캠페인 강화.",
+        "keywords": [
+          "에너지절약",
+          "재택근무",
+          "아시아"
+        ],
+        "language": "ko"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-17T01:07:00Z",
+      "metadata": {
+        "press": "NBC/연합"
+      },
+      "classification": {
+        "steeps": "S_Social",
+        "fssf_type": "Precursor Event",
+        "three_horizons": "H1",
+        "uncertainty_level": "Low",
+        "tipping_point_alert": "GREEN"
+      },
+      "signal_impact_scores": {
+        "overall_impact": 6.5,
+        "probability": 0.7,
+        "urgency": 7,
+        "novelty": 5
+      }
+    }
+  ]
+}

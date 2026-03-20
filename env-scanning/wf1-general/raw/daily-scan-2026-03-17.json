@@ -1,0 +1,822 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-03-17",
+    "scan_window": {
+      "start": "2026-03-15T23:33:07.490308+00:00",
+      "end": "2026-03-16T23:33:07.490308+00:00",
+      "lookback_hours": 24,
+      "enforce": "strict"
+    },
+    "anchor_timestamp": "2026-03-16T23:33:07.490308+00:00",
+    "sources_scanned": 27,
+    "sources_failed": 3,
+    "total_items_collected": 52,
+    "execution_proof": {
+      "phase": "1.2",
+      "started_at": "2026-03-16T23:33:10Z",
+      "completed_at": "2026-03-16T23:48:00Z",
+      "mode": "marathon"
+    }
+  },
+  "items": [
+    {
+      "id": "tc-20260317-001",
+      "title": "Nvidia Unveils Vera Rubin Architecture and $1T Revenue Projection at GTC 2026",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/",
+        "published_date": "2026-03-16T21:41:37Z"
+      },
+      "content": {
+        "abstract": "Jensen Huang announced at GTC 2026 that Nvidia expects $1 trillion in purchase orders for Blackwell and Vera Rubin chips through 2027. The Vera Rubin architecture introduces 7 new chips, 5 rack-scale systems, and a new CPU purpose-built for agentic AI. Key partnerships with AWS (1M+ GPUs), Microsoft Azure, and Google Cloud were announced, along with autonomous vehicle programs with BYD, Hyundai, Nissan, and Geely.",
+        "keywords": ["Nvidia", "GTC 2026", "Vera Rubin", "agentic AI", "GPU", "Blackwell", "autonomous vehicles", "trillion dollar"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:35:00Z"
+    },
+    {
+      "id": "tc-20260317-002",
+      "title": "Nvidia NemoClaw: Open Enterprise AI Agent Platform with Security Focus",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/",
+        "published_date": "2026-03-16T22:45:51Z"
+      },
+      "content": {
+        "abstract": "Nvidia unveiled NemoClaw, an open enterprise AI agent platform built from the viral OpenClaw framework. The platform combines OpenShell (policy enforcement), network guardrails, and privacy routing for secure autonomous agent deployment. This addresses a critical gap in enterprise AI agent security.",
+        "keywords": ["NemoClaw", "AI agents", "enterprise security", "OpenClaw", "autonomous agents"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:35:00Z"
+    },
+    {
+      "id": "tc-20260317-003",
+      "title": "Warren Presses Pentagon Over xAI Access to Classified Networks",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/16/warren-presses-pentagon-over-decision-to-grant-xai-access-to-classified-networks/",
+        "published_date": "2026-03-16T20:58:36Z"
+      },
+      "content": {
+        "abstract": "Senator Elizabeth Warren raised concerns about granting Elon Musk's xAI access to classified Pentagon networks, citing Grok's harmful outputs and potential national security implications. This highlights the tension between rapid AI deployment in defense and oversight requirements.",
+        "keywords": ["xAI", "Pentagon", "classified networks", "AI safety", "national security", "Warren"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-16T23:35:00Z"
+    },
+    {
+      "id": "tc-20260317-004",
+      "title": "xAI Faces Child Safety Lawsuit Over Grok AI Image Generation",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/16/elon-musks-xai-faces-child-porn-lawsuit-from-minors-grok-allegedly-undressed/",
+        "published_date": "2026-03-16T19:18:44Z"
+      },
+      "content": {
+        "abstract": "Three plaintiffs filed a class-action lawsuit against xAI alleging Grok generated sexual content depicting minors. This represents a critical AI ethics and safety failure with potential regulatory implications for AI image generation across the industry.",
+        "keywords": ["xAI", "Grok", "AI safety", "child safety", "lawsuit", "AI ethics", "image generation"],
+        "language": "en"
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-16T23:35:00Z"
+    },
+    {
+      "id": "tc-20260317-005",
+      "title": "Memories AI: Visual Memory Layer for Wearables and Robotics",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/16/memories-ai-is-building-the-visual-memory-layer-for-wearables-and-robotics/",
+        "published_date": "2026-03-16T20:30:00Z"
+      },
+      "content": {
+        "abstract": "Startup Memories AI develops a large visual memory model for indexing and retrieving video-recorded memories in physical AI systems. Targets wearable devices and robotics applications, creating persistent environmental memory for AI agents.",
+        "keywords": ["visual memory", "wearables", "robotics", "physical AI", "memory model"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:35:00Z"
+    },
+    {
+      "id": "tc-20260317-006",
+      "title": "Samsung Invests in GridBeyond: Software-Battery Grid Balancing",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/16/samsung-bets-this-island-startup-can-tame-the-grid-with-software-and-batteries/",
+        "published_date": "2026-03-16T20:00:00Z"
+      },
+      "content": {
+        "abstract": "Samsung invested in GridBeyond, a startup using software and batteries to coordinate gigawatts of electricity supply and demand. The technology enables real-time grid balancing, critical as renewable energy sources create intermittency challenges.",
+        "keywords": ["grid management", "battery storage", "Samsung", "energy transition", "GridBeyond"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-16T23:35:00Z"
+    },
+    {
+      "id": "tc-20260317-007",
+      "title": "Merriam-Webster and Britannica Sue OpenAI Over 100K Articles",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/",
+        "published_date": "2026-03-16T17:38:34Z"
+      },
+      "content": {
+        "abstract": "Encyclopedia Britannica and Merriam-Webster filed a copyright lawsuit against OpenAI claiming nearly 100,000 articles were used without permission for AI training. This adds to the growing wave of AI copyright litigation reshaping intellectual property law.",
+        "keywords": ["copyright", "OpenAI", "AI training data", "intellectual property", "Britannica", "Merriam-Webster"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-16T23:35:00Z"
+    },
+    {
+      "id": "tc-20260317-008",
+      "title": "Shopify Prepares for AI Shopping Agents to Transform E-Commerce",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/16/shopify-is-preparing-for-ai-shopping-agents-to-change-everything-exec-says/",
+        "published_date": "2026-03-16T15:56:39Z"
+      },
+      "content": {
+        "abstract": "Shopify's president stated AI shopping agents will fundamentally transform e-commerce. The company is adapting its platform for AI-driven purchasing, where autonomous agents handle product discovery, comparison, and transactions on behalf of consumers.",
+        "keywords": ["AI agents", "e-commerce", "Shopify", "AI shopping", "autonomous purchasing"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-16T23:35:00Z"
+    },
+    {
+      "id": "tc-20260317-009",
+      "title": "Frore Deep Tech Chip Startup Reaches $1.64B Unicorn Valuation",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/16/another-deep-tech-chip-startup-becomes-a-unicorn-frore-hits-1-64b/",
+        "published_date": "2026-03-16T17:47:32Z"
+      },
+      "content": {
+        "abstract": "Frore raised $143 million at a $1.64B valuation for its liquid-cooling technology for chips. The technology was developed at Jensen Huang's suggestion, indicating critical thermal management as a bottleneck for next-generation AI computing.",
+        "keywords": ["chip cooling", "liquid cooling", "unicorn", "hardware", "thermal management", "AI infrastructure"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:35:00Z"
+    },
+    {
+      "id": "tc-20260317-010",
+      "title": "PhonePe Shelves $10B IPO as Geopolitical Tensions Rattle Markets",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/16/walmart-backed-phonepe-shelves-ipo-as-global-tensions-rattle-markets/",
+        "published_date": "2026-03-16T13:02:47Z"
+      },
+      "content": {
+        "abstract": "PhonePe, India's largest digital payments platform valued at $12B, postponed its IPO targeting $15B market cap due to escalating Middle East tensions. India's Nifty 50 and Sensex fell ~9% in the past month. Tiger Global and Microsoft were set to sell their entire stakes.",
+        "keywords": ["IPO", "PhonePe", "geopolitical risk", "India", "fintech", "market volatility", "Middle East"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-16T23:35:00Z"
+    },
+    {
+      "id": "tc-20260317-011",
+      "title": "Billionaires Withdrawing from Giving Pledge Signals Philanthropy Shift",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/15/the-billionaires-made-a-promise-now-some-want-out/",
+        "published_date": "2026-03-16T04:40:24Z"
+      },
+      "content": {
+        "abstract": "More billionaires are withdrawing from Bill Gates and Warren Buffett's Giving Pledge, signaling a shift in elite philanthropy and wealth redistribution philosophy. This reflects changing attitudes toward charitable commitments among the ultra-wealthy.",
+        "keywords": ["Giving Pledge", "philanthropy", "billionaires", "wealth inequality", "social values"],
+        "language": "en"
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-16T23:35:00Z"
+    },
+    {
+      "id": "mtr-20260317-001",
+      "title": "OpenAI Technology in Military Applications: Iran Operations Context",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
+        "published_date": "2026-03-16T17:06:21Z"
+      },
+      "content": {
+        "abstract": "MIT Technology Review explores potential military applications of OpenAI's AI in classified Pentagon environments, including target analysis, drone defense systems, and administrative support in the context of ongoing Iran operations.",
+        "keywords": ["OpenAI", "military AI", "Pentagon", "Iran", "defense", "autonomous weapons"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-16T23:36:00Z"
+    },
+    {
+      "id": "mtr-20260317-002",
+      "title": "Agentic AI Governance: Beyond the Toddler Stage",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/",
+        "published_date": "2026-03-16T13:00:00Z"
+      },
+      "content": {
+        "abstract": "Enterprise AI agent governance challenges are explored, emphasizing operational controls, permission management, and cost oversight as agentic AI scales. The article frames current agentic AI as being in a 'toddler stage' requiring careful guardrails before full autonomy.",
+        "keywords": ["agentic AI", "AI governance", "enterprise AI", "autonomy", "guardrails"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:36:00Z"
+    },
+    {
+      "id": "mtr-20260317-003",
+      "title": "Glass-Based AI Chips and AI-Free Product Labels Emerge",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/16/1134301/the-download-glass-ai-chips-ai-free-logo/",
+        "published_date": "2026-03-16T12:35:00Z"
+      },
+      "content": {
+        "abstract": "Glass-based AI chip development advances alongside a counter-trend: emergence of 'AI-free' product labels. This dual signal shows technology pushing boundaries while consumer backlash against AI ubiquity creates market differentiation opportunities.",
+        "keywords": ["glass chips", "AI-free", "consumer backlash", "product labels", "chip innovation"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:36:00Z"
+    },
+    {
+      "id": "nat-20260317-001",
+      "title": "China Approves World's First Commercial Brain-Computer Interface for Paralysis",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00849-6",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "China's NMPA approved Neuracle Medical Technology's brain-computer interface for commercial use, the first BCI globally approved beyond clinical trials. The device helps people aged 18-60 with spinal cord injury-induced paralysis control a soft robotic hand. China has designated BCI as a national strategic priority in its upcoming economic plan.",
+        "keywords": ["brain-computer interface", "BCI", "China", "paralysis", "Neuracle", "neurotechnology", "medical device"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:37:00Z"
+    },
+    {
+      "id": "nat-20260317-002",
+      "title": "Wearable Devices Predict Insulin Resistance via Machine Learning",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/s41586-026-10179-2",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "A machine-learning system integrating smartwatch data with routine blood biomarkers can predict insulin resistance before traditional clinical detection. Published in Nature, the system enables preventive interventions for metabolic dysfunction using consumer wearables.",
+        "keywords": ["wearables", "insulin resistance", "machine learning", "metabolic health", "preventive medicine"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:37:00Z"
+    },
+    {
+      "id": "nat-20260317-003",
+      "title": "Single Antibiotic Course Causes Lingering Gut Microbiome Changes for Years",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00769-5",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Research published in Nature reveals that microbial diversity loss from commonly prescribed antibiotics can persist for years. This has significant implications for antibiotic stewardship policies and understanding of long-term health impacts.",
+        "keywords": ["antibiotics", "gut microbiome", "microbial diversity", "health", "antibiotic stewardship"],
+        "language": "en"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-16T23:37:00Z"
+    },
+    {
+      "id": "nat-20260317-004",
+      "title": "AI Weather Forecasting Reliability Under Scrutiny for Extreme Events",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00842-z",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Nature assessment finds AI weather prediction models require enhanced validation protocols for extreme weather events. While AI models show promise for routine forecasting, their reliability for extreme events — which are most consequential — remains uncertain.",
+        "keywords": ["AI weather", "extreme weather", "climate", "forecasting", "validation"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-16T23:37:00Z"
+    },
+    {
+      "id": "nat-20260317-005",
+      "title": "China Intensifies Push for Tech Self-Reliance in New Five-Year Plan",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00814-3",
+        "published_date": "2026-03-14T00:00:00Z"
+      },
+      "content": {
+        "abstract": "China's new five-year plan calls for more original scientific research to facilitate the country's bid for self-reliance in technology and AI. The plan represents a significant escalation of techno-nationalist policy, with BCI, AI, and quantum computing as strategic priorities.",
+        "keywords": ["China", "five-year plan", "tech self-reliance", "science policy", "AI", "quantum"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-16T23:37:00Z"
+    },
+    {
+      "id": "fr-20260317-001",
+      "title": "CFTC Launches Formal Rulemaking for Prediction Markets Regulation",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/16/2026-05105/prediction-markets",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "The Commodity Futures Trading Commission published an Advanced Notice of Proposed Rulemaking seeking public comment on regulating event contract derivatives (prediction markets). Comments due April 30, 2026. Combined weekly prediction market volume across Kalshi and Polymarket exceeds $5.9 billion, with ~1,600 event contracts certified in 2025.",
+        "keywords": ["prediction markets", "CFTC", "regulation", "event contracts", "Polymarket", "Kalshi", "DeFi"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-16T23:36:00Z"
+    },
+    {
+      "id": "un-20260317-001",
+      "title": "Drone Strikes Intensify Across Sudan: Kordofan and Darfur Under Attack",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167142",
+        "published_date": "2026-03-16T12:00:00Z"
+      },
+      "content": {
+        "abstract": "UN warns of relentless drone attacks across Sudan's Kordofan and Darfur regions causing civilian casualties and hampering humanitarian access. This represents an escalation in the use of autonomous/semi-autonomous weapons in conflict zones.",
+        "keywords": ["Sudan", "drone strikes", "conflict", "humanitarian", "Darfur", "autonomous weapons"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-16T23:38:00Z"
+    },
+    {
+      "id": "un-20260317-002",
+      "title": "UN Chief Warns of Rising Anti-Muslim Hatred Globally",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167141",
+        "published_date": "2026-03-16T12:00:00Z"
+      },
+      "content": {
+        "abstract": "UN Secretary-General Guterres called for international action against rising anti-Muslim hatred, urging rejection of narratives rooted in fear and exclusion. The trend reflects broader social polarization dynamics globally.",
+        "keywords": ["anti-Muslim hatred", "social cohesion", "UN", "polarization", "discrimination"],
+        "language": "en"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-16T23:38:00Z"
+    },
+    {
+      "id": "hn-20260317-001",
+      "title": "Mistral AI Launches Leanstral: Open-Source Trustworthy AI Coding Framework",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://mistral.ai/news/leanstral",
+        "published_date": "2026-03-16T20:59:00Z"
+      },
+      "content": {
+        "abstract": "Mistral AI released Leanstral, an open-source framework for reliable AI code generation. The framework uses formal verification methods (Lean theorem prover) to ensure code correctness, representing a shift toward provably correct AI-generated code.",
+        "keywords": ["Mistral AI", "Leanstral", "formal verification", "AI coding", "open source", "vibe-coding"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:39:00Z"
+    },
+    {
+      "id": "hn-20260317-002",
+      "title": "LLM Teams as Distributed Systems: New Framework for Multi-Agent Coordination",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://arxiv.org/abs/2603.12229",
+        "published_date": "2026-03-16T17:19:00Z"
+      },
+      "content": {
+        "abstract": "Research paper from arXiv explores LLM collaboration frameworks through distributed systems principles, treating language model teams as distributed computing nodes. This represents a paradigm shift from single-agent to multi-agent AI architectures.",
+        "keywords": ["LLM", "distributed systems", "multi-agent", "AI collaboration", "agent architecture"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:39:00Z"
+    },
+    {
+      "id": "hn-20260317-003",
+      "title": "US Healthcare Pricing: Commercial Insurers Pay 254% of Medicare Rates",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
+        "published_date": "2026-03-16T17:13:00Z"
+      },
+      "content": {
+        "abstract": "Data analysis reveals US commercial insurers pay 254% of Medicare rates for identical hospital procedures. This quantitative evidence of pricing disparity adds urgency to healthcare reform debates and highlights systemic inefficiencies.",
+        "keywords": ["healthcare", "insurance", "Medicare", "pricing", "health policy", "inequality"],
+        "language": "en"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-16T23:39:00Z"
+    },
+    {
+      "id": "hn-20260317-004",
+      "title": "Karpathy Launches US Job Market Visualizer: AI Tracking Labor Dynamics",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://karpathy.ai/jobs/",
+        "published_date": "2026-03-16T15:10:00Z"
+      },
+      "content": {
+        "abstract": "Andrej Karpathy released an interactive job market visualization tool mapping employment trends across sectors. With 381 HN points and 302 comments, it highlights growing AI community concern about labor market disruption from automation.",
+        "keywords": ["job market", "labor", "employment", "visualization", "Karpathy", "AI impact"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-16T23:39:00Z"
+    },
+    {
+      "id": "hn-20260317-005",
+      "title": "Polymarket Gamblers Threaten Journalist Over Iran Missile Reporting",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/",
+        "published_date": "2026-03-16T12:00:00Z"
+      },
+      "content": {
+        "abstract": "A journalist reported receiving death threats from prediction market participants trying to influence geopolitical coverage affecting their bets. With 1,248 HN points and 831 comments, this signals a dangerous intersection of financial gambling, information manipulation, and press freedom.",
+        "keywords": ["prediction markets", "Polymarket", "press freedom", "threats", "information manipulation", "geopolitics"],
+        "language": "en"
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-16T23:39:00Z"
+    },
+    {
+      "id": "ieee-20260317-001",
+      "title": "Utilities Study Grid Protection Against Rising Physical and Drone Threats",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/power-grid-attack-gridex-drone",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "GridEx VIII exercise studied utility grid protection with 28,000+ participants. The US reported 3,500+ physical security breaches in 2025 with rising drone threats. Sensor fusion and emerging technologies are being deployed for critical infrastructure defense.",
+        "keywords": ["power grid", "infrastructure security", "drone threats", "GridEx", "critical infrastructure"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:40:00Z"
+    },
+    {
+      "id": "ieee-20260317-002",
+      "title": "6G Network Evolution: From Communication to Universal AI Sensing Fabric",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/telecom-history-1g-to-6g",
+        "published_date": "2026-03-12T00:00:00Z"
+      },
+      "content": {
+        "abstract": "IEEE traces 40 years of wireless evolution from 1G to 6G. By decade's end, 6G will enable AI agents collaborating across healthcare, transportation, and consumer applications through 'a universal fabric' fusing communication with sensing capabilities.",
+        "keywords": ["6G", "wireless", "AI agents", "sensing", "communication", "infrastructure"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:40:00Z"
+    },
+    {
+      "id": "ieee-20260317-003",
+      "title": "Waabi Raises $750M for Level-4 Autonomous Trucks with Nvidia Partnership",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/level-4-autonomous-trucks",
+        "published_date": "2026-03-13T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Waabi raised $750 million for Level-4 autonomous trucking, partnering with Volvo and Nvidia. CEO Urtasun emphasizes verifiable AI systems, multi-sensor redundancy, and simulation-first development. This represents the largest autonomous trucking investment to date.",
+        "keywords": ["autonomous trucks", "Waabi", "Level 4", "Volvo", "Nvidia", "logistics"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:40:00Z"
+    },
+    {
+      "id": "pew-20260317-001",
+      "title": "Federal Workforce Shrank 10% in Trump's First Year Back: 238,000 Workers Lost",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/short-reads/2026/03/13/federal-workforce-shrank-10-in-trumps-first-year-back-in-office/",
+        "published_date": "2026-03-13T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Pew Research reports the federal workforce shrank by 10.3% in 2025, losing nearly 238,000 workers. Education and foreign aid agencies experienced the steepest reductions. This represents the largest peacetime federal workforce reduction in US history.",
+        "keywords": ["federal workforce", "government", "employment", "policy", "workforce reduction"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-16T23:41:00Z"
+    },
+    {
+      "id": "brk-20260317-001",
+      "title": "Washington DC Leads US in Regional Job Loss After Federal Cuts",
+      "source": {
+        "name": "Brookings Institution",
+        "type": "blog",
+        "url": "https://www.brookings.edu/articles/after-the-fork-greater-washington-leads-the-nation-in-regional-job-loss/",
+        "published_date": "2026-03-05T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Brookings documents significant employment decline in the Washington DC metro region following federal government restructuring. This represents a localized economic shock from policy decisions with broader implications for regional economic resilience.",
+        "keywords": ["Washington DC", "job loss", "federal cuts", "regional economy", "employment"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-16T23:41:00Z"
+    },
+    {
+      "id": "ws-20260317-001",
+      "title": "Strong El Nino Likely to Develop in 2026: Record Heat Year Ahead",
+      "source": {
+        "name": "Web Search",
+        "type": "news_major",
+        "url": "https://www.npr.org/sections/climate",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Federal weather scientists predict a strong El Nino pattern will likely develop this summer, persisting through the year. This could bring hotter temperatures, more extreme droughts, and more intense rainfall. The hottest years on record generally occur during El Nino years.",
+        "keywords": ["El Nino", "climate", "extreme weather", "heat", "drought", "flooding"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-16T23:42:00Z"
+    },
+    {
+      "id": "ws-20260317-002",
+      "title": "NCAR Restructuring: White House Targets Leading Climate Research Lab",
+      "source": {
+        "name": "Web Search",
+        "type": "news_major",
+        "url": "https://www.aip.org/fyi/the-week-of-march-16-2026",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Trump administration proposes restructuring the National Center for Atmospheric Research (NCAR), one of the world's leading climate and weather labs. White House Budget Director called NCAR 'one of the largest sources of climate alarmism in the country.' Proposals to carve up the institution are being weighed.",
+        "keywords": ["NCAR", "climate research", "science policy", "restructuring", "climate denial"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-16T23:42:00Z"
+    },
+    {
+      "id": "ws-20260317-003",
+      "title": "10% Marine Species at Extinction Risk, 40% Impacted by Climate Change",
+      "source": {
+        "name": "Web Search",
+        "type": "news_major",
+        "url": "https://earth.org/this-week-in-climate-news-march-2026-week-1/",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "IUCN assessment finds nearly 10% of marine species at risk of extinction and at least 40% are feeling climate change impacts. This represents the most comprehensive marine biodiversity assessment to date.",
+        "keywords": ["marine biodiversity", "extinction", "IUCN", "climate impact", "ocean", "conservation"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-16T23:42:00Z"
+    },
+    {
+      "id": "ws-20260317-004",
+      "title": "EU Environment Council Meeting: Grids Package and Green Transition Debate",
+      "source": {
+        "name": "Web Search",
+        "type": "policy",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/16/media-advisory-environment-council-of-17-march-2026/",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "EU Environment Council meeting on March 17 will address the European grids package, green transition policies, defense, and migration. EU leaders discuss Ukraine, Middle East, competitiveness, and single market reform alongside environmental policy.",
+        "keywords": ["EU", "environment council", "grids package", "green transition", "energy policy"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-16T23:42:00Z"
+    },
+    {
+      "id": "ws-20260317-005",
+      "title": "Global Growth Slows to 2.7% in 2026 Amid Tariff and Geopolitical Headwinds",
+      "source": {
+        "name": "Web Search",
+        "type": "policy",
+        "url": "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook-2026.html",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Global GDP growth expected to slow to 2.7% in 2026, below pre-pandemic average, as tariffs, geopolitical tensions, and policy uncertainty persist. US fiscal deficit projected to rise from 5.6% to 5.9% of GDP. Trade growth slowing as temporary drivers fade.",
+        "keywords": ["global growth", "GDP", "tariffs", "fiscal deficit", "trade", "recession risk"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-16T23:42:00Z"
+    },
+    {
+      "id": "nvd-20260317-001",
+      "title": "Nvidia Healthcare Robotics Suite: Surgical AI with GR00T-H and Open-H Dataset",
+      "source": {
+        "name": "Nvidia Blog",
+        "type": "blog",
+        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Nvidia launched a comprehensive healthcare robotics suite at GTC including Open-H (776 hours surgical video - world's largest healthcare robotics dataset), Cosmos-H (surgical synthetic data), GR00T-H (vision-language-action model for surgery), and Rheo (hospital simulation). Partners include Johnson & Johnson, Medtronic, and KARL STORZ.",
+        "keywords": ["healthcare robotics", "surgical AI", "Nvidia", "medical AI", "robotic surgery"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:43:00Z"
+    },
+    {
+      "id": "nvd-20260317-002",
+      "title": "Nvidia Brings AI Data Centers to Space with Space-1 Vera Rubin Systems",
+      "source": {
+        "name": "Nvidia Blog",
+        "type": "blog",
+        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Nvidia announced Space-1 Vera Rubin systems, extending accelerated AI computing from Earth to orbital infrastructure. This marks the beginning of space-based AI data centers, enabling real-time processing of satellite data and space-native AI applications.",
+        "keywords": ["space", "data center", "Nvidia", "AI in space", "satellite", "orbital computing"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:43:00Z"
+    },
+    {
+      "id": "nvd-20260317-003",
+      "title": "Nvidia Quantum Chemistry Library: 30x Acceleration for Semiconductor Design",
+      "source": {
+        "name": "Nvidia Blog",
+        "type": "blog",
+        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Nvidia launched cuEST library for electronic-structure calculations delivering 30x acceleration for DFT semiconductor workflows. Adopted by Applied Materials, Samsung, Synopsys, and TSMC. This could dramatically accelerate materials discovery and chip design.",
+        "keywords": ["quantum chemistry", "semiconductor", "materials science", "DFT", "chip design", "acceleration"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:43:00Z"
+    },
+    {
+      "id": "nvd-20260317-004",
+      "title": "Nemotron Coalition: Six Frontier Model Families Covering Language to Climate",
+      "source": {
+        "name": "Nvidia Blog",
+        "type": "blog",
+        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Nvidia unveiled the Nemotron Coalition of 6 frontier model families: Nemotron (language/reasoning), Cosmos (world/vision), Isaac GR00T (robotics), Alpaymayo (autonomous driving), BioNeMo (biology/chemistry), and Earth-2 (weather/climate). This vertical integration strategy covers the full spectrum of physical AI applications.",
+        "keywords": ["Nemotron", "frontier models", "AI models", "vertical integration", "physical AI"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:43:00Z"
+    },
+    {
+      "id": "ws-20260317-006",
+      "title": "AI Ethics Backlash Intensifies: Digital Communities Resist Algorithmic Technologies",
+      "source": {
+        "name": "Web Search",
+        "type": "blog",
+        "url": "https://aihub.org/2026/03/04/top-ai-ethics-and-policy-issues-of-2025-and-what-to-expect-in-2026/",
+        "published_date": "2026-03-04T00:00:00Z"
+      },
+      "content": {
+        "abstract": "AI ethics discourse has become 'thoroughly hegemonic' as communities express a 'digital backlash' against algorithmic technologies. Educators, technologists, policymakers, artists, labor unions, and community groups increasingly oppose AI systems perceived as harmful. AI chatbots systematically violate mental health ethics standards per Brown University study.",
+        "keywords": ["AI ethics", "digital backlash", "community resistance", "algorithmic harm", "mental health AI"],
+        "language": "en"
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-16T23:44:00Z"
+    },
+    {
+      "id": "nvd-20260317-005",
+      "title": "BYD, Hyundai, Nissan Build Level 4 Autonomous Vehicles on Nvidia Platform",
+      "source": {
+        "name": "Nvidia Blog",
+        "type": "blog",
+        "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "Nissan, BYD, Geely, Isuzu and Hyundai are building Level 4 autonomous vehicles on Nvidia's Drive Hyperion program. Uber partnership announced for ride-hailing deployment. This represents the broadest OEM adoption of a single autonomous driving platform.",
+        "keywords": ["autonomous vehicles", "Level 4", "BYD", "Hyundai", "Nissan", "Uber", "Nvidia Drive"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:43:00Z"
+    },
+    {
+      "id": "ws-20260317-007",
+      "title": "Middle East Conflict Disrupts Global Energy Supplies: Oil Prices Surge",
+      "source": {
+        "name": "Web Search",
+        "type": "news_major",
+        "url": "https://earth.org/this-week-in-climate-news-march-2026-week-1/",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "UN's top climate change official warned that Middle East conflict is driving oil and gas prices sharply higher, disrupting global energy supplies. Iran-related tensions have cascading effects on energy markets, inflation, and the green transition timeline.",
+        "keywords": ["Middle East", "energy crisis", "oil prices", "Iran", "energy supply", "geopolitics"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-16T23:44:00Z"
+    },
+    {
+      "id": "ws-20260317-008",
+      "title": "Climate Science Removed from US Judicial Manual After Decades",
+      "source": {
+        "name": "Web Search",
+        "type": "news_major",
+        "url": "https://www.masterresource.org/alliance-for-wise-energy-decisions/energy-environmental-review-03-16-2026/",
+        "published_date": "2026-03-16T00:00:00Z"
+      },
+      "content": {
+        "abstract": "A group of 25+ scientists criticized the removal of a climate change chapter from a manual that has equipped US judges, prosecutors, and defendants to interpret scientific complexities for decades. This undermines science-based judicial decision-making.",
+        "keywords": ["climate science", "judicial system", "science policy", "courts", "climate denial"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-16T23:44:00Z"
+    },
+    {
+      "id": "tc-20260317-012",
+      "title": "MacBook Neo Achieves Highest Repairability Score in 14 Years",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/16/macbook-neo-ifixit-most-repairable-macbook-in-years-battery-replacement/",
+        "published_date": "2026-03-16T18:36:42Z"
+      },
+      "content": {
+        "abstract": "Apple's MacBook Neo achieves the company's highest repairability score in ~14 years per iFixit. This signals Apple's shift toward right-to-repair compliance, driven by EU regulations and US state-level repair legislation.",
+        "keywords": ["right to repair", "Apple", "sustainability", "repairability", "e-waste", "regulation"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-16T23:35:00Z"
+    },
+    {
+      "id": "hn-20260317-006",
+      "title": "AI Coding Quality Concerns: Cursor AI Study Shows Speed vs Quality Tradeoff",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://arxiv.org/abs/2511.04427",
+        "published_date": "2026-03-16T17:07:00Z"
+      },
+      "content": {
+        "abstract": "Academic study examining Cursor AI in open source projects reveals productivity versus code quality tradeoffs. With 85 HN points and 45 comments, this highlights growing concern about AI-generated code quality in production environments.",
+        "keywords": ["AI coding", "code quality", "Cursor", "software development", "productivity"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-16T23:39:00Z"
+    }
+  ]
+}

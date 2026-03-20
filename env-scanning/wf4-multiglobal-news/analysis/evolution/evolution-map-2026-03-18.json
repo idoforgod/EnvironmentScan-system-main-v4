@@ -1,0 +1,604 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf1-general",
+  "scan_date": "2026-03-18",
+  "computed_at": "2026-03-18T03:09:53Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 22,
+    "new_signals": 22,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 0,
+    "active_threads": 57
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "news-20260317-reuters-001",
+      "thread_id": "THREAD-WF1-2591",
+      "canonical_title": "Israel Eliminates Iran Security Chief Ali Larijani in Tehran Strike; Basij Commander Also Killed",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Israel Eliminates Iran Security Chief Ali Larijani in Tehran Strike; Basij Commander Also Killed",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-fortune-002",
+      "thread_id": "THREAD-WF1-2592",
+      "canonical_title": "Iran War Creates Biggest Oil Supply Disruption in History — Strait of Hormuz Effectively Closed",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Iran War Creates Biggest Oil Supply Disruption in History — Strait of Hormuz Effectively Closed",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-time-003",
+      "thread_id": "THREAD-WF1-2593",
+      "canonical_title": "Iran War Pushes South and Southeast Asia into Energy Triage — India, Bangladesh, Nepal Impose Emergency Rationing",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Iran War Pushes South and Southeast Asia into Energy Triage — India, Bangladesh, Nepal Impose Emergency Rationing",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-cnbc-004",
+      "thread_id": "THREAD-WF1-2594",
+      "canonical_title": "NVIDIA GTC 2026: Vera Rubin Platform Unveiled, Space-1 Module for Orbital Data Centers, $1T Revenue Target by 2027",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "NVIDIA GTC 2026: Vera Rubin Platform Unveiled, Space-1 Module for Orbital Data Centers, $1T Revenue Target by 2027",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-cnbc-005",
+      "thread_id": "THREAD-WF1-2595",
+      "canonical_title": "Fed March Meeting Begins — Rate Hold Expected at 3.5-3.75% as Oil Shock Complicates Rate Cut Path",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Fed March Meeting Begins — Rate Hold Expected at 3.5-3.75% as Oil Shock Complicates Rate Cut Path",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-cnn-006",
+      "thread_id": "THREAD-WF1-2596",
+      "canonical_title": "US Government Shutdown Cripples TSA — 366 Officers Quit, Airport Closures Warned, Spring Break Chaos",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "US Government Shutdown Cripples TSA — 366 Officers Quit, Airport Closures Warned, Spring Break Chaos",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-cnn-007",
+      "thread_id": "THREAD-WF1-2597",
+      "canonical_title": "Cuba Grid Collapse: Nationwide Blackout Hits 11 Million, Protests Intensify, Trump Muses Taking Cuba",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Cuba Grid Collapse: Nationwide Blackout Hits 11 Million, Protests Intensify, Trump Muses Taking Cuba",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-bloomberg-008",
+      "thread_id": "THREAD-WF1-2598",
+      "canonical_title": "Wall Street Stages Strongest Rally in 3 Weeks — S&P 500 +0.25%, Oil Retreats from $100",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Wall Street Stages Strongest Rally in 3 Weeks — S&P 500 +0.25%, Oil Retreats from $100",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-japantimes-009",
+      "thread_id": "THREAD-WF1-2599",
+      "canonical_title": "China-Japan Diplomatic Crisis Deepens — Chinese Tourism Down 60%, Taiwan Coast Guard Prepares for Blockade",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "China-Japan Diplomatic Crisis Deepens — Chinese Tourism Down 60%, Taiwan Coast Guard Prepares for Blockade",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-ap-010",
+      "thread_id": "THREAD-WF1-2600",
+      "canonical_title": "Mediterranean Migration Crisis: 682 Missing in 2026 — Deadliest Start to Any Year, Authorities Withholding Information",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Mediterranean Migration Crisis: 682 Missing in 2026 — Deadliest Start to Any Year, Authorities Withholding Information",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-guardian-011",
+      "thread_id": "THREAD-WF1-2601",
+      "canonical_title": "Trump Asks Beijing to Delay Xi Summit by One Month — Iran War Overriding All Diplomatic Calendars",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Trump Asks Beijing to Delay Xi Summit by One Month — Iran War Overriding All Diplomatic Calendars",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-rba-012",
+      "thread_id": "THREAD-WF1-2602",
+      "canonical_title": "Reserve Bank of Australia Hikes Rates to 4.10% in Split Decision — War-Fueled Inflation Fears Drive Divergent Central Bank Paths",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Reserve Bank of Australia Hikes Rates to 4.10% in Split Decision — War-Fueled Inflation Fears Drive Divergent Central Bank Paths",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-fcc-013",
+      "thread_id": "THREAD-WF1-2603",
+      "canonical_title": "FCC Chair Threatens to Revoke Broadcast Licenses Over Iran War Coverage — Republican Rebuke",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "FCC Chair Threatens to Revoke Broadcast Licenses Over Iran War Coverage — Republican Rebuke",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-eu-014",
+      "thread_id": "THREAD-WF1-2604",
+      "canonical_title": "EU Environment Ministers Debate Post-2030 Climate Framework — CO2 Standards for Cars and European Grids Package",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "EU Environment Ministers Debate Post-2030 Climate Framework — CO2 Standards for Cars and European Grids Package",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-quantum-015",
+      "thread_id": "THREAD-WF1-2605",
+      "canonical_title": "JVG Algorithm Threatens RSA Encryption — Quantum Computing Requires 1000x Fewer Qubits for Integer Factorization",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "JVG Algorithm Threatens RSA Encryption — Quantum Computing Requires 1000x Fewer Qubits for Integer Factorization",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-anthropic-016",
+      "thread_id": "THREAD-WF1-2606",
+      "canonical_title": "Anthropic Releases Claude Cowork for OS X — Agentic AI Moves Beyond Developers to Knowledge Workers",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Anthropic Releases Claude Cowork for OS X — Agentic AI Moves Beyond Developers to Knowledge Workers",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-wef-017",
+      "thread_id": "THREAD-WF1-2607",
+      "canonical_title": "WEF: Global Price Tag of Middle East War — Cascading Economic Fallout Reshapes Commodity Markets, Food Systems, Supply Chains",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "WEF: Global Price Tag of Middle East War — Cascading Economic Fallout Reshapes Commodity Markets, Food Systems, Supply Chains",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-oscars-018",
+      "thread_id": "THREAD-WF1-2608",
+      "canonical_title": "One Battle After Another Sweeps 98th Oscars — Korean Netflix Anime K-Pop Demon Hunters Wins Best Animated Feature",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "One Battle After Another Sweeps 98th Oscars — Korean Netflix Anime K-Pop Demon Hunters Wins Best Animated Feature",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-chile-019",
+      "thread_id": "THREAD-WF1-2609",
+      "canonical_title": "Chiles New President Kast Launches Migration Control Plan — Latin Americas Rightward Shift Continues",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "Chiles New President Kast Launches Migration Control Plan — Latin Americas Rightward Shift Continues",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-cleanenergy-020",
+      "thread_id": "THREAD-WF1-2610",
+      "canonical_title": "UN Climate Chief: Iran Energy Crisis Must Be Wake-Up Call for Fossil Fuel Dependency — Denmark Thor Wind Farm Online",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "UN Climate Chief: Iran Energy Crisis Must Be Wake-Up Call for Fossil Fuel Dependency — Denmark Thor Wind Farm Online",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-psi-021",
+      "thread_id": "THREAD-WF1-2611",
+      "canonical_title": "PsiQuantum-Japan Cancer Center Alliance + EarlyBIRDD: Quantum Computing Enters Drug Discovery and Clinical Oncology",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "PsiQuantum-Japan Cancer Center Alliance + EarlyBIRDD: Quantum Computing Enters Drug Discovery and Clinical Oncology",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "news-20260317-uae-022",
+      "thread_id": "THREAD-WF1-2612",
+      "canonical_title": "UAE Shuts Airspace Over Missile Threats, Saudi Intercepts Dozen Drones — Gulf States Under Direct Fire",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "UAE Shuts Airspace Over Missile Threats, Saudi Intercepts Dozen Drones — Gulf States Under Direct Fire",
+          "psst": 0
+        }
+      ]
+    }
+  ],
+  "faded_threads": [],
+  "new_threads_created": [
+    "THREAD-WF1-2591",
+    "THREAD-WF1-2592",
+    "THREAD-WF1-2593",
+    "THREAD-WF1-2594",
+    "THREAD-WF1-2595",
+    "THREAD-WF1-2596",
+    "THREAD-WF1-2597",
+    "THREAD-WF1-2598",
+    "THREAD-WF1-2599",
+    "THREAD-WF1-2600",
+    "THREAD-WF1-2601",
+    "THREAD-WF1-2602",
+    "THREAD-WF1-2603",
+    "THREAD-WF1-2604",
+    "THREAD-WF1-2605",
+    "THREAD-WF1-2606",
+    "THREAD-WF1-2607",
+    "THREAD-WF1-2608",
+    "THREAD-WF1-2609",
+    "THREAD-WF1-2610",
+    "THREAD-WF1-2611",
+    "THREAD-WF1-2612"
+  ]
+}

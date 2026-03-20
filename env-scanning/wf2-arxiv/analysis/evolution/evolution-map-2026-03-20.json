@@ -1,0 +1,1421 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf2-arxiv",
+  "scan_date": "2026-03-20",
+  "computed_at": "2026-03-19T23:35:31Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 40,
+    "new_signals": 40,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 58,
+    "active_threads": 123
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "arxiv-20260320-001",
+      "thread_id": "THREAD-WF2-2684",
+      "canonical_title": "Institutional AI: A Governance Framework for Distributional AGI Safety",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 9.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Institutional AI: A Governance Framework for Distributional AGI Safety",
+          "psst": 9.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-002",
+      "thread_id": "THREAD-WF2-2685",
+      "canonical_title": "SaPaVe: Active Perception and Manipulation in Vision-Language-Action Models for Robotics",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "SaPaVe: Active Perception and Manipulation in Vision-Language-Action Models for Robotics",
+          "psst": 7.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-003",
+      "thread_id": "THREAD-WF2-2686",
+      "canonical_title": "Witnessed Quantum Time Evolution (WQTE): Efficient Eigen-Energy Spectra Without Eigenstate Preparation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Witnessed Quantum Time Evolution (WQTE): Efficient Eigen-Energy Spectra Without Eigenstate Preparation",
+          "psst": 8.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-004",
+      "thread_id": "THREAD-WF2-2687",
+      "canonical_title": "Legal Alignment for Safe and Ethical AI: Harnessing Law for Technical Alignment",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Legal Alignment for Safe and Ethical AI: Harnessing Law for Technical Alignment",
+          "psst": 8.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-005",
+      "thread_id": "THREAD-WF2-2688",
+      "canonical_title": "To Defend Against Cyber Attacks, We Must Teach AI Agents to Hack",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 9.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "To Defend Against Cyber Attacks, We Must Teach AI Agents to Hack",
+          "psst": 9.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-006",
+      "thread_id": "THREAD-WF2-2689",
+      "canonical_title": "Quantum Disruption: Post-Quantum Attackers Reshape Blockchain Security and Performance",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Quantum Disruption: Post-Quantum Attackers Reshape Blockchain Security and Performance",
+          "psst": 8.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-007",
+      "thread_id": "THREAD-WF2-2690",
+      "canonical_title": "Mixture-of-Depths Attention (MoDA): Efficient Transformer Architecture with Dynamic Depth Allocation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Mixture-of-Depths Attention (MoDA): Efficient Transformer Architecture with Dynamic Depth Allocation",
+          "psst": 7.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-008",
+      "thread_id": "THREAD-WF2-2691",
+      "canonical_title": "StereoWorld: Camera-Conditioned Stereo World Model for Geometric Consistency",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "StereoWorld: Camera-Conditioned Stereo World Model for Geometric Consistency",
+          "psst": 7.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-009",
+      "thread_id": "THREAD-WF2-2692",
+      "canonical_title": "Agentic AI in Financial Markets: Architecture, Applications, and Systemic Implications",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Agentic AI in Financial Markets: Architecture, Applications, and Systemic Implications",
+          "psst": 8.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-010",
+      "thread_id": "THREAD-WF2-2693",
+      "canonical_title": "LTX-2: Open-Source Audiovisual Diffusion Model with Dual-Stream Transformer",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "LTX-2: Open-Source Audiovisual Diffusion Model with Dual-Stream Transformer",
+          "psst": 7.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-011",
+      "thread_id": "THREAD-WF2-2694",
+      "canonical_title": "Synthetic Data Generation for Brain-Computer Interfaces: Overview, Benchmarking, and Future Directions",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Synthetic Data Generation for Brain-Computer Interfaces: Overview, Benchmarking, and Future Directions",
+          "psst": 7.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-012",
+      "thread_id": "THREAD-WF2-2695",
+      "canonical_title": "Nonadiabatic Geometric Quantum Computation with Binomial Codes in Superconducting Systems",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Nonadiabatic Geometric Quantum Computation with Binomial Codes in Superconducting Systems",
+          "psst": 7.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-013",
+      "thread_id": "THREAD-WF2-2696",
+      "canonical_title": "MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains",
+          "psst": 7.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-014",
+      "thread_id": "THREAD-WF2-2697",
+      "canonical_title": "The Synthetic Web: Diagnosing Epistemic Weaknesses of Language Agents",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "The Synthetic Web: Diagnosing Epistemic Weaknesses of Language Agents",
+          "psst": 7.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-015",
+      "thread_id": "THREAD-WF2-2698",
+      "canonical_title": "Alien Science: Sampling Coherent Research Directions from Idea Atoms",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Alien Science: Sampling Coherent Research Directions from Idea Atoms",
+          "psst": 7.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-016",
+      "thread_id": "THREAD-WF2-2699",
+      "canonical_title": "Improving LLM Safety Alignment with Dual-Objective Optimization",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Improving LLM Safety Alignment with Dual-Objective Optimization",
+          "psst": 8.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-017",
+      "thread_id": "THREAD-WF2-2700",
+      "canonical_title": "Altermagnetism: A New Class of Spin-Compensated Magnetic Materials with Momentum-Dependent Spin Splitting",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Altermagnetism: A New Class of Spin-Compensated Magnetic Materials with Momentum-Dependent Spin Splitting",
+          "psst": 7.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-018",
+      "thread_id": "THREAD-WF2-2701",
+      "canonical_title": "High-Fidelity Controlled-Unitary Gates via Rydberg Anti-Blockade Holonomic Quantum Computation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "High-Fidelity Controlled-Unitary Gates via Rydberg Anti-Blockade Holonomic Quantum Computation",
+          "psst": 7.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-019",
+      "thread_id": "THREAD-WF2-2702",
+      "canonical_title": "CARE-RFT: Confidence-Anchored Reinforcement Finetuning for Reliable Reasoning in LLMs",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "CARE-RFT: Confidence-Anchored Reinforcement Finetuning for Reliable Reasoning in LLMs",
+          "psst": 7.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-020",
+      "thread_id": "THREAD-WF2-2703",
+      "canonical_title": "Specialized Pretraining (SPT): Domain-Specific Foundation Models with 1.75x Compute Reduction",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 7.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Specialized Pretraining (SPT): Domain-Specific Foundation Models with 1.75x Compute Reduction",
+          "psst": 7.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-021",
+      "thread_id": "THREAD-WF2-2704",
+      "canonical_title": "Multimodal Fact-Level Attribution (MuRGAt): Verifiable Reasoning Across Video, Audio, and Text",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Multimodal Fact-Level Attribution (MuRGAt): Verifiable Reasoning Across Video, Audio, and Text",
+          "psst": 6.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-022",
+      "thread_id": "THREAD-WF2-2705",
+      "canonical_title": "SurgSigma: Large-Scale Multimodal Foundation Models for Surgical Intelligence with Hierarchical Chain-of-Thought",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "SurgSigma: Large-Scale Multimodal Foundation Models for Surgical Intelligence with Hierarchical Chain-of-Thought",
+          "psst": 8.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-023",
+      "thread_id": "THREAD-WF2-2706",
+      "canonical_title": "ComFree-Sim: GPU-Parallelized Analytical Contact Physics Engine for Scalable Robotics Simulation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "ComFree-Sim: GPU-Parallelized Analytical Contact Physics Engine for Scalable Robotics Simulation",
+          "psst": 6.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-024",
+      "thread_id": "THREAD-WF2-2707",
+      "canonical_title": "MedAI: Evaluating TxAgent Therapeutic Agentic Reasoning in NeurIPS CURE-Bench",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "MedAI: Evaluating TxAgent Therapeutic Agentic Reasoning in NeurIPS CURE-Bench",
+          "psst": 6.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-025",
+      "thread_id": "THREAD-WF2-2708",
+      "canonical_title": "ReloQate: Transient Drift Detection and In-Situ Recalibration in Surface Code Quantum Error Correction",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "ReloQate: Transient Drift Detection and In-Situ Recalibration in Surface Code Quantum Error Correction",
+          "psst": 6.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-026",
+      "thread_id": "THREAD-WF2-2709",
+      "canonical_title": "Continual Meta-Learning: LLM Agents Jointly Evolving Policies and Reusable Behavioral Skills",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Continual Meta-Learning: LLM Agents Jointly Evolving Policies and Reusable Behavioral Skills",
+          "psst": 6.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-027",
+      "thread_id": "THREAD-WF2-2710",
+      "canonical_title": "DAM-VLA: Dynamic Action Model-Based Vision-Language-Action Framework for Robot Manipulation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "DAM-VLA: Dynamic Action Model-Based Vision-Language-Action Framework for Robot Manipulation",
+          "psst": 6.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-028",
+      "thread_id": "THREAD-WF2-2711",
+      "canonical_title": "Bridging Embodiment Gaps: Deploying Vision-Language-Action Models on Soft Robots",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Bridging Embodiment Gaps: Deploying Vision-Language-Action Models on Soft Robots",
+          "psst": 6.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-029",
+      "thread_id": "THREAD-WF2-2712",
+      "canonical_title": "Wild-Drive: Off-Road Scene Captioning and Path Planning via Robust Multi-modal Routing and Efficient LLMs",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Wild-Drive: Off-Road Scene Captioning and Path Planning via Robust Multi-modal Routing and Efficient LLMs",
+          "psst": 6.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-030",
+      "thread_id": "THREAD-WF2-2713",
+      "canonical_title": "MM-THEBench: Comprehensive Benchmark for Hallucinations in Reasoning MLLMs",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "MM-THEBench: Comprehensive Benchmark for Hallucinations in Reasoning MLLMs",
+          "psst": 6.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-031",
+      "thread_id": "THREAD-WF2-2714",
+      "canonical_title": "Mechanism Design with Learning Agents: Self-Confirming Mechanisms and Optimal Beliefs",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Mechanism Design with Learning Agents: Self-Confirming Mechanisms and Optimal Beliefs",
+          "psst": 6.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-032",
+      "thread_id": "THREAD-WF2-2715",
+      "canonical_title": "NIST FIPS 205: Post-Quantum Cryptographic Standards and Timeline for Algorithm Deprecation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "NIST FIPS 205: Post-Quantum Cryptographic Standards and Timeline for Algorithm Deprecation",
+          "psst": 8.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-033",
+      "thread_id": "THREAD-WF2-2716",
+      "canonical_title": "CARE: Clinical Accountability in Multi-Modal Medical Reasoning with Evidence-Grounded Agentic Framework",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "CARE: Clinical Accountability in Multi-Modal Medical Reasoning with Evidence-Grounded Agentic Framework",
+          "psst": 8.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-034",
+      "thread_id": "THREAD-WF2-2717",
+      "canonical_title": "The Alignment Flywheel: Governance-Centric Hybrid MAS for Architecture-Agnostic Safety",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 8.5,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "The Alignment Flywheel: Governance-Centric Hybrid MAS for Architecture-Agnostic Safety",
+          "psst": 8.5
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-035",
+      "thread_id": "THREAD-WF2-2718",
+      "canonical_title": "Paired Serial Dictatorship: Pareto Efficient and Envy-Free Allocation Mechanisms",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Paired Serial Dictatorship: Pareto Efficient and Envy-Free Allocation Mechanisms",
+          "psst": 6.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-036",
+      "thread_id": "THREAD-WF2-2719",
+      "canonical_title": "RoboReward: Automated Training and Evaluation of Vision-Language Reward Models for Robotics",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "RoboReward: Automated Training and Evaluation of Vision-Language Reward Models for Robotics",
+          "psst": 6.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-037",
+      "thread_id": "THREAD-WF2-2720",
+      "canonical_title": "Boltzmann-Based Exploration for Robust Decentralized Multi-Agent Planning",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Boltzmann-Based Exploration for Robust Decentralized Multi-Agent Planning",
+          "psst": 6.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-038",
+      "thread_id": "THREAD-WF2-2721",
+      "canonical_title": "Autonomous O-RAN: Multi-Scale Agentic AI Framework for Real-Time Network Control",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Autonomous O-RAN: Multi-Scale Agentic AI Framework for Real-Time Network Control",
+          "psst": 6.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-039",
+      "thread_id": "THREAD-WF2-2722",
+      "canonical_title": "MM-BRIGHT: Multi-Task Multimodal Benchmark for Reasoning-Intensive Retrieval",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "MM-BRIGHT: Multi-Task Multimodal Benchmark for Reasoning-Intensive Retrieval",
+          "psst": 6.0
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260320-040",
+      "thread_id": "THREAD-WF2-2723",
+      "canonical_title": "Domain-Direct Band Gaps: Extreme 2D-2D Band Gap Engineering in Twisted Diamond",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 6.0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-20",
+          "title": "Domain-Direct Band Gaps: Extreme 2D-2D Band Gap Engineering in Twisted Diamond",
+          "psst": 6.0
+        }
+      ]
+    }
+  ],
+  "faded_threads": [
+    {
+      "thread_id": "THREAD-WF2-2543",
+      "canonical_title": "Efficient Reasoning with Balanced Thinking",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2544",
+      "canonical_title": "AI Planning Framework for LLM-Based Web Agents",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2545",
+      "canonical_title": "ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2546",
+      "canonical_title": "Context is All You Need: Autonomous Model-Based Process Design Using Agentic AI in Flowsheet Simulations",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2547",
+      "canonical_title": "Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2548",
+      "canonical_title": "Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2549",
+      "canonical_title": "Steve-Evolving: Open-World Embodied Self-Evolution via Fine-Grained Diagnosis and Dual-Track Knowledge Distillation",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2550",
+      "canonical_title": "The Economics of AI Supply Chain Regulation",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2551",
+      "canonical_title": "LLM Constitutional Multi-Agent Governance",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2552",
+      "canonical_title": "Semantic Invariance in Agentic AI",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2553",
+      "canonical_title": "Aligning Language Models from User Interactions",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2554",
+      "canonical_title": "Prompt Injection as Role Confusion",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2555",
+      "canonical_title": "AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2556",
+      "canonical_title": "Continual Learning in Large Language Models: Methods, Challenges, and Opportunities",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2557",
+      "canonical_title": "Experimental Evidence of Progressive ChatGPT Models Self-Convergence",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2558",
+      "canonical_title": "ESG-Bench: Benchmarking Long-Context ESG Reports for Hallucination Mitigation",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2559",
+      "canonical_title": "Surg-R1: A Hierarchical Reasoning Foundation Model for Scalable and Interpretable Surgical Decision Support",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2560",
+      "canonical_title": "MemRoPE: Training-Free Infinite Video Generation via Evolving Memory Tokens",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2561",
+      "canonical_title": "A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2562",
+      "canonical_title": "Robots That Redesign Themselves Through Kinematic Self-Destruction",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2563",
+      "canonical_title": "From Woofs to Words: Towards Intelligent Robotic Guide Dogs with Verbal Communication",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2564",
+      "canonical_title": "Altered Thoughts, Altered Actions: Probing Chain-of-Thought Vulnerabilities in VLA Robotic Manipulation",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2565",
+      "canonical_title": "Distributed Quantum Computing via Adaptive Circuit Knitting",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2566",
+      "canonical_title": "Quantum CDMA-based Continuous Variable Quantum Key Distribution Using Chaotic Phase Shifters",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2567",
+      "canonical_title": "A Directly Modulated Laser Platform for High-Dimensional Quantum Key Distribution",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2568",
+      "canonical_title": "Deep-Learning-Designed AlGaAs Interface Linking Trapped Ions to Telecom Quantum Networks",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2569",
+      "canonical_title": "Probing Many-Body Localization Crossover in Quasiperiodic Floquet Circuits on a Quantum Processor",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2570",
+      "canonical_title": "Macroeconomic Forecasting from Input-Output Tables Alone: A Darwinian Agent-Based Approach with FIGARO Data",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2571",
+      "canonical_title": "How Much Do People Care About Climate Natural Disasters?",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2572",
+      "canonical_title": "Topology as Information: Network Effects in Corporate Lending",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2573",
+      "canonical_title": "AEGIS: No Tool Call Left Unchecked -- A Pre-Execution Firewall and Audit Layer for AI Agents",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2574",
+      "canonical_title": "Uncovering Security Threats and Architecting Defenses in Autonomous Agents: A Case Study of OpenClaw",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2575",
+      "canonical_title": "Colluding LoRA: A Composite Attack on LLM Safety Alignment",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2576",
+      "canonical_title": "Keys on Doormats: Exposed API Credentials on the Web",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2577",
+      "canonical_title": "Toward Robust, Reproducible, and Widely Accessible Intracranial Language Brain-Computer Interfaces",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2578",
+      "canonical_title": "Towards Unified Brain-to-Text Decoding Across Speech Production and Perception",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2579",
+      "canonical_title": "Dual-Laws Model for a Theory of Artificial Consciousness",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2580",
+      "canonical_title": "Artificial Intelligence Applications in Parkinson Disease via Retinal Imaging",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2581",
+      "canonical_title": "From AI Weather Prediction to Infrastructure Resilience: A Correction-Downscaling Framework for Tropical Cyclone Impacts",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2582",
+      "canonical_title": "Quantifying Perovskite Solar Cell Degradation via Machine Learning from Spatially Resolved Multimodal Luminescence",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2583",
+      "canonical_title": "Neutron-Enhanced Ion Transport in Cathode Coating of Li-Ion Batteries",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2584",
+      "canonical_title": "Accelerating Materials Discovery Using Foundation Model Based In-Context Active Learning",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2585",
+      "canonical_title": "Rate-Dependent Reversibility and Lithium Losses in Hybrid Anode-Collector Metal Electrodes",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2586",
+      "canonical_title": "ELLA: Generative AI-Powered Social Robots for Early Language Development at Home",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2587",
+      "canonical_title": "Generative Horcrux: Designing AI Carriers for Afterlife Selves",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2588",
+      "canonical_title": "Interrogating Design Homogenization in Web Vibe Coding",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2589",
+      "canonical_title": "The Future of Feedback: How Can AI Help Transform Feedback to Be More Engaging, Effective, and Scalable?",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2590",
+      "canonical_title": "Embedded Quantum Machine Learning in Embedded Systems: Feasibility, Hybrid Architectures, and Quantum Co-Processors",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2591",
+      "canonical_title": "As Language Models Scale, Low-Order Linear Depth Dynamics Emerge",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2592",
+      "canonical_title": "LightMoE: Reducing Mixture-of-Experts Redundancy Through Expert Replacing",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2593",
+      "canonical_title": "Modal Logical Neural Networks for Financial AI",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2594",
+      "canonical_title": "Reinforcement Learning for Diffusion LLMs with Entropy-Guided Step Selection and Stepwise Advantages",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2595",
+      "canonical_title": "RetroReasoner: A Reasoning LLM for Strategic Retrosynthesis Prediction",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2596",
+      "canonical_title": "Literary Narrative as Moral Probe: A Cross-System Framework for Evaluating AI Ethical Reasoning and Refusal Behavior",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2597",
+      "canonical_title": "LLM BiasScope: Real-Time Bias Analysis Platform for Comparative LLM Evaluation",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2598",
+      "canonical_title": "The Privacy-Utility Trade-Off of Location Tracking in Ad Personalization",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2599",
+      "canonical_title": "Beyond Final Answers: CRYSTAL Benchmark for Transparent Multimodal Reasoning Evaluation",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    },
+    {
+      "thread_id": "THREAD-WF2-2600",
+      "canonical_title": "98x Faster LLM Routing Without a Dedicated GPU",
+      "last_seen_date": "2026-03-17",
+      "appearance_count": 1
+    }
+  ],
+  "new_threads_created": [
+    "THREAD-WF2-2684",
+    "THREAD-WF2-2685",
+    "THREAD-WF2-2686",
+    "THREAD-WF2-2687",
+    "THREAD-WF2-2688",
+    "THREAD-WF2-2689",
+    "THREAD-WF2-2690",
+    "THREAD-WF2-2691",
+    "THREAD-WF2-2692",
+    "THREAD-WF2-2693",
+    "THREAD-WF2-2694",
+    "THREAD-WF2-2695",
+    "THREAD-WF2-2696",
+    "THREAD-WF2-2697",
+    "THREAD-WF2-2698",
+    "THREAD-WF2-2699",
+    "THREAD-WF2-2700",
+    "THREAD-WF2-2701",
+    "THREAD-WF2-2702",
+    "THREAD-WF2-2703",
+    "THREAD-WF2-2704",
+    "THREAD-WF2-2705",
+    "THREAD-WF2-2706",
+    "THREAD-WF2-2707",
+    "THREAD-WF2-2708",
+    "THREAD-WF2-2709",
+    "THREAD-WF2-2710",
+    "THREAD-WF2-2711",
+    "THREAD-WF2-2712",
+    "THREAD-WF2-2713",
+    "THREAD-WF2-2714",
+    "THREAD-WF2-2715",
+    "THREAD-WF2-2716",
+    "THREAD-WF2-2717",
+    "THREAD-WF2-2718",
+    "THREAD-WF2-2719",
+    "THREAD-WF2-2720",
+    "THREAD-WF2-2721",
+    "THREAD-WF2-2722",
+    "THREAD-WF2-2723"
+  ]
+}

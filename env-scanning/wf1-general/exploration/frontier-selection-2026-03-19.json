@@ -1,0 +1,48 @@
+{
+  "selector": "frontier_selector.py",
+  "selector_version": "2.0.0",
+  "selected_at": "2026-03-19T00:14:27.572746+00:00",
+  "status": "SUCCESS",
+  "message": "Selected 4 keywords from 46 eligible",
+  "method": "weighted_random",
+  "selected_keywords": [
+    {
+      "keyword": "youth culture generation Z trends research",
+      "category": "steeps_gap_social",
+      "weight": 3.0,
+      "is_gap_targeted": true
+    },
+    {
+      "keyword": "bioethics gene editing moral framework",
+      "category": "steeps_gap_spiritual",
+      "weight": 3.0,
+      "is_gap_targeted": true
+    },
+    {
+      "keyword": "Latin American sustainability news",
+      "category": "geographic",
+      "weight": 1.0,
+      "is_gap_targeted": false
+    },
+    {
+      "keyword": "death dying dignity end of life ethics RSS",
+      "category": "steeps_gap_spiritual",
+      "weight": 3.0,
+      "is_gap_targeted": true
+    }
+  ],
+  "selected_count": 4,
+  "statistics": {
+    "total_keywords": 43,
+    "eligible_keywords": 43,
+    "excluded_count": 0,
+    "gap_boost_applied": true,
+    "active_gaps": [
+      "S_Social",
+      "s_spiritual",
+      "P_Political",
+      "E_Environmental"
+    ],
+    "gap_targeted_count": 3
+  }
+}

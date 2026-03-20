@@ -1,0 +1,549 @@
+{
+  "scan_date": "2026-03-19",
+  "workflow": "wf3-naver",
+  "source": "NaverNews",
+  "items": [
+    {
+      "id": "naver-20260319-IT-001",
+      "title": "에이전틱 AI 시대 개막 — 2026년 3월 267개 신규 AI 모델 출시, 어도비·삼성·구글 전면 전환",
+      "source": {
+        "name": "환경감시일보/네이버뉴스",
+        "type": "news",
+        "url": "https://www.sisadays.co.kr/news/476424",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "2026년 3월 한 달 동안 267개의 새로운 AI 모델이 출시되며 에이전틱 AI 시대가 본격 개막. 어도비 CEO 18년 만에 교체, 구글 Gemini 50개+ 언어 확장, 아마존 헬스 HIPAA 준수 AI 에이전트 의료 기록 분석 배치, 삼성 갤럭시 S26 울트라 AI 자율 최적화 기능 탑재. 한국은 기술적 강점은 있으나 규제 프레임워크와 AI 윤리 사회적 합의가 미흡.",
+        "keywords": [
+          "에이전틱 AI",
+          "삼성전자",
+          "어도비",
+          "구글 Gemini",
+          "AI 모델",
+          "의료 AI"
+        ],
+        "language": "ko"
+      },
+      "final_category": "T_Technological",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 8.0,
+        "affected_sectors": [
+          "기술",
+          "의료",
+          "소비자 전자"
+        ],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-EC-001",
+      "title": "원·달러 환율 1,500원 돌파 — 2009년 글로벌 금융위기 이후 최초, 중동 긴장 확산",
+      "source": {
+        "name": "한국경제/네이버뉴스",
+        "type": "news",
+        "url": "https://www.hankyung.com/economy",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "원·달러 환율이 1,500원대에서 개장, 2009년 글로벌 금융위기 이후 최초. 이란-미국 군사 긴장 고조, 원유 100달러/배럴 돌파, 이란의 호르무즈 해협 봉쇄 위협이 복합 작용. 노벨 경제학상 수상자 필리프 아기옹은 이란 분쟁으로 글로벌 GDP 0.4% 감속, 인플레이션 0.5% 상승 전망. 수입물가 및 소비자 물가 압력 증가.",
+        "keywords": [
+          "원·달러 환율",
+          "1500원",
+          "중동 긴장",
+          "원유 가격",
+          "인플레이션",
+          "수입물가"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 8.5,
+        "affected_sectors": [
+          "금융",
+          "수출입",
+          "소비자"
+        ],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-EC-002",
+      "title": "엥겔계수 31년 만에 30% 돌파 — 식료품비 부담 역대급, 가계 구매력 약화 심화",
+      "source": {
+        "name": "한국경제/네이버뉴스",
+        "type": "news",
+        "url": "https://plus.hankyung.com/apps/newspaper.view",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "한국 엥겔계수가 지난해 31년 만에 30%를 넘어섬. 가계 소비지출에서 식료품비 비중이 역사적 수준으로 상승하여 가계 구매력 약화 심화. 물가 상승과 소득 정체의 이중 압력이 중산층 생활수준 하락으로 이어지고 있음.",
+        "keywords": [
+          "엥겔계수",
+          "식료품비",
+          "가계 구매력",
+          "물가 상승",
+          "소비지출",
+          "생활수준"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 7.5,
+        "affected_sectors": [
+          "가계경제",
+          "식품산업",
+          "소매"
+        ],
+        "time_horizon": "medium-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-EC-003",
+      "title": "주택담보대출 금리 6.5% 상한 돌파 — 2년 5개월래 최고, 영끌족 부담 심화",
+      "source": {
+        "name": "네이버뉴스",
+        "type": "news",
+        "url": "https://www.cliktoday.com/2026/03/20260316-today-news.html",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "시중은행 주택담보대출 금리가 6.5% 상한을 돌파, 2년 5개월래 최고 수준 도달. 마이너스 통장 대출 잔액 이달 1조원 이상 증가. 청년 차입자('영끌족')의 부담 심화로 부동산 시장 및 가계부채 구조적 리스크 증가.",
+        "keywords": [
+          "주택담보대출",
+          "금리",
+          "6.5%",
+          "영끌족",
+          "가계부채",
+          "부동산"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 7.0,
+        "affected_sectors": [
+          "부동산",
+          "금융",
+          "가계경제"
+        ],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-PL-001",
+      "title": "촉법소년 연령 14세→13세 하향 추진 — 73년 만의 첫 조정, 청소년 강력범죄 대응",
+      "source": {
+        "name": "네이버뉴스",
+        "type": "news",
+        "url": "https://www.cliktoday.com/2026/03/20260316-today-news.html",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "정부가 촉법소년 연령 기준을 현행 14세에서 13세로 하향 조정 추진. 73년 만의 첫 개정으로, 청소년 강력범죄 증가에 대한 사회적 우려를 반영. 다음 달까지 결정 예정. 청소년 범죄 처벌 강화와 인권 보호 사이의 균형이 핵심 쟁점.",
+        "keywords": [
+          "촉법소년",
+          "형사미성년자",
+          "청소년 범죄",
+          "연령 하향",
+          "법 개정",
+          "사법"
+        ],
+        "language": "ko"
+      },
+      "final_category": "P_Political",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 6.5,
+        "affected_sectors": [
+          "사법",
+          "교육",
+          "청소년복지"
+        ],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-SC-001",
+      "title": "늘봄학교 전국 2,741개 초등학교 운영 — 오전 7시~오후 8시 돌봄, 맞벌이 부담 완화",
+      "source": {
+        "name": "네이버뉴스",
+        "type": "news",
+        "url": "https://www.cliktoday.com/2026/03/20260316-today-news.html",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "늘봄학교가 전국 2,741개 초등학교에서 운영 중. 오전 7시부터 오후 8시까지 다양한 학습·돌봄 프로그램 제공. 맞벌이 가정의 돌봄 부담 완화를 위한 핵심 정책으로 자리잡음. 저출산 대응 및 여성 경제활동 참여 확대의 인프라.",
+        "keywords": [
+          "늘봄학교",
+          "초등 돌봄",
+          "맞벌이",
+          "저출산",
+          "교육 정책",
+          "여성 경제활동"
+        ],
+        "language": "ko"
+      },
+      "final_category": "S_Social",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 6.0,
+        "affected_sectors": [
+          "교육",
+          "보육",
+          "노동시장"
+        ],
+        "time_horizon": "medium-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-PL-002",
+      "title": "대통령 '위기가 자본시장 개혁의 기회' 발언 — 경제 위기 속 구조개혁 추진 시사",
+      "source": {
+        "name": "SBS 뉴스/네이버뉴스",
+        "type": "news",
+        "url": "https://news.sbs.co.kr/news/programMain.do?prog_cd=RO&broad_date=20260318",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "대통령이 '위기 때야말로 자본시장 개혁을 다지는 계기'라고 발언. 원·달러 1,500원 돌파와 글로벌 금융시장 불안정 속에서 자본시장 구조개혁 추진 의지를 표명. 밸류업 프로그램과 연계된 기업 거버넌스 개혁, 공매도 규제 등 포괄적 개혁 방향 시사.",
+        "keywords": [
+          "자본시장 개혁",
+          "경제 위기",
+          "대통령 발언",
+          "밸류업",
+          "공매도",
+          "거버넌스"
+        ],
+        "language": "ko"
+      },
+      "final_category": "P_Political",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 7.0,
+        "affected_sectors": [
+          "금융시장",
+          "기업 거버넌스",
+          "투자"
+        ],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-EC-004",
+      "title": "UAE 긴급 원유 도입 — '한국보다 먼저 받는 나라 없다', 에너지 안보 협력 강화",
+      "source": {
+        "name": "SBS 뉴스/네이버뉴스",
+        "type": "news",
+        "url": "https://news.sbs.co.kr/news/programMain.do?prog_cd=RO&broad_date=20260318",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "중동 긴장 고조 속 UAE로부터 긴급 원유 도입. '한국보다 먼저 받는 나라 없다'는 발언으로 한-UAE 에너지 안보 협력의 긴밀성 강조. 원유 100달러/배럴 돌파와 호르무즈 해협 봉쇄 위협 상황에서의 선제적 에너지 확보 조치.",
+        "keywords": [
+          "UAE",
+          "긴급 원유 도입",
+          "에너지 안보",
+          "중동 긴장",
+          "원유 가격",
+          "호르무즈 해협"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 7.5,
+        "affected_sectors": [
+          "에너지",
+          "외교",
+          "경제안보"
+        ],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-IT-002",
+      "title": "칩플레이션 — NAND 플래시 가격 하룻밤 50% 급등, AI 수요 확대로 메모리 공급부족 우려",
+      "source": {
+        "name": "SPTA Times Korea/네이버뉴스",
+        "type": "news",
+        "url": "https://www.sptatimeskorea.com/post/%EC%A0%9C20260315-ti-01%ED%98%B8",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "AI 수요 확대에 따른 '칩플레이션' 흐름 속에서 일부 NAND 플래시 가격이 하룻밤 사이 약 50% 급등. 메모리 시장 전반의 공급 부족 우려 확대. 삼성전자와 SK하이닉스가 AI 칩 수요 급증에 대응하여 HBM4 등 차세대 메모리 개발에 총력.",
+        "keywords": [
+          "칩플레이션",
+          "NAND 플래시",
+          "50% 급등",
+          "메모리 공급부족",
+          "삼성전자",
+          "SK하이닉스",
+          "HBM4"
+        ],
+        "language": "ko"
+      },
+      "final_category": "T_Technological",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 8.0,
+        "affected_sectors": [
+          "반도체",
+          "AI 인프라",
+          "전자"
+        ],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-IT-003",
+      "title": "SMR(소형모듈원전) AI 데이터센터 전력 필수 옵션 부상 — 재생에너지와 차세대 원자력 수렴",
+      "source": {
+        "name": "전국인력신문/네이버뉴스",
+        "type": "news",
+        "url": "https://www.kjob.news/news/474294",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "AI 산업의 전력 수요 폭증으로 소형모듈원전(SMR)이 데이터센터 전력의 필수 옵션으로 부상. 재생에너지(태양광·풍력)와 차세대 원자력(SMR)이 AI 인프라의 핵심 에너지원으로 수렴. 2026년 글로벌 AI 투자 대전환에서 한국 스타트업의 인프라·로봇·법률기술 시장 주목 필요.",
+        "keywords": [
+          "SMR",
+          "소형모듈원전",
+          "AI 데이터센터",
+          "전력 수요",
+          "재생에너지",
+          "에너지 전환"
+        ],
+        "language": "ko"
+      },
+      "final_category": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "impact_assessment": {
+        "impact_score": 7.5,
+        "affected_sectors": [
+          "에너지",
+          "AI 인프라",
+          "원자력"
+        ],
+        "time_horizon": "medium-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-SP-001",
+      "title": "AI 윤리 2026년 새 시대 과제 — 한국 규제 프레임워크 미흡, 사회적 합의 필요",
+      "source": {
+        "name": "데일리연합/네이버뉴스",
+        "type": "news",
+        "url": "https://www.dailyan.com/news/article.html?no=762040",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "인공지능 기술이 사회 전반의 핵심 인프라로 자리잡으면서 AI 윤리가 2026년의 핵심 과제로 부상. 한국은 기술적 강점에 비해 규제 프레임워크와 사회적 합의가 서구 수준에 미흡. 기술 오용, 윤리적 의사결정, 시스템 오작동, 데이터 보호 거버넌스 등이 핵심 리스크.",
+        "keywords": [
+          "AI 윤리",
+          "규제 프레임워크",
+          "사회적 합의",
+          "데이터 보호",
+          "기술 거버넌스",
+          "한국"
+        ],
+        "language": "ko"
+      },
+      "final_category": "s_spiritual",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 7.0,
+        "affected_sectors": [
+          "정책",
+          "기술산업",
+          "시민사회"
+        ],
+        "time_horizon": "medium-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-EV-001",
+      "title": "전국 미세먼지 '매우 나쁨' — 중국발 미세먼지와 대기 정체 복합, 환경 건강 위협",
+      "source": {
+        "name": "네이버뉴스",
+        "type": "news",
+        "url": "https://www.cliktoday.com/2026/03/20260316-today-news.html",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "전국 미세먼지가 '매우 나쁨' 수준 도달. 중국발 미세먼지와 대기 정체가 복합적으로 작용. 기온 15-17도, 일교차 10-12도. 대기오염이 국민 건강과 야외 활동에 심각한 영향. 한중 환경 협력 및 미세먼지 저감 정책의 실효성 재점검 필요.",
+        "keywords": [
+          "미세먼지",
+          "대기오염",
+          "중국발",
+          "환경 건강",
+          "대기질",
+          "한중 환경 협력"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Environmental",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 6.0,
+        "affected_sectors": [
+          "환경",
+          "공중보건",
+          "외교"
+        ],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-PL-003",
+      "title": "더불어민주연합 출범 — 범야 비례대표 공동 정당, 이재명 '윤 정권 폭주 저지' 강조",
+      "source": {
+        "name": "네이버뉴스",
+        "type": "news",
+        "url": "https://www.cliktoday.com/2026/03/20260316-today-news.html",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "더불어민주당이 진보 동맹과 함께 비례대표 정당 '더불어민주연합'을 공식 출범. 이재명 대표가 '윤 정권의 폭주 저지'를 강조. 범야권 결집을 통한 정치적 균형 추구와 차기 총선 대비 전략. 한국 정치의 양극화와 연합 정치의 역학 변화를 반영.",
+        "keywords": [
+          "더불어민주연합",
+          "비례대표",
+          "이재명",
+          "범야 연합",
+          "총선",
+          "정치 양극화"
+        ],
+        "language": "ko"
+      },
+      "final_category": "P_Political",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 6.5,
+        "affected_sectors": [
+          "정치",
+          "입법",
+          "거버넌스"
+        ],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-EC-005",
+      "title": "한은 총재 교체 임박 — 4년 임기 만료, 통화정책 방향 전환 가능성",
+      "source": {
+        "name": "한국경제/네이버뉴스",
+        "type": "news",
+        "url": "https://plus.hankyung.com/apps/newspaper.view",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "한국은행 이총재의 4년 임기가 다음달 20일 만료. 차기 총재 후보 이번 주 중 지명 예상. 원·달러 1,500원 환율, 금리 6.5% 돌파, 중동 긴장 속에서의 통화정책 방향 결정이 핵심. 경기 부양과 물가 안정 사이의 정책적 딜레마 심화.",
+        "keywords": [
+          "한은 총재",
+          "통화정책",
+          "금리",
+          "환율",
+          "경기 부양",
+          "물가 안정"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 7.5,
+        "affected_sectors": [
+          "금융",
+          "거시경제",
+          "통화정책"
+        ],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    },
+    {
+      "id": "naver-20260319-SC-002",
+      "title": "뉴욕증시 다우존스 768포인트(1.63%) 급락 — 중동 긴장·연준 매파 발언 영향",
+      "source": {
+        "name": "SBS 뉴스/네이버뉴스",
+        "type": "news",
+        "url": "https://news.sbs.co.kr/news/programMain.do?prog_cd=RO&broad_date=20260318",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "뉴욕증시 다우존스30 산업평균지수가 전장 대비 768.11포인트(1.63%) 하락한 46,225.15에 마감. 중동 긴장 고조와 미 연준의 매파적 발언이 복합 작용. 글로벌 금융시장 불안정이 한국 주식시장과 환율에 직접적 영향.",
+        "keywords": [
+          "다우존스",
+          "급락",
+          "중동 긴장",
+          "연준",
+          "매파",
+          "글로벌 금융시장"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "impact_assessment": {
+        "impact_score": 7.0,
+        "affected_sectors": [
+          "금융시장",
+          "투자",
+          "환율"
+        ],
+        "time_horizon": "short-term"
+      },
+      "collected_at": "2026-03-19T01:15:00Z"
+    }
+  ],
+  "total_items": 15,
+  "scan_metadata": {
+    "execution_proof": {
+      "execution_id": "wf3-scan-2026-03-19-01-15-00-c3d4",
+      "started_at": "2026-03-19T01:15:00Z",
+      "completed_at": "2026-03-19T01:25:00Z",
+      "actual_api_calls": {
+        "web_search": 4,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "NaverNews"
+      ],
+      "file_created_at": "2026-03-19T01:25:00Z"
+    }
+  }
+}

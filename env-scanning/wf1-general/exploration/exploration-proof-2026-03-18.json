@@ -1,0 +1,46 @@
+{
+  "date": "2026-03-18",
+  "gate_id": "EG-2026-03-18-wf1",
+  "gate_decision": "PASS",
+  "execution_status": "completed",
+  "exploration_date": "2026-03-18",
+  "workflow": "wf1-general",
+  "stage_c_executed": true,
+  "execution_proof": {
+    "started_at": "2026-03-17T23:48:00Z",
+    "completed_at": "2026-03-18T00:03:00Z",
+    "method": "automated",
+    "frontiers_evaluated": 2,
+    "candidates_tested": 2,
+    "candidates_viable": 2,
+    "time_budget_minutes": 40,
+    "actual_minutes": 15
+  },
+  "coverage_analysis": {
+    "steeps_gaps": ["S_Social"],
+    "gap_threshold": 0.15,
+    "gap_categories_found": 1,
+    "note": "Social category at 6% (3/50 signals) remains below 15% threshold. Technology dominance (40%) driven by continued Nvidia GTC 2026 coverage and Middle East-AI collision theme."
+  },
+  "candidates": [
+    {
+      "source_name": "Pew Research Center",
+      "url": "https://www.pewresearch.org",
+      "status": "tested",
+      "signals_found": 2,
+      "viable": true,
+      "steeps_focus": ["S_Social", "P_Political"],
+      "note": "Federal workforce and data center public opinion signals contributed. Already in sources.yaml as expansion tier."
+    },
+    {
+      "source_name": "Positive Psychology News",
+      "url": "https://positivepsychologynews.com",
+      "status": "tested",
+      "signals_found": 0,
+      "viable": true,
+      "steeps_focus": ["s_spiritual", "S_Social"],
+      "note": "No signals within scan window but source is functioning. Already in sources.yaml as expansion tier."
+    }
+  ],
+  "summary": "Stage C exploration tested 2 expansion-tier sources to address persistent Social category gap (6%). Pew Research Center produced 2 signals (federal workforce decline, data center public opinion). Social category gap remains structural: global crisis signals (Hormuz energy, Middle East conflict, AI infrastructure) dominate. Recommend adding labor/workforce-focused sources in next cycle."
+}

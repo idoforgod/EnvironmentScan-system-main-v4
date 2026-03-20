@@ -1,10 +1,15 @@
 # Source Exploration Frontiers — Random Discovery Keywords
-# Version: 1.0.0
-# Last Updated: 2026-02-12
+# Version: 2.0.0
+# Last Updated: 2026-03-18
 #
 # Used by discovery-beta for serendipitous source discovery.
 # SIE may add/remove keywords based on discovery success rates (MINOR change).
 # Keywords are sampled randomly (or weighted-randomly) at each scan.
+#
+# v2.0.0 Changes:
+#   - Added steeps_gap_social and steeps_gap_spiritual categories
+#   - Added gap_boost section for automatic weight amplification
+#   - Increased samples_per_scan to 4 (was 3)
 
 frontiers:
   geographic:
@@ -38,8 +43,44 @@ frontiers:
     - "decentralized autonomous organizations"
     - "biomimicry engineering innovations"
 
+  # ─── NEW: Targeted gap-filling for S_Social ───
+  steeps_gap_social:
+    - "demographic change aging population RSS feed"
+    - "global migration refugee trends news"
+    - "education reform future learning RSS"
+    - "labor market disruption workforce transformation"
+    - "inequality social mobility research RSS"
+    - "urbanization smart city society impact"
+    - "public health pandemic preparedness news feed"
+    - "youth culture generation Z trends research"
+    - "social movements civil society RSS"
+    - "digital divide access equity technology"
+
+  # ─── NEW: Targeted gap-filling for s_spiritual ───
+  steeps_gap_spiritual:
+    - "meaning crisis existential philosophy RSS"
+    - "AI consciousness ethics debate news"
+    - "posthumanism transhumanism values RSS feed"
+    - "collective psychology societal wellbeing research"
+    - "religious transformation secularization trends"
+    - "bioethics gene editing moral framework"
+    - "digital wellness mental health technology"
+    - "environmental ethics deep ecology philosophy"
+    - "art meaning human creativity AI era"
+    - "death dying dignity end of life ethics RSS"
+
 selection:
   method: "weighted_random"        # random | weighted_random
-  samples_per_scan: 3              # 3 keywords randomly selected per scan
+  samples_per_scan: 4              # 4 keywords randomly selected per scan (was 3)
   weight_by_success: true          # Weight by previous success rate (mini-RLM)
   cooldown_after_failure: 3        # Skip keyword for 3 scans after failure
+
+# Gap-boost configuration: when STEEPs gaps exist, boost keywords
+# from matching categories by this multiplier
+gap_boost:
+  enabled: true
+  multiplier: 3.0                  # 3x weight boost for gap-matching keywords
+  guaranteed_slot: true            # Always reserve 1 slot for gap-targeted keyword
+  category_steeps_mapping:
+    steeps_gap_social: "S_Social"
+    steeps_gap_spiritual: "s_spiritual"

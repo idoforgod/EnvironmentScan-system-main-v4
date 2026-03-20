@@ -1,0 +1,812 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf2-arxiv",
+  "scan_date": "2026-03-19",
+  "computed_at": "2026-03-19T01:09:33Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 30,
+    "new_signals": 30,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 0,
+    "active_threads": 141
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "arxiv-20260319-001",
+      "thread_id": "THREAD-WF2-2654",
+      "canonical_title": "KineVLA: Kinematics-Aware Vision-Language-Action Models with Bi-Level Action Decomposition",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "KineVLA: Kinematics-Aware Vision-Language-Action Models with Bi-Level Action Decomposition",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-002",
+      "thread_id": "THREAD-WF2-2655",
+      "canonical_title": "Detecting the Machine: Comprehensive Benchmark of AI-Generated Text Detectors Across Architectures",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Detecting the Machine: Comprehensive Benchmark of AI-Generated Text Detectors Across Architectures",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-003",
+      "thread_id": "THREAD-WF2-2656",
+      "canonical_title": "Inducing Epistemological Humility in Large Language Models: Reducing Hallucination via Targeted SFT",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Inducing Epistemological Humility in Large Language Models: Reducing Hallucination via Targeted SFT",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-004",
+      "thread_id": "THREAD-WF2-2657",
+      "canonical_title": "Learning When to Attend: Conditional Memory Access for Long-Context LLMs",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Learning When to Attend: Conditional Memory Access for Long-Context LLMs",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-005",
+      "thread_id": "THREAD-WF2-2658",
+      "canonical_title": "UniSAFE: Comprehensive Safety Benchmark for Unified Multimodal Models",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "UniSAFE: Comprehensive Safety Benchmark for Unified Multimodal Models",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-006",
+      "thread_id": "THREAD-WF2-2659",
+      "canonical_title": "When Only the Final Text Survives: Implicit Execution Tracing for Multi-Agent Attribution",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "When Only the Final Text Survives: Implicit Execution Tracing for Multi-Agent Attribution",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-007",
+      "thread_id": "THREAD-WF2-2660",
+      "canonical_title": "Caging the Agents: Zero Trust Security Architecture for Autonomous AI in Healthcare",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Caging the Agents: Zero Trust Security Architecture for Autonomous AI in Healthcare",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-008",
+      "thread_id": "THREAD-WF2-2661",
+      "canonical_title": "LLMs as Semantic Interface and Ethical Mediator in Neuro-Digital Ecosystems",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "LLMs as Semantic Interface and Ethical Mediator in Neuro-Digital Ecosystems",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-009",
+      "thread_id": "THREAD-WF2-2662",
+      "canonical_title": "Is Your LLM-as-a-Recommender Agent Trustable? BiasRecBench for Algorithmic Bias Detection",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Is Your LLM-as-a-Recommender Agent Trustable? BiasRecBench for Algorithmic Bias Detection",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-010",
+      "thread_id": "THREAD-WF2-2663",
+      "canonical_title": "An Auditable AI Agent Loop for Empirical Economics",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "An Auditable AI Agent Loop for Empirical Economics",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-011",
+      "thread_id": "THREAD-WF2-2664",
+      "canonical_title": "TRiMS: Real-Time Tracking of Minimal Sufficient Length for Efficient Reasoning via RL",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "TRiMS: Real-Time Tracking of Minimal Sufficient Length for Efficient Reasoning via RL",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-012",
+      "thread_id": "THREAD-WF2-2665",
+      "canonical_title": "ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-013",
+      "thread_id": "THREAD-WF2-2666",
+      "canonical_title": "The Phasor Transformer: Resolving Attention Bottlenecks on the Unit Circle",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "The Phasor Transformer: Resolving Attention Bottlenecks on the Unit Circle",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-014",
+      "thread_id": "THREAD-WF2-2667",
+      "canonical_title": "Argument Reconstruction as Supervision for Critical Thinking in LLMs",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Argument Reconstruction as Supervision for Critical Thinking in LLMs",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-015",
+      "thread_id": "THREAD-WF2-2668",
+      "canonical_title": "From Digital Twins to World Models: Opportunities for Mobile Edge General Intelligence",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "From Digital Twins to World Models: Opportunities for Mobile Edge General Intelligence",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-016",
+      "thread_id": "THREAD-WF2-2669",
+      "canonical_title": "Federated Computing as Code (FCaC): Sovereignty-aware Systems by Design",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Federated Computing as Code (FCaC): Sovereignty-aware Systems by Design",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-017",
+      "thread_id": "THREAD-WF2-2670",
+      "canonical_title": "QuantFL: Sustainable Federated Learning for Edge IoT via Pre-Trained Model Quantisation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "QuantFL: Sustainable Federated Learning for Edge IoT via Pre-Trained Model Quantisation",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-018",
+      "thread_id": "THREAD-WF2-2671",
+      "canonical_title": "Proof-of-Authorship for Diffusion-based AI Generated Content",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Proof-of-Authorship for Diffusion-based AI Generated Content",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-019",
+      "thread_id": "THREAD-WF2-2672",
+      "canonical_title": "General Circuit Compilation Protocol into Partially Fault-Tolerant Quantum Computing Architecture",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "General Circuit Compilation Protocol into Partially Fault-Tolerant Quantum Computing Architecture",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-020",
+      "thread_id": "THREAD-WF2-2673",
+      "canonical_title": "SCALE: Scalable Conditional Atlas-Level Endpoint Transport for Virtual Cell Models",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "SCALE: Scalable Conditional Atlas-Level Endpoint Transport for Virtual Cell Models",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-021",
+      "thread_id": "THREAD-WF2-2674",
+      "canonical_title": "DexEXO: Wearability-First Dexterous Exoskeleton for Scalable Robot Learning",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "DexEXO: Wearability-First Dexterous Exoskeleton for Scalable Robot Learning",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-022",
+      "thread_id": "THREAD-WF2-2675",
+      "canonical_title": "Interpreting Context-Aware Human Preferences for Multi-Objective Robot Navigation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Interpreting Context-Aware Human Preferences for Multi-Objective Robot Navigation",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-023",
+      "thread_id": "THREAD-WF2-2676",
+      "canonical_title": "Efficient Soft Actor-Critic with LLM-Based Action-Level Guidance for Continuous Control",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Efficient Soft Actor-Critic with LLM-Based Action-Level Guidance for Continuous Control",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-024",
+      "thread_id": "THREAD-WF2-2677",
+      "canonical_title": "Proactive Knowledge Inquiry in Doctor-Patient Dialogue: Stateful Extraction and Path-Aware Planning",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Proactive Knowledge Inquiry in Doctor-Patient Dialogue: Stateful Extraction and Path-Aware Planning",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-025",
+      "thread_id": "THREAD-WF2-2678",
+      "canonical_title": "Noise-Resilient Nonadiabatic Geometric Quantum Computation for Bosonic Binomial Codes",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Noise-Resilient Nonadiabatic Geometric Quantum Computation for Bosonic Binomial Codes",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-026",
+      "thread_id": "THREAD-WF2-2679",
+      "canonical_title": "Optimizing Logical Mappings for Quantum Low-Density Parity Check Codes",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Optimizing Logical Mappings for Quantum Low-Density Parity Check Codes",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-027",
+      "thread_id": "THREAD-WF2-2680",
+      "canonical_title": "Mirror Descent on Riemannian Manifolds",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Mirror Descent on Riemannian Manifolds",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-028",
+      "thread_id": "THREAD-WF2-2681",
+      "canonical_title": "Language on Demand, Knowledge at Core: Composing LLMs with Translation Models for Extensible Multilinguality",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Language on Demand, Knowledge at Core: Composing LLMs with Translation Models for Extensible Multilinguality",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-029",
+      "thread_id": "THREAD-WF2-2682",
+      "canonical_title": "Bringing Network Coding into Multi-Robot Systems",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "Bringing Network Coding into Multi-Robot Systems",
+          "psst": 31.3
+        }
+      ]
+    },
+    {
+      "signal_id": "arxiv-20260319-030",
+      "thread_id": "THREAD-WF2-2683",
+      "canonical_title": "GUIDE: GenAI Units In Digital Design Education",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 31.3,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-19",
+          "title": "GUIDE: GenAI Units In Digital Design Education",
+          "psst": 31.3
+        }
+      ]
+    }
+  ],
+  "faded_threads": [],
+  "new_threads_created": [
+    "THREAD-WF2-2654",
+    "THREAD-WF2-2655",
+    "THREAD-WF2-2656",
+    "THREAD-WF2-2657",
+    "THREAD-WF2-2658",
+    "THREAD-WF2-2659",
+    "THREAD-WF2-2660",
+    "THREAD-WF2-2661",
+    "THREAD-WF2-2662",
+    "THREAD-WF2-2663",
+    "THREAD-WF2-2664",
+    "THREAD-WF2-2665",
+    "THREAD-WF2-2666",
+    "THREAD-WF2-2667",
+    "THREAD-WF2-2668",
+    "THREAD-WF2-2669",
+    "THREAD-WF2-2670",
+    "THREAD-WF2-2671",
+    "THREAD-WF2-2672",
+    "THREAD-WF2-2673",
+    "THREAD-WF2-2674",
+    "THREAD-WF2-2675",
+    "THREAD-WF2-2676",
+    "THREAD-WF2-2677",
+    "THREAD-WF2-2678",
+    "THREAD-WF2-2679",
+    "THREAD-WF2-2680",
+    "THREAD-WF2-2681",
+    "THREAD-WF2-2682",
+    "THREAD-WF2-2683"
+  ]
+}

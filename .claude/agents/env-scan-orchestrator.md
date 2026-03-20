@@ -1814,9 +1814,15 @@ Input:
 2. Mark task1_2a_e as completed (non-critical step)
 3. Continue to Step 1.3a — dedup dependency falls back to task1_2c_id
 
-#### ③ POST-GATE: Exploration Gate Post (MANDATORY)
+#### ③ POST-GATE: Exploration Gate Post (MANDATORY — NEVER SKIP)
 
-⚠️ **AFTER exploration completes (or is skipped)**, ALWAYS run the exploration gate post:
+> ⚠️ **CRITICAL**: Do NOT write `exploration-proof-{date}.json` manually.
+> You MUST call `exploration_gate.py post` below. Manually written proof files
+> will be REJECTED by VP-6 (anti-bypass detection) at PG1 and by EXPLO-001 at Phase 3.
+> The gate_post script internally calls source_auto_promoter and updates exploration-history.
+> Skipping this call breaks the RLM learning loop.
+
+**AFTER exploration completes (or is skipped)**, ALWAYS run:
 
 ```bash
 python3 {gate_script} post \
@@ -1835,6 +1841,28 @@ Where `{actual_method_used}` = `"agent-team"` | `"single-agent"` | `"unknown"`.
 - This also records the scan in `exploration/history/` as a safety net for the RLM loop.
 - **This command MUST run regardless of whether exploration succeeded or was skipped.**
 - If candidates/signals files don't exist (skip case), pass the paths anyway — the script handles missing files gracefully.
+
+**④ POST-GATE VERIFICATION (immediate self-check)**:
+
+After running gate_post, verify the proof file was created correctly:
+
+```bash
+python3 -c "
+import json, sys
+proof = json.load(open('{data_root}/exploration/exploration-proof-{date}.json'))
+required = {'gate_version', 'command', 'method_used', 'results', 'files'}
+missing = required - set(proof.keys())
+if missing:
+    print(f'FAIL: proof missing gate_post schema fields: {sorted(missing)}')
+    print('The proof was NOT created by gate_post — re-run ③ POST-GATE above.')
+    sys.exit(1)
+print(f'PASS: proof schema valid (gate_version={proof[\"gate_version\"]})')
+"
+```
+
+- If this check FAILS: re-run the `exploration_gate.py post` command above
+- This catches cases where the LLM wrote the proof file instead of calling the script
+- VP-6 at PG1 is the external enforcer; this is the inline recovery mechanism
 
 **Update dependency**: If task1_2a_e was created, Step 1.3a waits for it.
 If exploration was skipped/failed, Step 1.3a proceeds after 1.2c.
@@ -2313,12 +2341,18 @@ Pipeline_Gate_1_Checks:
     on_fail: WARN (signals outside window are removed, not a pipeline halt)
 
   8_exploration_proof_check:
-    check: "MANDATORY Python enforcement — exploration_gate.py verify validates proof file"
-    purpose: "Source exploration enforcement (v2.5.1). Ensures Stage C was executed or correctly skipped."
+    check: "MANDATORY Python enforcement — exploration_gate.py verify validates proof file (VP-1~VP-6)"
+    purpose: |
+      Source exploration enforcement (v2.5.1→v1.2.0). Ensures Stage C was executed or correctly skipped.
+      VP-6 (v1.2.0): Anti-bypass detection — verifies proof was created by gate_post(),
+      not manually written by the LLM orchestrator. Catches the most common failure mode
+      where the LLM skips gate_post calls and writes proof files directly.
     enforcement: |
       ⚠️ THIS CHECK IS EXECUTED BY PYTHON — NOT BY LLM INSTRUCTION.
       ⚠️ THIS CHECK IS THE STRUCTURAL SAFETY NET — it catches cases where
          the PRE-GATE/POST-GATE calls were skipped by the LLM.
+      ⚠️ VP-6 specifically detects LLM-generated proof files (missing gate_version,
+         command, method_used, results, files fields).
 
       python3 {exploration_gate_script} verify \
         --proof {data_root}/exploration/exploration-proof-{date}.json \
@@ -2328,11 +2362,14 @@ Pipeline_Gate_1_Checks:
       Where {exploration_gate_script} = SOT source_exploration.gate_script
 
       Exit codes:
-        0 (PASS) → All VP checks passed. Proceed.
-        1 (FAIL) → Proof file missing or invalid.
+        0 (PASS) → All VP checks passed (VP-1~VP-6). Proceed.
+        1 (FAIL) → Proof file missing, invalid, or non-standard schema.
 
-      If FAIL → This means exploration gate calls were skipped.
-      Recovery: Run gate check + post commands now, then re-verify.
+      If FAIL → This means exploration gate calls were skipped or bypassed.
+      Recovery:
+        1. Run exploration_gate.py check (if gate-decision file is missing)
+        2. Run exploration_gate.py post (to create standard-schema proof file)
+        3. Re-verify PG1
 
       If source_exploration.enabled == false in SOT → Skip this check entirely.
     on_fail: |

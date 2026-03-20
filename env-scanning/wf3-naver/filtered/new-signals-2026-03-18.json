@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "scan_date": "2026-03-18",
+    "total_collected": 12,
+    "duplicates_removed": 0,
+    "new_signals": 12
+  },
+  "signals": [
+    {
+      "id": "naver-20260317-105-008",
+      "title": "엔비디아 GTC 2026 AI 추론 전용 칩 '그록3 LPU' 공개 — 삼성전자 파운드리 제조",
+      "category": "T",
+      "steeps_subcategory": "반도체·AI 인프라",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "source": "NaverNews/IT과학",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=641951",
+      "published_date": "2026-03-17",
+      "abstract": "엔비디아가 GTC 2026에서 AI 추론 전용 칩 그록3 LPU를 공개했다. 기존 GPU와 달리 AI 모델 실행에 최적화된 이 칩은 멀티에이전트 시스템을 위한 초고속 메모리와 저지연 성능을 제공한다. 젠슨 황 CEO는 삼성전자가 그록3 LPU를 제조한다고 밝히며 '생큐 삼성'이라고 감사를 표했다. AI 칩 매출이 2027년 말까지 1조 달러에 달할 것이라고 전망을 상향 조정했다.",
+      "key_entities": [
+        "엔비디아",
+        "삼성전자",
+        "그록3 LPU",
+        "GTC 2026"
+      ],
+      "quantitative_metrics": [
+        "AI 칩 매출 2027년 1조 달러 전망",
+        "코스피 1.63% 상승",
+        "삼성전자 2.76% 상승"
+      ],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 9,
+        "actionability": 8,
+        "confidence": 9,
+        "time_horizon": "H1"
+      }
+    },
+    {
+      "id": "naver-20260317-100-008",
+      "title": "공소청·중수청법 최종안 확정 — 검사 수사지휘권 삭제, 수사·기소 완전 분리",
+      "category": "P",
+      "steeps_subcategory": "사법 개혁",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "source": "NaverNews/정치",
+      "source_url": "https://www.khan.co.kr/article/202603172026005",
+      "published_date": "2026-03-17",
+      "abstract": "당·정·청이 공소청·중수청 설치법 최종안을 확정하고 19일 본회의 처리를 예고했다. 특사경에 대한 공소청 검사의 지휘·감독권 폐지, 검사 직무 범위 시행령 확대 가능성 봉쇄 등 검사 권한이 대폭 축소됐다. 중수청은 부패·경제·방위사업·마약·내란외환·사이버범죄 6대 범죄를 직접 수사한다.",
+      "key_entities": [
+        "공소청",
+        "중수청",
+        "더불어민주당",
+        "검찰개혁"
+      ],
+      "quantitative_metrics": [
+        "6대 범죄 직접 수사",
+        "19일 본회의 처리 예정"
+      ],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 9,
+        "time_horizon": "H1"
+      }
+    },
+    {
+      "id": "naver-20260317-101-012",
+      "title": "이재명 대통령 중동 비상 대책 지시 — 자동차 5·10부제, 원전 가동 확대 검토",
+      "category": "P",
+      "steeps_subcategory": "에너지 정책",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "source": "NaverNews/정치",
+      "source_url": "https://www.sisunnews.co.kr/news/articleView.html?idxno=235585",
+      "published_date": "2026-03-17",
+      "abstract": "이재명 대통령은 중동 상황 장기화를 전제로 자동차 5·10부제, 수출 통제, 원전 가동 확대 등 비상 대책을 강구하라고 지시했다. 기후에너지환경부는 차량 부제 시행 여부부터 범위, 시기, 방법 등을 다각도로 검토 중이라고 밝혔다.",
+      "key_entities": [
+        "이재명 대통령",
+        "기후에너지환경부",
+        "자동차 5·10부제",
+        "원전 가동 확대"
+      ],
+      "quantitative_metrics": [
+        "자동차 5·10부제 검토",
+        "원전 6기 순차 재가동"
+      ],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 8,
+        "actionability": 9,
+        "confidence": 9,
+        "time_horizon": "H1"
+      }
+    },
+    {
+      "id": "naver-20260317-104-008",
+      "title": "미·이란 전쟁 군·민간인 사망자 3천 명 추산 — 이스라엘 레바논·가자 동시 공습",
+      "category": "P",
+      "steeps_subcategory": "국제 안보",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "source": "NaverNews/세계",
+      "source_url": "https://humblefactory.co.kr/10863/",
+      "published_date": "2026-03-17",
+      "abstract": "미국-이란 전쟁이 3주째 지속되며 주변국 포함 군·민간인 사망자가 3천 명으로 추산된다. 이스라엘은 이란을 공격하면서 레바논과 가자도 계속 공습하고 있다. 트럼프 대통령은 호르무즈 해협 파병을 동맹국에 압박하고 있으나 NATO·호주·영국 등은 거부하고 있다.",
+      "key_entities": [
+        "미국",
+        "이란",
+        "이스라엘",
+        "트럼프",
+        "호르무즈 해협"
+      ],
+      "quantitative_metrics": [
+        "사망자 3천 명 추산",
+        "전쟁 3주째"
+      ],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 10,
+        "actionability": 6,
+        "confidence": 8,
+        "time_horizon": "H1"
+      }
+    },
+    {
+      "id": "naver-20260317-103-005",
+      "title": "기후에너지환경부 2026 업무보고 — 히트펌프 보급, 햇빛소득마을 연 500개 조성",
+      "category": "E_environmental",
+      "steeps_subcategory": "에너지 전환",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "source": "NaverNews/생활문화",
+      "source_url": "https://www.me.go.kr/home/web/board/read.do",
+      "published_date": "2026-03-17",
+      "abstract": "기후에너지환경부가 첫 연두 업무보고에서 탈탄소 문명 도약 전략을 발표했다. 히트펌프 보급 활성화, 2026년부터 매년 500개 이상 '햇빛소득마을' 조성, 2035년까지 육상풍력 12GW·해상풍력 25GW 보급을 목표로 규제 합리화를 추진한다.",
+      "key_entities": [
+        "기후에너지환경부",
+        "히트펌프",
+        "햇빛소득마을",
+        "풍력발전"
+      ],
+      "quantitative_metrics": [
+        "연 500개 햇빛소득마을",
+        "2035년 육상풍력 12GW",
+        "2035년 해상풍력 25GW"
+      ],
+      "signal_impact_scores": {
+        "novelty": 6,
+        "disruption_potential": 7,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H2"
+      }
+    },
+    {
+      "id": "naver-20260317-101-013",
+      "title": "SK하이닉스 주가 100만원 돌파 — 엔비디아 GTC 효과, HBM4 공급 확대",
+      "category": "E_economic",
+      "steeps_subcategory": "반도체 산업",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": "NaverNews/경제",
+      "source_url": "https://kr.investing.com/news/stock-market-news/article-1866334",
+      "published_date": "2026-03-17",
+      "abstract": "SK하이닉스가 장중 100만원을 넘어서며 '100만닉스'에 복귀했다. 엔비디아 GTC 2026 효과로 반도체·로봇·우주 테마가 강세를 보였다. SK하이닉스 직원 평균 연봉이 전년 대비 60% 가까이 뛰며 역대 최고치를 경신했다.",
+      "key_entities": [
+        "SK하이닉스",
+        "HBM4",
+        "엔비디아",
+        "100만닉스"
+      ],
+      "quantitative_metrics": [
+        "주가 100만원 돌파",
+        "직원 연봉 60% 증가"
+      ],
+      "signal_impact_scores": {
+        "novelty": 6,
+        "disruption_potential": 6,
+        "actionability": 7,
+        "confidence": 9,
+        "time_horizon": "H1"
+      }
+    },
+    {
+      "id": "naver-20260317-105-009",
+      "title": "엔비디아 '스페이스 컴퓨팅' 선언 — AI를 우주에서 직접 실행하는 시대",
+      "category": "T",
+      "steeps_subcategory": "우주·AI",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "source": "NaverNews/IT과학",
+      "source_url": "https://m.dnews.co.kr/m_home/view.jsp?idxno=202603171411168340493",
+      "published_date": "2026-03-17",
+      "abstract": "엔비디아가 GTC 2026에서 '스페이스 컴퓨팅'을 선언하며 AI를 우주에서 직접 실행하는 시대를 제시했다. 위성·우주정거장에서 AI 추론을 수행하여 지상 통신 없이도 실시간 지구 관측·기상 예측·재난 대응이 가능해진다.",
+      "key_entities": [
+        "엔비디아",
+        "스페이스 컴퓨팅",
+        "GTC 2026",
+        "우주 AI"
+      ],
+      "quantitative_metrics": [],
+      "signal_impact_scores": {
+        "novelty": 9,
+        "disruption_potential": 8,
+        "actionability": 5,
+        "confidence": 7,
+        "time_horizon": "H3"
+      }
+    },
+    {
+      "id": "naver-20260317-101-014",
+      "title": "한국 원유 수입 비중동 다변화 — 미국산 셰일오일 12%로 확대, 2027년 40% 목표",
+      "category": "E_economic",
+      "steeps_subcategory": "에너지 안보",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "source": "NaverNews/경제",
+      "source_url": "https://econmingle.com/economy/south-korea-oil-reserves-208-days-hormuz-st/",
+      "published_date": "2026-03-17",
+      "abstract": "정부가 비중동 국가로부터의 원유 수입 비중을 2025년 33%에서 2027년까지 40%로 확대하겠다는 계획을 추진 중이다. 미국산 셰일오일 수입은 2025년 8%에서 2026년 12%로 증가했다. 한국의 원유 비축분은 208일분으로 호르무즈 위기 대응에 충분하다는 분석이다.",
+      "key_entities": [
+        "산업통상자원부",
+        "비중동 원유",
+        "셰일오일",
+        "원유 비축"
+      ],
+      "quantitative_metrics": [
+        "비중동 비중 33%→40% 확대",
+        "셰일오일 8%→12%",
+        "비축분 208일"
+      ],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 7,
+        "actionability": 8,
+        "confidence": 8,
+        "time_horizon": "H1"
+      }
+    },
+    {
+      "id": "naver-20260317-104-009",
+      "title": "베이징-평양 직항 재개 — 대미 협상 카드 가능성, 한반도 정세 변수",
+      "category": "P",
+      "steeps_subcategory": "한반도 정세",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "source": "NaverNews/세계",
+      "source_url": "https://humblefactory.co.kr/10863/",
+      "published_date": "2026-03-17",
+      "abstract": "베이징-평양 직항이 재개되었다. 이는 북한이 대미 협상 카드로 활용하려는 움직임으로 해석되며, 한반도 정세에 새로운 변수가 될 수 있다.",
+      "key_entities": [
+        "북한",
+        "중국",
+        "베이징-평양 직항",
+        "한반도"
+      ],
+      "quantitative_metrics": [],
+      "signal_impact_scores": {
+        "novelty": 8,
+        "disruption_potential": 7,
+        "actionability": 5,
+        "confidence": 7,
+        "time_horizon": "H1"
+      }
+    },
+    {
+      "id": "naver-20260317-102-007",
+      "title": "권창영 특검, 원희룡 전 장관 출국금지 — 양평고속도로 특혜 의혹 수사",
+      "category": "P",
+      "steeps_subcategory": "사법·수사",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "source": "NaverNews/사회",
+      "source_url": "https://www.ynenews.kr/news/articleView.html?idxno=75929",
+      "published_date": "2026-03-17",
+      "abstract": "내란 사건과 김건희 여사, 채 해병 관련 의혹을 수사하는 권창영 특검팀이 양평고속도로 특혜 의혹과 관련 원희룡 전 국토교통부 장관을 출국금지했다.",
+      "key_entities": [
+        "권창영 특검",
+        "원희룡",
+        "양평고속도로",
+        "김건희"
+      ],
+      "quantitative_metrics": [],
+      "signal_impact_scores": {
+        "novelty": 6,
+        "disruption_potential": 6,
+        "actionability": 5,
+        "confidence": 9,
+        "time_horizon": "H1"
+      }
+    },
+    {
+      "id": "naver-20260317-105-010",
+      "title": "에이전틱 AI 시대 본격화 — 3월 한 달 267개 AI 모델 출시, 자율 에이전트 대세",
+      "category": "T",
+      "steeps_subcategory": "AI 에이전트",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "source": "NaverNews/IT과학",
+      "source_url": "https://www.sisadays.co.kr/news/476424",
+      "published_date": "2026-03-17",
+      "abstract": "2026년 3월 한 달 동안 267개의 새로운 AI 모델이 발표되었으며 상당수가 자율적으로 목표를 설정하고 실행하는 에이전트 형태를 강조하고 있다. 어도비·구글·아마존·삼성전자 등 글로벌 기업이 에이전틱 AI를 핵심 전략으로 채택했다.",
+      "key_entities": [
+        "에이전틱 AI",
+        "어도비",
+        "구글",
+        "아마존",
+        "삼성전자"
+      ],
+      "quantitative_metrics": [
+        "3월 267개 AI 모델 출시",
+        "구글 Gemini 50개 이상 언어 지원"
+      ],
+      "signal_impact_scores": {
+        "novelty": 7,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 8,
+        "time_horizon": "H1"
+      }
+    },
+    {
+      "id": "naver-20260317-101-015",
+      "title": "에너지경제연구원 경고 — 유가 $100 돌파 시 경상수지 200억달러 악화, 성장률 1%p 하락",
+      "category": "E_economic",
+      "steeps_subcategory": "에너지 경제",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": "NaverNews/경제",
+      "source_url": "https://econmingle.com/economy/us-iran-war-oil-price-surge-korea-manufactu/",
+      "published_date": "2026-03-17",
+      "abstract": "에너지경제연구원이 국제 유가 배럴당 $100 돌파 시 한국 경상수지는 연간 약 200억 달러 악화되고 경제 성장률은 0.8~1.2%포인트 하락할 수 있다고 경고했다. 한국의 원유 수입 70%가 중동산으로, 호르무즈 해협 불안이 직접적 영향.",
+      "key_entities": [
+        "에너지경제연구원",
+        "호르무즈 해협",
+        "유가",
+        "경상수지"
+      ],
+      "quantitative_metrics": [
+        "경상수지 200억 달러 악화",
+        "성장률 0.8-1.2%p 하락",
+        "중동 의존도 70%"
+      ],
+      "signal_impact_scores": {
+        "novelty": 6,
+        "disruption_potential": 8,
+        "actionability": 7,
+        "confidence": 8,
+        "time_horizon": "H1"
+      }
+    }
+  ]
+}

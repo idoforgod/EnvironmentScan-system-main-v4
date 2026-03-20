@@ -1,0 +1,466 @@
+{
+  "scan_metadata": {
+    "workflow_id": "wf1-general",
+    "scan_date": "2026-03-20",
+    "scan_window": {
+      "start": "2026-03-18T22:56:25Z",
+      "end": "2026-03-19T22:56:25Z",
+      "lookback_hours": 24,
+      "enforce": "strict"
+    },
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-03-20-07-56-25-b4e7",
+      "started_at": "2026-03-19T22:56:25Z",
+      "completed_at": "2026-03-19T23:30:00Z",
+      "actual_api_calls": {
+        "web_search": 16,
+        "arxiv_api": 0,
+        "rss_fetch": 27
+      },
+      "actual_sources_scanned": [
+        "Google Patents", "US Federal Register", "WHO Press Releases",
+        "TechCrunch", "MIT Technology Review", "PubMed Central",
+        "Nature News", "Science Magazine", "Quanta Magazine Biology",
+        "IEEE Spectrum", "OECD Newsroom", "World Bank Blogs",
+        "UN News", "EUR-Lex Recent Acts", "Brookings Institution",
+        "World Economic Forum", "Pew Research Center",
+        "Hacker News", "Wired", "Ars Technica", "Disrupt Africa",
+        "NASA Climate Change", "ScienceDaily Sustainability", "Carbon Brief",
+        "IMF Blog", "BIS Speeches", "The Conversation - Ethics",
+        "Psychology Today", "Aeon Magazine", "AI Ethics Brief",
+        "Yale Climate Connections", "CEPR VoxEU", "Genetic Literacy Project",
+        "Positive Psychology News"
+      ],
+      "file_created_at": "2026-03-19T23:30:00Z"
+    },
+    "marathon_mode": true,
+    "base_only": false
+  },
+  "total_items": 53,
+  "items": [
+    {
+      "id": "websearch-20260320-001",
+      "title": "Morgan Stanley Warns Transformative AI Leap Imminent in 2026 — World Not Ready",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/", "published_date": "2026-03-13"},
+      "content": {"abstract": "Morgan Stanley warns that a transformative leap in artificial intelligence is imminent in the first half of 2026, driven by unprecedented compute accumulation at top AI labs. OpenAI's GPT-5.4 scored 83.0% on GDPVal benchmark, placing it at or above the level of human experts on economically valuable tasks.", "keywords": ["AI", "GPT-5.4", "GDPVal", "compute scaling"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-002",
+      "title": "Yann LeCun's AMI Labs Raises $1.03B Seed Round for World Models AI",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates", "published_date": "2026-03-15"},
+      "content": {"abstract": "Yann LeCun's new startup Advanced Machine Intelligence (AMI) Labs raised a $1.03 billion seed round, eschewing traditional large language models in favor of 'world models' — architecture that learns by understanding the physical laws of the world. This represents a paradigm shift from token prediction to physics-grounded reasoning.", "keywords": ["world models", "AMI Labs", "Yann LeCun", "seed funding"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-003",
+      "title": "NVIDIA Unveils Vera Rubin AI Platform with Radical Processing Improvements",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://www.infoworld.com/article/4108092/6-ai-breakthroughs-that-will-define-2026.html", "published_date": "2026-03-10"},
+      "content": {"abstract": "NVIDIA unveiled its latest flagship AI platform codenamed 'Vera Rubin,' introducing radical improvements in processing power and memory. The platform represents a generational leap in AI infrastructure, enabling more efficient training of multi-trillion parameter models and supporting real-time inference for complex agentic AI workflows.", "keywords": ["NVIDIA", "Vera Rubin", "AI hardware", "GPU"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-004",
+      "title": "L3Harris and Shield AI Demonstrate Autonomous Electromagnetic Threat Response",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.devflokers.com/blog/ai-news-breakthroughs-march-13-2026", "published_date": "2026-03-13"},
+      "content": {"abstract": "L3Harris Technologies and Shield AI successfully demonstrated a first-of-its-kind integration where unmanned aircraft systems detected and responded to electromagnetic threats in real-time without human intervention. This marks a milestone in autonomous defense systems operating beyond human-in-the-loop constraints.", "keywords": ["autonomous defense", "UAS", "electromagnetic warfare", "Shield AI"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-005",
+      "title": "Extraordinary Climate-Linked Heat Wave Envelops Western US with Record Temperatures",
+      "source": {"name": "Yale Climate Connections", "type": "science_journalism", "url": "https://www.cnn.com/2026/03/17/weather/heat-wave-west-records-climate-change", "published_date": "2026-03-17"},
+      "content": {"abstract": "An extraordinary heat wave linked to climate change is enveloping the western United States in March 2026, shattering temperature records. The event is notable for its timing — occurring in mid-March, traditionally a cool-season period — and scientists attribute the severity and timing directly to accelerating climate change patterns.", "keywords": ["heat wave", "climate change", "western US", "temperature records"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-006",
+      "title": "EPA Eliminates Endangerment Finding — Removes Scientific Basis for US Climate Regulation",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://environmentallaw.lclark.edu/blog/climate-policy-outlook-key-federal-and-state-environmental-regulations-to-watch-in-2026/", "published_date": "2026-03-14"},
+      "content": {"abstract": "The EPA under the current administration finalized a rule in early 2026 eliminating the endangerment finding, removing the scientific basis for U.S. climate regulation and potentially slowing emissions reductions in the world's second-largest emitter. This represents a historic reversal of environmental regulatory architecture.", "keywords": ["EPA", "endangerment finding", "climate regulation", "regulatory rollback"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-007",
+      "title": "California Mandates Scope 1 and 2 GHG Emissions Reporting for Billion-Dollar Companies",
+      "source": {"name": "EUR-Lex Recent Acts", "type": "policy", "url": "https://www.spglobal.com/sustainable1/en/insights/2026-sustainability-trends", "published_date": "2026-03-01"},
+      "content": {"abstract": "California companies with over $1 billion in annual revenue must publicly report Scope 1 and 2 greenhouse gas emissions beginning in 2026, with an August 10, 2026 deadline. This state-level action runs counter to federal regulatory rollbacks, creating a bifurcated US climate governance landscape.", "keywords": ["California", "GHG reporting", "Scope 1", "Scope 2", "emissions"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-008",
+      "title": "UNCTAD: Global Trade Under Mounting Pressure — Growth Projected at 2.6% for 2026",
+      "source": {"name": "OECD Newsroom", "type": "policy", "url": "https://unctad.org/publication/global-trade-update-march-2026-reforming-trade-rules-drive-development", "published_date": "2026-03-18"},
+      "content": {"abstract": "Global trade enters 2026 under mounting pressure from slower growth, geopolitical fragmentation, and digital/green transitions. Economic growth projected at 2.6%, with US-China trade falling by 30%. Countries increasingly use tariffs, investment screening, and technology restrictions as strategic tools.", "keywords": ["global trade", "UNCTAD", "tariffs", "geopolitical fragmentation"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-009",
+      "title": "Mexico Introduces Surcharges Up to 50% on Imports to Protect Domestic Industry",
+      "source": {"name": "World Bank Blogs", "type": "policy", "url": "https://www.rabobank.com/knowledge/q011509552-global-outlook-2026-new-rules-different-economy", "published_date": "2026-03-10"},
+      "content": {"abstract": "Mexico introduced surcharges of up to nearly 50% on a range of imports in early 2026, citing need to protect domestic industry and increase revenues. This follows a broader global trend of rising protectionism, with the EU and India also implementing new safeguards on steel and chemicals.", "keywords": ["Mexico tariffs", "protectionism", "trade policy", "import surcharges"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-010",
+      "title": "CRISPR-GPT Automates Gene Editing Experiments — Stanford, DeepMind, UC Berkeley Collaboration",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.genengnews.com/topics/genome-editing/crispr-meets-gpt-to-supercharge-gene-editing/", "published_date": "2026-03-12"},
+      "content": {"abstract": "CRISPR-GPT, developed by Stanford, Google DeepMind, and UC Berkeley, automates CRISPR gene editing experiments, enabling researchers to design, simulate, and execute gene perturbations with AI support. Integration with robotics for fully automated systems is the next goal. Represents convergence of AI and biotechnology.", "keywords": ["CRISPR-GPT", "gene editing", "AI automation", "biotechnology"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-011",
+      "title": "Quantum-Classical Hybrid Drug Discovery Screens 1 Million Compounds for KRAS Protein",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00188-6", "published_date": "2026-03-08"},
+      "content": {"abstract": "Quantum generative models combined with classical drug-discovery approaches generated compounds targeting the KRAS protein, with a workflow sampling 1 million compounds and screening them for pharmacological viability. Demonstrates practical quantum advantage in pharmaceutical R&D.", "keywords": ["quantum computing", "drug discovery", "KRAS", "quantum-classical hybrid"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-012",
+      "title": "NewHydrogen Files International Patent for ThermoLoop Clean Hydrogen Technology",
+      "source": {"name": "Google Patents", "type": "patent", "url": "https://www.nasdaq.com/press-release/newhydrogen-files-its-first-international-patent-its-thermoloop-technology-2026-03-12", "published_date": "2026-03-12"},
+      "content": {"abstract": "NewHydrogen filed an international patent for its ThermoLoop technology with UC Santa Barbara — a breakthrough using water and heat instead of electricity for clean hydrogen production. Combines advanced material science with AI-driven discovery for scalable, carbon-free hydrogen production bypassing costly electrolysis.", "keywords": ["hydrogen", "ThermoLoop", "clean energy", "patent"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-013",
+      "title": "Yellow Fever Epidemiological Alert Issued for Americas Region",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/emergencies/disease-outbreak-news", "published_date": "2026-03-13"},
+      "content": {"abstract": "WHO issued an Epidemiological Alert on Yellow fever in the Americas Region on March 13, 2026. Priority emergency response areas include Afghanistan, DRC, Haiti, Myanmar, Palestinian territory, Somalia, South Sudan, Sudan, Syria, Ukraine, and Yemen, with ongoing cholera and mpox outbreaks.", "keywords": ["yellow fever", "WHO", "epidemiological alert", "Americas"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-014",
+      "title": "Nasdaq Proposes New $5M Market Value Continued Listing Requirement",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/16/2026-05017/", "published_date": "2026-03-16"},
+      "content": {"abstract": "Nasdaq Stock Market LLC filed a proposed rule change to adopt a new Market Value of Listed Securities continued listing requirement of at least $5 million, aiming to maintain market quality and investor protection. This tightens listing standards amid evolving market conditions.", "keywords": ["Nasdaq", "listing requirements", "market regulation", "SEC"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-015",
+      "title": "African Tech Startup Funding Leaps 50% — Sector Recovery from Funding Winter",
+      "source": {"name": "Disrupt Africa", "type": "tech_news", "url": "https://disruptafrica.com/2026/02/03/african-tech-startup-funding-leaps-by-almost-50-as-sector-begins-to-recover-from-global-funding-winter/", "published_date": "2026-03-12"},
+      "content": {"abstract": "African startups raised $575M across 58 deals in Jan-Feb 2026, a ~50% leap. Deep-tech and defense-tech emerging (Nigerian Terra Industries raised $33M). Logistics/transport surpassed fintech as top-funded sector. Japan emerged as a new major investor geography with focus on hardware and infrastructure.", "keywords": ["Africa startups", "funding", "fintech", "deep-tech"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-016",
+      "title": "EU AI Act Code of Practice Second Draft Published — Deepfake Labeling Rules",
+      "source": {"name": "EUR-Lex Recent Acts", "type": "policy", "url": "https://artificialintelligenceact.eu/", "published_date": "2026-03-05"},
+      "content": {"abstract": "The EU published a second draft Code of Practice on AI-generated content on March 5, 2026, with feedback open until March 30. Full AI Act compliance for high-risk AI systems due August 2, 2026. Only 8 of 27 Member States have designated single contact points. Penalties reach 15M EUR or 3% of global turnover.", "keywords": ["EU AI Act", "Code of Practice", "deepfakes", "AI regulation"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-017",
+      "title": "Nvidia's Memory Shift Triggers 'Great Memory Pivot' — Chip Shortage Through 2027",
+      "source": {"name": "Ars Technica", "type": "blog", "url": "https://www.techbuzz.ai/articles/nvidia-s-memory-shift-triggers-seismic-chip-shortage-crisis", "published_date": "2026-03-15"},
+      "content": {"abstract": "Rapid reallocation of wafer capacity toward high-bandwidth and enterprise memory for AI systems is leaving less conventional DRAM and NAND for mainstream PCs. Memory prices are surging in the 'Great Memory Pivot.' Qatar's helium production halt after Iranian drone strikes adds supply chain pressure. Shortage expected through 2027.", "keywords": ["semiconductor", "memory shortage", "DRAM", "AI chips", "helium"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-018",
+      "title": "Taiwan Warns Chip Reshoring Unrealistic — CHIPS Act Facing Skilled Labor Shortage",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://sourceability.com/post/chip-reshoring-limits-and-ai-power-ic-shortages-strain-supply", "published_date": "2026-03-14"},
+      "content": {"abstract": "Taiwan warns that large-scale chip reshoring is unrealistic amid AI power IC shortages. The US faces challenges including small skilled labor pool, limited local input acquisition, and long ramp-up periods. Even with CHIPS Act backing, fast-tracking domestic production faces significant obstacles.", "keywords": ["chip reshoring", "CHIPS Act", "Taiwan", "semiconductor supply chain"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-019",
+      "title": "Climate Change Threatens 8,000 Vertebrate Species with Extinction — SOE 2026 Report",
+      "source": {"name": "ScienceDaily Sustainability", "type": "science_news", "url": "https://www.downtoearth.org.in/wildlife-biodiversity/soe-2026-extinction-tracker", "published_date": "2026-03-17"},
+      "content": {"abstract": "State of Environment 2026 report reveals extreme heat from climate change and land use change threatens to wipe out nearly 8,000 vertebrate species. Under worst-case scenarios, these species face unsuitable conditions across 52% of their range. Extinctions accelerate rapidly if temperatures exceed 1.5C.", "keywords": ["biodiversity", "extinction", "climate change", "vertebrate species"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-020",
+      "title": "US Nursing Workforce Crisis — 1.2M RN Deficit Projected by 2030 as Boomers Retire",
+      "source": {"name": "PubMed Central", "type": "academic", "url": "https://medliant.com/blog/2026-us-nursing-shortage-at-a-glance", "published_date": "2026-03-10"},
+      "content": {"abstract": "Demand for healthcare workers outpacing supply with projected deficit of 1.2M registered nurses and 121,900 physicians by 2030. Over 50% of RNs are aged 50+; 1 million nurses retiring by 2030. Americans aged 65+ projected to reach 74 million. Nursing schools face faculty and capacity limitations.", "keywords": ["nursing shortage", "healthcare workforce", "aging population", "retirement wave"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-021",
+      "title": "UN Draft Global Regulation for Autonomous Vehicles — June 2026 Adoption Vote",
+      "source": {"name": "Wired", "type": "blog", "url": "https://unece.org/sustainable-development/press/un-announces-global-regulation-facilitate-safe-introduction-self", "published_date": "2026-03-18"},
+      "content": {"abstract": "A draft global regulation on Automated Driving Systems will allow deployment of autonomous vehicles with no driver supervision on public roads, submitted to the UN World Forum for adoption in June 2026. US DOT plans to propose three new rules in spring 2026 for automated driving systems. The SELF DRIVE Act of 2026 introduced in House.", "keywords": ["autonomous vehicles", "UN regulation", "self-driving", "SELF DRIVE Act"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-022",
+      "title": "Interlock Ransomware Exploits Cisco Zero-Day 36 Days Before Disclosure",
+      "source": {"name": "Ars Technica", "type": "blog", "url": "https://www.theregister.com/2026/03/18/amazon_cisco_firewall_0_day_ransomware", "published_date": "2026-03-18"},
+      "content": {"abstract": "Amazon Threat Intelligence warns of active Interlock ransomware campaign exploiting a critical Cisco Secure Firewall Management Center vulnerability 36 days before public disclosure. Attack pattern targets RMM tools and IT management software for multiplied access reach. CISA issued emergency patch mandate for federal agencies.", "keywords": ["ransomware", "zero-day", "Cisco", "cybersecurity"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-023",
+      "title": "World Enters 'Era of Global Water Bankruptcy' — UN Scientists Formally Define Post-Crisis Reality",
+      "source": {"name": "UN News", "type": "policy", "url": "https://unu.edu/inweh/news/world-enters-era-of-global-water-bankruptcy", "published_date": "2026-03-15"},
+      "content": {"abstract": "UN scientists formally declared the world has entered an 'era of global water bankruptcy' where many regions can no longer bounce back from frequent water shortages. 4 billion people face severe water scarcity at least one month per year. Agriculture uses 70% of freshwater with 3 billion people in areas of declining water storage.", "keywords": ["water bankruptcy", "water scarcity", "UN", "food security"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-024",
+      "title": "Social Media Harms Youth Mental Health — Haidt/Rausch World Happiness Report 2026 Chapter",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.anxiousgeneration.com/research/HaidtRausch_WHR_2026_Jan14.pdf", "published_date": "2026-03-10"},
+      "content": {"abstract": "Jonathan Haidt's World Happiness Report 2026 chapter documents how social media harms youth mental health. Gen Z adults (18-24) report 57% loneliness rate. Depression odds increase 13% per additional hour of daily social media use. 48% of teens say social media has mostly negative effects, up from 32% in 2022.", "keywords": ["mental health", "Gen Z", "social media", "loneliness", "youth"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-025",
+      "title": "US-China 'Great Bifurcation' — Managed Trade Architecture Replaces Free Trade",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-18-the-great-bifurcation-how-us-corporates-are-navigating-the-new-era-of-managed-global-trade", "published_date": "2026-03-18"},
+      "content": {"abstract": "As of March 18, 2026, the era of unfettered global trade has been officially replaced by 'managed' commerce defined by surgical sanctions, reciprocal trade agreements, and domestic industrial policy. US-China trade fell 30%, with the US replacing about two-thirds of the gap from other sellers. New Section 301 investigations initiated March 11.", "keywords": ["US-China", "trade war", "managed trade", "Section 301", "bifurcation"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-026",
+      "title": "ISRO Gaganyaan-1: India's First Uncrewed Orbital Test Flight Set for Late March 2026",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.nasaspaceflight.com/2026/01/space-science-2026-preview/", "published_date": "2026-03-15"},
+      "content": {"abstract": "India's ISRO aims to launch Gaganyaan-1, India's first uncrewed orbital test flight, in late March 2026 to support human exploration missions. The demonstration will test crew and service modules, reentry, parachute deployment, and safe splashdown. China also plans cargo spacecraft Qingzhou launch to Tiangong station.", "keywords": ["ISRO", "Gaganyaan", "space exploration", "India"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-027",
+      "title": "137 Countries Exploring CBDCs — Digital Yuan Reaches 7 Trillion e-CNY in Transactions",
+      "source": {"name": "World Economic Forum", "type": "blog", "url": "https://www.weforum.org/stories/2026/01/digital-economy-inflection-point-what-to-expect-for-digital-assets-in-2026/", "published_date": "2026-03-10"},
+      "content": {"abstract": "137 countries (98% of GDP) now exploring CBDCs, with 49 pilot projects worldwide. China's digital yuan hit 7 trillion e-CNY ($986B) in transactions across 17 provinces. India's e-rupee rose 334% to $122M. The US remains an outlier after Trump's executive order halting CBDC work. 2026 positioned as digital asset inflection point.", "keywords": ["CBDC", "digital yuan", "cryptocurrency", "digital assets"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-028",
+      "title": "Google-Commonwealth Fusion Systems Partnership: 200MW Power Purchase Agreement",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://solarquarter.com/2026/03/19/how-fusion-green-hydrogen-and-solar-innovations-are-shaping-energy-markets/", "published_date": "2026-03-19"},
+      "content": {"abstract": "Google deepened its partnership with Commonwealth Fusion Systems, increasing its stake and signing a 200MW power purchase agreement from CFS's first ARC power plant in Virginia for the early 2030s. Chevron pledged $10B for clean energy tech. Perovskite and organic photovoltaics gaining adoption alongside conventional solar.", "keywords": ["fusion energy", "Google", "Commonwealth Fusion", "clean energy"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-029",
+      "title": "Qatar Helium Production Halt After Iranian Drone Strikes — Semiconductor Supply Chain Disrupted",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.astutegroup.com/news/general/semiconductor-supply-chains-under-strain-as-nvidias-shift-and-memory-shortages-threaten-prices-and-shipments/", "published_date": "2026-03-02"},
+      "content": {"abstract": "Qatar, which accounts for over one-third of world helium production, halted production after Iranian drone strikes forced its facility offline on March 2, 2026. Helium is critical for semiconductor manufacturing, adding another layer of supply chain fragmentation to the ongoing chip shortage crisis.", "keywords": ["helium", "Qatar", "semiconductor", "supply chain", "drone strikes"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-030",
+      "title": "ILO: Global Unemployment Stable at 4.9% — But Structural Labor Market Transformation Deepens",
+      "source": {"name": "World Bank Blogs", "type": "policy", "url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "published_date": "2026-03-12"},
+      "content": {"abstract": "Global unemployment projected stable at 4.9% in 2026, masking deep structural transformation. Non-college workforce declining rapidly while every net addition requires bachelor's degree. Foreign-born workers providing steady positive contribution to labor force growth. Healthcare worker shortages forecast in half of US states.", "keywords": ["unemployment", "labor market", "workforce transformation", "ILO"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-031",
+      "title": "ISSB Sustainability Reporting Becomes Mandatory in Chile, Nigeria, Brazil, Mexico",
+      "source": {"name": "OECD Newsroom", "type": "policy", "url": "https://www.esgbook.com/insights/regulatory-updates/policy-digest-march-2026", "published_date": "2026-03-01"},
+      "content": {"abstract": "Sustainability reporting based on ISSB disclosure standards becomes mandatory in 2026 in Chile, Nigeria, Brazil, and Mexico, while China, Malaysia, and the Philippines phase in sustainability reporting. Adaptation investments rising alongside insurance cost pressures across developed and developing economies.", "keywords": ["ISSB", "sustainability reporting", "ESG", "mandatory disclosure"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-032",
+      "title": "Digital Backlash Movement Growing Against Algorithmic Technologies",
+      "source": {"name": "The Conversation - Ethics", "type": "academic", "url": "https://aihub.org/2026/03/04/top-ai-ethics-and-policy-issues-of-2025-and-what-to-expect-in-2026/", "published_date": "2026-03-04"},
+      "content": {"abstract": "A growing 'digital backlash' movement sees communities opposing algorithmic technologies through protests over data center projects, student-led petitions, app deletions, industry open letters, and academic position papers. Educators, technologists, policymakers, artists, labor unions increasingly oppose AI systems perceived as harmful or exploitative.", "keywords": ["digital backlash", "AI opposition", "social movement", "algorithmic resistance"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-033",
+      "title": "USTR Initiates New Section 301 Investigations on Manufacturing Excess Capacity",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/", "published_date": "2026-03-11"},
+      "content": {"abstract": "On March 11, 2026, USTR initiated new Section 301 investigations related to structural excess capacity in manufacturing sectors affecting China, EU, and other countries. US agreed to reduce China tariff rate from 41% to 31%. Suspension of reciprocal customs duties of 24% extended until November 10, 2026.", "keywords": ["Section 301", "trade investigation", "manufacturing", "tariffs"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-034",
+      "title": "Africa's First Assistive Technology Pilot Fund Launched — $500K for Disability Innovation",
+      "source": {"name": "Disrupt Africa", "type": "tech_news", "url": "https://disruptafrica.com/2026/03/16/500k-pilot-fund-launched-to-support-digital-innovations-for-disability-sector-in-kenya/", "published_date": "2026-03-16"},
+      "content": {"abstract": "The Momentous Pilot Fund launches as Africa's first early-stage investment pilot dedicated to assistive technology — KES64 million ($500K). Nigeria's iDICE programme launches Startup Bridge for 100+ startups on March 16, 2026. Signaling innovation ecosystem diversification beyond traditional tech sectors.", "keywords": ["assistive technology", "Africa", "disability innovation", "inclusive tech"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-035",
+      "title": "International Patent Applications Rise — Digital Communication and Semiconductor Technologies Lead Growth",
+      "source": {"name": "Google Patents", "type": "patent", "url": "https://www.wipo.int/pressroom/en/articles/2026/article_0003.html", "published_date": "2026-03-10"},
+      "content": {"abstract": "International patent applications rose in 2025, with digital communication and semiconductor technologies showing strongest growth. This aligns with the global technology competition and reflects accelerating innovation in AI infrastructure and advanced computing.", "keywords": ["patents", "WIPO", "digital communication", "semiconductor"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-036",
+      "title": "Self-Driving Labs: AI-Robotics Automation Accelerates Scientific Discovery",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00188-6", "published_date": "2026-03-08"},
+      "content": {"abstract": "Self-driving laboratories combining robotics, AI planning, and real-time data are accelerating scientific discovery. Seven technologies to watch in 2026 include mRNA therapeutics, quantum computing, and automated experimentation frameworks. The convergence of AI, robotics, and biotech is redefining drug design and metabolic engineering.", "keywords": ["self-driving labs", "automation", "AI discovery", "mRNA"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-037",
+      "title": "Sustainable Aviation Fuel Patent Portfolio — Kepler GTL Acquisition Expands Clean Fuel IP",
+      "source": {"name": "Google Patents", "type": "patent", "url": "https://www.reflector.com/news/national/eco-innovation-group-inc-ecox-highlights-patent-portfolio-and-intellectual-property-strategy-following-kepler-gtl/article_82385281-8b60-5918-98ba-5a4f89ac3ec7.html", "published_date": "2026-03-15"},
+      "content": {"abstract": "Eco Innovation Group acquired Kepler GTL Technologies, positioning around a growing patent estate supporting production of Sustainable Aviation Fuel. Patents cover gas-to-liquids and coal-to-liquids systems, process optimization, and apparatus for SAF production at scale.", "keywords": ["sustainable aviation fuel", "SAF", "patent", "GTL"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-038",
+      "title": "Colorado Joins WHO Global Outbreak Alert and Response Network",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://coloradosun.com/2026/03/02/who-global-outbreak-alert-response-network/", "published_date": "2026-03-02"},
+      "content": {"abstract": "Colorado became a participant in WHO's Global Outbreak Alert and Response Network (GOARN), a network of 360+ institutions holding weekly calls to discuss emerging disease threats globally. WHO's surveillance system picks up threats 24/7, assesses risk levels, and coordinates response.", "keywords": ["WHO", "GOARN", "disease surveillance", "Colorado"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-039",
+      "title": "EU Digital Omnibus Proposes Delay of AI Compliance Deadlines — Centralizing Enforcement",
+      "source": {"name": "EUR-Lex Recent Acts", "type": "policy", "url": "https://www.onetrust.com/blog/eu-digital-omnibus-proposes-delay-of-ai-compliance-deadlines/", "published_date": "2026-03-15"},
+      "content": {"abstract": "The EU Digital Omnibus proposes amendments to the AI Act to further centralize enforcement, with the AI Office supervising compliance of AI systems integrated into very large online platforms (VLOPs) or very large search engines (VLOSEs) as defined by the Digital Services Act. This represents a hybrid enforcement model evolution.", "keywords": ["EU Digital Omnibus", "AI Act", "enforcement", "VLOPs"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-040",
+      "title": "Federal Acquisition Circular 2026-01 Amends Federal Procurement Regulation",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/13/2026-04913/federal-acquisition-regulation-federal-acquisition-circular-2026-01-small-entity-compliance-guide", "published_date": "2026-03-13"},
+      "content": {"abstract": "Federal Acquisition Circular 2026-01 amends the Federal Acquisition Regulation (FAR), updating procurement rules for federal contracting. Changes apply to small entity compliance. This reflects ongoing government procurement modernization efforts.", "keywords": ["FAR", "federal procurement", "regulation", "FAC 2026-01"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-041",
+      "title": "US-China Rare Earth Tensions Signal Determination to Decouple",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.bruegel.org/first-glance/escalating-us-china-rare-earth-tensions-signal-determination-decouple", "published_date": "2026-03-16"},
+      "content": {"abstract": "Escalating US-China rare earth tensions signal determination to decouple. China expanded export controls on rare earth elements on Oct 9. Trump threatened additional 100% tariff. A tactical truce was reached but underlying structural tensions remain. Case-by-case licensing approach adopted for AI chips in Jan 2026.", "keywords": ["rare earth", "US-China", "decoupling", "export controls"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-042",
+      "title": "Global Renewable Capacity Adds 585 GW in 2024 — Total Reaches 4,448 GW",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://solarquarter.com/2026/03/19/how-fusion-green-hydrogen-and-solar-innovations-are-shaping-energy-markets/", "published_date": "2026-03-19"},
+      "content": {"abstract": "Global renewable power capacity grew by 585 GW in 2024, representing over 90% of total power additions, reaching 4,448 GW total. Perovskite and organic photovoltaics gaining adoption. Fusion sector seeing significant corporate and venture investment though commercial viability remains post-2030.", "keywords": ["renewable energy", "solar", "capacity growth", "perovskite"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-043",
+      "title": "CBDC Landscape Diverges — 49 Pilots Worldwide While US Halts Digital Dollar",
+      "source": {"name": "IMF Blog", "type": "blog", "url": "https://www.atlanticcouncil.org/cbdctracker/", "published_date": "2026-03-12"},
+      "content": {"abstract": "There are now 49 CBDC pilot projects worldwide with 3 countries having fully launched digital currencies. Digital yuan reached $986B in transactions across 17 provinces. India's e-rupee grew 334%. The US remains the only country to formally halt CBDC work, creating a widening gap in digital finance infrastructure.", "keywords": ["CBDC", "digital currency", "financial innovation", "digital divide"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-044",
+      "title": "AI Ethics in 2026: Autonomy, Sovereignty, and Sustainability Take Center Stage",
+      "source": {"name": "AI Ethics Brief", "type": "blog", "url": "https://aihub.org/2026/03/04/top-ai-ethics-and-policy-issues-of-2025-and-what-to-expect-in-2026/", "published_date": "2026-03-04"},
+      "content": {"abstract": "If 2025 marked the year AI regulation became operational, 2026 could be when autonomy, sovereignty, and sustainability take center stage. Three pressures dominate: governing increasingly automated systems, managing economic/workforce disruption, and confronting environmental/infrastructural limits of large-scale AI.", "keywords": ["AI ethics", "autonomy", "sustainability", "governance"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-045",
+      "title": "JAXA MMX Mission to Mars Moons — Sample Return from Phobos Planned for 2031",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.mmx.jaxa.jp/en/", "published_date": "2026-03-10"},
+      "content": {"abstract": "JAXA plans to launch the Martian Moons eXploration (MMX) mission in late 2026 to observe Phobos and Deimos, collect samples from Phobos surface, and deliver them to Earth by 2031. Blue Origin's Blue Moon Pathfinder Mission 1 also planned for 2026. Multiple lunar landing missions scheduled.", "keywords": ["JAXA", "MMX", "Mars", "Phobos", "sample return"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-046",
+      "title": "Hidden Technology Could Unlock Commercial Fusion Power — Tritium Breeding Advances",
+      "source": {"name": "ScienceDaily Sustainability", "type": "science_news", "url": "https://www.sciencedaily.com/releases/2026/03/260303050622.htm", "published_date": "2026-03-03"},
+      "content": {"abstract": "ScienceDaily reports on hidden technology that could unlock commercial fusion power, with advances in tritium breeding and plasma containment. While the most aggressive fusion roadmaps don't bring significant commercial capacity online before the 2030s, foundational breakthroughs are accelerating the timeline.", "keywords": ["nuclear fusion", "tritium breeding", "plasma", "clean energy"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-047",
+      "title": "RMM Tool Targeting — Attackers Shift Strategy to Infrastructure Management Software",
+      "source": {"name": "Wired", "type": "blog", "url": "https://www.hornetsecurity.com/en/blog/monthly-threat-report/", "published_date": "2026-03-15"},
+      "content": {"abstract": "Two actively exploited, CISA-flagged RCE vulnerabilities in enterprise management tools signal a strategic shift in cyberattack patterns. Attackers now prioritize access to RMM tools, observability platforms, and IT management software to multiply their reach across victim organizations. Ransomware ecosystem fragmenting into smaller, efficient groups.", "keywords": ["cybersecurity", "RMM tools", "zero-day", "ransomware evolution"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-048",
+      "title": "Drought Threatens Global Food Security — 1.8 Billion People Affected 2022-2023",
+      "source": {"name": "NASA Climate Change", "type": "policy", "url": "https://www.un.org/en/un-chronicle/water-scarcity-climate-crisis-and-global-food-security-call-collaborative-action", "published_date": "2026-03-10"},
+      "content": {"abstract": "Over 1.8 billion people dealt with drought conditions during 2022-2023. Higher food prices, hydroelectricity shortages, health risks, unemployment, migration, and conflict result. 62 countries experience maximum production losses over 10%. Agriculture responsible for 70% of global freshwater withdrawals.", "keywords": ["drought", "food security", "water scarcity", "agriculture"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-049",
+      "title": "DOT SELF DRIVE Act of 2026 — Federal Framework for Autonomous Vehicle Deployment",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://aurora.tech/newsroom/driverless-not-ruleless-why-2026-is-the-year-for-federal-av-standards", "published_date": "2026-03-17"},
+      "content": {"abstract": "The SELF DRIVE Act of 2026 (H.R. 7390) requires manufacturers to develop safety cases demonstrating how automated driving systems meet safety performance requirements. DOT modernizing safety standards by relaxing manual control requirements for certified Level 3 vehicles. Fleet deployments expanding to Dallas, Miami, Nashville.", "keywords": ["SELF DRIVE Act", "autonomous vehicles", "DOT", "federal standards"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-050",
+      "title": "McKinsey: Geopolitics Reshaping Global Trade Geometry in 2026",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.mckinsey.com/mgi/our-research/geopolitics-and-the-geometry-of-global-trade-2026-update", "published_date": "2026-03-15"},
+      "content": {"abstract": "McKinsey's 2026 update on geopolitics and global trade geometry documents the fundamental reshaping of trade flows, investment decisions, and global value chains due to geopolitical fragmentation, digital transitions, and national regulations. Countries accelerating use of discriminatory trade measures linked to industrial policy and national security.", "keywords": ["geopolitics", "global trade", "McKinsey", "value chains"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-051",
+      "title": "Eco Innovation SAF Patents — Gas-to-Liquids Technology for Sustainable Aviation",
+      "source": {"name": "Google Patents", "type": "patent", "url": "https://www.stocktitan.net/news/ECOX/eco-innovation-group-inc-ecox-highlights-patent-portfolio-and-dwmrf115d5gk.html", "published_date": "2026-03-15"},
+      "content": {"abstract": "Eco Innovation Group highlights patent portfolio after Kepler GTL acquisition covering gas-to-liquids and coal-to-liquids systems for Sustainable Aviation Fuel production, focusing on scalable deployment, process efficiency, and long-term cost reduction.", "keywords": ["SAF", "GTL", "CTL", "sustainable aviation"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-052",
+      "title": "AI Self-Verification and Agent Interoperability Emerge as Key 2026 Breakthroughs",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/", "published_date": "2026-03-10"},
+      "content": {"abstract": "The most significant advances in AI in 2026 won't come from building larger models but from making AI systems smarter, more collaborative, and more reliable. Breakthroughs in agent interoperability, self-verification, and memory are transforming AI into integrated systems handling complex multi-step workflows.", "keywords": ["AI agents", "self-verification", "interoperability", "multi-agent"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:00:00Z"
+    },
+    {
+      "id": "websearch-20260320-053",
+      "title": "WHO Launches 2026 Appeal for Millions in Health Emergencies Across 11 Priority Countries",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/03-02-2026-who-launches-2026-appeal-to-help-millions-of-people-in-health-emergencies-and-crisis-settings", "published_date": "2026-03-01"},
+      "content": {"abstract": "WHO launched its 2026 appeal to support millions in health emergencies, prioritizing Afghanistan, DRC, Haiti, Myanmar, Palestinian territory, Somalia, South Sudan, Sudan, Syria, Ukraine, and Yemen. Ongoing cholera and mpox outbreaks continue across multiple regions.", "keywords": ["WHO", "health emergencies", "humanitarian crisis", "cholera", "mpox"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-19T23:00:00Z"
+    }
+  ]
+}

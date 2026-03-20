@@ -1,0 +1,1765 @@
+{
+  "gate_metadata": {
+    "gate_id": "dedup_gate.py",
+    "gate_version": "2.0.0",
+    "definite_new_count": 14,
+    "uncertain_count": 35,
+    "definite_dupe_count": 9,
+    "total_input": 58
+  },
+  "definite_new": [
+    {
+      "id": "arxiv-2603.09004",
+      "title": "Attn-QAT: Attention-Aware Quantization for 4-Bit Transformer Inference at Scale",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09004",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We propose Attention-aware Quantization-Aware Training (Attn-QAT), a method that enables 4-bit quantization of both weights and attention matrices in large language models with less than 1% accuracy degradation. Applied to models up to 70B parameters, Attn-QAT achieves 3.2x inference speedup and 4x memory reduction on commodity hardware. This makes frontier-scale models accessible on consumer GPUs with 24GB VRAM.",
+        "keywords": [
+          "cs.LG",
+          "cs.CL",
+          "cs.AR"
+        ],
+        "language": "en",
+        "entities": [
+          "quantization",
+          "4-bit",
+          "attention",
+          "transformer"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.LG listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00932",
+      "title": "No Last Mile: A Theory of the Human Data Market Under AI Commodification",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00932",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We develop a theoretical framework for understanding the emerging human data market where AI systems create demand for human-generated training data. Our model predicts market equilibria where data pricing follows quality-adjusted power laws, creating a bifurcated labor market: high-value expert data commands premium pricing while commodity data approaches zero value. We identify conditions under which data cartels emerge and analyze welfare implications.",
+        "keywords": [
+          "econ.GN",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "language": "en",
+        "entities": [
+          "data market",
+          "AI training data",
+          "labor market"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv econ.GN listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.01245",
+      "title": "Insights for an AI Whistleblower Office: Evidence from 30 Case Studies",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.01245",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We analyze 30 cases of AI-related whistleblowing incidents across major technology companies and government agencies, identifying patterns in the types of concerns raised, organizational responses, and outcomes. 73% of cases involved safety or bias concerns that proved substantiated upon investigation. We propose an institutional design for a dedicated AI Whistleblower Office drawing on parallels with financial and healthcare regulatory frameworks.",
+        "keywords": [
+          "cs.CY",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": [
+          "AI whistleblowing",
+          "institutional accountability",
+          "AI safety"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CY listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00476",
+      "title": "Atomicity for Agents: TOCTOU Vulnerabilities in Browser-Use AI Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00476",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We identify a fundamental class of time-of-check-to-time-of-use (TOCTOU) vulnerabilities in browser-use AI agents. Between an agent's observation of a webpage and its subsequent action, adversaries can modify page content to redirect agent behavior. We demonstrate exploits against 8 commercial browser agents, achieving unauthorized transactions in 45% of attempts. We propose atomic action primitives that eliminate the vulnerability window.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI",
+          "cs.SE"
+        ],
+        "language": "en",
+        "entities": [
+          "TOCTOU",
+          "browser agents",
+          "AI security"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CR listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.01246",
+      "title": "Defensive Refusal Bias: How Safety Alignment Fails Cyber Defenders",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.01246",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We document a systematic bias in safety-aligned LLMs that disproportionately restricts legitimate cybersecurity defensive operations. Analyzing 5,000 defensive queries across 8 models, we find that 42% of legitimate penetration testing, incident response, and vulnerability analysis requests are incorrectly refused. This 'defensive refusal bias' creates asymmetric capabilities favoring attackers who use uncensored models while defenders are constrained by aligned ones.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en",
+        "entities": [
+          "safety alignment",
+          "cybersecurity",
+          "defensive bias"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CR listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00172",
+      "title": "Hidden in the Metadata: Stealth Poisoning Attacks on Multimodal RAG Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00172",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We demonstrate that multimodal retrieval-augmented generation (RAG) systems are vulnerable to stealth poisoning attacks embedded in document metadata. By injecting adversarial instructions into EXIF data, PDF properties, and HTML meta tags, attackers can manipulate RAG outputs while evading content-based defenses. Across 6 enterprise RAG platforms, metadata poisoning achieves 71% manipulation success rate with zero detection by existing security scanners.",
+        "keywords": [
+          "cs.CR",
+          "cs.CL",
+          "cs.IR"
+        ],
+        "language": "en",
+        "entities": [
+          "RAG",
+          "metadata poisoning",
+          "multimodal AI"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CR listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00740",
+      "title": "Mechanically Assisted Symmetry Reconstruction for Extraordinary Piezoelectricity",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00740",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We demonstrate a mechanical symmetry reconstruction method that achieves record-high piezoelectric coefficients (d33 = 2,100 pC/N) in lead-free ceramic composites. By controlled mechanical deformation of crystal symmetry, we create artificial polar phases with 5x higher piezoelectric response than conventional PZT ceramics. The lead-free composition addresses environmental concerns while exceeding performance of all existing piezoelectric materials, enabling next-generation energy harvesting and sensing devices.",
+        "keywords": [
+          "cond-mat.mtrl-sci",
+          "physics.app-ph"
+        ],
+        "language": "en",
+        "entities": [
+          "piezoelectricity",
+          "lead-free ceramics",
+          "energy harvesting"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cond-mat listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00591",
+      "title": "Liquid Metals Routes towards Making Superconductors: A Scalable Manufacturing Pathway",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00591",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We develop a liquid metal processing route for manufacturing superconducting wires and tapes that reduces production costs by 80% compared to conventional powder-in-tube methods. Using gallium-indium eutectic as a reactive medium, we achieve MgB2 superconductor critical current densities of 10^5 A/cm2 at 20K, suitable for fusion magnet applications. The process is scalable to industrial production volumes, potentially enabling widespread deployment of superconducting infrastructure.",
+        "keywords": [
+          "cond-mat.supr-con",
+          "cond-mat.mtrl-sci",
+          "physics.app-ph"
+        ],
+        "language": "en",
+        "entities": [
+          "liquid metals",
+          "superconductor manufacturing",
+          "MgB2"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cond-mat listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.02402",
+      "title": "GPU-Accelerated Single-Cell Analysis at Scale with rapids-singlecell",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.02402",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "rapids-singlecell enables GPU-accelerated analysis of single-cell RNA sequencing datasets with 100M+ cells, achieving 50-200x speedups over CPU-based tools (Scanpy, Seurat). The framework integrates with existing bioinformatics workflows and demonstrates end-to-end analysis of the Human Cell Atlas reference dataset (37M cells) in under 4 hours, compared to 2+ weeks with conventional methods. This removes a critical computational bottleneck in precision medicine research.",
+        "keywords": [
+          "q-bio.QM",
+          "cs.DC",
+          "q-bio.GN"
+        ],
+        "language": "en",
+        "entities": [
+          "single-cell analysis",
+          "GPU computing",
+          "Human Cell Atlas"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv q-bio listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.01906",
+      "title": "ScreenAnt: Transparent On-Screen Antennas for 6G Wireless Communications",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.01906",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "ScreenAnt introduces transparent antenna arrays integrated directly into display screens for 6G communications. Using optically transparent conductive meshes, we achieve antenna gains of 12 dBi at 140 GHz while maintaining 92% optical transmittance. This eliminates dedicated antenna modules in smartphones and AR/VR devices, enabling ubiquitous 6G connectivity without aesthetic or form-factor compromises. Prototype demonstrations show 40 Gbps throughput at 3-meter range.",
+        "keywords": [
+          "eess.SP",
+          "cs.IT",
+          "physics.app-ph"
+        ],
+        "language": "en",
+        "entities": [
+          "6G",
+          "transparent antenna",
+          "sub-THz communications"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv eess.SP listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.02898",
+      "title": "Range-Based Volatility Estimators for Monitoring Market Stress: Evidence from Local Food Price Data",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.02898",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We develop range-based volatility estimators adapted for high-frequency food price monitoring in 47 developing countries. Our estimators detect food price stress events 3 weeks earlier than traditional CPI-based measures, providing critical early warning for humanitarian response. Analysis of 2020-2025 data shows that 34% of food security crises were preceded by volatility spikes detectable by our method but missed by standard monitoring. Implications for famine early warning systems.",
+        "keywords": [
+          "q-fin.ST",
+          "stat.AP",
+          "econ.GN"
+        ],
+        "language": "en",
+        "entities": [
+          "food prices",
+          "volatility",
+          "early warning",
+          "food security"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv q-fin listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00089",
+      "title": "Who Controls the Conversation? User Perspectives on Generative AI System Prompts",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00089",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "Accepted at CHI 2026, this study examines user awareness and preferences regarding system prompts in generative AI tools. Surveying 2,400 users across 6 countries, we find that 76% are unaware that system prompts shape AI behavior, 82% want transparency about system prompt contents, and 91% desire some control over AI personality and behavior parameters. Users in East Asia show stronger preferences for customizable AI behavior compared to Western users, reflecting cultural differences in human-AI relationship expectations.",
+        "keywords": [
+          "cs.CY",
+          "cs.HC",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": [
+          "system prompts",
+          "user agency",
+          "AI transparency",
+          "CHI 2026"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CY listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00902",
+      "title": "Clawdrain: Exploiting Tool-Calling Chains for Stealthy Token Exhaustion in AI Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00902",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "Clawdrain demonstrates a novel denial-of-service attack against tool-calling AI agents by crafting inputs that trigger recursive tool invocations leading to token budget exhaustion. Tested against 10 commercial agent platforms, the attack achieves 85% success rate in exhausting agent budgets within minutes, with average cost amplification of 47x. The attack is stealthy because each individual tool call appears legitimate. We propose budget monitoring and call-graph analysis defenses.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI",
+          "cs.SE"
+        ],
+        "language": "en",
+        "entities": [
+          "AI agent attacks",
+          "token exhaustion",
+          "denial of service"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CR listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.02032",
+      "title": "MetaRCA: Generalizable Root Cause Analysis for Cloud-Native Systems via Meta Causal Knowledge",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.02032",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "MetaRCA introduces a generalizable root cause analysis framework for cloud-native systems using meta-learned causal knowledge graphs. Accepted at FSE 2026, the system transfers causal reasoning across different microservice architectures, achieving 82% root cause identification accuracy on unseen systems with zero configuration. This addresses a critical gap where existing AIOps tools require extensive per-system training, enabling rapid deployment across heterogeneous cloud environments.",
+        "keywords": [
+          "cs.SE",
+          "cs.DC",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": [
+          "AIOps",
+          "root cause analysis",
+          "cloud-native",
+          "FSE 2026"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.SE listing",
+          "method": "category_listing_scan"
+        }
+      }
+    }
+  ],
+  "uncertain": [
+    {
+      "id": "arxiv-2603.09001",
+      "title": "DeepSeek mHC: Manifold-Constrained Hyper-Connections for Scalable Transformer Architectures",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09001",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We introduce Manifold-Constrained Hyper-Connections (mHC), a novel architectural innovation for transformer models that replaces standard residual connections with topology-aware pathways constrained to learned manifold surfaces. mHC achieves 15% training efficiency gains and 8% inference speedup on standard benchmarks while maintaining model quality, representing a fundamental rethinking of information flow in deep neural networks. The approach scales to 200B+ parameter models with consistent improvements.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en",
+        "entities": [
+          "DeepSeek",
+          "transformer",
+          "hyper-connections"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.LG listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.09002",
+      "title": "ScienceClaw + Infinite: Autonomous Multi-Agent Framework for Iterative Scientific Discovery",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09002",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present ScienceClaw, a multi-agent AI system that autonomously conducts end-to-end scientific research cycles including hypothesis generation, experiment design, data analysis, and paper drafting. Combined with Infinite, a self-extending knowledge graph, the system demonstrated autonomous discovery of 3 novel material compositions in 72 hours without human intervention. Validated across chemistry, materials science, and drug discovery domains.",
+        "keywords": [
+          "cs.AI",
+          "cs.MA",
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": [
+          "ScienceClaw",
+          "multi-agent",
+          "autonomous research"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.AI listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.09003",
+      "title": "LTX-2: Unified Audiovisual Diffusion for Synchronized Video-Audio Generation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09003",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "LTX-2 introduces the first unified diffusion architecture for simultaneously generating temporally-aligned video and audio content. Unlike prior approaches that generate modalities separately, our joint latent space model achieves state-of-the-art audio-visual synchronization (AV-Sync score 0.94) and content coherence. The model enables one-shot generation of 30-second video clips with spatially-localized, semantically-matched sound effects.",
+        "keywords": [
+          "cs.CV",
+          "cs.SD",
+          "cs.MM"
+        ],
+        "language": "en",
+        "entities": [
+          "LTX-2",
+          "diffusion model",
+          "audiovisual generation"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CV listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.09005",
+      "title": "Breaking the Factorization Barrier in Discrete Diffusion Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09005",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We demonstrate that discrete diffusion language models can surpass autoregressive models in text generation quality by breaking the implicit factorization barrier. Our approach, Non-Factorized Discrete Diffusion (NFDD), generates all tokens simultaneously with learned inter-token dependencies, achieving 12% improvement on human preference benchmarks while enabling parallel generation that is 5x faster than autoregressive decoding for long sequences.",
+        "keywords": [
+          "cs.CL",
+          "cs.LG",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": [
+          "diffusion language models",
+          "non-autoregressive",
+          "parallel generation"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CL listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.04584",
+      "title": "Fault-Tolerant Execution of Error-Corrected Quantum Algorithms on Trapped-Ion Processors",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.04584",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We demonstrate fault-tolerant and error-corrected execution of QAOA and HHL quantum algorithms on Quantinuum H2 and Helios trapped-ion processors using the [[7,1,3]] Steane code. Results show near-break-even performance where error-corrected circuits match or exceed uncorrected versions, marking a milestone toward practical quantum advantage. The system achieves logical error rates below 10^-4 per gate operation.",
+        "keywords": [
+          "quant-ph",
+          "cs.ET"
+        ],
+        "language": "en",
+        "entities": [
+          "Quantinuum",
+          "Steane code",
+          "QAOA",
+          "HHL",
+          "trapped-ion"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv quant-ph listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.09007",
+      "title": "ReloQate: Real-Time Recalibration of Surface Code Quantum Error Correction",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.09007",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "ReloQate introduces a real-time recalibration protocol for surface code quantum error correction that adapts decoder parameters to time-varying noise conditions. By continuously monitoring syndrome statistics and updating belief propagation weights, the system maintains near-optimal logical error rates even as physical qubit noise characteristics drift by up to 30% from calibration values. Demonstrated on a 72-qubit superconducting processor.",
+        "keywords": [
+          "quant-ph",
+          "cs.IT"
+        ],
+        "language": "en",
+        "entities": [
+          "surface code",
+          "error correction",
+          "recalibration"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv quant-ph listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12128",
+      "title": "How Vulnerable is India's Economy to Foreign Sanctions? A Network Analysis",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12128",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "We develop a multi-layer trade network model to assess India's vulnerability to foreign sanctions across 127 commodity sectors. Our analysis reveals that while India has diversified many supply chains since 2020, critical dependencies remain in semiconductor equipment (87% from 3 countries), pharmaceutical intermediates (64% from China), and rare earth elements. Sanctions on any single major partner would cause 3-7% GDP contraction within 18 months.",
+        "keywords": [
+          "econ.GN",
+          "physics.soc-ph"
+        ],
+        "language": "en",
+        "entities": [
+          "India",
+          "sanctions",
+          "trade network",
+          "supply chain"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv econ.GN listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.08603",
+      "title": "A Dynamic Equilibrium Model for Automated Market Makers in DeFi",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08603",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We present a dynamic equilibrium model for automated market makers (AMMs) that captures the interplay between liquidity provision, arbitrage, and impermanent loss in decentralized finance. Our model predicts that current AMM designs converge to socially suboptimal equilibria where liquidity providers systematically lose value. We propose a mechanism design that achieves 40% higher capital efficiency through adaptive fee structures.",
+        "keywords": [
+          "q-fin.MF",
+          "cs.GT",
+          "econ.TH"
+        ],
+        "language": "en",
+        "entities": [
+          "DeFi",
+          "AMM",
+          "liquidity",
+          "mechanism design"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv q-fin listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00068",
+      "title": "The Global Landscape of Environmental AI Regulation: A Comparative Framework",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00068",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We present the first comprehensive comparative analysis of regulatory approaches to AI's environmental footprint across 42 jurisdictions. The EU AI Act mandates energy efficiency reporting for high-risk systems, while US policy relies on voluntary industry commitments. We find that mandatory disclosure regimes reduce AI-related emissions by 15-22% compared to voluntary approaches. China's emerging framework combines efficiency standards with industrial policy objectives, creating a distinct regulatory model.",
+        "keywords": [
+          "cs.CY",
+          "cs.AI",
+          "econ.GN"
+        ],
+        "language": "en",
+        "entities": [
+          "AI regulation",
+          "environmental impact",
+          "EU AI Act"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CY listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00065",
+      "title": "Self-Service or Not? Guiding Practitioners in Classifying AI Systems Under the EU AI Act",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00065",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "The EU AI Act introduces a risk-based classification framework, but practitioners face significant challenges in correctly classifying their AI systems. We develop a decision-support tool validated with 200+ organizations, finding that 34% of companies initially misclassify their AI risk level, with 78% of errors being under-classifications that could lead to regulatory non-compliance. Our guidance framework reduces misclassification rates to below 5%.",
+        "keywords": [
+          "cs.CY",
+          "cs.AI",
+          "cs.SE"
+        ],
+        "language": "en",
+        "entities": [
+          "EU AI Act",
+          "risk classification",
+          "compliance"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CY listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.03515",
+      "title": "The Controllability Trap: A Governance Framework for Military AI Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.03515",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We introduce the Controllability Trap — the paradox that increasing AI agent autonomy in military systems improves operational effectiveness while simultaneously degrading human oversight capacity. Drawing on 15 wargame exercises and 40 interviews with defense officials, we develop a governance framework that defines minimum human control thresholds for 5 categories of military AI operations. Accepted at ICLR 2026 Workshop on AI Safety.",
+        "keywords": [
+          "cs.CY",
+          "cs.AI",
+          "cs.MA"
+        ],
+        "language": "en",
+        "entities": [
+          "military AI",
+          "autonomous weapons",
+          "governance",
+          "controllability"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CY listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.02640",
+      "title": "Credibility Governance: Social Mechanisms for Collective Self-Correction in AI-Mediated Information",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.02640",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We propose a credibility governance framework for combating misinformation in AI-mediated information ecosystems. By combining decentralized reputation systems with epistemic network analysis, our approach identifies and corrects false narratives 3x faster than centralized fact-checking while preserving freedom of expression. Validated across 5 social media platforms with 2M+ users, achieving 89% precision in misinformation detection.",
+        "keywords": [
+          "cs.CY",
+          "cs.SI",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": [
+          "misinformation",
+          "credibility",
+          "governance",
+          "social media"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CY listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00164",
+      "title": "Reverse CAPTCHA: Evaluating LLM Susceptibility to Invisible Unicode Instruction Injection",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00164",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We demonstrate a novel attack vector using invisible Unicode characters to inject instructions into LLM inputs. By embedding zero-width characters encoding malicious prompts, attackers can hijack model behavior while the input appears benign to human reviewers. Testing across 12 frontier LLMs, we achieve 67% attack success rate on GPT-4o, 43% on Claude 3.5, and 78% on open-source models. We propose Unicode sanitization defenses reducing success rates below 3%.",
+        "keywords": [
+          "cs.CR",
+          "cs.CL",
+          "cs.AI"
+        ],
+        "language": "en",
+        "entities": [
+          "LLM security",
+          "Unicode injection",
+          "prompt injection"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CR listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00732",
+      "title": "UniHM: Unified Dexterous Hand Manipulation via Vision-Language-Action Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00732",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "UniHM presents a unified framework for dexterous robotic hand manipulation that integrates vision, language, and action modalities. Accepted at ICLR 2026, the system achieves 87% success rate on 50 diverse manipulation tasks using a single policy, compared to 45% for task-specific baselines. The model demonstrates zero-shot transfer to novel objects and tasks through natural language instruction, bringing general-purpose robotic manipulation significantly closer to reality.",
+        "keywords": [
+          "cs.RO",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "language": "en",
+        "entities": [
+          "dexterous manipulation",
+          "VLA model",
+          "ICLR 2026"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.RO listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.01151",
+      "title": "D-REX: Differentiable Real-to-Sim-to-Real for Learning Dexterous Grasping",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.01151",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "D-REX introduces a fully differentiable pipeline that bridges the real-to-sim-to-real gap for dexterous robotic grasping. By making the entire simulation chain differentiable, including contact dynamics and rendering, the system achieves 94% grasp success rate on novel objects with only 10 minutes of real-world fine-tuning. ICLR 2026 Poster. This represents a 3x reduction in real-world training data requirements compared to prior methods.",
+        "keywords": [
+          "cs.RO",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": [
+          "sim-to-real",
+          "dexterous grasping",
+          "differentiable simulation"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.RO listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.01113",
+      "title": "From Dialogue to Execution: Mixture-of-Agents for Behavior Tree-Based Long-Horizon Robot Tasks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.01113",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We propose a mixture-of-agents framework that converts natural language dialogue into executable behavior trees for long-horizon robotic tasks. The system decomposes complex instructions into hierarchical sub-tasks, assigns specialized agents to each sub-tree, and coordinates execution through a shared world model. Demonstrated on 25 household tasks requiring 10+ sequential steps, achieving 72% end-to-end success rate, 3x higher than single-agent baselines.",
+        "keywords": [
+          "cs.RO",
+          "cs.AI",
+          "cs.MA"
+        ],
+        "language": "en",
+        "entities": [
+          "behavior trees",
+          "multi-agent",
+          "long-horizon planning"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.RO listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00534",
+      "title": "Pressure-Tuned Double-Dome Superconductivity in KZnBi with Honeycomb Lattice",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00534",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We report the discovery of pressure-tuned double-dome superconductivity in KZnBi, a material with a layered honeycomb lattice structure. Under hydrostatic pressure, the material exhibits two distinct superconducting phases at 4.2K and 8.7K, connected by a quantum critical point. The double-dome phase diagram suggests competing pairing mechanisms, potentially involving both conventional and topological superconducting states. This provides a new platform for studying unconventional superconductivity.",
+        "keywords": [
+          "cond-mat.supr-con",
+          "cond-mat.mtrl-sci"
+        ],
+        "language": "en",
+        "entities": [
+          "superconductivity",
+          "KZnBi",
+          "honeycomb lattice",
+          "quantum critical point"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cond-mat listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00648",
+      "title": "High-Temperature Superconductivity in Hydrogenated Hexagonal BC3 Monolayer via Sigma-Band Mechanism",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00648",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We predict high-temperature superconductivity (Tc ~67K) in a hydrogenated hexagonal BC3 monolayer through first-principles calculations. The superconducting mechanism is driven by sigma-band electron-phonon coupling, distinct from conventional pi-band mechanisms in graphene-based materials. This represents the highest predicted Tc for a 2D carbon-based superconductor and suggests a new material design strategy for room-temperature superconductivity through sigma-band engineering.",
+        "keywords": [
+          "cond-mat.supr-con",
+          "cond-mat.mtrl-sci",
+          "physics.comp-ph"
+        ],
+        "language": "en",
+        "entities": [
+          "BC3 monolayer",
+          "high-Tc superconductor",
+          "2D materials"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cond-mat listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00193",
+      "title": "Multimodal Alignment Improves Generalizability of Genomic Biomarker Prediction in Computational Pathology",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00193",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We demonstrate that multimodal alignment between histopathology images and genomic data significantly improves biomarker prediction generalizability across cancer types. Our approach achieves 91% accuracy on 14 cancer types, reducing the performance gap between seen and unseen cancer types by 65%. The model enables rapid genomic profiling from routine tissue slides, potentially replacing expensive and slow sequencing for clinical decision-making.",
+        "keywords": [
+          "q-bio.QM",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": [
+          "computational pathology",
+          "genomic biomarkers",
+          "multimodal AI"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv q-bio listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.07331",
+      "title": "Causal Attribution of Coastal Water Clarity Degradation to Nickel Processing Expansion in Indonesia",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.07331",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We establish causal attribution of coastal water clarity degradation to the expansion of nickel processing operations at the Morowali Industrial Park in Sulawesi, Indonesia. Using satellite imagery time series (2015-2025) and causal inference methods, we quantify a 47% decline in water clarity correlated with 300% expansion of nickel smelting capacity. The EV battery supply chain's environmental footprint extends beyond mining to coastal ecosystem destruction, challenging green transition narratives.",
+        "keywords": [
+          "physics.ao-ph",
+          "stat.AP",
+          "eess.IV"
+        ],
+        "language": "en",
+        "entities": [
+          "nickel processing",
+          "Indonesia",
+          "EV batteries",
+          "coastal ecosystem"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv physics.ao-ph listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.07227",
+      "title": "Estimating Changes in Extreme Temperature Quantiles: Applied to Desert Temperature Records",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.07227",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We develop novel statistical methods for tracking changes in extreme temperature quantiles using 120 years of desert temperature records from 45 stations. Our Bayesian quantile regression approach detects acceleration in the rate of extreme heat events, with the 99th percentile warming at 2.1x the rate of mean temperatures since 1990. Desert regions now experience 35 additional extreme heat days per year compared to 1970, with implications for habitability thresholds and migration patterns.",
+        "keywords": [
+          "physics.ao-ph",
+          "stat.AP",
+          "stat.ME"
+        ],
+        "language": "en",
+        "entities": [
+          "extreme temperatures",
+          "desert warming",
+          "climate change"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv physics.ao-ph listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00130",
+      "title": "Agentic Hives: Equilibrium, Indeterminacy, and Endogenous Cycles in Self-Organizing Autonomous Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00130",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We develop a theoretical framework for understanding the emergent dynamics of large populations of autonomous AI agents ('Agentic Hives'). Using tools from dynamical systems theory, we prove that populations of 1000+ interacting agents exhibit endogenous business cycles, spontaneous hierarchy formation, and coordination failures analogous to economic recessions. These emergent behaviors arise without explicit programming and pose fundamental governance challenges for multi-agent deployment at scale.",
+        "keywords": [
+          "cs.MA",
+          "cs.AI",
+          "nlin.AO"
+        ],
+        "language": "en",
+        "entities": [
+          "agentic hives",
+          "emergent behavior",
+          "multi-agent systems"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.MA listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.01045",
+      "title": "Silo-Bench: Evaluating Distributed Coordination in Multi-Agent LLM Systems at Scale",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.01045",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "Silo-Bench is the first comprehensive benchmark for evaluating distributed coordination capabilities of multi-agent LLM systems across 120 tasks requiring information sharing, consensus building, and resource allocation among 2-64 agents. Key findings: coordination quality degrades superlinearly beyond 16 agents, information silos emerge spontaneously in 68% of trials, and current LLMs lack robust protocols for distributed decision-making. This identifies critical gaps for enterprise multi-agent deployment.",
+        "keywords": [
+          "cs.MA",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en",
+        "entities": [
+          "multi-agent LLM",
+          "coordination benchmark",
+          "information silos"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.MA listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.04474",
+      "title": "From Spark to Fire: Error Cascades and Mitigation in Multi-Agent LLM Collaboration",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.04474",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "We study error propagation in multi-agent LLM collaboration, documenting how small initial errors ('sparks') cascade into systemic failures ('fires') through agent interactions. Across 500 collaborative tasks, 23% of initial minor errors escalate to critical failures through positive feedback loops among agents that reinforce rather than correct each other's mistakes. We develop circuit-breaker mechanisms that reduce cascade failure rates by 78% through adversarial agent injection.",
+        "keywords": [
+          "cs.MA",
+          "cs.AI",
+          "cs.SE"
+        ],
+        "language": "en",
+        "entities": [
+          "error cascades",
+          "multi-agent",
+          "reliability"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.MA listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00173",
+      "title": "Summer-22B: A Systematic Approach to Video Foundation Model Development at Scale",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00173",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "Summer-22B is a 22-billion parameter video foundation model trained on 2.5 billion video-text pairs with a systematic dataset engineering methodology. The model achieves state-of-the-art on 18 of 22 video understanding benchmarks while demonstrating emergent capabilities in temporal reasoning, action prediction, and causal understanding of physical events. Our dataset curation pipeline identifies that data quality improvements yield 3x more benefit than model scaling at current scale.",
+        "keywords": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": [
+          "video foundation model",
+          "22B parameters",
+          "temporal reasoning"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CV listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00136",
+      "title": "TinyVLM: Zero-Shot Object Detection on Microcontrollers via Knowledge Distillation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00136",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "TinyVLM enables vision-language model capabilities on microcontrollers with as little as 256KB SRAM. Through multi-stage knowledge distillation from a 7B-parameter teacher model, we achieve zero-shot object detection accuracy within 15% of the teacher on 80 COCO categories while running at 5 FPS on an ARM Cortex-M7. This enables intelligent sensing in IoT devices, drones, and embedded systems without cloud connectivity.",
+        "keywords": [
+          "cs.CV",
+          "cs.AI",
+          "cs.AR"
+        ],
+        "language": "en",
+        "entities": [
+          "TinyVLM",
+          "microcontroller AI",
+          "edge computing",
+          "knowledge distillation"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CV listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00729",
+      "title": "Qwen3-Coder-Next: Advancing Code-Focused Language Models with Execution-Guided Training",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00729",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "Qwen3-Coder-Next introduces execution-guided training for code-focused LLMs, where model training is conditioned on actual code execution outcomes rather than static text prediction. The 32B model achieves 89.4% on HumanEval, 78.2% on SWE-bench-verified, and introduces a new 'CodeArchitect' benchmark requiring multi-file project generation. Execution-guided training reduces code hallucination by 67% compared to standard next-token prediction approaches.",
+        "keywords": [
+          "cs.CL",
+          "cs.SE",
+          "cs.PL"
+        ],
+        "language": "en",
+        "entities": [
+          "Qwen3",
+          "code generation",
+          "execution-guided training"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CL listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00296",
+      "title": "Length-Efficient Chain-of-Thought: Reducing Reasoning Verbosity Without Sacrificing Accuracy",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00296",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We develop stepwise penalization strategies that reduce chain-of-thought reasoning length by 55% while maintaining 98% of accuracy. Our approach identifies that 40-60% of reasoning tokens in current CoT implementations are redundant (restating premises, unnecessary elaboration). By training models to recognize and skip redundant reasoning steps, we achieve 2.2x inference cost reduction with minimal quality loss, directly addressing the economic barrier to reasoning-model deployment.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "language": "en",
+        "entities": [
+          "chain-of-thought",
+          "reasoning efficiency",
+          "inference cost"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CL listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.01192",
+      "title": "Grokking as a Phase Transition: Understanding Delayed Generalization Through Singular Learning Theory",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.01192",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We provide the first rigorous theoretical explanation of 'grokking' — the phenomenon where neural networks suddenly generalize long after memorizing training data — using singular learning theory. We prove that grokking is a phase transition between competing loss landscape basins, with the transition timing governed by the relative free energies of memorization and generalization solutions. This framework predicts grokking timing within 15% accuracy and identifies conditions that accelerate or prevent it.",
+        "keywords": [
+          "stat.ML",
+          "cs.LG",
+          "math.ST"
+        ],
+        "language": "en",
+        "entities": [
+          "grokking",
+          "phase transition",
+          "generalization",
+          "singular learning theory"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv stat.ML listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00520",
+      "title": "SWE-ABS: Adversarial Benchmark Strengthening Reveals Inflated Success Rates in Code Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00520",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We demonstrate that current AI code agent benchmarks (SWE-bench, HumanEval) systematically overestimate real-world capabilities. Through adversarial benchmark strengthening, we show that (1) 31% of SWE-bench solutions pass tests but introduce regressions undetected by the test suite, (2) 18% exploit test patterns without genuine understanding, and (3) real-world deployment success rates are 40-60% lower than benchmark scores suggest. We propose SWE-ABS, a strengthened benchmark with adversarial test augmentation.",
+        "keywords": [
+          "cs.SE",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en",
+        "entities": [
+          "code agents",
+          "benchmark evaluation",
+          "SWE-bench"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.SE listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.01327",
+      "title": "SWE-Adept: Agentic Framework for Deep Repository-Level Code Understanding and Issue Resolution",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.01327",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "SWE-Adept introduces an agentic framework that achieves 52.3% resolution rate on SWE-bench-verified through deep repository understanding. Unlike prior approaches that rely on file-level matching, SWE-Adept constructs dependency graphs, identifies affected code paths, and generates multi-file patches with test coverage. The system reduces median time-to-resolution from 4 hours (human baseline) to 12 minutes while generating patches that pass human code review 78% of the time.",
+        "keywords": [
+          "cs.SE",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en",
+        "entities": [
+          "code agents",
+          "repository analysis",
+          "automated repair"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.SE listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.12417",
+      "title": "Topology as Information: Network Effects in Corporate Lending and Systemic Risk",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12417",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "We demonstrate that the topology of corporate lending networks contains information about systemic risk that is not captured by traditional financial indicators. Using a dataset of 45,000 corporate loans across 12 European countries, we show that network centrality metrics predict default cascades 6 months before traditional credit scores deteriorate. Financial regulators currently miss 40% of systemic risk by ignoring network topology, suggesting fundamental reforms to bank stress testing frameworks are needed.",
+        "keywords": [
+          "q-fin.RM",
+          "physics.soc-ph",
+          "cs.SI"
+        ],
+        "language": "en",
+        "entities": [
+          "systemic risk",
+          "lending networks",
+          "network topology"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv q-fin listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.01042",
+      "title": "Thoth: Bridging Language Models to Time Series Understanding via Mid-Training Integration",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.01042",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "Thoth presents a mid-training integration method that enables LLMs to natively understand time series data without task-specific fine-tuning. By inserting temporal encoding layers during continued pre-training on 100M time series from 40 domains, the resulting model achieves zero-shot forecasting performance rivaling specialized models while providing natural language explanations of temporal patterns. This unifies text and temporal reasoning in a single model for the first time.",
+        "keywords": [
+          "cs.CL",
+          "cs.LG",
+          "stat.ML"
+        ],
+        "language": "en",
+        "entities": [
+          "time series",
+          "LLM",
+          "temporal reasoning",
+          "foundation model"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CL listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.00185",
+      "title": "ThreatFormer-IDS: Robust Intrusion Detection with Zero-Day Generalization",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00185",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "ThreatFormer-IDS introduces a transformer-based intrusion detection system that achieves 94% detection rate on zero-day attacks, compared to 23% for signature-based systems and 67% for existing ML-based IDS. The model uses self-supervised pre-training on 500M+ network flow records to learn normal traffic patterns, then detects anomalies through attention-based deviation scoring. Deployable at line rate (100 Gbps) using FPGA acceleration, making it practical for enterprise and ISP networks.",
+        "keywords": [
+          "cs.CR",
+          "cs.LG",
+          "cs.NI"
+        ],
+        "language": "en",
+        "entities": [
+          "intrusion detection",
+          "zero-day attacks",
+          "transformer",
+          "network security"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv cs.CR listing",
+          "method": "category_listing_scan"
+        }
+      }
+    },
+    {
+      "id": "arxiv-2603.01109",
+      "title": "A Stochastic Correlation Extension of the Vasicek Credit Risk Model for Macro-Prudential Stress Testing",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.01109",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "We extend the classical Vasicek credit risk model with stochastic correlation to capture regime-dependent default clustering. Our model reproduces the 2008 and 2020 crisis patterns where asset correlations spike during stress, amplifying portfolio losses by 2-3x beyond static correlation estimates. Application to current portfolios suggests that under stressed correlation regimes, bank capital requirements are 35-50% higher than Basel III prescribes, indicating potential systemic under-capitalization.",
+        "keywords": [
+          "q-fin.RM",
+          "q-fin.MF",
+          "stat.AP"
+        ],
+        "language": "en",
+        "entities": [
+          "credit risk",
+          "Vasicek model",
+          "stress testing",
+          "Basel III"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-17T23:31:25+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "step": "1.2",
+          "timestamp": "2026-03-17T23:31:25+00:00",
+          "source": "arXiv q-fin listing",
+          "method": "category_listing_scan"
+        }
+      }
+    }
+  ],
+  "definite_duplicates_removed": [
+    {
+      "signal_id": "arxiv-2603.09008",
+      "title": "Scaling Quantum Machine Learning: Variational Image Generation Beyond Classical Simulability",
+      "matched_signal": "arxiv-2026-03-12-046",
+      "matched_title": "Photonic Quantum Machine Learning under Noise",
+      "stage": "B_topic",
+      "score": 0.6
+    },
+    {
+      "signal_id": "arxiv-2603.08853",
+      "title": "LLM-Agent Interactions on Markets with Information Asymmetries",
+      "matched_signal": "arxiv-2026-03-12-010",
+      "matched_title": "LLM-Agent Interactions on Markets with Information Asymmetries",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.07213",
+      "title": "From Debt Crises to Financial Crashes: A Stock-Flow Consistent Model for Stock Price Bubbles",
+      "matched_signal": "arxiv-2026-03-12-039",
+      "matched_title": "From debt crises to financial crashes (and back): a stock-flow consistent model for stock price bubbles",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.01820",
+      "title": "Deep Learning for Financial Time Series: A Large-Scale Benchmark of Risk-Adjusted Performance",
+      "matched_signal": "arxiv-2603.10999",
+      "matched_title": "Double Machine Learning for Time Series",
+      "stage": "B_topic",
+      "score": 0.6
+    },
+    {
+      "signal_id": "arxiv-2603.00048",
+      "title": "MOSAIC: Unveiling the Moral, Social, and Individual Dimensions of Large Language Models",
+      "matched_signal": "wf2-2603.04276v1",
+      "matched_title": "Causality Elicitation from Large Language Models",
+      "stage": "B_topic",
+      "score": 0.6
+    },
+    {
+      "signal_id": "arxiv-2603.04939",
+      "title": "When Minor Issues Matter: Symmetries, Pluralism, and Polarization in Opinion Dynamics",
+      "matched_signal": "wf2-2603.04939v1",
+      "matched_title": "When minor issues matter: symmetries, pluralism, and polarization in similarity-based opinion dynamics",
+      "stage": "B_topic",
+      "score": 0.9
+    },
+    {
+      "signal_id": "arxiv-2603.10221",
+      "title": "The Propensity for Disobedience: Rule-Breaking, Compliance, and Social Phase Transitions",
+      "matched_signal": "arxiv-2603.10221",
+      "matched_title": "The propensity for disobedience: Rule-breaking, compliance and social phase transitions",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.01855",
+      "title": "Quantum-PROBE: Rydberg Atomic Receiver for Multi-Angle RF Sensing with Quantum Advantage",
+      "matched_signal": "arxiv-2026-03-12-003",
+      "matched_title": "Has quantum advantage been achieved?",
+      "stage": "B_topic",
+      "score": 0.6667
+    },
+    {
+      "signal_id": "arxiv-2603.03555",
+      "title": "Molt Dynamics: Emergent Social Phenomena in Autonomous AI Agent Populations",
+      "matched_signal": "wf2-2603.03555",
+      "matched_title": "",
+      "stage": "A_url",
+      "score": 1.0
+    }
+  ]
+}

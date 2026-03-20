@@ -1,0 +1,27 @@
+{
+  "gate_id": "exploration_gate.py",
+  "gate_version": "1.3.0",
+  "command": "post",
+  "recorded_at": "2026-03-19T00:42:09.819346+00:00",
+  "date": "2026-03-19",
+  "gate_decision": "MUST_RUN",
+  "execution_status": "executed",
+  "method_used": "single-agent",
+  "results": {
+    "candidates_discovered": 5,
+    "viable_count": 5,
+    "signals_collected": 8,
+    "gaps_analyzed": [
+      "S_Social",
+      "s_spiritual",
+      "P_Political",
+      "E_Environmental"
+    ]
+  },
+  "files": {
+    "decision": "env-scanning/wf1-general/exploration/gate-decision-2026-03-19.json",
+    "candidates": "env-scanning/wf1-general/exploration/candidates/exploration-candidates-2026-03-19.json",
+    "signals": "env-scanning/wf1-general/exploration/exploration-signals-2026-03-19.json",
+    "frontier_selection": "env-scanning/wf1-general/exploration/frontier-selection-2026-03-19.json"
+  }
+}

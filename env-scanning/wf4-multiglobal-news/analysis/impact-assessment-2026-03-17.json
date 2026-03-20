@@ -1,0 +1,288 @@
+{
+  "metadata": {
+    "date": "2026-03-17",
+    "workflow": "wf4-multiglobal-news"
+  },
+  "assessments": [
+    {
+      "id": "news-20260317-aljazeera-001",
+      "title": "Iran War Enters Third Week — Global Economy Shows Tell-Tale Signs of Crisis",
+      "impact_score": 9.5,
+      "probability": 0.7,
+      "urgency": 9,
+      "novelty": 8
+    },
+    {
+      "id": "news-20260317-time-001",
+      "title": "How the War With Iran Is Impacting Economies Across Asia — Inflation Wave",
+      "impact_score": 9.5,
+      "probability": 0.7,
+      "urgency": 9,
+      "novelty": 8
+    },
+    {
+      "id": "news-20260317-csis-001",
+      "title": "What Does the Iran War Mean for Global Energy Markets? — CSIS Analysis",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": 9,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-wef-001",
+      "title": "The Global Price Tag of War in the Middle East — WEF Assessment",
+      "impact_score": 9.5,
+      "probability": 0.7,
+      "urgency": 9,
+      "novelty": 8
+    },
+    {
+      "id": "news-20260317-cnn-001",
+      "title": "Iran War Day 17: Pentagon Sends USS Tripoli to Middle East, Trump Calls on Allies",
+      "impact_score": 9.5,
+      "probability": 0.7,
+      "urgency": 9,
+      "novelty": 8
+    },
+    {
+      "id": "news-20260317-cnbc-001",
+      "title": "Trump Section 301 Trade Probes to Replace IEEPA Tariffs — 60 Countries Scrutinized",
+      "impact_score": 8.0,
+      "probability": 0.7,
+      "urgency": 7,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-wef-002",
+      "title": "Middle East Conflict Hits Shipping and Oil Prices — Global Trade Fragmenting",
+      "impact_score": 8.0,
+      "probability": 0.7,
+      "urgency": 7,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-taxfound-001",
+      "title": "Trump Tariffs Largest US Tax Increase Since 1993 — $1,500 Per Household Average",
+      "impact_score": 7.0,
+      "probability": 0.7,
+      "urgency": 7,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-nvidia-001",
+      "title": "NVIDIA GTC 2026: Jensen Huang Projects $1 Trillion in Orders Through 2027",
+      "impact_score": 6.5,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 6
+    },
+    {
+      "id": "news-20260317-nvidia-002",
+      "title": "NVIDIA-AWS Expanded Partnership: 1 Million GPUs, Full AI Computing Stack",
+      "impact_score": 6.5,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-nvidia-003",
+      "title": "Autonomous Vehicles Surge: Uber 28-City Fleet, Nissan/BYD/Hyundai Level 4 on NVIDIA Drive",
+      "impact_score": 6.5,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 6
+    },
+    {
+      "id": "news-20260317-sedaily-001",
+      "title": "Samsung and SK Hynix Tapped as NVIDIA Vera Rubin HBM4 Suppliers — Shipments Start March",
+      "impact_score": 6.5,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 6
+    },
+    {
+      "id": "news-20260317-iaea-001",
+      "title": "Nuclear Energy Summit 2026: China and Brazil Join Pledge to Triple Capacity by 2050",
+      "impact_score": 7.0,
+      "probability": 0.5,
+      "urgency": 5,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-eadaily-001",
+      "title": "Orban: Europe Preparing for War — Deployment of Troops to Ukraine Matter of Time",
+      "impact_score": 8.0,
+      "probability": 0.7,
+      "urgency": 7,
+      "novelty": 8
+    },
+    {
+      "id": "news-20260317-united24-001",
+      "title": "Russia Could Field Up to 9 Million Drones in 2026 — EU Commissioner Warning",
+      "impact_score": 8.0,
+      "probability": 0.7,
+      "urgency": 7,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-consilium-001",
+      "title": "EU Extends Ukraine-Related Sanctions for Six More Months — Until September 2026",
+      "impact_score": 6.0,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-diplo-001",
+      "title": "Trump Postpones US-China Relations Reboot Amid Hormuz Pressure",
+      "impact_score": 6.5,
+      "probability": 0.5,
+      "urgency": 5,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-diplo-002",
+      "title": "South Korea: Former President Yoon Suk Yeol Sentenced to Life — Democracy Test",
+      "impact_score": 7.0,
+      "probability": 0.5,
+      "urgency": 5,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-diplo-003",
+      "title": "North Korea: Kim Jong Un Demands US Accept Nuclear Status Before Talks Resume",
+      "impact_score": 8.0,
+      "probability": 0.7,
+      "urgency": 7,
+      "novelty": 8
+    },
+    {
+      "id": "news-20260317-bush-001",
+      "title": "Global Health Update March 16: PEPFAR Transition, WHO Withdrawal, Bilateral Agreements",
+      "impact_score": 7.0,
+      "probability": 0.5,
+      "urgency": 5,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-unicef-001",
+      "title": "Social Protection Leaves 3.8 Billion Unprotected — Bounded Universalism Emerges",
+      "impact_score": 6.0,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-healtho-001",
+      "title": "AI-Driven Cyberattacks Surge in March 2026 — Deepfake Campaigns Escalate",
+      "impact_score": 7.0,
+      "probability": 0.5,
+      "urgency": 5,
+      "novelty": 6
+    },
+    {
+      "id": "news-20260317-quantum-001",
+      "title": "Quantum Computing Reaches 'Transistor Moment' — Error Correction Breakthrough in 2026",
+      "impact_score": 6.5,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 6
+    },
+    {
+      "id": "news-20260317-democnow-001",
+      "title": "Trump Reopens US Embassy in Venezuela; Cuba Energy Crisis Deepens with Protests",
+      "impact_score": 6.0,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-csis-002",
+      "title": "Japan Strategic Shift: Growing Support for Nationalist AI and Defense Capabilities",
+      "impact_score": 6.5,
+      "probability": 0.5,
+      "urgency": 5,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-csis-003",
+      "title": "China Strengthens Undersea Warfare for Far-Seas Power Projection",
+      "impact_score": 7.0,
+      "probability": 0.5,
+      "urgency": 5,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-diplo-004",
+      "title": "India-Russia Crude Oil Flows May Endure Despite US Pressure — Middle East Disruption Factor",
+      "impact_score": 6.0,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-nvidia-004",
+      "title": "Roche Deploys 3,500+ NVIDIA Blackwell GPUs for AI-Driven Drug Discovery",
+      "impact_score": 6.5,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 6
+    },
+    {
+      "id": "news-20260317-deloitte-001",
+      "title": "Global Economic Outlook 2026: War and Tariffs Create Dual Headwinds",
+      "impact_score": 6.5,
+      "probability": 0.5,
+      "urgency": 5,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-pbs-001",
+      "title": "Pandemic Preparedness 2026: WHO Pandemic Agreement Annex Critical Year",
+      "impact_score": 5.5,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 6
+    },
+    {
+      "id": "news-20260317-dassault-001",
+      "title": "Dassault AI-Powered Virtual Twins at GTC 2026 — Biology, Materials, Manufacturing",
+      "impact_score": 6.5,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 6
+    },
+    {
+      "id": "news-20260317-science-001",
+      "title": "Chickpeas Grown in Lunar Soil Simulation — Breakthrough for Space Colonization Food Security",
+      "impact_score": 5.5,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 6
+    },
+    {
+      "id": "news-20260317-piie-001",
+      "title": "EU and Ukraine War: More Money But Not More Europe — Defense Budget Dilemma",
+      "impact_score": 6.0,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-lancet-001",
+      "title": "Lancet Commission: Global Health Trends 1970-2050 — Demographic and Epidemiological Shifts",
+      "impact_score": 6.0,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 5
+    },
+    {
+      "id": "news-20260317-seekalpha-001",
+      "title": "SanDisk: NVIDIA GTC 2026 Storage Announcement Could Be Gamechanger",
+      "impact_score": 5.5,
+      "probability": 0.5,
+      "urgency": 4,
+      "novelty": 6
+    }
+  ]
+}

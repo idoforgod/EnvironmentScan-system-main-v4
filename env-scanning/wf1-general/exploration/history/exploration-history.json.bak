@@ -101,20 +101,294 @@
       "signals_collected": 3,
       "gaps_analyzed": [],
       "recorded_by": "exploration_gate.py (safety net)"
+    },
+    {
+      "date": "2026-02-26",
+      "timestamp": "2026-02-26T21:53:18.468687+00:00",
+      "method_used": "agent-team",
+      "candidates_discovered": 0,
+      "viable_count": 0,
+      "signals_collected": 0,
+      "gaps_analyzed": [],
+      "recorded_by": "exploration_gate.py (safety net)"
+    },
+    {
+      "date": "2026-03-06",
+      "timestamp": "2026-03-06T00:33:46.720503+00:00",
+      "method_used": "agent-team",
+      "candidates_discovered": 3,
+      "viable_count": 3,
+      "signals_collected": 0,
+      "gaps_analyzed": [
+        "S_Social",
+        "s_spiritual",
+        "E_Environmental"
+      ],
+      "candidates": [
+        {
+          "name": "ScienceDaily Sustainability",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "environmental sustainability climate news RSS feed"
+        },
+        {
+          "name": "Disrupt Africa",
+          "discovery_method": "random",
+          "scan_status": "viable",
+          "discovery_query": "African innovation technology RSS"
+        },
+        {
+          "name": "Quanta Magazine Biology",
+          "discovery_method": "random",
+          "scan_status": "viable",
+          "discovery_query": "quantum biology applications"
+        }
+      ],
+      "recorded_by": "exploration-orchestrator (Stage C)"
+    },
+    {
+      "date": "2026-03-07",
+      "timestamp": "2026-03-07T01:08:36.901693+00:00",
+      "method_used": "single-agent",
+      "candidates_discovered": 4,
+      "viable_count": 4,
+      "signals_collected": 0,
+      "gaps_analyzed": [
+        "E_Environmental",
+        "E_Economic",
+        "s_spiritual",
+        "S_Social"
+      ],
+      "candidates": [
+        {
+          "name": "Yale Climate Connections",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "environmental sustainability climate change news RSS feed"
+        },
+        {
+          "name": "CEPR VoxEU",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "global economics finance trade news RSS feed research blog"
+        },
+        {
+          "name": "Genetic Literacy Project",
+          "discovery_method": "random",
+          "scan_status": "viable",
+          "discovery_query": "synthetic biology ethics governance RSS feed"
+        },
+        {
+          "name": "Positive Psychology News",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "ethics psychology values meaning well-being spirituality RSS feed blog"
+        }
+      ],
+      "recorded_by": "exploration-orchestrator (Stage C)",
+      "user_decisions": [
+        {
+          "name": "Yale Climate Connections",
+          "decision": "approved",
+          "tier": "expansion"
+        },
+        {
+          "name": "CEPR VoxEU",
+          "decision": "approved",
+          "tier": "expansion"
+        },
+        {
+          "name": "Genetic Literacy Project",
+          "decision": "approved",
+          "tier": "expansion"
+        },
+        {
+          "name": "Positive Psychology News",
+          "decision": "approved",
+          "tier": "expansion"
+        }
+      ],
+      "decision_date": "2026-03-07",
+      "candidates_promoted": 4
+    },
+    {
+      "date": "2026-03-09",
+      "timestamp": "2026-03-08T23:00:49.194444+00:00",
+      "method_used": "single-agent",
+      "candidates_discovered": 5,
+      "viable_count": 5,
+      "signals_collected": 5,
+      "gaps_analyzed": [
+        "S_Social",
+        "E_Economic",
+        "E_Environmental",
+        "P_Political",
+        "s_spiritual"
+      ],
+      "candidates": [
+        {
+          "name": "International Labour Organization",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "social inequality labor migration"
+        },
+        {
+          "name": "Mongabay",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "climate biodiversity environmental policy"
+        },
+        {
+          "name": "Future of Privacy Forum",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "geopolitics regulation international law"
+        },
+        {
+          "name": "Philosophical Studies (Springer)",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "AI ethics values meaning existential risk"
+        },
+        {
+          "name": "Hancock Whitney",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "global economic policy shifts emerging markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "timestamp": "2026-03-19T00:22:09.144949+00:00",
+      "method_used": "single-agent",
+      "candidates_discovered": 5,
+      "viable_count": 5,
+      "signals_collected": 8,
+      "gaps_analyzed": [
+        "S_Social",
+        "s_spiritual",
+        "P_Political",
+        "E_Environmental"
+      ],
+      "candidates": [
+        {
+          "name": "The Hastings Center",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "bioethics gene editing moral framework"
+        },
+        {
+          "name": "The New Humanitarian",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "death dying dignity end of life ethics RSS"
+        },
+        {
+          "name": "Mongabay",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "Latin American sustainability news"
+        },
+        {
+          "name": "MercoPress",
+          "discovery_method": "random",
+          "scan_status": "viable",
+          "discovery_query": "Latin American sustainability news"
+        },
+        {
+          "name": "Social Current",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "youth culture generation Z trends research"
+        }
+      ],
+      "recorded_by": "exploration-orchestrator (Stage C)"
     }
   ],
-  "approved": [],
+  "approved": [
+    {
+      "name": "ScienceDaily Sustainability",
+      "approved_date": "2026-03-06",
+      "promoted_to": "expansion",
+      "discovery_date": "2026-03-06",
+      "discovery_method": "gap_directed",
+      "rss_url": "https://www.sciencedaily.com/rss/earth_climate/sustainability.xml",
+      "steeps_focus": [
+        "E_Environmental"
+      ],
+      "approval_reason": "User-approved: fills E_Environmental gap with research-backed content"
+    },
+    {
+      "name": "Disrupt Africa",
+      "approved_date": "2026-03-06",
+      "promoted_to": "expansion",
+      "discovery_date": "2026-03-06",
+      "discovery_method": "random_frontier",
+      "rss_url": "https://disruptafrica.com/feed/",
+      "steeps_focus": [
+        "T_Technological",
+        "E_Economic",
+        "S_Social"
+      ],
+      "approval_reason": "User-approved: adds geographic diversity (Africa) missing from portfolio"
+    },
+    {
+      "name": "Quanta Magazine Biology",
+      "approved_date": "2026-03-06",
+      "promoted_to": "expansion",
+      "discovery_date": "2026-03-06",
+      "discovery_method": "random_frontier",
+      "rss_url": "https://www.quantamagazine.org/biology/feed",
+      "steeps_focus": [
+        "T_Technological",
+        "S_Social"
+      ],
+      "approval_reason": "User-approved: deep science journalism filling interdisciplinary gap"
+    },
+    {
+      "name": "IPBES News",
+      "decision": "approved",
+      "decided_at": "2026-03-19T23:10:49.976306+00:00",
+      "url": "https://www.ipbes.net/news",
+      "type": "policy",
+      "auto_promoted": true,
+      "quality_score": 0.75,
+      "discovery_method": "unknown"
+    },
+    {
+      "name": "Earth.Org",
+      "decision": "approved",
+      "decided_at": "2026-03-19T23:10:50.008260+00:00",
+      "url": "https://earth.org/feed/",
+      "type": "science_journalism",
+      "auto_promoted": true,
+      "quality_score": 0.82,
+      "discovery_method": "unknown"
+    }
+  ],
   "discarded": [],
   "deferred": [],
   "learning": {
-    "last_update": "2026-02-15T02:50:08.576488+00:00",
-    "scans_analyzed": 1,
+    "last_update": "2026-03-19T00:22:09.145422+00:00",
+    "scans_analyzed": 5,
     "keyword_successes": {
       "environmental sustainability climate change independent news": 1,
       "conservation environment Latin America sustainability": 1,
       "health neurotechnology brain-computer interface policy": 1,
       "food systems innovation": 1,
-      "AI ethics governance neurotechnology": 1
+      "AI ethics governance neurotechnology": 1,
+      "environmental sustainability climate news RSS feed": 1,
+      "African innovation technology RSS": 1,
+      "quantum biology applications": 1,
+      "environmental sustainability climate change news RSS feed": 1,
+      "global economics finance trade news RSS feed research blog": 1,
+      "synthetic biology ethics governance RSS feed": 1,
+      "ethics psychology values meaning well-being spirituality RSS feed blog": 1,
+      "bioethics gene editing moral framework": 1,
+      "death dying dignity end of life ethics RSS": 1,
+      "Latin American sustainability news": 1,
+      "youth culture generation Z trends research": 1
     }
   }
 }

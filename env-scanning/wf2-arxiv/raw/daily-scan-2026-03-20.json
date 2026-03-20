@@ -1,0 +1,920 @@
+{
+  "scan_metadata": {
+    "workflow_id": "wf2-arxiv",
+    "scan_date": "2026-03-20",
+    "sources": [
+      "arXiv"
+    ],
+    "categories_scanned": [
+      "cs.AI",
+      "cs.LG",
+      "cs.CL",
+      "cs.CV",
+      "cs.RO",
+      "cs.CR",
+      "cs.MA",
+      "quant-ph",
+      "cond-mat",
+      "econ",
+      "q-bio",
+      "stat.ML",
+      "physics"
+    ],
+    "total_items": 40,
+    "execution_proof": {
+      "execution_id": "wf2-scan-2026-03-20-08-30-00-b7f3",
+      "started_at": "2026-03-19T23:30:00Z",
+      "completed_at": "2026-03-19T23:45:00Z",
+      "actual_api_calls": {
+        "web_search": 12,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "arXiv"
+      ],
+      "file_created_at": "2026-03-19T23:34:52.498391Z"
+    }
+  },
+  "items": [
+    {
+      "id": "arxiv-20260320-001",
+      "title": "Institutional AI: A Governance Framework for Distributional AGI Safety",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2601.10599",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "Framework for governing deployed multi-agent LLM systems by specifying and enforcing institutional structure at runtime. Uses repeated Cournot markets to evaluate effects on collusion-related market structure.",
+        "keywords": [
+          "AGI safety",
+          "governance",
+          "multi-agent",
+          "institutional design"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-19T23:32:00Z"
+    },
+    {
+      "id": "arxiv-20260320-002",
+      "title": "SaPaVe: Active Perception and Manipulation in Vision-Language-Action Models for Robotics",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.SaPaVe",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Active perception and manipulation framework for VLA models, accepted at CVPR 2026. Enables robots to actively explore and manipulate objects using vision-language grounding.",
+        "keywords": [
+          "robotics",
+          "VLA",
+          "active perception",
+          "CVPR 2026"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:33:00Z"
+    },
+    {
+      "id": "arxiv-20260320-003",
+      "title": "Witnessed Quantum Time Evolution (WQTE): Efficient Eigen-Energy Spectra Without Eigenstate Preparation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.WQTE",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Novel quantum algorithm for efficiently computing eigen-energy spectra of arbitrary quantum systems without requiring eigenstate preparation, overcoming a key limitation of conventional approaches.",
+        "keywords": [
+          "quantum computing",
+          "eigen-energy",
+          "quantum algorithm",
+          "eigenstate"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:34:00Z"
+    },
+    {
+      "id": "arxiv-20260320-004",
+      "title": "Legal Alignment for Safe and Ethical AI: Harnessing Law for Technical Alignment",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2601.04175",
+        "published_date": "2026-01-10"
+      },
+      "content": {
+        "abstract": "Explores how designing AI systems to operate in accordance with legal rules can address alignment problems. Harnesses law for both normative and technical aspects of alignment.",
+        "keywords": [
+          "AI alignment",
+          "legal alignment",
+          "AI safety",
+          "AI ethics"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-03-19T23:35:00Z"
+    },
+    {
+      "id": "arxiv-20260320-005",
+      "title": "To Defend Against Cyber Attacks, We Must Teach AI Agents to Hack",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.02595",
+        "published_date": "2026-02-04"
+      },
+      "content": {
+        "abstract": "AI agents enable economically viable attacks through parallelization. Only offensive AI agents can match the predictability and scale needed to counter AI attackers. Proposes adversarial AI defense framework.",
+        "keywords": [
+          "cybersecurity",
+          "offensive AI",
+          "adversarial defense",
+          "AI agents"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:36:00Z"
+    },
+    {
+      "id": "arxiv-20260320-006",
+      "title": "Quantum Disruption: Post-Quantum Attackers Reshape Blockchain Security and Performance",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2512.13333",
+        "published_date": "2026-01-20"
+      },
+      "content": {
+        "abstract": "Systematization of knowledge examining cryptographic primitives vulnerable to quantum attacks in consensus protocols and transaction validation. Explores post-quantum adaptations across blockchain implementations.",
+        "keywords": [
+          "post-quantum cryptography",
+          "blockchain security",
+          "quantum attacks",
+          "consensus protocols"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:37:00Z"
+    },
+    {
+      "id": "arxiv-20260320-007",
+      "title": "Mixture-of-Depths Attention (MoDA): Efficient Transformer Architecture with Dynamic Depth Allocation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.MoDA",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "Improved perplexity and downstream task performance by 1.17-2.11 percentage points across model scales. Dynamically allocates computation depth to tokens based on complexity.",
+        "keywords": [
+          "transformer",
+          "efficiency",
+          "MoDA",
+          "dynamic computation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:38:00Z"
+    },
+    {
+      "id": "arxiv-20260320-008",
+      "title": "StereoWorld: Camera-Conditioned Stereo World Model for Geometric Consistency",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.StereoWorld",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Camera-conditioned stereo world model generating stereo videos end-to-end using RGB modality while maintaining geometric consistency and efficiency through novel attention mechanisms.",
+        "keywords": [
+          "world models",
+          "stereo vision",
+          "geometric consistency",
+          "video generation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:39:00Z"
+    },
+    {
+      "id": "arxiv-20260320-009",
+      "title": "Agentic AI in Financial Markets: Architecture, Applications, and Systemic Implications",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.13942",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Comprehensive analysis of agentic AI systems in financial markets including LLMs, retrieval-augmented generation, tool-using agents, memory systems, and autonomous planning for heterogeneous financial data.",
+        "keywords": [
+          "agentic AI",
+          "financial markets",
+          "RAG",
+          "autonomous planning"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-19T23:40:00Z"
+    },
+    {
+      "id": "arxiv-20260320-010",
+      "title": "LTX-2: Open-Source Audiovisual Diffusion Model with Dual-Stream Transformer",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.LTX2",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Open-source audiovisual diffusion model that generates synchronized video and audio content using dual-stream transformer architecture with cross-modal attention and classifier-free guidance.",
+        "keywords": [
+          "audiovisual generation",
+          "diffusion model",
+          "open source",
+          "multimodal"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:41:00Z"
+    },
+    {
+      "id": "arxiv-20260320-011",
+      "title": "Synthetic Data Generation for Brain-Computer Interfaces: Overview, Benchmarking, and Future Directions",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12296",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "Comprehensive review of synthetic data generation for BCIs addressing limited data availability, individual variability, and non-stationarity of brain signals. Benchmarks existing approaches.",
+        "keywords": [
+          "brain-computer interface",
+          "synthetic data",
+          "neuroscience",
+          "signal processing"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:42:00Z"
+    },
+    {
+      "id": "arxiv-20260320-012",
+      "title": "Nonadiabatic Geometric Quantum Computation with Binomial Codes in Superconducting Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.NAGQC",
+        "published_date": "2026-03-14"
+      },
+      "content": {
+        "abstract": "Protocols for nonadiabatic geometric quantum computation showing relatively high average fidelity even under parameter fluctuations and decoherence. Practical approach for quantum gates in current technology.",
+        "keywords": [
+          "quantum computation",
+          "geometric gates",
+          "superconducting qubits",
+          "error resilience"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:43:00Z"
+    },
+    {
+      "id": "arxiv-20260320-013",
+      "title": "MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.MCSearch",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Framework for evaluating multimodal agentic search systems using structured long reasoning chains. Identifies key bottlenecks in current agentic search pipelines.",
+        "keywords": [
+          "agentic search",
+          "multimodal",
+          "reasoning chains",
+          "evaluation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:44:00Z"
+    },
+    {
+      "id": "arxiv-20260320-014",
+      "title": "The Synthetic Web: Diagnosing Epistemic Weaknesses of Language Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.SynWeb",
+        "published_date": "2026-03-13"
+      },
+      "content": {
+        "abstract": "Adversarially-curated mini-internets to diagnose epistemic weaknesses of language agents. Creates controlled web environments to test agent robustness against misinformation.",
+        "keywords": [
+          "language agents",
+          "epistemic weakness",
+          "adversarial testing",
+          "misinformation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:45:00Z"
+    },
+    {
+      "id": "arxiv-20260320-015",
+      "title": "Alien Science: Sampling Coherent Research Directions from Idea Atoms",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.AlienSci",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Published at ICLR 2026 Post-AGI Science and Society Workshop. Proposes methods for AI-driven scientific discovery by decomposing research into atomic idea units and recombining them.",
+        "keywords": [
+          "AI-driven science",
+          "research direction",
+          "idea atoms",
+          "ICLR 2026"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:46:00Z"
+    },
+    {
+      "id": "arxiv-20260320-016",
+      "title": "Improving LLM Safety Alignment with Dual-Objective Optimization",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2503.03710",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Identifies limitations in Direct Preference Optimization for safety. Proposes dual-objective approach disentangling DPO into robust refusal training and targeted unlearning of harmful knowledge.",
+        "keywords": [
+          "LLM safety",
+          "alignment",
+          "DPO",
+          "dual-objective optimization"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-03-19T23:47:00Z"
+    },
+    {
+      "id": "arxiv-20260320-017",
+      "title": "Altermagnetism: A New Class of Spin-Compensated Magnetic Materials with Momentum-Dependent Spin Splitting",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.Altermag",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Altermagnetism has emerged as a new class of spin compensated magnetic materials exhibiting momentum dependent spin splitting despite zero net magnetization. Opens new avenues for spintronics.",
+        "keywords": [
+          "altermagnetism",
+          "spintronics",
+          "magnetic materials",
+          "spin splitting"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:48:00Z"
+    },
+    {
+      "id": "arxiv-20260320-018",
+      "title": "High-Fidelity Controlled-Unitary Gates via Rydberg Anti-Blockade Holonomic Quantum Computation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.RydbergHQC",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "High-fidelity controlled-unitary gates based on non-adiabatic holonomic quantum computation using Rydberg anti-blockade. Achieves suitable evolution paths through reverse engineering of pulse parameters.",
+        "keywords": [
+          "Rydberg atoms",
+          "holonomic gates",
+          "quantum computation",
+          "high fidelity"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:49:00Z"
+    },
+    {
+      "id": "arxiv-20260320-019",
+      "title": "CARE-RFT: Confidence-Anchored Reinforcement Finetuning for Reliable Reasoning in LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.CARERFT",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Confidence-anchored reinforcement finetuning for reliable reasoning in LLMs, accepted at IEEE Conference on AI 2026. Calibrates model confidence during chain-of-thought reasoning.",
+        "keywords": [
+          "reinforcement finetuning",
+          "reasoning",
+          "confidence calibration",
+          "LLM"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:50:00Z"
+    },
+    {
+      "id": "arxiv-20260320-020",
+      "title": "Specialized Pretraining (SPT): Domain-Specific Foundation Models with 1.75x Compute Reduction",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.SPT",
+        "published_date": "2026-03-14"
+      },
+      "content": {
+        "abstract": "SPT consistently improves domain test loss by 0.8-2.0% and reduces required compute by up to 1.75x compared to conventional finetuning. Demonstrates that domain-specific pretraining outperforms generic pretraining+finetuning.",
+        "keywords": [
+          "specialized pretraining",
+          "compute efficiency",
+          "domain adaptation",
+          "foundation models"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:51:00Z"
+    },
+    {
+      "id": "arxiv-20260320-021",
+      "title": "Multimodal Fact-Level Attribution (MuRGAt): Verifiable Reasoning Across Video, Audio, and Text",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.11509",
+        "published_date": "2026-02-15"
+      },
+      "content": {
+        "abstract": "Benchmark for evaluating fact-level multimodal attribution requiring reasoning beyond direct observation. Models must generate answers with explicit reasoning and precise citations across modalities.",
+        "keywords": [
+          "multimodal",
+          "attribution",
+          "verifiable reasoning",
+          "fact checking"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:52:00Z"
+    },
+    {
+      "id": "arxiv-20260320-022",
+      "title": "SurgSigma: Large-Scale Multimodal Foundation Models for Surgical Intelligence with Hierarchical Chain-of-Thought",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.16822",
+        "published_date": "2026-03-19"
+      },
+      "content": {
+        "abstract": "Surg-R1 reasoning-enhanced multimodal foundation model interprets complex surgical scenes through hierarchical chain-of-thought reasoning. Large-scale multimodal data for surgical intelligence.",
+        "keywords": [
+          "surgical AI",
+          "foundation models",
+          "chain-of-thought",
+          "medical AI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:53:00Z"
+    },
+    {
+      "id": "arxiv-20260320-023",
+      "title": "ComFree-Sim: GPU-Parallelized Analytical Contact Physics Engine for Scalable Robotics Simulation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.ComFree",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "GPU-parallelized analytical contact physics engine for scalable contact-rich robotics simulation and control. Eliminates need for complementarity problem solving.",
+        "keywords": [
+          "physics simulation",
+          "robotics",
+          "GPU parallel",
+          "contact physics"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:54:00Z"
+    },
+    {
+      "id": "arxiv-20260320-024",
+      "title": "MedAI: Evaluating TxAgent Therapeutic Agentic Reasoning in NeurIPS CURE-Bench",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2601.MedAI",
+        "published_date": "2026-01-22"
+      },
+      "content": {
+        "abstract": "Evaluation of therapeutic agentic reasoning systems in the NeurIPS CURE-Bench competition. TxAgent demonstrates planning and reasoning for drug interaction analysis and treatment recommendation.",
+        "keywords": [
+          "medical AI",
+          "therapeutic reasoning",
+          "drug interaction",
+          "NeurIPS"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:55:00Z"
+    },
+    {
+      "id": "arxiv-20260320-025",
+      "title": "ReloQate: Transient Drift Detection and In-Situ Recalibration in Surface Code Quantum Error Correction",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.ReloQate",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Novel approach for detecting and correcting transient drift in surface code quantum error correction. In-situ recalibration improves logical error rates without interrupting computation.",
+        "keywords": [
+          "quantum error correction",
+          "surface codes",
+          "drift detection",
+          "recalibration"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:56:00Z"
+    },
+    {
+      "id": "arxiv-20260320-026",
+      "title": "Continual Meta-Learning: LLM Agents Jointly Evolving Policies and Reusable Behavioral Skills",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.CML",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "Framework enabling LLM agents to jointly evolve policies and reusable behavioral skills while minimizing downtime. Achieves continual adaptation without catastrophic forgetting.",
+        "keywords": [
+          "continual learning",
+          "meta-learning",
+          "LLM agents",
+          "behavioral skills"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:57:00Z"
+    },
+    {
+      "id": "arxiv-20260320-027",
+      "title": "DAM-VLA: Dynamic Action Model-Based Vision-Language-Action Framework for Robot Manipulation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.DAMVLA",
+        "published_date": "2026-03-13"
+      },
+      "content": {
+        "abstract": "Dynamic action model-based VLA framework for robot manipulation. Integrates dynamic models with vision-language grounding for more precise and adaptive robotic control.",
+        "keywords": [
+          "VLA",
+          "robot manipulation",
+          "dynamic models",
+          "vision-language"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:58:00Z"
+    },
+    {
+      "id": "arxiv-20260320-028",
+      "title": "Bridging Embodiment Gaps: Deploying Vision-Language-Action Models on Soft Robots",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2510.17369",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Methods for deploying VLA models trained on rigid robots to soft robots with fundamentally different dynamics. Addresses the embodiment gap in robot learning transfer.",
+        "keywords": [
+          "soft robotics",
+          "VLA transfer",
+          "embodiment gap",
+          "robot learning"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-19T23:59:00Z"
+    },
+    {
+      "id": "arxiv-20260320-029",
+      "title": "Wild-Drive: Off-Road Scene Captioning and Path Planning via Robust Multi-modal Routing and Efficient LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.WildDrive",
+        "published_date": "2026-03-14"
+      },
+      "content": {
+        "abstract": "Combines vision and language models for autonomous navigation in off-road environments. Robust multi-modal routing with efficient LLMs for scene understanding and path planning.",
+        "keywords": [
+          "autonomous driving",
+          "off-road",
+          "multimodal",
+          "path planning"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:00:00Z"
+    },
+    {
+      "id": "arxiv-20260320-030",
+      "title": "MM-THEBench: Comprehensive Benchmark for Hallucinations in Reasoning MLLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2601.22735",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Comprehensive benchmark for assessing hallucinations of intermediate chain-of-thought in reasoning multimodal LLMs. Reveals systematic patterns in reasoning hallucinations.",
+        "keywords": [
+          "hallucination",
+          "reasoning",
+          "MLLM",
+          "benchmark"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:01:00Z"
+    },
+    {
+      "id": "arxiv-20260320-031",
+      "title": "Mechanism Design with Learning Agents: Self-Confirming Mechanisms and Optimal Beliefs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.MechDesign",
+        "published_date": "2026-03-16"
+      },
+      "content": {
+        "abstract": "Formalizes self-confirming mechanisms in environments where designers learn from agents behavior. Shows equilibrium mechanisms are optimal given the designers belief.",
+        "keywords": [
+          "mechanism design",
+          "learning",
+          "game theory",
+          "equilibrium"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-20T00:02:00Z"
+    },
+    {
+      "id": "arxiv-20260320-032",
+      "title": "NIST FIPS 205: Post-Quantum Cryptographic Standards and Timeline for Algorithm Deprecation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.PQC-NIST",
+        "published_date": "2026-03-10"
+      },
+      "content": {
+        "abstract": "Analysis of NIST post-quantum cryptographic standards with plans to deprecate quantum-vulnerable algorithms (RSA, ECDSA, EdDSA, DH, ECDH) by 2030 and fully retire by 2035.",
+        "keywords": [
+          "post-quantum cryptography",
+          "NIST",
+          "algorithm deprecation",
+          "quantum resistance"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:03:00Z"
+    },
+    {
+      "id": "arxiv-20260320-033",
+      "title": "CARE: Clinical Accountability in Multi-Modal Medical Reasoning with Evidence-Grounded Agentic Framework",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.CARE",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Accepted at ICLR 2026. Evidence-grounded agentic framework for clinical accountability in multi-modal medical reasoning. Addresses hallucination risk in medical AI through citation-anchored responses.",
+        "keywords": [
+          "medical AI",
+          "clinical reasoning",
+          "evidence grounding",
+          "ICLR 2026"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:04:00Z"
+    },
+    {
+      "id": "arxiv-20260320-034",
+      "title": "The Alignment Flywheel: Governance-Centric Hybrid MAS for Architecture-Agnostic Safety",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.AlignFlywheel",
+        "published_date": "2026-03-18"
+      },
+      "content": {
+        "abstract": "Proposes governance-centric hybrid multi-agent system that achieves architecture-agnostic safety through iterative alignment refinement. Creates positive feedback loop between deployment and alignment.",
+        "keywords": [
+          "AI alignment",
+          "multi-agent safety",
+          "governance",
+          "flywheel"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-03-20T00:05:00Z"
+    },
+    {
+      "id": "arxiv-20260320-035",
+      "title": "Paired Serial Dictatorship: Pareto Efficient and Envy-Free Allocation Mechanisms",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.PSD",
+        "published_date": "2026-03-15"
+      },
+      "content": {
+        "abstract": "Paired serial dictatorship mechanism where agents signal preferences to determine priority. Any deterministic allocation is Pareto efficient and envy-free, dominating random serial dictatorship.",
+        "keywords": [
+          "mechanism design",
+          "allocation",
+          "Pareto efficiency",
+          "envy-free"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-20T00:06:00Z"
+    },
+    {
+      "id": "arxiv-20260320-036",
+      "title": "RoboReward: Automated Training and Evaluation of Vision-Language Reward Models for Robotics",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.RoboReward",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "Open-source dataset and benchmark for automating training and evaluation of vision-language reward models for robotics. Reduces human labeling requirements by 80%.",
+        "keywords": [
+          "reward models",
+          "robotics",
+          "vision-language",
+          "automated evaluation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:07:00Z"
+    },
+    {
+      "id": "arxiv-20260320-037",
+      "title": "Boltzmann-Based Exploration for Robust Decentralized Multi-Agent Planning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.BoltzExplore",
+        "published_date": "2026-03-17"
+      },
+      "content": {
+        "abstract": "Boltzmann-based exploration strategy for robust decentralized multi-agent planning. Achieves near-optimal coordination without centralized communication in stochastic environments.",
+        "keywords": [
+          "multi-agent planning",
+          "Boltzmann exploration",
+          "decentralized",
+          "coordination"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:08:00Z"
+    },
+    {
+      "id": "arxiv-20260320-038",
+      "title": "Autonomous O-RAN: Multi-Scale Agentic AI Framework for Real-Time Network Control",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.14117",
+        "published_date": "2026-02-19"
+      },
+      "content": {
+        "abstract": "Multi-scale agentic AI framework for real-time network control and management in O-RAN architecture. Enables autonomous network optimization across multiple temporal and spatial scales.",
+        "keywords": [
+          "O-RAN",
+          "agentic AI",
+          "network control",
+          "autonomous optimization"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:09:00Z"
+    },
+    {
+      "id": "arxiv-20260320-039",
+      "title": "MM-BRIGHT: Multi-Task Multimodal Benchmark for Reasoning-Intensive Retrieval",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2601.09562",
+        "published_date": "2026-01-16"
+      },
+      "content": {
+        "abstract": "First multimodal benchmark for reasoning-intensive retrieval. 2,803 real-world queries spanning 29 technical domains with four tasks of increasing complexity across modalities.",
+        "keywords": [
+          "multimodal retrieval",
+          "reasoning",
+          "benchmark",
+          "cross-modal"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:10:00Z"
+    },
+    {
+      "id": "arxiv-20260320-040",
+      "title": "Domain-Direct Band Gaps: Extreme 2D-2D Band Gap Engineering in Twisted Diamond",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.DomainBG",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Introduces domain-direct band gaps as a concept with material realization of extreme 2D-2D domain-direct band gap in twisted diamond. Opens pathways for novel optoelectronic devices.",
+        "keywords": [
+          "band gap engineering",
+          "twisted diamond",
+          "2D materials",
+          "optoelectronics"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-20T00:11:00Z"
+    }
+  ]
+}

@@ -1130,7 +1130,7 @@ def validate_registry(registry_path: str) -> RegistryValidation:
             "time_budget_minutes": (1, 60),
             "coverage_gap_threshold": (0.05, 0.50),
             "min_signals_for_viable": (1, 10),
-            "auto_promotion_scans": (3, 20),
+            "auto_promotion_scans": (1, 20),  # v2.0.0: lowered from 3 to allow immediate promotion
             "candidate_retention_days": (7, 90),
             "max_test_signals_per_candidate": (1, 50),
         }
@@ -1313,6 +1313,30 @@ def validate_registry(registry_path: str) -> RegistryValidation:
         vr.results.append(CheckResult(
             "SOT-050", "HALT",
             "frontier_selector_script Python file exists (VP-5 dependency)",
+            True,
+            "Exploration disabled — skipped"
+        ))
+
+    # ── SOT-063: auto_promoter_script exists (v2.0.0) ──
+    # Auto-promotion of viable candidates requires source_auto_promoter.py.
+    # Called from exploration_gate.py post — if missing, auto-promotion silently fails.
+    if exploration_enabled:
+        ap_script = exploration_cfg.get("auto_promoter_script", "")
+        ap_errors = []
+        if not ap_script:
+            ap_errors.append("source_exploration.auto_promoter_script not defined")
+        elif not _file_exists(project_root, ap_script):
+            ap_errors.append(f"auto_promoter_script not found: {ap_script}")
+        vr.results.append(CheckResult(
+            "SOT-063", "HALT",
+            "auto_promoter_script Python file exists",
+            len(ap_errors) == 0,
+            "; ".join(ap_errors) if ap_errors else ""
+        ))
+    else:
+        vr.results.append(CheckResult(
+            "SOT-063", "HALT",
+            "auto_promoter_script Python file exists",
             True,
             "Exploration disabled — skipped"
         ))

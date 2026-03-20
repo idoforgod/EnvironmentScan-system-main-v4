@@ -1,0 +1,1332 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf1-general",
+  "scan_date": "2026-03-18",
+  "computed_at": "2026-03-18T00:41:33Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 50,
+    "new_signals": 50,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 0,
+    "active_threads": 97
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "wf1-20260318-001",
+      "thread_id": "THREAD-WF1-279",
+      "canonical_title": "wf1-20260318-001",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 89,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-001",
+          "psst": 89
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-002",
+      "thread_id": "THREAD-WF1-280",
+      "canonical_title": "wf1-20260318-002",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 87,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-002",
+          "psst": 87
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-003",
+      "thread_id": "THREAD-WF1-281",
+      "canonical_title": "wf1-20260318-003",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-003",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-004",
+      "thread_id": "THREAD-WF1-282",
+      "canonical_title": "wf1-20260318-004",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-004",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-005",
+      "thread_id": "THREAD-WF1-283",
+      "canonical_title": "wf1-20260318-005",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 92,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-005",
+          "psst": 92
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-006",
+      "thread_id": "THREAD-WF1-284",
+      "canonical_title": "wf1-20260318-006",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 87,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-006",
+          "psst": 87
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-007",
+      "thread_id": "THREAD-WF1-285",
+      "canonical_title": "wf1-20260318-007",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 86,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-007",
+          "psst": 86
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-008",
+      "thread_id": "THREAD-WF1-286",
+      "canonical_title": "wf1-20260318-008",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-008",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-009",
+      "thread_id": "THREAD-WF1-287",
+      "canonical_title": "wf1-20260318-009",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 82,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-009",
+          "psst": 82
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-010",
+      "thread_id": "THREAD-WF1-288",
+      "canonical_title": "wf1-20260318-010",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 81,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-010",
+          "psst": 81
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-011",
+      "thread_id": "THREAD-WF1-289",
+      "canonical_title": "wf1-20260318-011",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-011",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-012",
+      "thread_id": "THREAD-WF1-290",
+      "canonical_title": "wf1-20260318-012",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 84,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-012",
+          "psst": 84
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-013",
+      "thread_id": "THREAD-WF1-291",
+      "canonical_title": "wf1-20260318-013",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-013",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-014",
+      "thread_id": "THREAD-WF1-292",
+      "canonical_title": "wf1-20260318-014",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-014",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-015",
+      "thread_id": "THREAD-WF1-293",
+      "canonical_title": "wf1-20260318-015",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-015",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-016",
+      "thread_id": "THREAD-WF1-294",
+      "canonical_title": "wf1-20260318-016",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-016",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-017",
+      "thread_id": "THREAD-WF1-295",
+      "canonical_title": "wf1-20260318-017",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-017",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-018",
+      "thread_id": "THREAD-WF1-296",
+      "canonical_title": "wf1-20260318-018",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-018",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-019",
+      "thread_id": "THREAD-WF1-297",
+      "canonical_title": "wf1-20260318-019",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-019",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-020",
+      "thread_id": "THREAD-WF1-298",
+      "canonical_title": "wf1-20260318-020",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 84,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-020",
+          "psst": 84
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-021",
+      "thread_id": "THREAD-WF1-299",
+      "canonical_title": "wf1-20260318-021",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-021",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-022",
+      "thread_id": "THREAD-WF1-300",
+      "canonical_title": "wf1-20260318-022",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-022",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-023",
+      "thread_id": "THREAD-WF1-301",
+      "canonical_title": "wf1-20260318-023",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-023",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-024",
+      "thread_id": "THREAD-WF1-302",
+      "canonical_title": "wf1-20260318-024",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-024",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-025",
+      "thread_id": "THREAD-WF1-303",
+      "canonical_title": "wf1-20260318-025",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-025",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-026",
+      "thread_id": "THREAD-WF1-304",
+      "canonical_title": "wf1-20260318-026",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-026",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-027",
+      "thread_id": "THREAD-WF1-305",
+      "canonical_title": "wf1-20260318-027",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 85,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-027",
+          "psst": 85
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-028",
+      "thread_id": "THREAD-WF1-306",
+      "canonical_title": "wf1-20260318-028",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 88,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-028",
+          "psst": 88
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-029",
+      "thread_id": "THREAD-WF1-307",
+      "canonical_title": "wf1-20260318-029",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-029",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-030",
+      "thread_id": "THREAD-WF1-308",
+      "canonical_title": "wf1-20260318-030",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-030",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-031",
+      "thread_id": "THREAD-WF1-309",
+      "canonical_title": "wf1-20260318-031",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-031",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-032",
+      "thread_id": "THREAD-WF1-310",
+      "canonical_title": "wf1-20260318-032",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-032",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-033",
+      "thread_id": "THREAD-WF1-311",
+      "canonical_title": "wf1-20260318-033",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-033",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-034",
+      "thread_id": "THREAD-WF1-312",
+      "canonical_title": "wf1-20260318-034",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-034",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-035",
+      "thread_id": "THREAD-WF1-313",
+      "canonical_title": "wf1-20260318-035",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-035",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-036",
+      "thread_id": "THREAD-WF1-314",
+      "canonical_title": "wf1-20260318-036",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-036",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-037",
+      "thread_id": "THREAD-WF1-315",
+      "canonical_title": "wf1-20260318-037",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-037",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-038",
+      "thread_id": "THREAD-WF1-316",
+      "canonical_title": "wf1-20260318-038",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-038",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-039",
+      "thread_id": "THREAD-WF1-317",
+      "canonical_title": "wf1-20260318-039",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-039",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-040",
+      "thread_id": "THREAD-WF1-318",
+      "canonical_title": "wf1-20260318-040",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-040",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-041",
+      "thread_id": "THREAD-WF1-319",
+      "canonical_title": "wf1-20260318-041",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-041",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-042",
+      "thread_id": "THREAD-WF1-320",
+      "canonical_title": "wf1-20260318-042",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 82,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-042",
+          "psst": 82
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-043",
+      "thread_id": "THREAD-WF1-321",
+      "canonical_title": "wf1-20260318-043",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 83,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-043",
+          "psst": 83
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-044",
+      "thread_id": "THREAD-WF1-322",
+      "canonical_title": "wf1-20260318-044",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 81,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-044",
+          "psst": 81
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-045",
+      "thread_id": "THREAD-WF1-323",
+      "canonical_title": "wf1-20260318-045",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-045",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-046",
+      "thread_id": "THREAD-WF1-324",
+      "canonical_title": "wf1-20260318-046",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 85,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-046",
+          "psst": 85
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-047",
+      "thread_id": "THREAD-WF1-325",
+      "canonical_title": "wf1-20260318-047",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-047",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-048",
+      "thread_id": "THREAD-WF1-326",
+      "canonical_title": "wf1-20260318-048",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-048",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-049",
+      "thread_id": "THREAD-WF1-327",
+      "canonical_title": "wf1-20260318-049",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-049",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260318-050",
+      "thread_id": "THREAD-WF1-328",
+      "canonical_title": "wf1-20260318-050",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-18",
+          "title": "wf1-20260318-050",
+          "psst": 0
+        }
+      ]
+    }
+  ],
+  "faded_threads": [],
+  "new_threads_created": [
+    "THREAD-WF1-279",
+    "THREAD-WF1-280",
+    "THREAD-WF1-281",
+    "THREAD-WF1-282",
+    "THREAD-WF1-283",
+    "THREAD-WF1-284",
+    "THREAD-WF1-285",
+    "THREAD-WF1-286",
+    "THREAD-WF1-287",
+    "THREAD-WF1-288",
+    "THREAD-WF1-289",
+    "THREAD-WF1-290",
+    "THREAD-WF1-291",
+    "THREAD-WF1-292",
+    "THREAD-WF1-293",
+    "THREAD-WF1-294",
+    "THREAD-WF1-295",
+    "THREAD-WF1-296",
+    "THREAD-WF1-297",
+    "THREAD-WF1-298",
+    "THREAD-WF1-299",
+    "THREAD-WF1-300",
+    "THREAD-WF1-301",
+    "THREAD-WF1-302",
+    "THREAD-WF1-303",
+    "THREAD-WF1-304",
+    "THREAD-WF1-305",
+    "THREAD-WF1-306",
+    "THREAD-WF1-307",
+    "THREAD-WF1-308",
+    "THREAD-WF1-309",
+    "THREAD-WF1-310",
+    "THREAD-WF1-311",
+    "THREAD-WF1-312",
+    "THREAD-WF1-313",
+    "THREAD-WF1-314",
+    "THREAD-WF1-315",
+    "THREAD-WF1-316",
+    "THREAD-WF1-317",
+    "THREAD-WF1-318",
+    "THREAD-WF1-319",
+    "THREAD-WF1-320",
+    "THREAD-WF1-321",
+    "THREAD-WF1-322",
+    "THREAD-WF1-323",
+    "THREAD-WF1-324",
+    "THREAD-WF1-325",
+    "THREAD-WF1-326",
+    "THREAD-WF1-327",
+    "THREAD-WF1-328"
+  ]
+}

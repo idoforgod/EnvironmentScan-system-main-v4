@@ -314,11 +314,12 @@ workflows:
         time_budget_minutes: 40             # Stage C time upper bound (doubled from 20 on 2026-02-19)
         coverage_gap_threshold: 0.15        # STEEPs < 15% → "gap"
         min_signals_for_viable: 2           # Min 2 signals for viable source
-        auto_promotion_scans: 5             # 5 consecutive successes → propose promotion
+        auto_promotion_scans: 1             # 1 = immediate promotion on viable (was 5 before 2026-03-18)
         candidate_retention_days: 30        # Keep undecided candidates for 30 days
         frontiers_config: "env-scanning/config/exploration-frontiers.yaml"
         gate_script: "env-scanning/core/exploration_gate.py"  # Programmatic enforcement (v2.5.1)
         frontier_selector_script: "env-scanning/core/frontier_selector.py"  # VP-5 depends on this (SOT-050)
+        auto_promoter_script: "env-scanning/core/source_auto_promoter.py"  # Auto-promotion (v2.0.0, SOT-063)
 
       scan_window:
         lookback_hours: 24         # 만 24시간 — 일일 스캐닝의 절대 기준
@@ -959,6 +960,13 @@ startup_validation:
       check: "master_task_manager_script_exists"
       description: "system.task_management.master_script must exist — master-level task tracking depends on this script"
       severity: "WARN"
+
+    # ── Source Auto-Promotion (v2.0.0) ──
+    - id: "SOT-063"
+      check: "auto_promoter_script_exists"
+      condition: "workflows.wf1-general.parameters.source_exploration.enabled == true"
+      description: "source_exploration.auto_promoter_script must exist — auto-promotion of viable candidates depends on this script"
+      severity: "HALT"
 
 # ================================================================
 # EXECUTION INTEGRITY (v1.0.0)

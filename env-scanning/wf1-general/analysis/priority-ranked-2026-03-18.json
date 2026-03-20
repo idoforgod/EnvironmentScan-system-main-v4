@@ -1,0 +1,26 @@
+{
+  "ranking_metadata": {
+    "workflow_id": "wf1-general",
+    "date": "2026-03-18",
+    "method": "pSST + priority_score_calculator",
+    "total_ranked": 50,
+    "weights": {"impact": 0.40, "probability": 0.30, "urgency": 0.20, "novelty": 0.10}
+  },
+  "ranked_signals": [
+    {"rank": 1, "id": "wf1-20260318-005", "title": "Strait of Hormuz Disruption: Oil Above $100, Asia Faces Stagflation Risk", "psst_score": 92, "priority_score": 9.4, "category": "E_Economic"},
+    {"rank": 2, "id": "wf1-20260318-001", "title": "NVIDIA GTC 2026: Vera Rubin GPUs, $1T Orders, Physical AI Push", "psst_score": 89, "priority_score": 9.1, "category": "T_Technological"},
+    {"rank": 3, "id": "wf1-20260318-028", "title": "Arctic Sea Ice Sets Record Daily Low: 4,400 km2 Below Previous Record", "psst_score": 88, "priority_score": 8.9, "category": "E_Environmental"},
+    {"rank": 4, "id": "wf1-20260318-002", "title": "Pentagon Plans Classified AI Training Facilities for Military Models", "psst_score": 87, "priority_score": 8.8, "category": "P_Political"},
+    {"rank": 5, "id": "wf1-20260318-006", "title": "Middle East Conflict: 45 Million Face Hunger Crisis, Pakistan Strikes Kabul", "psst_score": 87, "priority_score": 8.7, "category": "P_Political"},
+    {"rank": 6, "id": "wf1-20260318-007", "title": "Section 301 Trade Investigations: US Targets 15 Economies", "psst_score": 86, "priority_score": 8.6, "category": "E_Economic"},
+    {"rank": 7, "id": "wf1-20260318-046", "title": "Uber-NVIDIA Robotaxi Fleet: 28 Cities, 4 Continents by 2028", "psst_score": 85, "priority_score": 8.5, "category": "T_Technological"},
+    {"rank": 8, "id": "wf1-20260318-027", "title": "EU Environment Council: CO2 Standards, Decarbonisation Post-2030", "psst_score": 85, "priority_score": 8.4, "category": "E_Environmental"},
+    {"rank": 9, "id": "wf1-20260318-012", "title": "EU Digital Sovereignty Push: EURO-3C Initiative", "psst_score": 84, "priority_score": 8.3, "category": "P_Political"},
+    {"rank": 10, "id": "wf1-20260318-020", "title": "Stryker Medical Devices Hit by Pro-Iran Cyberattack", "psst_score": 84, "priority_score": 8.2, "category": "T_Technological"},
+    {"rank": 11, "id": "wf1-20260318-043", "title": "China 15th Five-Year Plan: Modernizing Industries + AI Leadership", "psst_score": 83, "priority_score": 8.1, "category": "P_Political"},
+    {"rank": 12, "id": "wf1-20260318-042", "title": "EU Considers Delaying High-Risk AI Rules to Late 2027", "psst_score": 82, "priority_score": 8.0, "category": "P_Political"},
+    {"rank": 13, "id": "wf1-20260318-009", "title": "Non-Invasive Deep Brain Stimulation for Epilepsy Treatment", "psst_score": 82, "priority_score": 7.9, "category": "T_Technological"},
+    {"rank": 14, "id": "wf1-20260318-044", "title": "Apple-Google Gemini Partnership: 1.2T Param Model for Siri", "psst_score": 81, "priority_score": 7.8, "category": "T_Technological"},
+    {"rank": 15, "id": "wf1-20260318-010", "title": "Sensorveillance: IoT Creates Pervasive Surveillance Infrastructure", "psst_score": 81, "priority_score": 7.7, "category": "s_spiritual"}
+  ]
+}
